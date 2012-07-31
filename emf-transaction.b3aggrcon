@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EMF TRANSACTION">
+  <repositories location="http://download.eclipse.org/modeling/emf/updates/milestones/" description="EMF Transaction milestones">
+    <features name="org.eclipse.emf.transaction.sdk.feature.group" versionRange="1.6.0.v20120328-0001-777Z-9A_WsZmcPluNecyPkvrPKlH">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+    <features name="org.eclipse.emf.transaction.examples.feature.group" versionRange="1.6.0.v20120328-0001-47D8Z8yGE5PtKEQUIIOX6EAL3">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.b3aggr#//@contacts[email='anthonyh@ca.ibm.com']"/>
+</aggregator:Contribution>

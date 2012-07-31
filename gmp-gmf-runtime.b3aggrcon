@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="GMF Runtime">
+  <repositories location="http://download.eclipse.org/modeling/gmp/updates/milestones" description="GMP repository">
+    <features name="org.eclipse.gmf.feature.group" versionRange="1.5.0.v20110607-1200-7d9Q7HFYnmMEynz0X0qrbsDiK281">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+    <features name="org.eclipse.gmf.examples.runtime.feature.group" versionRange="1.6.0.v20120517-1809-7B7L1F8NcJTcK4Tw9UEU4">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+    <features name="org.eclipse.gmf.runtime.sdk.feature.group" versionRange="1.6.0.v20120517-1809-67R09E9QuFflXswwIO_z0E3d4k_X">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.b3aggr#//@contacts[email='anthonyh@ca.ibm.com']"/>
+</aggregator:Contribution>

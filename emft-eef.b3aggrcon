@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Extended Editing Framework (EEF)">
+  <repositories location="http://download.eclipse.org/modeling/emft/eef/updates/milestones/1.1">
+    <features name="org.eclipse.emf.eef.sdk-feature.feature.group" versionRange="[1.1.0,1.2.0]">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+    <features name="org.eclipse.emf.eef.codegen.ecore-feature.feature.group" versionRange="[1.1.0,1.2.0]">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.b3aggr#//@contacts[email='stephane.bouchet@obeo.fr']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='goulwen.lefur@obeo.fr']"/>
+</aggregator:Contribution>

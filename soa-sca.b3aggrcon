@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="SOA-SCA">
+  <repositories location="http://download.eclipse.org/soa/sca/juno" description="SCA Tools Repository">
+    <features name="org.eclipse.soa.sca.core.feature.feature.group" versionRange="2.3.0">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
+    </features>
+    <features name="org.eclipse.soa.sca.sca1_0.feature.feature.group" versionRange="2.3.0">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
+    </features>
+    <features name="org.eclipse.soa.sca.sca1_1.feature.feature.group" versionRange="2.3.0">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.b3aggr#//@contacts[email='stephane.drapeau@obeo.fr']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='vincent.zurczak@petalslink.com']"/>
+</aggregator:Contribution>

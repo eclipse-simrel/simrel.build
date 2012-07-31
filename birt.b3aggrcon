@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="BIRT">
+  <repositories location="http://download.eclipse.org/birt/update-site/4.2-interim/" description="BIRT interim">
+    <features name="org.eclipse.birt.feature.group" versionRange="4.2.0.v20120611-C_BC7CGWoJMfAnw8Y8QVz0nD0JPl">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
+    </features>
+    <features name="org.eclipse.birt.cshelp.feature.group" versionRange="4.2.0.v20120611-51-7w31231722">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
+    </features>
+    <features name="org.eclipse.birt.chart.cshelp.feature.group" versionRange="4.2.0.v20120611-51-7w31231722">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
+    </features>
+    <features name="org.eclipse.birt.doc.feature.group" versionRange="4.2.0.v20120611-51-7w3123172328">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
+    </features>
+    <features name="org.eclipse.birt.example.feature.group" versionRange="4.2.0.v20120611-7T7D-DZRDKRDsKK">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
+    </features>
+    <features name="org.eclipse.birt.source.feature.group" versionRange="4.2.0.v20120611-C_BC7CGWoJMfAnw8Y8QVz0nD0JPl">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
+    </features>
+    <features name="org.eclipse.birt.osgi.runtime.sdk.feature.group" versionRange="4.2.0.v20120611-793-87iDWCFP8ZDTAN72TPI4jrXA">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.b3aggr#//@contacts[email='xgu@actuate.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='wli@actuate.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='yjiang@actuate.com']"/>
+</aggregator:Contribution>

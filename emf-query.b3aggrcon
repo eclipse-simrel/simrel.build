@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EMF QUERY">
+  <repositories location="http://download.eclipse.org/modeling/emf/updates/milestones/" description="EMF Query milestones">
+    <features name="org.eclipse.emf.query.sdk.feature.group" versionRange="1.6.0.v20120328-0001-67T-95GFz05DNIrNLOSNK_NPj507">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+    <features name="org.eclipse.emf.query.examples.feature.group" versionRange="1.6.0.v20120425-2310-679-AkF78_8FEV7MOG7">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.b3aggr#//@contacts[email='anthonyh@ca.ibm.com']"/>
+</aggregator:Contribution>

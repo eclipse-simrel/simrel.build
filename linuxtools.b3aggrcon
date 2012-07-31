@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Linux Tools">
+  <repositories location="http://download.eclipse.org/linuxtools/update-juno" description="Linux Tools Updates">
+    <features name="org.eclipse.linuxtools.cdt.libhover.devhelp.feature.feature.group" versionRange="1.0.0.201206130106">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.cdt.libhover.feature.feature.group" versionRange="1.0.0.201206130106">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.changelog.feature.group" versionRange="2.8.0.201206130106">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.gprof.feature.feature.group" versionRange="1.0.0.201206130106">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.oprofile.feature.feature.group" versionRange="1.0.0.201206130106">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.rpm.feature.group" versionRange="1.0.0.201206130106">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.lttng.feature.group" versionRange="1.0.0.201206130106"/>
+    <features name="org.eclipse.linuxtools.systemtap.feature.group" versionRange="1.0.0.201206130106">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.callgraph.feature.feature.group" versionRange="1.0.0.201206130106">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.valgrind.feature.group" versionRange="1.0.0.201206130106">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.gcov.feature.group" versionRange="1.0.0.201206130106">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.perf.feature.feature.group" versionRange="1.0.0.201206130106">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.lttng2.feature.group" versionRange="1.0.0.201206130106">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.lttng2.kernel.feature.group" versionRange="1.0.0.201206130106">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.b3aggr#//@contacts[email='jjohnstn@redhat.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='akurtako@redhat.com']"/>
+</aggregator:Contribution>

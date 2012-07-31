@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="CDT">
+  <repositories location="http://download.eclipse.org/tools/cdt/builds/juno/milestones" description="CDT updates">
+    <bundles name="org.eclipse.cdt.core.aix" versionRange="5.1.0.201106081058"/>
+    <bundles name="org.eclipse.cdt.core.linux" versionRange="5.2.0.201106081058"/>
+    <bundles name="org.eclipse.cdt.core.linux.ppc64" versionRange="5.1.0.201106081058"/>
+    <bundles name="org.eclipse.cdt.core.linux.x86" versionRange="5.2.0.201106081058"/>
+    <bundles name="org.eclipse.cdt.core.linux.x86_64" versionRange="5.2.0.201106081058"/>
+    <bundles name="org.eclipse.cdt.core.macosx" versionRange="5.2.0.201106081058"/>
+    <bundles name="org.eclipse.cdt.core.solaris" versionRange="5.2.0.201106081058"/>
+    <bundles name="org.eclipse.cdt.core.win32" versionRange="5.2.0.201106081058"/>
+    <features name="org.eclipse.cdt.feature.group" versionRange="8.0.0.201106081058">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.cdt.sdk.feature.group" versionRange="8.0.0.201106081058">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.cdt.debug.gdbjtag.feature.group" versionRange="7.0.0.201106081058">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
+    <features name="org.eclipse.cdt.core.lrparser.feature.feature.group" versionRange="5.2.0.201106081058"/>
+    <features name="org.eclipse.cdt.core.lrparser.sdk.feature.group" versionRange="5.2.0.201106081058"/>
+    <features name="org.eclipse.cdt.core.parser.upc.feature.feature.group" versionRange="5.1.0.201106081058">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.cdt.core.parser.upc.sdk.feature.group" versionRange="5.1.0.201106081058"/>
+    <features name="org.eclipse.cdt.xlc.feature.feature.group" versionRange="6.1.0.201106081058">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.cdt.xlc.sdk.feature.group" versionRange="6.1.0.201106081058"/>
+    <features name="org.eclipse.cdt.platform.feature.group" versionRange="8.0.0.201106081058"/>
+    <features name="org.eclipse.cdt.debug.ui.memory.feature.group" versionRange="2.1.100.201106081058">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
+    <features name="org.eclipse.cdt.launch.remote.feature.group" versionRange="6.0.0.201106081058">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
+    <features name="org.eclipse.cdt.build.crossgcc.feature.group" versionRange="1.0.0.201106081058">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
+    <features name="org.eclipse.cdt.bupc.feature.group" versionRange="1.0.3.201106081058">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.cdt.msw.feature.group" versionRange="1.0.0.201106081058">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.cdt.autotools.feature.group">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.cdt.testsrunner.feature.feature.group">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.b3aggr#//@contacts[email='vivkong@ca.ibm.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='cdtdoug@gmail.com']"/>
+</aggregator:Contribution>

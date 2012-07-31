@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Virgo">
+  <repositories location="http://download.eclipse.org/virgo/juno/RC4" description="Virgo Juno milestones">
+    <products name="virgo-nano.product"/>
+  </repositories>
+  <contacts href="simrel.b3aggr#//@contacts[email='b.kapukaranov@gmail.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='katya.k.todorova@gmail.com']"/>
+</aggregator:Contribution>

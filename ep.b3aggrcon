@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Eclipse">
+  <repositories location="http://download.eclipse.org/eclipse/updates/4.2/R-4.2-201206081400/" description="Eclipse and Equinox 4.2">
+    <products name="org.eclipse.sdk.ide"/>
+    <products name="org.eclipse.platform.ide"/>
+    <products name="org.eclipse.platform.sdk"/>
+    <features name="org.eclipse.sdk.feature.group"/>
+    <features name="org.eclipse.cvs.feature.group">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+    </features>
+    <features name="org.eclipse.pde.feature.group">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+    <features name="org.eclipse.jdt.feature.group">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.b3aggr#//@contacts[email='david_williams@us.ibm.com']"/>
+</aggregator:Contribution>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Code Recommenders">
+  <repositories location="http://download.eclipse.org/recommenders/updates/train/e42/">
+    <features name="org.eclipse.recommenders.feature.rcp.feature.group">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.b3aggr#//@contacts[email='bruch@cs.tu-darmstadt.de']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='lerch@cs.tu-darmstadt.de']"/>
+</aggregator:Contribution>
