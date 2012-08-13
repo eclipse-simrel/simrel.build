@@ -52,7 +52,7 @@
     <features name="org.eclipse.mylyn.commons.repositories.feature.group" versionRange="1.0.0"/>
     <features name="org.eclipse.mylyn.commons.repositories.http.feature.group" versionRange="1.0.0"/>
     <features name="org.eclipse.mylyn.commons.sdk.feature.group" versionRange="3.8.0"/>
-    <features name="org.eclipse.mylyn.context.sdk.feature.group" versionRange="3.8.0"/>
+    <features name="org.eclipse.mylyn.context.sdk.feature.group" versionRange="3.8.0" enabled="false"/>
     <features name="org.eclipse.mylyn.reviews.feature.feature.group" versionRange="1.0.0"/>
     <features name="org.eclipse.mylyn.reviews.sdk.feature.feature.group" versionRange="1.0.0"/>
     <features name="org.eclipse.mylyn.sdk_feature.feature.group" versionRange="3.8.0"/>
