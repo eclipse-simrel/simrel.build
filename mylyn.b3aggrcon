@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" enabled="true" label="Mylyn">
-  <repositories location="http://download.eclipse.org/mylyn/snapshots/kepler" description="Mylyn for Eclipse Juno">
+  <repositories location="http://download.eclipse.org/mylyn/snapshots/kepler" description="Mylyn for Eclipse Kepler">
     <features name="org.eclipse.mylyn_feature.feature.group" versionRange="3.8.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
@@ -10,7 +10,7 @@
     <features name="org.eclipse.mylyn.trac_feature.feature.group" versionRange="3.8.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.cdt.mylyn.feature.group" versionRange="5.4.0">
+    <features name="org.eclipse.cdt.mylyn.feature.group" versionRange="5.4.0" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <features name="org.eclipse.mylyn.context_feature.feature.group" versionRange="3.8.0">
