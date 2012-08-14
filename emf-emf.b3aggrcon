@@ -5,7 +5,7 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
-    <features name="org.eclipse.emf.rap.sdk.feature.group" versionRange="2.8.0">
+    <features name="org.eclipse.emf.rap.sdk.feature.group" versionRange="2.8.0" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
     <features name="org.eclipse.emf.oda.sdk.feature.group" versionRange="1.1.0" enabled="false">
