@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" enabled="false" label="Amalgam">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" enabled="true" label="Amalgam">
   <repositories location="http://download.eclipse.org/modeling/amalgam/updates/interim/juno/" description="Amalgam Stable Milestones">
     <features name="org.eclipse.amalgam.discovery.feature.group" versionRange="[1.2.0,2.0.0]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
