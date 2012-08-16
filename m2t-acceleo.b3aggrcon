@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" enabled="false" label="M2T ACCELEO">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="M2T ACCELEO">
   <repositories location="http://download.eclipse.org/modeling/m2t/acceleo/updates/milestones/3.3" description="M2T ACCELEO">
     <features name="org.eclipse.acceleo.sdk.feature.group" versionRange="3.3.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='stephane.bouchet@obeo.fr']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='stephane.begaudeau@obeo.fr']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='cedric.brun@obeo.fr']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='laurent.goubet@obeo.fr']"/>
 </aggregator:Contribution>
