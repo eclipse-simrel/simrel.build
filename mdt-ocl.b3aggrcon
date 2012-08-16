@@ -5,7 +5,7 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.ocl.examples.feature.group" versionRange="[3.2.0,4.1.0)">
+    <features name="org.eclipse.ocl.examples.feature.group" versionRange="[3.2.0,4.1.0)" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
