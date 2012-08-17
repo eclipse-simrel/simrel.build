@@ -1,2 +1,4 @@
+# JGit/EGit does not support gitattributes at this time. Follow bug 342372
+# https://bugs.eclipse.org/bugs/show_bug.cgi?id=342372
 *.b3aggrcon    text
 *.b3aggr       text
