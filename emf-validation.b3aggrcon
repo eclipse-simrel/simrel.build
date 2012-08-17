@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" enabled="false" label="EMF VALIDATION">
-  <repositories location="http://download.eclipse.org/modeling/emf/updates/milestones/" description="EMF Validation milestones">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EMF VALIDATION">
+  <repositories location="http://download.eclipse.org/modeling/emf/updates/releases/" description="EMF Validation milestones">
     <features name="org.eclipse.emf.validation.sdk.feature.group" versionRange="1.6.0.v20120328-0001-67T-96SGR75UNqZNTdeQnghI6uFA">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
