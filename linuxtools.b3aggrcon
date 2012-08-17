@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Linux Tools">
-  <repositories location="http://download.eclipse.org/linuxtools/update-juno" description="Linux Tools Updates">
+  <repositories enabled="false" location="http://download.eclipse.org/linuxtools/update-juno" description="Linux Tools Updates">
     <features name="org.eclipse.linuxtools.cdt.libhover.devhelp.feature.feature.group" versionRange="1.0.0.201206130106">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
     </features>
