@@ -9,7 +9,6 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='Alexander.Igdalov@gmail.com']"/>
-  <contacts href="simrel.b3aggr#//@contacts[email='ed@willink.me.uk']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='adolfosbh@opencanarias.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='ed@willink.me.uk']"/>
 </aggregator:Contribution>
