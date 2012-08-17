@@ -367,10 +367,10 @@
   <contacts name="Kenn Hussey" email="Kenn.Hussey@gmail.com"/>
   <contacts name="Michal Ruzicka" email="michal.ruzicka@cloudsmith.com"/>
   <contacts name="Scott Lewis" email="slewis@composent.com"/>
-  <contacts name="GEF Build Team" email="irbull@eclipsesource.com"/>
-  <contacts name="GEF Build Team" email="anthonyh@ca.ibm.com"/>
-  <contacts name="GEF Build Team" email="aboyko@ca.ibm.com"/>
-  <contacts name="GEF Build Team" email="alexander.nyssen@itemis.de"/>
+  <contacts name="Ian Bull" email="irbull@eclipsesource.com"/>
+  <contacts name="Anthony Hunter" email="anthonyh@ca.ibm.com"/>
+  <contacts name="Alex Boyko" email="aboyko@ca.ibm.com"/>
+  <contacts name="Alexander Nyssen" email="alexander.nyssen@itemis.de"/>
   <contacts name="St&#xe9;phane Bouchet" email="stephane.bouchet@obeo.fr"/>
   <contacts name="Cedric Brun" email="cedric.brun@obeo.fr"/>
   <contacts name="EMFT Ecore Tools Build Team" email="ed.merks@gmail.com"/>
