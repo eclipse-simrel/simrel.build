@@ -5,7 +5,7 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
     <features name="javax.servlet.jsp.glassfish.feature.group" versionRange="2.2.0.201206060641"/>
-    <features name="org.eclipse.jetty.bundles.f.source.feature.group" versionRange="8.1.3.201206060641" enabled="true"/>
+    <features name="org.eclipse.jetty.bundles.f.source.feature.group" versionRange="8.1.3.201206060641"/>
     <features name="org.eclipse.jetty.all.dependencies.feature.group" versionRange="8.1.3.201206060641"/>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='gwilkins@intalio.com']"/>
