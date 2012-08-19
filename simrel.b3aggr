@@ -107,7 +107,6 @@
     <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.2"/>
-    <!--<features href="emf-cdo.b3aggrcon#//@repositories.0/@features.3"/>-->
     <features href="mdt-modisco.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-eef.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.b3aggrcon#//@repositories.0/@features.0"/>
@@ -361,7 +360,6 @@
     <features href="jubula.b3aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <contacts name="Gorkem Ercan" email="gorkem.ercan@gmail.com"/>
-  <contacts name="Kim Moir" email="kmoir@ca.ibm.com"/>
   <contacts name="Kenn Hussey" email="Kenn.Hussey@gmail.com"/>
   <contacts name="Michal Ruzicka" email="michal.ruzicka@cloudsmith.com"/>
   <contacts name="Scott Lewis" email="slewis@composent.com"/>
@@ -434,9 +432,6 @@
   <contacts name="Matthias Sohn" email="matthias.sohn@sap.com"/>
   <contacts name="Christian Campo" email="Christian.Campo@compeople.de"/>
   <contacts name="Sabine Achilles" email="Sabine.Achilles@compeople.de"/>
-  <contacts name="Greg Wilkins" email="gwilkins@intalio.com"/>
-  <contacts name="Jesse McConnell" email="jesse.mcconnell@gmail.com"/>
-  <contacts name="Hugues Malphettes" email="hmalphettes@intalio.com"/>
   <contacts name="Adolfo Sanchez-Barbudo Herrera" email="adolfosbh@opencanarias.com"/>
   <contacts name="Benoit Langlois" email="benoit.langlois@thalesgroup.com"/>
   <contacts name="Stephan Herrmann" email="stephan@cs.tu-berlin.de"/>
