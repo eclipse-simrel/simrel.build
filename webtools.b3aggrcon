@@ -25,7 +25,7 @@
     <features name="org.eclipse.jpt.jpa.feature.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
-    <features name="org.eclipse.jpt.jpadiagrameditor.feature.feature.group">
+    <features name="org.eclipse.jpt.jpadiagrameditor.feature.feature.group" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
     <features name="org.eclipse.jst.webpageeditor.feature.feature.group">
