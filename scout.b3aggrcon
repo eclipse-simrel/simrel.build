@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" enabled="false" description="Scout Business Application Development" label="Scout">
-  <repositories location="http://download.eclipse.org/scout/releases/3.8/3.8.0/RC420120613-0843/update" description="Scout Targets">
-    <features description="Scout Runtime" name="org.eclipse.scout.rt.feature.feature.group" versionRange="3.8.0">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Scout Business Application Development" label="Scout">
+  <repositories location="http://download.eclipse.org/scout/releases/3.8/3.8.1/RC120120820-0927/update" description="Scout Targets">
+    <features description="Scout Runtime" name="org.eclipse.scout.rt.feature.feature.group" versionRange="3.8.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features description="Scout Development Kit (SDK)" name="org.eclipse.scout.sdk.feature.feature.group" versionRange="3.8.0">
+    <features description="Scout Development Kit (SDK)" name="org.eclipse.scout.sdk.feature.feature.group" versionRange="3.8.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features description="Scout Development Kit (SDK) RAP" name="org.eclipse.scout.sdk.rap.feature.feature.group" versionRange="3.8.0">
+    <features description="Scout Development Kit (SDK) RAP" name="org.eclipse.scout.sdk.rap.feature.feature.group" versionRange="3.8.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features description="Scout Runtime RAP" name="org.eclipse.scout.rt.rap.feature.feature.group" versionRange="3.8.0">
+    <features description="Scout Runtime RAP" name="org.eclipse.scout.rt.rap.feature.feature.group" versionRange="3.8.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
-    <features description="Scout RAP Target Feature" name="org.eclipse.scout.rt.rap.target.feature.feature.group" versionRange="3.8.0">
+    <features description="Scout RAP Target Feature" name="org.eclipse.scout.rt.rap.target.feature.feature.group" versionRange="3.8.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
   </repositories>
