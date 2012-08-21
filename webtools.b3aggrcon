@@ -93,7 +93,7 @@
     <bundles name="org.eclipse.wtp.web.capabilities" versionRange="1.0.100.v201005102000"/>
     <bundles name="org.eclipse.wtp.xml.capabilities" versionRange="1.0.100.v201005102000"/>
   </repositories>
-  <repositories location="http://download.eclipse.org/libra/maintenance/" description="Libra 0.2 repository site">
+  <repositories location="http://download.eclipse.org/libra/milestones/" description="Libra 0.3 repository site">
     <features name="org.eclipse.libra.facet.feature.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
