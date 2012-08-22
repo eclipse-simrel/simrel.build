@@ -5,5 +5,5 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='marcel.bruch@codetrails.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='bruch@cs.tu-darmstadt.de']"/>
 </aggregator:Contribution>
