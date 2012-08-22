@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" enabled="false" label="TM">
-  <repositories location="http://download.eclipse.org/tm/updates/3.4milestones" description="TM 3.4 milestones">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="TM">
+  <repositories location="http://download.eclipse.org/tm/updates/3.4" description="TM 3.4">
     <features name="org.eclipse.rse.feature.group" versionRange="3.4.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
@@ -12,7 +12,7 @@
     <features name="org.eclipse.tm.terminal.sdk.feature.group" versionRange="3.3.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.tm.terminal.local.feature.group" versionRange="0.2.100">
+    <features name="org.eclipse.tm.terminal.local.feature.group" versionRange="0.2.100" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>

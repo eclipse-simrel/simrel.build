@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" enabled="true" label="DLTK">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="DLTK">
   <repositories location="http://download.eclipse.org/technology/dltk/updates-dev/4.0-stable/" description="DLTK 4.0">
     <features name="org.eclipse.dltk.core.feature.group" versionRange="4.0.0.201206120848">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
@@ -16,14 +16,12 @@
     <features name="org.eclipse.dltk.itcl.feature.group" versionRange="4.0.0.201206120848">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-
     <features name="org.eclipse.dltk.rse.feature.group" versionRange="4.0.0.201206120848" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
     <features name="org.eclipse.dltk.mylyn.feature.group" versionRange="4.0.0.201206120848" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='alex.panchenko@gmail.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='andrey@xored.com']"/>
