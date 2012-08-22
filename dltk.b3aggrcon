@@ -16,10 +16,10 @@
     <features name="org.eclipse.dltk.itcl.feature.group" versionRange="4.0.0.201206120848">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.dltk.rse.feature.group" versionRange="4.0.0.201206120848">
+    <features name="org.eclipse.dltk.rse.feature.group" versionRange="4.0.0.201206120848" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.dltk.mylyn.feature.group" versionRange="4.0.0.201206120848">
+    <features name="org.eclipse.dltk.mylyn.feature.group" versionRange="4.0.0.201206120848" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
