@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Equinox">
-  <repositories location="http://download.eclipse.org/eclipse/updates/4.2-M-builds/M20120816-1200/" description="Eclipse and Equinox">
+  <repositories location="http://download.eclipse.org/eclipse/updates/4.2-M-builds/M20120829-1200/" description="Eclipse and Equinox">
     <features name="org.eclipse.equinox.sdk.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
     <features name="org.eclipse.equinox.p2.discovery.feature.feature.group"/>
     <features name="org.eclipse.rcp.source.feature.group"/>
   </repositories>
-  <repositories location="http://download.eclipse.org/eclipse/updates/4.2-M-builds/M20120816-1200/" description="Eclipse and Equinox">
+  <repositories location="http://download.eclipse.org/eclipse/updates/4.2-M-builds/M20120829-1200/" description="Eclipse and Equinox">
     <products name="org.eclipse.rcp.sdk.id"/>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='david_williams@us.ibm.com']"/>
