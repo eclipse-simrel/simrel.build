@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Contribution for EMF Query2" label="EMF Query2">
-  <repositories enabled="false" location="http://download.eclipse.org/modeling/emf/query2/updates/0.7.0/" description="EMF Query2 updates">
-    <features description="EMF Query2 core" name="org.eclipse.emf.query2.core.feature.feature.group"/>
-    <features description="EMF Query2 String Syntax" name="org.eclipse.emf.query2.stringsyntax.feature.feature.group"/>
-  </repositories>
-</aggregator:Contribution>
