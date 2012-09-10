@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Koneki">
-  <repositories location="http://download.eclipse.org/koneki/releases/0.8" description="Koneki updates">
-    <features name="org.eclipse.koneki.ldt.feature.group" versionRange="0.8.0">
+  <repositories location="http://download.eclipse.org/koneki/releases/stable/0.8.2/ldt" description="Koneki updates">
+    <features name="org.eclipse.koneki.ldt.feature.group" versionRange="0.8.2">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
   </repositories>
