@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Scout Business Application Development" label="Scout">
-  <repositories enabled="false" location="http://download.eclipse.org/scout/releases/3.8/3.8.1/RC220120905-0410/update" description="Scout Targets">
+  <repositories location="http://download.eclipse.org/scout/releases/3.8/3.8.1/RC220120905-0410/update" description="Scout Targets">
     <features description="Scout Runtime" name="org.eclipse.scout.rt.feature.feature.group" versionRange="3.8.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
