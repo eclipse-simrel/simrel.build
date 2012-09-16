@@ -5,7 +5,7 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/rt/rap/2.0/M1-20120821-1934/" description="RAP 2.0 Runtime Repository">
+  <repositories enabled="false" location="http://download.eclipse.org/rt/rap/2.0/M1-20120821-1934/" description="RAP 2.0 Runtime Repository">
     <features name="org.eclipse.rap.feature.feature.group" versionRange="[2.0.0,2.1.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
