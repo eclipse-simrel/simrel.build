@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Model Focusing Tools">
   <repositories location="http://download.eclipse.org/mft/snapshots/juno" description="Model Focusing Tools for Eclipse Juno">
-    <features name="org.eclipse.mylyn.mft.emf.feature.group" versionRange="0.9.0">
+    <features name="org.eclipse.mylyn.mft.emf.feature.group" versionRange="0.9.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.mft.gmf.feature.group" versionRange="0.9.0">
+    <features name="org.eclipse.mylyn.mft.gmf.feature.group" versionRange="0.9.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.mft.ecoretools.feature.group" versionRange="0.9.0">
+    <features name="org.eclipse.mylyn.mft.ecoretools.feature.group" versionRange="0.9.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.mft.sdk.feature.group" versionRange="0.9.0"/>
+    <features name="org.eclipse.mylyn.mft.sdk.feature.group" versionRange="0.9.1"/>
+    <features name="org.eclipse.mylyn.mft.uml2.feature.group" versionRange="0.9.1"/>
+    <features name="org.eclipse.mylyn.mft.papyrus.feature.group" versionRange="0.9.1"/>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='benjamin.muskalla@tasktop.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='steffen.pingel@tasktop.com']"/>
