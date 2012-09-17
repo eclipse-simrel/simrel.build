@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" enabled="false" label="Model Focusing Tools">
-  <repositories location="http://download.eclipse.org/mft/snapshots/juno" description="Model Focusing Tools for Eclipse Juno">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Model Focusing Tools">
+  <repositories location="http://download.eclipse.org/mft/snapshots/kepler" description="Model Focusing Tools for Eclipse Kepler">
     <features name="org.eclipse.mylyn.mft.emf.feature.group" versionRange="0.9.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
@@ -12,6 +12,6 @@
     </features>
     <features name="org.eclipse.mylyn.mft.sdk.feature.group" versionRange="0.9.0"/>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='benjamin.muskalla@tasktop.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='miles.parker@tasktop.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='steffen.pingel@tasktop.com']"/>
 </aggregator:Contribution>
