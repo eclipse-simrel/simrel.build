@@ -8,6 +8,9 @@
     <features name="org.eclipse.xtend.sdk.feature.group" versionRange="2.3.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
+    <features name="org.eclipse.xtend.m2e.feature.group" versionRange="2.3.1">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='dennis.huebner@itemis.de']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='alle-ki@itemis.de']"/>

@@ -165,6 +165,7 @@
     <features href="koneki.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.15"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.16"/>
+    <features href="tmf-xtext.b3aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Web, XML, Java EE and OSGi Enterprise Development" label="Web, XML, Java EE and OSGi Enterprise Development" description="Tools to help create web applications, including JavaScript, XML, XSL, XSD, HTML, XHTML, CSS, JSP, EJBs, Webservices, JPA tand OSGi Enterprise Applications">
     <features href="webtools.b3aggrcon#//@repositories.0/@features.0"/>
