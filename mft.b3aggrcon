@@ -10,9 +10,15 @@
     <features name="org.eclipse.mylyn.mft.ecoretools.feature.group" versionRange="0.9.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.mft.sdk.feature.group" versionRange="0.9.1"/>
-    <features name="org.eclipse.mylyn.mft.uml2.feature.group" versionRange="0.9.1"/>
-    <features name="org.eclipse.mylyn.mft.papyrus.feature.group" versionRange="0.9.1"/>
+    <features name="org.eclipse.mylyn.mft.sdk.feature.group" versionRange="0.9.1">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+    </features>
+    <features name="org.eclipse.mylyn.mft.uml2.feature.group" versionRange="0.9.1">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+    </features>
+    <features name="org.eclipse.mylyn.mft.papyrus.feature.group" versionRange="0.9.1">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+    </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='benjamin.muskalla@tasktop.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='steffen.pingel@tasktop.com']"/>
