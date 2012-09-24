@@ -22,6 +22,7 @@
     <contributions href="jwt.b3aggrcon#/"/>
     <contributions href="dltk.b3aggrcon#/"/>
     <contributions href="rap.b3aggrcon#/"/>
+    <contributions href="rap-tools.b3aggrcon#/"/>
     <contributions href="rtp.b3aggrcon#/"/>
     <contributions href="subversive.b3aggrcon#/"/>
     <contributions href="actf.b3aggrcon#/"/>
@@ -176,7 +177,7 @@
     <features href="pdt.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="webtools.b3aggrcon#//@repositories.0/@features.8"/>
     <features href="webtools.b3aggrcon#//@repositories.0/@features.4"/>
-    <features href="rap.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="rap-tools.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="webtools.b3aggrcon#//@repositories.0/@features.9"/>
     <features href="webtools.b3aggrcon#//@repositories.0/@features.10"/>
     <features href="webtools.b3aggrcon#//@repositories.0/@features.13"/>
@@ -309,13 +310,13 @@
     <features href="equinox.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="eclipseLink.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="ecf.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="rap.b3aggrcon#//@repositories.1/@features.0"/>
+    <features href="rap.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="rap.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="birt.b3aggrcon#//@repositories.0/@features.6"/>
     <features href="objectteams.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="gyrex.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="rap.b3aggrcon#//@repositories.1/@features.1"/>
     <features href="rtp.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="scout.b3aggrcon#//@repositories.0/@features.3"/>
   </customCategories>
