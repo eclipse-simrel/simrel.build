@@ -21,7 +21,6 @@
     <contributions href="recommenders.b3aggrcon#/"/>
     <contributions href="jwt.b3aggrcon#/"/>
     <contributions href="dltk.b3aggrcon#/"/>
-    <contributions href="rap.b3aggrcon#/"/>
     <contributions href="rap-tools.b3aggrcon#/"/>
     <contributions href="rtp.b3aggrcon#/"/>
     <contributions href="subversive.b3aggrcon#/"/>
@@ -68,6 +67,9 @@
     <contributions href="virgo.b3aggrcon#/"/>
     <contributions href="koneki.b3aggrcon#/"/>
     <contributions href="tcf.b3aggrcon#/"/>
+  </validationSets>
+  <validationSets description="EclipseRT Project RAP" label="runtime">
+    <contributions href="rap.b3aggrcon#/"/>
   </validationSets>
   <configurations/>
   <configurations architecture="x86_64"/>
