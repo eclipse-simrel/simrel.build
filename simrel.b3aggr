@@ -139,6 +139,8 @@
     <features href="gmp-graphiti.b3aggrcon#//@repositories.0/@features.5"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="emf-compare.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="emf-compare.b3aggrcon#//@repositories.0/@features.3"/>
   </customCategories>
   <customCategories identifier="Programming Languages" label="Programming Languages" description="Tools to allow development with specific languages, such as Java and C++">
     <features href="ep.b3aggrcon#//@repositories.0/@features.3"/>
