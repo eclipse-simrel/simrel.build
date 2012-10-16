@@ -250,11 +250,12 @@
     <features href="subversive.b3aggrcon#//@repositories.0/@features.5"/>
     <features href="m2e.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="m2e.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="mft.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="mft.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="mft.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="mft.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="mft.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="mft.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="mft.b3aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
   <customCategories identifier="General Purpose Tools" label="General Purpose Tools" description="Tools that can be used by a wide variety of developers.">
     <features href="actf.b3aggrcon#//@repositories.0/@features.0"/>
