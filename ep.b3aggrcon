@@ -14,6 +14,9 @@
     <features name="org.eclipse.jdt.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
+    <features name="org.eclipse.pde.api.tools.ee.feature.feature.group">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='david_williams@us.ibm.com']"/>
 </aggregator:Contribution>
