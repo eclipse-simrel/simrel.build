@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Scout Business Application Development" label="Scout">
-  <repositories location="http://download.eclipse.org/scout/releases/3.9/3.9.0" description="Scout Targets">
+  <repositories location="http://download.eclipse.org/scout/releases/3.9/3.9.0/M320121106-1355" description="Scout Targets">
     <features description="Scout Runtime" name="org.eclipse.scout.rt.feature.group" versionRange="3.9.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
@@ -10,11 +10,8 @@
     <features description="Scout Development Kit (SDK) RAP" name="org.eclipse.scout.sdk.rap.feature.group" versionRange="3.9.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features description="Scout Runtime RAP" name="org.eclipse.scout.rt.rap.feature.feature.group" versionRange="3.8.0" enabled="false">
+    <features description="Scout Runtime Testing" name="org.eclipse.scout.rt.testing.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
-    </features>
-    <features description="Scout RAP Target Feature" name="org.eclipse.scout.rt.rap.target.feature.feature.group" versionRange="3.8.0">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='andreas.hoegger@bsiag.com']"/>
