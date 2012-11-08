@@ -67,6 +67,7 @@
     <contributions href="virgo.b3aggrcon#/"/>
     <contributions href="koneki.b3aggrcon#/"/>
     <contributions href="tcf.b3aggrcon#/"/>
+    <contributions href="emf-diffmerge.b3aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="rap.b3aggrcon#/"/>
@@ -141,6 +142,7 @@
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="emf-diffmerge.b3aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Programming Languages" label="Programming Languages" description="Tools to allow development with specific languages, such as Java and C++">
     <features href="ep.b3aggrcon#//@repositories.0/@features.3"/>
@@ -474,4 +476,5 @@
   <contacts name="Simon Bernard" email="SBernard@sierrawireless.com"/>
   <contacts name="Gregoire Dupe" email="gdupe@mia-software.com"/>
   <contacts name="Stephane Begaudeau" email="stephane.begaudeau@obeo.fr"/>
+  <contacts name="Olivier Constant" email="olivier.constant@thalesgroup.com"/>
 </aggregator:Aggregation>
