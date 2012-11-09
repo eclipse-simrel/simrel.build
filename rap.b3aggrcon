@@ -8,6 +8,7 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
     <features name="org.eclipse.rap.examples.feature.feature.group" versionRange="[2.0.0,2.1.0)">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='rsternberg@eclipsesource.com']"/>
