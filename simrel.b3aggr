@@ -86,7 +86,7 @@
   <configurations operatingSystem="macosx" windowSystem="cocoa" architecture="ppc"/>
   <configurations operatingSystem="aix" windowSystem="gtk" architecture="ppc"/>
   <configurations operatingSystem="aix" windowSystem="gtk" architecture="ppc64"/>
-  <configurations operatingSystem="hpux" windowSystem="gtk" architecture="ia64_32"/>
+  <configurations operatingSystem="hpux" windowSystem="gtk" architecture="ia64"/>
   <customCategories identifier="Modeling" label="Modeling" description="Model definition, creation, and manipulation frameworks (e.g. EMF, OCL, GMF, M2M, M2T, GEF) and industry models (e.g. UML, JEM, XSD).">
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.3"/>
