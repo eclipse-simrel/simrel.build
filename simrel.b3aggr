@@ -361,7 +361,6 @@
     <features href="sapphire.b3aggrcon#//@repositories.0/@features.8"/>
     <features href="sapphire.b3aggrcon#//@repositories.0/@features.9"/>
     <features href="sapphire.b3aggrcon#//@repositories.0/@features.10"/>
-    <features href="scout.b3aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
   <customCategories identifier="Testing" label="Testing" description="Frameworks supporting application testing.">
     <features href="jubula.b3aggrcon#//@repositories.0/@features.0"/>
