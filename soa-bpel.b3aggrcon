@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" enabled="false" label="SOA-BPEL">
-  <repositories location="http://build.eclipse.org/soa/bpel/1.0.1/juno/update-site/">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="SOA-BPEL">
+  <repositories location="http://download.eclipse.org/bpel/site/1.0.2">
     <features name="org.eclipse.bpel.common.feature.feature.group" versionRange="1.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
     </features>
@@ -15,5 +15,5 @@
     </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='bbrodt@redhat.com']"/>
-  <contacts href="simrel.b3aggr#//@contacts[email='vincent.zurczak@petalslink.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='vincent.zurczak@linagora.com']"/>
 </aggregator:Contribution>
