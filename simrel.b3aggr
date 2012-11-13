@@ -242,6 +242,8 @@
     <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.4"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="ecf.b3aggrcon#//@repositories.0/@features.0"/>

@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" enabled="false" description="Mylyn Intent (Incubation)" label="Mylyn Intent (Incubation)">
-  <repositories location="http://download.eclipse.org/intent/updates/milestones/0.7" description="Mylyn Intent for Eclipse Juno">
-    <features description="Mylyn Intent (Incubation)" name="org.eclipse.mylyn.docs.intent.feature.feature.group" versionRange="0.7.0">
+  <repositories location="http://download.eclipse.org/intent/updates/milestones/0.8" description="Mylyn Intent for Eclipse Juno">
+    <features description="Mylyn Intent (Incubation)" name="org.eclipse.mylyn.docs.intent.feature.feature.group" versionRange="0.8.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features description="Mylyn Intent - Doc generators For Wikitext (Incubation)" name="org.eclipse.mylyn.docs.intent.markup.feature.feature.group" versionRange="0.7.0">
+    <features description="Mylyn Intent - CDO support (Incubation)" name="org.eclipse.mylyn.docs.intent.cdo.feature.feature.group" versionRange="0.8.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features description="Mylyn Intent - Doc generators for Intent Documentation (Incubation)" name="org.eclipse.mylyn.docs.intent.exporter.feature.feature.group" versionRange="0.7.0">
+     <features description="Mylyn Intent - Workspace support (Incubation)" name="org.eclipse.mylyn.docs.intent.workspace.feature.feature.group" versionRange="0.8.0">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+    </features>    
+    <features description="Mylyn WikiText: Additional Generators (Incubation)" name="org.eclipse.mylyn.docs.intent.markup.feature.feature.group" versionRange="0.8.0">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+    </features>
+    <features description="Mylyn Intent Generator: Intent Documentation (Incubation)" name="org.eclipse.mylyn.docs.intent.exporter.feature.feature.group" versionRange="0.8.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
