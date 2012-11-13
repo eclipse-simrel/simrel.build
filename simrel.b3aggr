@@ -168,7 +168,6 @@
     <features href="cdt.b3aggrcon#//@repositories.0/@features.13"/>
     <features href="recommenders.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="tmf-xtext.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="tmf-xtext.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="koneki.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.15"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.16"/>
