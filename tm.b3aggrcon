@@ -12,7 +12,7 @@
     <features name="org.eclipse.tm.terminal.sdk.feature.group" versionRange="3.3.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.tm.terminal.local.feature.group" versionRange="0.2.100" enabled="false">
+    <features name="org.eclipse.tm.terminal.local.feature.group" versionRange="0.2.100">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
