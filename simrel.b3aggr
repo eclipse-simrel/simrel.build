@@ -5,7 +5,6 @@
     <contributions href="ep.b3aggrcon#/"/>
     <contributions href="emf-emf.b3aggrcon#/"/>
     <contributions href="ecf.b3aggrcon#/"/>
-    <contributions href="mdt-xsd.b3aggrcon#/"/>
     <contributions href="gef.b3aggrcon#/"/>
     <contributions href="amalgam.b3aggrcon#/"/>
     <contributions href="emf-compare.b3aggrcon#/"/>
@@ -89,9 +88,6 @@
   <configurations operatingSystem="aix" windowSystem="gtk" architecture="ppc64"/>
   <configurations operatingSystem="hpux" windowSystem="gtk" architecture="ia64"/>
   <customCategories identifier="Modeling" label="Modeling" description="Model definition, creation, and manipulation frameworks (e.g. EMF, OCL, GMF, M2M, M2T, GEF) and industry models (e.g. UML, JEM, XSD).">
-    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="mdt-xsd.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-gmf-notation.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-gmf-runtime.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="mdt-uml2.b3aggrcon#//@repositories.0/@features.0"/>
@@ -145,6 +141,10 @@
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="emf-diffmerge.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.3"/>
   </customCategories>
   <customCategories identifier="Programming Languages" label="Programming Languages" description="Tools to allow development with specific languages, such as Java and C++">
     <features href="ep.b3aggrcon#//@repositories.0/@features.3"/>
@@ -331,6 +331,7 @@
     <features href="gyrex.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="rtp.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="scout.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Business Intelligence, Reporting and Charting" label="Business Intelligence, Reporting and Charting" description="Tools to visualize information, create data-driven web pages, PDF documents and other content using data from a wide variety of sources.">
     <features href="birt.b3aggrcon#//@repositories.0/@features.0"/>

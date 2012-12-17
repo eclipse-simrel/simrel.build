@@ -8,10 +8,12 @@
     <features name="org.eclipse.emf.oda.sdk.feature.group" versionRange="[1.2.0.v20121217-0429]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
+    <features name="org.eclipse.xsd.sdk.feature.group" versionRange="[2.9.0.v20121217-0429]">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
     <features name="org.eclipse.emf.ecore.xcore.sdk.feature.group" versionRange="[1.1.0.v20121002-0649]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='Kenn.Hussey@gmail.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='dennis.huebner@itemis.de']"/>
 </aggregator:Contribution>
