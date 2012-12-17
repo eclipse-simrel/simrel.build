@@ -70,6 +70,7 @@
     <contributions href="emf-diffmerge.b3aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
+    <contributions href="emf-emf-rap.b3aggrcon#/"/>
     <contributions href="rap.b3aggrcon#/"/>
   </validationSets>
   <configurations/>
@@ -89,7 +90,7 @@
   <configurations operatingSystem="hpux" windowSystem="gtk" architecture="ia64"/>
   <customCategories identifier="Modeling" label="Modeling" description="Model definition, creation, and manipulation frameworks (e.g. EMF, OCL, GMF, M2M, M2T, GEF) and industry models (e.g. UML, JEM, XSD).">
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="mdt-xsd.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-gmf-notation.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-gmf-runtime.b3aggrcon#//@repositories.0/@features.0"/>
@@ -131,7 +132,7 @@
     <features href="gmp-graphiti.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="gmp-graphiti.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="mdt-papyrus.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emft-emffacet.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="amp.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-eef.b3aggrcon#//@repositories.0/@features.1"/>
@@ -324,7 +325,7 @@
     <features href="rap.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="rap.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="emf-emf-rap.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="birt.b3aggrcon#//@repositories.0/@features.6"/>
     <features href="objectteams.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="gyrex.b3aggrcon#//@repositories.0/@features.0"/>
