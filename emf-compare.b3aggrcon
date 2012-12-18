@@ -19,7 +19,7 @@
     <features name="org.eclipse.emf.compare.diagram.gmf.feature.group" versionRange="[2.1.0,3.0.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.emf.compare.diagram.papyrus.feature.group" versionRange="[2.1.0,3.0.0)" enabled="false">
+    <features name="org.eclipse.emf.compare.diagram.papyrus.feature.group" versionRange="[2.1.0,3.0.0)" >
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
