@@ -7,7 +7,7 @@
     <features description="Eclipse Scout Runtime" name="org.eclipse.scout.rt.source.feature.group" versionRange="3.9.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
-    <features description="Eclipse Scout Runtime Testing" name="org.eclipse.scout.rt.testing.feature.group">
+    <features description="Eclipse Scout Runtime Testing" name="org.eclipse.scout.rt.testing.source.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
   </repositories>
