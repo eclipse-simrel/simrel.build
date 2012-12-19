@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Scout Business Application Development" label="Scout">
-  <repositories location="http://download.eclipse.org/scout/releases/3.9/3.9.0/M320121112-1250" description="Scout Targets">
-    <features description="Scout Runtime" name="org.eclipse.scout.rt.feature.group" versionRange="3.9.0">
+  <repositories location="http://download.eclipse.org/scout/releases/3.9/3.9.0/M420121219-0332" description="Scout Targets">
+    <features description="Eclipse Scout Runtime" name="org.eclipse.scout.rt.source.feature.group" versionRange="3.9.0">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
+    </features>
+    <features description="Eclipse Scout Development Kit (SDK)" name="org.eclipse.scout.sdk.source.feature.group" versionRange="3.9.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features description="Scout Development Kit (SDK)" name="org.eclipse.scout.sdk.feature.group" versionRange="3.9.0">
+    <features description="Eclipse Scout Development Kit (SDK) RAP" name="org.eclipse.scout.sdk.rap.source.feature.group" versionRange="3.9.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features description="Scout Development Kit (SDK) RAP" name="org.eclipse.scout.sdk.rap.feature.group" versionRange="3.9.0">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
-    </features>
-    <features description="Scout Runtime Testing" name="org.eclipse.scout.rt.testing.feature.group">
+    <features description="Eclipse Scout Runtime Testing" name="org.eclipse.scout.rt.testing.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
   </repositories>
