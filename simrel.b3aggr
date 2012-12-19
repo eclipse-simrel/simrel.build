@@ -34,7 +34,6 @@
     <contributions href="emf-transaction.b3aggrcon#/"/>
     <contributions href="emf-validation.b3aggrcon#/"/>
     <contributions href="emf-query.b3aggrcon#/"/>
-    <contributions href="emf-query2.b3aggrcon#/"/>
     <contributions href="m2t-acceleo.b3aggrcon#/"/>
     <contributions href="gmp-gmf-notation.b3aggrcon#/"/>
     <contributions href="gmp-gmf-runtime.b3aggrcon#/"/>
@@ -58,6 +57,7 @@
     <contributions href="mdt-papyrus.b3aggrcon#/"/>
     <contributions href="amp.b3aggrcon#/"/>
     <contributions href="scout.b3aggrcon#/"/>
+    <contributions href="riena.b3aggrcon#/"/>
     <contributions href="sapphire.b3aggrcon#/"/>
     <contributions href="windowbuilder.b3aggrcon#/"/>
     <contributions href="jubula.b3aggrcon#/"/>
@@ -96,6 +96,7 @@
     <features href="emf-validation.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-query.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="m2t-acceleo.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="m2t-acceleo.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="mmt-qvto.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="m2m-atl.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="tmf-xtext.b3aggrcon#//@repositories.0/@features.0"/>
@@ -107,7 +108,7 @@
     <features href="emft-ecoretools.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="mdt-modisco.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-eef.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.b3aggrcon#//@repositories.0/@features.0"/>
@@ -128,7 +129,6 @@
     <features href="gmp-graphiti.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="gmp-graphiti.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="mdt-papyrus.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emft-emffacet.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="amp.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-eef.b3aggrcon#//@repositories.0/@features.1"/>
@@ -139,12 +139,16 @@
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="emf-compare.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="emf-compare.b3aggrcon#//@repositories.0/@features.6"/>
     <features href="emf-diffmerge.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.4"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Programming Languages" label="Programming Languages" description="Tools to allow development with specific languages, such as Java and C++">
     <features href="ep.b3aggrcon#//@repositories.0/@features.3"/>
@@ -306,6 +310,9 @@
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.9"/>
     <features href="m2e.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="ep.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.10"/>
+    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.11"/>
+    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.12"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
     <features href="soa-sca.b3aggrcon#//@repositories.0/@features.0"/>
