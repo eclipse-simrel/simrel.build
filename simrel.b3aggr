@@ -327,7 +327,6 @@
     <features href="soa-bpel.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="soa-bpel.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="soa-bpel.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="soa-bpel.b3aggrcon#//@repositories.0/@features.3"/>
   </customCategories>
   <customCategories identifier="EclipseRT Target Platform Components" label="EclipseRT Target Platform Components" description="This category identifies various Eclipse technology that is commonly used in runtime scenarios from RCP to embedded to server side. The components in this category are intended to be added to your Target Platform, rather than your IDE.">
     <features href="equinox.b3aggrcon#//@repositories.0/@features.0"/>
