@@ -10,9 +10,6 @@
     <features name="org.eclipse.bpel.apache.ode.runtime.feature.feature.group" versionRange="1.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
     </features>
-    <features name="org.eclipse.bpel.jboss.riftsaw.runtime.feature.feature.group" versionRange="1.0.0" enabled="false">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
-    </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='bbrodt@redhat.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='vincent.zurczak@linagora.com']"/>
