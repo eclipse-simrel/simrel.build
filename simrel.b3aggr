@@ -5,7 +5,6 @@
     <contributions href="ep.b3aggrcon#/"/>
     <contributions href="emf-emf.b3aggrcon#/"/>
     <contributions href="ecf.b3aggrcon#/"/>
-    <contributions href="mdt-xsd.b3aggrcon#/"/>
     <contributions href="gef.b3aggrcon#/"/>
     <contributions href="amalgam.b3aggrcon#/"/>
     <contributions href="emf-compare.b3aggrcon#/"/>
@@ -35,7 +34,6 @@
     <contributions href="emf-transaction.b3aggrcon#/"/>
     <contributions href="emf-validation.b3aggrcon#/"/>
     <contributions href="emf-query.b3aggrcon#/"/>
-    <contributions href="emf-query2.b3aggrcon#/"/>
     <contributions href="m2t-acceleo.b3aggrcon#/"/>
     <contributions href="gmp-gmf-notation.b3aggrcon#/"/>
     <contributions href="gmp-gmf-runtime.b3aggrcon#/"/>
@@ -59,6 +57,7 @@
     <contributions href="mdt-papyrus.b3aggrcon#/"/>
     <contributions href="amp.b3aggrcon#/"/>
     <contributions href="scout.b3aggrcon#/"/>
+    <contributions href="riena.b3aggrcon#/"/>
     <contributions href="sapphire.b3aggrcon#/"/>
     <contributions href="windowbuilder.b3aggrcon#/"/>
     <contributions href="jubula.b3aggrcon#/"/>
@@ -68,8 +67,10 @@
     <contributions href="koneki.b3aggrcon#/"/>
     <contributions href="tcf.b3aggrcon#/"/>
     <contributions href="emf-diffmerge.b3aggrcon#/"/>
+    <contributions href="m2e-wtp.b3aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
+    <contributions href="emf-emf-rap.b3aggrcon#/"/>
     <contributions href="rap.b3aggrcon#/"/>
   </validationSets>
   <configurations/>
@@ -88,9 +89,6 @@
   <configurations operatingSystem="aix" windowSystem="gtk" architecture="ppc64"/>
   <configurations operatingSystem="hpux" windowSystem="gtk" architecture="ia64"/>
   <customCategories identifier="Modeling" label="Modeling" description="Model definition, creation, and manipulation frameworks (e.g. EMF, OCL, GMF, M2M, M2T, GEF) and industry models (e.g. UML, JEM, XSD).">
-    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="mdt-xsd.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-gmf-notation.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-gmf-runtime.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="mdt-uml2.b3aggrcon#//@repositories.0/@features.0"/>
@@ -99,6 +97,7 @@
     <features href="emf-validation.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-query.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="m2t-acceleo.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="m2t-acceleo.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="mmt-qvto.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="m2m-atl.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="tmf-xtext.b3aggrcon#//@repositories.0/@features.0"/>
@@ -110,7 +109,7 @@
     <features href="emft-ecoretools.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="mdt-modisco.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-eef.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.b3aggrcon#//@repositories.0/@features.0"/>
@@ -131,7 +130,6 @@
     <features href="gmp-graphiti.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="gmp-graphiti.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="mdt-papyrus.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="emft-emffacet.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="amp.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-eef.b3aggrcon#//@repositories.0/@features.1"/>
@@ -142,8 +140,16 @@
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="emf-compare.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="emf-compare.b3aggrcon#//@repositories.0/@features.6"/>
     <features href="emf-diffmerge.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Programming Languages" label="Programming Languages" description="Tools to allow development with specific languages, such as Java and C++">
     <features href="ep.b3aggrcon#//@repositories.0/@features.3"/>
@@ -156,7 +162,7 @@
     <features href="ptp.b3aggrcon#//@repositories.0/@features.9"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.10"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.8"/>
+    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.7"/>
     <features href="dltk.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="dltk.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="dltk.b3aggrcon#//@repositories.0/@features.3"/>
@@ -206,6 +212,10 @@
     <features href="webtools.b3aggrcon#//@repositories.2/@features.2"/>
     <features href="webtools.b3aggrcon#//@repositories.2/@features.1"/>
     <features href="webtools.b3aggrcon#//@repositories.2/@features.3"/>
+    <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.3"/>
   </customCategories>
   <customCategories identifier="Database Development" label="Database Development" description="Tools to define and access a wide variety of databases.">
     <features href="dtp.b3aggrcon#//@repositories.0/@features.0"/>
@@ -305,6 +315,9 @@
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.9"/>
     <features href="m2e.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="ep.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.10"/>
+    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.11"/>
+    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.12"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
     <features href="soa-sca.b3aggrcon#//@repositories.0/@features.0"/>
@@ -323,13 +336,16 @@
     <features href="rap.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="rap.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="rap.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="riena.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="emf-emf-rap.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="birt.b3aggrcon#//@repositories.0/@features.6"/>
     <features href="objectteams.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="gyrex.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="rtp.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="scout.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="scout.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="scout.b3aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="Business Intelligence, Reporting and Charting" label="Business Intelligence, Reporting and Charting" description="Tools to visualize information, create data-driven web pages, PDF documents and other content using data from a wide variety of sources.">
     <features href="birt.b3aggrcon#//@repositories.0/@features.0"/>
@@ -342,18 +358,16 @@
   <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.4"/>
-    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.7"/>
+    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.6"/>
+    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.8"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.9"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.10"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.11"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.12"/>
-    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.13"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Application Development Frameworks" label="Application Development Frameworks" description="Frameworks supporting application development.">
     <features href="scout.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="scout.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="scout.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="sapphire.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="sapphire.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="sapphire.b3aggrcon#//@repositories.0/@features.2"/>
@@ -480,4 +494,5 @@
   <contacts name="Gregoire Dupe" email="gdupe@mia-software.com"/>
   <contacts name="Stephane Begaudeau" email="stephane.begaudeau@obeo.fr"/>
   <contacts name="Olivier Constant" email="olivier.constant@thalesgroup.com"/>
+  <contacts name="Fred Bricon" email="fbricon@gmail.com"/>
 </aggregator:Aggregation>
