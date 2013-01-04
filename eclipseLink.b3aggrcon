@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EclipseLink">
   <repositories location="http://download.eclipse.org/rt/eclipselink/milestone-updates/2.5.0.v20121120-ec51fcc_M5" description="EclipseLink">
-    <features name="org.eclipse.persistence.sdk.feature.group" versionRange="2.5.0.v20121120-ec51fcc">
+    <features enabled="false" name="org.eclipse.persistence.sdk.feature.group" versionRange="2.5.0.v20121120-ec51fcc">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
   </repositories>
