@@ -297,7 +297,6 @@
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.8"/>
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.9"/>
     <features href="m2e.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="ep.b3aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
     <features href="soa-sca.b3aggrcon#//@repositories.0/@features.0"/>
