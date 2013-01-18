@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="PDT">
-  <repositories location="http://download.eclipse.org/tools/pdt/updates/3.1.1/release" description="PDT 3.1.1">
-    <features name="org.eclipse.php.sdk.feature.group" versionRange="3.1.1">
+  <repositories location="http://download.eclipse.org/tools/pdt/updates/3.1.2/release" description="PDT 3.1.2">
+    <features name="org.eclipse.php.sdk.feature.group" versionRange="3.1.2">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
