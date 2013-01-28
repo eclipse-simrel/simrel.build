@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="DataTools">
   <repositories location="http://download.eclipse.org/datatools/downloads/drops/M_updates_1.10.2" description="DTP 1.10.2 updates">
-    <features name="org.eclipse.datatools.sdk.feature.feature.group" versionRange="1.10.2.v201209181447-7PAO7gFEpPZ57sGibz0t5TqQo_Rv">
+    <features name="org.eclipse.datatools.sdk.feature.feature.group" versionRange="1.10.2.v201209181447-7PAO7gFEpPZ58s8j_-w5OqRpaRxe">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Database%20Development']"/>
     </features>
-    <features name="org.eclipse.datatools.enablement.sdk.feature.feature.group" versionRange="1.10.2.v201209181447-7I9e7XFE9JgB80wJRUvMfJanBo5c">
+    <features name="org.eclipse.datatools.enablement.sdk.feature.feature.group" versionRange="1.10.2.v201209181447-7I9e7XFE9JgB80wJRUvMfJanBo6b">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Database%20Development']"/>
     </features>
   </repositories>
