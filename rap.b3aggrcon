@@ -6,10 +6,10 @@
     </features>
   </repositories>
   <repositories location="http://download.eclipse.org/rt/rap/1.5/runtime/SR2-RC2-20130129-1521/" description="RAP 1.5 Runtime Repository">
-    <features name="org.eclipse.rap.runtime.feature.group" versionRange="[1.5.0,1.6.0)">
+    <features name="org.eclipse.rap.runtime.feature.group" versionRange="[1.5.0,1.6.0)" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
-    <features name="org.eclipse.rap.runtime.requirements.feature.group" versionRange="[1.5.0,1.6.0)">
+    <features name="org.eclipse.rap.runtime.requirements.feature.group" versionRange="[1.5.0,1.6.0)" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
   </repositories>
