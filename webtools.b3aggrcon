@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="WebTools">
-  <repositories location="http://download.eclipse.org/webtools/downloads/drops/R3.4.2/M-3.4.2RC1-20130111064234/repository/" description="Web Tools 3.4 repository site">
+  <repositories location="http://download.eclipse.org/webtools/downloads/drops/R3.4.2/M-3.4.2RC2-20130128193154/repository/" description="Web Tools 3.4 repository site">
     <features name="org.eclipse.wst.web_ui.feature.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
