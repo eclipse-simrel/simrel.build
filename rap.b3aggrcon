@@ -9,7 +9,7 @@
     <features name="org.eclipse.rap.runtime.feature.group" versionRange="[1.5.0,1.6.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
-    <features name="org.eclipse.rap.runtime.requirements.feature.group" versionRange="[1.5.0,1.6.0)">
+    <features name="org.eclipse.rap.runtime.requirements.feature.group" versionRange="[1.5.0,1.6.0)" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
   </repositories>
