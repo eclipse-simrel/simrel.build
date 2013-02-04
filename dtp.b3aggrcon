@@ -4,7 +4,7 @@
     <features name="org.eclipse.datatools.sdk.feature.feature.group" versionRange="1.10.2.v201209181447-7PAO7gFEpPZ58s8j_-w5OqRpaRxe">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Database%20Development']"/>
     </features>
-    <features name="org.eclipse.datatools.enablement.sdk.feature.feature.group" versionRange="1.10.2.v201209181447-7I9e7XFE9JgB80wJRUvMfJanBo6b">
+    <features name="org.eclipse.datatools.enablement.sdk.feature.feature.group" versionRange="1.10.2.v201209181447-7I9e7XFE9JgB80wJRUvMfJanCn6e">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Database%20Development']"/>
     </features>
   </repositories>
