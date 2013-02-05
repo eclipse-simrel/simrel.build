@@ -68,6 +68,7 @@
     <contributions href="tcf.b3aggrcon#/"/>
     <contributions href="emf-diffmerge.b3aggrcon#/"/>
     <contributions href="m2e-wtp.b3aggrcon#/"/>
+    <contributions href="stardust.b3aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
@@ -329,6 +330,17 @@
     <features href="soa-bpel.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="soa-bpel.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="soa-bpel.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.6"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.7"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.8"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.9"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.10"/>
   </customCategories>
   <customCategories identifier="EclipseRT Target Platform Components" label="EclipseRT Target Platform Components" description="This category identifies various Eclipse technology that is commonly used in runtime scenarios from RCP to embedded to server side. The components in this category are intended to be added to your Target Platform, rather than your IDE.">
     <features href="equinox.b3aggrcon#//@repositories.0/@features.0"/>
@@ -492,8 +504,11 @@
   <contacts name="Katya Todorova" email="katya.k.todorova@gmail.com"/>
   <contacts name="Benjamin Cabe" email="BCabe@sierrawireless.com"/>
   <contacts name="Simon Bernard" email="SBernard@sierrawireless.com"/>
+  <contacts name="Simone Seurer" email="simone.seurer@sungard.com"/>
   <contacts name="Gregoire Dupe" email="gdupe@mia-software.com"/>
   <contacts name="Stephane Begaudeau" email="stephane.begaudeau@obeo.fr"/>
   <contacts name="Olivier Constant" email="olivier.constant@thalesgroup.com"/>
   <contacts name="Fred Bricon" email="fbricon@gmail.com"/>
+  <contacts name="Sven Rottstock" email="sven.rottstock@sungard.com"/>
+  <contacts name="Herbert Neureiter" email="herbert.neureiter@sungard.com"/>
 </aggregator:Aggregation>
