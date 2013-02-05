@@ -16,8 +16,10 @@
     <features description="Mylyn Intent Generator: Intent Documentation (Incubation)" name="org.eclipse.mylyn.docs.intent.exporter.feature.feature.group" versionRange="0.8.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
+    <features description="Mylyn Intent Connector: Java (Incubation)" name="org.eclipse.mylyn.docs.intent.bridge.java.feature.feature.group" versionRange="0.8.0">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+    </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='alex.lagarde@obeo.fr']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='cedric.brun@obeo.fr']"/>
-  <contacts href="simrel.b3aggr#//@contacts[email='stephane.bouchet@obeo.fr']"/>
 </aggregator:Contribution>
