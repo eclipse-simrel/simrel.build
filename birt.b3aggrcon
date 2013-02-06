@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="BIRT">
   <repositories location="http://download.eclipse.org/birt/update-site/4.2-interim/" description="BIRT interim">
-    <features name="org.eclipse.birt.feature.group" versionRange="4.2.2.v201301281649-ClBI9nGZcVSoeFz-Yyz0k0vuJtUm">
+    <features name="org.eclipse.birt.feature.group" versionRange="4.2.2.v201301281649-ClBI9nGZcVSofEz-Xuz0n-ruJtUm">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
     <features name="org.eclipse.birt.cshelp.feature.group" versionRange="4.2.2.v201210101433-5117w312321212544">
@@ -16,10 +16,10 @@
     <features name="org.eclipse.birt.example.feature.group" versionRange="4.2.2.v201210101433-7T7D7DDZRDKRKELIKjed">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
-    <features name="org.eclipse.birt.source.feature.group" versionRange="4.2.2.v201301281649-ClBI9nGZcVSoeFz-Yyz0k0vuJtUm">
+    <features name="org.eclipse.birt.source.feature.group" versionRange="4.2.2.v201301281649-ClBI9nGZcVSofEz-Xuz0n-ruJtUm">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
-    <features name="org.eclipse.birt.osgi.runtime.sdk.feature.group" versionRange="4.2.2.v201210101433-793387uDbEqKCURUlgMXNJ7xz-z0">
+    <features name="org.eclipse.birt.osgi.runtime.sdk.feature.group" versionRange="4.2.2.v201210101433-793387uDbEqKCURUlhLXMF7z0yw8">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
   </repositories>
