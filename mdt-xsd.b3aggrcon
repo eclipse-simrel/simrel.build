@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="MDT XSD">
   <repositories location="http://download.eclipse.org/modeling/emf/emf/updates/2.8.x/" description="MDT XSD 2.8 Milestones">
-    <features name="org.eclipse.xsd.sdk.feature.group" versionRange="[2.8.1.v20120917-0436]">
+    <features name="org.eclipse.xsd.sdk.feature.group" versionRange="[2.8.2.v20130125-0826]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
