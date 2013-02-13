@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="ACTF">
   <repositories location="http://download.eclipse.org/technology/actf/1.0/milestones/" description="ACTF 1.0">
-    <features name="org.eclipse.actf.visualization.sdk.feature.group" versionRange="1.0.1.R201209191006">
+    <features name="org.eclipse.actf.visualization.sdk.feature.group" versionRange="1.0.2.R201302130546">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.actf.visualization.feature.group" versionRange="1.0.1.R201209191006">
+    <features name="org.eclipse.actf.visualization.feature.group" versionRange="1.0.2.R201302130546">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.actf.visualization.ui.pdt.feature.group" versionRange="1.0.1.R201209191006">
+    <features name="org.eclipse.actf.visualization.ui.pdt.feature.group" versionRange="1.0.2.R201302130546">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.actf.visualization.ui.wst.feature.group" versionRange="1.0.1.R201209191006">
+    <features name="org.eclipse.actf.visualization.ui.wst.feature.group" versionRange="1.0.2.R201302130546">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
