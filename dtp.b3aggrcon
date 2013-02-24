@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="DataTools">
-  <repositories location="http://download.eclipse.org/datatools/downloads/drops/M_updates_1.10.2" description="DTP 1.10.2 updates">
+  <repositories location="http://download.eclipse.org/releases/juno/201302220900/" description="DTP 1.10.2 updates">
     <features name="org.eclipse.datatools.sdk.feature.feature.group" versionRange="1.10.2.v201209181447-7PAO7gFEpPZ58s9hZvnBQRrZbbiG">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Database%20Development']"/>
     </features>

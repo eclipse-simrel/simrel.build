@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Model Focusing Tools">
-  <repositories location="http://download.eclipse.org/mft/snapshots/juno" description="Model Focusing Tools for Eclipse Juno">
+  <repositories location="http://download.eclipse.org/releases/juno/201302220900/" description="Model Focusing Tools for Eclipse Juno">
     <features name="org.eclipse.mylyn.mft.emf.feature.group" versionRange="0.9.1"/>
     <features name="org.eclipse.mylyn.mft.gmf.feature.group" versionRange="0.9.1"/>
     <features name="org.eclipse.mylyn.mft.ecoretools.feature.group" versionRange="0.9.1">
