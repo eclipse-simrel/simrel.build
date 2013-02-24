@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EclipseLink">
-  <repositories location="http://download.eclipse.org/rt/eclipselink/updates/2.4.1.v20121003-ad44345" description="EclipseLink">
+  <repositories location="http://download.eclipse.org/releases/juno/201302220900/" description="EclipseLink">
     <features name="org.eclipse.persistence.sdk.feature.group" versionRange="2.4.1.v20121003-ad44345">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
