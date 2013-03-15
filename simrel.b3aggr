@@ -218,6 +218,7 @@
     <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
   <customCategories identifier="Database Development" label="Database Development" description="Tools to define and access a wide variety of databases.">
     <features href="dtp.b3aggrcon#//@repositories.0/@features.0"/>
