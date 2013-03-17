@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" buildmaster="//@contacts[email='david_williams@us.ibm.com']" label="Kepler" buildRoot="buildresults" sendmail="true" type="I">
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" buildmaster="//@contacts[email='david_williams@us.ibm.com']" label="Kepler" buildRoot="buildresults" sendmail="true" type="I" allowLegacySites="false">
   <validationSets label="main">
     <contributions href="equinox.b3aggrcon#/"/>
     <contributions href="ep.b3aggrcon#/"/>
