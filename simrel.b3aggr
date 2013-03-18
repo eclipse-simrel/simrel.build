@@ -63,7 +63,6 @@
     <contributions href="jubula.b3aggrcon#/"/>
     <contributions href="mylyn-docs-intent.b3aggrcon#/"/>
     <contributions href="mft.b3aggrcon#/"/>
-    <contributions href="virgo.b3aggrcon#/"/>
     <contributions href="koneki.b3aggrcon#/"/>
     <contributions href="tcf.b3aggrcon#/"/>
     <contributions href="emf-diffmerge.b3aggrcon#/"/>
@@ -501,8 +500,6 @@
   <contacts name="Robert Brodt" email="bbrodt@redhat.com"/>
   <contacts name="Camille Letavernier" email="camille.letavernier@cea.fr"/>
   <contacts name="Vincent Lorenzo" email="vincent.lorenzo@cea.fr"/>
-  <contacts name="Borislav Kapukaranov" email="b.kapukaranov@gmail.com"/>
-  <contacts name="Katya Todorova" email="katya.k.todorova@gmail.com"/>
   <contacts name="Benjamin Cabe" email="BCabe@sierrawireless.com"/>
   <contacts name="Simon Bernard" email="SBernard@sierrawireless.com"/>
   <contacts name="Simone Seurer" email="simone.seurer@sungard.com"/>
