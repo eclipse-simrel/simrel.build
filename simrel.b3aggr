@@ -377,6 +377,7 @@
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.10"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.11"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.12"/>
+    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.13"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Application Development Frameworks" label="Application Development Frameworks" description="Frameworks supporting application development.">
