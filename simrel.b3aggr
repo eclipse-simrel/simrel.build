@@ -110,7 +110,7 @@
     <features href="emft-ecoretools.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.4"/>
     <features href="mdt-modisco.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-eef.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.b3aggrcon#//@repositories.0/@features.0"/>
@@ -150,6 +150,7 @@
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Programming Languages" label="Programming Languages" description="Tools to allow development with specific languages, such as Java and C++">
