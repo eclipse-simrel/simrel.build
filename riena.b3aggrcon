@@ -4,7 +4,7 @@
     <features name="org.eclipse.riena.build.feature.sdk.e4.feature.group" versionRange="5.0.0.v20130507_5_0_0_M7">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
-    <features name="org.eclipse.riena.build.feature.rap.sdk.feature.group" versionRange="5.0.0.v20130507_5_0_0_M7">
+    <features enabled="false" name="org.eclipse.riena.build.feature.rap.sdk.feature.group" versionRange="5.0.0.v20130507_5_0_0_M7">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
   </repositories>
