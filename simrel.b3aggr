@@ -182,7 +182,6 @@
     <features href="cdt.b3aggrcon#//@repositories.0/@features.15"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.16"/>
     <features href="koneki.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="ptp.b3aggrcon#//@repositories.0/@features.3"/>
   </customCategories>
   <customCategories identifier="Web, XML, Java EE and OSGi Enterprise Development" label="Web, XML, Java EE and OSGi Enterprise Development" description="Tools to help create web applications, including JavaScript, XML, XSL, XSD, HTML, XHTML, CSS, JSP, EJBs, Webservices, JPA tand OSGi Enterprise Applications">
     <features href="webtools.b3aggrcon#//@repositories.0/@features.0"/>
@@ -324,6 +323,7 @@
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.10"/>
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.11"/>
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.12"/>
+    <features href="ptp.b3aggrcon#//@repositories.0/@features.3"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
     <features href="soa-sca.b3aggrcon#//@repositories.0/@features.0"/>
