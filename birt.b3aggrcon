@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="BIRT">
   <repositories location="http://download.eclipse.org/birt/update-site/kepler-interim/" description="BIRT interim">
-    <features name="org.eclipse.birt.feature.group" versionRange="4.3.0.v201304271046-DMBlA3Gi06mHuAqvaM9Zf4FWMBU0">
+    <features name="org.eclipse.birt.feature.group" versionRange="4.3.0.v201305192148-DQBnA5GixAoKz0CQtz-Djte4F_LO">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
     <features name="org.eclipse.birt.cshelp.feature.group" versionRange="4.3.0.v201303181854-5117w312415211A65">
@@ -13,13 +13,13 @@
     <features name="org.eclipse.birt.doc.feature.group" versionRange="4.3.0.v201303181854-5117w312414153361">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
-    <features name="org.eclipse.birt.example.feature.group" versionRange="4.3.0.v201303181854-7T7D7DDZRDKTILJQJi_c">
+    <features name="org.eclipse.birt.example.feature.group" versionRange="4.3.0.v201303181854-7T7D7DDZRDKTIMKSKlZc">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
-    <features name="org.eclipse.birt.source.feature.group" versionRange="4.3.0.v201304271046-DMBlA3Gi06mHuAqvaM9Zf4FWMBU0">
+    <features name="org.eclipse.birt.source.feature.group" versionRange="4.3.0.v201305192148-DQBnA5GixAoKz0CQtz-Djte4F_LO">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
-    <features name="org.eclipse.birt.osgi.runtime.sdk.feature.group" versionRange="4.3.0.v201303181854-795-88RE0F6NKuz0gBbRRDeuIAbO">
+    <features name="org.eclipse.birt.osgi.runtime.sdk.feature.group" versionRange="4.3.0.v201303181854-795-88VE3F8OKt24mIae38T32aTp">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
   </repositories>
