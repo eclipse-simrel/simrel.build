@@ -160,9 +160,9 @@
     <features href="cdt.b3aggrcon#//@repositories.0/@features.5"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.7"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.14"/>
-    <features href="ptp.b3aggrcon#//@repositories.0/@features.9"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.10"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.11"/>
+    <features href="ptp.b3aggrcon#//@repositories.0/@features.12"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.7"/>
     <features href="dltk.b3aggrcon#//@repositories.0/@features.1"/>
@@ -297,11 +297,11 @@
     <features href="ptp.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="ptp.b3aggrcon#//@repositories.0/@features.4"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.5"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.6"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.7"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.8"/>
+    <features href="ptp.b3aggrcon#//@repositories.0/@features.9"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.5"/>
     <features href="tm.b3aggrcon#//@repositories.0/@features.3"/>
@@ -323,6 +323,7 @@
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.11"/>
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.12"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="ptp.b3aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
     <features href="soa-sca.b3aggrcon#//@repositories.0/@features.0"/>
