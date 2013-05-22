@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Riena">
   <repositories location="http://download.eclipse.org/rt/riena/5.0.0.RC1/RAP-e4/" description="Riena Target Components (E4)">
-    <features name="org.eclipse.riena.build.feature.sdk.e4.feature.group" versionRange="5.0.0.v20130522_5_0_0_RC1">
+    <features name="org.eclipse.riena.build.feature.sdk.e4.feature.group" versionRange="5.0.0.v20130522_5_0_0_RC1" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
     <features name="org.eclipse.riena.build.feature.rap.sdk.feature.group" versionRange="5.0.0.v20130522_5_0_0_RC1" enabled="false">
