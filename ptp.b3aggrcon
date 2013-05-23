@@ -13,7 +13,6 @@
     <features name="org.eclipse.ptp.gig.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-
     <features name="org.eclipse.ptp.pldt.upc.feature.group" versionRange="7.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
@@ -29,9 +28,7 @@
     <features name="org.eclipse.ptp.rdt.xlc.feature.group" versionRange="7.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.photran.feature.group" versionRange="8.1.0">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
-    </features>
+    <features name="org.eclipse.photran.feature.group" versionRange="8.1.0"/>
     <features name="org.eclipse.photran.intel.feature.group" versionRange="8.1.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>

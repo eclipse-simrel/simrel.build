@@ -43,36 +43,6 @@
     <features name="org.eclipse.linuxtools.gdbtrace.feature.group" versionRange="1.0.0.201305211237">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
     </features>
-    <!--
-    <features name="org.eclipse.linuxtools.cdt.libhover.devhelp.feature.source.feature.group" versionRange="1.0.0.201305211237">
-     </features>
-    <features name="org.eclipse.linuxtools.cdt.libhover.feature.source.feature.group" versionRange="1.0.0.201305211237">
-     </features>
-    <features name="org.eclipse.linuxtools.changelog.source.feature.group" versionRange="2.8.0.201305211237">
-    </features>
-    <features name="org.eclipse.linuxtools.gprof.feature.source.feature.group" versionRange="1.1.0.201305211237">
-     </features>
-    <features name="org.eclipse.linuxtools.oprofile.feature.source.feature.group" versionRange="1.1.0.201305211237">
-    </features>
-    <features name="org.eclipse.linuxtools.rpm.source.feature.group" versionRange="1.0.0.201305211237">
-    </features>
-    <features name="org.eclipse.linuxtools.systemtap.source.feature.group" versionRange="2.0.0.201305211237">
-    </features>
-    <features name="org.eclipse.linuxtools.callgraph.feature.source.feature.group" versionRange="1.1.0.201305211237">
-    </features>
-    <features name="org.eclipse.linuxtools.valgrind.source.feature.group" versionRange="1.1.0.201305211237">
-    </features>
-    <features name="org.eclipse.linuxtools.gcov.source.feature.group" versionRange="1.1.0.201305211237">
-    </features>
-    <features name="org.eclipse.linuxtools.perf.feature.source.feature.group" versionRange="1.1.0.201305211237">
-    </features>
-    <features name="org.eclipse.linuxtools.lttng2.source.feature.group" versionRange="2.0.0.201305211237">
-    </features>
-    <features name="org.eclipse.linuxtools.lttng2.kernel.source.feature.group" versionRange="2.0.0.201305211237">
-    </features>
-    <features name="org.eclipse.linuxtools.gdbtrace.source.feature.group" versionRange="1.0.0.201305211237">
-    </features>
-    -->
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='jjohnstn@redhat.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='akurtako@redhat.com']"/>
