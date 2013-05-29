@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="ECF">
-  <repositories location="http://download.eclipse.org/rt/ecf/int6/site.p2" description="ECF updates">
-    <features name="org.eclipse.ecf.core.feature.group" versionRange="3.6.1.v20130521-0510">
+  <repositories location="http://download.eclipse.org/rt/ecf/3.6.1/site.p2" description="ECF updates">
+    <features name="org.eclipse.ecf.core.feature.group" versionRange="3.6.1.v20130529-1617">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
