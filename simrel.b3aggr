@@ -261,6 +261,7 @@
     <features href="subversive.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="ecf.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="ecf.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="dltk.b3aggrcon#//@repositories.0/@features.6"/>
     <features href="egit.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="egit.b3aggrcon#//@repositories.0/@features.1"/>
@@ -347,6 +348,7 @@
     <features href="equinox.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="eclipseLink.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="ecf.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="ecf.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="rap.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="rap.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="rap.b3aggrcon#//@repositories.0/@features.2"/>

@@ -6,6 +6,8 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
     <features name="org.eclipse.ecf.core.source.feature.group" versionRange="3.6.1.v20130603-2058">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+      <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='slewis@composent.com']"/>
