@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EGit">
-  <repositories location="http://download.eclipse.org/egit/staging/v3.0.0.201306040240-rc3" description="EGit Updates">
-    <features name="org.eclipse.jgit.feature.group" versionRange="[3.0.0.201306040240-rc3]">
+  <repositories location="http://download.eclipse.org/egit/updates-3.0" description="EGit Updates">
+    <features name="org.eclipse.jgit.feature.group" versionRange="[3.0.0.201306101825-r]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.jgit.pgm.feature.group" versionRange="[3.0.0.201306040240-rc3]">
+    <features name="org.eclipse.jgit.pgm.feature.group" versionRange="[3.0.0.201306101825-r]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.egit.feature.group" versionRange="[3.0.0.201306040240-rc3]">
+    <features name="org.eclipse.egit.feature.group" versionRange="[3.0.0.201306101825-r]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.egit.mylyn.feature.group" versionRange="[3.0.0.201306040240-rc3]">
+    <features name="org.eclipse.egit.mylyn.feature.group" versionRange="[3.0.0.201306101825-r]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.jgit.java7.feature.group" versionRange="[3.0.0.201306040240-rc3]">
+    <features name="org.eclipse.jgit.java7.feature.group" versionRange="[3.0.0.201306101825-r]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/egit/github/staging/v3.0.0.201306040240-rc3" description="EGit GitHub Updates">
-    <features name="org.eclipse.mylyn.github.feature.feature.group" versionRange="[3.0.0.201306040240-rc3]">
+  <repositories location="http://download.eclipse.org/egit/github/updates-3.0" description="EGit GitHub Updates">
+    <features name="org.eclipse.mylyn.github.feature.feature.group" versionRange="[3.0.0.201306101825-r]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
