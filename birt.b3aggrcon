@@ -4,7 +4,7 @@
     <features name="org.eclipse.birt.feature.group" versionRange="4.3.0.v201306051647-DTDN7DGjtEqcbHuY3YHRG7D26DT4">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
-    <features name="org.eclipse.birt.cshelp.feature.group" versionRange="4.3.0.v201306051647-52-7w31241715262A">
+    <features name="org.eclipse.birt.cshelp.feature.group" versionRange="4.3.0.v201306051647-52-7w312417222143">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
     <features name="org.eclipse.birt.chart.cshelp.feature.group" versionRange="4.3.0.v201306051647-52-7w31241715262A">
