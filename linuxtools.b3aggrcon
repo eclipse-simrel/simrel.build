@@ -43,6 +43,10 @@
     <features name="org.eclipse.linuxtools.gdbtrace.feature.group" versionRange="1.0.0.201306111610">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
     </features>
+    <features name="org.eclipse.linuxtools.changelog.c.feature.group" versionRange="1.0.0.201306111610">
+    </features>
+    <features name="org.eclipse.linuxtools.changelog.java.feature.group" versionRange="1.0.0.201306111610">
+    </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='jjohnstn@redhat.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='akurtako@redhat.com']"/>
