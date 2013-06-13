@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="BIRT">
-  <repositories location="http://download.eclipse.org/birt/update-site/kepler-interim/" description="BIRT interim">
+  <repositories location="http://download.eclipse.org/releases/kepler/201306131900/" description="BIRT interim">
     <features name="org.eclipse.birt.feature.group" versionRange="4.3.0.v201306051647-DTDN7DGjtEqcbHuY3YHRG7D26DT4">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
