@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="DLTK">
-  <repositories location="http://download.eclipse.org/releases/kepler/201306131900/" description="DLTK 5.0">
+  <repositories location="http://archive.eclipse.org/releases/kepler/201306131900/" description="DLTK 5.0">
     <features name="org.eclipse.dltk.core.feature.group" versionRange="5.0.0.201306060709">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
