@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="DataTools">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" enabled="false" label="DataTools">
   <repositories location="http://download.eclipse.org/datatools/downloads/drops/M_updates_1.11.0" description="DTP 1.11.0 updates">
     <features name="org.eclipse.datatools.sdk.feature.feature.group" versionRange="1.11.0.v201302211047-7PAi1FEpPZFKYstHw29WUuTdipv3">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Database%20Development']"/>
