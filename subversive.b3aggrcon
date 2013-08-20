@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" enabled="true" label="Subversive">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" enabled="false" label="Subversive">
   <repositories location="http://download.eclipse.org/technology/subversive/1.1/luna-site/" description="Subversive updates">
     <features name="org.eclipse.team.svn.feature.group" versionRange="[1.1.0,1.3.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
