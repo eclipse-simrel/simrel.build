@@ -278,6 +278,7 @@
     <features href="mft.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="m2e.b3aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="General Purpose Tools" label="General Purpose Tools" description="Tools that can be used by a wide variety of developers.">
     <features href="actf.b3aggrcon#//@repositories.0/@features.0"/>
@@ -323,6 +324,7 @@
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.12"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.11"/>
+    <features href="m2e.b3aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
     <features href="soa-sca.b3aggrcon#//@repositories.0/@features.0"/>
