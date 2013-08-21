@@ -10,7 +10,7 @@
     <features name="org.eclipse.mylyn.trac_feature.feature.group" versionRange="3.10.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.cdt.mylyn.feature.group" versionRange="5.6.0" enabled="false">
+    <features name="org.eclipse.cdt.mylyn.feature.group" versionRange="5.6.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <features name="org.eclipse.mylyn.context_feature.feature.group" versionRange="3.10.0">
@@ -52,7 +52,7 @@
     <features name="org.eclipse.mylyn.commons.repositories.feature.group" versionRange="1.2.0"/>
     <features name="org.eclipse.mylyn.commons.repositories.http.feature.group" versionRange="1.2.0"/>
     <features name="org.eclipse.mylyn.commons.sdk.feature.group" versionRange="3.10.0"/>
-    <features name="org.eclipse.mylyn.context.sdk.feature.group" versionRange="3.10.0" enabled="false"/>
+    <features name="org.eclipse.mylyn.context.sdk.feature.group" versionRange="3.10.0"/>
     <features name="org.eclipse.mylyn.reviews.feature.feature.group" versionRange="1.1.0"/>
     <features name="org.eclipse.mylyn.reviews.sdk.feature.feature.group" versionRange="1.1.0"/>
     <features name="org.eclipse.mylyn.sdk_feature.feature.group" versionRange="3.10.0"/>
