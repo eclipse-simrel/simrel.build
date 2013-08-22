@@ -19,10 +19,10 @@
     <features name="org.eclipse.jpt.jaxb.feature.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
-    <features enabled="false" name="org.eclipse.jpt.jpa.eclipselink.feature.feature.group">
+    <features name="org.eclipse.jpt.jpa.eclipselink.feature.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
-    <features enabled="false" name="org.eclipse.jpt.jpa.feature.feature.group">
+    <features name="org.eclipse.jpt.jpa.feature.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
     <features enabled="false" name="org.eclipse.jpt.jpadiagrameditor.feature.feature.group">
