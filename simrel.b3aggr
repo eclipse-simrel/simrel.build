@@ -141,10 +141,8 @@
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="emf-compare.b3aggrcon#//@repositories.0/@features.5"/>
-    <features href="emf-compare.b3aggrcon#//@repositories.0/@features.6"/>
+	<features href="emf-compare.b3aggrcon#//@repositories.0/@features.4"/>
     <features href="emf-diffmerge.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-compare.b3aggrcon#//@repositories.0/@features.4"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.1"/>
