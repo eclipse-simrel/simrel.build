@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Koneki">
-  <repositories enabled="true" location="http://download.eclipse.org/koneki/releases/stable/ldt/1.0" description="Koneki updates">
-    <features name="org.eclipse.koneki.ldt.feature.group" versionRange="1.0.0">
+  <repositories enabled="true" location="http://download.eclipse.org/koneki/releases/milestones/ldt/1.0.1RC1" description="Koneki updates">
+    <features name="org.eclipse.koneki.ldt.feature.group" versionRange="1.0.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.koneki.ldt.remote.feature.group" versionRange="1.0.0">
+    <features name="org.eclipse.koneki.ldt.remote.feature.group" versionRange="1.0.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
   </repositories>
