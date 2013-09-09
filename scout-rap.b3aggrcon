@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Scout Business Application Development" label="Scout RAP Runtime">
-  <repositories location="http://download.eclipse.org/scout/releases/3.9/3.9.0/scout.rap/RC4-20130612-0452" description="Scout RAP Targets">
-    <features description="Eclipse Scout SDK RAP" name="org.eclipse.scout.rt.rap.source.feature.group" versionRange="3.9.0">
+  <repositories location="http://download.eclipse.org/scout/releases/3.9/3.9.1/scout.rap/RC2-20130904-0809" description="Scout RAP Targets">
+    <features description="Eclipse Scout SDK RAP" name="org.eclipse.scout.rt.rap.source.feature.group" versionRange="3.9.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
-    <features description="Eclipse Scout Runtime RAP Basic Target" name="org.eclipse.scout.rt.rap.basic.target.feature.group" versionRange="3.9.0">
+    <features description="Eclipse Scout Runtime RAP Basic Target" name="org.eclipse.scout.rt.rap.basic.target.feature.group" versionRange="3.9.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
-    <features description="Eclipse Scout Runtime RAP Target" name="org.eclipse.scout.rt.rap.target.feature.group" versionRange="3.9.0"/>
-    <features description="Eclipse Scout Runtime RAP Testing" name="org.eclipse.scout.rt.rap.testing.source.feature.group" versionRange="3.9.0">
+    <features description="Eclipse Scout Runtime RAP Target" name="org.eclipse.scout.rt.rap.target.feature.group" versionRange="3.9.1"/>
+    <features description="Eclipse Scout Runtime RAP Testing" name="org.eclipse.scout.rt.rap.testing.source.feature.group" versionRange="3.9.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
   </repositories>

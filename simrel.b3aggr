@@ -257,7 +257,6 @@
     <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.4"/>
-    <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.5"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="ecf.b3aggrcon#//@repositories.0/@features.0"/>
@@ -278,6 +277,10 @@
     <features href="mft.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="mft.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="egit.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="egit.b3aggrcon#//@repositories.0/@features.6"/>
+    <features href="egit.b3aggrcon#//@repositories.0/@features.7"/>
   </customCategories>
   <customCategories identifier="General Purpose Tools" label="General Purpose Tools" description="Tools that can be used by a wide variety of developers.">
     <features href="actf.b3aggrcon#//@repositories.0/@features.0"/>
@@ -519,4 +522,5 @@
   <contacts name="Sven Rottstock" email="sven.rottstock@sungard.com"/>
   <contacts name="Herbert Neureiter" email="herbert.neureiter@sungard.com"/>
   <contacts name="Ken Lee" email="ken.lee@bsiag.com"/>
+  <contacts name="Andreas Sewe" email="andreas.sewe@codetrails.com"/>
 </aggregator:Aggregation>

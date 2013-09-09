@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="TCF">
-  <repositories location="http://download.eclipse.org/tools/tcf/builds/1.1/milestones/rc4" description="TCF 1.1 Milestones">
-    <features name="org.eclipse.tcf.cdt.feature.feature.group" versionRange="[1.1.0.201306060557]">
+  <repositories location="http://download.eclipse.org/tools/tcf/builds/1.1/milestones/sr1_rc2" description="TCF 1.1 Milestones">
+    <features name="org.eclipse.tcf.cdt.feature.feature.group" versionRange="1.1.1.201308271943">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.tcf.rse.feature.feature.group" versionRange="[1.1.0.201306060557]">
+    <features name="org.eclipse.tcf.rse.feature.feature.group" versionRange="1.1.1.201308271943">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.tcf.te.tcf.feature.feature.group" versionRange="[1.1.0.201306060722]">
+    <features name="org.eclipse.tcf.te.tcf.feature.feature.group" versionRange="1.1.1.201308271943">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.tcf.te.tcf.launch.cdt.feature.feature.group" versionRange="[1.1.0.201306060722]"/>
-    <features name="org.eclipse.tcf.te.terminals.feature.feature.group" versionRange="[1.1.0.201305210733]"/>
+    <features name="org.eclipse.tcf.te.tcf.launch.cdt.feature.feature.group" versionRange="1.1.1.201308251028"/>
+    <features name="org.eclipse.tcf.te.terminals.feature.feature.group" versionRange="1.1.1.201308251028"/>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='martin.oberhuber@windriver.com']"/>
 </aggregator:Contribution>

@@ -4,6 +4,8 @@
     <features name="org.eclipse.recommenders.feature.rcp.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
+    <features name="org.eclipse.recommenders.feature.rcp.source.feature.group"/>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='bruch@cs.tu-darmstadt.de']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='andreas.sewe@codetrails.com']"/>
 </aggregator:Contribution>
