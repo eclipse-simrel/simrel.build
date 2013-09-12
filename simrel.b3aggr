@@ -142,7 +142,7 @@
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.3"/>
-		<features href="emf-compare.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="emf-compare.b3aggrcon#//@repositories.0/@features.4"/>
     <features href="emf-diffmerge.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.1"/>
@@ -430,7 +430,6 @@
   <contacts name="David Williams" email="david_williams@us.ibm.com"/>
   <contacts name="Mik Kersten" email="mik.kersten@tasktop.com"/>
   <contacts name="Steffen Pingel" email="steffen.pingel@tasktop.com"/>
-  <contacts name="Shawn Minto" email="shawn.minto@tasktop.com"/>
   <contacts name="Vivian Kong" email="vivkong@ca.ibm.com"/>
   <contacts name="Doug Schaefer" email="cdtdoug@gmail.com"/>
   <contacts name="David Dykstal" email="david_dykstal@us.ibm.com"/>
@@ -517,4 +516,5 @@
   <contacts name="Herbert Neureiter" email="herbert.neureiter@sungard.com"/>
   <contacts name="Ken Lee" email="ken.lee@bsiag.com"/>
   <contacts name="Andreas Sewe" email="andreas.sewe@codetrails.com"/>
+  <contacts name="Tomasz Zarna" email="tomasz.zarna@tasktop.com"/>
 </aggregator:Aggregation>

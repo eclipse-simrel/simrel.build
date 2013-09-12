@@ -61,6 +61,6 @@
     <features name="org.eclipse.mylyn.versions.sdk.feature.group" versionRange="1.2.0"/>
     <features name="org.eclipse.mylyn.wikitext.sdk.feature.group" versionRange="1.9.0"/>
   </repositories>
+  <contacts href="simrel.b3aggr#//@contacts[email='tomasz.zarna@tasktop.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='steffen.pingel@tasktop.com']"/>
-  <contacts href="simrel.b3aggr#//@contacts[email='shawn.minto@tasktop.com']"/>
 </aggregator:Contribution>
