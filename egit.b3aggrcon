@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EGit">
-  <repositories location="https://repo.eclipse.org/content/unzip/releases.unzip/org/eclipse/egit/org.eclipse.egit.repository/3.0.2.201311090911-r/org.eclipse.egit.repository-3.0.2.201311090911-r.zip-unzip/" description="EGit Updates">
-    <features name="org.eclipse.jgit.feature.group" versionRange="[3.0.2.201311090911-r]">
+  <repositories location="http://download.eclipse.org/egit/updates-3.0.3/" description="EGit Updates">
+    <features name="org.eclipse.jgit.feature.group" versionRange="[3.0.3.201309161630-r]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.jgit.pgm.feature.group" versionRange="[3.0.2.201311090911-r]">
+    <features name="org.eclipse.jgit.pgm.feature.group" versionRange="[3.0.3.201309161630-r]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.egit.feature.group" versionRange="[3.0.2.201311090911-r]">
+    <features name="org.eclipse.egit.feature.group" versionRange="[3.0.3.201309161630-r]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.egit.mylyn.feature.group" versionRange="[3.0.2.201311090911-r]">
+    <features name="org.eclipse.egit.mylyn.feature.group" versionRange="[3.0.3.201309161630-r]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.jgit.java7.feature.group" versionRange="[3.0.2.201311090911-r]">
+    <features name="org.eclipse.jgit.java7.feature.group" versionRange="[3.0.3.201309161630-r]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.jgit.source.feature.group" versionRange="[3.0.2.201311090911-r]">
+    <features name="org.eclipse.jgit.source.feature.group" versionRange="[3.0.3.201309161630-r]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.jgit.pgm.source.feature.group" versionRange="[3.0.2.201311090911-r]">
+    <features name="org.eclipse.jgit.pgm.source.feature.group" versionRange="[3.0.3.201309161630-r]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.egit.source.feature.group" versionRange="[3.0.2.201311090911-r]">
+    <features name="org.eclipse.egit.source.feature.group" versionRange="[3.0.3.201309161630-r]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
