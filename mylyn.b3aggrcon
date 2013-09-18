@@ -40,7 +40,7 @@
     <features name="org.eclipse.mylyn.hudson.feature.group" versionRange="[1.1.1,1.2.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.gerrit.feature.feature.group" versionRange="[1.1.1,1.2.0)">
+    <features name="org.eclipse.mylyn.gerrit.feature.feature.group" versionRange="[2.0.1,2.1.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <features name="org.eclipse.mylyn.builds.feature.group" versionRange="[1.1.1,1.2.0)"/>
@@ -53,8 +53,8 @@
     <features name="org.eclipse.mylyn.commons.repositories.http.feature.group" versionRange="[1.1.1,1.2.0)"/>
     <features name="org.eclipse.mylyn.commons.sdk.feature.group" versionRange="[3.9.1,3.10.0)"/>
     <features name="org.eclipse.mylyn.context.sdk.feature.group" versionRange="[3.9.1,3.10.0)"/>
-    <features name="org.eclipse.mylyn.reviews.feature.feature.group" versionRange="[1.1.1,1.2.0)"/>
-    <features name="org.eclipse.mylyn.reviews.sdk.feature.feature.group" versionRange="[1.1.1,1.2.0)"/>
+    <features name="org.eclipse.mylyn.reviews.feature.feature.group" versionRange="[2.0.1,2.1.0)"/>
+    <features name="org.eclipse.mylyn.reviews.sdk.feature.feature.group" versionRange="[2.0.1,2.1.0)"/>
     <features name="org.eclipse.mylyn.sdk_feature.feature.group" versionRange="[3.9.1,3.10.0)"/>
     <features name="org.eclipse.mylyn.tasks.ide.feature.group" versionRange="[3.9.1,3.10.0)"/>
     <features name="org.eclipse.mylyn.versions.feature.group" versionRange="[1.1.1,1.2.0)"/>
