@@ -26,7 +26,7 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/egit/github/updates-3.0" description="EGit GitHub Updates">
+  <repositories enabled="false" location="http://download.eclipse.org/egit/github/updates-3.0" description="EGit GitHub Updates">
     <features name="org.eclipse.mylyn.github.feature.feature.group" versionRange="[3.0.0.201306101825-r]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
