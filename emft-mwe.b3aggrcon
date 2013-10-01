@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EMFT MWE">
-  <repositories location="http://download.eclipse.org/modeling/emft/mwe/updates/milestones/S201308130715/mwe" description="EMFT MWE p2 repository">
-    <features name="org.eclipse.emf.mwe2.runtime.sdk.feature.group" versionRange="2.4.0">
+  <repositories location="http://download.eclipse.org/modeling/emft/mwe/updates/milestones/S201310010411/mwe" description="EMFT MWE p2 repository">
+    <features name="org.eclipse.emf.mwe2.runtime.sdk.feature.group" versionRange="2.5.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.emf.mwe.sdk.feature.group" versionRange="1.3.0">
+    <features name="org.eclipse.emf.mwe.sdk.feature.group" versionRange="1.3.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/modeling/emft/mwe/updates/milestones/S201308130938/mwe2lang" description="EMFT MWE lang p2 repository">
-    <features name="org.eclipse.emf.mwe2.language.sdk.feature.group" versionRange="2.4.0">
+  <repositories location="http://download.eclipse.org/modeling/emft/mwe/updates/milestones/S201310010801/mwe2lang" description="EMFT MWE lang p2 repository">
+    <features name="org.eclipse.emf.mwe2.language.sdk.feature.group" versionRange="2.5.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
