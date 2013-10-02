@@ -10,9 +10,11 @@
     <features name="org.eclipse.emf.cdo.compare.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
+    <!--
     <features name="org.eclipse.emf.cdo.dawn.sdk.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
+      -->
     <features name="org.eclipse.emf.cdo.epp.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
