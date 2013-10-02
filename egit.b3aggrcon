@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EGit">
-  <repositories location="http://download.eclipse.org/egit/updates-3.1" description="EGit Updates">
+  <repositories location="http://download.eclipse.org/egit/updates-3.1-RC1" description="EGit Updates">
     <features name="org.eclipse.jgit.feature.group" versionRange="[3.1.0.201309270735-rc1]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
