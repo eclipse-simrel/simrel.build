@@ -152,6 +152,7 @@
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="sphinx.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="sphinx.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="emf-compare.b3aggrcon#//@repositories.0/@features.5"/>
   </customCategories>
   <customCategories identifier="Programming Languages" label="Programming Languages" description="Tools to allow development with specific languages, such as Java and C++">
     <features href="ep.b3aggrcon#//@repositories.0/@features.3"/>

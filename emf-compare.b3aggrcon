@@ -16,7 +16,9 @@
     <features name="org.eclipse.emf.compare.uml2.feature.group" versionRange="[2.2.0,3.0.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.emf.compare.diagram.gmf.feature.group" versionRange="[2.2.0,3.0.0)"/>
+    <features name="org.eclipse.emf.compare.diagram.gmf.feature.group" versionRange="[2.2.0,3.0.0)">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='cedric.brun@obeo.fr']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='laurent.goubet@obeo.fr']"/>
