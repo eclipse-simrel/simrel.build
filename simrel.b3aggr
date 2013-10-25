@@ -68,6 +68,7 @@
     <contributions href="m2e-wtp.b3aggrcon#/"/>
     <contributions href="stardust.b3aggrcon#/"/>
     <contributions href="sphinx.b3aggrcon#/"/>
+    <contributions href="sirius.b3aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
@@ -153,6 +154,13 @@
     <features href="sphinx.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="sphinx.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="sirius.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="sirius.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="sirius.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="sirius.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="sirius.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="sirius.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="sirius.b3aggrcon#//@repositories.0/@features.6"/>
   </customCategories>
   <customCategories identifier="Programming Languages" label="Programming Languages" description="Tools to allow development with specific languages, such as Java and C++">
     <features href="ep.b3aggrcon#//@repositories.0/@features.3"/>
@@ -526,4 +534,6 @@
   <contacts name="Tomasz Zarna" email="tomasz.zarna@tasktop.com"/>
   <contacts name="Idrissa Dieng" email="idydieng@gmail.com"/>
   <contacts name="Stephan Eberle" email="stephaneberle9@gmail.com"/>
+  <contacts name="Pierre-Charles David" email="pierre-charles.david@obeo.fr"/>
+  <contacts name="Laurent Redor" email="laurent.redor@obeo.fr"/>
 </aggregator:Aggregation>
