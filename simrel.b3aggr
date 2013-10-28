@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" buildmaster="//@contacts[email='david_williams@us.ibm.com']" label="Kepler" buildRoot="buildresults" sendmail="true" type="I" allowLegacySites="false">
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" buildmaster="//@contacts[email='david_williams@us.ibm.com']" label="Luna" buildRoot="buildresultsLuna" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false">
   <validationSets label="main">
     <contributions href="equinox.b3aggrcon#/"/>
     <contributions href="ep.b3aggrcon#/"/>
@@ -67,6 +67,8 @@
     <contributions href="emf-diffmerge.b3aggrcon#/"/>
     <contributions href="m2e-wtp.b3aggrcon#/"/>
     <contributions href="stardust.b3aggrcon#/"/>
+    <contributions href="sphinx.b3aggrcon#/"/>
+    <contributions href="sirius.b3aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
@@ -110,7 +112,8 @@
     <features href="emft-ecoretools.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="mdt-modisco.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-eef.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.b3aggrcon#//@repositories.0/@features.0"/>
@@ -141,17 +144,23 @@
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="emf-compare.b3aggrcon#//@repositories.0/@features.5"/>
-    <features href="emf-compare.b3aggrcon#//@repositories.0/@features.6"/>
-    <features href="emf-diffmerge.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="emf-diffmerge.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="sphinx.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="sphinx.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="emf-compare.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="sirius.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="sirius.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="sirius.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="sirius.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="sirius.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="sirius.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="sirius.b3aggrcon#//@repositories.0/@features.6"/>
   </customCategories>
   <customCategories identifier="Programming Languages" label="Programming Languages" description="Tools to allow development with specific languages, such as Java and C++">
     <features href="ep.b3aggrcon#//@repositories.0/@features.3"/>
@@ -257,7 +266,6 @@
     <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.4"/>
-    <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.5"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="ecf.b3aggrcon#//@repositories.0/@features.0"/>
@@ -278,6 +286,10 @@
     <features href="mft.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="m2e.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="egit.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="egit.b3aggrcon#//@repositories.0/@features.6"/>
+    <features href="egit.b3aggrcon#//@repositories.0/@features.7"/>
   </customCategories>
   <customCategories identifier="General Purpose Tools" label="General Purpose Tools" description="Tools that can be used by a wide variety of developers.">
     <features href="actf.b3aggrcon#//@repositories.0/@features.0"/>
@@ -323,6 +335,7 @@
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.12"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.11"/>
+    <features href="m2e.b3aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
     <features href="soa-sca.b3aggrcon#//@repositories.0/@features.0"/>
@@ -408,7 +421,7 @@
   </customCategories>
   <contacts name="Gorkem Ercan" email="gorkem.ercan@gmail.com"/>
   <contacts name="Kenn Hussey" email="Kenn.Hussey@gmail.com"/>
-  <contacts name="WHO?" email="adolfosbh@gmail.com"/>
+  <contacts name="Adolfo Sanchez-Barbudo Herrera" email="adolfosbh@gmail.com"/>
   <contacts name="Michal Ruzicka" email="michal.ruzicka@cloudsmith.com"/>
   <contacts name="Jacek Pospychela" email="jacek.pospychala@gmail.com"/>
   <contacts name="Scott Lewis" email="slewis@composent.com"/>
@@ -432,7 +445,6 @@
   <contacts name="David Williams" email="david_williams@us.ibm.com"/>
   <contacts name="Mik Kersten" email="mik.kersten@tasktop.com"/>
   <contacts name="Steffen Pingel" email="steffen.pingel@tasktop.com"/>
-  <contacts name="Shawn Minto" email="shawn.minto@tasktop.com"/>
   <contacts name="Vivian Kong" email="vivkong@ca.ibm.com"/>
   <contacts name="Doug Schaefer" email="cdtdoug@gmail.com"/>
   <contacts name="David Dykstal" email="david_dykstal@us.ibm.com"/>
@@ -469,7 +481,7 @@
   <contacts name="Diego Sandin" email="diegosandin@gmail.com"/>
   <contacts name="PDT Build Team" email="roy@zend.com"/>
   <contacts name="Greg Watson" email="g.watson@computer.org"/>
-  <contacts name="Beth Tibbitts" email="tibbitts@us.ibm.com"/>
+  <contacts name="Beth Tibbitts" email="beth@tibweb.com"/>
   <contacts name="Oisin Hurley" email="oisin.hurley@gmail.com"/>
   <contacts name="Antoine Toulme" email="antoine@lunar-ocean.com"/>
   <contacts name="Stephane Drapeau" email="stephane.drapeau@obeo.fr"/>
@@ -482,7 +494,6 @@
   <contacts name="Matthias Sohn" email="matthias.sohn@sap.com"/>
   <contacts name="Christian Campo" email="Christian.Campo@compeople.de"/>
   <contacts name="Sabine Achilles" email="Sabine.Achilles@compeople.de"/>
-  <contacts name="Adolfo Sanchez-Barbudo Herrera" email="adolfosbh@opencanarias.com"/>
   <contacts name="Benoit Langlois" email="benoit.langlois@thalesgroup.com"/>
   <contacts name="Stephan Herrmann" email="stephan@cs.tu-berlin.de"/>
   <contacts name="Gunnar Wagenknecht" email="gunnar@wagenknecht.org"/>
@@ -494,7 +505,7 @@
   <contacts name="Mark R Russell" email="mrrussell@google.com"/>
   <contacts name="Chokri Mraidha" email="chokri.mraidha@cea.fr"/>
   <contacts name="Markus Tiede" email="Markus.Tiede@bredex.de"/>
-  <contacts name="Zeb Ford-Reitz" email="Zeb.Ford-Reitz@bredex.de"/>
+  <contacts name="Marvin Mueller" email="Marvin.Mueller@bredex.de"/>
   <contacts name="Judith Gull" email="judith.gull@bsiag.com"/>
   <contacts name="Vincent Zurczak" email="vincent.zurczak@linagora.com"/>
   <contacts name="Kaloyan Raev" email="kaloyan.raev@sap.com"/>
@@ -519,4 +530,10 @@
   <contacts name="Sven Rottstock" email="sven.rottstock@sungard.com"/>
   <contacts name="Herbert Neureiter" email="herbert.neureiter@sungard.com"/>
   <contacts name="Ken Lee" email="ken.lee@bsiag.com"/>
+  <contacts name="Andreas Sewe" email="andreas.sewe@codetrails.com"/>
+  <contacts name="Tomasz Zarna" email="tomasz.zarna@tasktop.com"/>
+  <contacts name="Idrissa Dieng" email="idydieng@gmail.com"/>
+  <contacts name="Stephan Eberle" email="stephaneberle9@gmail.com"/>
+  <contacts name="Pierre-Charles David" email="pierre-charles.david@obeo.fr"/>
+  <contacts name="Laurent Redor" email="laurent.redor@obeo.fr"/>
 </aggregator:Aggregation>
