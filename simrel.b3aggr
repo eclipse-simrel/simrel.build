@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" buildmaster="//@contacts[email='david_williams@us.ibm.com']" label="Luna" buildRoot="buildresultsLuna" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false">
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Aggregation files used for yearly &quot;release train&quot;." buildmaster="//@contacts[email='david_williams@us.ibm.com']" label="Luna" buildRoot="buildresultsLuna" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false">
   <validationSets label="main">
     <contributions href="equinox.b3aggrcon#/"/>
     <contributions href="ep.b3aggrcon#/"/>
@@ -77,22 +77,187 @@
     <contributions href="rap.b3aggrcon#/"/>
     <contributions href="scout-rap.b3aggrcon#/"/>
   </validationSets>
-  <configurations/>
-  <configurations architecture="x86_64"/>
-  <configurations operatingSystem="linux" windowSystem="gtk"/>
-  <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
-  <configurations operatingSystem="linux" windowSystem="gtk" architecture="ppc64"/>
-  <configurations operatingSystem="linux" windowSystem="gtk" architecture="ppc"/>
-  <configurations operatingSystem="linux" windowSystem="gtk" architecture="s390"/>
-  <configurations operatingSystem="linux" windowSystem="gtk" architecture="s390x"/>
-  <configurations operatingSystem="solaris" windowSystem="gtk" architecture="sparc"/>
-  <configurations operatingSystem="solaris" windowSystem="gtk"/>
-  <configurations operatingSystem="macosx" windowSystem="cocoa"/>
-  <configurations operatingSystem="macosx" windowSystem="cocoa" architecture="x86_64"/>
-  <configurations operatingSystem="macosx" windowSystem="cocoa" architecture="ppc"/>
   <configurations operatingSystem="aix" windowSystem="gtk" architecture="ppc"/>
   <configurations operatingSystem="aix" windowSystem="gtk" architecture="ppc64"/>
   <configurations operatingSystem="hpux" windowSystem="gtk" architecture="ia64"/>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="ppc"/>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="ppc64"/>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="s390"/>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="s390x"/>
+  <configurations operatingSystem="linux" windowSystem="gtk"/>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
+  <configurations operatingSystem="macosx" windowSystem="cocoa" architecture="ppc"/>
+  <configurations operatingSystem="macosx" windowSystem="cocoa"/>
+  <configurations operatingSystem="macosx" windowSystem="cocoa" architecture="x86_64"/>
+  <configurations operatingSystem="solaris" windowSystem="gtk" architecture="sparc"/>
+  <configurations operatingSystem="solaris" windowSystem="gtk"/>
+  <configurations/>
+  <configurations architecture="x86_64"/>
+  <customCategories identifier="Application Development Frameworks" label="Application Development Frameworks" description="Frameworks supporting application development.">
+    <features href="scout.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="sapphire.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="sapphire.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="sapphire.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="sapphire.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="sapphire.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="sapphire.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="sapphire.b3aggrcon#//@repositories.0/@features.6"/>
+    <features href="sapphire.b3aggrcon#//@repositories.0/@features.7"/>
+    <features href="sapphire.b3aggrcon#//@repositories.0/@features.8"/>
+    <features href="sapphire.b3aggrcon#//@repositories.0/@features.9"/>
+    <features href="sapphire.b3aggrcon#//@repositories.0/@features.10"/>
+  </customCategories>
+  <customCategories identifier="Business Intelligence, Reporting and Charting" label="Business Intelligence, Reporting and Charting" description="Tools to visualize information, create data-driven web pages, PDF documents and other content using data from a wide variety of sources.">
+    <features href="birt.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="birt.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="birt.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="birt.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="birt.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="birt.b3aggrcon#//@repositories.0/@features.5"/>
+  </customCategories>
+  <customCategories identifier="Collaboration" label="Collaboration" description="Tools to foster collaboration between developers.">
+    <features href="ep.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="mylyn.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="mylyn.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="mylyn.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="mylyn.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="mylyn.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="mylyn.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="mylyn.b3aggrcon#//@repositories.0/@features.6"/>
+    <features href="mylyn.b3aggrcon#//@repositories.0/@features.7"/>
+    <features href="mylyn.b3aggrcon#//@repositories.0/@features.8"/>
+    <features href="mylyn.b3aggrcon#//@repositories.0/@features.9"/>
+    <features href="mylyn.b3aggrcon#//@repositories.0/@features.10"/>
+    <features href="mylyn.b3aggrcon#//@repositories.0/@features.11"/>
+    <features href="mylyn.b3aggrcon#//@repositories.0/@features.12"/>
+    <features href="mylyn.b3aggrcon#//@repositories.0/@features.13"/>
+    <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="subversive.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="subversive.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="ecf.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="ecf.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="dltk.b3aggrcon#//@repositories.0/@features.6"/>
+    <features href="egit.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="egit.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="egit.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="egit.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="egit.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="egit.b3aggrcon#//@repositories.1/@features.0"/>
+    <features href="subversive.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="subversive.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="m2e.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="m2e.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="mft.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="mft.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="mft.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="subversive.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="subversive.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="m2e.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="egit.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="egit.b3aggrcon#//@repositories.0/@features.6"/>
+    <features href="egit.b3aggrcon#//@repositories.0/@features.7"/>
+  </customCategories>
+  <customCategories identifier="Database Development" label="Database Development" description="Tools to define and access a wide variety of databases.">
+    <features href="dtp.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="dtp.b3aggrcon#//@repositories.0/@features.1"/>
+  </customCategories>
+  <customCategories identifier="EclipseRT Target Platform Components" label="EclipseRT Target Platform Components" description="This category identifies various Eclipse technology that is commonly used in runtime scenarios from RCP to embedded to server side. The components in this category are intended to be added to your Target Platform, rather than your IDE.">
+    <features href="equinox.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="eclipseLink.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="ecf.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="ecf.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="rap.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="rap.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="rap.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="rap.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="riena.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="riena.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="emf-emf-rap.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="birt.b3aggrcon#//@repositories.0/@features.6"/>
+    <features href="objectteams.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="gyrex.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="scout.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="scout-rap.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="scout.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="scout-rap.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="scout-rap.b3aggrcon#//@repositories.0/@features.3"/>
+  </customCategories>
+  <customCategories identifier="General Purpose Tools" label="General Purpose Tools" description="Tools that can be used by a wide variety of developers.">
+    <features href="actf.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="actf.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="actf.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="actf.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="ep.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="tm.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="tm.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="dltk.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="epp-mpc.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="mat.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="mat.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="mdt-ocl.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="tmf-xtext.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="pdt.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="ptp.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="ptp.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="ptp.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="ptp.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="ptp.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="ptp.b3aggrcon#//@repositories.0/@features.6"/>
+    <features href="ptp.b3aggrcon#//@repositories.0/@features.7"/>
+    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="tm.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="dltk.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="m2e.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.6"/>
+    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.7"/>
+    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.8"/>
+    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.9"/>
+    <features href="m2e.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="ep.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.10"/>
+    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.11"/>
+    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.12"/>
+    <features href="ptp.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="ptp.b3aggrcon#//@repositories.0/@features.11"/>
+    <features href="m2e.b3aggrcon#//@repositories.0/@features.2"/>
+  </customCategories>
+  <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
+    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.6"/>
+    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.8"/>
+    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.9"/>
+    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.10"/>
+    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.11"/>
+    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.12"/>
+    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.13"/>
+    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.0"/>
+  </customCategories>
+  <customCategories identifier="Mobile and Device Development" label="Mobile and Device Development" description="Tools used to develop mobile and device applications.">
+    <features href="tm.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="tm.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="tm.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="cdt.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="cdt.b3aggrcon#//@repositories.0/@features.10"/>
+    <features href="cdt.b3aggrcon#//@repositories.0/@features.11"/>
+    <features href="cdt.b3aggrcon#//@repositories.0/@features.12"/>
+    <features href="tcf.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="tcf.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="tcf.b3aggrcon#//@repositories.0/@features.2"/>
+  </customCategories>
   <customCategories identifier="Modeling" label="Modeling" description="Model definition, creation, and manipulation frameworks (e.g. EMF, OCL, GMF, M2M, M2T, GEF) and industry models (e.g. UML, JEM, XSD).">
     <features href="gmp-gmf-notation.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-gmf-runtime.b3aggrcon#//@repositories.0/@features.0"/>
@@ -196,6 +361,36 @@
     <features href="koneki.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.8"/>
   </customCategories>
+  <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
+    <features href="soa-sca.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="soa-sca.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="soa-sca.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="jwt.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="soa-bpel.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="soa-bpel.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="soa-bpel.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.6"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.7"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.8"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.9"/>
+    <features href="stardust.b3aggrcon#//@repositories.0/@features.10"/>
+    <features href="mdt-bpmn2.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.2"/>
+  </customCategories>
+  <customCategories identifier="Testing" label="Testing" description="Frameworks supporting application testing.">
+    <features href="jubula.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="jubula.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="jubula.b3aggrcon#//@repositories.0/@features.2"/>
+  </customCategories>
   <customCategories identifier="Web, XML, Java EE and OSGi Enterprise Development" label="Web, XML, Java EE and OSGi Enterprise Development" description="Tools to help create web applications, including JavaScript, XML, XSL, XSD, HTML, XHTML, CSS, JSP, EJBs, Webservices, JPA tand OSGi Enterprise Applications">
     <features href="webtools.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="webtools.b3aggrcon#//@repositories.0/@features.1"/>
@@ -234,319 +429,124 @@
     <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
-  <customCategories identifier="Database Development" label="Database Development" description="Tools to define and access a wide variety of databases.">
-    <features href="dtp.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="dtp.b3aggrcon#//@repositories.0/@features.1"/>
-  </customCategories>
-  <customCategories identifier="Mobile and Device Development" label="Mobile and Device Development" description="Tools used to develop mobile and device applications.">
-    <features href="tm.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="tm.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="tm.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="cdt.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="cdt.b3aggrcon#//@repositories.0/@features.10"/>
-    <features href="cdt.b3aggrcon#//@repositories.0/@features.11"/>
-    <features href="cdt.b3aggrcon#//@repositories.0/@features.12"/>
-    <features href="tcf.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="tcf.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="tcf.b3aggrcon#//@repositories.0/@features.2"/>
-  </customCategories>
-  <customCategories identifier="Collaboration" label="Collaboration" description="Tools to foster collaboration between developers.">
-    <features href="ep.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="mylyn.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="mylyn.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="mylyn.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="mylyn.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="mylyn.b3aggrcon#//@repositories.0/@features.4"/>
-    <features href="mylyn.b3aggrcon#//@repositories.0/@features.5"/>
-    <features href="mylyn.b3aggrcon#//@repositories.0/@features.6"/>
-    <features href="mylyn.b3aggrcon#//@repositories.0/@features.7"/>
-    <features href="mylyn.b3aggrcon#//@repositories.0/@features.8"/>
-    <features href="mylyn.b3aggrcon#//@repositories.0/@features.9"/>
-    <features href="mylyn.b3aggrcon#//@repositories.0/@features.10"/>
-    <features href="mylyn.b3aggrcon#//@repositories.0/@features.11"/>
-    <features href="mylyn.b3aggrcon#//@repositories.0/@features.12"/>
-    <features href="mylyn.b3aggrcon#//@repositories.0/@features.13"/>
-    <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="mylyn-docs-intent.b3aggrcon#//@repositories.0/@features.4"/>
-    <features href="subversive.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="subversive.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="ecf.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="ecf.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="dltk.b3aggrcon#//@repositories.0/@features.6"/>
-    <features href="egit.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="egit.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="egit.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="egit.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="egit.b3aggrcon#//@repositories.0/@features.4"/>
-    <features href="egit.b3aggrcon#//@repositories.1/@features.0"/>
-    <features href="subversive.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="subversive.b3aggrcon#//@repositories.0/@features.5"/>
-    <features href="m2e.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="m2e.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="mft.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="mft.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="mft.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="subversive.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="subversive.b3aggrcon#//@repositories.0/@features.4"/>
-    <features href="m2e.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="egit.b3aggrcon#//@repositories.0/@features.5"/>
-    <features href="egit.b3aggrcon#//@repositories.0/@features.6"/>
-    <features href="egit.b3aggrcon#//@repositories.0/@features.7"/>
-  </customCategories>
-  <customCategories identifier="General Purpose Tools" label="General Purpose Tools" description="Tools that can be used by a wide variety of developers.">
-    <features href="actf.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="actf.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="actf.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="actf.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="ep.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="tm.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="tm.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="dltk.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="epp-mpc.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="mat.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="mat.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="mdt-ocl.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="tmf-xtext.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="pdt.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="ptp.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="ptp.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="ptp.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="ptp.b3aggrcon#//@repositories.0/@features.4"/>
-    <features href="ptp.b3aggrcon#//@repositories.0/@features.5"/>
-    <features href="ptp.b3aggrcon#//@repositories.0/@features.6"/>
-    <features href="ptp.b3aggrcon#//@repositories.0/@features.7"/>
-    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.5"/>
-    <features href="tm.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="dltk.b3aggrcon#//@repositories.0/@features.5"/>
-    <features href="m2e.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.4"/>
-    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.5"/>
-    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.6"/>
-    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.7"/>
-    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.8"/>
-    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.9"/>
-    <features href="m2e.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="ep.b3aggrcon#//@repositories.0/@features.4"/>
-    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.10"/>
-    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.11"/>
-    <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.12"/>
-    <features href="ptp.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="ptp.b3aggrcon#//@repositories.0/@features.11"/>
-    <features href="m2e.b3aggrcon#//@repositories.0/@features.2"/>
-  </customCategories>
-  <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
-    <features href="soa-sca.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="soa-sca.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="soa-sca.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="jwt.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="soa-bpel.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="soa-bpel.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="soa-bpel.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="stardust.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="stardust.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="stardust.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="stardust.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="stardust.b3aggrcon#//@repositories.0/@features.4"/>
-    <features href="stardust.b3aggrcon#//@repositories.0/@features.5"/>
-    <features href="stardust.b3aggrcon#//@repositories.0/@features.6"/>
-    <features href="stardust.b3aggrcon#//@repositories.0/@features.7"/>
-    <features href="stardust.b3aggrcon#//@repositories.0/@features.8"/>
-    <features href="stardust.b3aggrcon#//@repositories.0/@features.9"/>
-    <features href="stardust.b3aggrcon#//@repositories.0/@features.10"/>
-    <features href="mdt-bpmn2.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.2"/>
-  </customCategories>
-  <customCategories identifier="EclipseRT Target Platform Components" label="EclipseRT Target Platform Components" description="This category identifies various Eclipse technology that is commonly used in runtime scenarios from RCP to embedded to server side. The components in this category are intended to be added to your Target Platform, rather than your IDE.">
-    <features href="equinox.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="eclipseLink.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="ecf.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="ecf.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="rap.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="rap.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="rap.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="rap.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="riena.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="riena.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-emf-rap.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="birt.b3aggrcon#//@repositories.0/@features.6"/>
-    <features href="objectteams.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="gyrex.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="scout.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="scout-rap.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="scout.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="scout-rap.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="scout-rap.b3aggrcon#//@repositories.0/@features.3"/>
-  </customCategories>
-  <customCategories identifier="Business Intelligence, Reporting and Charting" label="Business Intelligence, Reporting and Charting" description="Tools to visualize information, create data-driven web pages, PDF documents and other content using data from a wide variety of sources.">
-    <features href="birt.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="birt.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="birt.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="birt.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="birt.b3aggrcon#//@repositories.0/@features.4"/>
-    <features href="birt.b3aggrcon#//@repositories.0/@features.5"/>
-  </customCategories>
-  <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
-    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.4"/>
-    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.6"/>
-    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.8"/>
-    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.9"/>
-    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.10"/>
-    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.11"/>
-    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.12"/>
-    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.13"/>
-    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.0"/>
-  </customCategories>
-  <customCategories identifier="Application Development Frameworks" label="Application Development Frameworks" description="Frameworks supporting application development.">
-    <features href="scout.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="sapphire.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="sapphire.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="sapphire.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="sapphire.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="sapphire.b3aggrcon#//@repositories.0/@features.4"/>
-    <features href="sapphire.b3aggrcon#//@repositories.0/@features.5"/>
-    <features href="sapphire.b3aggrcon#//@repositories.0/@features.6"/>
-    <features href="sapphire.b3aggrcon#//@repositories.0/@features.7"/>
-    <features href="sapphire.b3aggrcon#//@repositories.0/@features.8"/>
-    <features href="sapphire.b3aggrcon#//@repositories.0/@features.9"/>
-    <features href="sapphire.b3aggrcon#//@repositories.0/@features.10"/>
-  </customCategories>
-  <customCategories identifier="Testing" label="Testing" description="Frameworks supporting application testing.">
-    <features href="jubula.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="jubula.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="jubula.b3aggrcon#//@repositories.0/@features.2"/>
-  </customCategories>
-  <contacts name="Gorkem Ercan" email="gorkem.ercan@gmail.com"/>
-  <contacts name="Kenn Hussey" email="Kenn.Hussey@gmail.com"/>
   <contacts name="Adolfo Sanchez-Barbudo Herrera" email="adolfosbh@gmail.com"/>
-  <contacts name="Michal Ruzicka" email="michal.ruzicka@cloudsmith.com"/>
-  <contacts name="Jacek Pospychela" email="jacek.pospychala@gmail.com"/>
-  <contacts name="Scott Lewis" email="slewis@composent.com"/>
-  <contacts name="Ian Bull" email="irbull@eclipsesource.com"/>
-  <contacts name="Anthony Hunter" email="anthonyh@ca.ibm.com"/>
   <contacts name="Alex Boyko" email="aboyko@ca.ibm.com"/>
+  <contacts name="Alex Kurtakov" email="akurtako@redhat.com"/>
+  <contacts name="Alex Lagarde" email="alex.lagarde@obeo.fr"/>
+  <contacts name="Alexander Gurov" email="alexander.gurov@polarion.com"/>
   <contacts name="Alexander Nyssen" email="alexander.nyssen@itemis.de"/>
-  <contacts name="St&#xe9;phane Bouchet" email="stephane.bouchet@obeo.fr"/>
+  <contacts name="Andreas Hoegger" email="andreas.hoegger@bsiag.com"/>
+  <contacts name="Andreas Sewe" email="andreas.sewe@codetrails.com"/>
+  <contacts name="Anthony Hunter" email="anthonyh@ca.ibm.com"/>
+  <contacts name="Antoine Toulme" email="antoine@lunar-ocean.com"/>
+  <contacts name="Artem Tikhomirov" email="tikhomirov.artem@gmail.com"/>
+  <contacts name="Ashwani Kr Sharma" email="ashw.kumar@gmail.com"/>
+  <contacts name="Benjamin Cabe" email="BCabe@sierrawireless.com"/>
+  <contacts name="Benjamin Muskalla" email="benjamin.muskalla@tasktop.com"/>
+  <contacts name="Benoit Langlois" email="benoit.langlois@thalesgroup.com"/>
+  <contacts name="Beth Tibbitts" email="beth@tibweb.com"/>
+  <contacts name="Camille Letavernier" email="camille.letavernier@cea.fr"/>
+  <contacts name="Carl Anderson" email="ccc@us.ibm.com"/>
   <contacts name="Carsten Reckord" email="reckord@yatta.de"/>
   <contacts name="Cedric Brun" email="cedric.brun@obeo.fr"/>
-  <contacts name="EMFT Ecore Tools Build Team" email="ed.merks@gmail.com"/>
-  <contacts name="William Piers" email="william.piers@obeo.fr"/>
-  <contacts name="Radek Dvorak" email="dvorak.radek@gmail.com"/>
-  <contacts name="Sergey Boyko" email="serg.boyko2011@gmail.com"/>
-  <contacts name="M2T JET Build Team" email="pelder@ca.ibm.com"/>
-  <contacts name="EMFT MINT Build Team" email="pnehrer@eclipticalsoftware.com"/>
-  <contacts name="Xtext, Xpand, MWE Build Team" email="alle-ki@itemis.de"/>
-  <contacts name="Dennis Huebner" email="dennis.huebner@itemis.de"/>
-  <contacts name="Xiaoying Gu" email="xgu@actuate.com"/>
-  <contacts name="Yong Jiang" email="yjiang@actuate.com"/>
-  <contacts name="David Williams" email="david_williams@us.ibm.com"/>
-  <contacts name="Mik Kersten" email="mik.kersten@tasktop.com"/>
-  <contacts name="Steffen Pingel" email="steffen.pingel@tasktop.com"/>
-  <contacts name="Manuel Bork" email="manuel.bork@yatta.de"/>
-  <contacts name="Vivian Kong" email="vivkong@ca.ibm.com"/>
-  <contacts name="Doug Schaefer" email="cdtdoug@gmail.com"/>
-  <contacts name="David Dykstal" email="david_dykstal@us.ibm.com"/>
-  <contacts name="Martin Oberhuber" email="martin.oberhuber@windriver.com"/>
-  <contacts name="Daniel Barboza Franco" email="nkvg64@motorola.com"/>
-  <contacts name="Daniel Drigo Pastore" email="kpqb38@motorola.com"/>
-  <contacts name="Marcel Augusto Gorri" email="wmg040@motorola.com"/>
-  <contacts name="Eric Cloninger" email="ericc@motorola.com"/>
+  <contacts name="Chokri Mraidha" email="chokri.mraidha@cea.fr"/>
+  <contacts name="Chris Aniszczyk" email="caniszczyk@gmail.com"/>
+  <contacts name="Christian Campo" email="Christian.Campo@compeople.de"/>
   <contacts name="Christian Saad" email="saad@informatik.uni-augsburg.de"/>
   <contacts name="DLTK Build Team" email="alex.panchenko@gmail.com"/>
   <contacts name="DLTK Build Team" email="andrey@xored.com"/>
-  <contacts name="Ralf Sternberg" email="rsternberg@eclipsesource.com"/>
-  <contacts name="Benjamin Muskalla" email="benjamin.muskalla@tasktop.com"/>
-  <contacts name="Igor Burilo" email="igor.burilo@polarion.org"/>
-  <contacts name="Alexander Gurov" email="alexander.gurov@polarion.com"/>
-  <contacts name="Kentarou Fukuda" email="kentarou@jp.ibm.com"/>
-  <contacts name="Wayne Beaton" email="wayne@eclipse.org"/>
-  <contacts name="Markus Knauer" email="mknauer@eclipsesource.com"/>
+  <contacts name="Daniel Barboza Franco" email="nkvg64@motorola.com"/>
+  <contacts name="Daniel Drigo Pastore" email="kpqb38@motorola.com"/>
+  <contacts name="David Dykstal" email="david_dykstal@us.ibm.com"/>
   <contacts name="David Green" email="david.green@tasktop.com"/>
-  <contacts name="Thomas Hallgren" email="thomas@tada.se"/>
-  <contacts name="Reiner Hille-Doering" email="reiner.hille-doering@sap.com"/>
-  <contacts name="Henning Heitk&#xf6;tter" email="hheitkoetter@gmail.com"/>
-  <contacts name="Eike Stepper" email="stepper@esc-net.de"/>
-  <contacts name="Eric Gwin" email="eric.gwin@oracle.com"/>
-  <contacts name="EMF TENEO Build Team" email="mtaal@elver.org"/>
-  <contacts name="Wenfeng Li" email="wli@actuate.com"/>
-  <contacts name="Krum Tsvetkov" email="krum.tsvetkov@sap.com"/>
-  <contacts name="Erwin Margewitsch" email="erwin.margewitsch@sap.com"/>
-  <contacts name="MDT OCL Build Team" email="Alexander.Igdalov@gmail.com"/>
-  <contacts name="Carl Anderson" email="ccc@us.ibm.com"/>
-  <contacts name="Ed Willink" email="ed@willink.me.uk"/>
-  <contacts name="EMF TRANSACTION Build Team" email="boris.gruschko@sap.com"/>
-  <contacts name="Laurent goubet" email="laurent.goubet@obeo.fr"/>
-  <contacts name="Artem Tikhomirov" email="tikhomirov.artem@gmail.com"/>
-  <contacts name="Gustavo de Paula" email="gustavo.eliano@gmail.com"/>
+  <contacts name="David Williams" email="david_williams@us.ibm.com"/>
+  <contacts name="Dennis Huebner" email="dennis.huebner@itemis.de"/>
   <contacts name="Diego Sandin" email="diegosandin@gmail.com"/>
-  <contacts name="PDT Build Team" email="roy@zend.com"/>
-  <contacts name="Greg Watson" email="g.watson@computer.org"/>
-  <contacts name="Beth Tibbitts" email="beth@tibweb.com"/>
-  <contacts name="Oisin Hurley" email="oisin.hurley@gmail.com"/>
-  <contacts name="Antoine Toulme" email="antoine@lunar-ocean.com"/>
-  <contacts name="Stephane Drapeau" email="stephane.drapeau@obeo.fr"/>
+  <contacts name="Doug Schaefer" email="cdtdoug@gmail.com"/>
+  <contacts name="EMF TENEO Build Team" email="mtaal@elver.org"/>
+  <contacts name="EMF TRANSACTION Build Team" email="boris.gruschko@sap.com"/>
+  <contacts name="EMFT Ecore Tools Build Team" email="ed.merks@gmail.com"/>
+  <contacts name="EMFT MINT Build Team" email="pnehrer@eclipticalsoftware.com"/>
+  <contacts name="Ed Willink" email="ed@willink.me.uk"/>
+  <contacts name="Eike Stepper" email="stepper@esc-net.de"/>
+  <contacts name="Eric Cloninger" email="ericc@motorola.com"/>
+  <contacts name="Eric Gwin" email="eric.gwin@oracle.com"/>
+  <contacts name="Erwin Margewitsch" email="erwin.margewitsch@sap.com"/>
+  <contacts name="Fred Bricon" email="fbricon@gmail.com"/>
+  <contacts name="Gorkem Ercan" email="gorkem.ercan@gmail.com"/>
   <contacts name="Goulwen Le Fur" email="goulwen.lefur@obeo.fr"/>
-  <contacts name="Jeff Johnston" email="jjohnstn@redhat.com"/>
-  <contacts name="Alex Kurtakov" email="akurtako@redhat.com"/>
-  <contacts name="Nicolas Bros" email="nbros.mia@gmail.com"/>
-  <contacts name="Shawn Pearce" email="sop@google.com"/>
-  <contacts name="Chris Aniszczyk" email="caniszczyk@gmail.com"/>
-  <contacts name="Matthias Sohn" email="matthias.sohn@sap.com"/>
-  <contacts name="Christian Campo" email="Christian.Campo@compeople.de"/>
-  <contacts name="Sabine Achilles" email="Sabine.Achilles@compeople.de"/>
-  <contacts name="Benoit Langlois" email="benoit.langlois@thalesgroup.com"/>
-  <contacts name="Stephan Herrmann" email="stephan@cs.tu-berlin.de"/>
+  <contacts name="Greg Watson" email="g.watson@computer.org"/>
+  <contacts name="Gregoire Dupe" email="gdupe@mia-software.com"/>
   <contacts name="Gunnar Wagenknecht" email="gunnar@wagenknecht.org"/>
-  <contacts name="Michael Wenz" email="michael.wenz@sap.com"/>
+  <contacts name="Gustavo de Paula" email="gustavo.eliano@gmail.com"/>
+  <contacts name="Henning Heitk&#xf6;tter" email="hheitkoetter@gmail.com"/>
+  <contacts name="Herbert Neureiter" email="herbert.neureiter@sungard.com"/>
+  <contacts name="Ian Bull" email="irbull@eclipsesource.com"/>
+  <contacts name="Idrissa Dieng" email="idydieng@gmail.com"/>
+  <contacts name="Igor Burilo" email="igor.burilo@polarion.org"/>
   <contacts name="Igor Fedorenko" email="ifedorenko@sonatype.com"/>
-  <contacts name="Remi Schnekenburger" email="remi.schnekenburger@cea.fr"/>
-  <contacts name="Miles Parker" email="milesparker@gmail.com"/>
-  <contacts name="Andreas Hoegger" email="andreas.hoegger@bsiag.com"/>
-  <contacts name="Mark R Russell" email="mrrussell@google.com"/>
-  <contacts name="Chokri Mraidha" email="chokri.mraidha@cea.fr"/>
-  <contacts name="Markus Tiede" email="Markus.Tiede@bredex.de"/>
-  <contacts name="Marvin Mueller" email="Marvin.Mueller@bredex.de"/>
-  <contacts name="Judith Gull" email="judith.gull@bsiag.com"/>
-  <contacts name="Vincent Zurczak" email="vincent.zurczak@linagora.com"/>
-  <contacts name="Kaloyan Raev" email="kaloyan.raev@sap.com"/>
-  <contacts name="Matthias Sohn" email="matthias.sohn@gmail.com"/>
-  <contacts name="Mickael Istria" email="mistria@redhat.com"/>
-  <contacts name="Michael Golubev" email="borlander@gmail.com"/>
-  <contacts name="Konstantin Komissarchik" email="konstantin.komissarchik@oracle.com"/>
-  <contacts name="Ashwani Kr Sharma" email="ashw.kumar@gmail.com"/>
-  <contacts name="Alex Lagarde" email="alex.lagarde@obeo.fr"/>
-  <contacts name="Marcel Bruch" email="bruch@cs.tu-darmstadt.de"/>
+  <contacts name="Jacek Pospychela" email="jacek.pospychala@gmail.com"/>
+  <contacts name="Jeff Johnston" email="jjohnstn@redhat.com"/>
   <contacts name="Johannes Lerch" email="lerch@cs.tu-darmstadt.de"/>
+  <contacts name="Judith Gull" email="judith.gull@bsiag.com"/>
+  <contacts name="Kaloyan Raev" email="kaloyan.raev@sap.com"/>
+  <contacts name="Ken Lee" email="ken.lee@bsiag.com"/>
+  <contacts name="Kenn Hussey" email="Kenn.Hussey@gmail.com"/>
+  <contacts name="Kentarou Fukuda" email="kentarou@jp.ibm.com"/>
+  <contacts name="Konstantin Komissarchik" email="konstantin.komissarchik@oracle.com"/>
+  <contacts name="Krum Tsvetkov" email="krum.tsvetkov@sap.com"/>
+  <contacts name="Laurent Redor" email="laurent.redor@obeo.fr"/>
+  <contacts name="Laurent goubet" email="laurent.goubet@obeo.fr"/>
+  <contacts name="M2T JET Build Team" email="pelder@ca.ibm.com"/>
+  <contacts name="MDT OCL Build Team" email="Alexander.Igdalov@gmail.com"/>
+  <contacts name="Manuel Bork" email="manuel.bork@yatta.de"/>
+  <contacts name="Marcel Augusto Gorri" email="wmg040@motorola.com"/>
+  <contacts name="Marcel Bruch" email="bruch@cs.tu-darmstadt.de"/>
+  <contacts name="Mark R Russell" email="mrrussell@google.com"/>
+  <contacts name="Markus Knauer" email="mknauer@eclipsesource.com"/>
+  <contacts name="Markus Tiede" email="Markus.Tiede@bredex.de"/>
+  <contacts name="Martin Oberhuber" email="martin.oberhuber@windriver.com"/>
+  <contacts name="Marvin Mueller" email="Marvin.Mueller@bredex.de"/>
+  <contacts name="Matthias Sohn" email="matthias.sohn@sap.com"/>
+  <contacts name="Matthias Sohn" email="matthias.sohn@gmail.com"/>
+  <contacts name="Michael Golubev" email="borlander@gmail.com"/>
+  <contacts name="Michael Wenz" email="michael.wenz@sap.com"/>
+  <contacts name="Michal Ruzicka" email="michal.ruzicka@cloudsmith.com"/>
+  <contacts name="Mickael Istria" email="mistria@redhat.com"/>
+  <contacts name="Mik Kersten" email="mik.kersten@tasktop.com"/>
+  <contacts name="Miles Parker" email="milesparker@gmail.com"/>
+  <contacts name="Nicolas Bros" email="nbros.mia@gmail.com"/>
+  <contacts name="Oisin Hurley" email="oisin.hurley@gmail.com"/>
+  <contacts name="Olivier Constant" email="olivier.constant@thalesgroup.com"/>
+  <contacts name="PDT Build Team" email="roy@zend.com"/>
+  <contacts name="Pierre-Charles David" email="pierre-charles.david@obeo.fr"/>
+  <contacts name="Radek Dvorak" email="dvorak.radek@gmail.com"/>
+  <contacts name="Ralf Sternberg" email="rsternberg@eclipsesource.com"/>
+  <contacts name="Reiner Hille-Doering" email="reiner.hille-doering@sap.com"/>
+  <contacts name="Remi Schnekenburger" email="remi.schnekenburger@cea.fr"/>
   <contacts name="Robert Brodt" email="bbrodt@redhat.com"/>
-  <contacts name="Camille Letavernier" email="camille.letavernier@cea.fr"/>
-  <contacts name="Vincent Lorenzo" email="vincent.lorenzo@cea.fr"/>
-  <contacts name="Benjamin Cabe" email="BCabe@sierrawireless.com"/>
+  <contacts name="Sabine Achilles" email="Sabine.Achilles@compeople.de"/>
+  <contacts name="Scott Lewis" email="slewis@composent.com"/>
+  <contacts name="Sergey Boyko" email="serg.boyko2011@gmail.com"/>
+  <contacts name="Shawn Pearce" email="sop@google.com"/>
   <contacts name="Simon Bernard" email="SBernard@sierrawireless.com"/>
   <contacts name="Simone Seurer" email="simone.seurer@sungard.com"/>
-  <contacts name="Gregoire Dupe" email="gdupe@mia-software.com"/>
-  <contacts name="Stephane Begaudeau" email="stephane.begaudeau@obeo.fr"/>
-  <contacts name="Olivier Constant" email="olivier.constant@thalesgroup.com"/>
-  <contacts name="Fred Bricon" email="fbricon@gmail.com"/>
-  <contacts name="Sven Rottstock" email="sven.rottstock@sungard.com"/>
-  <contacts name="Herbert Neureiter" email="herbert.neureiter@sungard.com"/>
-  <contacts name="Ken Lee" email="ken.lee@bsiag.com"/>
-  <contacts name="Andreas Sewe" email="andreas.sewe@codetrails.com"/>
-  <contacts name="Tomasz Zarna" email="tomasz.zarna@tasktop.com"/>
-  <contacts name="Idrissa Dieng" email="idydieng@gmail.com"/>
+  <contacts name="Steffen Pingel" email="steffen.pingel@tasktop.com"/>
   <contacts name="Stephan Eberle" email="stephaneberle9@gmail.com"/>
-  <contacts name="Pierre-Charles David" email="pierre-charles.david@obeo.fr"/>
-  <contacts name="Laurent Redor" email="laurent.redor@obeo.fr"/>
+  <contacts name="Stephan Herrmann" email="stephan@cs.tu-berlin.de"/>
+  <contacts name="Stephane Begaudeau" email="stephane.begaudeau@obeo.fr"/>
+  <contacts name="Stephane Drapeau" email="stephane.drapeau@obeo.fr"/>
+  <contacts name="St&#xe9;phane Bouchet" email="stephane.bouchet@obeo.fr"/>
+  <contacts name="Sven Rottstock" email="sven.rottstock@sungard.com"/>
+  <contacts name="Thomas Hallgren" email="thomas@tada.se"/>
+  <contacts name="Tomasz Zarna" email="tomasz.zarna@tasktop.com"/>
+  <contacts name="Vincent Lorenzo" email="vincent.lorenzo@cea.fr"/>
+  <contacts name="Vincent Zurczak" email="vincent.zurczak@linagora.com"/>
+  <contacts name="Vivian Kong" email="vivkong@ca.ibm.com"/>
+  <contacts name="Wayne Beaton" email="wayne@eclipse.org"/>
+  <contacts name="Wenfeng Li" email="wli@actuate.com"/>
+  <contacts name="William Piers" email="william.piers@obeo.fr"/>
+  <contacts name="Xiaoying Gu" email="xgu@actuate.com"/>
+  <contacts name="Xtext, Xpand, MWE Build Team" email="alle-ki@itemis.de"/>
+  <contacts name="Yong Jiang" email="yjiang@actuate.com"/>
 </aggregator:Aggregation>
