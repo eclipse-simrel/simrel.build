@@ -11,7 +11,7 @@
     <features name="org.eclipse.modisco.xml.feature.feature.group" versionRange="0.12.0"/>
     <features name="org.eclipse.modisco.examples.feature.feature.group" versionRange="0.12.0"/>
     <features name="org.eclipse.modisco.java.cdo.feature.feature.group" versionRange="0.12.0"/>
-    <features name="org.eclipse.modisco.infra.omg.feature.feature.group" versionRange="0.12.0"/>
+    <features name="org.eclipse.modisco.infra.omg.feature.feature.group" versionRange="0.12.0" enabled="false"/>
     <features name="org.eclipse.modisco.jee.feature.feature.group" versionRange="0.12.0"/>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='gdupe@mia-software.com']"/>
