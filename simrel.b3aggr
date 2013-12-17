@@ -333,6 +333,8 @@
     <features href="emf-query.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-query.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="qvtd.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="sirius.b3aggrcon#//@repositories.0/@features.7"/>
+    <features href="sirius.b3aggrcon#//@repositories.0/@features.8"/>
   </customCategories>
   <customCategories identifier="Programming Languages" label="Programming Languages" description="Tools to allow development with specific languages, such as Java and C++">
     <features href="ep.b3aggrcon#//@repositories.0/@features.3"/>
