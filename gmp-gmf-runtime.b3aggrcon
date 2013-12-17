@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="GMF Runtime">
-  <repositories location="http://download.eclipse.org/modeling/gmp/gmf-runtime/updates/interim" description="GMF Runtime interim">
-    <features name="org.eclipse.gmf.feature.group" versionRange="[1.8.0.201312161739,1.9.0]">
+  <repositories location="http://download.eclipse.org/modeling/gmp/gmf-runtime/updates/milestones" description="GMF Runtime milestones">
+    <features name="org.eclipse.gmf.feature.group" versionRange="[1.8.0.201312171742,1.9.0]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.gmf.examples.runtime.feature.group" versionRange="[1.8.0.201312161739,1.9.0]">
+    <features name="org.eclipse.gmf.examples.runtime.feature.group" versionRange="[1.8.0.201312171742,1.9.0]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.gmf.runtime.sdk.feature.group" versionRange="[1.8.0.201312161739,1.9.0]">
+    <features name="org.eclipse.gmf.runtime.sdk.feature.group" versionRange="[1.8.0.201312171742,1.9.0]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
