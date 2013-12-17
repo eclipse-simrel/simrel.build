@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="MoDisco">
-  <repositories location="http://download.eclipse.org/modeling/mdt/modisco/updates/integration/0.12.0/I201311091050/" description="MoDisco Milestones" enabled="false">
-    <!-- Disabled until this bug 424170 is not fixed -->
-    <features name="org.eclipse.modisco.sdk.feature.feature.group" versionRange="0.12.0" enabled="false">
+  <repositories location="http://download.eclipse.org/modeling/mdt/modisco/updates/integration/0.12.0/I201312170811/" description="MoDisco Milestones" enabled="true">
+    <features name="org.eclipse.modisco.sdk.feature.feature.group" versionRange="0.12.0" enabled="true">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.modisco.infrastructure.feature.feature.group" versionRange="0.12.0"/>
-    <!-- Disabled until this bug 424170 is not fixed -->
+    <features name="org.eclipse.modisco.infrastructure.feature.feature.group" versionRange="0.12.0"  enabled="false"/>
     <features name="org.eclipse.modisco.java.feature.feature.group" versionRange="0.12.0" enabled="false"/>
-    <features name="org.eclipse.modisco.xml.feature.feature.group" versionRange="0.12.0"/>
-    <features name="org.eclipse.modisco.examples.feature.feature.group" versionRange="0.12.0"/>
+    <features name="org.eclipse.modisco.xml.feature.feature.group" versionRange="0.12.0" enabled="false"/>
+    <features name="org.eclipse.modisco.examples.feature.feature.group" versionRange="0.12.0" enabled="false"/>
     <features name="org.eclipse.modisco.java.cdo.feature.feature.group" versionRange="0.12.0" enabled="false"/>
     <features name="org.eclipse.modisco.infra.omg.feature.feature.group" versionRange="0.12.0" enabled="false"/>
     <features name="org.eclipse.modisco.jee.feature.feature.group" versionRange="0.12.0"/>
