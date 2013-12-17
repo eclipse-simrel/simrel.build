@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EMF CDO">
-  <repositories location="http://download.eclipse.org/modeling/emf/cdo/drops/S20131112-0814" description="EMF CDO S20131112-0814">
+  <repositories location="http://download.eclipse.org/modeling/emf/cdo/drops/S20131217-0819" description="EMF CDO S20131217-0819">
     <features name="org.eclipse.net4j.sdk.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features name="org.eclipse.emf.cdo.sdk.feature.group">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+    <features name="org.eclipse.emf.cdo.dawn.sdk.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features name="org.eclipse.emf.cdo.epp.feature.group">
