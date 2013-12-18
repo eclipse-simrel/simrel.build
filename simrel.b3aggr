@@ -72,6 +72,8 @@
     <contributions href="sphinx.b3aggrcon#/"/>
     <contributions href="sirius.b3aggrcon#/"/>
     <contributions href="qvtd.b3aggrcon#/"/>
+    <contributions href="emfstore.b3aggrcon#/"/>
+    <contributions href="ecp.b3aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
@@ -188,6 +190,7 @@
     <features href="scout.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="scout-rap.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="scout-rap.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="emfstore.b3aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="General Purpose Tools" label="General Purpose Tools" description="Tools that can be used by a wide variety of developers.">
     <features href="actf.b3aggrcon#//@repositories.0/@features.0"/>
@@ -335,6 +338,25 @@
     <features href="qvtd.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="sirius.b3aggrcon#//@repositories.0/@features.7"/>
     <features href="sirius.b3aggrcon#//@repositories.0/@features.8"/>
+    <features href="emfstore.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="ecp.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="ecp.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="ecp.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="ecp.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="ecp.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="ecp.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="ecp.b3aggrcon#//@repositories.0/@features.6"/>
+    <features href="ecp.b3aggrcon#//@repositories.0/@features.7"/>
+    <features href="ecp.b3aggrcon#//@repositories.0/@features.8"/>
+    <features href="ecp.b3aggrcon#//@repositories.0/@features.9"/>
+    <features href="ecp.b3aggrcon#//@repositories.0/@features.10"/>
+    <features href="ecp.b3aggrcon#//@repositories.0/@features.11"/>
+    <features href="ecp.b3aggrcon#//@repositories.0/@features.12"/>
+    <features href="ecp.b3aggrcon#//@repositories.0/@features.13"/>
+    <features href="ecp.b3aggrcon#//@repositories.0/@features.14"/>
+    <features href="ecp.b3aggrcon#//@repositories.0/@features.15"/>
+    <features href="ecp.b3aggrcon#//@repositories.0/@features.16"/>
+    <features href="ecp.b3aggrcon#//@repositories.0/@features.17"/>
   </customCategories>
   <customCategories identifier="Programming Languages" label="Programming Languages" description="Tools to allow development with specific languages, such as Java and C++">
     <features href="ep.b3aggrcon#//@repositories.0/@features.3"/>
@@ -553,4 +575,5 @@
   <contacts name="Xiaoying Gu" email="xgu@actuate.com"/>
   <contacts name="Xtext, Xpand, MWE Build Team" email="alle-ki@itemis.de"/>
   <contacts name="Yong Jiang" email="yjiang@actuate.com"/>
+  <contacts name="Johannes Faltermeier" email="jfaltermeier@eclipsesource.com"/>
 </aggregator:Aggregation>
