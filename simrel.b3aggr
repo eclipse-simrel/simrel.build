@@ -74,6 +74,7 @@
     <contributions href="qvtd.b3aggrcon#/"/>
     <contributions href="emfstore.b3aggrcon#/"/>
     <contributions href="ecp.b3aggrcon#/"/>
+    <contributions href="XWT.b3aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
@@ -237,6 +238,8 @@
     <features href="ptp.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.11"/>
     <features href="m2e.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="XWT.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="XWT.b3aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.3"/>
@@ -386,6 +389,8 @@
     <features href="cdt.b3aggrcon#//@repositories.0/@features.16"/>
     <features href="koneki.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.8"/>
+    <features href="XWT.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="XWT.b3aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
     <features href="soa-sca.b3aggrcon#//@repositories.0/@features.0"/>
@@ -576,4 +581,5 @@
   <contacts name="Xtext, Xpand, MWE Build Team" email="alle-ki@itemis.de"/>
   <contacts name="Yong Jiang" email="yjiang@actuate.com"/>
   <contacts name="Johannes Faltermeier" email="jfaltermeier@eclipsesource.com"/>
+  <contacts name="Yves YANG" email="yves.yang@soyatec.com"/>
 </aggregator:Aggregation>
