@@ -19,9 +19,6 @@
     <features name="org.eclipse.dltk.rse.feature.group" versionRange="5.0.0.201306060709">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.dltk.mylyn.feature.group" versionRange="5.0.0.201306060709" enabled="false">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
-    </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='alex.panchenko@gmail.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='andrey@xored.com']"/>
