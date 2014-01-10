@@ -41,7 +41,6 @@
     <contributions href="tmf-xtext.b3aggrcon#/"/>
     <contributions href="pdt.b3aggrcon#/"/>
     <contributions href="ptp.b3aggrcon#/"/>
-    <contributions href="soa-sca.b3aggrcon#/"/>
     <contributions href="soa-bpel.b3aggrcon#/"/>
     <contributions href="soa-bpmn2-modeler.b3aggrcon#/"/>
     <contributions href="mdt-bpmn2.b3aggrcon#/"/>
@@ -56,7 +55,6 @@
     <contributions href="gmp-graphiti.b3aggrcon#/"/>
     <contributions href="m2e.b3aggrcon#/"/>
     <contributions href="mdt-papyrus.b3aggrcon#/"/>
-    <contributions href="amp.b3aggrcon#/"/>
     <contributions href="scout.b3aggrcon#/"/>
     <contributions href="riena.b3aggrcon#/"/>
     <contributions href="sapphire.b3aggrcon#/"/>
@@ -144,7 +142,6 @@
     <features href="subversive.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="ecf.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="ecf.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="dltk.b3aggrcon#//@repositories.0/@features.6"/>
     <features href="egit.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="egit.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="egit.b3aggrcon#//@repositories.0/@features.2"/>
@@ -302,7 +299,6 @@
     <features href="gmp-graphiti.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="mdt-papyrus.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-emffacet.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="amp.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-eef.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emft-eef.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="gmp-graphiti.b3aggrcon#//@repositories.0/@features.4"/>
@@ -393,9 +389,6 @@
     <features href="XWT.b3aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
-    <features href="soa-sca.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="soa-sca.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="soa-sca.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="jwt.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="soa-bpel.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="soa-bpel.b3aggrcon#//@repositories.0/@features.1"/>
