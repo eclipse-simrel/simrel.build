@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="TCF">
-  <repositories location="http://download.eclipse.org/tools/tcf/builds/1.1/milestones/sr2_rc2" description="TCF 1.1 Milestones">
-    <features name="org.eclipse.tcf.cdt.feature.feature.group" versionRange="1.1.1.201311041614">
+  <repositories location="http://download.eclipse.org/tools/tcf/builds/1.1/milestones/sr2_rc2a" description="TCF 1.1 Milestones">
+    <features name="org.eclipse.tcf.cdt.feature.feature.group" versionRange="1.1.2.201402041025">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.tcf.rse.feature.feature.group" versionRange="1.1.1.201308271943">
+    <features name="org.eclipse.tcf.rse.feature.feature.group" versionRange="1.1.2.201402041025">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.tcf.te.tcf.feature.feature.group" versionRange="1.1.1.201311041614">
+    <features name="org.eclipse.tcf.te.tcf.feature.feature.group" versionRange="1.1.2.201402041025">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
     <features name="org.eclipse.tcf.te.tcf.launch.cdt.feature.feature.group" versionRange="1.1.1.201308251028"/>
