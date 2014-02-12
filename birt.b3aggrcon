@@ -13,7 +13,7 @@
     <features name="org.eclipse.birt.doc.feature.group" versionRange="4.3.2.v20140211-1400-5217w3125132202511">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
-    <features name="org.eclipse.birt.example.feature.group" versionRange="4.3.2.v20140211-1400-7T7K7DDZRDKcDdMPALcU9-Ys">
+    <features name="org.eclipse.birt.example.feature.group" versionRange="4.3.2.v20140211-1400-7T7K7DDZRDKcDdMPALcU9">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
     <features name="org.eclipse.birt.source.feature.group" versionRange="4.3.2.v20140211-1400-DPDKA5GixAoaudOsJgj8K5C7KNz0">
