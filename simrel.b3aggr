@@ -125,6 +125,7 @@
     <features href="gmp-gmf-tooling.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-gmf-tooling.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="gmp-gmf-tooling.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="gmp-gmf-tooling.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="emft-egf.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-graphiti.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-graphiti.b3aggrcon#//@repositories.0/@features.1"/>
