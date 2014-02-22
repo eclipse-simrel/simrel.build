@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EMF Transaction">
-  <repositories location="http://download.eclipse.org/releases/maintenance/" description="EMF Transaction milestones">
+  <repositories location="http://download.eclipse.org/modeling/emf/transaction/updates/milestones" description="EMF Transaction milestones">
     <features name="org.eclipse.emf.transaction.sdk.feature.group" versionRange="[1.7.0.201306111400,1.8.0]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>

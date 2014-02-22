@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Model Focusing Tools">
-  <repositories location="http://download.eclipse.org/releases/maintenance/" description="Model Focusing Tools for Eclipse Kepler">
+  <repositories location="http://download.eclipse.org/mft/snapshots/kepler" description="Model Focusing Tools for Eclipse Kepler">
     <features name="org.eclipse.mylyn.mft.emf.feature.group" versionRange="[0.9.2,0.9.3]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
