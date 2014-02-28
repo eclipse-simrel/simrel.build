@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="MDT UML2">
-  <repositories location="http://download.eclipse.org/modeling/mdt/uml2/updates/4.1.x" description="MDT UML2 4.1.x Maintenance Builds">
+  <repositories location="http://download.eclipse.org/modeling/mdt/uml2/updates/4.1" description="MDT UML2 4.1 Releases">
     <features name="org.eclipse.uml2.sdk.feature.group" versionRange="[4.1.2.v20140202-2055]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
