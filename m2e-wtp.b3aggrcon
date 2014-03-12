@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="m2e-wtp" label="m2e-wtp">
-  <repositories location="http://download.eclipse.org/m2e-wtp/milestones/luna/1.1.0/1.1.0.20131218-1954" description="m2e-wtp Luna M build repo">
+  <repositories location="http://download.eclipse.org/m2e-wtp/milestones/luna/1.1.0/1.1.0.20140312-1427" description="m2e-wtp Luna M build repo">
     <features name="org.eclipse.m2e.wtp.feature.feature.group" versionRange="1.1.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
@@ -10,7 +10,7 @@
     <features name="org.eclipse.m2e.wtp.jsf.feature.feature.group" versionRange="1.1.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
-    <features name="org.sonatype.m2e.mavenarchiver.feature.feature.group" versionRange="0.15.0">
+    <features name="org.sonatype.m2e.mavenarchiver.feature.feature.group" versionRange="0.16.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
     <features name="org.eclipse.m2e.wtp.jpa.feature.feature.group" versionRange="1.1.0">
