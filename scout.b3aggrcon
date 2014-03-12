@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Scout Business Application Development" label="Scout">
-  <repositories location="http://download.eclipse.org/scout/releases/3.10/3.10.0/scout.main/M5-20140129-0950" description="Scout Targets">
-    <features description="Eclipse Scout" name="org.eclipse.scout.feature.group" versionRange="3.10.0">
+  <repositories location="http://download.eclipse.org/scout/releases/4.0/4.0.0/scout.main/M6-20140312-1140" description="Scout Targets">
+    <features description="Eclipse Scout" name="org.eclipse.scout.feature.group" versionRange="4.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features description="Eclipse Scout Runtime" name="org.eclipse.scout.rt.source.feature.group" versionRange="3.10.0">
+    <features description="Eclipse Scout Runtime" name="org.eclipse.scout.rt.source.feature.group" versionRange="4.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
-    <features description="Eclipse Scout Runtime Testing" name="org.eclipse.scout.rt.testing.source.feature.group" versionRange="3.10.0">
+    <features description="Eclipse Scout Runtime Testing" name="org.eclipse.scout.rt.testing.source.feature.group" versionRange="4.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
   </repositories>
