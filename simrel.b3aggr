@@ -36,7 +36,7 @@
     <contributions href="m2t-acceleo.b3aggrcon#/"/>
     <contributions href="gmp-gmf-notation.b3aggrcon#/"/>
     <contributions href="gmp-gmf-runtime.b3aggrcon#/"/>
-    <contributions href="gmp-gmf-tooling.b3aggrcon#/"/>
+    <contributions href="gmf-tooling.b3aggrcon#/"/>
     <contributions href="m2t-xpand.b3aggrcon#/"/>
     <contributions href="tmf-xtext.b3aggrcon#/"/>
     <contributions href="pdt.b3aggrcon#/"/>
@@ -290,10 +290,10 @@
     <features href="mdt-ocl.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="gmp-gmf-runtime.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="gmp-gmf-runtime.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="gmp-gmf-tooling.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="gmp-gmf-tooling.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="gmp-gmf-tooling.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="gmp-gmf-tooling.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="gmf-tooling.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="gmf-tooling.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="gmf-tooling.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="gmf-tooling.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="emft-egf.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-graphiti.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-graphiti.b3aggrcon#//@repositories.0/@features.1"/>
