@@ -46,7 +46,6 @@
     <features name="org.eclipse.mylyn.builds.feature.group" versionRange="1.3.0"/>
     <features name="org.eclipse.mylyn.builds.sdk.feature.group" versionRange="1.3.0"/>
     <features name="org.eclipse.mylyn.commons.feature.group" versionRange="3.11.0"/>
-    <features name="org.eclipse.mylyn.commons.compatibility.feature.group" versionRange="3.11.0"/>
     <features name="org.eclipse.mylyn.commons.identity.feature.group" versionRange="1.3.0"/>
     <features name="org.eclipse.mylyn.commons.notifications.feature.group" versionRange="1.3.0"/>
     <features name="org.eclipse.mylyn.commons.repositories.feature.group" versionRange="1.3.0"/>
