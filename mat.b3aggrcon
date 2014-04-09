@@ -4,7 +4,7 @@
     <features name="org.eclipse.mat.feature.feature.group" versionRange="1.3.1.201310021240">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.mat.chart.feature.feature.group" versionRange="1.3.1.201310021240">
+    <features name="org.eclipse.mat.chart.feature.feature.group" versionRange="1.3.1.201310021240" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
