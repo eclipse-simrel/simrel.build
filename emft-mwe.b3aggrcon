@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EMFT MWE">
-  <repositories location="http://download.eclipse.org/modeling/emft/mwe/updates/milestones/S201403111231/mwe" description="EMFT MWE p2 repository">
-    <features name="org.eclipse.emf.mwe2.runtime.sdk.feature.group" versionRange="2.5.2">
+  <repositories location="http://download.eclipse.org/modeling/emft/mwe/updates/milestones/S201404280517/mwe" description="EMFT MWE p2 repository">
+    <features name="org.eclipse.emf.mwe2.runtime.sdk.feature.group" versionRange="2.6.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.emf.mwe.sdk.feature.group" versionRange="1.3.1">
+    <features name="org.eclipse.emf.mwe.sdk.feature.group" versionRange="1.3.2">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
