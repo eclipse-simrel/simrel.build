@@ -443,7 +443,6 @@
     <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
   <contacts name="Adolfo Sanchez-Barbudo Herrera" email="adolfosbh@gmail.com"/>
-  <contacts name="Linda Chan" email="lchan@actuate.com"/>
   <contacts name="Alex Boyko" email="aboyko@ca.ibm.com"/>
   <contacts name="Alex Kurtakov" email="akurtako@redhat.com"/>
   <contacts name="Alex Lagarde" email="alex.lagarde@obeo.fr"/>
@@ -459,6 +458,7 @@
   <contacts name="Benjamin Muskalla" email="benjamin.muskalla@tasktop.com"/>
   <contacts name="Benoit Langlois" email="benoit.langlois@thalesgroup.com"/>
   <contacts name="Beth Tibbitts" email="beth@tibweb.com"/>
+  <contacts name="Brian Payton" email="bpayton@us.ibm.com"/>
   <contacts name="Camille Letavernier" email="camille.letavernier@cea.fr"/>
   <contacts name="Carl Anderson" email="ccc@us.ibm.com"/>
   <contacts name="Carsten Reckord" email="reckord@yatta.de"/>
@@ -511,6 +511,7 @@
   <contacts name="Krum Tsvetkov" email="krum.tsvetkov@sap.com"/>
   <contacts name="Laurent Redor" email="laurent.redor@obeo.fr"/>
   <contacts name="Laurent goubet" email="laurent.goubet@obeo.fr"/>
+  <contacts name="Linda Chan" email="lchan@actuate.com"/>
   <contacts name="M2T JET Build Team" email="pelder@ca.ibm.com"/>
   <contacts name="MDT OCL Build Team" email="Alexander.Igdalov@gmail.com"/>
   <contacts name="Manuel Bork" email="manuel.bork@yatta.de"/>
