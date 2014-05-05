@@ -141,6 +141,9 @@
     <features href="subversive.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="ecf.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="ecf.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="ecf.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="ecf.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="ecf.b3aggrcon#//@repositories.0/@features.4"/>
     <features href="egit.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="egit.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="egit.b3aggrcon#//@repositories.0/@features.2"/>
