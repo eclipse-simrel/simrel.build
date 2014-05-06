@@ -8,7 +8,7 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/modeling/emft/mwe/updates/milestones/S201403111450/mwe2lang" description="EMFT MWE lang p2 repository">
+  <repositories location="http://download.eclipse.org/modeling/emft/mwe/updates/milestones/S201405060937/mwe2lang" description="EMFT MWE lang p2 repository">
     <features name="org.eclipse.emf.mwe2.language.sdk.feature.group" versionRange="2.5.2">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
