@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Stardust allows you to model business processes in Eclipse, integrate them with your application services and UI components, run them in the Process Engine and access workflow functionality and document management capabilities in the Browser Portal." label="Stardust">
   <repositories location="http://download.eclipse.org/stardust/milestones/luna">
-    <features name="org.eclipse.stardust.documentation.documentation-feature.feature.group" enabled="false">
+    <features name="org.eclipse.stardust.documentation.documentation-feature.feature.group" enabled="true">
       <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
     </features>
-    <features name="org.eclipse.stardust.ide.3rdparty-feature.feature.group" enabled="false">
+    <features name="org.eclipse.stardust.ide.3rdparty-feature.feature.group" enabled="true">
       <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
     </features>
-    <features name="org.eclipse.stardust.modeling.core-feature.feature.group" enabled="false">
+    <features name="org.eclipse.stardust.modeling.core-feature.feature.group" enabled="true">
       <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
     </features>
-    <features name="org.eclipse.stardust.modeling.engine-feature.feature.group" enabled="false">
+    <features name="org.eclipse.stardust.modeling.engine-feature.feature.group" enabled="true">
       <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
     </features>
-    <features name="org.eclipse.stardust.modeling.messages-feature.feature.group" enabled="false">
+    <features name="org.eclipse.stardust.modeling.messages-feature.feature.group" enabled="true">
       <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
     </features>
-    <features name="org.eclipse.stardust.modeling.model-feature.feature.group" enabled="false">
+    <features name="org.eclipse.stardust.modeling.model-feature.feature.group" enabled="true">
       <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
     </features>
-    <features name="org.eclipse.stardust.modeling.simulation-feature.feature.group" enabled="false">
+    <features name="org.eclipse.stardust.modeling.simulation-feature.feature.group" enabled="true">
       <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
     </features>
-    <features name="org.eclipse.stardust.modeling.wst-feature.feature.group" enabled="false">
+    <features name="org.eclipse.stardust.modeling.wst-feature.feature.group" enabled="true">
       <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
     </features>
-    <features name="org.eclipse.stardust.reporting.modeler-integration-feature.feature.group" enabled="false">
+    <features name="org.eclipse.stardust.reporting.modeler-integration-feature.feature.group" enabled="true">
       <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
     </features>
-    <features name="org.eclipse.stardust.reporting.runtime-feature.feature.group" enabled="false">
+    <features name="org.eclipse.stardust.reporting.runtime-feature.feature.group" enabled="true">
       <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
     </features>
-    <features name="org.eclipse.stardust.reporting.ui-feature.feature.group" enabled="false">
+    <features name="org.eclipse.stardust.reporting.ui-feature.feature.group" enabled="true">
       <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
     </features>
   </repositories>
