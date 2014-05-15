@@ -242,6 +242,7 @@
     <features href="m2e.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="XWT.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="XWT.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="tcf.b3aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
   <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.3"/>
@@ -254,6 +255,8 @@
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.12"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.13"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="tcf.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="tcf.b3aggrcon#//@repositories.0/@features.3"/>
   </customCategories>
   <customCategories identifier="Mobile and Device Development" label="Mobile and Device Development" description="Tools used to develop mobile and device applications.">
     <features href="tm.b3aggrcon#//@repositories.0/@features.0"/>
@@ -266,6 +269,8 @@
     <features href="tcf.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="tcf.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="tcf.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="tcf.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="tcf.b3aggrcon#//@repositories.0/@features.3"/>
   </customCategories>
   <customCategories identifier="Modeling" label="Modeling" description="Model definition, creation, and manipulation frameworks (e.g. EMF, OCL, GMF, M2M, M2T, GEF) and industry models (e.g. UML, JEM, XSD).">
     <features href="gmp-gmf-notation.b3aggrcon#//@repositories.0/@features.0"/>
@@ -381,6 +386,7 @@
     <features href="cdt.b3aggrcon#//@repositories.0/@features.19"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.18"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.20"/>
+    <features href="tcf.b3aggrcon#//@repositories.0/@features.3"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
     <features href="jwt.b3aggrcon#//@repositories.0/@features.0"/>
