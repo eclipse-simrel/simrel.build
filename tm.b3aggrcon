@@ -16,6 +16,6 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='david_dykstal@us.ibm.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='g.watson@computer.org']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='martin.oberhuber@windriver.com']"/>
 </aggregator:Contribution>
