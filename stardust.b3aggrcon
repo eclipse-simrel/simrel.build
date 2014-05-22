@@ -25,15 +25,6 @@
     <features name="org.eclipse.stardust.modeling.wst-feature.feature.group" enabled="true">
       <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
     </features>
-    <features name="org.eclipse.stardust.reporting.modeler-integration-feature.feature.group" enabled="false">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
-    </features>
-    <features name="org.eclipse.stardust.reporting.runtime-feature.feature.group" enabled="false">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
-    </features>
-    <features name="org.eclipse.stardust.reporting.ui-feature.feature.group" enabled="false">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
-    </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='simone.seurer@sungard.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='sven.rottstock@sungard.com']"/>
