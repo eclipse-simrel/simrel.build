@@ -243,6 +243,8 @@
     <features href="XWT.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="XWT.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="tcf.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="XWT.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="XWT.b3aggrcon#//@repositories.0/@features.3"/>
   </customCategories>
   <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.3"/>
@@ -387,6 +389,8 @@
     <features href="cdt.b3aggrcon#//@repositories.0/@features.18"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.20"/>
     <features href="tcf.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="XWT.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="XWT.b3aggrcon#//@repositories.0/@features.3"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
     <features href="jwt.b3aggrcon#//@repositories.0/@features.0"/>
