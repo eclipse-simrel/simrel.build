@@ -401,9 +401,6 @@
     <features href="stardust.b3aggrcon#//@repositories.0/@features.5"/>
     <features href="stardust.b3aggrcon#//@repositories.0/@features.6"/>
     <features href="stardust.b3aggrcon#//@repositories.0/@features.7"/>
-    <features href="stardust.b3aggrcon#//@repositories.0/@features.8"/>
-    <features href="stardust.b3aggrcon#//@repositories.0/@features.9"/>
-    <features href="stardust.b3aggrcon#//@repositories.0/@features.10"/>
     <features href="mdt-bpmn2.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.0"/>
@@ -453,7 +450,7 @@
     <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
-  <contacts name="Zhiqiang Qian" email="zqian@actuate.com" />
+  <contacts name="Zhiqiang Qian" email="zqian@actuate.com"/>
   <contacts name="Adolfo Sanchez-Barbudo Herrera" email="adolfosbh@gmail.com"/>
   <contacts name="Alex Boyko" email="aboyko@ca.ibm.com"/>
   <contacts name="Alex Kurtakov" email="akurtako@redhat.com"/>
