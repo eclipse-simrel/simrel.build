@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Code Recommenders">
   <repositories location="http://download.eclipse.org/recommenders/updates/simrel/luna/2014-05-21_07-29-03">
-    <features name="org.eclipse.recommenders.simrel.feature.feature.group">
+    <features name="org.eclipse.recommenders.rcp.feature.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.recommenders.simrel.feature.source.feature.group"/>
+    <features name="org.eclipse.recommenders.rcp.feature.source.feature.group"/>
+    <features name="org.eclipse.recommenders.mylyn.rcp.feature.feature.group">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.recommenders.mylyn.rcp.feature.source.feature.group"/>
+    <features name="org.eclipse.recommenders.snipmatch.rcp.feature.feature.group">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.recommenders.snipmatch.rcp.feature.source.feature.group"/>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='marcel.bruch@codetrails.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='andreas.sewe@codetrails.com']"/>
