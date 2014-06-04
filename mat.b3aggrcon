@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Memory Analyzer (MAT)">
-  <repositories location="http://download.eclipse.org/mat/luna/RC2/update-site/" description="Memory Analyzer Updates">
-    <features name="org.eclipse.mat.feature.feature.group" versionRange="1.4.0.201405281313">
+  <repositories location="http://download.eclipse.org/mat/luna/RC3/update-site/" description="Memory Analyzer Updates">
+    <features name="org.eclipse.mat.feature.feature.group" versionRange="1.4.0.201406041413">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.mat.chart.feature.feature.group" versionRange="1.4.0.201405281313">
+    <features name="org.eclipse.mat.chart.feature.feature.group" versionRange="1.4.0.201406041413">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
