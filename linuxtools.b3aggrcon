@@ -40,6 +40,9 @@
     <features name="org.eclipse.linuxtools.lttng2.kernel.feature.group" versionRange="3.0.0.201406041630">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
     </features>
+    <features name="org.eclipse.linuxtools.lttng2.ust.feature.group" versionRange="3.0.0.201406041630">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
+    </features>
     <features name="org.eclipse.linuxtools.gdbtrace.feature.group" versionRange="3.0.0.201406041630">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
     </features>
@@ -58,6 +61,7 @@
     <features name="org.eclipse.linuxtools.perf.feature.source.feature.group" versionRange="1.2.0.201406041630"/>
     <features name="org.eclipse.linuxtools.lttng2.control.source.feature.group" versionRange="3.0.0.201406041630"/>
     <features name="org.eclipse.linuxtools.lttng2.kernel.source.feature.group" versionRange="3.0.0.201406041630"/>
+    <features name="org.eclipse.linuxtools.lttng2.ust.source.feature.group" versionRange="3.0.0.201406041630"/>
     <features name="org.eclipse.linuxtools.gdbtrace.source.feature.group" versionRange="3.0.0.201406041630"/>
     <features name="org.eclipse.linuxtools.profiling.source.feature.group" versionRange="2.0.0.201406041630"/>
     <features name="org.eclipse.linuxtools.dataviewers.feature.source.feature.group" versionRange="1.0.0.201406041630"/>
