@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="TM">
-  <repositories location="http://download.eclipse.org/tm/updates/3.6milestones/RC3" description="TM 3.6 Milestones">
+  <repositories location="http://download.eclipse.org/tm/updates/3.6milestones/RC4" description="TM 3.6 Milestones">
     <features name="org.eclipse.rse.feature.group" versionRange="3.4.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
