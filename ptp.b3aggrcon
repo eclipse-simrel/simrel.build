@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="PTP">
-  <repositories location="http://download.eclipse.org/tools/ptp/builds/luna/milestones/RC1" description="PTP updates">
+  <repositories location="http://download.eclipse.org/tools/ptp/builds/luna/milestones/RC4" description="PTP updates">
     <features name="org.eclipse.ptp.feature.group" versionRange="8.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
@@ -35,6 +35,11 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.ptp.debug.sdm.feature.group" versionRange="8.0.0">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+  </repositories>
+  <repositories location="http://download.eclipse.org/tools/ptp/builds/remote/luna/milestones/RC2" description="Remote Services">
+    <features name="org.eclipse.remote.feature.group" versionRange="1.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>

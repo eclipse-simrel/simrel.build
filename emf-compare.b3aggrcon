@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EMF COMPARE">
-  <repositories location="http://download.eclipse.org/modeling/emf/compare/updates/milestones/3.0/S201405201241">
+  <repositories location="http://download.eclipse.org/modeling/emf/compare/updates/milestones/3.0/S201406111328">
     <features name="org.eclipse.emf.compare.feature.group" versionRange="[3.0.0,3.1.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>

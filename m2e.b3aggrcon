@@ -14,5 +14,5 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='ifedorenko@sonatype.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='igor@ifedorenko.com']"/>
 </aggregator:Contribution>

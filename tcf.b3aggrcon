@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="TCF">
-  <repositories location="http://download.eclipse.org/tools/tcf/builds/1.2/milestones/m7" description="TCF 1.2 Milestones">
-    <features name="org.eclipse.tcf.cdt.feature.feature.group" versionRange="1.2.0.201404101314">
+  <repositories location="http://download.eclipse.org/tools/tcf/builds/1.2/milestones/rc3a" description="TCF 1.2 Milestones">
+    <features name="org.eclipse.tcf.cdt.feature.feature.group" versionRange="1.2.0.201405271222">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.tcf.rse.feature.feature.group" versionRange="1.2.0.201403060835">
+    <features name="org.eclipse.tcf.rse.feature.feature.group" versionRange="1.2.0.201405271222">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.tcf.te.tcf.feature.feature.group" versionRange="1.2.0.201402201346">
+    <features name="org.eclipse.tcf.te.tcf.feature.feature.group" versionRange="1.2.0.201405271222">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.tcf.te.tcf.launch.cdt.feature.feature.group" versionRange="1.2.0.201402200902">
+    <features name="org.eclipse.tcf.te.tcf.launch.cdt.feature.feature.group" versionRange="1.2.0.201405271222">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.tcf.te.terminals.feature.feature.group" versionRange="1.2.0.201402251415">
+    <features name="org.eclipse.tcf.te.terminals.feature.feature.group" versionRange="1.2.0.201406042322">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
