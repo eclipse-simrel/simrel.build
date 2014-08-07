@@ -60,6 +60,7 @@
     <contributions href="sapphire.b3aggrcon#/"/>
     <contributions href="windowbuilder.b3aggrcon#/"/>
     <contributions href="jubula.b3aggrcon#/"/>
+    <contributions href="swtbot.b3aggrcon#/"/>
     <contributions href="mylyn-docs-intent.b3aggrcon#/"/>
     <contributions href="mft.b3aggrcon#/"/>
     <contributions href="koneki.b3aggrcon#/"/>
@@ -419,6 +420,10 @@
     <features href="jubula.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="jubula.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="jubula.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="swtbot.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="swtbot.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="swtbot.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="swtbot.b3aggrcon#//@repositories.0/@features.3"/>
   </customCategories>
   <customCategories identifier="Web, XML, Java EE and OSGi Enterprise Development" label="Web, XML, Java EE and OSGi Enterprise Development" description="Tools to help create web applications, including JavaScript, XML, XSL, XSD, HTML, XHTML, CSS, JSP, EJBs, Webservices, JPA tand OSGi Enterprise Applications">
     <features href="webtools.b3aggrcon#//@repositories.0/@features.0"/>
