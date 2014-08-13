@@ -37,6 +37,9 @@
     <features name="org.eclipse.ptp.debug.sdm.feature.group" versionRange="8.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
+    <features name="org.eclipse.ptp.etfw.feedback.perfsuite.feature.group" versionRange="8.0.0">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
   </repositories>
   <repositories location="http://download.eclipse.org/tools/ptp/builds/remote/luna/milestones/RC2" description="Remote Services">
     <features name="org.eclipse.remote.feature.group" versionRange="1.0.0">
