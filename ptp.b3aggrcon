@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="PTP">
-  <repositories location="http://download.eclipse.org/tools/ptp/builds/luna/milestones/SR1-RC1" description="PTP updates">
-    <features name="org.eclipse.ptp.feature.group" versionRange="8.0.1">
+  <repositories location="http://download.eclipse.org/tools/ptp/builds/luna/milestones/RC4" description="PTP updates">
+    <features name="org.eclipse.ptp.feature.group" versionRange="8.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.ptp.fortran.feature.group" versionRange="8.0.1">
+    <features name="org.eclipse.ptp.fortran.feature.group" versionRange="8.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.ptp.gem.feature.group" versionRange="8.0.1">
+    <features name="org.eclipse.ptp.gem.feature.group" versionRange="8.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.ptp.pldt.upc.feature.group" versionRange="8.0.1">
+    <features name="org.eclipse.ptp.pldt.upc.feature.group" versionRange="8.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.ptp.rm.jaxb.contrib.feature.group" versionRange="8.0.1">
+    <features name="org.eclipse.ptp.rm.jaxb.contrib.feature.group" versionRange="8.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.ptp.etfw.tau.feature.group" versionRange="8.0.1">
+    <features name="org.eclipse.ptp.etfw.tau.feature.group" versionRange="8.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.ptp.rdt.feature.group" versionRange="8.0.1">
+    <features name="org.eclipse.ptp.rdt.feature.group" versionRange="8.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.ptp.rdt.xlc.feature.group" versionRange="8.0.1">
+    <features name="org.eclipse.ptp.rdt.xlc.feature.group" versionRange="8.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
     <features name="org.eclipse.photran.feature.group" versionRange="8.2.1">
@@ -34,14 +34,14 @@
     <features name="org.eclipse.photran.xlf.feature.group" versionRange="8.2.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.ptp.debug.sdm.feature.group" versionRange="8.0.1">
+    <features name="org.eclipse.ptp.debug.sdm.feature.group" versionRange="8.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.ptp.etfw.feedback.perfsuite.feature.group" versionRange="8.0.1">
+    <features name="org.eclipse.ptp.etfw.feedback.perfsuite.feature.group" versionRange="8.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/tools/ptp/builds/remote/luna/milestones/SR1-RC1" description="Remote Services">
+  <repositories location="http://download.eclipse.org/tools/ptp/builds/remote/luna/milestones/RC2" description="Remote Services">
     <features name="org.eclipse.remote.feature.group" versionRange="1.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
