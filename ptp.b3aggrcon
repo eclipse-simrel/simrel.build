@@ -25,13 +25,13 @@
     <features name="org.eclipse.ptp.rdt.xlc.feature.group" versionRange="8.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.photran.feature.group" versionRange="8.2.1">
+    <features name="org.eclipse.photran.feature.group" versionRange="8.2.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.photran.intel.feature.group" versionRange="8.2.1">
+    <features name="org.eclipse.photran.intel.feature.group" versionRange="8.2.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.photran.xlf.feature.group" versionRange="8.2.1">
+    <features name="org.eclipse.photran.xlf.feature.group" versionRange="8.2.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.ptp.debug.sdm.feature.group" versionRange="8.0.0">
