@@ -7,7 +7,7 @@
     <features name="org.eclipse.gef.examples.feature.group" versionRange="[3.9.200.201408170205,3.10.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.zest.sdk.feature.group" versionRange="[1.6.0.201408170205,1.6.0)">
+    <features name="org.eclipse.zest.sdk.feature.group" versionRange="[1.6.0.201408170205,1.7.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
