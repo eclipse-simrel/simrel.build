@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="GEF">
   <repositories location="http://download.eclipse.org/tools/gef/updates/milestones" description="GEF milestones">
-    <features name="org.eclipse.gef.sdk.feature.group" versionRange="[3.9.100.201405261516,3.10.0)">
+    <features name="org.eclipse.gef.sdk.feature.group" versionRange="[3.9.101.201408150207,3.10.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.gef.examples.feature.group" versionRange="[3.9.100.201405261516,3.10.0)">
+    <features name="org.eclipse.gef.examples.feature.group" versionRange="[3.9.100.201408150207,3.10.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.zest.sdk.feature.group" versionRange="[1.5.100.201405261516,1.6.0)">
+    <features name="org.eclipse.zest.sdk.feature.group" versionRange="[1.5.101.201408150207,1.6.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='irbull@eclipsesource.com']"/>
-  <contacts href="simrel.b3aggr#//@contacts[email='anthonyh@ca.ibm.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='alexander.nyssen@itemis.de']"/>
 </aggregator:Contribution>
