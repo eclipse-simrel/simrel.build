@@ -45,6 +45,6 @@
     <features name="org.eclipse.gef4.cloudio.sdk.feature.group" versionRange="[0.1.0, 0.2.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application Development Frameworks']"/>
     </features>
-  <repositories>
+  </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='alexander.nyssen@itemis.de']"/>
 </aggregator:Contribution>
