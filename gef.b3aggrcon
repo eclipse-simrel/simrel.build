@@ -18,13 +18,13 @@
     <features name="org.eclipse.gef4.geometry.sdk.feature.group" versionRange="[0.1.0,0.2.0)" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.graph.sdk.feature.group" versionRange="[0.1.0,0.2.0)" enabled="false">
+    <features name="org.eclipse.gef4.graph.sdk.feature.group" versionRange="[0.1.0,0.2.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.layout.sdk.feature.group" versionRange="[0.1.0,0.2.0)" enabled="false">
+    <features name="org.eclipse.gef4.layout.sdk.feature.group" versionRange="[0.1.0,0.2.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.dot.sdk.feature.group" versionRange="[0.1.0,0.2.0)" enabled="false">
+    <features name="org.eclipse.gef4.dot.sdk.feature.group" versionRange="[0.1.0,0.2.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
     <features name="org.eclipse.gef4.fx.sdk.feature.group" versionRange="[0.1.0,0.2.0)" enabled="false">
