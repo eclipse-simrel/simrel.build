@@ -25,7 +25,6 @@
     <contributions href="actf.b3aggrcon#/"/>
     <contributions href="epp-mpc.b3aggrcon#/"/>
     <contributions href="emf-cdo.b3aggrcon#/"/>
-    <contributions href="eclipseLink.b3aggrcon#/"/>
     <contributions href="birt.b3aggrcon#/"/>
     <contributions href="mat.b3aggrcon#/"/>
     <contributions href="mdt-uml2.b3aggrcon#/"/>
@@ -172,7 +171,6 @@
   </customCategories>
   <customCategories identifier="EclipseRT Target Platform Components" label="EclipseRT Target Platform Components" description="This category identifies various Eclipse technology that is commonly used in runtime scenarios from RCP to embedded to server side. The components in this category are intended to be added to your Target Platform, rather than your IDE.">
     <features href="equinox.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="eclipseLink.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="ecf.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="ecf.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="ecf.b3aggrcon#//@repositories.0/@features.2"/>
