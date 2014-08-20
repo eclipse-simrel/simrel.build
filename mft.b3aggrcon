@@ -7,10 +7,10 @@
     <features name="org.eclipse.mylyn.mft.gmf.feature.group" versionRange="[0.9.3,0.9.4)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.mft.ecoretools.feature.group" versionRange="[0.9.3,0.9.4)">
+    <features name="org.eclipse.mylyn.mft.ecoretools.feature.group" versionRange="[0.9.3,0.9.4)" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.mft.sdk.feature.group" versionRange="[0.9.3,0.9.4)"/>
+    <features name="org.eclipse.mylyn.mft.sdk.feature.group" versionRange="[0.9.3,0.9.4)" enabled="false"/>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='milesparker@gmail.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='steffen.pingel@tasktop.com']"/>
