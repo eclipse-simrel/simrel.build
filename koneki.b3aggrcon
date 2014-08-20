@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Koneki">
-  <repositories location="http://download.eclipse.org/koneki/releases/milestones/ldt/1.2RC2" description="Koneki updates">
-    <features name="org.eclipse.koneki.ldt.feature.group" versionRange="1.2.0">
+  <repositories location="http://download.eclipse.org/koneki/releases/milestones/ldt/1.2.1RC1" description="Koneki updates">
+    <features name="org.eclipse.koneki.ldt.feature.group" versionRange="1.2.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.koneki.ldt.remote.feature.group" versionRange="1.2.0">
+    <features name="org.eclipse.koneki.ldt.remote.feature.group" versionRange="1.2.1">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='BCabe@sierrawireless.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='SBernard@sierrawireless.com']"/>
 </aggregator:Contribution>
