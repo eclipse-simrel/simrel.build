@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="The Eclipse Gyrex Project" label="Gyrex">
-  <repositories location="http://download.eclipse.org/gyrex/1.3/milestones/" description="Gyrex 1.3 Stable Builds">
+  <repositories location="http://download.eclipse.org/gyrex/1.3/" description="Gyrex 1.3 Release Builds">
     <features description="Gyrex Target Components" name="org.eclipse.gyrex.features.sdk.withoutdeps.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
