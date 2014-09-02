@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="BIRT">
-  <repositories location="http://download.eclipse.org/birt/update-site/4.4/" description="BIRT interim">
-    <features name="org.eclipse.birt.feature.group" versionRange="4.4.0.v201405191524-DPEp7FGixAot6DLz0hXcUqaHoLSX">
+  <repositories location="http://download.eclipse.org/birt/update-site/luna-interim/" description="BIRT interim">
+    <features name="org.eclipse.birt.feature.group" versionRange="4.4.1.v201408290142-DPEq8eGixAot6W_Og37F3aIV_SIN">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
-    <features name="org.eclipse.birt.cshelp.feature.group" versionRange="4.4.0.v201405191524-53-7w3125162A2635">
+    <features name="org.eclipse.birt.cshelp.feature.group" versionRange="4.4.1.v201408290142-5307w3125193A1253">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
-    <features name="org.eclipse.birt.chart.cshelp.feature.group" versionRange="4.4.0.v201405191524-53-7w3125162A2635">
+    <features name="org.eclipse.birt.chart.cshelp.feature.group" versionRange="4.4.1.v201408290142-5307w3125193A1253">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
-    <features name="org.eclipse.birt.doc.feature.group" versionRange="4.4.0.v201405191524-53-7w3125162A2635">
+    <features name="org.eclipse.birt.doc.feature.group" versionRange="4.4.1.v201408290142-5307w3125193A1253">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
-    <features name="org.eclipse.birt.example.feature.group" versionRange="4.4.0.v201405191524-7T7Q1DZRDKeDlLBKlRe">
+    <features name="org.eclipse.birt.example.feature.group" versionRange="4.4.1.v201408290142-7T7R6DZRDKeE4SBDKeR">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
-    <features name="org.eclipse.birt.source.feature.group" versionRange="4.4.0.v201405191524-DPEp7FGixAot6DLz0hXcUqaHoLSX">
+    <features name="org.eclipse.birt.source.feature.group" versionRange="4.4.1.v201408290142-DPEq8eGixAot6W_Og37F3aIV_SIN">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
-    <features name="org.eclipse.birt.osgi.runtime.sdk.feature.group" versionRange="4.4.0.v201405191524-7977-88UG5EGOKt18kF4G7D3QH_n">
+    <features name="org.eclipse.birt.osgi.runtime.sdk.feature.group" versionRange="4.4.1.v201408290142-7977188UG5FBRLt04mD4Is7JFvZz">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='xgu@actuate.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='bgamble@actuate.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='zqian@actuate.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='chezy@actuate.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='wli@actuate.com']"/>
