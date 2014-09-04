@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Mylyn Intent (Incubation)" label="Mylyn Intent (Incubation)">
-  <repositories enabled="false" location="http://download.eclipse.org/intent/updates/milestones/0.9/S201406051437" description="Mylyn Intent for Eclipse Juno">
+  <repositories location="http://download.eclipse.org/intent/updates/milestones/0.9/S201409040823" description="Mylyn Intent for Eclipse Juno">
     <features description="Mylyn Intent (Incubation)" name="org.eclipse.mylyn.docs.intent.feature.feature.group" versionRange="0.9.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
