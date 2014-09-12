@@ -10,7 +10,7 @@
     <features name="org.eclipse.swtbot.eclipse.feature.group" versionRange="[2.2.0.201401081015]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Testing']"/>
     </features>
-    <features name="org.eclipse.swtbot.gef.feature.group" versionRange="[2.2.0.201401081015]" enabled="false">
+    <features name="org.eclipse.swtbot.eclipse.gef.feature.group" versionRange="[2.2.0.201401081015]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Testing']"/>
     </features>
   </repositories>
