@@ -62,6 +62,6 @@
     </features>
     <features name="org.eclipse.cdt.debug.standalone.feature.group" versionRange="1.0.0.201405061918"/>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='vivkong@ca.ibm.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='cdtdoug@gmail.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='marc.khouzam@ericsson.com']"/>
 </aggregator:Contribution>
