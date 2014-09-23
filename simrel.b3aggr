@@ -73,6 +73,7 @@
     <contributions href="emfstore.b3aggrcon#/"/>
     <contributions href="ecp.b3aggrcon#/"/>
     <contributions href="XWT.b3aggrcon#/"/>
+    <contributions href="efxclipse.b3aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
@@ -600,4 +601,5 @@
   <contacts name="Johannes Faltermeier" email="jfaltermeier@eclipsesource.com"/>
   <contacts name="Yves YANG" email="yves.yang@soyatec.com"/>
   <contacts name="Adrian Sacchi" email="adrian.sacchi@bsiag.com"/>
+  <contacts name="Tom Schindl" email="tom.schindl@bestsolution.at"/>
 </aggregator:Aggregation>
