@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Linux Tools">
-  <repositories location="http://download.eclipse.org/linuxtools/update-luna-sr1-rc4a" description="Linux Tools Updates">
+  <repositories location="http://download.eclipse.org/releases/luna/201409261000/">
     <features name="org.eclipse.linuxtools.cdt.libhover.devhelp.feature.feature.group" versionRange="3.1.0.201409171651">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
     </features>

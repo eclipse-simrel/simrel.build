@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="QVT Operational">
-  <repositories location="http://download.eclipse.org/mmt/qvto/updates/milestones/3.4.0/S201406101621" description="QVT Operational 3.4.0 milestones">
+  <repositories location="http://download.eclipse.org/releases/luna/201409261000/">
     <features name="org.eclipse.m2m.qvt.oml.sdk.feature.group" versionRange="[3.4.0,3.5.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>

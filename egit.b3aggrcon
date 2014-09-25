@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EGit">
-  <repositories location="http://download.eclipse.org/egit/updates-3.4.1" description="EGit Updates">
+  <repositories location="http://download.eclipse.org/releases/luna/201409261000/">
     <features name="org.eclipse.jgit.feature.group" versionRange="[3.4.1.201406201815-r]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
@@ -29,7 +29,7 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/egit/github/updates-3.4" description="EGit GitHub Updates">
+  <repositories location="http://download.eclipse.org/releases/luna/201409261000/">
     <features name="org.eclipse.mylyn.github.feature.feature.group" versionRange="[3.4.0.201406110918-r]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>

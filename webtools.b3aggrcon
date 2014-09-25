@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="WebTools">
-  <repositories location="http://download.eclipse.org/webtools/downloads/drops/R3.6.1/R-3.6.1-20140912000031/repository/" description="Web Tools 3.6 repository site">
+  <repositories location="http://download.eclipse.org/releases/luna/201409261000/">
     <features name="org.eclipse.wst.web_ui.feature.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
@@ -85,7 +85,7 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/webtools/downloads/drops/C3.2.0/I-C3.2.0-20100614204142/repository/" description="Web Tools 3.2 capability site">
+  <repositories location="http://download.eclipse.org/releases/luna/201409261000/">
     <bundles name="org.eclipse.wtp.epp.package.capabilities" versionRange="1.3.0.v201005102000"/>
     <bundles name="org.eclipse.wtp.epp.package.jee.intro" versionRange="1.3.0.v201005102030"/>
     <bundles name="org.eclipse.wtp.javascript.capabilities" versionRange="1.0.100.v201005102000"/>
@@ -93,7 +93,7 @@
     <bundles name="org.eclipse.wtp.web.capabilities" versionRange="1.0.100.v201005102000"/>
     <bundles name="org.eclipse.wtp.xml.capabilities" versionRange="1.0.100.v201005102000"/>
   </repositories>
-  <repositories location="http://download.eclipse.org/libra/milestones/S-0.3.1RC1-201405141436" description="Libra 0.3.1 RC1 repository site">
+  <repositories location="http://download.eclipse.org/releases/luna/201409261000/">
     <features name="org.eclipse.libra.facet.feature.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
