@@ -1,36 +1,35 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Eclipse Sirius" label="Sirius">
-  <repositories location="http://download.eclipse.org/sirius/updates/milestones/1.0.0rc3/luna">
-    <features name="org.eclipse.sirius.runtime.feature.group" versionRange="[1.0.0,1.1.0]">
+  <repositories location="http://download.eclipse.org/sirius/updates/stable/2.0.0-S20140930-084650/luna">
+    <features name="org.eclipse.sirius.runtime.feature.group" versionRange="[2.0.0,2.1.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.sirius.runtime.acceleo.feature.group" versionRange="[1.0.0,1.1.0]">
+    <features name="org.eclipse.sirius.runtime.acceleo.feature.group" versionRange="[2.0.0,2.1.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.sirius.doc.feature.feature.group" versionRange="[1.0.0,1.1.0]">
+    <features name="org.eclipse.sirius.doc.feature.feature.group" versionRange="[2.0.0,2.1.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.sirius.runtime.ide.ui.acceleo.feature.group" versionRange="[1.0.0,1.1.0]">
+    <features name="org.eclipse.sirius.runtime.ide.ui.acceleo.feature.group" versionRange="[2.0.0,2.1.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.sirius.runtime.ide.ui.feature.group" versionRange="[1.0.0,1.1.0]">
+    <features name="org.eclipse.sirius.runtime.ide.ui.feature.group" versionRange="[2.0.0,2.1.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.sirius.specifier.ide.ui.acceleo.feature.group" versionRange="[1.0.0,1.1.0]">
+    <features name="org.eclipse.sirius.specifier.ide.ui.acceleo.feature.group" versionRange="[2.0.0,2.1.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.sirius.specifier.ide.ui.feature.group" versionRange="[1.0.0,1.1.0]">
+    <features name="org.eclipse.sirius.specifier.ide.ui.feature.group" versionRange="[2.0.0,2.1.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.sirius.runtime.ide.eef.feature.group" versionRange="[1.0.0,1.1.0]">
+    <features name="org.eclipse.sirius.runtime.ide.eef.feature.group" versionRange="[2.0.0,2.1.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.sirius.runtime.ide.xtext.feature.group" versionRange="[1.0.0,1.1.0]">
+    <features name="org.eclipse.sirius.runtime.ide.xtext.feature.group" versionRange="[2.0.0,2.1.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='pierre-charles.david@obeo.fr']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='laurent.redor@obeo.fr']"/>
-  <contacts href="simrel.b3aggr#//@contacts[email='alex.lagarde@obeo.fr']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='cedric.brun@obeo.fr']"/>
 </aggregator:Contribution>
