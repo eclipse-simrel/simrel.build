@@ -178,6 +178,7 @@
     <features href="egit.b3aggrcon#//@repositories.0/@features.8"/>
     <features href="mylyn.b3aggrcon#//@repositories.0/@features.14"/>
     <features href="dltk.b3aggrcon#//@repositories.0/@features.6"/>
+    <features href="pdt.b3aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="Database Development" label="Database Development" description="Tools to define and access a wide variety of databases.">
     <features href="dtp.b3aggrcon#//@repositories.0/@features.0"/>
@@ -568,7 +569,6 @@
   <contacts name="Nicolas Bros" email="nbros.mia@gmail.com"/>
   <contacts name="Oisin Hurley" email="oisin.hurley@gmail.com"/>
   <contacts name="Olivier Constant" email="olivier.constant@thalesgroup.com"/>
-  <contacts name="PDT Build Team" email="roy@zend.com"/>
   <contacts name="Pierre-Charles David" email="pierre-charles.david@obeo.fr"/>
   <contacts name="Radek Dvorak" email="dvorak.radek@gmail.com"/>
   <contacts name="Ralf Sternberg" email="rsternberg@eclipsesource.com"/>
@@ -603,4 +603,5 @@
   <contacts name="Adrian Sacchi" email="adrian.sacchi@bsiag.com"/>
   <contacts name="Tom Schindl" email="tom.schindl@bestsolution.at"/>
   <contacts name="Edgar Mueller" email="emueller@eclipsesource.com"/>
+  <contacts name="Dawid Pakula" email="zulus@w3des.net"/>
 </aggregator:Aggregation>

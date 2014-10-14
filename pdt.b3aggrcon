@@ -6,6 +6,10 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
+    <features name="org.eclipse.php.mylyn.feature.group" versionRange="3.3.1">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+    </features>
   </repositories>
+  <contacts href="simrel.b3aggr#//@contacts[email='zulus@w3des.net']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='jacek.pospychala@gmail.com']"/>
 </aggregator:Contribution>
