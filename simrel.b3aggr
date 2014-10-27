@@ -476,7 +476,6 @@
     <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
-  <contacts name="Zhiqiang Qian" email="zqian@actuate.com"/>
   <contacts name="Adolfo Sanchez-Barbudo Herrera" email="adolfosbh@gmail.com"/>
   <contacts name="Alex Boyko" email="aboyko@ca.ibm.com"/>
   <contacts name="Alex Kurtakov" email="akurtako@redhat.com"/>
@@ -489,6 +488,7 @@
   <contacts name="Antoine Toulme" email="antoine@lunar-ocean.com"/>
   <contacts name="Artem Tikhomirov" email="tikhomirov.artem@gmail.com"/>
   <contacts name="Ashwani Kr Sharma" email="ashw.kumar@gmail.com"/>
+  <contacts name="Ben Gamble" email="bgamble@actuate.com"/>
   <contacts name="Benjamin Cabe" email="BCabe@sierrawireless.com"/>
   <contacts name="Benjamin Muskalla" email="benjamin.muskalla@tasktop.com"/>
   <contacts name="Benoit Langlois" email="benoit.langlois@thalesgroup.com"/>
@@ -545,7 +545,6 @@
   <contacts name="Krum Tsvetkov" email="krum.tsvetkov@sap.com"/>
   <contacts name="Laurent Redor" email="laurent.redor@obeo.fr"/>
   <contacts name="Laurent goubet" email="laurent.goubet@obeo.fr"/>
-  <contacts name="Linda Chan" email="lchan@actuate.com"/>
   <contacts name="M2T JET Build Team" email="pelder@ca.ibm.com"/>
   <contacts name="MDT OCL Build Team" email="Alexander.Igdalov@gmail.com"/>
   <contacts name="Manuel Bork" email="manuel.bork@yatta.de"/>
@@ -594,7 +593,6 @@
   <contacts name="Vincent Zurczak" email="vincent.zurczak@linagora.com"/>
   <contacts name="Wayne Beaton" email="wayne@eclipse.org"/>
   <contacts name="William Piers" email="william.piers@obeo.fr"/>
-  <contacts name="Xiaoying Gu" email="xgu@actuate.com"/>
   <contacts name="Xtext, Xpand, MWE Build Team" email="alle-ki@itemis.de"/>
   <contacts name="Yong Jiang" email="yjiang@actuate.com"/>
   <contacts name="Johannes Faltermeier" email="jfaltermeier@eclipsesource.com"/>

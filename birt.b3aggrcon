@@ -23,7 +23,6 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='xgu@actuate.com']"/>
-  <contacts href="simrel.b3aggr#//@contacts[email='zqian@actuate.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='bgamble@actuate.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='chezy@actuate.com']"/>
 </aggregator:Contribution>
