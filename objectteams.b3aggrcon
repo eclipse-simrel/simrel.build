@@ -9,5 +9,5 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='stephan@cs.tu-berlin.de']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='stephan.herrmann@berlin.de']"/>
 </aggregator:Contribution>
