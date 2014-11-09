@@ -1,0 +1,100 @@
+
+		Report as of  Sun Nov  9 00:30:51 UTC 2014
+
+Active during last year
+=======================
+Adrian Sacchi
+Alexander Gurov
+Alexander Nyssen
+Alex Lagarde
+Alex Panchenko
+Andreas Sewe
+Anthony Hunter
+Ben Gamble
+Benoit Langlois
+Beth Tibbitts
+Camille Letavernier
+Carl Anderson
+Carsten Reckord
+Cedric Brun
+Christian Campo
+Christian Saad
+David Williams
+Dawid Pakula
+Dennis Huebner
+Doug Schaefer
+Ed Willink
+Eike Stepper
+Fred Bricon
+Goulwen Le Fur
+Gregoire Dupe
+Greg Watson
+Gunnar Wagenknecht
+Igor Fedorenko
+Jacek Pospychela
+Jeff Johnston
+Johannes Faltermeier
+Judith Gull
+Julio C. Chavez
+Kaloyan Raev
+Ken Lee
+Kenn Hussey
+Kentarou Fukuda
+Konstantin Komissarchik
+Krum Tsvetkov
+Laurent goubet
+Linda Chan
+Manuel Bork
+Marcel Bruch
+Marc Khouzam
+Mark R Russell
+Markus Knauer
+Markus Tiede
+Martin Oberhuber
+Marvin Mueller
+Matthias Sohn
+mgolubev
+Michael Wenz
+Mickael Istria
+Pierre-Charles David
+Robert Brodt
+Sam Davis
+Scott Lewis
+Sergey Boyko
+Simon Bernard
+Simone Seurer
+Steffen Pingel
+Stephan Eberle
+Stephan Herrmann
+Sven Rottstock
+Tomasz Zarna
+Tom Schindl
+Vincent Lorenzo
+William Piers
+Xiaoying Gu
+Yuxuan Dai
+Yves YANG
+Zhiqiang Qian
+
+Inactive during last year
+=========================
+Adolfo Sanchez-Barbudo Herrera
+Ahmed Samir Wafa awafa
+Benjamin Cabe
+Borislav Kapukaranov
+David Dykstal
+Eric Gwin
+hstaudacher
+Idrissa Dieng
+Matthieu Helleboid
+Mickael Barbero
+Miles Parker
+Olivier Constant
+Ralf Sternberg
+Sabine Achilles
+Stephane Begaudeau
+Vincent Zurczak
+vl222926
+Wayne Beaton
+Yong Jiang
+Zeb Ford-Reitz
