@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Xtext, Xtend">
-  <repositories location="http://download.eclipse.org/modeling/tmf/xtext/updates/milestones/head/S201409300608/" description="TMF Xtext p2 repository">
+  <repositories location="http://download.eclipse.org/modeling/tmf/xtext/updates/milestones/head/S201411111037/" description="TMF Xtext p2 repository">
     <features name="org.eclipse.xtext.sdk.feature.group" versionRange="2.8.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
