@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Jubula">
-  <repositories location="http://download.eclipse.org/jubula/milestones/mars-m2">
+  <repositories location="http://download.eclipse.org/jubula/milestones/mars-m3">
     <features name="org.eclipse.jubula.feature.feature.group" versionRange="2.4.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Testing']"/>
     </features>
@@ -8,6 +8,9 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Testing']"/>
     </features>
     <features name="org.eclipse.jubula.feature.launch.rcp.feature.group" versionRange="2.4.0">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Testing']"/>
+    </features>
+    <features name="org.eclipse.jubula.feature.api.feature.group" versionRange="2.4.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Testing']"/>
     </features>
   </repositories>
