@@ -74,6 +74,7 @@
     <contributions href="ecp.b3aggrcon#/"/>
     <contributions href="XWT.b3aggrcon#/"/>
     <contributions href="efxclipse.b3aggrcon#/"/>
+    <contributions href="tracecompass.b3aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
@@ -261,6 +262,11 @@
     <features href="XWT.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="XWT.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="ptp.b3aggrcon#//@repositories.1/@features.0"/>
+    <features href="tracecompass.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="tracecompass.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="tracecompass.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="tracecompass.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="tracecompass.b3aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
   <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.3"/>
@@ -605,4 +611,7 @@
   <contacts name="Tom Schindl" email="tom.schindl@bestsolution.at"/>
   <contacts name="Edgar Mueller" email="emueller@eclipsesource.com"/>
   <contacts name="Dawid Pakula" email="zulus@w3des.net"/>
+  <contacts name="Alexandre Montplaisir" email="alexmonthy@voxpopuli.im"/>
+  <contacts name="Bernd Hufmann" email="bernd.hufmann@ericsson.com"/>
+  <contacts name="Marc-Andre Laperle" email="marc-andre.laperle@ericsson.com"/>
 </aggregator:Aggregation>
