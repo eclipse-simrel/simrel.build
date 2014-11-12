@@ -62,7 +62,7 @@
     <contributions href="swtbot.b3aggrcon#/"/>
     <contributions href="mylyn-docs-intent.b3aggrcon#/"/>
     <contributions href="mft.b3aggrcon#/"/>
-    <contributions href="koneki.b3aggrcon#/"/>
+    <contributions href="ldt.b3aggrcon#/"/>
     <contributions href="tcf.b3aggrcon#/"/>
     <contributions href="emf-diffmerge.b3aggrcon#/"/>
     <contributions href="m2e-wtp.b3aggrcon#/"/>
@@ -74,6 +74,7 @@
     <contributions href="ecp.b3aggrcon#/"/>
     <contributions href="XWT.b3aggrcon#/"/>
     <contributions href="efxclipse.b3aggrcon#/"/>
+    <contributions href="tracecompass.b3aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
@@ -261,6 +262,11 @@
     <features href="XWT.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="XWT.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="ptp.b3aggrcon#//@repositories.1/@features.0"/>
+    <features href="tracecompass.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="tracecompass.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="tracecompass.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="tracecompass.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="tracecompass.b3aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
   <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.3"/>
@@ -397,10 +403,10 @@
     <features href="recommenders.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="recommenders.b3aggrcon#//@repositories.0/@features.4"/>
     <features href="tmf-xtext.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="koneki.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="ldt.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.15"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.16"/>
-    <features href="koneki.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="ldt.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.8"/>
     <features href="XWT.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="XWT.b3aggrcon#//@repositories.0/@features.1"/>
@@ -543,6 +549,7 @@
   <contacts name="Ken Lee" email="ken.lee@bsiag.com"/>
   <contacts name="Kenn Hussey" email="Kenn.Hussey@gmail.com"/>
   <contacts name="Kentarou Fukuda" email="kentarou@jp.ibm.com"/>
+  <contacts name="Kevin Kin-Foo" email="kkinfoo@sierrawireless.com"/>
   <contacts name="Konstantin Komissarchik" email="konstantin.komissarchik@oracle.com"/>
   <contacts name="Krum Tsvetkov" email="krum.tsvetkov@sap.com"/>
   <contacts name="Laurent Redor" email="laurent.redor@obeo.fr"/>
@@ -550,6 +557,7 @@
   <contacts name="M2T JET Build Team" email="pelder@ca.ibm.com"/>
   <contacts name="MDT OCL Build Team" email="Alexander.Igdalov@gmail.com"/>
   <contacts name="Manuel Bork" email="manuel.bork@yatta.de"/>
+  <contacts name="Marc Aubry" email="maubry@sierrawireless.com"/>
   <contacts name="Marc Khouzam" email="marc.khouzam@ericsson.com"/>
   <contacts name="Marcel Augusto Gorri" email="wmg040@motorola.com"/>
   <contacts name="Marcel Bruch" email="marcel.bruch@codetrails.com"/>
@@ -580,7 +588,7 @@
   <contacts name="Scott Lewis" email="slewis@composent.com"/>
   <contacts name="Sergey Boyko" email="serg.boyko2011@gmail.com"/>
   <contacts name="Shawn Pearce" email="sop@google.com"/>
-  <contacts name="Simon Bernard" email="SBernard@sierrawireless.com"/>
+  <contacts name="Simon Bernard" email="sbernard@sierrawireless.com"/>
   <contacts name="Simone Seurer" email="simone.seurer@sungard.com"/>
   <contacts name="Steffen Pingel" email="steffen.pingel@tasktop.com"/>
   <contacts name="Stephan Eberle" email="stephaneberle9@gmail.com"/>
@@ -603,4 +611,7 @@
   <contacts name="Tom Schindl" email="tom.schindl@bestsolution.at"/>
   <contacts name="Edgar Mueller" email="emueller@eclipsesource.com"/>
   <contacts name="Dawid Pakula" email="zulus@w3des.net"/>
+  <contacts name="Alexandre Montplaisir" email="alexmonthy@voxpopuli.im"/>
+  <contacts name="Bernd Hufmann" email="bernd.hufmann@ericsson.com"/>
+  <contacts name="Marc-Andre Laperle" email="marc-andre.laperle@ericsson.com"/>
 </aggregator:Aggregation>
