@@ -75,6 +75,7 @@
     <contributions href="XWT.b3aggrcon#/"/>
     <contributions href="efxclipse.b3aggrcon#/"/>
     <contributions href="tracecompass.b3aggrcon#/"/>
+    <contributions href="thym.b3aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
@@ -296,6 +297,7 @@
     <features href="tcf.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="tcf.b3aggrcon#//@repositories.0/@features.4"/>
     <features href="tcf.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="thym.b3aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Modeling" label="Modeling" description="Model definition, creation, and manipulation frameworks (e.g. EMF, OCL, GMF, M2M, M2T, GEF) and industry models (e.g. UML, JEM, XSD).">
     <features href="gmp-gmf-notation.b3aggrcon#//@repositories.0/@features.0"/>
