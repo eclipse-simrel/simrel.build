@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Object Teams">
-  <repositories enabled="false" location="http://download.eclipse.org/objectteams/updates/ot2.3-rc4">
-    <features description="Object Teams Development Tooling" name="org.eclipse.objectteams.otdt.feature.group" versionRange="2.3.0.201405201707">
+  <repositories location="http://download.eclipse.org/objectteams/updates/ot2.4-milestones">
+    <features description="Object Teams Development Tooling" name="org.eclipse.objectteams.otdt.feature.group" versionRange="2.4.0.201411151620">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features description="Object Teams Equinox Integration" name="org.eclipse.objectteams.otequinox.feature.group" versionRange="2.3.0.201405201707">
+    <features description="Object Teams Equinox Integration" name="org.eclipse.objectteams.otequinox.feature.group" versionRange="2.4.0.201411151620">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='stephan@cs.tu-berlin.de']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='stephan.herrmann@berlin.de']"/>
 </aggregator:Contribution>
