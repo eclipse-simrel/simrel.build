@@ -37,7 +37,7 @@
     <features name="org.eclipse.ptp.debug.sdm.feature.group" versionRange="8.1.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-     <features name="org.eclipse.ptp.etfw.feedback.perfsuite.feature.group" versionRange="8.1.0">
+    <features name="org.eclipse.ptp.etfw.feedback.perfsuite.feature.group" versionRange="8.1.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
