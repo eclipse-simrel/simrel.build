@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EMF Facet">
-  <repositories location="http://download.eclipse.org/facet/updates/integration/0.5.0/I201409220856/" description="EMF Facet">
-    <features name="org.eclipse.emf.facet.sdk.feature.feature.group" versionRange="0.5.0">
+  <repositories location="http://download.eclipse.org/facet/updates/integration/1.0.0/I201411271427/" description="EMF Facet">
+    <features name="org.eclipse.emf.facet.sdk.feature.feature.group" versionRange="1.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
