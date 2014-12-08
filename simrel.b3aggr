@@ -76,6 +76,7 @@
     <contributions href="efxclipse.b3aggrcon#/"/>
     <contributions href="tracecompass.b3aggrcon#/"/>
     <contributions href="thym.b3aggrcon#/"/>
+    <contributions href="rcptt.b3aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
@@ -614,4 +615,6 @@
   <contacts name="Alexandre Montplaisir" email="alexmonthy@voxpopuli.im"/>
   <contacts name="Bernd Hufmann" email="bernd.hufmann@ericsson.com"/>
   <contacts name="Marc-Andre Laperle" email="marc-andre.laperle@ericsson.com"/>
+  <contacts name="Vasili Gulevich" email="vasili.gulevich@xored.com"/>
+  <contacts name="Ivan Inozemtsev" email="ivan.inozemtsev@xored.com"/>
 </aggregator:Aggregation>
