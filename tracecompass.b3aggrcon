@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Trace Compass Updates" label="Trace Compass">
   <repositories location="http://download.eclipse.org/tracecompass/mars/milestones" description="Trace Compass Updates">
-    <features name="org.eclipse.tracecompass.lttng2.control.feature.group" versionRange="0.1.0">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Performance%2C%20Profiling%20and%20Tracing%20Tools']"/>
-    </features>
+    <features name="org.eclipse.tracecompass.lttng2.control.feature.group" versionRange="0.1.0"/>
     <features name="org.eclipse.tracecompass.lttng2.kernel.feature.group" versionRange="0.1.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Performance%2C%20Profiling%20and%20Tracing%20Tools']"/>
     </features>
