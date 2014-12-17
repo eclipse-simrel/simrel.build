@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Oomph">
+  <repositories location="http://download.eclipse.org/oomph/drops/milestone/S20141217-051847-1.1.0-M4" description="Oomph Mars M4">
+    <features name="org.eclipse.oomph.gitbash">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.launches">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.manifests">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.p2">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.preferences">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.projectconfig">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.projectcopy">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.setup.core">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.setup.git">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.setup.jdt">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.setup.launching">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.setup.maven">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.setup.mylyn">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.setup.pde">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.setup.projects">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.setup.projectset">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.setup.targlets">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.setup.workbench">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.setup.workingsets">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.setup">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.targlets">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.util">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.version">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.winexplorer">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+    <features name="org.eclipse.oomph.workingsets">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='General Purpose Tools']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.b3aggr#//@contacts[email='stepper@esc-net.de']"/>
+</aggregator:Contribution>
