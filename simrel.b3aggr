@@ -203,7 +203,8 @@
     <features href="actf.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="ep.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="tm.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="tm.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="tm.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="tm.b3aggrcon#//@repositories.0/@features.5"/>
     <features href="dltk.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="epp-mpc.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="mat.b3aggrcon#//@repositories.0/@features.0"/>
@@ -220,7 +221,6 @@
     <features href="ptp.b3aggrcon#//@repositories.0/@features.7"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.5"/>
-    <features href="tm.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="dltk.b3aggrcon#//@repositories.0/@features.5"/>
     <features href="m2e.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.0"/>
@@ -268,6 +268,8 @@
     <features href="tm.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="tm.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="tm.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="tm.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="tm.b3aggrcon#//@repositories.0/@features.4"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.10"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.11"/>
