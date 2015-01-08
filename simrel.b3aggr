@@ -270,25 +270,6 @@
     <features href="oomph.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="oomph.b3aggrcon#//@repositories.0/@features.4"/>
     <features href="oomph.b3aggrcon#//@repositories.0/@features.5"/>
-    <features href="oomph.b3aggrcon#//@repositories.0/@features.6"/>
-    <features href="oomph.b3aggrcon#//@repositories.0/@features.7"/>
-    <features href="oomph.b3aggrcon#//@repositories.0/@features.8"/>
-    <features href="oomph.b3aggrcon#//@repositories.0/@features.9"/>
-    <features href="oomph.b3aggrcon#//@repositories.0/@features.10"/>
-    <features href="oomph.b3aggrcon#//@repositories.0/@features.11"/>
-    <features href="oomph.b3aggrcon#//@repositories.0/@features.12"/>
-    <features href="oomph.b3aggrcon#//@repositories.0/@features.13"/>
-    <features href="oomph.b3aggrcon#//@repositories.0/@features.14"/>
-    <features href="oomph.b3aggrcon#//@repositories.0/@features.15"/>
-    <features href="oomph.b3aggrcon#//@repositories.0/@features.16"/>
-    <features href="oomph.b3aggrcon#//@repositories.0/@features.17"/>
-    <features href="oomph.b3aggrcon#//@repositories.0/@features.18"/>
-    <features href="oomph.b3aggrcon#//@repositories.0/@features.19"/>
-    <features href="oomph.b3aggrcon#//@repositories.0/@features.20"/>
-    <features href="oomph.b3aggrcon#//@repositories.0/@features.21"/>
-    <features href="oomph.b3aggrcon#//@repositories.0/@features.22"/>
-    <features href="oomph.b3aggrcon#//@repositories.0/@features.23"/>
-    <features href="oomph.b3aggrcon#//@repositories.0/@features.24"/>
   </customCategories>
   <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.9"/>
