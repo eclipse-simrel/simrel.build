@@ -417,6 +417,7 @@
     <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="mdt-bpmn2.b3aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Testing" label="Testing" description="Frameworks supporting application testing.">
     <features href="jubula.b3aggrcon#//@repositories.0/@features.0"/>
