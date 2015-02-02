@@ -11,7 +11,7 @@
     <features name="org.eclipse.xsd.sdk.feature.group" versionRange="[2.10.0.v20150123-0452]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.emf.ecore.xcore.sdk.feature.group" versionRange="[1.2.1.v20141013-0331]">
+    <features name="org.eclipse.emf.ecore.xcore.sdk.feature.group" versionRange="[1.2.2.v20150202-0452]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
