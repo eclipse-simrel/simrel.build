@@ -33,13 +33,13 @@
     <features name="org.eclipse.gef4.mvc.sdk.feature.group" versionRange="[0.1.0.201502021145,0.2.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.mvc.examples.feature.group" versionRange="[0.1.0.201502021145,0.2.0)">
+    <features name="org.eclipse.gef4.mvc.examples.feature.group" versionRange="[0.1.0.201502021145,0.2.0)" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
     <features name="org.eclipse.gef4.zest.sdk.feature.group" versionRange="[0.1.0.201502021145,0.2.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.zest.examples.feature.group" versionRange="[0.1.0.201502021145,0.2.0)">
+    <features name="org.eclipse.gef4.zest.examples.feature.group" versionRange="[0.1.0.201502021145,0.2.0)" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
     <features name="org.eclipse.gef4.cloudio.sdk.feature.group" versionRange="[0.1.0.201502021145,0.2.0)">
