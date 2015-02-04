@@ -61,7 +61,6 @@
     <contributions href="windowbuilder.b3aggrcon#/"/>
     <contributions href="jubula.b3aggrcon#/"/>
     <contributions href="swtbot.b3aggrcon#/"/>
-    <contributions href="mft.b3aggrcon#/"/>
     <contributions href="ldt.b3aggrcon#/"/>
     <contributions href="tcf.b3aggrcon#/"/>
     <contributions href="emf-diffmerge.b3aggrcon#/"/>
@@ -163,9 +162,6 @@
     <features href="subversive.b3aggrcon#//@repositories.0/@features.5"/>
     <features href="m2e.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="m2e.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="mft.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="mft.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="mft.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.4"/>
     <features href="m2e.b3aggrcon#//@repositories.0/@features.2"/>
