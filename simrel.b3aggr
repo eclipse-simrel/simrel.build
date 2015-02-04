@@ -404,9 +404,11 @@
     <features href="recommenders.b3aggrcon#//@repositories.0/@features.4"/>
     <features href="tmf-xtext.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="ldt.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="ldt.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="ldt.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="ldt.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.15"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.16"/>
-    <features href="ldt.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.8"/>
     <features href="XWT.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="XWT.b3aggrcon#//@repositories.0/@features.1"/>
