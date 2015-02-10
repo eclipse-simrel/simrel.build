@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Eclipse">
-  <repositories location="http://download.eclipse.org/eclipse/updates/4.4-M-builds/M-4.4.2RC2-201501281000/">
+  <repositories location="http://download.eclipse.org/eclipse/updates/4.4-M-builds/M-4.4.2RC3-201502041700/">
     <products name="org.eclipse.sdk.ide"/>
     <products name="org.eclipse.platform.ide"/>
     <products name="org.eclipse.platform.sdk"/>
