@@ -97,6 +97,7 @@
   <configurations operatingSystem="solaris" windowSystem="gtk"/>
   <configurations/>
   <configurations architecture="x86_64"/>
+  <configurations/>
   <customCategories identifier="Application Development Frameworks" label="Application Development Frameworks" description="Frameworks supporting application development.">
     <features href="scout.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="sapphire.b3aggrcon#//@repositories.0/@features.0"/>
@@ -267,7 +268,7 @@
   <customCategories identifier="Mobile and Device Development" label="Mobile and Device Development" description="Tools used to develop mobile and device applications.">
     <features href="tm.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="tm.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="tm.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="tcf.b3aggrcon#//@repositories.0/@features.5"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.10"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.11"/>

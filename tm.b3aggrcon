@@ -9,9 +9,7 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.tm.terminal.sdk.feature.group" versionRange="4.0.0">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
-    </features>
+    <features name="org.eclipse.tm.terminal.sdk.feature.group" versionRange="4.0.0"/>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='g.watson@computer.org']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='martin.oberhuber@windriver.com']"/>
