@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Aggregation files used for yearly &quot;release train&quot;." buildmaster="//@contacts[email='david_williams@us.ibm.com']" label="Luna" buildRoot="buildresultsLuna" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false">
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Aggregation files used for yearly &quot;release train&quot;." buildmaster="//@contacts[email='david_williams@us.ibm.com']" label="Luna" buildRoot="buildresultsLuna" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false">
   <validationSets label="main">
     <contributions href="equinox.b3aggrcon#/"/>
     <contributions href="ep.b3aggrcon#/"/>
@@ -72,11 +72,6 @@
     <contributions href="emfstore.b3aggrcon#/"/>
     <contributions href="ecp.b3aggrcon#/"/>
     <contributions href="XWT.b3aggrcon#/"/>
-    <contributions description="A bit of hack to pull signed version of bundle forward, from Luna SR0." label="QuickFix" contacts="//@contacts[email='david_williams@us.ibm.com']">
-      <repositories location="http://download.eclipse.org/releases/luna/201406250900/" description="Only ONE bundle comes from SR0">
-        <bundles name="javax.persistence" versionRange="2.1.0.v201304241213"/>
-      </repositories>
-    </contributions>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
