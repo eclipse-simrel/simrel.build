@@ -72,6 +72,11 @@
     <contributions href="emfstore.b3aggrcon#/"/>
     <contributions href="ecp.b3aggrcon#/"/>
     <contributions href="XWT.b3aggrcon#/"/>
+    <contributions description="Quick fix to &quot;force&quot; a signed version of javax.persistence into repo, from Luna SR0 repo." label="Quick FIx for javax.persistence" contacts="//@contacts[email='david_williams@us.ibm.com']">
+      <repositories location="http://download.eclipse.org/releases/luna/201406250900/" description="Luna Initial Release (we want just one bundle from here) .. hence &quot;include rule&quot;.">
+        <bundles name="javax.persistence" versionRange="2.1.0.v201304241213"/>
+      </repositories>
+    </contributions>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
@@ -203,7 +208,8 @@
     <features href="actf.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="ep.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="tm.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="tm.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="tm.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="tm.b3aggrcon#//@repositories.0/@features.5"/>
     <features href="dltk.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="epp-mpc.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="mat.b3aggrcon#//@repositories.0/@features.0"/>
@@ -220,7 +226,6 @@
     <features href="ptp.b3aggrcon#//@repositories.0/@features.7"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.5"/>
-    <features href="tm.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="dltk.b3aggrcon#//@repositories.0/@features.5"/>
     <features href="m2e.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.0"/>
@@ -268,6 +273,8 @@
     <features href="tm.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="tm.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="tm.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="tm.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="tm.b3aggrcon#//@repositories.0/@features.4"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.10"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.11"/>
@@ -411,11 +418,11 @@
     <features href="stardust.b3aggrcon#//@repositories.0/@features.5"/>
     <features href="stardust.b3aggrcon#//@repositories.0/@features.6"/>
     <features href="stardust.b3aggrcon#//@repositories.0/@features.7"/>
-    <features href="mdt-bpmn2.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="mdt-bpmn2.b3aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Testing" label="Testing" description="Frameworks supporting application testing.">
     <features href="jubula.b3aggrcon#//@repositories.0/@features.0"/>
@@ -560,6 +567,8 @@
   <contacts name="Robert Brodt" email="bbrodt@redhat.com"/>
   <contacts name="Thorsten Schenkel" email="Thorsten.Schenkel@compeople.de"/>
   <contacts name="Scott Lewis" email="slewis@composent.com"/>
+  <contacts name="Wim Jongman" email="wim.jongman@remainsoftware.com"/>
+  <contacts name="Harshana Eranga Martin" email="harshana05@gmail.com"/>
   <contacts name="Sergey Boyko" email="serg.boyko2011@gmail.com"/>
   <contacts name="Shawn Pearce" email="sop@google.com"/>
   <contacts name="Simon Bernard" email="SBernard@sierrawireless.com"/>
