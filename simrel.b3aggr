@@ -72,11 +72,6 @@
     <contributions href="emfstore.b3aggrcon#/"/>
     <contributions href="ecp.b3aggrcon#/"/>
     <contributions href="XWT.b3aggrcon#/"/>
-    <contributions description="Temporary workaround for unsigned javaxpersistence bundle." label="javaxpersistence" contacts="//@contacts[email='david_williams@us.ibm.com']">
-      <repositories location="http://download.eclipse.org/releases/luna/javaxpersistence/" description="Temporary repo, to hold one bundle: a signed, javax.persistence.">
-        <bundles name="javax.persistence" versionRange="2.1.0.v201304241213"/>
-      </repositories>
-    </contributions>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
