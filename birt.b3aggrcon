@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="BIRT">
-  <repositories location="http://download.eclipse.org/birt/update-site/luna-interim/" description="BIRT interim">
+  <repositories location="http://download.eclipse.org/birt/update-site/4.4/" description="BIRT interim">
     <features name="org.eclipse.birt.feature.group" versionRange="4.4.2.v201410272105-DPEqA5GixAot9yUGgiE15dZgVpeZ">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
