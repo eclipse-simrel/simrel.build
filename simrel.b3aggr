@@ -24,6 +24,7 @@
     <contributions href="subversive.b3aggrcon#/"/>
     <contributions href="actf.b3aggrcon#/"/>
     <contributions href="epp-mpc.b3aggrcon#/"/>
+    <contributions href="epp-logging.b3aggrcon#/"/>
     <contributions href="emf-cdo.b3aggrcon#/"/>
     <contributions href="oomph.b3aggrcon#/"/>
     <contributions href="birt.b3aggrcon#/"/>
@@ -258,6 +259,7 @@
     <features href="oomph.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="oomph.b3aggrcon#//@repositories.0/@features.4"/>
     <features href="oomph.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="epp-logging.b3aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.9"/>
