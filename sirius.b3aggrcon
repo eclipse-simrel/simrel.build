@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Eclipse Sirius" label="Sirius">
-  <repositories location="http://download.eclipse.org/sirius/updates/milestones/3.0.0M5/mars">
+  <repositories location="http://download.eclipse.org/sirius/updates/stable/3.0.0-S20150323-110607/mars">
     <features name="org.eclipse.sirius.runtime.feature.group" versionRange="[3.0.0,3.1.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
@@ -28,6 +28,8 @@
     <features name="org.eclipse.sirius.runtime.ide.xtext.feature.group" versionRange="[3.0.0,3.1.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
+    <features name="org.eclipse.sirius.runtime.aql.feature.group" versionRange="[3.0.0,3.1.0]"/>
+    <features name="org.eclipse.sirius.specifier.ide.ui.aql.feature.group" versionRange="[3.0.0,3.1.0]"/>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='pierre-charles.david@obeo.fr']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='laurent.redor@obeo.fr']"/>
