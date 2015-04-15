@@ -107,7 +107,6 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='david_williams@us.ibm.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='kaloyan.r@zend.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='ccc@us.ibm.com']"/>
 </aggregator:Contribution>
