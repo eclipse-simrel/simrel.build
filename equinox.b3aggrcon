@@ -13,5 +13,5 @@
     <features name="org.eclipse.equinox.p2.rcp.feature.feature.group"/>
     <features name="org.eclipse.core.runtime.feature.feature.group"/>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='daddavidw@gmail.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='david_williams@us.ibm.com']"/>
 </aggregator:Contribution>
