@@ -133,7 +133,7 @@
     <features href="birt.b3aggrcon#//@repositories.0/@features.5"/>
   </customCategories>
   <customCategories identifier="Collaboration" label="Collaboration" description="Tools to foster collaboration between developers.">
-    <features href="ep.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="ep.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="mylyn.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="mylyn.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="mylyn.b3aggrcon#//@repositories.0/@features.2"/>
@@ -198,7 +198,7 @@
     <features href="actf.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="actf.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="actf.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="ep.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="ep.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="tm.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="tm.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="dltk.b3aggrcon#//@repositories.0/@features.0"/>
@@ -225,7 +225,7 @@
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.8"/>
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.9"/>
     <features href="m2e.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="ep.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="ep.b3aggrcon#//@repositories.0/@features.5"/>
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.10"/>
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.11"/>
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.12"/>
@@ -247,6 +247,7 @@
     <features href="epp-logging.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="tm.b3aggrcon#//@repositories.1/@features.0"/>
     <features href="tm.b3aggrcon#//@repositories.1/@features.1"/>
+    <features href="ep.b3aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.9"/>
@@ -361,7 +362,7 @@
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.10"/>
   </customCategories>
   <customCategories identifier="Programming Languages" label="Programming Languages" description="Tools to allow development with specific languages, such as Java and C++">
-    <features href="ep.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="ep.b3aggrcon#//@repositories.0/@features.4"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.5"/>
