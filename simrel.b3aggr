@@ -248,6 +248,7 @@
     <features href="tm.b3aggrcon#//@repositories.1/@features.0"/>
     <features href="tm.b3aggrcon#//@repositories.1/@features.1"/>
     <features href="ep.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="cdt.b3aggrcon#//@repositories.1/@features.0"/>
   </customCategories>
   <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.9"/>
