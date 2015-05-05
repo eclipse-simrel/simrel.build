@@ -61,6 +61,9 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.cdt.debug.standalone.feature.group" versionRange="1.0.0.201405061918"/>
+    <features name="org.eclipse.cdt.arduino.feature.group">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
   </repositories>
   <repositories location="http://download.eclipse.org/tools/cdt/launchbar/master" description="LaunchBar Updates">
     <features name="org.eclipse.launchbar.feature.group">

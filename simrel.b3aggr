@@ -270,6 +270,7 @@
     <features href="thym.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="tm.b3aggrcon#//@repositories.1/@features.0"/>
     <features href="tm.b3aggrcon#//@repositories.1/@features.1"/>
+    <features href="cdt.b3aggrcon#//@repositories.0/@features.22"/>
   </customCategories>
   <customCategories identifier="Modeling" label="Modeling" description="Model definition, creation, and manipulation frameworks (e.g. EMF, OCL, GMF, M2M, M2T, GEF) and industry models (e.g. UML, JEM, XSD).">
     <features href="gmp-gmf-notation.b3aggrcon#//@repositories.0/@features.0"/>
