@@ -11,16 +11,17 @@
     </features>
   </repositories>
   <repositories location="http://download.eclipse.org/tm/terminal/updates/4.0milestones" description="TM Terminal 4.0 Milestones">
-    <features name="org.eclipse.tm.terminal.feature.feature.group" versionRange="4.0.0.201504170919">
+    <features name="org.eclipse.tm.terminal.feature.feature.group" versionRange="4.0.0.201505060840">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
     </features>
-    <features name="org.eclipse.tm.terminal.view.rse.feature.feature.group" versionRange="4.0.0">
+    <features name="org.eclipse.tm.terminal.view.rse.feature.feature.group" versionRange="4.0.0.201505040823">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='g.watson@computer.org']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='martin.oberhuber@windriver.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='uwe.stieber@windriver.com']"/>
 </aggregator:Contribution>
