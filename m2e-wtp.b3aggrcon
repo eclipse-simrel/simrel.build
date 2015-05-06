@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="m2e-wtp" label="m2e-wtp">
-  <repositories location="http://download.eclipse.org/m2e-wtp/milestones/mars/1.2.0/1.2.0.20150312-1808" description="m2e-wtp Mars M build repo">
+  <repositories location="http://download.eclipse.org/m2e-wtp/milestones/mars/1.2.0/1.2.0.20150506-1407" description="m2e-wtp Mars M build repo">
     <features name="org.eclipse.m2e.wtp.feature.feature.group" versionRange="1.2.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
