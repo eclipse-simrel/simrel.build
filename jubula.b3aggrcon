@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Jubula">
-  <repositories location="http://download.eclipse.org/jubula/milestones/mars-m6">
-    <features name="org.eclipse.jubula.feature.feature.group" versionRange="3.0.0">
+  <repositories location="http://download.eclipse.org/jubula/milestones/mars-m7">
+    <features name="org.eclipse.jubula.feature.feature.group" versionRange="3.1.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Testing']"/>
     </features>
-    <features name="org.eclipse.jubula.feature.launch.java.feature.group" versionRange="3.0.0">
+    <features name="org.eclipse.jubula.feature.launch.java.feature.group" versionRange="3.1.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Testing']"/>
     </features>
-    <features name="org.eclipse.jubula.feature.launch.rcp.feature.group" versionRange="3.0.0">
+    <features name="org.eclipse.jubula.feature.launch.rcp.feature.group" versionRange="3.1.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Testing']"/>
     </features>
-    <features name="org.eclipse.jubula.feature.api.core.feature.group" versionRange="3.0.0">
+    <features name="org.eclipse.jubula.feature.api.core.feature.group" versionRange="3.1.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Testing']"/>
     </features>
   </repositories>
