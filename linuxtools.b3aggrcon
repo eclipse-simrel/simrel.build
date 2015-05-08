@@ -48,6 +48,7 @@
     <features name="org.eclipse.linuxtools.gcov.source.feature.group" versionRange="4.0.0.201505052320"/>
     <features name="org.eclipse.linuxtools.perf.feature.source.feature.group" versionRange="4.0.0.201505052320"/>
     <features name="org.eclipse.linuxtools.profiling.source.feature.group" versionRange="4.0.0.201505052320"/>
+    <features name="org.eclipse.linuxtools.dataviewers.feature.feature.group" versionRange="4.0.0.201505052320"/>
     <features name="org.eclipse.linuxtools.dataviewers.feature.source.feature.group" versionRange="4.0.0.201505052320"/>
   </repositories>
   <repositories location="http://download.eclipse.org/linuxtools/update-mars-containers-m7" description="Linux Tools Containers Updates">
