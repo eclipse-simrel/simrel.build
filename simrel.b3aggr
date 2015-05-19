@@ -164,6 +164,7 @@
     <features href="mylyn.b3aggrcon#//@repositories.0/@features.14"/>
     <features href="dltk.b3aggrcon#//@repositories.0/@features.6"/>
     <features href="pdt.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="egit.b3aggrcon#//@repositories.0/@features.8"/>
   </customCategories>
   <customCategories identifier="Database Development" label="Database Development" description="Tools to define and access a wide variety of databases.">
     <features href="dtp.b3aggrcon#//@repositories.0/@features.0"/>
