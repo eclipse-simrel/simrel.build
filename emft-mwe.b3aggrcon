@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EMFT MWE">
-  <repositories location="http://download.eclipse.org/modeling/emft/mwe/updates/milestones/S201505190324/mwe" description="EMFT MWE p2 repository">
+  <repositories location="http://download.eclipse.org/modeling/emft/mwe/updates/releases/2.8.0/R201505260335/mwe" description="EMFT MWE p2 repository">
     <features name="org.eclipse.emf.mwe2.runtime.sdk.feature.group" versionRange="2.8.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
@@ -8,7 +8,7 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/modeling/emft/mwe/updates/milestones/S201505190428/mwe2lang" description="EMFT MWE lang p2 repository">
+  <repositories location="http://download.eclipse.org/modeling/emft/mwe/updates/releases/2.8.0/R201505260456/mwe2lang/" description="EMFT MWE lang p2 repository">
     <features name="org.eclipse.emf.mwe2.language.sdk.feature.group" versionRange="2.8.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
