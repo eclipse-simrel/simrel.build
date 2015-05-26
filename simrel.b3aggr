@@ -257,7 +257,7 @@
   <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.9"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="tcf.b3aggrcon#//@repositories.0/@features.3"/>
+     <features href="tcf.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="tm.b3aggrcon#//@repositories.1/@features.0"/>
   </customCategories>
   <customCategories identifier="Mobile and Device Development" label="Mobile and Device Development" description="Tools used to develop mobile and device applications.">
@@ -373,6 +373,7 @@
     <features href="ptp.b3aggrcon#//@repositories.0/@features.8"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.7"/>
+    <features href="linuxtools.b3aggrcon#//@repositories.0/@features.11"/>
     <features href="dltk.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="dltk.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="dltk.b3aggrcon#//@repositories.0/@features.3"/>
