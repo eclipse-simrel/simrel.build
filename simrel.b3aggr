@@ -128,9 +128,6 @@
     <features href="birt.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="birt.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="birt.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="birt.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="birt.b3aggrcon#//@repositories.0/@features.4"/>
-    <features href="birt.b3aggrcon#//@repositories.0/@features.5"/>
   </customCategories>
   <customCategories identifier="Collaboration" label="Collaboration" description="Tools to foster collaboration between developers.">
     <features href="ep.b3aggrcon#//@repositories.0/@features.2"/>
