@@ -127,7 +127,6 @@
   <customCategories identifier="Business Intelligence, Reporting and Charting" label="Business Intelligence, Reporting and Charting" description="Tools to visualize information, create data-driven web pages, PDF documents and other content using data from a wide variety of sources.">
     <features href="birt.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="birt.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="birt.b3aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Collaboration" label="Collaboration" description="Tools to foster collaboration between developers.">
     <features href="ep.b3aggrcon#//@repositories.0/@features.2"/>
@@ -181,6 +180,7 @@
     <features href="riena.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf-rap.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="birt.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="objectteams.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="gyrex.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
