@@ -181,7 +181,6 @@
     <features href="riena.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf-rap.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="birt.b3aggrcon#//@repositories.0/@features.6"/>
     <features href="objectteams.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="gyrex.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
@@ -254,7 +253,7 @@
   <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.9"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.0"/>
-     <features href="tcf.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="tcf.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="tm.b3aggrcon#//@repositories.1/@features.0"/>
   </customCategories>
   <customCategories identifier="Mobile and Device Development" label="Mobile and Device Development" description="Tools used to develop mobile and device applications.">
@@ -410,10 +409,6 @@
     <features href="stardust.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="stardust.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="stardust.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="stardust.b3aggrcon#//@repositories.0/@features.4"/>
-    <features href="stardust.b3aggrcon#//@repositories.0/@features.5"/>
-    <features href="stardust.b3aggrcon#//@repositories.0/@features.6"/>
-    <features href="stardust.b3aggrcon#//@repositories.0/@features.7"/>
     <features href="mdt-bpmn2.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="soa-bpmn2-modeler.b3aggrcon#//@repositories.0/@features.0"/>

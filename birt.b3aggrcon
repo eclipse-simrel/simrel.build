@@ -4,30 +4,13 @@
     <features name="org.eclipse.birt.feature.group" versionRange="4.5.0.v201505260702">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
-<!--
-    <features name="org.eclipse.birt.cshelp.feature.group" versionRange="4.5.0.v201501061437-54-7w312612172548">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
-    </features>
-    <features name="org.eclipse.birt.chart.cshelp.feature.group" versionRange="4.5.0.v201501061437-54-7w312612172548">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
-    </features>
-    <features name="org.eclipse.birt.doc.feature.group" versionRange="4.5.0.v201501061437-54-7w312612172548">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
-    </features>
--->
     <features name="org.eclipse.birt.example.feature.group" versionRange="4.5.0.v201505260702">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
-<!--
-    <features name="org.eclipse.birt.source.feature.group" versionRange="4.5.0.v201501061437-DPF8H7EGixAp7b9fj0YTgcsJq5aY">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
-    </features>
--->
     <features name="org.eclipse.birt.osgi.runtime.sdk.feature.group" versionRange="4.5.0.v201505260702">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Business%20Intelligence%2C%20Reporting%20and%20Charting']"/>
     </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='bgamble@actuate.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='chezy@actuate.com']"/>
 </aggregator:Contribution>
-
