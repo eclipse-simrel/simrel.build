@@ -34,6 +34,7 @@
     </features>
     <features name="org.eclipse.cdt.launch.remote.feature.group" versionRange="6.0.0.201106081058">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.cdt.build.crossgcc.feature.group" versionRange="1.0.0.201106081058">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
