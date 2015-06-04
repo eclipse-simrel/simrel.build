@@ -61,6 +61,9 @@
     <features name="org.eclipse.cdt.gnu.multicorevisualizer.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
+    <features name="org.eclipse.cdt.docker.launcher.feature.group"> 
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
     <features name="org.eclipse.cdt.debug.standalone.feature.group" versionRange="1.0.0.201405061918"/>
   </repositories>
   <repositories location="http://download.eclipse.org/tools/cdt/launchbar/mars" description="LaunchBar Updates">
