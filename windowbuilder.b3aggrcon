@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Window Builder GUI Designer" label="Window Builder">
-  <repositories location="http://download.eclipse.org/windowbuilder/WB/rc/RC4-1/4.5">
+  <repositories location="http://download.eclipse.org/windowbuilder/WB/release/R201506241200/4.5">
     <features name="org.eclipse.wb.core.feature.feature.group" versionRange="1.2.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
