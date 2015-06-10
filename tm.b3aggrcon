@@ -10,7 +10,7 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/tm/terminal/builds/mars/milestones" description="TM Terminal 4.0 Milestones">
+  <repositories location="http://download.eclipse.org/tm/terminal/builds/4.0/milestones/rc4" description="TM Terminal 4.0 Milestones">
     <features name="org.eclipse.tm.terminal.feature.feature.group" versionRange="4.0.0.201506040306">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
