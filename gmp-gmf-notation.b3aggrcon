@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="GMF Notation">
-  <repositories location="http://download.eclipse.org/modeling/gmp/gmf-notation/updates/milestones/S201505312221" description="GMF Notation milestones">
+  <repositories location="http://download.eclipse.org/releases/mars/201506241000/" description="GMF Notation milestones">
     <features name="org.eclipse.gmf.runtime.notation.sdk.feature.group" versionRange="[1.9.0.201505312221]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>

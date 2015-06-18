@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EPP Marketplace Client">
-  <repositories location="http://download.eclipse.org/mpc/drops/1.4.0/v20150609-1527" description="EPP Marketplace Client">
+  <repositories location="http://download.eclipse.org/releases/mars/201506241000/" description="EPP Marketplace Client">
     <features name="org.eclipse.epp.mpc.feature.group" versionRange="[1.4.0,1.4.1)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
