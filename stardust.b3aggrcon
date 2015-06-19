@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Stardust allows you to model business processes in Eclipse, integrate them with your application services and UI components, run them in the Process Engine and access workflow functionality and document management capabilities in the Browser Portal. " label="Stardust">
-  <repositories location="http://download.eclipse.org/releases/mars/201506241000/">
+  <repositories location="http://download.eclipse.org/releases/mars/201506241001/">
     <features name="org.eclipse.stardust.documentation.documentation-feature.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='SOA%20Development']"/>
     </features>
