@@ -4,7 +4,7 @@
     <features name="org.eclipse.fx.runtime.min.feature.feature.group"/>
   </repositories>
   <repositories location="http://download.eclipse.org/efxclipse/simrel-contrib/mars/rc4/tools/site">
-    <features name="org.eclipse.fx.ide.feature.feature.group" />
+    <features name="org.eclipse.fx.ide.feature.feature.group"/>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='tom.schindl@bestsolution.at']"/>
 </aggregator:Contribution>
