@@ -77,6 +77,7 @@
     <contributions href="tracecompass.b3aggrcon#/"/>
     <contributions href="thym.b3aggrcon#/"/>
     <contributions href="rcptt.b3aggrcon#/"/>
+    <contributions href="buildship.b3aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
@@ -253,6 +254,7 @@
     <features href="cdt.b3aggrcon#//@repositories.1/@features.0"/>
     <features href="ptp.b3aggrcon#//@repositories.1/@features.1"/>
     <features href="tm.b3aggrcon#//@repositories.1/@features.2"/>
+    <features href="buildship.b3aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.9"/>
@@ -606,4 +608,6 @@
   <contacts name="Vasili Gulevich" email="vasili.gulevich@xored.com"/>
   <contacts name="Ivan Inozemtsev" email="ivan.inozemtsev@xored.com"/>
   <contacts name="Uwe Stieber" email="uwe.stieber@windriver.com"/>
+  <contacts name="Etienne Studer" email="etienne@gradle.com"/>
+  <contacts name="Donat Csikos" email="donat@gradle.com"/>
 </aggregator:Aggregation>
