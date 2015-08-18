@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="RAP Runtime">
-  <repositories location="http://download.eclipse.org/rt/rap/3.0/R-20150602-0950/" description="RAP 3.0 Runtime Repository">
+  <repositories location="http://download.eclipse.org/rt/rap/3.0/SR1-RC1-20150812-1219/" description="RAP 3.0 Runtime Repository">
     <features name="org.eclipse.rap.feature.feature.group" versionRange="[3.0.0,3.1.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
