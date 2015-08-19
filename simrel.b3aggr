@@ -160,6 +160,7 @@
     <features href="egit.b3aggrcon#//@repositories.1/@features.0"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.5"/>
+    <features href="subversive.b3aggrcon#//@repositories.0/@features.6"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.4"/>
     <features href="mylyn.b3aggrcon#//@repositories.0/@features.14"/>
