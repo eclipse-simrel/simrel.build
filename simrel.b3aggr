@@ -329,7 +329,7 @@
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="emf-emf.b3aggrcon#//@repositories.1/@features.0"/>
+    <features href="emf-emf.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="sphinx.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-transaction.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-transaction.b3aggrcon#//@repositories.0/@features.0"/>
