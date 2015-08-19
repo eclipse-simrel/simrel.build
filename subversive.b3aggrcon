@@ -13,9 +13,6 @@
     <features name="org.eclipse.team.svn.mylyn.feature.group" versionRange="[3.0.0,4.0.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.team.svn.m2e.feature.group" versionRange="[3.0.0,4.0.0)">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
-    </features>
     <features name="org.eclipse.team.svn.source.feature.group" versionRange="[3.0.0,4.0.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
