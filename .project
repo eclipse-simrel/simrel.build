@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>org.eclipse.simrel.build</name>
-	<comment>SimRel Mars Maintenance Branch</comment>
+	<comment>SimRel Mars Maintenance Branch test</comment>
 	<projects>
 	</projects>
 	<buildSpec>
