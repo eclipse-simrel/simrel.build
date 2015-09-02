@@ -97,7 +97,6 @@
   <configurations operatingSystem="macosx" windowSystem="cocoa" architecture="x86_64"/>
   <configurations operatingSystem="solaris" windowSystem="gtk" architecture="sparc"/>
   <configurations operatingSystem="solaris" windowSystem="gtk"/>
-  <configurations/>
   <configurations architecture="x86_64"/>
   <configurations/>
   <customCategories identifier="Application Development Frameworks" label="Application Development Frameworks" description="Frameworks supporting application development.">
