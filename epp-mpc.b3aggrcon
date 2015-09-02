@@ -4,7 +4,7 @@
     <features name="org.eclipse.epp.mpc.feature.group" versionRange="[1.4.1,1.4.2)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.epp.mpc.source.feature.group" versionRange="[1.4.0,1.4.1)"/>
+    <features name="org.eclipse.epp.mpc.source.feature.group" versionRange="[1.4.0,1.4.2)"/>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='wayne@eclipse.org']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='steffen.pingel@tasktop.com']"/>
