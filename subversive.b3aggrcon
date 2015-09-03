@@ -19,6 +19,9 @@
     <features name="org.eclipse.team.svn.revision.graph.feature.group" versionRange="[3.0.0,4.0.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
+    <features name="org.eclipse.team.svn.m2e.feature.group" versionRange="[3.0.0,4.0.0)">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+    </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='alexander.gurov@polarion.com']"/>
 </aggregator:Contribution>
