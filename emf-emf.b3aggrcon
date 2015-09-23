@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EMF (Core)">
-  <repositories location="http://download.eclipse.org/modeling/emf/emf/updates/2.11.x/" description="EMF (Core) 2.11.x">
+  <repositories location="http://download.eclipse.org/releases/mars/201509251000/" description="EMF (Core) 2.11.x">
     <features name="org.eclipse.emf.sdk.feature.group" versionRange="[2.11.1.v20150806-0404]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>

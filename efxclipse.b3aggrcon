@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="e(fx)clipse - JavaFX Tooling and Runtime" label="e(fx)clipse">
-  <repositories location="http://download.eclipse.org/efxclipse/runtime-shared-released/2.1.0/site">
+  <repositories location="http://download.eclipse.org/releases/mars/201509251000/">
     <features name="org.eclipse.fx.runtime.min.feature.feature.group"/>
   </repositories>
-  <repositories location="http://download.eclipse.org/efxclipse/updates-released/2.1.0/site">
+  <repositories location="http://download.eclipse.org/releases/mars/201509251000/">
     <features name="org.eclipse.fx.ide.feature.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
