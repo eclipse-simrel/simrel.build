@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="GEF">
-  <repositories location="http://download.eclipse.org/tools/gef/updates/milestones" description="GEF milestones">
+  <repositories location="http://download.eclipse.org/tools/gef/updates/releases" description="GEF releases">
     <features name="org.eclipse.gef.sdk.feature.group" versionRange="[3.10.1.201508170204]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
