@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="DataTools">
-  <repositories location="http://download.eclipse.org/datatools/downloads/drops/M_updates_1.12.0" description="DTP 1.12.0 Updates">
-    <features name="org.eclipse.datatools.sdk.feature.feature.group" versionRange="1.12.0.v201406061321-7PB21FEpPZQXdcX0z-_yMM0Hfz0w">
+  <repositories location="http://download.eclipse.org/datatools/1.12.1.201510141301/repository">
+    <features name="org.eclipse.datatools.sdk.feature.feature.group" versionRange="[1.12.1.201510141301]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Database%20Development']"/>
     </features>
-    <features name="org.eclipse.datatools.enablement.sdk.feature.feature.group" versionRange="1.12.0.v201406061321-7IAB-FE9JgeWjZZhMd-z0vb1ifD4">
+    <features name="org.eclipse.datatools.enablement.sdk.feature.feature.group" versionRange="[1.12.1.201510141301]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Database%20Development']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='bpayton@us.ibm.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='konstantin.komissarchik@oracle.com']"/>
 </aggregator:Contribution>
