@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Sapphire" label="Sapphire">
-  <repositories location="http://download.eclipse.org/sapphire/9.0.1/repository">
-    <features name="org.eclipse.sapphire.feature.group" versionRange="[9.0.1.201509151939]">
+  <repositories location="http://download.eclipse.org/sapphire/10.0.0.201510151906/repository">
+    <features name="org.eclipse.sapphire.feature.group" versionRange="[10.0.0.201510151906]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.sapphire.modeling.xml.feature.group" versionRange="[9.0.1.201509151939]">
+    <features name="org.eclipse.sapphire.modeling.xml.feature.group" versionRange="[10.0.0.201510151906]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.sapphire.ui.feature.group" versionRange="[9.0.1.201509151939]">
+    <features name="org.eclipse.sapphire.ui.feature.group" versionRange="[10.0.0.201510151906]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.sapphire.ui.swt.gef.feature.group" versionRange="[9.0.1.201509151939]">
+    <features name="org.eclipse.sapphire.ui.swt.gef.feature.group" versionRange="[10.0.0.201510151906]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.sapphire.ui.swt.xml.editor.feature.group" versionRange="[9.0.1.201509151939]">
+    <features name="org.eclipse.sapphire.ui.swt.xml.editor.feature.group" versionRange="[10.0.0.201510151906]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.sapphire.java.feature.group" versionRange="[9.0.1.201509151939]">
+    <features name="org.eclipse.sapphire.java.feature.group" versionRange="[10.0.0.201510151906]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.sapphire.java.jdt.feature.group" versionRange="[9.0.1.201509151939]">
+    <features name="org.eclipse.sapphire.java.jdt.feature.group" versionRange="[10.0.0.201510151906]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.sapphire.osgi.feature.group" versionRange="[9.0.1.201509151939]">
+    <features name="org.eclipse.sapphire.osgi.feature.group" versionRange="[10.0.0.201510151906]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.sapphire.platform.feature.group" versionRange="[9.0.1.201509151939]">
+    <features name="org.eclipse.sapphire.platform.feature.group" versionRange="[10.0.0.201510151906]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.sapphire.sdk.feature.group" versionRange="[9.0.1.201509151939]">
+    <features name="org.eclipse.sapphire.sdk.feature.group" versionRange="[10.0.0.201510151906]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.sapphire.source.feature.group" versionRange="[9.0.1.201509151939]">
+    <features name="org.eclipse.sapphire.source.feature.group" versionRange="[10.0.0.201510151906]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
   </repositories>
