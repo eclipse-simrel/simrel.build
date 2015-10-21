@@ -52,7 +52,6 @@
     <contributions href="egit.b3aggrcon#/"/>
     <contributions href="emft-egf.b3aggrcon#/"/>
     <contributions href="objectteams.b3aggrcon#/"/>
-    <contributions href="gyrex.b3aggrcon#/"/>
     <contributions href="gmp-graphiti.b3aggrcon#/"/>
     <contributions href="m2e.b3aggrcon#/"/>
     <contributions href="mdt-papyrus.b3aggrcon#/"/>
@@ -187,7 +186,6 @@
     <features href="emf-emf-rap.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="birt.b3aggrcon#//@repositories.0/@features.6"/>
     <features href="objectteams.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="gyrex.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="scout.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="scout-rap.b3aggrcon#//@repositories.0/@features.0"/>
