@@ -77,6 +77,7 @@
     <contributions href="thym.b3aggrcon#/"/>
     <contributions href="rcptt.b3aggrcon#/"/>
     <contributions href="buildship.b3aggrcon#/"/>
+    <contributions href="egerrit.b3aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
@@ -165,6 +166,7 @@
     <features href="dltk.b3aggrcon#//@repositories.0/@features.6"/>
     <features href="pdt.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="egit.b3aggrcon#//@repositories.0/@features.8"/>
+    <features href="egerrit.b3aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Database Development" label="Database Development" description="Tools to define and access a wide variety of databases.">
     <features href="dtp.b3aggrcon#//@repositories.0/@features.0"/>
@@ -530,6 +532,7 @@
   <contacts name="Igor Burilo" email="igor.burilo@polarion.org"/>
   <contacts name="Igor Fedorenko" email="igor@ifedorenko.com"/>
   <contacts name="Jacek Pospychela" email="jacek.pospychala@gmail.com"/>
+  <contacts name="Jacques Bouthillier" email="lmcbout@gmail.com"/>
   <contacts name="Jeff Johnston" email="jjohnstn@redhat.com"/>
   <contacts name="Johannes Lerch" email="lerch@cs.tu-darmstadt.de"/>
   <contacts name="Judith Gull" email="judith.gull@bsiag.com"/>
@@ -566,6 +569,7 @@
   <contacts name="Nicolas Bros" email="nbros.mia@gmail.com"/>
   <contacts name="Oisin Hurley" email="oisin.hurley@gmail.com"/>
   <contacts name="Olivier Constant" email="olivier.constant@thalesgroup.com"/>
+  <contacts name="Pascal Rapicault" email="pascal@rapicorp.com"/>
   <contacts name="Pierre-Charles David" email="pierre-charles.david@obeo.fr"/>
   <contacts name="Radek Dvorak" email="dvorak.radek@gmail.com"/>
   <contacts name="Ralf Sternberg" email="rsternberg@eclipsesource.com"/>
