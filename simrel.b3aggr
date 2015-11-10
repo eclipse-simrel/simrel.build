@@ -82,7 +82,6 @@
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
     <contributions href="rap.b3aggrcon#/"/>
-    <contributions href="scout-rap.b3aggrcon#/"/>
   </validationSets>
   <configurations operatingSystem="aix" windowSystem="gtk" architecture="ppc"/>
   <configurations operatingSystem="aix" windowSystem="gtk" architecture="ppc64"/>
@@ -189,11 +188,6 @@
     <features href="birt.b3aggrcon#//@repositories.0/@features.6"/>
     <features href="objectteams.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="scout.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="scout-rap.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="scout.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="scout-rap.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="scout-rap.b3aggrcon#//@repositories.0/@features.3"/>
   </customCategories>
   <customCategories identifier="General Purpose Tools" label="General Purpose Tools" description="Tools that can be used by a wide variety of developers.">
     <features href="actf.b3aggrcon#//@repositories.0/@features.0"/>
