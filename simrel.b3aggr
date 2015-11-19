@@ -78,6 +78,7 @@
     <contributions href="rcptt.b3aggrcon#/"/>
     <contributions href="buildship.b3aggrcon#/"/>
     <contributions href="egerrit.b3aggrcon#/"/>
+    <contributions href="andmore.b3aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
@@ -272,6 +273,11 @@
     <features href="tm.b3aggrcon#//@repositories.1/@features.0"/>
     <features href="tm.b3aggrcon#//@repositories.1/@features.1"/>
     <features href="tm.b3aggrcon#//@repositories.1/@features.2"/>
+    <features href="andmore.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="andmore.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="andmore.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="andmore.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="andmore.b3aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
   <customCategories identifier="Modeling" label="Modeling" description="Model definition, creation, and manipulation frameworks (e.g. EMF, OCL, GMF, M2M, M2T, GEF) and industry models (e.g. UML, JEM, XSD).">
     <features href="gmp-gmf-notation.b3aggrcon#//@repositories.0/@features.0"/>
