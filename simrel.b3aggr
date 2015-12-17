@@ -306,7 +306,6 @@
     <features href="gef.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="mdt-ocl.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="gmp-gmf-runtime.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="gmp-gmf-runtime.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="gmf-tooling.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gmf-tooling.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="gmf-tooling.b3aggrcon#//@repositories.0/@features.2"/>
@@ -332,16 +331,8 @@
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="sphinx.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-transaction.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-transaction.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-transaction.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="emf-transaction.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="emf-transaction.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-validation.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-validation.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="emf-validation.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-query.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-query.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="emf-query.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="qvtd.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="sirius.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="sirius.b3aggrcon#//@repositories.0/@features.2"/>
