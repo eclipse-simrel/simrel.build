@@ -215,6 +215,7 @@
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.5"/>
     <features href="linuxtools.b3aggrcon#//@repositories.1/@features.0"/>
+    <features href="linuxtools.b3aggrcon#//@repositories.1/@features.1"/>
     <features href="dltk.b3aggrcon#//@repositories.0/@features.6"/>
     <features href="m2e.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.0"/>
