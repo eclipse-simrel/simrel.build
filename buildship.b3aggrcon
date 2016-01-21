@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Buildship: Eclipse Plug-ins for Gradle" label="Buildship">
-  <repositories location="http://download.eclipse.org/buildship/updates/e45/releases/1.0/1.0.7.v20151214-0917">
+  <repositories location="http://download.eclipse.org/buildship/updates/e45/releases/1.0">
     <features name="org.eclipse.buildship.feature.group" versionRange="1.0.7">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
