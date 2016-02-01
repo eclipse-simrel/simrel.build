@@ -58,10 +58,9 @@
     <features name="org.eclipse.linuxtools.docker.feature.feature.group" versionRange="1.2.0.201601192048">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-        <features name="org.eclipse.linuxtools.vagrant.feature.feature.group" versionRange="1.0.0.201601192048">
+    <features name="org.eclipse.linuxtools.vagrant.feature.feature.group" versionRange="1.0.0.201601192048">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='jjohnstn@redhat.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='akurtako@redhat.com']"/>
