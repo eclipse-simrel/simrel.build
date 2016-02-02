@@ -11,38 +11,38 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/tools/gef/gef4/updates/milestones/3.11.0M5_gef4-master_2999" description="GEF4 milestones">
-    <features name="org.eclipse.gef4.common.sdk.feature.group" versionRange="[0.3.0.201602010303]">
+  <repositories location="http://download.eclipse.org/tools/gef/gef4/updates/milestones/3.11.0M5_gef4-master_3012" description="GEF4 milestones">
+    <features name="org.eclipse.gef4.common.sdk.feature.group" versionRange="[0.3.0.201602021712]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.geometry.sdk.feature.group" versionRange="[0.3.0.201602010303]">
+    <features name="org.eclipse.gef4.geometry.sdk.feature.group" versionRange="[0.3.0.201602021712]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.graph.sdk.feature.group" versionRange="[0.3.0.201602010303]">
+    <features name="org.eclipse.gef4.graph.sdk.feature.group" versionRange="[0.3.0.201602021712]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.layout.sdk.feature.group" versionRange="[0.3.0.201602010303]">
+    <features name="org.eclipse.gef4.layout.sdk.feature.group" versionRange="[0.3.0.201602021712]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.dot.sdk.feature.group" versionRange="[0.3.0.201602010303]">
+    <features name="org.eclipse.gef4.dot.sdk.feature.group" versionRange="[0.3.0.201602021712]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.fx.sdk.feature.group" versionRange="[0.3.0.201602010303]">
+    <features name="org.eclipse.gef4.fx.sdk.feature.group" versionRange="[0.3.0.201602021712]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.mvc.sdk.feature.group" versionRange="[0.3.0.201602010303]">
+    <features name="org.eclipse.gef4.mvc.sdk.feature.group" versionRange="[0.3.0.201602021712]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.mvc.examples.source.feature.group" versionRange="[0.3.0.201602010303]">
+    <features name="org.eclipse.gef4.mvc.examples.source.feature.group" versionRange="[0.3.0.201602021712]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.zest.sdk.feature.group" versionRange="[0.3.0.201602010303]">
+    <features name="org.eclipse.gef4.zest.sdk.feature.group" versionRange="[0.3.0.201602021712]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.zest.examples.source.feature.group" versionRange="[0.3.0.201602010303]">
+    <features name="org.eclipse.gef4.zest.examples.source.feature.group" versionRange="[0.3.0.201602021712]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.cloudio.sdk.feature.group" versionRange="[0.3.0.201602010303]">
+    <features name="org.eclipse.gef4.cloudio.sdk.feature.group" versionRange="[0.3.0.201602021712]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
   </repositories>
