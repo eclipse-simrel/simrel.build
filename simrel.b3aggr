@@ -80,6 +80,7 @@
     <contributions href="buildship.b3aggrcon#/"/>
     <contributions href="egerrit.b3aggrcon#/"/>
     <contributions href="andmore.b3aggrcon#/"/>
+    <contributions href="emf-parsley.b3aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
@@ -342,6 +343,10 @@
     <features href="ecp.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="sirius.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="sirius.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="emf-parsley.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="emf-parsley.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="emf-parsley.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="emf-parsley.b3aggrcon#//@repositories.0/@features.3"/>
   </customCategories>
   <customCategories identifier="Performance, Profiling and Tracing Tools" label="Performance, Profiling and Tracing Tools" description="Tools to assit analysis of running code.">
     <features href="tracecompass.b3aggrcon#//@repositories.0/@features.1"/>
@@ -608,4 +613,7 @@
   <contacts name="Donat Csikos" email="donat@gradle.com"/>
   <contacts name="Nieraj Singh" email="nsingh@pivotal.io"/>
   <contacts name="Elson Yuen" email="eyuen@ca.ibm.com"/>
+  <contacts name="Lorenzo Bettini" email="lorenzo.bettini@gmail.com"/>
+  <contacts name="Francesco Guidieri" email="francesco.guidieri@gmail.com"/>
+  <contacts name="Vincenzo Caselli" email="vincenzo.caselli@rcp-vision.com"/>
 </aggregator:Aggregation>
