@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="CDT">
-  <repositories location="http://download.eclipse.org/tools/cdt/builds/mars/milestones/ur2-rc3" description="CDT updates">
+  <repositories location="http://download.eclipse.org/tools/cdt/builds/mars/milestones/ur2-rc4" description="CDT updates">
     <bundles name="org.eclipse.cdt.core.aix" versionRange="5.1.0.201106081058"/>
     <bundles name="org.eclipse.cdt.core.linux" versionRange="5.2.0.201106081058"/>
     <bundles name="org.eclipse.cdt.core.linux.ppc64" versionRange="5.1.0.201106081058"/>
