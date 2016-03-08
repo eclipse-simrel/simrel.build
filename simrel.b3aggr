@@ -2,6 +2,7 @@
 <aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Aggregation files used for yearly &quot;release train&quot;." buildmaster="//@contacts[email='david_williams@us.ibm.com']" label="Neon" buildRoot="buildresultsNeon" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false">
   <validationSets label="main">
     <contributions href="equinox.b3aggrcon#/"/>
+    <contributions href="cft.b3aggrcon#/"/>
     <contributions href="ep.b3aggrcon#/"/>
     <contributions href="emf-emf.b3aggrcon#/"/>
     <contributions href="ecf.b3aggrcon#/"/>
@@ -605,4 +606,6 @@
   <contacts name="Uwe Stieber" email="uwe.stieber@windriver.com"/>
   <contacts name="Etienne Studer" email="etienne@gradle.com"/>
   <contacts name="Donat Csikos" email="donat@gradle.com"/>
+  <contacts name="Nieraj Singh" email="nsingh@pivotal.io"/>
+  <contacts name="Elson Yuen" email="eyuen@ca.ibm.com"/>
 </aggregator:Aggregation>
