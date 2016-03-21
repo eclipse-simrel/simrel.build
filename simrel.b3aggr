@@ -307,7 +307,6 @@
     <features href="emft-eef.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="gef.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="mdt-ocl.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="gmp-gmf-runtime.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="gmf-tooling.b3aggrcon#//@repositories.0/@features.0"/>
