@@ -9,6 +9,6 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='dennis.huebner@itemis.de']"/>
-  <contacts href="simrel.b3aggr#//@contacts[email='alle-ki@itemis.de']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='dennis.huebner@typefox.io']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='alle@typefox.io']"/>
 </aggregator:Contribution>

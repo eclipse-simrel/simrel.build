@@ -296,7 +296,7 @@
     <features href="m2t-xpand.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-mwe.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-mwe.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="emft-mwe.b3aggrcon#//@repositories.1/@features.0"/>
+    <features href="emft-mwe.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="amalgam.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-ecoretools.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.0"/>
@@ -503,7 +503,7 @@
   <contacts name="David Dykstal" email="david_dykstal@us.ibm.com"/>
   <contacts name="David Green" email="david.green@tasktop.com"/>
   <contacts name="David Williams" email="david_williams@us.ibm.com"/>
-  <contacts name="Dennis Huebner" email="dennis.huebner@itemis.de"/>
+  <contacts name="Dennis Huebner" email="dennis.huebner@typefox.io"/>
   <contacts name="Diego Sandin" email="diegosandin@gmail.com"/>
   <contacts name="Doug Schaefer" email="cdtdoug@gmail.com"/>
   <contacts name="EMF TENEO Build Team" email="mtaal@elver.org"/>
@@ -596,7 +596,7 @@
   <contacts name="Wayne Beaton" email="wayne@eclipse.org"/>
   <contacts name="William Piers" email="william.piers@obeo.fr"/>
   <contacts name="Wim Jongman" email="wim.jongman@remainsoftware.com"/>
-  <contacts name="Xtext, Xpand, MWE Build Team" email="alle-ki@itemis.de"/>
+  <contacts name="Xtext, Xpand, MWE Build Team" email="alle@typefox.io"/>
   <contacts name="Yong Jiang" email="yjiang@actuate.com"/>
   <contacts name="Johannes Faltermeier" email="jfaltermeier@eclipsesource.com"/>
   <contacts name="Yves YANG" email="yves.yang@soyatec.com"/>

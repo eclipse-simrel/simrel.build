@@ -15,5 +15,5 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='dennis.huebner@itemis.de']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='dennis.huebner@typefox.io']"/>
 </aggregator:Contribution>
