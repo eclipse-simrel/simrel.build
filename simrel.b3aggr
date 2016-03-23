@@ -297,7 +297,6 @@
     <features href="emft-mwe.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-mwe.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emft-mwe.b3aggrcon#//@repositories.0/@features.2"/>
-    <features href="amalgam.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-ecoretools.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.b3aggrcon#//@repositories.0/@features.1"/>
@@ -348,6 +347,8 @@
     <features href="emf-parsley.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-parsley.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-parsley.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="amalgam.b3aggrcon#//@repositories.0/@features.1"/>
+    <features href="amalgam.b3aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Performance, Profiling and Tracing Tools" label="Performance, Profiling and Tracing Tools" description="Tools to assit analysis of running code.">
     <features href="tracecompass.b3aggrcon#//@repositories.0/@features.1"/>
