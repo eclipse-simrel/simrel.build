@@ -17,6 +17,10 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features name="org.eclipse.emf.compare.diagram.papyrus.source.feature.group" versionRange="[3.2.0,3.3.0)"/>
+    <features name="org.eclipse.emf.compare.diagram.sirius.feature.group" versionRange="[3.2.0,3.3.0]">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+    <features name="org.eclipse.emf.compare.diagram.sirius.source.feature.group" versionRange="[3.2.0,3.3.0]"/>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='cedric.brun@obeo.fr']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='laurent.goubet@obeo.fr']"/>
