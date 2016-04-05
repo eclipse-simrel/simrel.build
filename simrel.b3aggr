@@ -350,6 +350,7 @@
     <features href="amalgam.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="amalgam.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.10"/>
+    <features href="emf-compare.b3aggrcon#//@repositories.0/@features.12"/>
   </customCategories>
   <customCategories identifier="Performance, Profiling and Tracing Tools" label="Performance, Profiling and Tracing Tools" description="Tools to assit analysis of running code.">
     <features href="tracecompass.b3aggrcon#//@repositories.0/@features.1"/>
