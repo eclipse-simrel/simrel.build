@@ -474,6 +474,11 @@
     <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
+  <customCategories identifier="Cloud Tools" label="Cloud Tools" description="Tools for developing apps for the cloud and in the cloud, including IDE extensions, frameworks, container tools, and tools running the cloud themselves.">
+    <features href="cft.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="cft.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="cft.b3aggrcon#//@repositories.0/@features.1"/>
+  </customCategories>
   <contacts name="Adolfo Sanchez-Barbudo Herrera" email="adolfosbh@gmail.com"/>
   <contacts name="Alex Boyko" email="aboyko@ca.ibm.com"/>
   <contacts name="Alex Kurtakov" email="akurtako@redhat.com"/>
