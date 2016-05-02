@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="GEF">
-  <repositories location="http://download.eclipse.org/tools/gef/updates/milestones/4.0.0M6_gef-master_1868" description="GEF milestones">
-    <features name="org.eclipse.gef.sdk.feature.group" versionRange="[3.11.0.201603210204]">
+  <repositories location="http://download.eclipse.org/tools/gef/updates/milestones/4.0.0M7_gef-master_1912" description="GEF milestones">
+    <features name="org.eclipse.gef.sdk.feature.group" versionRange="[3.11.0.201605020204]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.zest.sdk.feature.group" versionRange="[1.7.0.201603210204]">
+    <features name="org.eclipse.zest.sdk.feature.group" versionRange="[1.7.0.201605020204]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/tools/gef/gef4/updates/milestones/4.0.0M6_gef4-master_3127" description="GEF4 milestones">
-    <features name="org.eclipse.gef4.common.sdk.feature.group" versionRange="[1.0.0.201603221726]">
+  <repositories location="http://download.eclipse.org/tools/gef/gef4/updates/milestones/4.0.0M7_gef4-master_3264" description="GEF4 milestones">
+    <features name="org.eclipse.gef4.common.sdk.feature.group" versionRange="[1.0.0.201605021044]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.geometry.sdk.feature.group" versionRange="[1.0.0.201603221726]">
+    <features name="org.eclipse.gef4.geometry.sdk.feature.group" versionRange="[1.0.0.201605021044]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.graph.sdk.feature.group" versionRange="[1.0.0.201603221726]">
+    <features name="org.eclipse.gef4.graph.sdk.feature.group" versionRange="[1.0.0.201605021044]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.layout.sdk.feature.group" versionRange="[1.0.0.201603221726]">
+    <features name="org.eclipse.gef4.layout.sdk.feature.group" versionRange="[1.0.0.201605021044]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.dot.sdk.feature.group" versionRange="[1.0.0.201603221726]">
+    <features name="org.eclipse.gef4.dot.sdk.feature.group" versionRange="[1.0.0.201605021044]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.dot.doc.user.feature.group" versionRange="[1.0.0.201603221726]">
+    <features name="org.eclipse.gef4.dot.doc.user.feature.group" versionRange="[1.0.0.201605021044]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.fx.sdk.feature.group" versionRange="[1.0.0.201603221726]">
+    <features name="org.eclipse.gef4.fx.sdk.feature.group" versionRange="[1.0.0.201605021044]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.mvc.sdk.feature.group" versionRange="[1.0.0.201603221726]">
+    <features name="org.eclipse.gef4.mvc.sdk.feature.group" versionRange="[1.0.0.201605021044]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.zest.sdk.feature.group" versionRange="[1.0.0.201603221726]">
+    <features name="org.eclipse.gef4.zest.sdk.feature.group" versionRange="[1.0.0.201605021044]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.cloudio.sdk.feature.group" versionRange="[1.0.0.201603221726]">
+    <features name="org.eclipse.gef4.cloudio.sdk.feature.group" versionRange="[1.0.0.201605021044]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef4.cloudio.doc.user.feature.group" versionRange="[1.0.0.201603221726]">
+    <features name="org.eclipse.gef4.cloudio.doc.user.feature.group" versionRange="[1.0.0.201605021044]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
   </repositories>

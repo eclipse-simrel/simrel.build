@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="CDT">
-  <repositories location="http://download.eclipse.org/tools/cdt/builds/neon/milestones/m6a" description="CDT updates">
+  <repositories location="http://download.eclipse.org/tools/cdt/builds/neon/milestones/m7" description="CDT updates">
     <bundles name="org.eclipse.cdt.core.aix"/>
     <bundles name="org.eclipse.cdt.core.linux"/>
     <bundles name="org.eclipse.cdt.core.linux.ppc64"/>
     <bundles name="org.eclipse.cdt.core.linux.x86"/>
     <bundles name="org.eclipse.cdt.core.linux.x86_64"/>
     <bundles name="org.eclipse.cdt.core.macosx"/>
-    <bundles name="org.eclipse.cdt.core.solaris"/>
     <bundles name="org.eclipse.cdt.core.win32"/>
     <features name="org.eclipse.cdt.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
@@ -66,7 +65,7 @@
     </features>
     <features name="org.eclipse.cdt.debug.standalone.feature.group"/>
   </repositories>
-  <repositories location="http://download.eclipse.org/tools/cdt/launchbar/neon.m6" description="LaunchBar Updates">
+  <repositories location="http://download.eclipse.org/tools/cdt/launchbar/neon.m7" description="LaunchBar Updates">
     <features name="org.eclipse.launchbar.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Mylyn">
-  <repositories location="http://download.eclipse.org/mylyn/drops/3.19.0/v20160324-2244" description="Mylyn Updates">
-    <features name="org.eclipse.mylyn_feature.feature.group" versionRange="3.19.0.v20160316-2133">
+  <repositories location="http://download.eclipse.org/mylyn/drops/3.19.0/v20160331-2042" description="Mylyn Updates">
+    <features name="org.eclipse.mylyn_feature.feature.group" versionRange="3.19.0.v20160331-1842">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <features name="org.eclipse.mylyn.bugzilla_feature.feature.group" versionRange="3.19.0.v20160316-2133">
@@ -57,12 +57,12 @@
     <features name="org.eclipse.mylyn.context.sdk.feature.group" versionRange="3.19.0.v20160316-2105"/>
     <features name="org.eclipse.mylyn.reviews.feature.feature.group" versionRange="2.10.0.v20160324-2208"/>
     <features name="org.eclipse.mylyn.reviews.sdk.feature.feature.group" versionRange="2.10.0.v20160324-2208"/>
-    <features name="org.eclipse.mylyn.sdk_feature.feature.group" versionRange="3.19.0.v20160316-2133"/>
+    <features name="org.eclipse.mylyn.sdk_feature.feature.group" versionRange="3.19.0.v20160331-1842"/>
     <features name="org.eclipse.mylyn.tasks.ide.feature.group" versionRange="3.19.0.v20160315-1830"/>
     <features name="org.eclipse.mylyn.versions.feature.group" versionRange="1.11.0.v20160111-1940"/>
     <features name="org.eclipse.mylyn.versions.sdk.feature.group" versionRange="1.11.0.v20160111-1940"/>
     <features name="org.eclipse.mylyn.wikitext.sdk.feature.group" versionRange="2.8.0.v20160315-1828"/>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='tomasz.zarna@tasktop.com']"/>
-  <contacts href="simrel.b3aggr#//@contacts[email='steffen.pingel@tasktop.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='colin.ritchie@tasktop.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='sam.davis@tasktop.com']"/>
 </aggregator:Contribution>

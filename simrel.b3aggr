@@ -97,8 +97,7 @@
   <configurations operatingSystem="linux" windowSystem="gtk"/>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
   <configurations operatingSystem="macosx" windowSystem="cocoa" architecture="x86_64"/>
-  <configurations operatingSystem="solaris" windowSystem="gtk" architecture="sparc"/>
-  <configurations operatingSystem="solaris" windowSystem="gtk"/>
+  <configurations operatingSystem="solaris" windowSystem="gtk" architecture="x86_64"/>
   <configurations architecture="x86_64"/>
   <configurations/>
   <customCategories identifier="Application Development Frameworks" label="Application Development Frameworks" description="Frameworks supporting application development.">
@@ -474,6 +473,11 @@
     <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
+  <customCategories identifier="Cloud Tools" label="Cloud Tools" description="Tools for developing apps for the cloud and in the cloud, including IDE extensions, frameworks, container tools, and tools running the cloud themselves.">
+    <features href="cft.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="cft.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="cft.b3aggrcon#//@repositories.0/@features.1"/>
+  </customCategories>
   <contacts name="Adolfo Sanchez-Barbudo Herrera" email="adolfosbh@gmail.com"/>
   <contacts name="Alex Boyko" email="aboyko@ca.ibm.com"/>
   <contacts name="Alex Kurtakov" email="akurtako@redhat.com"/>
@@ -499,6 +503,7 @@
   <contacts name="Chris Aniszczyk" email="caniszczyk@gmail.com"/>
   <contacts name="Christian Campo" email="Christian.Campo@compeople.de"/>
   <contacts name="Christian Saad" email="saad@informatik.uni-augsburg.de"/>
+  <contacts name="Colin Ritchie" email="colin.ritchie@tasktop.com"/>
   <contacts name="DLTK Build Team" email="alex.panchenko@gmail.com"/>
   <contacts name="DLTK Build Team" email="andrey@xored.com"/>
   <contacts name="Daniel Barboza Franco" email="nkvg64@motorola.com"/>
@@ -579,6 +584,7 @@
   <contacts name="Remi Schnekenburger" email="remi.schnekenburger@cea.fr"/>
   <contacts name="Robert Brodt" email="bbrodt@redhat.com"/>
   <contacts name="Thorsten Schenkel" email="Thorsten.Schenkel@compeople.de"/>
+  <contacts name="Sam Davis" email="sam.davis@tasktop.com"/>
   <contacts name="Scott Lewis" email="slewis@composent.com"/>
   <contacts name="Sergey Boyko" email="serg.boyko2011@gmail.com"/>
   <contacts name="Shawn Pearce" email="sop@google.com"/>
