@@ -411,6 +411,7 @@
     <features href="XWT.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="XWT.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.11"/>
+    <features href="webtools.b3aggrcon#//@repositories.0/@features.13"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
     <features href="jwt.b3aggrcon#//@repositories.0/@features.0"/>
@@ -453,7 +454,6 @@
     <features href="rap-tools.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="webtools.b3aggrcon#//@repositories.0/@features.9"/>
     <features href="webtools.b3aggrcon#//@repositories.0/@features.10"/>
-    <features href="webtools.b3aggrcon#//@repositories.0/@features.13"/>
     <features href="webtools.b3aggrcon#//@repositories.0/@features.14"/>
     <features href="webtools.b3aggrcon#//@repositories.0/@features.15"/>
     <features href="webtools.b3aggrcon#//@repositories.0/@features.16"/>
@@ -461,12 +461,13 @@
     <features href="webtools.b3aggrcon#//@repositories.0/@features.18"/>
     <features href="webtools.b3aggrcon#//@repositories.0/@features.19"/>
     <features href="webtools.b3aggrcon#//@repositories.0/@features.20"/>
-    <features href="webtools.b3aggrcon#//@repositories.0/@features.23"/>
+    <features href="webtools.b3aggrcon#//@repositories.0/@features.21"/>
     <features href="webtools.b3aggrcon#//@repositories.0/@features.24"/>
-    <features href="webtools.b3aggrcon#//@repositories.0/@features.22"/>
+    <features href="webtools.b3aggrcon#//@repositories.0/@features.25"/>
+    <features href="webtools.b3aggrcon#//@repositories.0/@features.23"/>
     <features href="webtools.b3aggrcon#//@repositories.0/@features.12"/>
     <features href="webtools.b3aggrcon#//@repositories.0/@features.11"/>
-    <features href="webtools.b3aggrcon#//@repositories.0/@features.21"/>
+    <features href="webtools.b3aggrcon#//@repositories.0/@features.22"/>
     <features href="webtools.b3aggrcon#//@repositories.2/@features.0"/>
     <features href="webtools.b3aggrcon#//@repositories.2/@features.2"/>
     <features href="webtools.b3aggrcon#//@repositories.2/@features.1"/>
@@ -476,6 +477,7 @@
     <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="m2e-wtp.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="webtools.b3aggrcon#//@repositories.0/@features.13"/>
   </customCategories>
   <customCategories identifier="Cloud Tools" label="Cloud Tools" description="Tools for developing apps for the cloud and in the cloud, including IDE extensions, frameworks, container tools, and tools running the cloud themselves.">
     <features href="cft.b3aggrcon#//@repositories.0/@features.0"/>
