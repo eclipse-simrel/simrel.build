@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Eclipse Scout is a framework to develop Java based business applications.&#xA;The HTML5 front-end of Scout applications comes with multi-device support and is based on HTML5/CSS3/JavaScript. This package includes a SDK, useful developer tools and source code." label="Scout">
-  <repositories location="http://download.eclipse.org/scout/releases/6.0/6.0.0/M7/" description="Scout SDK">
+  <repositories location="http://download.eclipse.org/scout/releases/6.0/6.0.0/RC1/" description="Scout SDK">
     <features description="Eclipse Scout SDK" name="org.eclipse.scout.sdk-feature.feature.group" versionRange="6.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
