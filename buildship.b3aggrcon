@@ -7,4 +7,5 @@
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='etienne@gradle.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='donat@gradle.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='stefan@gradle.com']"/>
 </aggregator:Contribution>
