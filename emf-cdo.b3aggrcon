@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EMF CDO">
-  <repositories location="http://download.eclipse.org/modeling/emf/cdo/drops/S20160518-0252" description="EMF CDO">
+  <repositories location="http://download.eclipse.org/modeling/emf/cdo/drops/S20160524-0622" description="EMF CDO">
     <features name="org.eclipse.net4j.sdk.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
