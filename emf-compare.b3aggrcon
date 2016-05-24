@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EMF COMPARE">
-  <repositories location="http://download.eclipse.org/modeling/emf/compare/updates/milestones/3.2/S201605130604">
+  <repositories location="http://download.eclipse.org/modeling/emf/compare/updates/milestones/3.2/S201605241249">
     <features name="org.eclipse.emf.compare.feature.group" versionRange="[3.2.0,3.3.0)"/>
     <features name="org.eclipse.emf.compare.source.feature.group" versionRange="[3.2.0,3.3.0)"/>
     <features name="org.eclipse.emf.compare.ide.ui.feature.group" versionRange="[3.2.0,3.3.0)">
