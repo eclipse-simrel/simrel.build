@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="TCF">
-  <repositories location="http://download.eclipse.org/tools/tcf/builds/1.4/milestones/20160317" description="TCF 1.4 Milestones">
-    <features name="org.eclipse.tcf.cdt.feature.feature.group" versionRange="1.4.0.201602160901">
+  <repositories location="http://download.eclipse.org/tools/tcf/builds/1.4/milestones/20160524" description="TCF 1.4 Milestones">
+    <features name="org.eclipse.tcf.cdt.feature.feature.group" versionRange="1.4.0.201603302215">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.tcf.rse.feature.feature.group" versionRange="1.4.0.201603112035">
+    <features name="org.eclipse.tcf.rse.feature.feature.group" versionRange="1.4.0.201604292020">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.tcf.te.tcf.feature.feature.group" versionRange="1.4.0.201603100832">
+    <features name="org.eclipse.tcf.te.tcf.feature.feature.group" versionRange="1.4.0.201603240930">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.tcf.te.tcf.launch.cdt.feature.feature.group" versionRange="1.4.0.201603140700">
+    <features name="org.eclipse.tcf.te.tcf.launch.cdt.feature.feature.group" versionRange="1.4.0.201605110929">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
