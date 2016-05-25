@@ -10,17 +10,17 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/tm/terminal/updates/4.1milestones/20160321" description="TM Terminal 4.1 (Neon) Milestones">
-    <features name="org.eclipse.tm.terminal.feature.feature.group" versionRange="4.1.0.201603190914">
+  <repositories location="http://download.eclipse.org/tm/terminal/updates/4.1milestones/20160513" description="TM Terminal 4.1 (Neon) Milestones">
+    <features name="org.eclipse.tm.terminal.feature.feature.group" versionRange="4.1.0.201605131206">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
     </features>
-    <features name="org.eclipse.tm.terminal.view.rse.feature.feature.group" versionRange="4.1.0.201603190914">
+    <features name="org.eclipse.tm.terminal.view.rse.feature.feature.group" versionRange="4.1.0.201605131206">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.tm.terminal.connector.remote.feature.feature.group" versionRange="4.1.0.201603190914">
+    <features name="org.eclipse.tm.terminal.connector.remote.feature.feature.group" versionRange="4.1.0.201605131206">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
