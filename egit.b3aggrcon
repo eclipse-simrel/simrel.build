@@ -19,7 +19,7 @@
     </features>
   </repositories>
   <repositories location="http://download.eclipse.org/egit/github/staging/v4.4.0.201605250940-rc1" description="EGit GitHub Updates">
-    <features name="org.eclipse.mylyn.github.feature.feature.group" versionRange="[4.4.0.201605250940-rc1]">
+    <features name="org.eclipse.mylyn.github.feature.feature.group" versionRange="[4.4.0.201605252217]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
