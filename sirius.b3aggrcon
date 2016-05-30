@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Eclipse Sirius" label="Sirius">
-  <repositories location="http://download.eclipse.org/sirius/updates/milestones/4.0.0rc2/neon">
+  <repositories location="http://download.eclipse.org/sirius/updates/milestones/4.0.0rc3/neon">
     <features name="org.eclipse.sirius.specifier.feature.group" versionRange="[4.0.0,4.1.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
@@ -16,13 +16,11 @@
     </features>
     <features name="org.eclipse.sirius.runtime.feature.group" versionRange="[4.0.0,4.1.0)"/>
     <features name="org.eclipse.sirius.runtime.ide.ui.feature.group" versionRange="[4.0.0,4.1.0)"/>
-  </repositories>
-  <repositories location="http://download.eclipse.org/sirius/updates/milestones/4.0.0rc2/neon/incubation">
-    <features name="org.eclipse.sirius.interpreter.feature.feature.group"/>
-    <features name="org.eclipse.sirius.properties.feature.feature.group">
+    <features name="org.eclipse.sirius.interpreter.feature.feature.group" versionRange="[4.0.0,4.1.0]"/>
+    <features name="org.eclipse.sirius.properties.feature.feature.group" versionRange="[4.0.0,4.1.0]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.sirius.specifier.properties.feature.feature.group">
+    <features name="org.eclipse.sirius.specifier.properties.feature.feature.group" versionRange="[4.0.0,4.1.0]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
