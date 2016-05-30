@@ -291,6 +291,7 @@
     <features href="mdt-ocl.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="m2t-acceleo.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="mmt-qvto.b3aggrcon#//@repositories.0/@features.0"/>
+    <features href="mmt-qvto.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="m2m-atl.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="tmf-xtext.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="m2t-xpand.b3aggrcon#//@repositories.0/@features.0"/>
