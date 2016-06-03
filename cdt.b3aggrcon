@@ -69,6 +69,7 @@
     <features name="org.eclipse.launchbar.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
+    <features name="org.eclipse.launchbar.remote.feature.group"/>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='cdtdoug@gmail.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='marc.khouzam@ericsson.com']"/>
