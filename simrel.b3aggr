@@ -375,7 +375,7 @@
     <features href="cdt.b3aggrcon#//@repositories.0/@features.5"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.7"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.14"/>
-    <features href="cdt.b3aggrcon#//@repositories.0/@features.21"/>
+    <features href="cdt.b3aggrcon#//@repositories.0/@features.20"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.7"/>
     <features href="ptp.b3aggrcon#//@repositories.0/@features.8"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.1"/>
@@ -406,9 +406,8 @@
     <features href="ptp.b3aggrcon#//@repositories.0/@features.6"/>
     <features href="XWT.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="XWT.b3aggrcon#//@repositories.0/@features.1"/>
-    <features href="cdt.b3aggrcon#//@repositories.0/@features.19"/>
     <features href="cdt.b3aggrcon#//@repositories.0/@features.18"/>
-    <features href="cdt.b3aggrcon#//@repositories.0/@features.20"/>
+    <features href="cdt.b3aggrcon#//@repositories.0/@features.19"/>
     <features href="tcf.b3aggrcon#//@repositories.0/@features.3"/>
     <features href="XWT.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="XWT.b3aggrcon#//@repositories.0/@features.3"/>
