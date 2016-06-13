@@ -9,7 +9,7 @@
     </features>
     <features name="org.eclipse.linuxtools.changelog.feature.group" versionRange="5.0.0.201606101757">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
-    </features> 
+    </features>
     <features name="org.eclipse.linuxtools.gprof.feature.feature.group" versionRange="5.0.0.201606101757">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Performance%2C%20Profiling%20and%20Tracing%20Tools']"/>
     </features>
