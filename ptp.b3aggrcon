@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="PTP">
-  <repositories location="http://download.eclipse.org/tools/ptp/builds/neon/milestones/RC3" description="PTP updates">
+  <repositories location="http://download.eclipse.org/tools/ptp/updates/neon" description="PTP updates">
     <features name="org.eclipse.ptp.feature.group" versionRange="9.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
@@ -35,7 +35,7 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/tools/ptp/builds/remote/neon/milestones/RC2" description="Remote Services">
+  <repositories location="http://download.eclipse.org/tools/ptp/updates/remote/neon" description="Remote Services">
     <features name="org.eclipse.remote.feature.group" versionRange="2.0.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
