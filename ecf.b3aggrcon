@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="ECF">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" enabled="false" label="ECF">
   <repositories location="http://download.eclipse.org/rt/ecf/3.13.1/site.p2" description="ECF updates">
     <features name="org.eclipse.ecf.core.feature.group" versionRange="3.13.1.v20160405-1820">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
