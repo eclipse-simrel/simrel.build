@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" enabled="false" label="Eclipse">
-  <repositories location="http://download.eclipse.org/eclipse/updates/4.6/R-4.6-201606061100/" description="Eclipse and Equinox">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Eclipse">
+  <repositories location="http://download.eclipse.org/eclipse/updates/4.7-I-builds/I20160801-2000/" description="Eclipse and Equinox">
     <products name="org.eclipse.sdk.ide"/>
     <products name="org.eclipse.platform.ide"/>
     <products name="org.eclipse.platform.sdk"/>
     <features name="org.eclipse.sdk.feature.group"/>
-    <features name="org.eclipse.e4.core.tools.feature.source.feature.group">
+    <features name="org.eclipse.e4.core.tools.feature.source.feature.group" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
     <features name="org.eclipse.cvs.feature.group">
@@ -21,5 +21,5 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='david_williams@us.ibm.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='sravankumarl@in.ibm.com']"/>
 </aggregator:Contribution>
