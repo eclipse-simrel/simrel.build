@@ -158,7 +158,7 @@
     <features href="subversive.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="subversive.b3aggrcon#//@repositories.0/@features.4"/>
     <features href="mylyn.b3aggrcon#//@repositories.0/@features.14"/>
-    <!--features href="dltk.b3aggrcon#//@repositories.0/@features.7"/-->
+    <features href="dltk.b3aggrcon#//@repositories.0/@features.7"/>
     <features href="pdt.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="egit.b3aggrcon#//@repositories.0/@features.8"/>
     <features href="egerrit.b3aggrcon#//@repositories.0/@features.0"/>
@@ -207,7 +207,7 @@
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.12"/>
     <features href="linuxtools.b3aggrcon#//@repositories.1/@features.0"/>
     <features href="linuxtools.b3aggrcon#//@repositories.1/@features.1"/>
-    <!--features href="dltk.b3aggrcon#//@repositories.0/@features.6"/-->
+    <features href="dltk.b3aggrcon#//@repositories.0/@features.6"/>
     <features href="m2e.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="windowbuilder.b3aggrcon#//@repositories.0/@features.1"/>
@@ -375,10 +375,10 @@
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.7"/>
     <features href="linuxtools.b3aggrcon#//@repositories.0/@features.11"/>
     <features href="dltk.b3aggrcon#//@repositories.0/@features.1"/>
-    <!--features href="dltk.b3aggrcon#//@repositories.0/@features.2"/-->
-    <!--features href="dltk.b3aggrcon#//@repositories.0/@features.3"/-->
-    <!--features href="dltk.b3aggrcon#//@repositories.0/@features.4"/-->
-    <!--features href="dltk.b3aggrcon#//@repositories.0/@features.5"/-->
+    <features href="dltk.b3aggrcon#//@repositories.0/@features.2"/>
+    <features href="dltk.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="dltk.b3aggrcon#//@repositories.0/@features.4"/>
+    <features href="dltk.b3aggrcon#//@repositories.0/@features.5"/>
     <features href="pdt.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="pdt.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="objectteams.b3aggrcon#//@repositories.0/@features.0"/>

@@ -8,27 +8,26 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <!-- Disable the Tcl feature unitl the EMF contribution is enabled  -->
-    <!-- features name="org.eclipse.dltk.tcl.feature.group">
+    <features name="org.eclipse.dltk.tcl.feature.group" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.dltk.xotcl.feature.group">
+    <features name="org.eclipse.dltk.xotcl.feature.group" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.dltk.itcl.feature.group">
+    <features name="org.eclipse.dltk.itcl.feature.group" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
-    </features-->
+    </features>
     <!-- Disable the ShellEd feature until the Linux Tools contribution is enabled -->
-    <!-- features name="org.eclipse.dltk.sh.feature.group">
+    <features name="org.eclipse.dltk.sh.feature.group" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
-    </features-->
-    <!-- Disable the DLTK Mylyn feature until the RSE contribution is enabled -->
-    <!-- features name="org.eclipse.dltk.rse.feature.group">
+    </features>
+    <features name="org.eclipse.dltk.rse.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
-    </features-->
+    </features>
     <!-- Disable the DLTK Mylyn feature until the Mylyn contribution is enabled -->
-    <!-- features name="org.eclipse.dltk.mylyn.feature.group">
+    <features name="org.eclipse.dltk.mylyn.feature.group" enabled="false">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
-    </features-->
+    </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='kaloyan.r@zend.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='alex.panchenko@gmail.com']"/>
