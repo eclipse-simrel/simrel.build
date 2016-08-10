@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" enabled="false" label="M2T Xpand">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="M2T Xpand">
   <repositories location="http://download.eclipse.org/modeling/m2t/xpand/updates/releases/R201605260315/" description="M2T XPAND p2 repository">
-    <features name="org.eclipse.xpand.sdk.feature.group" versionRange="2.2.0">
+    <features name="org.eclipse.xtend.ui.feature.group" versionRange="2.2.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
