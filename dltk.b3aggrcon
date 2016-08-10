@@ -16,8 +16,7 @@
     <features name="org.eclipse.dltk.itcl.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <!-- Disable the ShellEd feature until the Linux Tools contribution is enabled -->
-    <features name="org.eclipse.dltk.sh.feature.group" enabled="false">
+    <features name="org.eclipse.dltk.sh.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.dltk.rse.feature.group">
