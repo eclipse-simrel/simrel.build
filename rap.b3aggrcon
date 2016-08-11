@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" enabled="false" label="RAP Runtime">
-  <repositories location="http://download.eclipse.org/rt/rap/3.1/R-20160607-1451/" description="RAP 3.1 Runtime Repository">
-    <features name="org.eclipse.rap.feature.feature.group" versionRange="[3.1.0,3.2.0)">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="RAP Runtime">
+  <repositories location="http://download.eclipse.org/rt/rap/3.2/M1-20160811-0917/" description="RAP 3.2 Runtime Repository">
+    <features name="org.eclipse.rap.feature.feature.group" versionRange="[3.2.0,3.3.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
-    <features name="org.eclipse.rap.sdk.feature.feature.group" versionRange="[3.1.0,3.2.0)">
+    <features name="org.eclipse.rap.sdk.feature.feature.group" versionRange="[3.2.0,3.3.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
-    <features name="org.eclipse.rap.equinox.target.feature.feature.group" versionRange="[3.1.0,3.2.0)">
+    <features name="org.eclipse.rap.equinox.target.feature.feature.group" versionRange="[3.2.0,3.3.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
-    <features name="org.eclipse.rap.examples.feature.feature.group" versionRange="[3.1.0,3.2.0)">
+    <features name="org.eclipse.rap.examples.feature.feature.group" versionRange="[3.2.0,3.3.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
   </repositories>
