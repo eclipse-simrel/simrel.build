@@ -5,18 +5,18 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.recommenders.rcp.feature.source.feature.group"/>
-    <features name="org.eclipse.recommenders.mylyn.rcp.feature.feature.group" enabled="false">
+    <features name="org.eclipse.recommenders.mylyn.rcp.feature.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.recommenders.mylyn.rcp.feature.source.feature.group" enabled="false"/>
+    <features name="org.eclipse.recommenders.mylyn.rcp.feature.source.feature.group"/>
     <features name="org.eclipse.recommenders.snipmatch.rcp.feature.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.recommenders.snipmatch.rcp.feature.source.feature.group"/>
-    <features name="org.eclipse.recommenders.news.rcp.feature.feature.group" enabled="false">
+    <features name="org.eclipse.recommenders.news.rcp.feature.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.recommenders.news.rcp.feature.source.feature.group" enabled="false"/>
+    <features name="org.eclipse.recommenders.news.rcp.feature.source.feature.group"/>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='marcel.bruch@codetrails.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='andreas.sewe@codetrails.com']"/>
