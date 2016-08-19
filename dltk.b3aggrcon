@@ -22,8 +22,7 @@
     <features name="org.eclipse.dltk.rse.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <!-- Disable the DLTK Mylyn feature until the Mylyn contribution is enabled -->
-    <features name="org.eclipse.dltk.mylyn.feature.group" enabled="false">
+    <features name="org.eclipse.dltk.mylyn.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
