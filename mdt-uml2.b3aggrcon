@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="MDT UML2">
-  <repositories location="http://download.eclipse.org/modeling/mdt/uml2/updates/5.2" description="UML2 5.2 Releases">
-    <features name="org.eclipse.uml2.sdk.feature.group" versionRange="[5.2.0.v20160516-0939]">
+  <repositories location="http://download.eclipse.org/modeling/mdt/uml2/updates/5.2.x" description="UML2 5.2.x Maintenance Builds">
+    <features name="org.eclipse.uml2.sdk.feature.group" versionRange="[5.2.1.v20160822-0739]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
