@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Aggregation files used for yearly &quot;release train&quot;." buildmaster="//@contacts[email='david_williams@us.ibm.com']" label="Neon" buildRoot="buildresultsNeon" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false">
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Aggregation files used for yearly &quot;release train&quot;." buildmaster="//@contacts[email='david_williams@acm.org']" label="Neon" buildRoot="buildresultsNeon" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false">
   <validationSets label="main">
     <contributions href="equinox.b3aggrcon#/"/>
     <contributions href="cft.b3aggrcon#/"/>
@@ -517,7 +517,7 @@
   <contacts name="Daniel Drigo Pastore" email="kpqb38@motorola.com"/>
   <contacts name="David Dykstal" email="david_dykstal@us.ibm.com"/>
   <contacts name="David Green" email="david.green@tasktop.com"/>
-  <contacts name="David Williams" email="david_williams@us.ibm.com"/>
+  <contacts name="David Williams" email="david_williams@acm.org"/>
   <contacts name="Dennis Huebner" email="dennis.huebner@typefox.io"/>
   <contacts name="Diego Sandin" email="diegosandin@gmail.com"/>
   <contacts name="Doug Schaefer" email="cdtdoug@gmail.com"/>
