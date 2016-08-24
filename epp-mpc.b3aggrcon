@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EPP Marketplace Client">
-  <repositories location="http://download.eclipse.org/mpc/releases/1.5.0" description="EPP Marketplace Client">
-    <features name="org.eclipse.epp.mpc.feature.group" versionRange="[1.5.0,1.5.1)">
+  <repositories location="http://download.eclipse.org/mpc/drops/1.5.1/v20160824-2005" description="EPP Marketplace Client">
+    <features name="org.eclipse.epp.mpc.feature.group" versionRange="[1.5.1,1.5.2)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.epp.mpc.source.feature.group" versionRange="[1.5.0,1.5.1)"/>
+    <features name="org.eclipse.epp.mpc.source.feature.group" versionRange="[1.5.1,1.5.2)"/>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='wayne@eclipse.org']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='steffen.pingel@tasktop.com']"/>
