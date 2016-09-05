@@ -41,5 +41,5 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='mrrussell@google.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='Lars.Vogel@vogella.com']"/>
 </aggregator:Contribution>
