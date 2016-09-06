@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="Eclipse Sirius" label="Sirius">
-  <repositories location="http://download.eclipse.org/sirius/updates/milestones/4.0.1rc1/neon">
+  <repositories location="http://download.eclipse.org/sirius/updates/releases/4.0.1/neon">
     <features name="org.eclipse.sirius.specifier.feature.group" versionRange="[4.0.0,4.1.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
