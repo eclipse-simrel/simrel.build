@@ -3,7 +3,7 @@
   <repositories location="http://download.eclipse.org/efxclipse/runtime-shared-released/2.4.0/site">
     <features name="org.eclipse.fx.runtime.min.feature.feature.group"/>
   </repositories>
-  <repositories enabled="false" location="http://download.eclipse.org/efxclipse/updates-released/2.4.0/site">
+  <repositories location="http://download.eclipse.org/efxclipse/updates-released/2.4.0/site">
     <features name="org.eclipse.fx.ide.feature.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
