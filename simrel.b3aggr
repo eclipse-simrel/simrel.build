@@ -57,7 +57,6 @@
     <contributions href="m2e.b3aggrcon#/"/>
     <contributions href="mdt-papyrus.b3aggrcon#/"/>
     <contributions href="scout.b3aggrcon#/"/>
-    <contributions href="riena.b3aggrcon#/"/>
     <contributions href="sapphire.b3aggrcon#/"/>
     <contributions href="windowbuilder.b3aggrcon#/"/>
     <contributions href="jubula.b3aggrcon#/"/>
@@ -177,8 +176,6 @@
     <features href="rap.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="rap.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="rap.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="riena.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="riena.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf-rap.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="birt.b3aggrcon#//@repositories.0/@features.6"/>
