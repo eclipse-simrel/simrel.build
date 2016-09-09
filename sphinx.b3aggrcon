@@ -6,6 +6,5 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='idydieng@gmail.com']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='stephaneberle9@gmail.com']"/>
 </aggregator:Contribution>
