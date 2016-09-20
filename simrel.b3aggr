@@ -57,7 +57,6 @@
     <contributions href="m2e.b3aggrcon#/"/>
     <contributions href="mdt-papyrus.b3aggrcon#/"/>
     <contributions href="scout.b3aggrcon#/"/>
-    <contributions href="riena.b3aggrcon#/"/>
     <contributions href="sapphire.b3aggrcon#/"/>
     <contributions href="windowbuilder.b3aggrcon#/"/>
     <contributions href="jubula.b3aggrcon#/"/>
@@ -88,7 +87,7 @@
   </validationSets>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="ppc"/>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="ppc64"/>
-  <configurations enabled="false" operatingSystem="linux" windowSystem="gtk" architecture="ppc64le"/>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="ppc64le"/>
   <configurations operatingSystem="linux" windowSystem="gtk"/>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
   <configurations operatingSystem="macosx" windowSystem="cocoa" architecture="x86_64"/>
@@ -177,8 +176,6 @@
     <features href="rap.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="rap.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="rap.b3aggrcon#//@repositories.0/@features.3"/>
-    <features href="riena.b3aggrcon#//@repositories.0/@features.0"/>
-    <features href="riena.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-emf.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf-rap.b3aggrcon#//@repositories.0/@features.0"/>
     <features href="birt.b3aggrcon#//@repositories.0/@features.6"/>
@@ -553,7 +550,6 @@
   <contacts name="M2T JET Build Team" email="pelder@ca.ibm.com"/>
   <contacts name="MDT OCL Build Team" email="Alexander.Igdalov@gmail.com"/>
   <contacts name="Manuel Bork" email="manuel.bork@yatta.de"/>
-  <contacts name="Marc Aubry" email="maubry@sierrawireless.com"/>
   <contacts name="Marc Khouzam" email="marc.khouzam@ericsson.com"/>
   <contacts name="Marcel Augusto Gorri" email="wmg040@motorola.com"/>
   <contacts name="Marcel Bruch" email="marcel.bruch@codetrails.com"/>
@@ -616,7 +612,7 @@
   <contacts name="Marc-Andre Laperle" email="marc-andre.laperle@ericsson.com"/>
   <contacts name="Vasili Gulevich" email="vasili.gulevich@xored.com"/>
   <contacts name="Ivan Inozemtsev" email="ivan.inozemtsev@xored.com"/>
-  <contacts name="Uwe Stieber" email="uwe.stieber@windriver.com"/>
+  <contacts name="Uwe Stieber" email="uwe.st@kaos-group.de"/>
   <contacts name="Etienne Studer" email="etienne@gradle.com"/>
   <contacts name="Donat Csikos" email="donat@gradle.com"/>
   <contacts name="Stefan Oehme" email="stefan@gradle.com"/>
