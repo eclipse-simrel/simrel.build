@@ -3,7 +3,7 @@
   <repositories location="http://download.eclipse.org/cft/1.0.1.M2/">
     <features name="org.eclipse.cft.server.core.feature.feature.group" versionRange="[1.0.6.v201606211945]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Cloud%20Tools']"/>
-    </features> 
+    </features>
     <features name="org.eclipse.cft.server.ui.feature.feature.group" versionRange="[1.0.5.v201606211945]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Cloud%20Tools']"/>
     </features>
