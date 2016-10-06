@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="RCPTT">
-  <repositories location="http://download.eclipse.org/rcptt/milestone/2.1.0/RC3a/repository/">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" label="RCPTT">
+  <repositories location="http://download.eclipse.org/releases/neon/201609281000/">
     <features name="org.eclipse.rcptt.platform.feature.group" versionRange="2.1.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Testing']"/>
     </features>

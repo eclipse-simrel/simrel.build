@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EMFT MWE">
-  <repositories location="http://download.eclipse.org/modeling/emft/mwe/updates/releases/2.9.0/" description="MWE2 Lang p2 repository">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" label="EMFT MWE">
+  <repositories location="http://download.eclipse.org/releases/neon/201609281000/" description="MWE2 Lang p2 repository">
     <features name="org.eclipse.emf.mwe2.runtime.sdk.feature.group" versionRange="2.9.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>

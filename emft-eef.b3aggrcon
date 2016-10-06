@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Extended Editing Framework (EEF)">
-  <repositories location="http://download.eclipse.org/modeling/emft/eef/updates/releases/1.5/R201601141612/">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" label="Extended Editing Framework (EEF)">
+  <repositories location="http://download.eclipse.org/releases/neon/201609281000/">
     <features name="org.eclipse.emf.eef.sdk-feature.feature.group" versionRange="[1.5.0,1.6.0)">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
@@ -8,7 +8,7 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/modeling/emft/eef/updates/milestones/1.6/S20160906114506">
+  <repositories location="http://download.eclipse.org/releases/neon/201609281000/">
     <features name="org.eclipse.eef.sdk.feature.feature.group"/>
     <features name="org.eclipse.eef.sdk.feature.source.feature.group"/>
   </repositories>

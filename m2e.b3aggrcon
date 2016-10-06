@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="m2e" label="m2e">
-  <repositories location="http://download.eclipse.org/technology/m2e/releases/1.7/1.7.0.20160603-1933" description="m2e 1.7.x milestones repository">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" description="m2e" label="m2e">
+  <repositories location="http://download.eclipse.org/releases/neon/201609281000/" description="m2e 1.7.x milestones repository">
     <features name="org.eclipse.m2e.feature.feature.group" versionRange="1.7.0">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>

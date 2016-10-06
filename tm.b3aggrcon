@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="TM">
-  <repositories location="http://download.eclipse.org/tm/updates/4.1milestones/20160321" description="TM 4.1 Milestones">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" label="TM">
+  <repositories location="http://download.eclipse.org/releases/neon/201609281000/" description="TM 4.1 Milestones">
     <features name="org.eclipse.rse.feature.group" versionRange="3.7.0.201505221634">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
@@ -10,7 +10,7 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/tm/terminal/updates/4.1milestones/20160605" description="TM Terminal 4.1 (Neon) Milestones">
+  <repositories location="http://download.eclipse.org/releases/neon/201609281000/" description="TM Terminal 4.1 (Neon) Milestones">
     <features name="org.eclipse.tm.terminal.feature.feature.group" versionRange="4.1.0.201606052351">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>

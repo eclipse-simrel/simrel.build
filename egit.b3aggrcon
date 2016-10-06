@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EGit">
-  <repositories location="http://download.eclipse.org/egit/updates-4.4.1" description="EGit Updates">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" label="EGit">
+  <repositories location="http://download.eclipse.org/releases/neon/201609281000/" description="EGit Updates">
     <bundles name="org.eclipse.egit.ui.smartimport" versionRange="[4.4.1.201607150455-r]"/>
     <features name="org.eclipse.jgit.feature.group" versionRange="[4.4.1.201607150455-r]"/>
     <features name="org.eclipse.jgit.pgm.feature.group" versionRange="[4.4.1.201607150455-r]"/>
@@ -18,7 +18,7 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/egit/github/updates-4.4" description="EGit GitHub Updates">
+  <repositories location="http://download.eclipse.org/releases/neon/201609281000/" description="EGit GitHub Updates">
     <features name="org.eclipse.mylyn.github.feature.feature.group" versionRange="[4.4.0.201606070830-r]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
     </features>

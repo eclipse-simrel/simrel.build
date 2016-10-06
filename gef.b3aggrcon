@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="GEF">
-  <repositories location="http://download.eclipse.org/tools/gef/updates/legacy/releases/4.0.0_gef-master_1952" description="GEF 3.x milestones">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" label="GEF">
+  <repositories location="http://download.eclipse.org/releases/neon/201609281000/" description="GEF 3.x milestones">
     <features name="org.eclipse.gef.sdk.feature.group" versionRange="[3.11.0.201606061308]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
@@ -8,7 +8,7 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/tools/gef/gef4/updates/milestones/4.1.0RC3_gef4-maintenance_182" description="GEF4 milestones">
+  <repositories location="http://download.eclipse.org/releases/neon/201609281000/" description="GEF4 milestones">
     <features name="org.eclipse.gef4.common.sdk.feature.group" versionRange="[1.1.0.201609060946]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>

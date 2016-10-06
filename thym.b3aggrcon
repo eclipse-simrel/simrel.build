@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="THyM">
-  <repositories location="http://download.eclipse.org/thym/releases/2.0.0" description="THyM : The Hybrid Mobile">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" label="THyM">
+  <repositories location="http://download.eclipse.org/releases/neon/201609281000/" description="THyM : The Hybrid Mobile">
     <features name="org.eclipse.thym.feature.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
