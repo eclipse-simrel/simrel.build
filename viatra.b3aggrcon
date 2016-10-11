@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="VIATRA">
+  <repositories location="http://download.eclipse.org/viatra/updates/release/1.4.0">
+    <features name="org.eclipse.viatra.query.sdk.feature.source.feature.group" versionRange="[1.4.0.201609300802]">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.b3aggr#//@contacts[email='abel.hegedus@incquerylabs.com']"/>
+  <contacts href="simrel.b3aggr#//@contacts[email='ujhelyiz@incquerylabs.com']"/>
+</aggregator:Contribution>

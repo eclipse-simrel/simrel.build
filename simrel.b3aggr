@@ -80,6 +80,7 @@
     <contributions href="egerrit.b3aggrcon#/"/>
     <contributions href="andmore.b3aggrcon#/"/>
     <contributions href="emf-parsley.b3aggrcon#/"/>
+    <contributions href="viatra.b3aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
@@ -344,6 +345,7 @@
     <features href="emf-compare.b3aggrcon#//@repositories.0/@features.12"/>
     <features href="sirius.b3aggrcon#//@repositories.0/@features.8"/>
     <features href="sirius.b3aggrcon#//@repositories.0/@features.9"/>
+    <features href="viatra.b3aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Performance, Profiling and Tracing Tools" label="Performance, Profiling and Tracing Tools" description="Tools to assit analysis of running code.">
     <features href="tracecompass.b3aggrcon#//@repositories.0/@features.1"/>
@@ -624,4 +626,6 @@
   <contacts name="Patrick B&#xe4;nziger" email="patrick.baenziger@bsi-software.com"/>
   <contacts name="Arthur van Dorp" email="arthur.vandorp@bsi-software.com"/>
   <contacts name="Sravan Kumar Lakkimsetti" email="sravankumarl@in.ibm.com"/>
+  <contacts name="Abel Hegedus" email="abel.hegedus@incquerylabs.com"/>
+  <contacts name="Zoltan Ujhelyi" email="ujhelyiz@incquerylabs.com"/>
 </aggregator:Aggregation>
