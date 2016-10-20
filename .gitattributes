@@ -1,4 +1,4 @@
-# JGit/EGit does not support gitattributes at this time. Follow bug 342372
+# JGit/EGit does fully support gitattributes at this time. Follow bug 342372
 # https://bugs.eclipse.org/bugs/show_bug.cgi?id=342372
 
 
