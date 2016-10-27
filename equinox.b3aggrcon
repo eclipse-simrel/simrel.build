@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Equinox">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" enabled="false" label="Equinox">
   <repositories location="http://download.eclipse.org/eclipse/updates/4.6/R-4.6.1-201609071200/" description="Eclipse Projec and Equinox">
     <products name="org.eclipse.rcp.sdk.id"/>
     <features name="org.eclipse.equinox.sdk.feature.group">
