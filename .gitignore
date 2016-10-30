@@ -1,1 +1,4 @@
 /buildresults*
+/localMavenBuild/
+/target/
+/workspace/
