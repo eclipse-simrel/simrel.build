@@ -81,6 +81,7 @@
     <contributions href="andmore.b3aggrcon#/"/>
     <contributions href="emf-parsley.b3aggrcon#/"/>
     <contributions href="viatra.b3aggrcon#/"/>
+    <contributions href="eclemma.b3aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.b3aggrcon#/"/>
@@ -432,6 +433,7 @@
     <features href="swtbot.b3aggrcon#//@repositories.0/@features.1"/>
     <features href="swtbot.b3aggrcon#//@repositories.0/@features.2"/>
     <features href="swtbot.b3aggrcon#//@repositories.0/@features.3"/>
+    <features href="eclemma.b3aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Web, XML, Java EE and OSGi Enterprise Development" label="Web, XML, Java EE and OSGi Enterprise Development" description="Tools to help create web applications, including JavaScript, XML, XSL, XSD, HTML, XHTML, CSS, JSP, EJBs, Webservices, JPA tand OSGi Enterprise Applications">
     <features href="webtools.b3aggrcon#//@repositories.0/@features.0"/>
@@ -630,4 +632,5 @@
   <contacts name="Sravan Kumar Lakkimsetti" email="sravankumarl@in.ibm.com"/>
   <contacts name="Abel Hegedus" email="abel.hegedus@incquerylabs.com"/>
   <contacts name="Zoltan Ujhelyi" email="ujhelyiz@incquerylabs.com"/>
+  <contacts name="Evgeny Mandrikov" email="mandrikov@gmail.com"/>
 </aggregator:Aggregation>
