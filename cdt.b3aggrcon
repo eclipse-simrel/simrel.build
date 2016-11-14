@@ -41,9 +41,6 @@
     <features name="org.eclipse.cdt.bupc.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.msw.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
-    </features>
     <features name="org.eclipse.cdt.autotools.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
@@ -61,6 +58,15 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.cdt.debug.standalone.feature.group"/>
+    <features name="org.eclipse.cdt.qt.feature.group">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.cdt.arduino.feature.group">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.cdt.cmake.feature.group">
+      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
   </repositories>
   <repositories location="http://download.eclipse.org/tools/cdt/launchbar/neon.1" description="LaunchBar Updates">
     <features name="org.eclipse.launchbar.feature.group">
