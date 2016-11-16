@@ -68,7 +68,7 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
   </repositories>
-  <repositories location="https://hudson.eclipse.org/cdt/job/launchbar-master/lastSuccessfulBuild/artifact/repo/target/repository" description="LaunchBar Updates">
+  <repositories location="http://download.eclipse.org/tools/cdt/launchbar/neon.2.rc1" description="LaunchBar Updates">
     <features name="org.eclipse.launchbar.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
