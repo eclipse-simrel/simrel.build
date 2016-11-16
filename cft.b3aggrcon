@@ -10,9 +10,6 @@
     <features name="org.eclipse.cft.server.sdk.feature.group" versionRange="[1.0.6.v201611141851]">
       <categories href="simrel.b3aggr#//@customCategories[identifier='Cloud%20Tools']"/>
     </features>
-    <features name="org.eclipse.cft.server.client.feature.feature.group" versionRange="[1.0.0.v201611141851]">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Cloud%20Tools']"/>
-    </features>
   </repositories>
   <contacts href="simrel.b3aggr#//@contacts[email='nsingh@pivotal.io']"/>
   <contacts href="simrel.b3aggr#//@contacts[email='eyuen@ca.ibm.com']"/>
