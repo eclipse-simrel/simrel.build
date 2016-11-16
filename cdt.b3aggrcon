@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="CDT">
-  <repositories location="http://download.eclipse.org/tools/cdt/builds/neon/milestones/ur1-rc4" description="CDT updates">
+  <repositories location="http://download.eclipse.org/tools/cdt/builds/neon/milestones/ur2-rc1" description="CDT updates">
     <bundles name="org.eclipse.cdt.core.aix"/>
     <bundles name="org.eclipse.cdt.core.linux"/>
     <bundles name="org.eclipse.cdt.core.linux.ppc64"/>
@@ -68,7 +68,7 @@
       <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/tools/cdt/launchbar/neon.1" description="LaunchBar Updates">
+  <repositories location="https://hudson.eclipse.org/cdt/job/launchbar-master/lastSuccessfulBuild/artifact/repo/target/repository" description="LaunchBar Updates">
     <features name="org.eclipse.launchbar.feature.group">
       <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
