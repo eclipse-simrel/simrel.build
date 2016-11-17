@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="The Eclipse Modeling Graphiti project" label="Graphiti">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="The Eclipse Modeling Graphiti project" label="Graphiti">
   <repositories location="http://download.eclipse.org/graphiti/updates/milestones/S-0.14.0M3-201610311154/" description="Graphiti Milestones Update Site">
     <features description="The feature containing the Graphiti framework" name="org.eclipse.graphiti.feature.feature.group" versionRange="[0.14.0,0.15.0)">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features description="The feature containing the examples for Graphiti" name="org.eclipse.graphiti.feature.examples.feature.group" versionRange="[0.14.0,0.15.0)">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features description="The complete SDK feature for Graphiti containing all other features (framework, examples plus source code)" name="org.eclipse.graphiti.sdk.feature.feature.group" versionRange="[0.14.0,0.15.0)">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features description="The complete SDKplus feature for Graphiti containing all other features (framework, examples plus source code) and the add-ons" name="org.eclipse.graphiti.sdk.plus.feature.feature.group" versionRange="[0.14.0,0.15.0)">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features description="The feature containing extensions for the Graphiti framework, currently it contains only the SVG Diagram export" name="org.eclipse.graphiti.export.feature.feature.group" versionRange="[0.14.0,0.15.0)">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features description="The feature containing the design tools for Graphiti, currently a wizard to create new Graphiti plugin projects." name="org.eclipse.graphiti.feature.tools.feature.group" versionRange="[0.14.0,0.15.0)">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='michael.wenz@sap.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='michael.wenz@sap.com']"/>
 </aggregator:Contribution>

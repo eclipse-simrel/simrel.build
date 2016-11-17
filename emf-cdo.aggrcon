@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EMF CDO">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMF CDO">
   <repositories location="http://download.eclipse.org/modeling/emf/cdo/drops/S20161101-0352" description="EMF CDO">
     <features name="org.eclipse.net4j.sdk.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features name="org.eclipse.emf.cdo.sdk.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features name="org.eclipse.emf.cdo.dawn.sdk.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features name="org.eclipse.emf.cdo.epp.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='stepper@esc-net.de']"/>
+  <contacts href="simrel.aggr#//@contacts[email='stepper@esc-net.de']"/>
 </aggregator:Contribution>

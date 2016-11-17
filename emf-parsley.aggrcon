@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EMF Parsley">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMF Parsley">
   <repositories location="http://download.eclipse.org/emf-parsley/milestones/" description="EMF Parsley">
     <features name="org.eclipse.emf.parsley.sdk.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features name="org.eclipse.emf.parsley.sdk.source.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features name="org.eclipse.emf.parsley.cdo.feature.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features name="org.eclipse.emf.parsley.cdo.feature.source.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='lorenzo.bettini@gmail.com']"/>
-  <contacts href="simrel.b3aggr#//@contacts[email='vincenzo.caselli@rcp-vision.com']"/>
-  <contacts href="simrel.b3aggr#//@contacts[email='francesco.guidieri@gmail.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='lorenzo.bettini@gmail.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='vincenzo.caselli@rcp-vision.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='francesco.guidieri@gmail.com']"/>
 </aggregator:Contribution>

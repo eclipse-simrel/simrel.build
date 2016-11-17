@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="TM">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="TM">
   <repositories location="http://download.eclipse.org/tm/updates/4.2milestones/20161026" description="TM 4.2 Milestones">
     <features name="org.eclipse.rse.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
-      <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
     <features name="org.eclipse.rse.useractions.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
-      <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
   <repositories location="http://download.eclipse.org/tm/terminal/updates/4.2milestones/20160920" description="TM Terminal 4.1 (Neon) Milestones">
     <features name="org.eclipse.tm.terminal.feature.feature.group" versionRange="4.2.0.201609201752">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
-      <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Linux%20Tools']"/>
     </features>
     <features name="org.eclipse.tm.terminal.view.rse.feature.feature.group" versionRange="4.2.0.201609201752">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
-      <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
     <features name="org.eclipse.tm.terminal.connector.remote.feature.feature.group" versionRange="4.2.0.201609201752">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
-      <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='kaloyan.r@zend.com']"/>
-  <contacts href="simrel.b3aggr#//@contacts[email='g.watson@computer.org']"/>
-  <contacts href="simrel.b3aggr#//@contacts[email='martin.oberhuber@windriver.com']"/>
-  <contacts href="simrel.b3aggr#//@contacts[email='uwe.st@kaos-group.de']"/>
+  <contacts href="simrel.aggr#//@contacts[email='kaloyan.r@zend.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='g.watson@computer.org']"/>
+  <contacts href="simrel.aggr#//@contacts[email='martin.oberhuber@windriver.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='uwe.st@kaos-group.de']"/>
 </aggregator:Contribution>

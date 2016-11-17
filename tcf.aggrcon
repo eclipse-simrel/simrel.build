@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="TCF">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="TCF">
   <repositories location="http://download.eclipse.org/tools/tcf/builds/1.5/milestones/20160920" description="TCF 1.4 Milestones">
     <features name="org.eclipse.tcf.cdt.feature.feature.group" versionRange="1.5.0.201609112106">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
     <features name="org.eclipse.tcf.rse.feature.feature.group" versionRange="1.5.0.201609121142">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
     <features name="org.eclipse.tcf.te.tcf.feature.feature.group" versionRange="1.5.0.201609112106">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
     <features name="org.eclipse.tcf.te.tcf.launch.cdt.feature.feature.group" versionRange="1.5.0.201609112106">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Linux%20Tools']"/>
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Linux%20Tools']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='martin.oberhuber@windriver.com']"/>
-  <contacts href="simrel.b3aggr#//@contacts[email='uwe.st@kaos-group.de']"/>
+  <contacts href="simrel.aggr#//@contacts[email='martin.oberhuber@windriver.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='uwe.st@kaos-group.de']"/>
 </aggregator:Contribution>

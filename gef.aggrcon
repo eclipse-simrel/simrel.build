@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="GEF">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="GEF">
   <repositories location="http://download.eclipse.org/tools/gef/updates/legacy/releases/4.0.0_gef-master_1952" description="GEF 3.x milestones">
     <features name="org.eclipse.gef.sdk.feature.group" versionRange="[3.11.0.201606061308]">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features name="org.eclipse.zest.sdk.feature.group" versionRange="[1.7.0.201606061308]">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
   <repositories location="http://download.eclipse.org/tools/gef/updates/milestones/5.0.0M3_gef-master_3735" description="GEF milestones">
     <features name="org.eclipse.gef.common.sdk.feature.group" versionRange="[5.0.0.201611021331]">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
     <features name="org.eclipse.gef.geometry.sdk.feature.group" versionRange="[5.0.0.201611021331]">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
     <features name="org.eclipse.gef.graph.sdk.feature.group" versionRange="[5.0.0.201611021331]">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
     <features name="org.eclipse.gef.layout.sdk.feature.group" versionRange="[5.0.0.201611021331]">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
     <features name="org.eclipse.gef.dot.sdk.feature.group" versionRange="[5.0.0.201611021331]">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
     <features name="org.eclipse.gef.dot.user.feature.group" versionRange="[5.0.0.201611021331]">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
     <features name="org.eclipse.gef.fx.sdk.feature.group" versionRange="[5.0.0.201611021331]">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
     <features name="org.eclipse.gef.mvc.sdk.feature.group" versionRange="[5.0.0.201611021331]">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
     <features name="org.eclipse.gef.zest.sdk.feature.group" versionRange="[5.0.0.201611021331]">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
     <features name="org.eclipse.gef.cloudio.sdk.feature.group" versionRange="[5.0.0.201611021331]">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
     <features name="org.eclipse.gef.cloudio.user.feature.group" versionRange="[5.0.0.201611021331]">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='alexander.nyssen@itemis.de']"/>
+  <contacts href="simrel.aggr#//@contacts[email='alexander.nyssen@itemis.de']"/>
 </aggregator:Contribution>

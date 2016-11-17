@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="PDT">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="PDT">
   <repositories location="http://download.eclipse.org/tools/pdt/updates/4.2-rc1" description="PDT 4.2">
     <features name="org.eclipse.php.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.php.importer.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.php.mylyn.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='zulus@w3des.net']"/>
-  <contacts href="simrel.b3aggr#//@contacts[email='kaloyan.r@zend.com']"/>
-  <contacts href="simrel.b3aggr#//@contacts[email='jacek.pospychala@gmail.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='zulus@w3des.net']"/>
+  <contacts href="simrel.aggr#//@contacts[email='kaloyan.r@zend.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='jacek.pospychala@gmail.com']"/>
 </aggregator:Contribution>

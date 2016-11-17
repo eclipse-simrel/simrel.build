@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Subversive">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Subversive">
   <repositories location="http://download.eclipse.org/technology/subversive/4.0/neon-site/" description="Subversive for Eclipse Neon">
     <features name="org.eclipse.team.svn.feature.group" versionRange="[4.0.0,5.0.0)">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <features name="org.eclipse.team.svn.nl1.feature.group" versionRange="[4.0.0,5.0.0)">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <features name="org.eclipse.team.svn.resource.ignore.rules.jdt.feature.group" versionRange="[4.0.0,5.0.0)">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <features name="org.eclipse.team.svn.mylyn.feature.group" versionRange="[4.0.0,5.0.0)">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <features name="org.eclipse.team.svn.source.feature.group" versionRange="[4.0.0,5.0.0)">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <features name="org.eclipse.team.svn.revision.graph.feature.group" versionRange="[4.0.0,5.0.0)">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <features name="org.eclipse.team.svn.m2e.feature.group" versionRange="[4.0.0,5.0.0)">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='alexander.gurov@polarion.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='alexander.gurov@polarion.com']"/>
 </aggregator:Contribution>

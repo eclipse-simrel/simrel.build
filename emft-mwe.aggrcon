@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="EMFT MWE">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMFT MWE">
   <repositories location="http://download.eclipse.org/modeling/emft/mwe/updates/releases/2.9.0/" description="MWE2 Lang p2 repository">
     <features name="org.eclipse.emf.mwe2.runtime.sdk.feature.group" versionRange="2.9.0">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features name="org.eclipse.emf.mwe.sdk.feature.group" versionRange="1.3.20">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features name="org.eclipse.emf.mwe2.language.sdk.feature.group" versionRange="2.9.0">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='dennis.huebner@typefox.io']"/>
-  <contacts href="simrel.b3aggr#//@contacts[email='eclipse@typefox.io']"/>
+  <contacts href="simrel.aggr#//@contacts[email='dennis.huebner@typefox.io']"/>
+  <contacts href="simrel.aggr#//@contacts[email='eclipse@typefox.io']"/>
 </aggregator:Contribution>

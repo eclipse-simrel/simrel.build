@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" label="Eclipse">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Eclipse">
   <repositories location="http://download.eclipse.org/eclipse/updates/4.7milestones/S-4.7M3-201610270700/" description="Eclipse and Equinox">
     <products name="org.eclipse.sdk.ide"/>
     <products name="org.eclipse.platform.ide"/>
     <products name="org.eclipse.platform.sdk"/>
     <features name="org.eclipse.sdk.feature.group"/>
     <features name="org.eclipse.e4.core.tools.feature.source.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
     <features name="org.eclipse.cvs.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <features name="org.eclipse.pde.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
     <features name="org.eclipse.jdt.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Programming%20Languages']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.pde.api.tools.ee.feature.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='sravankumarl@in.ibm.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='sravankumarl@in.ibm.com']"/>
 </aggregator:Contribution>

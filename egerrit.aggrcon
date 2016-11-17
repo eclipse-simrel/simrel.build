@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/b3/2011/aggregator/1.1.0" description="EGerrit" label="EGerrit">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="EGerrit" label="EGerrit">
   <repositories location="http://download.eclipse.org/egerrit/updates/milestone">
     <features name="org.eclipse.egerrit.feature.feature.group">
-      <categories href="simrel.b3aggr#//@customCategories[identifier='Collaboration']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
-  <contacts href="simrel.b3aggr#//@contacts[email='pascal@rapicorp.com']"/>
-  <contacts href="simrel.b3aggr#//@contacts[email='lmcbout@gmail.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='pascal@rapicorp.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='lmcbout@gmail.com']"/>
 </aggregator:Contribution>
