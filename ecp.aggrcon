@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="ECP">
+  <repositories location="http://download.eclipse.org/ecp/rt/1110_M4" description="ECP 1.11.0">
+    <features name="org.eclipse.emf.ecp.sdk.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+    <features name="org.eclipse.emf.ecp.emfforms.sdk.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.aggr#//@contacts[email='jfaltermeier@eclipsesource.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='emueller@eclipsesource.com']"/>
+</aggregator:Contribution>

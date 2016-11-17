@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="MDT OCL 6.0">
+  <repositories location="http://download.eclipse.org/modeling/mdt/ocl/updates/milestones/6.1.2/S201611141024" description="Eclipse OCL 6.1.2">
+    <features name="org.eclipse.ocl.all.sdk.feature.group" versionRange="[5.2.0,5.3.0)">
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+    <features name="org.eclipse.ocl.examples.feature.group" versionRange="[6.1.0,6.2.0)">
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.aggr#//@contacts[email='adolfosbh@gmail.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='ed@willink.me.uk']"/>
+</aggregator:Contribution>

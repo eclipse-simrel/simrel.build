@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Eclipse Sirius" label="Sirius">
+  <repositories location="http://download.eclipse.org/sirius/updates/releases/4.1.1/neon">
+    <features name="org.eclipse.sirius.specifier.feature.group" versionRange="[4.1.0,4.2.0)">
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+    <features name="org.eclipse.sirius.runtime.ide.eef.feature.group" versionRange="[4.1.0,4.2.0)">
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+    <features name="org.eclipse.sirius.runtime.ide.xtext.feature.group" versionRange="[4.1.0,4.2.0)">
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+    <features name="org.eclipse.sirius.aql.feature.group" versionRange="[4.1.0,4.2.0)"/>
+    <features name="org.eclipse.sirius.samples.feature.group" versionRange="[4.1.0,4.2.0)">
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+    <features name="org.eclipse.sirius.runtime.feature.group" versionRange="[4.1.0,4.2.0)"/>
+    <features name="org.eclipse.sirius.runtime.ide.ui.feature.group" versionRange="[4.1.0,4.2.0)"/>
+    <features name="org.eclipse.sirius.interpreter.feature.feature.group" versionRange="[4.1.0,4.2.0]"/>
+    <features name="org.eclipse.sirius.properties.feature.feature.group" versionRange="[4.1.0,4.2.0]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+    <features name="org.eclipse.sirius.specifier.properties.feature.feature.group" versionRange="[4.1.0,4.2.0]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.aggr#//@contacts[email='pierre-charles.david@obeo.fr']"/>
+  <contacts href="simrel.aggr#//@contacts[email='laurent.redor@obeo.fr']"/>
+  <contacts href="simrel.aggr#//@contacts[email='cedric.brun@obeo.fr']"/>
+</aggregator:Contribution>

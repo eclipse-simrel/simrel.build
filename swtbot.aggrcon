@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="SWTBot">
+  <repositories location="http://download.eclipse.org/technology/swtbot/milestones/neon-ur1-rc4/">
+    <features name="org.eclipse.swtbot.ide.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Testing']"/>
+    </features>
+    <features name="org.eclipse.swtbot.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Testing']"/>
+    </features>
+    <features name="org.eclipse.swtbot.eclipse.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Testing']"/>
+    </features>
+    <features name="org.eclipse.swtbot.eclipse.gef.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Testing']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.aggr#//@contacts[email='mistria@redhat.com']"/>
+</aggregator:Contribution>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="DLTK">
+  <repositories location="http://download.eclipse.org/technology/dltk/updates-dev/milestone/5.7m3/" description="DLTK 5.6">
+    <features name="org.eclipse.dltk.core.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+    <features name="org.eclipse.dltk.ruby.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.dltk.tcl.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.dltk.xotcl.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.dltk.itcl.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.dltk.sh.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.dltk.rse.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+    <features name="org.eclipse.dltk.mylyn.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.aggr#//@contacts[email='kaloyan.r@zend.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='alex.panchenko@gmail.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='andrey@xored.com']"/>
+</aggregator:Contribution>

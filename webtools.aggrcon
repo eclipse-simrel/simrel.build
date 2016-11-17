@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="WebTools">
+  <repositories location="http://download.eclipse.org/webtools/downloads/drops/R3.8.1/R-3.8.1-20160912100321/repository/" description="Web Tools 3.7 repository site">
+    <features name="org.eclipse.wst.web_ui.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.jst.enterprise_ui.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.jst.ws.axis2tools.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.jpt.dbws.eclipselink.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.jpt.jaxb.eclipselink.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.jpt.jaxb.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.jpt.jpa.eclipselink.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.jpt.jpa.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.jpt.jpadiagrameditor.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.jst.webpageeditor.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.wst.xml_ui.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.wst.jsdt.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.wst.jsdt.chromium.debug.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.wst.common.fproj.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.wst.server_adapters.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.wst.xsl.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.jst.common.fproj.enablement.jdt.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.jst.server_ui.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.jst.server_adapters.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.jst.server_adapters.ext.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.jst.web_ui.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.jsf.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.jst.ws.jaxws.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.jst.ws.cxf.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.jst.ws.jaxws.dom.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+  </repositories>
+  <repositories location="http://download.eclipse.org/webtools/downloads/drops/C3.2.0/I-C3.2.0-20100614204142/repository/" description="Web Tools 3.2 capability site">
+    <bundles name="org.eclipse.wtp.epp.package.capabilities" versionRange="1.3.0.v201005102000"/>
+    <bundles name="org.eclipse.wtp.epp.package.jee.intro" versionRange="1.3.0.v201005102030"/>
+    <bundles name="org.eclipse.wtp.javascript.capabilities" versionRange="1.0.100.v201005102000"/>
+    <bundles name="org.eclipse.wtp.jee.capabilities" versionRange="1.0.100.v201005102000"/>
+    <bundles name="org.eclipse.wtp.web.capabilities" versionRange="1.0.100.v201005102000"/>
+    <bundles name="org.eclipse.wtp.xml.capabilities" versionRange="1.0.100.v201005102000"/>
+  </repositories>
+  <repositories location="http://download.eclipse.org/libra/releases/R-0.3.1-201609011955" description="Libra 0.3.1 repository site">
+    <features name="org.eclipse.libra.facet.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.libra.warproducts.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.libra.framework.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.libra.framework.editor.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.aggr#//@contacts[email='kaloyan.r@zend.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='ccc@us.ibm.com']"/>
+</aggregator:Contribution>

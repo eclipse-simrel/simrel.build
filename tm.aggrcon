@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="TM">
+  <repositories location="http://download.eclipse.org/tm/updates/4.1milestones/20160321" description="TM 4.1 Milestones">
+    <features name="org.eclipse.rse.feature.group" versionRange="3.7.0.201505221634">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+    <features name="org.eclipse.rse.useractions.feature.group" versionRange="3.7.0.201505221634">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+  </repositories>
+  <repositories location="http://download.eclipse.org/tm/terminal/updates/4.1milestones/20160605" description="TM Terminal 4.1 (Neon) Milestones">
+    <features name="org.eclipse.tm.terminal.feature.feature.group" versionRange="4.1.0.201606052351">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Linux%20Tools']"/>
+    </features>
+    <features name="org.eclipse.tm.terminal.view.rse.feature.feature.group" versionRange="4.1.0.201606052351">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+    <features name="org.eclipse.tm.terminal.connector.remote.feature.feature.group" versionRange="4.1.0.201606052351">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.aggr#//@contacts[email='g.watson@computer.org']"/>
+  <contacts href="simrel.aggr#//@contacts[email='martin.oberhuber@windriver.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='uwe.stieber@windriver.com']"/>
+</aggregator:Contribution>

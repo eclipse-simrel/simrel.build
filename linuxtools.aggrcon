@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Linux Tools">
+  <repositories location="http://download.eclipse.org/linuxtools/update-neon-2-rc1" description="Linux Tools Updates">
+    <features name="org.eclipse.linuxtools.cdt.libhover.devhelp.feature.feature.group" versionRange="5.2.0.201611152335">
+      <categories href="simrel.aggr#//@customCategories[identifier='Linux%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.cdt.libhover.feature.feature.group" versionRange="5.2.0.201611152335">
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.changelog.feature.group" versionRange="5.2.0.201611152335">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.gprof.feature.feature.group" versionRange="5.2.0.201611152335">
+      <categories href="simrel.aggr#//@customCategories[identifier='Performance%2C%20Profiling%20and%20Tracing%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.oprofile.feature.feature.group" versionRange="5.2.0.201611152335">
+      <categories href="simrel.aggr#//@customCategories[identifier='Performance%2C%20Profiling%20and%20Tracing%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.rpm.feature.group" versionRange="5.2.0.201611152335">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.systemtap.feature.group" versionRange="5.2.0.201611152335">
+      <categories href="simrel.aggr#//@customCategories[identifier='Performance%2C%20Profiling%20and%20Tracing%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.callgraph.feature.feature.group" versionRange="5.2.0.201611152335">
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.valgrind.feature.group" versionRange="5.2.0.201611152335">
+      <categories href="simrel.aggr#//@customCategories[identifier='Performance%2C%20Profiling%20and%20Tracing%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.gcov.feature.group" versionRange="5.2.0.201611152335">
+      <categories href="simrel.aggr#//@customCategories[identifier='Linux%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.perf.feature.feature.group" versionRange="5.2.0.201611152335">
+      <categories href="simrel.aggr#//@customCategories[identifier='Performance%2C%20Profiling%20and%20Tracing%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.javadocs.feature.feature.group" versionRange="5.2.0.201611152335">
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.man.feature.group" versionRange="5.2.0.201611152335">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.changelog.c.feature.group" versionRange="5.2.0.201611152335"/>
+    <features name="org.eclipse.linuxtools.changelog.java.feature.group" versionRange="5.2.0.201611152335"/>
+    <features name="org.eclipse.linuxtools.cdt.libhover.devhelp.feature.source.feature.group" versionRange="5.2.0.201611152335"/>
+    <features name="org.eclipse.linuxtools.cdt.libhover.feature.source.feature.group" versionRange="5.2.0.201611152335"/>
+    <features name="org.eclipse.linuxtools.changelog.source.feature.group" versionRange="5.2.0.201611152335"/>
+    <features name="org.eclipse.linuxtools.gprof.feature.source.feature.group" versionRange="5.2.0.201611152335"/>
+    <features name="org.eclipse.linuxtools.oprofile.feature.source.feature.group" versionRange="5.2.0.201611152335"/>
+    <features name="org.eclipse.linuxtools.rpm.source.feature.group" versionRange="5.2.0.201611152335"/>
+    <features name="org.eclipse.linuxtools.systemtap.source.feature.group" versionRange="5.2.0.201611152335"/>
+    <features name="org.eclipse.linuxtools.callgraph.feature.source.feature.group" versionRange="5.2.0.201611152335"/>
+    <features name="org.eclipse.linuxtools.valgrind.source.feature.group" versionRange="5.2.0.201611152335"/>
+    <features name="org.eclipse.linuxtools.gcov.source.feature.group" versionRange="5.2.0.201611152335"/>
+    <features name="org.eclipse.linuxtools.perf.feature.source.feature.group" versionRange="5.2.0.201611152335"/>
+    <features name="org.eclipse.linuxtools.profiling.source.feature.group" versionRange="5.2.0.201611152335"/>
+    <features name="org.eclipse.linuxtools.dataviewers.feature.feature.group" versionRange="5.2.0.201611152335"/>
+    <features name="org.eclipse.linuxtools.dataviewers.feature.source.feature.group" versionRange="5.2.0.201611152335"/>
+    <features name="org.eclipse.linuxtools.man.source.feature.group" versionRange="5.2.0.201611152335"/>
+  </repositories>
+  <repositories location="http://download.eclipse.org/linuxtools/update-neon-2-docker-rc1" description="Linux Tools Docker Support Updates">
+    <features name="org.eclipse.linuxtools.docker.feature.feature.group" versionRange="2.2.0.201611152335">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+    <features name="org.eclipse.linuxtools.vagrant.feature.feature.group" versionRange="2.2.0.201611152335">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.aggr#//@contacts[email='jjohnstn@redhat.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='akurtako@redhat.com']"/>
+</aggregator:Contribution>

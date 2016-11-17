@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="XWT - Declarative UI in XML for Eclipse" label="XWT">
+  <repositories location="http://download.eclipse.org/xwt/release-1.2.0">
+    <features description="XWT Runtime" name="org.eclipse.xwt.feature.feature.group" versionRange="1.0.0">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features description="XWT Sources" name="org.eclipse.xwt.source.feature.feature.group" versionRange="1.0.0">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features description="The integration of XWT with eclipse workbench" name="org.eclipse.xwt.workbench.feature.feature.group" versionRange="1.0.0">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features description="Source of XWT Eclipse workbench integration" name="org.eclipse.xwt.workbench.source.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.aggr#//@contacts[email='yves.yang@soyatec.com']"/>
+</aggregator:Contribution>

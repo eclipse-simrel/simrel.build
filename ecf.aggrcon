@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="ECF">
+  <repositories location="http://download.eclipse.org/rt/ecf/3.13.2/site.p2" description="ECF updates">
+    <features name="org.eclipse.ecf.core.feature.group" versionRange="3.13.2.v20160823-2221">
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
+    </features>
+    <features name="org.eclipse.ecf.core.source.feature.group" versionRange="3.13.2.v20160823-2221">
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
+    </features>
+    <features name="org.eclipse.ecf.remoteservice.sdk.feature.feature.group" versionRange="3.13.2.v20160823-2221">
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
+    </features>
+    <features name="org.eclipse.ecf.remoteservice.sdk.source.feature.feature.group" versionRange="3.13.2.v20160823-2221">
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.aggr#//@contacts[email='slewis@composent.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='wim.jongman@remainsoftware.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='harshana05@gmail.com']"/>
+</aggregator:Contribution>
