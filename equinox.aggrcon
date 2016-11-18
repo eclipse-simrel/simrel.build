@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Equinox">
-  <repositories location="http://download.eclipse.org/eclipse/updates/4.6-M-builds/M-4.6.2RC1-201611100200/" description="Eclipse Projec and Equinox">
+  <repositories location="http://download.eclipse.org/eclipse/updates/4.6-M-builds/M-4.6.2RC2-201611161100/" description="Eclipse Projec and Equinox">
     <products name="org.eclipse.rcp.sdk.id"/>
     <features name="org.eclipse.equinox.sdk.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
