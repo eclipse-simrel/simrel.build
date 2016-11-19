@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Aggregation files used for Simultaneous Release Test2 (yearly &quot;release train&quot;)." buildmaster="//@contacts[email='david_williams@acm.org']" buildmasterBackup="//@contacts[email='frederic.gurr@eclipse.org']" label="Neon" buildRoot="buildresultsNeon" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false">
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Aggregation files used for Simultaneous Release Test3 (yearly &quot;release train&quot;)." buildmaster="//@contacts[email='david_williams@acm.org']" buildmasterBackup="//@contacts[email='frederic.gurr@eclipse.org']" label="Neon" buildRoot="buildresultsNeon" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false">
   <validationSets label="main">
     <contributions href="equinox.aggrcon#/"/>
     <contributions href="cft.aggrcon#/"/>
