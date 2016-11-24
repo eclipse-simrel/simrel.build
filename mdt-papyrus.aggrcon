@@ -5,5 +5,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
+  <contacts href="simrel.aggr#//@contacts[email='francois.le-fevre@cea.fr']"/>
+  <contacts href="simrel.aggr#//@contacts[email='quentin.lemenez@cea.fr']"/>
   <contacts href="simrel.aggr#//@contacts[email='vincent.lorenzo@cea.fr']"/>
 </aggregator:Contribution>
