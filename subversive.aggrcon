@@ -7,9 +7,6 @@
     <features name="org.eclipse.team.svn.nl1.feature.group" versionRange="[4.0.0,5.0.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.team.svn.resource.ignore.rules.jdt.feature.group" versionRange="[4.0.0,5.0.0)">
-      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
-    </features>
     <features name="org.eclipse.team.svn.mylyn.feature.group" versionRange="[4.0.0,5.0.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
