@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Mylyn">
-  <repositories location="http://download.eclipse.org/mylyn/drops/3.21.0/v20160929-2030" description="Mylyn Updates">
+  <repositories location="http://download.eclipse.org/mylyn/drops/3.21.0/v20161129-2023" description="Mylyn Updates">
     <features name="org.eclipse.mylyn_feature.feature.group" versionRange="3.21.0.v20160914-0252">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
@@ -28,7 +28,7 @@
     <features name="org.eclipse.mylyn.team_feature.feature.group" versionRange="3.21.0.v20160701-1337">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.wikitext_feature.feature.group" versionRange="2.10.0.v20160912-2336">
+    <features name="org.eclipse.mylyn.wikitext_feature.feature.group" versionRange="2.10.1.v20161129-1925">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <features name="org.eclipse.mylyn.cvs.feature.group" versionRange="1.13.0.v20160630-2022">
@@ -61,7 +61,7 @@
     <features name="org.eclipse.mylyn.tasks.ide.feature.group" versionRange="3.21.0.v20160929-1805"/>
     <features name="org.eclipse.mylyn.versions.feature.group" versionRange="1.13.0.v20160630-2022"/>
     <features name="org.eclipse.mylyn.versions.sdk.feature.group" versionRange="1.13.0.v20160630-2022"/>
-    <features name="org.eclipse.mylyn.wikitext.sdk.feature.group" versionRange="2.10.0.v20160912-2336"/>
+    <features name="org.eclipse.mylyn.wikitext.sdk.feature.group" versionRange="2.10.1.v20161129-1925"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='colin.ritchie@tasktop.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='sam.davis@tasktop.com']"/>
