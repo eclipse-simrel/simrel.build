@@ -1,4 +1,8 @@
 /buildresults*
 /localMavenBuild/
 /target/
-/workspace/
+
+/localPrereqs/
+/eclipseworkspaces/
+/aggregation/
+/eclipseInstall/
