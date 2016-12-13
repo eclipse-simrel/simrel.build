@@ -8,38 +8,38 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/tools/gef/updates/milestones/5.0.0M4_gef-master_3934" description="GEF milestones">
-    <features name="org.eclipse.gef.common.sdk.feature.group" versionRange="[5.0.0.201612121606]">
+  <repositories location="http://download.eclipse.org/tools/gef/updates/milestones/5.0.0M4_gef-master_3941" description="GEF milestones">
+    <features name="org.eclipse.gef.common.sdk.feature.group" versionRange="[5.0.0.201612131703]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.geometry.sdk.feature.group" versionRange="[5.0.0.201612121606]">
+    <features name="org.eclipse.gef.geometry.sdk.feature.group" versionRange="[5.0.0.201612131703]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.graph.sdk.feature.group" versionRange="[5.0.0.201612121606]">
+    <features name="org.eclipse.gef.graph.sdk.feature.group" versionRange="[5.0.0.201612131703]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.layout.sdk.feature.group" versionRange="[5.0.0.201612121606]">
+    <features name="org.eclipse.gef.layout.sdk.feature.group" versionRange="[5.0.0.201612131703]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.dot.sdk.feature.group" versionRange="[5.0.0.201612121606]">
+    <features name="org.eclipse.gef.dot.sdk.feature.group" versionRange="[5.0.0.201612131703]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.dot.user.feature.group" versionRange="[5.0.0.201612121606]">
+    <features name="org.eclipse.gef.dot.user.feature.group" versionRange="[5.0.0.201612131703]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.fx.sdk.feature.group" versionRange="[5.0.0.201612121606]">
+    <features name="org.eclipse.gef.fx.sdk.feature.group" versionRange="[5.0.0.201612131703]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.mvc.sdk.feature.group" versionRange="[5.0.0.201612121606]">
+    <features name="org.eclipse.gef.mvc.sdk.feature.group" versionRange="[5.0.0.201612131703]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.zest.sdk.feature.group" versionRange="[5.0.0.201612121606]">
+    <features name="org.eclipse.gef.zest.sdk.feature.group" versionRange="[5.0.0.201612131703]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.cloudio.sdk.feature.group" versionRange="[5.0.0.201612121606]">
+    <features name="org.eclipse.gef.cloudio.sdk.feature.group" versionRange="[5.0.0.201612131703]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.cloudio.user.feature.group" versionRange="[5.0.0.201612121606]">
+    <features name="org.eclipse.gef.cloudio.user.feature.group" versionRange="[5.0.0.201612131703]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
   </repositories>
