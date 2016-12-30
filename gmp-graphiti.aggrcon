@@ -4,19 +4,37 @@
     <features description="The feature containing the Graphiti framework" name="org.eclipse.graphiti.feature.feature.group" versionRange="[0.14.0,0.15.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
+    <features description="The feature containing the sources of the Graphiti framework" name="org.eclipse.graphiti.feature.source.feature.group" versionRange="[0.14.0,0.15.0)">
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
     <features description="The feature containing the examples for Graphiti" name="org.eclipse.graphiti.feature.examples.feature.group" versionRange="[0.14.0,0.15.0)">
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+    <features description="The feature containing the sources of the examples for Graphiti" name="org.eclipse.graphiti.feature.examples.source.feature.group" versionRange="[0.14.0,0.15.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features description="The complete SDK feature for Graphiti containing all other features (framework, examples plus source code)" name="org.eclipse.graphiti.sdk.feature.feature.group" versionRange="[0.14.0,0.15.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
+    <features description="The complete SDK source feature for Graphiti containing all other features (framework, examples plus source code)" name="org.eclipse.graphiti.sdk.feature.source.feature.group" versionRange="[0.14.0,0.15.0)">
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
     <features description="The complete SDKplus feature for Graphiti containing all other features (framework, examples plus source code) and the add-ons" name="org.eclipse.graphiti.sdk.plus.feature.feature.group" versionRange="[0.14.0,0.15.0)">
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+    <features description="The complete SDKplus source feature for Graphiti containing all other features (framework, examples plus source code) and the add-ons" name="org.eclipse.graphiti.sdk.plus.feature.source.feature.group" versionRange="[0.14.0,0.15.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features description="The feature containing extensions for the Graphiti framework, currently it contains only the SVG Diagram export" name="org.eclipse.graphiti.export.feature.feature.group" versionRange="[0.14.0,0.15.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
+    <features description="The feature containing the sources of the extensions for the Graphiti framework, currently it contains only the SVG Diagram export" name="org.eclipse.graphiti.export.feature.source.feature.group" versionRange="[0.14.0,0.15.0)">
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
     <features description="The feature containing the design tools for Graphiti, currently a wizard to create new Graphiti plugin projects." name="org.eclipse.graphiti.feature.tools.feature.group" versionRange="[0.14.0,0.15.0)">
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+    <features description="The feature containing the sources of the design tools for Graphiti, currently a wizard to create new Graphiti plugin projects." name="org.eclipse.graphiti.feature.tools.source.feature.group" versionRange="[0.14.0,0.15.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>

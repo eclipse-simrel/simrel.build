@@ -308,15 +308,15 @@
     <features href="gmf-tooling.aggrcon#//@repositories.0/@features.3"/>
     <features href="emft-egf.aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.0"/>
-    <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.1"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.2"/>
-    <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.3"/>
+    <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.4"/>
+    <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.6"/>
     <features href="mdt-papyrus.aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-emffacet.aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-eef.aggrcon#//@repositories.0/@features.1"/>
     <features href="emft-eef.aggrcon#//@repositories.0/@features.1"/>
-    <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.4"/>
-    <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.5"/>
+    <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.8"/>
+    <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.10"/>
     <features href="emf-compare.aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-compare.aggrcon#//@repositories.0/@features.4"/>
     <features href="emf-compare.aggrcon#//@repositories.0/@features.8"/>
@@ -348,6 +348,12 @@
     <features href="sirius.aggrcon#//@repositories.0/@features.8"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.9"/>
     <features href="viatra.aggrcon#//@repositories.0/@features.0"/>
+    <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.1"/>
+    <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.3"/>
+    <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.5"/>
+    <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.7"/>
+    <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.9"/>
+    <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.11"/>
   </customCategories>
   <customCategories identifier="Performance, Profiling and Tracing Tools" label="Performance, Profiling and Tracing Tools" description="Tools to assit analysis of running code.">
     <features href="tracecompass.aggrcon#//@repositories.0/@features.1"/>
