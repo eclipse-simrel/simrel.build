@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="M2M ATL">
-  <repositories location="http://download.eclipse.org/mmt/atl/updates/milestones/3.6/" description="M2M ATL milestones">
-    <features name="org.eclipse.m2m.atl.sdk.feature.group" versionRange="3.6.0">
+  <repositories location="http://download.eclipse.org/mmt/atl/updates/releases/3.7/R201603222002" description="M2M ATL 3.7 release repository">
+    <features name="org.eclipse.m2m.atl.sdk.feature.group" versionRange="3.7.0">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
