@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="DataTools">
-  <repositories location="http://download.eclipse.org/datatools/1.14.0.201701112120/repository">
-    <features name="org.eclipse.datatools.sdk.feature.feature.group" versionRange="[1.14.0.201701112120]">
+  <repositories location="http://download.eclipse.org/datatools/1.14.0.201701131441/repository">
+    <features name="org.eclipse.datatools.sdk.feature.feature.group" versionRange="[1.14.0.201701131441]">
       <categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/>
     </features>
-    <features name="org.eclipse.datatools.enablement.sdk.feature.feature.group" versionRange="[1.14.0.201701112120]">
+    <features name="org.eclipse.datatools.enablement.sdk.feature.feature.group" versionRange="[1.14.0.201701131441]">
       <categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/>
     </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='bpayton@us.ibm.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='konstantin.komissarchik@oracle.com']"/>
 </aggregator:Contribution>
