@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="QVT Declarative">
-  <repositories location="http://download.eclipse.org/mmt/qvtd/updates/interim/0.14.0" description="QVT Declarative 0.14.0 milestones (incubation)">
+  <repositories location="http://download.eclipse.org/mmt/qvtd/updates/milestones/0.14.0/S201702010435" description="QVT Declarative 0.14.0 milestones (incubation)">
     <features name="org.eclipse.qvtd.master.feature.group" versionRange="[0.14.0,1.0.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
