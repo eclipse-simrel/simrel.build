@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="GMF Runtime">
-  <repositories location="http://download.eclipse.org/modeling/gmp/gmf-runtime/updates/milestones/S201703021641" description="GMF Runtime milestones">
-    <features name="org.eclipse.gmf.feature.group" versionRange="[1.10.1.201703021641]">
+  <repositories location="http://download.eclipse.org/modeling/gmp/gmf-runtime/updates/releases" description="GMF Runtime milestones">
+    <features name="org.eclipse.gmf.feature.group" versionRange="[1.10.0.201606071959]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.gmf.runtime.sdk.feature.group" versionRange="[1.10.1.201703021641]">
+    <features name="org.eclipse.gmf.runtime.sdk.feature.group" versionRange="[1.10.0.201606071959]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='pierre-charles.david@obeo.fr']"/>
+  <contacts href="simrel.aggr#//@contacts[email='anthonyh@ca.ibm.com']"/>
 </aggregator:Contribution>
