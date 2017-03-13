@@ -145,6 +145,7 @@
     <features href="mylyn.aggrcon#//@repositories.0/@features.11"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.12"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.13"/>
+    <features href="mylyn.aggrcon#//@repositories.1/@features.0"/>
     <features href="subversive.aggrcon#//@repositories.0/@features.0"/>
     <features href="subversive.aggrcon#//@repositories.0/@features.2"/>
     <features href="ecf.aggrcon#//@repositories.0/@features.0"/>
@@ -158,7 +159,6 @@
     <features href="subversive.aggrcon#//@repositories.0/@features.5"/>
     <features href="subversive.aggrcon#//@repositories.0/@features.1"/>
     <features href="subversive.aggrcon#//@repositories.0/@features.3"/>
-    <features href="mylyn.aggrcon#//@repositories.0/@features.14"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.7"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.3"/>
     <features href="egit.aggrcon#//@repositories.0/@features.8"/>

@@ -28,9 +28,6 @@
     <features name="org.eclipse.mylyn.team_feature.feature.group" versionRange="3.22.0.v20161030-0112">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.wikitext_feature.feature.group" versionRange="3.0.0.N20170221-2315">
-      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
-    </features>
     <features name="org.eclipse.mylyn.cvs.feature.group" versionRange="1.14.0.v20161011-2140">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
@@ -61,7 +58,12 @@
     <features name="org.eclipse.mylyn.tasks.ide.feature.group" versionRange="3.22.0.v20161011-2205"/>
     <features name="org.eclipse.mylyn.versions.feature.group" versionRange="1.14.0.v20161011-2140"/>
     <features name="org.eclipse.mylyn.versions.sdk.feature.group" versionRange="1.14.0.v20170207-0942"/>
-    <features name="org.eclipse.mylyn.wikitext.sdk.feature.group" versionRange="3.0.0.N20170221-2315"/>
+  </repositories>
+  <repositories location="http://download.eclipse.org/mylyn/docs/releases/3.0.6" description="Mylyn Docs Updates">
+    <features name="org.eclipse.mylyn.wikitext_feature.feature.group" versionRange="3.0.6.201703111926">
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
+    </features>
+    <features name="org.eclipse.mylyn.wikitext.sdk.feature.group" versionRange="3.0.6.201703111926"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='colin.ritchie@tasktop.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='sam.davis@tasktop.com']"/>
