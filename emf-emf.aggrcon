@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMF (Core)">
-  <repositories location="http://download.eclipse.org/modeling/emf/emf/updates/2.12/" description="EMF 2.12">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" label="EMF (Core)">
+  <repositories location="http://download.eclipse.org/releases/neon/201703141400/" description="EMF 2.12">
     <features name="org.eclipse.emf.sdk.feature.group" versionRange="[2.12.0.v20160526-0356]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>

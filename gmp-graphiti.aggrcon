@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="The Eclipse Modeling Graphiti project" label="Graphiti">
-  <repositories location="http://download.eclipse.org/graphiti/updates/maintenance/S-0.13.2Neon.2RC3-201611290820/" description="Graphiti Maintenance Update Site">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" description="The Eclipse Modeling Graphiti project" label="Graphiti">
+  <repositories location="http://download.eclipse.org/releases/neon/201703141400/" description="Graphiti Maintenance Update Site">
     <features description="The feature containing the Graphiti framework" name="org.eclipse.graphiti.feature.feature.group" versionRange="[0.13.2,0.14.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>

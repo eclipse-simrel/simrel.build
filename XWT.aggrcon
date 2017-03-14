@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="XWT - Declarative UI in XML for Eclipse" label="XWT">
-  <repositories location="http://download.eclipse.org/xwt/release-1.2.0">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" description="XWT - Declarative UI in XML for Eclipse" label="XWT">
+  <repositories location="http://download.eclipse.org/releases/neon/201703141400/">
     <features description="XWT Runtime" name="org.eclipse.xwt.feature.feature.group" versionRange="1.0.0">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>

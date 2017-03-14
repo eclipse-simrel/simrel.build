@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="GMF Tooling">
-  <repositories location="http://download.eclipse.org/modeling/gmp/gmf-tooling/updates/releases-3.3.1a" description="GMF Tooling repository">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" label="GMF Tooling">
+  <repositories location="http://download.eclipse.org/releases/neon/201703141400/" description="GMF Tooling repository">
     <features name="org.eclipse.gmf.tooling.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>

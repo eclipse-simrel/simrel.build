@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Subversive">
-  <repositories location="http://download.eclipse.org/technology/subversive/4.0/neon-site/" description="Subversive for Eclipse Neon">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" label="Subversive">
+  <repositories location="http://download.eclipse.org/releases/neon/201703141400/" description="Subversive for Eclipse Neon">
     <features name="org.eclipse.team.svn.feature.group" versionRange="[4.0.0,5.0.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
