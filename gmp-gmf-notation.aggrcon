@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="GMF Notation">
-  <repositories location="http://download.eclipse.org/modeling/gmp/gmf-notation/updates/releases" description="GMF Notation milestones">
-    <features name="org.eclipse.gmf.runtime.notation.sdk.feature.group" versionRange="[1.10.0.201606071631]">
+  <repositories location="http://download.eclipse.org/modeling/gmp/gmf-notation/updates/milestones/S201703131640" description="GMF Notation milestones">
+    <features name="org.eclipse.gmf.runtime.notation.sdk.feature.group" versionRange="[1.11.0.201703131640]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='anthonyh@ca.ibm.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='pierre-charles.david@obeo.fr']"/>
 </aggregator:Contribution>
