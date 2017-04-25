@@ -58,15 +58,15 @@
     <features name="org.eclipse.linuxtools.dataviewers.feature.source.feature.group" versionRange="5.3.0.201703072040"/>
     <features name="org.eclipse.linuxtools.man.source.feature.group" versionRange="5.3.0.201703072040"/>
   </repositories>
-  <repositories location="http://download.eclipse.org/linuxtools/update-docker-neon3respin/" description="Linux Tools Docker Support Updates">
-    <features name="org.eclipse.linuxtools.docker.feature.feature.group" versionRange="2.3.0.201704211918">
+  <repositories location="http://download.eclipse.org/linuxtools/update-docker-neon3respinb/" description="Linux Tools Docker Support Updates">
+    <features name="org.eclipse.linuxtools.docker.feature.feature.group" versionRange="2.3.0.201704251823">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.linuxtools.vagrant.feature.feature.group" versionRange="2.3.0.201704211918">
+    <features name="org.eclipse.linuxtools.vagrant.feature.feature.group" versionRange="2.3.0.201704251823">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.linuxtools.docker.feature.source.feature.group" versionRange="2.3.0.201704211918"/>
-    <features name="org.eclipse.linuxtools.vagrant.feature.source.feature.group" versionRange="2.3.0.201704211918"/>
+    <features name="org.eclipse.linuxtools.docker.feature.source.feature.group" versionRange="2.3.0.201704251823"/>
+    <features name="org.eclipse.linuxtools.vagrant.feature.source.feature.group" versionRange="2.3.0.201704251823"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='jjohnstn@redhat.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='akurtako@redhat.com']"/>
