@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Mylyn">
-  <repositories location="http://download.eclipse.org/mylyn/drops/3.23.0/v20170419-0302" description="Mylyn Updates">
+  <repositories location="http://download.eclipse.org/mylyn/drops/3.23.0/v20170510-0304" description="Mylyn Updates">
     <features name="org.eclipse.mylyn_feature.feature.group" versionRange="3.23.0.v20170411-2036">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
@@ -45,12 +45,12 @@
     </features>
     <features name="org.eclipse.mylyn.builds.feature.group" versionRange="1.15.0.v20170411-2141"/>
     <features name="org.eclipse.mylyn.builds.sdk.feature.group" versionRange="1.15.0.v20170411-2141"/>
-    <features name="org.eclipse.mylyn.commons.feature.group" versionRange="3.23.0.v20170411-1844"/>
+    <features name="org.eclipse.mylyn.commons.feature.group" versionRange="3.23.0.v20170503-0014"/>
     <features name="org.eclipse.mylyn.commons.identity.feature.group" versionRange="1.15.0.v20170411-1844"/>
     <features name="org.eclipse.mylyn.commons.notifications.feature.group" versionRange="1.15.0.v20170411-1844"/>
     <features name="org.eclipse.mylyn.commons.repositories.feature.group" versionRange="1.15.0.v20170411-1844"/>
     <features name="org.eclipse.mylyn.commons.repositories.http.feature.group" versionRange="1.15.0.v20170411-1844"/>
-    <features name="org.eclipse.mylyn.commons.sdk.feature.group" versionRange="3.23.0.v20170411-1844"/>
+    <features name="org.eclipse.mylyn.commons.sdk.feature.group" versionRange="3.23.0.v20170503-0014"/>
     <features name="org.eclipse.mylyn.context.sdk.feature.group" versionRange="3.23.0.v20170414-0629"/>
     <features name="org.eclipse.mylyn.reviews.feature.feature.group" versionRange="2.14.0.v20170411-2108"/>
     <features name="org.eclipse.mylyn.reviews.sdk.feature.feature.group" versionRange="2.14.0.v20170411-2108"/>
