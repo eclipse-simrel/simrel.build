@@ -88,7 +88,6 @@
     <contributions href="emf-emf-rap.aggrcon#/"/>
     <contributions href="rap.aggrcon#/"/>
   </validationSets>
-  <configurations operatingSystem="linux" windowSystem="gtk" architecture="ppc"/>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="ppc64"/>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="ppc64le"/>
   <configurations operatingSystem="linux" windowSystem="gtk"/>
