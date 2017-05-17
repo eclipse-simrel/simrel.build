@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" enabled="false" label="THyM">
-  <repositories location="http://download.eclipse.org/thym/releases/2.0.0" description="THyM : The Hybrid Mobile">
-    <features name="org.eclipse.thym.feature.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
-    </features>
-  </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='mistria@redhat.com']"/>
-</aggregator:Contribution>
