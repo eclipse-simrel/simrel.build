@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EGit">
-  <repositories location="http://download.eclipse.org/egit/updates-4.6" description="EGit Updates">
-    <bundles name="org.eclipse.egit.ui.smartimport" versionRange="[4.6.0.201612231935-r]"/>
-    <features name="org.eclipse.jgit.feature.group" versionRange="[4.6.0.201612231935-r]"/>
-    <features name="org.eclipse.jgit.pgm.feature.group" versionRange="[4.6.0.201612231935-r]"/>
-    <features name="org.eclipse.egit.feature.group" versionRange="[4.6.0.201612231935-r]">
+  <repositories location="http://download.eclipse.org/egit/staging/4.8.0.201705170830-rc1" description="EGit Updates">
+    <bundles name="org.eclipse.egit.ui.smartimport" versionRange="[4.8.0.201705170830-rc1]"/>
+    <features name="org.eclipse.jgit.feature.group" versionRange="[4.8.0.201705170830-rc1]"/>
+    <features name="org.eclipse.jgit.pgm.feature.group" versionRange="[4.8.0.201705170830-rc1]"/>
+    <features name="org.eclipse.egit.feature.group" versionRange="[4.8.0.201705170830-rc1]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.egit.mylyn.feature.group" versionRange="[4.6.0.201612231935-r]">
+    <features name="org.eclipse.egit.mylyn.feature.group" versionRange="[4.8.0.201705170830-rc1]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.egit.source.feature.group" versionRange="[4.6.0.201612231935-r]"/>
-    <features name="org.eclipse.jgit.source.feature.group" versionRange="[4.6.0.201612231935-r]"/>
-    <features name="org.eclipse.jgit.pgm.source.feature.group" versionRange="[4.6.0.201612231935-r]"/>
-    <features name="org.eclipse.jgit.http.apache.feature.group" versionRange="[4.6.0.201612231935-r]"/>
-    <features name="org.eclipse.egit.gitflow.feature.feature.group" versionRange="[4.6.0.201612231935-r]">
+    <features name="org.eclipse.egit.source.feature.group" versionRange="[4.8.0.201705170830-rc1]"/>
+    <features name="org.eclipse.jgit.source.feature.group" versionRange="[4.8.0.201705170830-rc1]"/>
+    <features name="org.eclipse.jgit.pgm.source.feature.group" versionRange="[4.8.0.201705170830-rc1]"/>
+    <features name="org.eclipse.jgit.http.apache.feature.group" versionRange="[4.8.0.201705170830-rc1]"/>
+    <features name="org.eclipse.egit.gitflow.feature.feature.group" versionRange="[4.8.0.201705170830-rc1]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/egit/github/updates-4.6" description="EGit GitHub Updates">
-    <features name="org.eclipse.mylyn.github.feature.feature.group" versionRange="[4.6.0.201612231935-r]">
+  <repositories location="http://download.eclipse.org/egit/github/staging/4.8.0.201705170830-rc1" description="EGit GitHub Updates">
+    <features name="org.eclipse.mylyn.github.feature.feature.group" versionRange="[4.8.0.201705170830-rc1]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
