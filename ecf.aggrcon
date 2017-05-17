@@ -13,7 +13,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
-    <features name="org.eclipse.ecf.remoteservice.sdk.source.feature.feature.group" versionRange="3.13.6.v20170507-0036">
+    <features name="org.eclipse.ecf.remoteservice.sdk.feature.source.feature.group" versionRange="3.13.6.v20170507-0036">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
