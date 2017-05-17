@@ -161,7 +161,7 @@
     <features href="subversive.aggrcon#//@repositories.0/@features.1"/>
     <features href="subversive.aggrcon#//@repositories.0/@features.3"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.7"/>
-    <features href="pdt.aggrcon#//@repositories.0/@features.3"/>
+    <features href="pdt.aggrcon#//@repositories.0/@features.2"/>
     <features href="egit.aggrcon#//@repositories.0/@features.8"/>
     <features href="egerrit.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
@@ -370,6 +370,7 @@
     <features href="linuxtools.aggrcon#//@repositories.0/@features.6"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.8"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.10"/>
+    <features href="pdt.aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
   <customCategories identifier="Programming Languages" label="Programming Languages" description="Tools to allow development with specific languages, such as Java and C++">
     <features href="ep.aggrcon#//@repositories.0/@features.4"/>
@@ -391,7 +392,8 @@
     <features href="dltk.aggrcon#//@repositories.0/@features.5"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.0"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.1"/>
-    <features href="pdt.aggrcon#//@repositories.0/@features.2"/>
+    <features href="pdt.aggrcon#//@repositories.0/@features.3"/>
+    <features href="pdt.aggrcon#//@repositories.0/@features.4"/>
     <features href="objectteams.aggrcon#//@repositories.0/@features.0"/>
     <features href="objectteams.aggrcon#//@repositories.0/@features.1"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.11"/>
@@ -439,6 +441,7 @@
     <features href="jubula.aggrcon#//@repositories.0/@features.3"/>
     <features href="jubula.aggrcon#//@repositories.0/@features.4"/>
     <features href="jubula.aggrcon#//@repositories.0/@features.5"/>
+    <features href="pdt.aggrcon#//@repositories.0/@features.3"/>
     <features href="rcptt.aggrcon#//@repositories.0/@features.0"/>
     <features href="swtbot.aggrcon#//@repositories.0/@features.0"/>
     <features href="swtbot.aggrcon#//@repositories.0/@features.1"/>
@@ -456,7 +459,6 @@
     <features href="webtools.aggrcon#//@repositories.0/@features.7"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.0"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.1"/>
-    <features href="pdt.aggrcon#//@repositories.0/@features.2"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.8"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.4"/>
     <features href="rap-tools.aggrcon#//@repositories.0/@features.0"/>
