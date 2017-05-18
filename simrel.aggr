@@ -82,6 +82,7 @@
     <contributions href="viatra.aggrcon#/"/>
     <contributions href="eclemma.aggrcon#/"/>
     <contributions href="lsp4j.aggrcon#/"/>
+    <contributions href="lsp4e.aggrcon#/"/>
     <contributions href="usssdk.aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
@@ -249,6 +250,7 @@
     <features href="efxclipse.aggrcon#//@repositories.1/@features.0"/>
     <features href="recommenders.aggrcon#//@repositories.0/@features.6"/>
     <features href="lsp4j.aggrcon#//@repositories.0/@features.0"/>
+    <features href="lsp4e.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
     <features href="linuxtools.aggrcon#//@repositories.0/@features.9"/>
