@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="ASCII"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"/>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Presentation Modeling Framework - Modeling driving solution for GUI" label="PMF">
+  <repositories location="http://download.eclipse.org/pmf/release-0.4.0" description="Presentation Modeling Framwork">
+    <features description="PMF Core" name="org.eclipse.pmf.core.feature.feature.group" versionRange="[0.4.0.201705201427]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+    <features description="PMF Code generators for XWT" name="org.eclipse.pmf.xwt.feature.feature.group" versionRange="[0.4.0.201705201427]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
+  </repositories>
+</aggregator:Contribution>
