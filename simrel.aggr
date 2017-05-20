@@ -24,6 +24,7 @@
     <contributions href="rap-tools.aggrcon#/"/>
     <contributions href="subversive.aggrcon#/"/>
     <contributions href="actf.aggrcon#/"/>
+    <contributions href="PMF.aggrcon#/"/>
     <contributions href="epp-mpc.aggrcon#/"/>
     <contributions href="epp-logging.aggrcon#/"/>
     <contributions href="emf-cdo.aggrcon#/"/>
@@ -357,6 +358,8 @@
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.7"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.9"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.11"/>
+    <features href="PMF.aggrcon#//@repositories.0/@features.0"/>
+    <features href="PMF.aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="Performance, Profiling and Tracing Tools" label="Performance, Profiling and Tracing Tools" description="Tools to assit analysis of running code.">
     <features href="tracecompass.aggrcon#//@repositories.0/@features.1"/>
