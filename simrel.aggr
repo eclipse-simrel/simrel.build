@@ -2,6 +2,12 @@
 <aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Aggregation files used for Simultaneous Release (yearly &quot;release train&quot;)." buildmaster="//@contacts[email='frederic.gurr@eclipse.org']" label="Oxygen" buildRoot="buildresultsOxygen" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false">
   <validationSets label="main">
     <contributions href="equinox.aggrcon#/"/>
+    <contributions description="Presentation Modeling Framwork - MDE for GUI" label="PMF" contacts="//@contacts[email='yves.yang@soyatec.com']">
+      <repositories location="http://download.eclipse.org/pmf/release-0.4.0">
+        <features description="PMF Core" name="org.eclipse.pmf.core.feature.feature.group" versionRange="[0.4.0.201705201427]" categories="//@customCategories[identifier='Modeling']"/>
+        <features description="PMF code generators for XWT" name="org.eclipse.pmf.xwt.feature.feature.group" versionRange="[0.4.0.201705201427]" categories="//@customCategories[identifier='Modeling']"/>
+      </repositories>
+    </contributions>
     <contributions href="cft.aggrcon#/"/>
     <contributions href="ep.aggrcon#/"/>
     <contributions href="emf-emf.aggrcon#/"/>
@@ -24,7 +30,6 @@
     <contributions href="rap-tools.aggrcon#/"/>
     <contributions href="subversive.aggrcon#/"/>
     <contributions href="actf.aggrcon#/"/>
-    <contributions href="PMF.aggrcon#/"/>
     <contributions href="epp-mpc.aggrcon#/"/>
     <contributions href="epp-logging.aggrcon#/"/>
     <contributions href="emf-cdo.aggrcon#/"/>
@@ -358,8 +363,8 @@
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.7"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.9"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.11"/>
-    <features href="PMF.aggrcon#//@repositories.0/@features.0"/>
-    <features href="PMF.aggrcon#//@repositories.0/@features.1"/>
+    <features href="#//@validationSets[label='main']/@contributions[label='PMF']/@repositories.0/@features.0"/>
+    <features href="#//@validationSets[label='main']/@contributions[label='PMF']/@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="Performance, Profiling and Tracing Tools" label="Performance, Profiling and Tracing Tools" description="Tools to assit analysis of running code.">
     <features href="tracecompass.aggrcon#//@repositories.0/@features.1"/>
