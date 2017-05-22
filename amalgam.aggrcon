@@ -9,6 +9,6 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features name="org.eclipse.amalgam.explorer.contextual.sirius.source.feature.group" versionRange="[1.4.0,2.0.0]"/>
-  </repositories>  
+  </repositories>
   <contacts href="simrel.aggr#//@contacts[email='cedric.brun@obeo.fr']"/>
 </aggregator:Contribution>
