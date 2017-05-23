@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Memory Analyzer (MAT)">
-  <repositories location="http://download.eclipse.org/mat/neon/RC3/update-site/" description="Memory Analyzer Updates">
-    <features name="org.eclipse.mat.feature.feature.group" versionRange="1.6.0.201605311117">
+  <repositories location="http://download.eclipse.org/mat/oxygen/RC1/update-site/" description="Memory Analyzer Updates">
+    <features name="org.eclipse.mat.feature.feature.group" versionRange="1.7.0.201705231400">
       <categories href="simrel.aggr#//@customCategories[identifier='Performance%2C%20Profiling%20and%20Tracing%20Tools']"/>
     </features>
-    <features name="org.eclipse.mat.chart.feature.feature.group" versionRange="1.6.0.201605311117">
+    <features name="org.eclipse.mat.chart.feature.feature.group" versionRange="1.7.0.201705231400">
       <categories href="simrel.aggr#//@customCategories[identifier='Performance%2C%20Profiling%20and%20Tracing%20Tools']"/>
     </features>
   </repositories>
