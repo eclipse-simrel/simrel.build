@@ -121,7 +121,7 @@
     <features href="gef.aggrcon#//@repositories.1/@features.8"/>
     <features href="gef.aggrcon#//@repositories.1/@features.9"/>
     <features href="gef.aggrcon#//@repositories.1/@features.10"/>
-    <features href="usssdk.aggrcon#//@repositories.0/@features.0"/>
+    <features href="usssdk.aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="Business Intelligence, Reporting and Charting" label="Business Intelligence, Reporting and Charting" description="Tools to visualize information, create data-driven web pages, PDF documents and other content using data from a wide variety of sources.">
     <features href="birt.aggrcon#//@repositories.0/@features.0"/>
