@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMFT Ecore Tools">
-  <repositories location="http://download.eclipse.org/ecoretools/updates/milestones/3.3.0M7/oxygen" description="EMFT Ecore Tools Releases">
+  <repositories location="http://download.eclipse.org/ecoretools/updates/milestones/3.3.0RC1/oxygen" description="EMFT Ecore Tools Releases">
     <features name="org.eclipse.emf.ecoretools.sdk.feature.group" versionRange="[3.0.0,4.0.0]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
