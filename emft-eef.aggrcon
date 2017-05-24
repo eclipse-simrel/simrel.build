@@ -8,7 +8,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/modeling/emft/eef/updates/milestones/2.0/S20170517042745">
+  <repositories location="http://download.eclipse.org/modeling/emft/eef/updates/milestones/2.0/S20170524080655">
     <features name="org.eclipse.eef.sdk.feature.feature.group"/>
     <features name="org.eclipse.eef.sdk.feature.source.feature.group"/>
     <features name="org.eclipse.eef.ext.widgets.reference.feature.feature.group"/>
