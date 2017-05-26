@@ -43,6 +43,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
     <features name="org.eclipse.remote.serial.feature.group"/>
+    <features name="org.eclipse.remote.proxy.feature.group"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='g.watson@computer.org']"/>
   <contacts href="simrel.aggr#//@contacts[email='beth@tibweb.com']"/>
