@@ -39,7 +39,6 @@
     <contributions href="m2t-acceleo.aggrcon#/"/>
     <contributions href="gmp-gmf-notation.aggrcon#/"/>
     <contributions href="gmp-gmf-runtime.aggrcon#/"/>
-    <contributions href="gmf-tooling.aggrcon#/"/>
     <contributions href="m2t-xpand.aggrcon#/"/>
     <contributions href="tmf-xtext.aggrcon#/"/>
     <contributions href="pdt.aggrcon#/"/>
@@ -66,7 +65,6 @@
     <contributions href="tcf.aggrcon#/"/>
     <contributions href="emf-diffmerge.aggrcon#/"/>
     <contributions href="m2e-wtp.aggrcon#/"/>
-    <contributions href="stardust.aggrcon#/"/>
     <contributions href="sphinx.aggrcon#/"/>
     <contributions href="sirius.aggrcon#/"/>
     <contributions href="qvtd.aggrcon#/"/>
@@ -78,7 +76,6 @@
     <contributions href="rcptt.aggrcon#/"/>
     <contributions href="buildship.aggrcon#/"/>
     <contributions href="egerrit.aggrcon#/"/>
-    <contributions href="andmore.aggrcon#/"/>
     <contributions href="emf-parsley.aggrcon#/"/>
     <contributions href="viatra.aggrcon#/"/>
     <contributions href="eclemma.aggrcon#/"/>
@@ -275,11 +272,6 @@
     <features href="tm.aggrcon#//@repositories.1/@features.1"/>
     <features href="tm.aggrcon#//@repositories.1/@features.2"/>
     <features href="tm.aggrcon#//@repositories.1/@features.3"/>
-    <features href="andmore.aggrcon#//@repositories.0/@features.0"/>
-    <features href="andmore.aggrcon#//@repositories.0/@features.1"/>
-    <features href="andmore.aggrcon#//@repositories.0/@features.2"/>
-    <features href="andmore.aggrcon#//@repositories.0/@features.3"/>
-    <features href="andmore.aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
   <customCategories identifier="Modeling" label="Modeling" description="Model definition, creation, and manipulation frameworks (e.g. EMF, OCL, GMF, M2M, M2T, GEF) and industry models (e.g. UML, JEM, XSD).">
     <features href="gmp-gmf-notation.aggrcon#//@repositories.0/@features.0"/>
@@ -306,10 +298,6 @@
     <features href="gef.aggrcon#//@repositories.0/@features.1"/>
     <features href="mdt-ocl.aggrcon#//@repositories.0/@features.1"/>
     <features href="gmp-gmf-runtime.aggrcon#//@repositories.0/@features.1"/>
-    <features href="gmf-tooling.aggrcon#//@repositories.0/@features.0"/>
-    <features href="gmf-tooling.aggrcon#//@repositories.0/@features.1"/>
-    <features href="gmf-tooling.aggrcon#//@repositories.0/@features.2"/>
-    <features href="gmf-tooling.aggrcon#//@repositories.0/@features.3"/>
     <features href="emft-egf.aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.2"/>
@@ -428,10 +416,6 @@
     <features href="soa-bpel.aggrcon#//@repositories.0/@features.0"/>
     <features href="soa-bpel.aggrcon#//@repositories.0/@features.1"/>
     <features href="soa-bpel.aggrcon#//@repositories.0/@features.2"/>
-    <features href="stardust.aggrcon#//@repositories.0/@features.0"/>
-    <features href="stardust.aggrcon#//@repositories.0/@features.1"/>
-    <features href="stardust.aggrcon#//@repositories.0/@features.2"/>
-    <features href="stardust.aggrcon#//@repositories.0/@features.3"/>
     <features href="mdt-bpmn2.aggrcon#//@repositories.0/@features.0"/>
     <features href="soa-bpmn2-modeler.aggrcon#//@repositories.0/@features.0"/>
     <features href="soa-bpmn2-modeler.aggrcon#//@repositories.0/@features.1"/>
