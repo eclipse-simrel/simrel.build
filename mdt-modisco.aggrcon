@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="MoDisco">
-  <repositories location="http://download.eclipse.org/modeling/mdt/modisco/updates/integration/1.1.0/I201705151331/" description="MoDisco Milestones">
+  <repositories location="http://download.eclipse.org/modeling/mdt/modisco/updates/integration/1.1.0/I201705291416/" description="MoDisco Milestones">
     <features name="org.eclipse.modisco.sdk.feature.feature.group" versionRange="1.1.0">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
