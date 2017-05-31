@@ -35,7 +35,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/tools/ptp/builds/remote/oxygen/milestones/M7" description="Remote Services">
+  <repositories location="http://download.eclipse.org/tools/ptp/builds/remote/oxygen/milestones/RC2" description="Remote Services">
     <features name="org.eclipse.remote.feature.group" versionRange="3.0.0">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
