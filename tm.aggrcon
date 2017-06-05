@@ -26,6 +26,5 @@
     </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='g.watson@computer.org']"/>
-  <contacts href="simrel.aggr#//@contacts[email='martin.oberhuber@windriver.com']"/>
-  <contacts href="simrel.aggr#//@contacts[email='uwe.stieber@windriver.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='mober.at+eclipse@gmail.com']"/>
 </aggregator:Contribution>
