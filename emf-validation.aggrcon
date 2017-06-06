@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMF Validation">
-  <repositories location="http://download.eclipse.org/modeling/emf/validation/updates/milestones/S201705100939" description="EMF Validation milestones">
-    <features name="org.eclipse.emf.validation.sdk.feature.group" versionRange="[1.11.0.201705100939]">
+  <repositories location="http://download.eclipse.org/modeling/emf/validation/updates/releases/R201706061352" description="EMF Validation milestones">
+    <features name="org.eclipse.emf.validation.sdk.feature.group" versionRange="[1.11.0.201706061352]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
