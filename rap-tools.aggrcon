@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="RAP Tools">
-  <repositories location="http://download.eclipse.org/rt/rap/tools/3.2/RC2-20170531-1857-unsigned/" description="RAP 3.2 Tools Repository">
+  <repositories location="http://download.eclipse.org/rt/rap/tools/3.2/RC3-20170606-2343/" description="RAP 3.2 Tools Repository">
     <features name="org.eclipse.rap.tools.feature.feature.group" versionRange="[3.2.0,3.3.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
