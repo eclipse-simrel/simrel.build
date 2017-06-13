@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Code Recommenders">
-  <repositories location="http://download.eclipse.org/recommenders/updates/simrel/oxygen/2017-05-31_06-45-58">
+  <repositories location="http://download.eclipse.org/recommenders/updates/simrel/oxygen/2017-06-13_11-23-02">
     <features name="org.eclipse.recommenders.rcp.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
