@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMF (Core)">
-  <repositories location="http://download.eclipse.org/modeling/emf/emf/updates/2.13milestones/" description="EMF 2.13">
-    <features name="org.eclipse.emf.sdk.feature.group" versionRange="[2.13.0.v20170504-0807]">
+  <repositories location="http://download.eclipse.org/modeling/emf/emf/updates/2.13/" description="EMF 2.13">
+    <features name="org.eclipse.emf.sdk.feature.group" versionRange="[2.13.0.v20170609-0928]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
-    <features name="org.eclipse.emf.oda.sdk.feature.group" versionRange="[1.4.0.v20170504-0807]">
+    <features name="org.eclipse.emf.oda.sdk.feature.group" versionRange="[1.4.0.v20170609-0928]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.xsd.sdk.feature.group" versionRange="[2.13.0.v20170504-0807]">
+    <features name="org.eclipse.xsd.sdk.feature.group" versionRange="[2.13.0.v20170609-0928]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.emf.ecore.xcore.sdk.feature.group" versionRange="[1.5.0.v20170505-0338]">
+    <features name="org.eclipse.emf.ecore.xcore.sdk.feature.group" versionRange="[1.5.0.v20170613-0242]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
