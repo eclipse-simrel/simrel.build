@@ -11,5 +11,5 @@
       <categories href="simrel.aggr#//@customCategories[identifier='SOA%20Development']"/>
     </features>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='bbrodt@redhat.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='pleacu@redhat.com']"/>
 </aggregator:Contribution>
