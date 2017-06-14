@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Mylyn">
-  <repositories location="http://download.eclipse.org/mylyn/drops/3.23.0/v20170510-0304" description="Mylyn Updates">
-    <features name="org.eclipse.mylyn_feature.feature.group" versionRange="3.23.0.v20170411-2036">
+  <repositories location="http://download.eclipse.org/mylyn/drops/3.23.0/v20170614-2003" description="Mylyn Updates">
+    <features name="org.eclipse.mylyn_feature.feature.group" versionRange="3.23.0.v20170614-1854">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <features name="org.eclipse.mylyn.bugzilla_feature.feature.group" versionRange="3.23.0.v20170411-2036">
@@ -54,7 +54,7 @@
     <features name="org.eclipse.mylyn.context.sdk.feature.group" versionRange="3.23.0.v20170414-0629"/>
     <features name="org.eclipse.mylyn.reviews.feature.feature.group" versionRange="2.14.0.v20170411-2108"/>
     <features name="org.eclipse.mylyn.reviews.sdk.feature.feature.group" versionRange="2.14.0.v20170411-2108"/>
-    <features name="org.eclipse.mylyn.sdk_feature.feature.group" versionRange="3.23.0.v20170411-2036"/>
+    <features name="org.eclipse.mylyn.sdk_feature.feature.group" versionRange="3.23.0.v20170614-1951"/>
     <features name="org.eclipse.mylyn.tasks.ide.feature.group" versionRange="3.23.0.v20170411-2036"/>
     <features name="org.eclipse.mylyn.versions.feature.group" versionRange="1.15.0.v20170411-2003"/>
     <features name="org.eclipse.mylyn.versions.sdk.feature.group" versionRange="1.15.0.v20170411-2003"/>
