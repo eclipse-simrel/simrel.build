@@ -61,7 +61,7 @@
     </features>
     <features name="org.eclipse.cdt.debug.standalone.feature.group"/>
   </repositories>
-  <repositories location="http://download.eclipse.org/releases/oxygen/201706161000/" description="LaunchBar Updates">
+  <repositories location="http://download.eclipse.org/tools/cdt/launchbar/oxygen" description="LaunchBar Updates">
     <features name="org.eclipse.launchbar.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
