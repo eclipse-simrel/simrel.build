@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Eclipse">
-  <repositories location="http://download.eclipse.org/eclipse/updates/4.7milestones/S-4.7RC4a-201706120950/" description="Eclipse and Equinox">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" label="Eclipse">
+  <repositories location="http://download.eclipse.org/releases/oxygen/201706161000/" description="Eclipse and Equinox">
     <products name="org.eclipse.sdk.ide"/>
     <products name="org.eclipse.platform.ide"/>
     <products name="org.eclipse.platform.sdk"/>

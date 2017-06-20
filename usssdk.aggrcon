@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="User Storage SDK">
-  <repositories location="http://download.eclipse.org/usssdk/drops/release/1.1.0" description="User Storage SDK">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" label="User Storage SDK">
+  <repositories location="http://download.eclipse.org/releases/oxygen/201706161000/" description="User Storage SDK">
     <features name="org.eclipse.userstorage.feature.group" versionRange="[1.1.0,1.1.1)"/>
     <features name="org.eclipse.userstorage.sdk.feature.group" versionRange="[1.1.0,1.1.1)">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Sapphire" label="Sapphire">
-  <repositories location="http://download.eclipse.org/sapphire/9.1/repository">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" description="Sapphire" label="Sapphire">
+  <repositories location="http://download.eclipse.org/releases/oxygen/201706161000/">
     <features name="org.eclipse.sapphire.feature.group" versionRange="[9.1.0.201609301330]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>

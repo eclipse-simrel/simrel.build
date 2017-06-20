@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Mylyn">
-  <repositories location="http://download.eclipse.org/mylyn/drops/3.23.0/v20170614-2003" description="Mylyn Updates">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" label="Mylyn">
+  <repositories location="http://download.eclipse.org/releases/oxygen/201706161000/" description="Mylyn Updates">
     <features name="org.eclipse.mylyn_feature.feature.group" versionRange="3.23.0.v20170614-1854">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
@@ -59,7 +59,7 @@
     <features name="org.eclipse.mylyn.versions.feature.group" versionRange="1.15.0.v20170411-2003"/>
     <features name="org.eclipse.mylyn.versions.sdk.feature.group" versionRange="1.15.0.v20170411-2003"/>
   </repositories>
-  <repositories location="http://download.eclipse.org/mylyn/docs/releases/3.0.6" description="Mylyn Docs Updates">
+  <repositories location="http://download.eclipse.org/releases/oxygen/201706161000/" description="Mylyn Docs Updates">
     <features name="org.eclipse.mylyn.wikitext_feature.feature.group" versionRange="3.0.6.201703111926">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="CDT">
-  <repositories location="http://download.eclipse.org/tools/cdt/builds/oxygen/milestones/rc4" description="CDT updates">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" label="CDT">
+  <repositories location="http://download.eclipse.org/releases/oxygen/201706161000/" description="CDT updates">
     <bundles name="org.eclipse.cdt.core.linux"/>
     <bundles name="org.eclipse.cdt.core.linux.ppc64"/>
     <bundles name="org.eclipse.cdt.core.linux.x86"/>
@@ -61,7 +61,7 @@
     </features>
     <features name="org.eclipse.cdt.debug.standalone.feature.group"/>
   </repositories>
-  <repositories location="http://download.eclipse.org/tools/cdt/launchbar/oxygen.rc4" description="LaunchBar Updates">
+  <repositories location="http://download.eclipse.org/releases/oxygen/201706161000/" description="LaunchBar Updates">
     <features name="org.eclipse.launchbar.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
