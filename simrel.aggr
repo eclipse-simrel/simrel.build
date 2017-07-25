@@ -33,13 +33,11 @@
     <contributions href="mat.aggrcon#/"/>
     <contributions href="mdt-uml2.aggrcon#/"/>
     <contributions href="mdt-ocl.aggrcon#/"/>
-    <contributions href="emf-transaction.aggrcon#/"/>
-    <contributions href="emf-validation.aggrcon#/"/>
-    <contributions href="emf-query.aggrcon#/"/>
     <contributions href="m2t-acceleo.aggrcon#/"/>
     <contributions href="gmp-gmf-notation.aggrcon#/"/>
     <contributions href="gmp-gmf-runtime.aggrcon#/"/>
     <contributions href="m2t-xpand.aggrcon#/"/>
+    <contributions href="emf-services.aggrcon#/"/>
     <contributions href="tmf-xtext.aggrcon#/"/>
     <contributions href="pdt.aggrcon#/"/>
     <contributions href="ptp.aggrcon#/"/>
@@ -319,9 +317,9 @@
     <features href="emf-emf.aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-emf.aggrcon#//@repositories.0/@features.3"/>
     <features href="sphinx.aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-transaction.aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-validation.aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-query.aggrcon#//@repositories.0/@features.0"/>
+    <features href="emf-services.aggrcon#//@repositories.2/@features.0"/>
+    <features href="emf-services.aggrcon#//@repositories.1/@features.0"/>
+    <features href="emf-services.aggrcon#//@repositories.0/@features.0"/>
     <features href="qvtd.aggrcon#//@repositories.0/@features.0"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.1"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.2"/>
