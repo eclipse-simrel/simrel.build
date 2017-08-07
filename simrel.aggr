@@ -32,7 +32,7 @@
     <contributions href="birt.aggrcon#/"/>
     <contributions href="mat.aggrcon#/"/>
     <contributions href="mdt-uml2.aggrcon#/"/>
-    <contributions href="mdt-ocl.aggrcon#/"/>
+    <contributions href="ocl.aggrcon#/"/>
     <contributions href="m2t-acceleo.aggrcon#/"/>
     <contributions href="gmp-gmf-runtime.aggrcon#/"/>
     <contributions href="m2t-xpand.aggrcon#/"/>
@@ -191,7 +191,7 @@
     <features href="tm.aggrcon#//@repositories.0/@features.1"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.0"/>
     <features href="epp-mpc.aggrcon#//@repositories.0/@features.0"/>
-    <features href="mdt-ocl.aggrcon#//@repositories.0/@features.0"/>
+    <features href="ocl.aggrcon#//@repositories.0/@features.0"/>
     <features href="tmf-xtext.aggrcon#//@repositories.0/@features.0"/>
     <features href="ptp.aggrcon#//@repositories.0/@features.0"/>
     <features href="ptp.aggrcon#//@repositories.0/@features.1"/>
@@ -275,7 +275,7 @@
     <features href="gmp-gmf-runtime.aggrcon#//@repositories.1/@features.0"/>
     <features href="gmp-gmf-runtime.aggrcon#//@repositories.0/@features.0"/>
     <features href="mdt-uml2.aggrcon#//@repositories.0/@features.0"/>
-    <features href="mdt-ocl.aggrcon#//@repositories.0/@features.0"/>
+    <features href="ocl.aggrcon#//@repositories.0/@features.0"/>
     <features href="m2t-acceleo.aggrcon#//@repositories.0/@features.0"/>
     <features href="mmt-qvto.aggrcon#//@repositories.0/@features.0"/>
     <features href="mmt-qvto.aggrcon#//@repositories.0/@features.1"/>
@@ -294,7 +294,7 @@
     <features href="emft-eef.aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.aggrcon#//@repositories.0/@features.1"/>
-    <features href="mdt-ocl.aggrcon#//@repositories.0/@features.1"/>
+    <features href="ocl.aggrcon#//@repositories.0/@features.1"/>
     <features href="gmp-gmf-runtime.aggrcon#//@repositories.0/@features.1"/>
     <features href="emft-egf.aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.0"/>
