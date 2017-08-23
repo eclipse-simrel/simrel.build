@@ -67,6 +67,5 @@
     </features>
     <features name="org.eclipse.launchbar.remote.feature.group"/>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='cdtdoug@gmail.com']"/>
-  <contacts href="simrel.aggr#//@contacts[email='marc.khouzam@ericsson.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='dschaefer@blackberry.com']"/>
 </aggregator:Contribution>
