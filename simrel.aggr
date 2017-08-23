@@ -383,6 +383,7 @@
     <features href="pdt.aggrcon#//@repositories.0/@features.1"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.3"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.4"/>
+    <features href="pdt.aggrcon#//@repositories.0/@features.5"/>
     <features href="objectteams.aggrcon#//@repositories.0/@features.0"/>
     <features href="objectteams.aggrcon#//@repositories.0/@features.1"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.11"/>
