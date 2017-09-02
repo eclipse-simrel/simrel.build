@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="ECF">
-  <repositories location="http://download.eclipse.org/rt/ecf/3.13.7/site.p2" description="ECF updates">
-    <features name="org.eclipse.ecf.core.feature.group" versionRange="3.13.7.v20170517-0223">
+  <repositories location="http://download.eclipse.org/rt/ecf/3.13.8/site.p2" description="ECF updates">
+    <features name="org.eclipse.ecf.core.feature.group" versionRange="3.13.8.v20170715-2257">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
-    <features name="org.eclipse.ecf.core.source.feature.group" versionRange="3.13.7.v20170517-0223">
+    <features name="org.eclipse.ecf.core.source.feature.group" versionRange="3.13.8.v20170715-2257">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
-    <features name="org.eclipse.ecf.remoteservice.sdk.feature.feature.group" versionRange="3.13.7.v20170517-0201">
+    <features name="org.eclipse.ecf.remoteservice.sdk.feature.feature.group" versionRange="3.13.8.v20170816-0246">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
-    <features name="org.eclipse.ecf.remoteservice.sdk.feature.source.feature.group" versionRange="3.13.7.v20170517-0201">
+    <features name="org.eclipse.ecf.remoteservice.sdk.feature.source.feature.group" versionRange="3.13.8.v20170816-0246">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
