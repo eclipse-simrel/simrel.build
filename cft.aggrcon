@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Eclipse Tools for Cloud Foundry" label="CFT">
-  <repositories location="http://download.eclipse.org/cft/1.1.1.RC3/">
-    <features name="org.eclipse.cft.server.core.feature.feature.group" versionRange="[1.2.3.v201709052309]">
+  <repositories location="http://download.eclipse.org/cft/1.1.1.RC4/">
+    <features name="org.eclipse.cft.server.core.feature.feature.group" versionRange="[1.2.3.v201709130027]">
       <categories href="simrel.aggr#//@customCategories[identifier='Cloud%20Tools']"/>
     </features>
-    <features name="org.eclipse.cft.server.ui.feature.feature.group" versionRange="[1.0.9.v201709052309]">
+    <features name="org.eclipse.cft.server.ui.feature.feature.group" versionRange="[1.0.10.v201709130027]">
       <categories href="simrel.aggr#//@customCategories[identifier='Cloud%20Tools']"/>
     </features>
-    <features name="org.eclipse.cft.server.sdk.feature.group" versionRange="[1.0.8.v201709052309]">
+    <features name="org.eclipse.cft.server.sdk.feature.group" versionRange="[1.0.9.v201709130027]">
       <categories href="simrel.aggr#//@customCategories[identifier='Cloud%20Tools']"/>
     </features>
   </repositories>
