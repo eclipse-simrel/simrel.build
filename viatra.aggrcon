@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="VIATRA">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" enabled="false" label="VIATRA">
   <repositories location="http://download.eclipse.org/viatra/updates/milestone/1.7.0.201708091110">
     <features name="org.eclipse.viatra.query.sdk.feature.source.feature.group" versionRange="[1.7.0.201708091110]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
