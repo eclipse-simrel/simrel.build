@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="EGerrit" label="EGerrit">
-  <repositories location="http://download.eclipse.org/egerrit/updates/release/957">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" description="EGerrit" label="EGerrit">
+  <repositories location="http://download.eclipse.org/releases/oxygen/201709271000/">
     <features name="org.eclipse.egerrit.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
