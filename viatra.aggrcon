@@ -7,9 +7,6 @@
     <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.collections" versionRange="[7.0.0,8.0.0)"/>
     <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.collections.api" versionRange="[7.0.0,8.0.0]"/>
   </repositories>
-  <repositories location="http://download.eclipse.org/collections/9.0.0/repository">
-    <bundles name="org.eclipse.collections" versionRange="[9.0.0.v20170920-0536]"/>
-  </repositories>
   <contacts href="simrel.aggr#//@contacts[email='abel.hegedus@incquerylabs.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='ujhelyiz@incquerylabs.com']"/>
 </aggregator:Contribution>
