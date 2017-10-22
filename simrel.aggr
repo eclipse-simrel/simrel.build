@@ -247,6 +247,7 @@
     <features href="recommenders.aggrcon#//@repositories.0/@features.6"/>
     <features href="lsp4j.aggrcon#//@repositories.0/@features.0"/>
     <features href="lsp4e.aggrcon#//@repositories.0/@features.0"/>
+    <features href="ocl.aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
     <features href="linuxtools.aggrcon#//@repositories.0/@features.9"/>
@@ -294,7 +295,7 @@
     <features href="emft-eef.aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.aggrcon#//@repositories.0/@features.1"/>
-    <features href="ocl.aggrcon#//@repositories.0/@features.1"/>
+    <features href="ocl.aggrcon#//@repositories.0/@features.2"/>
     <features href="gmp-gmf-runtime.aggrcon#//@repositories.0/@features.1"/>
     <features href="emft-egf.aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.0"/>
@@ -346,6 +347,8 @@
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.11"/>
     <features href="PMF.aggrcon#//@repositories.0/@features.0"/>
     <features href="PMF.aggrcon#//@repositories.0/@features.1"/>
+    <features href="ocl.aggrcon#//@repositories.0/@features.1"/>
+    <features href="ocl.aggrcon#//@repositories.0/@features.3"/>
   </customCategories>
   <customCategories identifier="Performance, Profiling and Tracing Tools" label="Performance, Profiling and Tracing Tools" description="Tools to assit analysis of running code.">
     <features href="tracecompass.aggrcon#//@repositories.0/@features.1"/>
