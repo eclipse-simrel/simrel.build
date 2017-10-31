@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="VIATRA">
-  <repositories location="http://download.eclipse.org/viatra/updates/milestone/1.7.0.201709200702">
-    <features name="org.eclipse.viatra.query.sdk.feature.source.feature.group" versionRange="[1.7.0.201709200702]">
+  <repositories location="http://download.eclipse.org/viatra/updates/milestone/1.7.0.201710311615">
+    <features name="org.eclipse.viatra.query.sdk.feature.source.feature.group" versionRange="[1.7.0.201710311615]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.collections" versionRange="[7.0.0,8.0.0)"/>
     <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.collections.api" versionRange="[7.0.0,8.0.0]"/>
   </repositories>
-  <repositories location="http://download.eclipse.org/collections/8.2.0/repository">
-    <bundles name="org.eclipse.collections" versionRange="[8.2.0.v20170622-1916]"/>
+  <repositories location="http://download.eclipse.org/collections/9.0.0/repository">
+    <bundles name="org.eclipse.collections" versionRange="[9.0.0.v20170920-0536]"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='abel.hegedus@incquerylabs.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='ujhelyiz@incquerylabs.com']"/>
