@@ -279,7 +279,7 @@
     <features href="ocl.aggrcon#//@repositories.0/@features.0"/>
     <features href="m2t-acceleo.aggrcon#//@repositories.0/@features.0"/>
     <features href="mmt-qvto.aggrcon#//@repositories.0/@features.0"/>
-    <features href="mmt-qvto.aggrcon#//@repositories.0/@features.1"/>
+    <features href="mmt-qvto.aggrcon#//@repositories.0/@features.3"/>
     <features href="m2m-atl.aggrcon#//@repositories.0/@features.0"/>
     <features href="tmf-xtext.aggrcon#//@repositories.0/@features.0"/>
     <features href="m2t-xpand.aggrcon#//@repositories.0/@features.0"/>
@@ -349,6 +349,8 @@
     <features href="PMF.aggrcon#//@repositories.0/@features.1"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.1"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.3"/>
+    <features href="mmt-qvto.aggrcon#//@repositories.0/@features.1"/>
+    <features href="mmt-qvto.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Performance, Profiling and Tracing Tools" label="Performance, Profiling and Tracing Tools" description="Tools to assit analysis of running code.">
     <features href="tracecompass.aggrcon#//@repositories.0/@features.1"/>
