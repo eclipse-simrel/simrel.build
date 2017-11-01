@@ -351,6 +351,7 @@
     <features href="ocl.aggrcon#//@repositories.0/@features.3"/>
     <features href="mmt-qvto.aggrcon#//@repositories.0/@features.1"/>
     <features href="mmt-qvto.aggrcon#//@repositories.0/@features.2"/>
+    <features href="qvtd.aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="Performance, Profiling and Tracing Tools" label="Performance, Profiling and Tracing Tools" description="Tools to assit analysis of running code.">
     <features href="tracecompass.aggrcon#//@repositories.0/@features.1"/>
