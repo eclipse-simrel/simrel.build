@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Mylyn Docs">
+  <repositories location="http://download.eclipse.org/mylyn/docs/releases/3.0.19" description="Mylyn Docs Updates">
+    <features name="org.eclipse.mylyn.wikitext_feature.feature.group" versionRange="3.0.19.201711172000">
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
+    </features>
+    <features name="org.eclipse.mylyn.wikitext.sdk.feature.group" versionRange="3.0.19.201711172000"/>
+  </repositories>
+  <contacts href="simrel.aggr#//@contacts[email='david.green@tasktop.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='david.slater@tasktop.com']"/>
+</aggregator:Contribution>

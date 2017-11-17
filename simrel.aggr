@@ -17,6 +17,7 @@
     <contributions href="dtp.aggrcon#/"/>
     <contributions href="webtools.aggrcon#/"/>
     <contributions href="mylyn.aggrcon#/"/>
+    <contributions href="mylyn-docs.aggrcon#/"/>
     <contributions href="cdt.aggrcon#/"/>
     <contributions href="tm.aggrcon#/"/>
     <contributions href="recommenders.aggrcon#/"/>
@@ -142,7 +143,7 @@
     <features href="mylyn.aggrcon#//@repositories.0/@features.11"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.12"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.13"/>
-    <features href="mylyn.aggrcon#//@repositories.1/@features.0"/>
+    <features href="mylyn-docs.aggrcon#//@repositories.0/@features.0"/>
     <features href="subversive.aggrcon#//@repositories.0/@features.0"/>
     <features href="subversive.aggrcon#//@repositories.0/@features.2"/>
     <features href="ecf.aggrcon#//@repositories.0/@features.0"/>
@@ -519,6 +520,7 @@
   <contacts name="Daniel Drigo Pastore" email="kpqb38@motorola.com"/>
   <contacts name="David Dykstal" email="david_dykstal@us.ibm.com"/>
   <contacts name="David Green" email="david.green@tasktop.com"/>
+  <contacts name="David Slater" email="david.slater@tasktop.com"/>
   <contacts name="David Williams" email="david_williams@acm.org"/>
   <contacts name="Dennis Huebner" email="dennis.huebner@typefox.io"/>
   <contacts name="Dennis Wagelaar" email="dwagelaar@gmail.com"/>
