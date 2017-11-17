@@ -59,11 +59,11 @@
     <features name="org.eclipse.mylyn.versions.feature.group" versionRange="1.15.0.v20170411-2003"/>
     <features name="org.eclipse.mylyn.versions.sdk.feature.group" versionRange="1.15.0.v20170411-2003"/>
   </repositories>
-  <repositories location="http://download.eclipse.org/mylyn/docs/releases/3.0.6" description="Mylyn Docs Updates">
-    <features name="org.eclipse.mylyn.wikitext_feature.feature.group" versionRange="3.0.6.201703111926">
+  <repositories location="http://download.eclipse.org/mylyn/docs/releases/3.0.19" description="Mylyn Docs Updates">
+    <features name="org.eclipse.mylyn.wikitext_feature.feature.group" versionRange="3.0.19.201711172000">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.wikitext.sdk.feature.group" versionRange="3.0.6.201703111926"/>
+    <features name="org.eclipse.mylyn.wikitext.sdk.feature.group" versionRange="3.0.19.201711172000"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='colin.ritchie@tasktop.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='sam.davis@tasktop.com']"/>
