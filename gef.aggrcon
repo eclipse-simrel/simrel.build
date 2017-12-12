@@ -7,39 +7,39 @@
     <features name="org.eclipse.zest.sdk.feature.group" versionRange="[1.7.0.201606061308]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-  </repositories>
-  <repositories location="http://download.eclipse.org/tools/gef/updates/milestones/5.1.0M3_gef-master_4574" description="GEF releases">
-    <features name="org.eclipse.gef.common.sdk.feature.group" versionRange="[5.0.0.201710300219]">
+  </repositories> 
+  <repositories location="http://download.eclipse.org/tools/gef/updates/milestones/5.1.0M4_gef-master_4628" description="GEF releases">
+    <features name="org.eclipse.gef.common.sdk.feature.group" versionRange="[5.0.0.201712120315]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.geometry.sdk.feature.group" versionRange="[5.0.2.201710300219]">
+    <features name="org.eclipse.gef.geometry.sdk.feature.group" versionRange="[5.0.2.201712120315]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.graph.sdk.feature.group" versionRange="[5.0.0.201710300219]">
+    <features name="org.eclipse.gef.graph.sdk.feature.group" versionRange="[5.0.0.201712120315]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.layout.sdk.feature.group" versionRange="[5.0.0.201710300219]">
+    <features name="org.eclipse.gef.layout.sdk.feature.group" versionRange="[5.0.0.201712120315]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.dot.sdk.feature.group" versionRange="[5.0.2.201710300219]">
+    <features name="org.eclipse.gef.dot.sdk.feature.group" versionRange="[5.0.2.201712120315]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.dot.user.feature.group" versionRange="[5.0.2.201710300219]">
+    <features name="org.eclipse.gef.dot.user.feature.group" versionRange="[5.0.2.201712120315]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.fx.sdk.feature.group" versionRange="[5.0.2.201710300219]">
+    <features name="org.eclipse.gef.fx.sdk.feature.group" versionRange="[5.0.2.201712120315]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.mvc.sdk.feature.group" versionRange="[5.0.2.201710300219]">
+    <features name="org.eclipse.gef.mvc.sdk.feature.group" versionRange="[5.0.2.201712120315]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.zest.sdk.feature.group" versionRange="[5.0.2.201710300219]">
+    <features name="org.eclipse.gef.zest.sdk.feature.group" versionRange="[5.0.2.201712120315]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.cloudio.sdk.feature.group" versionRange="[5.0.2.201710300219]">
+    <features name="org.eclipse.gef.cloudio.sdk.feature.group" versionRange="[5.0.2.201712120315]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
-    <features name="org.eclipse.gef.cloudio.user.feature.group" versionRange="[5.0.2.201710300219]">
+    <features name="org.eclipse.gef.cloudio.user.feature.group" versionRange="[5.0.2.201712120315]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
   </repositories>
