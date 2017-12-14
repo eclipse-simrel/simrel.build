@@ -10,6 +10,7 @@
 	<properties>
 		<tycho-version>1.0.0</tycho-version>
 		<trainName>photon</trainName>
+		<referenceRepo>staging/oxygen</referenceRepo>
 		<eclipse.repo.url>http://download.eclipse.org/eclipse/updates/4.7/R-4.7.1a-201710090410/</eclipse.repo.url>
 		<simrel.aggregator.repo.url>http://download.eclipse.org/cbi/updates/aggregator/headless/4.7/</simrel.aggregator.repo.url>
 		<cbi.analyzers.repo.url>http://download.eclipse.org/cbi/updates/analyzers/4.7</cbi.analyzers.repo.url>
@@ -91,7 +92,7 @@
 							<jvmArgs>
 								<jvmArg>-DreportRepoDir=${project.build.directory}/repository/final</jvmArg>
 								<jvmArg>-DreportOutputDir=${project.build.directory}/repository/final/buildInfo</jvmArg>
-								<jvmArg>-DreferenceRepo=/home/data/httpd/download.eclipse.org/staging/${trainName}/</jvmArg>
+								<jvmArg>-DreferenceRepo=/home/data/httpd/download.eclipse.org/${referenceRepo}</jvmArg>
 								<jvmArg>-Xms256M</jvmArg>
 								<jvmArg>-Xmx2048M</jvmArg>
 							</jvmArgs>
@@ -109,7 +110,7 @@
 									<artifactId>org.eclipse.equinox.core.feature</artifactId>
 									<type>eclipse-feature</type>
 								</dependency>
-						</dependencies>
+							</dependencies>
 							<repositories>
 								<repository>
 									<id>cbi-analyzers</id>
