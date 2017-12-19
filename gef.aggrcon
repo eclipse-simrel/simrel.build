@@ -7,7 +7,7 @@
     <features name="org.eclipse.zest.sdk.feature.group" versionRange="[1.7.0.201606061308]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-  </repositories> 
+  </repositories>
   <repositories location="http://download.eclipse.org/tools/gef/updates/milestones/5.1.0M4_gef-master_4628" description="GEF releases">
     <features name="org.eclipse.gef.common.sdk.feature.group" versionRange="[5.0.0.201712120315]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>

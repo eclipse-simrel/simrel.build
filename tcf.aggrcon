@@ -16,5 +16,5 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='mober.at+eclipse@gmail.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='eugenet@xilinx.com']"/>
 </aggregator:Contribution>
