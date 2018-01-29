@@ -9,5 +9,5 @@
     </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='bpayton@us.ibm.com']"/>
-  <contacts href="simrel.aggr#//@contacts[email='konstantin.komissarchik@oracle.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='nboldt@redhat.com']"/>
 </aggregator:Contribution>
