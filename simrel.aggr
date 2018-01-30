@@ -313,7 +313,6 @@
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.10"/>
     <features href="emf-compare.aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-compare.aggrcon#//@repositories.0/@features.4"/>
-    <features href="emf-compare.aggrcon#//@repositories.0/@features.8"/>
     <features href="emf-diffmerge.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.aggrcon#//@repositories.0/@features.1"/>
@@ -337,8 +336,8 @@
     <features href="emf-parsley.aggrcon#//@repositories.0/@features.3"/>
     <features href="amalgam.aggrcon#//@repositories.0/@features.1"/>
     <features href="amalgam.aggrcon#//@repositories.0/@features.2"/>
+    <features href="emf-compare.aggrcon#//@repositories.0/@features.8"/>
     <features href="emf-compare.aggrcon#//@repositories.0/@features.10"/>
-    <features href="emf-compare.aggrcon#//@repositories.0/@features.12"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.8"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.9"/>
     <features href="viatra.aggrcon#//@repositories.0/@features.0"/>
