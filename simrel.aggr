@@ -239,25 +239,23 @@
     <features href="oomph.aggrcon#//@repositories.0/@features.4"/>
     <features href="oomph.aggrcon#//@repositories.0/@features.5"/>
     <features href="epp-logging.aggrcon#//@repositories.0/@features.0"/>
-    <features href="tm.aggrcon#//@repositories.1/@features.0"/>
-    <features href="tm.aggrcon#//@repositories.1/@features.1"/>
     <features href="ep.aggrcon#//@repositories.0/@features.1"/>
     <features href="cdt.aggrcon#//@repositories.1/@features.0"/>
     <features href="ptp.aggrcon#//@repositories.1/@features.1"/>
-    <features href="tm.aggrcon#//@repositories.1/@features.2"/>
     <features href="buildship.aggrcon#//@repositories.0/@features.0"/>
     <features href="efxclipse.aggrcon#//@repositories.1/@features.0"/>
     <features href="recommenders.aggrcon#//@repositories.0/@features.6"/>
     <features href="lsp4j.aggrcon#//@repositories.0/@features.0"/>
     <features href="lsp4e.aggrcon#//@repositories.0/@features.0"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.1"/>
+    <features href="cdt.aggrcon#//@repositories.2/@features.0"/>
+    <features href="cdt.aggrcon#//@repositories.2/@features.1"/>
+    <features href="cdt.aggrcon#//@repositories.2/@features.2"/>
   </customCategories>
   <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
     <features href="linuxtools.aggrcon#//@repositories.0/@features.9"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.0"/>
     <features href="tcf.aggrcon#//@repositories.0/@features.3"/>
-    <features href="tm.aggrcon#//@repositories.1/@features.0"/>
-    <features href="tm.aggrcon#//@repositories.1/@features.3"/>
   </customCategories>
   <customCategories identifier="Mobile and Device Development" label="Mobile and Device Development" description="Tools used to develop mobile and device applications.">
     <features href="tm.aggrcon#//@repositories.0/@features.0"/>
@@ -270,10 +268,6 @@
     <features href="tcf.aggrcon#//@repositories.0/@features.1"/>
     <features href="tcf.aggrcon#//@repositories.0/@features.2"/>
     <features href="tcf.aggrcon#//@repositories.0/@features.3"/>
-    <features href="tm.aggrcon#//@repositories.1/@features.0"/>
-    <features href="tm.aggrcon#//@repositories.1/@features.1"/>
-    <features href="tm.aggrcon#//@repositories.1/@features.2"/>
-    <features href="tm.aggrcon#//@repositories.1/@features.3"/>
   </customCategories>
   <customCategories identifier="Modeling" label="Modeling" description="Model definition, creation, and manipulation frameworks (e.g. EMF, OCL, GMF, M2M, M2T, GEF) and industry models (e.g. UML, JEM, XSD).">
     <features href="gmp-gmf-runtime.aggrcon#//@repositories.1/@features.0"/>

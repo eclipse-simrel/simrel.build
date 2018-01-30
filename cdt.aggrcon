@@ -67,5 +67,16 @@
     </features>
     <features name="org.eclipse.launchbar.remote.feature.group"/>
   </repositories>
+  <repositories location="http://download.eclipse.org/tm/terminal/updates/4.4milestones">
+    <features name="org.eclipse.tm.terminal.connector.cdtserial.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+    <features name="org.eclipse.tm.terminal.connector.remote.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+    <features name="org.eclipse.tm.terminal.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+  </repositories>
   <contacts href="simrel.aggr#//@contacts[email='dschaefer@blackberry.com']"/>
 </aggregator:Contribution>
