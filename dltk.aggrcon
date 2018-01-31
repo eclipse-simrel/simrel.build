@@ -19,9 +19,6 @@
     <features name="org.eclipse.dltk.sh.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.dltk.rse.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
-    </features>
     <features name="org.eclipse.dltk.mylyn.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
