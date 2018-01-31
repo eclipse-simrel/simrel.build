@@ -255,7 +255,7 @@
   <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
     <features href="linuxtools.aggrcon#//@repositories.0/@features.9"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.0"/>
-    <features href="tcf.aggrcon#//@repositories.0/@features.3"/>
+    <features href="tcf.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Mobile and Device Development" label="Mobile and Device Development" description="Tools used to develop mobile and device applications.">
     <features href="tm.aggrcon#//@repositories.0/@features.0"/>
@@ -267,7 +267,6 @@
     <features href="tcf.aggrcon#//@repositories.0/@features.0"/>
     <features href="tcf.aggrcon#//@repositories.0/@features.1"/>
     <features href="tcf.aggrcon#//@repositories.0/@features.2"/>
-    <features href="tcf.aggrcon#//@repositories.0/@features.3"/>
   </customCategories>
   <customCategories identifier="Modeling" label="Modeling" description="Model definition, creation, and manipulation frameworks (e.g. EMF, OCL, GMF, M2M, M2T, GEF) and industry models (e.g. UML, JEM, XSD).">
     <features href="gmp-gmf-runtime.aggrcon#//@repositories.1/@features.0"/>
@@ -406,7 +405,7 @@
     <features href="XWT.aggrcon#//@repositories.0/@features.1"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.18"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.19"/>
-    <features href="tcf.aggrcon#//@repositories.0/@features.3"/>
+    <features href="tcf.aggrcon#//@repositories.0/@features.2"/>
     <features href="XWT.aggrcon#//@repositories.0/@features.2"/>
     <features href="XWT.aggrcon#//@repositories.0/@features.3"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.11"/>
