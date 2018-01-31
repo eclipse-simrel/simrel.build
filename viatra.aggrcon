@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="VIATRA">
-  <repositories location="http://download.eclipse.org/viatra/updates/release/1.7.0">
-    <features name="org.eclipse.viatra.query.sdk.feature.source.feature.group" versionRange="[1.7.0.201712131254]">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="VIATRA">
+  <repositories location="http://download.eclipse.org/viatra/updates/milestone/2.0.0.201801311529">
+    <features name="org.eclipse.viatra.query.sdk.feature.source.feature.group" versionRange="[2.0.0.201801311529]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.collections" versionRange="[7.0.0,8.0.0)"/>
-    <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.collections.api" versionRange="[7.0.0,8.0.0]"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='abel.hegedus@incquerylabs.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='ujhelyiz@incquerylabs.com']"/>
