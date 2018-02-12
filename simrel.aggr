@@ -82,6 +82,7 @@
     <contributions href="usssdk.aggrcon#/"/>
     <contributions href="collections.aggrcon#/"/>
     <contributions href="tm4e.aggrcon#/"/>
+    <contributions href="acute.aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.aggrcon#/"/>
@@ -411,6 +412,7 @@
     <features href="cdt.aggrcon#//@repositories.0/@features.11"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.13"/>
     <features href="tm4e.aggrcon#//@repositories.0/@features.0"/>
+    <features href="acute.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
     <features href="jwt.aggrcon#//@repositories.0/@features.0"/>
