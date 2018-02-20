@@ -59,6 +59,7 @@
     <contributions href="windowbuilder.aggrcon#/"/>
     <contributions href="jubula.aggrcon#/"/>
     <contributions href="swtbot.aggrcon#/"/>
+    <contributions href="simrel.RedDeer.aggrcon#/"/>
     <contributions href="ldt.aggrcon#/"/>
     <contributions href="tcf.aggrcon#/"/>
     <contributions href="emf-diffmerge.aggrcon#/"/>
@@ -441,6 +442,12 @@
     <features href="swtbot.aggrcon#//@repositories.0/@features.2"/>
     <features href="swtbot.aggrcon#//@repositories.0/@features.3"/>
     <features href="eclemma.aggrcon#//@repositories.0/@features.0"/>
+    <features href="simrel.RedDeer.aggrcon#//@repositories.0/@features.0"/>
+    <features href="simrel.RedDeer.aggrcon#//@repositories.0/@features.1"/>
+    <features href="simrel.RedDeer.aggrcon#//@repositories.0/@features.2"/>
+    <features href="simrel.RedDeer.aggrcon#//@repositories.0/@features.3"/>
+    <features href="simrel.RedDeer.aggrcon#//@repositories.0/@features.4"/>
+    <features href="simrel.RedDeer.aggrcon#//@repositories.0/@features.5"/>
   </customCategories>
   <customCategories identifier="Web, XML, Java EE and OSGi Enterprise Development" label="Web, XML, Java EE and OSGi Enterprise Development" description="Tools to help create web applications, including JavaScript, XML, XSL, XSD, HTML, XHTML, CSS, JSP, EJBs, Webservices, JPA tand OSGi Enterprise Applications">
     <features href="webtools.aggrcon#//@repositories.0/@features.0"/>
@@ -647,4 +654,6 @@
   <contacts name="Nikhil Nanivadekar" email="nikhil.nanivadekar@gs.com"/>
   <contacts name="Eugene Tarassov" email="eugenet@xilinx.com"/>
   <contacts name="Angelo Zerr" email="angelozerr@gmail.com"/>
+  <contacts name="Rastislav Wagner" email="rawagner@redhat.com"/>
+  <contacts name="Andrej Podhradsky" email="apodhrad@redhat.com"/>
 </aggregator:Aggregation>
