@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="DataTools">
   <repositories location="http://download.eclipse.org/datatools/updates/1.14.100-SNAPSHOT/repository/">
-    <features name="org.eclipse.datatools.sdk.feature.feature.group" versionRange="[1.14.100.201801242337]">
+    <features name="org.eclipse.datatools.connectivity.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/>
     </features>
-    <features name="org.eclipse.datatools.enablement.sdk.feature.feature.group" versionRange="[1.14.100.201801242337]">
+    <features name="org.eclipse.datatools.enablement.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/>
+    </features>
+    <features name="org.eclipse.datatools.sqldevtools.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/>
+    </features>
+
+    <features name="org.eclipse.datatools.sdk.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/>
+    </features>
+    <features name="org.eclipse.datatools.enablement.sdk.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/>
     </features>
   </repositories> 
