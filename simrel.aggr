@@ -169,6 +169,9 @@
   <customCategories identifier="Database Development" label="Database Development" description="Tools to define and access a wide variety of databases.">
     <features href="dtp.aggrcon#//@repositories.0/@features.0"/>
     <features href="dtp.aggrcon#//@repositories.0/@features.1"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.2"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.3"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
   <customCategories identifier="EclipseRT Target Platform Components" label="EclipseRT Target Platform Components" description="This category identifies various Eclipse technology that is commonly used in runtime scenarios from RCP to embedded to server side. The components in this category are intended to be added to your Target Platform, rather than your IDE.">
     <features href="equinox.aggrcon#//@repositories.0/@features.0"/>
