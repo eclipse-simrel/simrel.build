@@ -535,7 +535,6 @@
   <contacts name="Doug Schaefer" email="dschaefer@blackberry.com"/>
   <contacts name="EMF TENEO Build Team" email="mtaal@elver.org"/>
   <contacts name="EMF TRANSACTION Build Team" email="boris.gruschko@sap.com"/>
-  <contacts name="EMFT Ecore Tools Build Team" email="ed.merks@gmail.com"/>
   <contacts name="EMFT MINT Build Team" email="pnehrer@eclipticalsoftware.com"/>
   <contacts name="Ed Willink" email="ed@willink.me.uk"/>
   <contacts name="Eike Stepper" email="stepper@esc-net.de"/>
@@ -656,4 +655,5 @@
   <contacts name="Angelo Zerr" email="angelozerr@gmail.com"/>
   <contacts name="Rastislav Wagner" email="rawagner@redhat.com"/>
   <contacts name="Andrej Podhradsky" email="apodhrad@redhat.com"/>
+  <contacts name="Ed Merks" email="ed.merks@gmail.com"/>
 </aggregator:Aggregation>

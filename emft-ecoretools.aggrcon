@@ -7,6 +7,5 @@
     <features name="org.eclipse.emf.ecoretools.design.feature.group" versionRange="[3.0.0,4.0.0]"/>
     <features name="org.eclipse.emf.ecoretools.explorer.contextual.feature.group" versionRange="[3.0.0,4.0.0]"/>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='ed.merks@gmail.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='cedric.brun@obeo.fr']"/>
 </aggregator:Contribution>

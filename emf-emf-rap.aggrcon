@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMF RAP(Runtime)">
-  <repositories location="http://download.eclipse.org/modeling/emf/emf/builds/milestone/S201801231215" description="EMF 2.14">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMF RAP (Runtime)">
+  <repositories location="http://download.eclipse.org/modeling/emf/emf/builds/milestone/S201803080939" description="EMF 2.14">
     <features name="org.eclipse.emf.rap.sdk.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='dennis.huebner@typefox.io']"/>
+  <contacts href="simrel.aggr#//@contacts[email='ed.merks@gmail.com']"/>
 </aggregator:Contribution>
