@@ -58,15 +58,15 @@
     <features name="org.eclipse.linuxtools.dataviewers.feature.source.feature.group" versionRange="6.2.0.201801311622"/>
     <features name="org.eclipse.linuxtools.man.source.feature.group" versionRange="6.2.0.201801311622"/>
   </repositories>
-  <repositories location="http://download.eclipse.org/linuxtools/update-photon-docker-m5" description="Linux Tools Docker Support Updates">
-    <features name="org.eclipse.linuxtools.docker.feature.feature.group" versionRange="3.2.0.201801311622">
+  <repositories location="http://download.eclipse.org/linuxtools/updates-docker-nightly/" description="Linux Tools Docker Support Updates">
+    <features name="org.eclipse.linuxtools.docker.feature.feature.group" versionRange="[4.0.0,4.0.1)">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.linuxtools.vagrant.feature.feature.group" versionRange="3.2.0.201801311622">
+    <features name="org.eclipse.linuxtools.vagrant.feature.feature.group" versionRange="[4.0.0,4.0.1]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.linuxtools.docker.feature.source.feature.group" versionRange="3.2.0.201801311622"/>
-    <features name="org.eclipse.linuxtools.vagrant.feature.source.feature.group" versionRange="3.2.0.201801311622"/>
+    <features name="org.eclipse.linuxtools.docker.feature.source.feature.group" versionRange="[4.0.0,4.0.1)"/>
+    <features name="org.eclipse.linuxtools.vagrant.feature.source.feature.group" versionRange="[4.0.0,4.0.1)"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='jjohnstn@redhat.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='akurtako@redhat.com']"/>
