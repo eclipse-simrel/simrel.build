@@ -368,55 +368,55 @@
     <features href="pdt.aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
   <customCategories identifier="Programming Languages" label="Programming Languages" description="Tools to allow development with specific languages, such as Java and C++">
-    <features href="ep.aggrcon#//@repositories.0/@features.4"/>
+    <features href="acute.aggrcon#//@repositories.0/@features.0"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.0"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.1"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.11"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.13"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.15"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.16"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.17"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.19"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.20"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.21"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.5"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.7"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.15"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.21"/>
-    <features href="ptp.aggrcon#//@repositories.0/@features.7"/>
-    <features href="ptp.aggrcon#//@repositories.0/@features.8"/>
-    <features href="linuxtools.aggrcon#//@repositories.0/@features.1"/>
-    <features href="linuxtools.aggrcon#//@repositories.0/@features.7"/>
-    <features href="linuxtools.aggrcon#//@repositories.0/@features.11"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.1"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.2"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.3"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.4"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.5"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.4"/>
+    <features href="ldt.aggrcon#//@repositories.0/@features.0"/>
+    <features href="ldt.aggrcon#//@repositories.0/@features.1"/>
+    <features href="ldt.aggrcon#//@repositories.0/@features.2"/>
+    <features href="ldt.aggrcon#//@repositories.0/@features.3"/>
+    <features href="linuxtools.aggrcon#//@repositories.0/@features.1"/>
+    <features href="linuxtools.aggrcon#//@repositories.0/@features.11"/>
+    <features href="linuxtools.aggrcon#//@repositories.0/@features.7"/>
+    <features href="objectteams.aggrcon#//@repositories.0/@features.0"/>
+    <features href="objectteams.aggrcon#//@repositories.0/@features.1"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.0"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.1"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.3"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.4"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.5"/>
-    <features href="objectteams.aggrcon#//@repositories.0/@features.0"/>
-    <features href="objectteams.aggrcon#//@repositories.0/@features.1"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.11"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.12"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.13"/>
+    <features href="ptp.aggrcon#//@repositories.0/@features.6"/>
+    <features href="ptp.aggrcon#//@repositories.0/@features.7"/>
+    <features href="ptp.aggrcon#//@repositories.0/@features.8"/>
     <features href="recommenders.aggrcon#//@repositories.0/@features.0"/>
     <features href="recommenders.aggrcon#//@repositories.0/@features.2"/>
     <features href="recommenders.aggrcon#//@repositories.0/@features.4"/>
+    <features href="tcf.aggrcon#//@repositories.0/@features.2"/>
+    <features href="tm4e.aggrcon#//@repositories.0/@features.0"/>
     <features href="tmf-xtext.aggrcon#//@repositories.0/@features.1"/>
-    <features href="ldt.aggrcon#//@repositories.0/@features.0"/>
-    <features href="ldt.aggrcon#//@repositories.0/@features.1"/>
-    <features href="ldt.aggrcon#//@repositories.0/@features.2"/>
-    <features href="ldt.aggrcon#//@repositories.0/@features.3"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.16"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.17"/>
-    <features href="ptp.aggrcon#//@repositories.0/@features.6"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.0"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.1"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.2"/>
     <features href="XWT.aggrcon#//@repositories.0/@features.0"/>
     <features href="XWT.aggrcon#//@repositories.0/@features.1"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.19"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.20"/>
-    <features href="tcf.aggrcon#//@repositories.0/@features.2"/>
     <features href="XWT.aggrcon#//@repositories.0/@features.2"/>
     <features href="XWT.aggrcon#//@repositories.0/@features.3"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.11"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.13"/>
-    <features href="tm4e.aggrcon#//@repositories.0/@features.0"/>
-    <features href="acute.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
     <features href="jwt.aggrcon#//@repositories.0/@features.0"/>
@@ -450,20 +450,29 @@
     <features href="simrel.RedDeer.aggrcon#//@repositories.0/@features.5"/>
   </customCategories>
   <customCategories identifier="Web, XML, Java EE and OSGi Enterprise Development" label="Web, XML, Java EE and OSGi Enterprise Development" description="Tools to help create web applications, including JavaScript, XML, XSL, XSD, HTML, XHTML, CSS, JSP, EJBs, Webservices, JPA tand OSGi Enterprise Applications">
+    <features href="m2e-wtp.aggrcon#//@repositories.0/@features.0"/>
+    <features href="m2e-wtp.aggrcon#//@repositories.0/@features.1"/>
+    <features href="m2e-wtp.aggrcon#//@repositories.0/@features.2"/>
+    <features href="m2e-wtp.aggrcon#//@repositories.0/@features.3"/>
+    <features href="m2e-wtp.aggrcon#//@repositories.0/@features.4"/>
+    <features href="pdt.aggrcon#//@repositories.0/@features.0"/>
+    <features href="pdt.aggrcon#//@repositories.0/@features.1"/>
+    <features href="rap-tools.aggrcon#//@repositories.0/@features.0"/>
+
     <features href="webtools.aggrcon#//@repositories.0/@features.0"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.1"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.2"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.3"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.4"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.5"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.6"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.7"/>
-    <features href="pdt.aggrcon#//@repositories.0/@features.0"/>
-    <features href="pdt.aggrcon#//@repositories.0/@features.1"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.8"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.4"/>
-    <features href="rap-tools.aggrcon#//@repositories.0/@features.0"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.9"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.10"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.11"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.12"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.13"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.14"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.15"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.16"/>
@@ -472,22 +481,16 @@
     <features href="webtools.aggrcon#//@repositories.0/@features.19"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.20"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.21"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.24"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.25"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.23"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.12"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.11"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.22"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.23"/>
+    <!-- temporarily removed: org.eclipse.persistence.moxy 2.6.0.v20140809-296a69f requires package com.sun.codemodel -->
+    <!-- <features href="webtools.aggrcon#//@repositories.0/@features.24"/> -->
+    <!-- <features href="webtools.aggrcon#//@repositories.0/@features.25"/> -->
+
     <features href="webtools.aggrcon#//@repositories.2/@features.0"/>
-    <features href="webtools.aggrcon#//@repositories.2/@features.2"/>
     <features href="webtools.aggrcon#//@repositories.2/@features.1"/>
+    <features href="webtools.aggrcon#//@repositories.2/@features.2"/>
     <features href="webtools.aggrcon#//@repositories.2/@features.3"/>
-    <features href="m2e-wtp.aggrcon#//@repositories.0/@features.0"/>
-    <features href="m2e-wtp.aggrcon#//@repositories.0/@features.1"/>
-    <features href="m2e-wtp.aggrcon#//@repositories.0/@features.2"/>
-    <features href="m2e-wtp.aggrcon#//@repositories.0/@features.3"/>
-    <features href="m2e-wtp.aggrcon#//@repositories.0/@features.4"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.13"/>
   </customCategories>
   <customCategories identifier="Cloud Tools" label="Cloud Tools" description="Tools for developing apps for the cloud and in the cloud, including IDE extensions, frameworks, container tools, and tools running the cloud themselves.">
     <features href="cft.aggrcon#//@repositories.0/@features.0"/>
