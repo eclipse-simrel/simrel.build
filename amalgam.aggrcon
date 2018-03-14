@@ -10,5 +10,5 @@
     </features>
     <features name="org.eclipse.amalgam.explorer.contextual.sirius.source.feature.group" versionRange="[1.4.0,2.0.0]"/>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='cedric.brun@obeo.fr']"/>
+  <contacts href="simrel.aggr#//@contacts[email='pierre-charles.david@obeo.fr']"/>
 </aggregator:Contribution>
