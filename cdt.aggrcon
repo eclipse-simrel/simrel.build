@@ -68,7 +68,7 @@
     </features>
     <features name="org.eclipse.launchbar.remote.feature.group"/>
   </repositories>
-  <repositories location="http://download.eclipse.org/tm/terminal/updates/4.4milestones">
+  <repositories location="http://download.eclipse.org/tm/terminal/builds/development/nightly/">
     <features name="org.eclipse.tm.terminal.connector.cdtserial.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
