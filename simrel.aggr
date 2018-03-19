@@ -483,9 +483,8 @@
     <features href="webtools.aggrcon#//@repositories.0/@features.21"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.22"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.23"/>
-    <!-- temporarily removed: org.eclipse.persistence.moxy 2.6.0.v20140809-296a69f requires package com.sun.codemodel -->
-    <!-- <features href="webtools.aggrcon#//@repositories.0/@features.24"/> -->
-    <!-- <features href="webtools.aggrcon#//@repositories.0/@features.25"/> -->
+    <features href="webtools.aggrcon#//@repositories.0/@features.24"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.25"/>
 
     <features href="webtools.aggrcon#//@repositories.2/@features.0"/>
     <features href="webtools.aggrcon#//@repositories.2/@features.1"/>
