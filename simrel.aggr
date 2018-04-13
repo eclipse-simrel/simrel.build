@@ -394,6 +394,7 @@
     <features href="linuxtools.aggrcon#//@repositories.0/@features.1"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.11"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.7"/>
+    <features href="linuxtools.aggrcon#//@repositories.1/@features.2"/>
     <features href="objectteams.aggrcon#//@repositories.0/@features.0"/>
     <features href="objectteams.aggrcon#//@repositories.0/@features.1"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.0"/>
