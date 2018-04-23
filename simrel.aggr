@@ -84,6 +84,7 @@
     <contributions href="collections.aggrcon#/"/>
     <contributions href="tm4e.aggrcon#/"/>
     <contributions href="acute.aggrcon#/"/>
+    <contributions href="corrosion.aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.aggrcon#/"/>
@@ -381,6 +382,7 @@
     <features href="cdt.aggrcon#//@repositories.0/@features.21"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.5"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.7"/>
+    <features href="corrosion.aggrcon#//@repositories.0/@features.0"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.1"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.2"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.3"/>
@@ -660,4 +662,5 @@
   <contacts name="Andrej Podhradsky" email="apodhrad@redhat.com"/>
   <contacts name="Ed Merks" email="ed.merks@gmail.com"/>
   <contacts name="Jonah Graham" email="jonah@kichwacoders.com"/>
+  <contacts name="Lucas Bullen" email="lbullen@redhat.com"/>
 </aggregator:Aggregation>
