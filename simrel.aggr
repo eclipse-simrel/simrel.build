@@ -461,7 +461,6 @@
     <features href="pdt.aggrcon#//@repositories.0/@features.0"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.1"/>
     <features href="rap-tools.aggrcon#//@repositories.0/@features.0"/>
-
     <features href="webtools.aggrcon#//@repositories.0/@features.0"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.1"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.2"/>
@@ -488,7 +487,6 @@
     <features href="webtools.aggrcon#//@repositories.0/@features.23"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.24"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.25"/>
-
     <features href="webtools.aggrcon#//@repositories.2/@features.0"/>
     <features href="webtools.aggrcon#//@repositories.2/@features.1"/>
     <features href="webtools.aggrcon#//@repositories.2/@features.2"/>
@@ -663,4 +661,5 @@
   <contacts name="Ed Merks" email="ed.merks@gmail.com"/>
   <contacts name="Jonah Graham" email="jonah@kichwacoders.com"/>
   <contacts name="Lucas Bullen" email="lbullen@redhat.com"/>
+  <contacts name="Karsten Thoms" email="karsten.thoms@itemis.de"/>
 </aggregator:Aggregation>
