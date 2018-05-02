@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="LSP4E">
-  <repositories location="http://download.eclipse.org/lsp4e/releases/0.3.0/" description="LSP4E 0.3.0 p2 repository">
+  <repositories location="http://download.eclipse.org/lsp4e/snapshots/" description="LSP4E Snapshots p2 repository">
     <features name="org.eclipse.lsp4e">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
