@@ -1,23 +1,49 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="DataTools">
   <repositories location="http://download.eclipse.org/datatools/updates/1.14.100-SNAPSHOT/repository/">
-    <features name="org.eclipse.datatools.connectivity.feature.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/>
-    </features>
-    <features name="org.eclipse.datatools.enablement.feature.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/>
-    </features>
-    <features name="org.eclipse.datatools.sqldevtools.feature.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/>
-    </features>
 
-    <features name="org.eclipse.datatools.sdk.feature.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/>
-    </features>
-    <features name="org.eclipse.datatools.enablement.sdk.feature.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/>
-    </features>
-  </repositories> 
+    <features name="org.eclipse.datatools.common.doc.user.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.connectivity.doc.user.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.connectivity.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.connectivity.oda.designer.core.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.connectivity.oda.designer.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.connectivity.oda.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.doc.user.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.enablement.apache.derby.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.enablement.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.enablement.hsqldb.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.enablement.ibm.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.enablement.ingres.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.enablement.jdbc.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.enablement.jdt.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.enablement.msft.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.enablement.mysql.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.enablement.oda.designer.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.enablement.oda.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.enablement.oracle.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.enablement.postgresql.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.enablement.sap.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.enablement.sdk.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.enablement.sqlite.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.enablement.sybase.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.intro.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.modelbase.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.sdk.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.sqldevtools.data.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.sqldevtools.ddl.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.sqldevtools.ddlgen.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.sqldevtools.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.sqldevtools.parsers.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.sqldevtools.results.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.sqldevtools.sqlbuilder.feature.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <features name="org.eclipse.datatools.sqltools.doc.user.feature.group"><categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/></features>
+    <!-- not appearing in this film: 
+        org.eclipse.datatools.enablement.oda.ecore.feature and 
+        org.eclipse.datatools.enablement.oda.ecore.sdk.feature
+    -->
+  </repositories>
+
   <contacts href="simrel.aggr#//@contacts[email='bpayton@us.ibm.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='nboldt@redhat.com']"/>
 </aggregator:Contribution>

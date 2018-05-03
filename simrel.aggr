@@ -174,6 +174,37 @@
     <features href="dtp.aggrcon#//@repositories.0/@features.2"/>
     <features href="dtp.aggrcon#//@repositories.0/@features.3"/>
     <features href="dtp.aggrcon#//@repositories.0/@features.4"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.5"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.6"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.7"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.8"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.9"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.10"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.11"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.12"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.13"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.14"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.15"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.16"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.17"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.18"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.19"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.20"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.21"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.22"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.23"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.24"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.25"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.26"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.27"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.28"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.29"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.30"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.31"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.32"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.33"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.34"/>
+    <features href="dtp.aggrcon#//@repositories.0/@features.35"/>
   </customCategories>
   <customCategories identifier="EclipseRT Target Platform Components" label="EclipseRT Target Platform Components" description="This category identifies various Eclipse technology that is commonly used in runtime scenarios from RCP to embedded to server side. The components in this category are intended to be added to your Target Platform, rather than your IDE.">
     <features href="equinox.aggrcon#//@repositories.0/@features.0"/>
