@@ -62,6 +62,9 @@
     </features>
     <features name="org.eclipse.cdt.debug.standalone.feature.group" versionRange="[9.5.0.201805040401]"/>
     <features name="org.eclipse.cdt.qt.feature.group"/>
+    <features name="org.eclipse.cdt.arduino.feature.group"/>
+    <features name="org.eclipse.cdt.cmake.feature.group"/>
+    <features name="org.eclipse.cdt.launch.serial.feature.feature.group"/>
   </repositories>
   <repositories location="http://download.eclipse.org/tools/cdt/launchbar/photon/m7-warmup/" description="LaunchBar Updates">
     <features name="org.eclipse.launchbar.feature.group">
