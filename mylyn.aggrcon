@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Mylyn">
-  <repositories location="http://download.eclipse.org/mylyn/drops/3.24.0/v20180404-1809" description="Mylyn Updates">
+  <repositories location="http://download.eclipse.org/mylyn/drops/3.24.0/v20180418-0301" description="Mylyn Updates">
     <features name="org.eclipse.mylyn_feature.feature.group" versionRange="3.24.0.v20180227-0955">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
