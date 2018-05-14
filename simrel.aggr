@@ -288,6 +288,7 @@
     <features href="cdt.aggrcon#//@repositories.2/@features.0"/>
     <features href="cdt.aggrcon#//@repositories.2/@features.1"/>
     <features href="cdt.aggrcon#//@repositories.2/@features.2"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.6"/>
   </customCategories>
   <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
     <features href="linuxtools.aggrcon#//@repositories.0/@features.9"/>

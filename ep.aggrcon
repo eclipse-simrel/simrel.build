@@ -22,7 +22,9 @@
     <features name="org.eclipse.pde.api.tools.ee.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.tips.feature.feature.group"/>
+    <features name="org.eclipse.tips.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='sravankumarl@in.ibm.com']"/>
 </aggregator:Contribution>
