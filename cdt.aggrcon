@@ -66,22 +66,11 @@
     <features name="org.eclipse.cdt.cmake.feature.group"/>
     <features name="org.eclipse.cdt.launch.serial.feature.feature.group"/>
   </repositories>
-  <repositories location="http://download.eclipse.org/tools/cdt/launchbar/photon/m7-warmup/" description="LaunchBar Updates">
+  <repositories location="http://download.eclipse.org/tools/cdt/launchbar/photon/m7/" description="LaunchBar Updates">
     <features name="org.eclipse.launchbar.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
     <features name="org.eclipse.launchbar.remote.feature.group"/>
-  </repositories>
-  <repositories location="http://download.eclipse.org/tm/terminal/builds/development/nightly/">
-    <features name="org.eclipse.tm.terminal.connector.cdtserial.feature.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
-    </features>
-    <features name="org.eclipse.tm.terminal.connector.remote.feature.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
-    </features>
-    <features name="org.eclipse.tm.terminal.feature.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
-    </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='dschaefer@blackberry.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='jonah@kichwacoders.com']"/>
