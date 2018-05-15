@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Object Teams">
-  <repositories location="http://download.eclipse.org/objectteams/updates/ot2.7/201803131721" description="Object Teams updates">
+  <repositories location="http://download.eclipse.org/objectteams/updates/ot2.7/201805151219" description="Object Teams updates">
     <features description="Object Teams Development Tooling" name="org.eclipse.objectteams.otdt.feature.group" versionRange="2.7.0">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
