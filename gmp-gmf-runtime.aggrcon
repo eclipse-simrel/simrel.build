@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="GMF Runtime">
-  <repositories location="http://download.eclipse.org/modeling/gmp/gmf-runtime/updates/milestones/S201801291558/" description="GMF Runtime milestones">
-    <features name="org.eclipse.gmf.feature.group" versionRange="[1.12.0.201801291558]">
+  <repositories location="http://download.eclipse.org/modeling/gmp/gmf-runtime/updates/milestones/S201805151421" description="GMF Runtime milestones">
+    <features name="org.eclipse.gmf.feature.group" versionRange="[1.12.0.201805151421]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.gmf.runtime.sdk.feature.group" versionRange="[1.12.0.201801291558]">
+    <features name="org.eclipse.gmf.runtime.sdk.feature.group" versionRange="[1.12.0.201805151421]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/modeling/gmp/gmf-notation/updates/milestones/S201801291538" description="GMF Notation milestones">
-    <features name="org.eclipse.gmf.runtime.notation.sdk.feature.group" versionRange="[1.12.0.201801291538]">
+  <repositories location="http://download.eclipse.org/modeling/gmp/gmf-notation/updates/milestones/S201805141341" description="GMF Notation milestones">
+    <features name="org.eclipse.gmf.runtime.notation.sdk.feature.group" versionRange="[1.12.0.201805141341]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
