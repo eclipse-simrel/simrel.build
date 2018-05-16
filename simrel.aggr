@@ -384,7 +384,6 @@
     <features href="mmt-qvto.aggrcon#//@repositories.0/@features.1"/>
     <features href="mmt-qvto.aggrcon#//@repositories.0/@features.2"/>
     <features href="qvtd.aggrcon#//@repositories.0/@features.1"/>
-    <features href="sirius.aggrcon#//@repositories.0/@features.10"/>
   </customCategories>
   <customCategories identifier="Performance, Profiling and Tracing Tools" label="Performance, Profiling and Tracing Tools" description="Tools to assit analysis of running code.">
     <features href="tracecompass.aggrcon#//@repositories.0/@features.1"/>
