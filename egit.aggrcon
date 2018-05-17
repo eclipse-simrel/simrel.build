@@ -18,7 +18,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
-  <repositories enabled="false" location="http://download.eclipse.org/egit/github/staging/v5.0.0.201805151920-m7" description="EGit GitHub Updates">
+  <repositories location="http://download.eclipse.org/egit/github/staging/v5.0.0.201805151920-m7" description="EGit GitHub Updates">
     <features name="org.eclipse.mylyn.github.feature.feature.group" versionRange="[5.0.0.201805151920-m7]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
