@@ -8,8 +8,8 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/modeling/gmp/gmf-notation/updates/milestones/S201805141341" description="GMF Notation milestones">
-    <features name="org.eclipse.gmf.runtime.notation.sdk.feature.group" versionRange="[1.12.0.201805141341]">
+  <repositories location="http://download.eclipse.org/modeling/gmp/gmf-notation/updates/milestones/S201805221301" description="GMF Notation milestones">
+    <features name="org.eclipse.gmf.runtime.notation.sdk.feature.group" versionRange="[1.12.0.201805221301]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
