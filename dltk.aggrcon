@@ -22,6 +22,9 @@
     <features name="org.eclipse.dltk.mylyn.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
+    <features name="org.eclipse.dltk.rse.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='kaloyan.r@zend.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='alex.panchenko@gmail.com']"/>
