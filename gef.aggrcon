@@ -8,7 +8,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/tools/gef/updates/milestones/5.0.100RC2_gef-master_4914" description="GEF releases">
+  <repositories location="http://download.eclipse.org/tools/gef/updates/releases/5.0.100_gef-master_4914" description="GEF releases">
     <features name="org.eclipse.gef.common.sdk.feature.group" versionRange="[5.0.0.201805280201]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
