@@ -43,5 +43,5 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='alexander.nyssen@itemis.de']"/>
+  <contacts href="simrel.aggr#//@contacts[email='matthias.wienand@itemis.de']"/>
 </aggregator:Contribution>
