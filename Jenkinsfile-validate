@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+    stages {
+        stage('Checkout') {
+            steps {
+                cleanWs()
+                git branch: 'master', url: 'git://git.eclipse.org/gitroot/simrel/org.eclipse.simrel.build'
+            }
+        }
+        stage('Validate') {
+            steps {
+                sh "'/shared/common/apache-maven-latest/bin/mvn' clean test -Pbuilt-at-eclipse.org -Pvalidate"
+            }
+        }
+    }
+}
