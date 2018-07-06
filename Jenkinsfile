@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools {
+        maven 'apache-maven-latest' 
+    }
     stages {
         stage('Checkout') {
             steps {
@@ -9,7 +12,12 @@ pipeline {
         }
         stage('Validate') {
             steps {
-                sh "'/shared/common/apache-maven-latest/bin/mvn' clean test -Pbuilt-at-eclipse.org -Pvalidate"
+                sh 'mvn clean test -Pbuilt-at-eclipse.org -Pvalidate'
+            }
+        }
+        stage('Build clean') {
+            steps {
+                sh 'mvn clean test -Pbuilt-at-eclipse.org'
             }
         }
     }
