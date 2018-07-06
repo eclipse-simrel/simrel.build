@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Build clean') {
             steps {
-                sh 'mvn clean test -Pbuilt-at-eclipse.org'
+                sh 'mvn clean verify -Pbuilt-at-eclipse.org'
             }
         }
     }
