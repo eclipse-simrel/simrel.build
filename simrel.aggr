@@ -519,10 +519,11 @@
     <features href="webtools.aggrcon#//@repositories.0/@features.23"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.24"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.25"/>
+    <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=537116 remove and see what breaks! 
     <features href="webtools.aggrcon#//@repositories.2/@features.0"/>
     <features href="webtools.aggrcon#//@repositories.2/@features.1"/>
     <features href="webtools.aggrcon#//@repositories.2/@features.2"/>
-    <features href="webtools.aggrcon#//@repositories.2/@features.3"/>
+    <features href="webtools.aggrcon#//@repositories.2/@features.3"/> -->
   </customCategories>
   <customCategories identifier="Cloud Tools" label="Cloud Tools" description="Tools for developing apps for the cloud and in the cloud, including IDE extensions, frameworks, container tools, and tools running the cloud themselves.">
     <features href="cft.aggrcon#//@repositories.0/@features.0"/>
