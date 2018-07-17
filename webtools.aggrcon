@@ -84,6 +84,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
   </repositories>
+  <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=537117 remove and see what breaks! not referenced in simrel.aggr
   <repositories location="http://archive.eclipse.org/webtools/downloads/drops/R3.2/C3.2.0/I-C3.2.0-20100614204142/repository/" description="Web Tools 3.2 capability site">
     <bundles name="org.eclipse.wtp.epp.package.capabilities" versionRange="1.3.0.v201005102000"/>
     <bundles name="org.eclipse.wtp.epp.package.jee.intro" versionRange="1.3.0.v201005102030"/>
@@ -91,7 +92,7 @@
     <bundles name="org.eclipse.wtp.jee.capabilities" versionRange="1.0.100.v201005102000"/>
     <bundles name="org.eclipse.wtp.web.capabilities" versionRange="1.0.100.v201005102000"/>
     <bundles name="org.eclipse.wtp.xml.capabilities" versionRange="1.0.100.v201005102000"/>
-  </repositories>
+  </repositories> -->
   <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=537116 remove and see what breaks! See 4 features commented from simrel.aggr
   <repositories location="http://download.eclipse.org/libra/releases/R-0.3.1-201609011955" description="Libra 0.3.1 repository site">
     <features name="org.eclipse.libra.facet.feature.feature.group">
