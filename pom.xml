@@ -11,8 +11,8 @@
 		<tycho-version>1.0.0</tycho-version>
 		<trainName>photon</trainName>
 		<referenceRepo>staging/oxygen</referenceRepo>
-		<eclipse.repo.url>http://download.eclipse.org/eclipse/updates/4.7/R-4.7.1a-201710090410/</eclipse.repo.url>
-		<simrel.aggregator.repo.url>http://download.eclipse.org/cbi/updates/aggregator/headless/4.7/</simrel.aggregator.repo.url>
+		<eclipse.repo.url>http://download.eclipse.org/eclipse/updates/4.8/R-4.8-201806110500/</eclipse.repo.url>
+		<simrel.aggregator.repo.url>http://download.eclipse.org/cbi/updates/aggregator/headless/4.8/</simrel.aggregator.repo.url>
 		<cbi.analyzers.repo.url>http://download.eclipse.org/cbi/updates/analyzers/4.7</cbi.analyzers.repo.url>
 	</properties>
 
