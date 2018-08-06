@@ -66,11 +66,11 @@
     <features name="org.eclipse.cdt.cmake.feature.group" versionRange="[9.5.3.201808031905]"/>
     <features name="org.eclipse.cdt.launch.serial.feature.feature.group" versionRange="[9.5.3.201808031905]"/>
   </repositories>
-  <repositories location="http://download.eclipse.org/tools/cdt/launchbar/photon/m7/" description="LaunchBar Updates">
-    <features name="org.eclipse.launchbar.feature.group">
+  <repositories location="http://download.eclipse.org/tools/cdt/launchbar/2.2/launchbar-2.2.1/" description="LaunchBar Updates">
+    <features name="org.eclipse.launchbar.feature.group" versionRange="[2.2.1.201807231911]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.launchbar.remote.feature.group"/>
+    <features name="org.eclipse.launchbar.remote.feature.group" versionRange="[2.2.1.201807231911]"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='dschaefer@blackberry.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='jonah@kichwacoders.com']"/>
