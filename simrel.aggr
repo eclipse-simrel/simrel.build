@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Aggregation files used for Simultaneous Release (yearly &quot;release train&quot;)." buildmaster="//@contacts[email='frederic.gurr@eclipse.org']" label="2018-09" buildRoot="buildresultsPhoton" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" strictMavenVersions="true" versionFormat="StrictMaven" allowLegacySites="false">
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Aggregation files used for Simultaneous Release (yearly &quot;release train&quot;)." buildmaster="//@contacts[email='frederic.gurr@eclipse.org']" label="Photon" buildRoot="buildresultsPhoton" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false">
   <validationSets label="main">
     <contributions href="equinox.aggrcon#/"/>
     <contributions href="cft.aggrcon#/"/>
@@ -470,8 +470,8 @@
     <features href="jubula.aggrcon#//@repositories.0/@features.3"/>
     <features href="jubula.aggrcon#//@repositories.0/@features.4"/>
     <features href="jubula.aggrcon#//@repositories.0/@features.5"/>
-    <features href="jubula.aggrcon#//@repositories.0/@features.6"/>
-    <features href="jubula.aggrcon#//@repositories.0/@features.7"/>
+	<features href="jubula.aggrcon#//@repositories.0/@features.6"/>
+	<features href="jubula.aggrcon#//@repositories.0/@features.7"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.3"/>
     <features href="rcptt.aggrcon#//@repositories.0/@features.0"/>
     <features href="swtbot.aggrcon#//@repositories.0/@features.0"/>
