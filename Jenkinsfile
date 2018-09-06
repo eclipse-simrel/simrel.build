@@ -47,7 +47,7 @@ pipeline {
                 sh 'cp -R ${WORKSPACE}/target/repository/final/* ${STAGING_DIR}/'
                 sh 'ls -al ${STAGING_DIR}'
                 // Trigger EPP job
-                sh 'curl https://ci.eclipse.org/packaging/job/${TRAIN_NAME}.epp-tycho-build/buildWithParameters?token=Yah6CohtYwO6b?6P'
+                sh 'curl https://ci.eclipse.org/packaging/job/simrel.epp-tycho-build/buildWithParameters?token=Yah6CohtYwO6b?6P'
             }
          }
     }
