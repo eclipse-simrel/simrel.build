@@ -30,6 +30,7 @@ pipeline {
             }
             steps {
                 sh 'mvn clean verify -Pbuilt-at-eclipse.org'
+                archiveArtifacts artifacts: 'target/repository/final/buildInfo/**/*, fingerprint: true
             }
         }
         stage('Deploy to staging') {
