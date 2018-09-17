@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 cleanWs()
-                git branch: 'master',
+                git branch: '2018-09_respin',
                     url: 'git://git.eclipse.org/gitroot/simrel/org.eclipse.simrel.build'
             }
         }
