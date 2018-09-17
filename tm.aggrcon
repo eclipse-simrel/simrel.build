@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="TM">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" label="TM">
   <!-- in future, we could use http://download.eclipse.org/tm/repository/photon/ -->
-  <repositories location="http://download.eclipse.org/tm/updates/4.5.0-SNAPSHOT/repository/" description="RSE + Terminal 4.5">
+  <repositories location="http://download.eclipse.org/releases/2018-09/201809191000/" description="RSE + Terminal 4.5">
     <features name="org.eclipse.rse.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>

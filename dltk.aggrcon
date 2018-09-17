@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" enabled="true" label="DLTK">
-  <repositories location="http://download.eclipse.org/technology/dltk/updates-dev/5.10/" description="DLTK 5.10">
+<aggregator:Contribution xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" xmlns:xmi="http://www.omg.org/XMI" xmi:version="2.0" enabled="true" label="DLTK">
+  <repositories location="http://download.eclipse.org/releases/2018-09/201809191000/" description="DLTK 5.10">
     <features name="org.eclipse.dltk.core.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
