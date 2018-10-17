@@ -42,7 +42,9 @@ pipeline {
                 }
             }
             steps {
-                // Cleaning staging dir
+                // Create staging dir (if it does not exist already)
+                sh 'mkdir -p ${STAGING_DIR}'
+                // Clean staging dir
                 sh 'rm -rf ${STAGING_DIR}/*'
                 // Copying files to staging dir
                 sh 'cp -R ${WORKSPACE}/target/repository/final/* ${STAGING_DIR}/'
