@@ -4,14 +4,14 @@
 
 	<groupId>org.eclipse.simrel</groupId>
 	<artifactId>build</artifactId>
-	<version>4.8.0-SNAPSHOT</version>
+	<version>4.10.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<properties>
 		<tycho-version>1.0.0</tycho-version>
-		<trainName>2018-09</trainName>
-		<referenceRepo>releases/photon/201806271001</referenceRepo>
-		<eclipse.repo.url>http://download.eclipse.org/eclipse/updates/4.8/R-4.8-201806110500/</eclipse.repo.url>
+		<trainName>2018-12</trainName>
+		<referenceRepo>releases/2018-09/201809191002</referenceRepo>
+		<eclipse.repo.url>http://download.eclipse.org/eclipse/updates/4.9/R-4.9-201809060745/</eclipse.repo.url>
 		<simrel.aggregator.repo.url>http://download.eclipse.org/cbi/updates/aggregator/headless/4.8/</simrel.aggregator.repo.url>
 		<cbi.analyzers.repo.url>http://download.eclipse.org/cbi/updates/analyzers/4.7</cbi.analyzers.repo.url>
 	</properties>
