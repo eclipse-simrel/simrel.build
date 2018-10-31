@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="WebTools 3.12 for Simrel 2018-12">
-  <repositories location="http://download.eclipse.org/webtools/downloads/drops/R3.12.0/S-3.12.0.M1-20181011033659/repository/" description="Web Tools 3.12 M1">
+  <repositories location="http://download.eclipse.org/webtools/downloads/drops/R3.12.0/I-latest/repository/" description="Web Tools 3.12 pre-M2 I-build">
     <features name="org.eclipse.wst.xml_ui.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
