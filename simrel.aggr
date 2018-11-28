@@ -83,7 +83,6 @@
     <contributions href="usssdk.aggrcon#/"/>
     <contributions href="collections.aggrcon#/"/>
     <contributions href="tm4e.aggrcon#/"/>
-    <contributions href="acute.aggrcon#/"/>
     <contributions href="corrosion.aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
@@ -399,7 +398,6 @@
     <features href="pdt.aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
   <customCategories identifier="Programming Languages" label="Programming Languages" description="Tools to allow development with specific languages, such as Java and C++">
-    <features href="acute.aggrcon#//@repositories.0/@features.0"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.0"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.1"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.11"/>
