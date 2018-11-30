@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="WebTools 3.12 for Simrel 2018-12">
-  <repositories location="https://download.eclipse.org/webtools/downloads/drops/R3.12.0/S-3.12.0.M3-20181124033837/repository/" description="Web Tools 3.12 M3">
+  <repositories location="https://download.eclipse.org/webtools/downloads/drops/R3.12.0/S-3.12.0.RC1-20181130055351/repository/" description="Web Tools 3.12 RC1">
     <features name="org.eclipse.wst.xml_ui.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
@@ -80,9 +80,9 @@
     <features name="org.eclipse.jpt.jaxb.eclipselink.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
-    <features name="org.eclipse.jpt.dbws.eclipselink.feature.feature.group">
+    <!-- Bug 539852 remove feature as not compatible w/ JDK 11 <features name="org.eclipse.jpt.dbws.eclipselink.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
-    </features>
+    </features> -->
   </repositories>
   <repositories location="http://archive.eclipse.org/webtools/downloads/drops/R3.2/C3.2.0/I-C3.2.0-20100614204142/repository/" description="Web Tools 3.2 capability site">
     <bundles name="org.eclipse.wtp.epp.package.capabilities" versionRange="1.3.0.v201005102000"/>
