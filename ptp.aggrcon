@@ -35,8 +35,8 @@
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/tools/ptp/builds/remote/photon/milestones/M6" description="Remote Services">
-    <features name="org.eclipse.remote.feature.group" versionRange="3.0.0">
+  <repositories location="http://download.eclipse.org/tools/ptp/builds/remote/photon/milestones/2019-03-M1" description="Remote Services">
+    <features name="org.eclipse.remote.feature.group" versionRange="3.0.1">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
     <features name="org.eclipse.remote.console.feature.group">
