@@ -4,7 +4,7 @@ pipeline {
         maven 'apache-maven-latest' 
     }
     environment {
-        TRAIN_NAME = "2018-12"
+        TRAIN_NAME = "2019-03"
         STAGING_DIR = "/home/data/httpd/download.eclipse.org/staging/${TRAIN_NAME}"
     }
     stages {
@@ -58,8 +58,8 @@ pipeline {
         failure {
           emailext (
               subject: "FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
-              body: """<p>FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p>
-                <p>Check console output at &QUOT;<a href='${env.BUILD_URL}'>${env.JOB_NAME} [${env.BUILD_NUMBER}]</a>&QUOT;</p>""",
+              body: """FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':
+              Check console output at ${env.BUILD_URL}""",
               recipientProviders: [[$class: 'DevelopersRecipientProvider']],
               to: 'frederic.gurr@eclipse-foundation.org'
             )
