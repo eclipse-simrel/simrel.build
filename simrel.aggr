@@ -45,8 +45,6 @@
     <contributions href="mdt-bpmn2.aggrcon#/"/>
     <contributions href="emft-eef.aggrcon#/"/>
     <contributions href="linuxtools.aggrcon#/"/>
-    <contributions href="emft-emffacet.aggrcon#/"/>
-    <contributions href="mdt-modisco.aggrcon#/"/>
     <contributions href="egit.aggrcon#/"/>
     <contributions href="emft-egf.aggrcon#/"/>
     <contributions href="objectteams.aggrcon#/"/>
@@ -305,7 +303,6 @@
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.3"/>
-    <features href="mdt-modisco.aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-eef.aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.aggrcon#//@repositories.0/@features.1"/>
@@ -317,7 +314,6 @@
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.4"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.6"/>
     <features href="mdt-papyrus.aggrcon#//@repositories.0/@features.0"/>
-    <features href="emft-emffacet.aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-eef.aggrcon#//@repositories.0/@features.1"/>
     <features href="emft-eef.aggrcon#//@repositories.0/@features.1"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.8"/>
