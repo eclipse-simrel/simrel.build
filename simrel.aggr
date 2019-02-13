@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Aggregation files used for Simultaneous Release (yearly &quot;release train&quot;)." buildmaster="//@contacts[email='frederic.gurr@eclipse.org']" label="2018-09" buildRoot="buildresultsPhoton" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false">
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Aggregation files used for Simultaneous Release (yearly &quot;release train&quot;)." buildmaster="//@contacts[email='frederic.gurr@eclipse.org']" label="2019-03" buildRoot="buildresultsPhoton" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false">
   <validationSets label="main">
     <contributions href="equinox.aggrcon#/"/>
     <contributions href="cft.aggrcon#/"/>
@@ -499,7 +499,6 @@
     <features href="webtools.aggrcon#//@repositories.0/@features.23"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.24"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.25"/>
-    <!-- https://bugs.eclipse.org/bugs/show_bug.cgi?id=537116 Libra -->
     <features href="webtools.aggrcon#//@repositories.2/@features.0"/>
     <features href="webtools.aggrcon#//@repositories.2/@features.1"/>
     <features href="webtools.aggrcon#//@repositories.2/@features.2"/>
