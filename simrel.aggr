@@ -8,7 +8,6 @@
     <contributions href="emf-emf.aggrcon#/"/>
     <contributions href="ecf.aggrcon#/"/>
     <contributions href="gef.aggrcon#/"/>
-    <contributions href="amalgam.aggrcon#/"/>
     <contributions href="emf-compare.aggrcon#/"/>
     <contributions href="emft-ecoretools.aggrcon#/"/>
     <contributions href="m2m-atl.aggrcon#/"/>
@@ -60,7 +59,6 @@
     <contributions href="tcf.aggrcon#/"/>
     <contributions href="emf-diffmerge.aggrcon#/"/>
     <contributions href="m2e-wtp.aggrcon#/"/>
-    <contributions href="sphinx.aggrcon#/"/>
     <contributions href="sirius.aggrcon#/"/>
     <contributions href="qvtd.aggrcon#/"/>
     <contributions href="emfstore.aggrcon#/"/>
@@ -326,7 +324,6 @@
     <features href="emf-emf.aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-emf.aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-emf.aggrcon#//@repositories.0/@features.3"/>
-    <features href="sphinx.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-services.aggrcon#//@repositories.2/@features.0"/>
     <features href="emf-services.aggrcon#//@repositories.1/@features.0"/>
     <features href="emf-services.aggrcon#//@repositories.0/@features.0"/>
@@ -341,8 +338,6 @@
     <features href="emf-parsley.aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-parsley.aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-parsley.aggrcon#//@repositories.0/@features.3"/>
-    <features href="amalgam.aggrcon#//@repositories.0/@features.1"/>
-    <features href="amalgam.aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-compare.aggrcon#//@repositories.0/@features.8"/>
     <features href="emf-compare.aggrcon#//@repositories.0/@features.10"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.8"/>
