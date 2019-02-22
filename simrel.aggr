@@ -19,7 +19,6 @@
     <contributions href="mylyn-docs.aggrcon#/"/>
     <contributions href="cdt.aggrcon#/"/>
     <contributions href="tm.aggrcon#/"/>
-    <contributions href="recommenders.aggrcon#/"/>
     <contributions href="jwt.aggrcon#/"/>
     <contributions href="dltk.aggrcon#/"/>
     <contributions href="rap-tools.aggrcon#/"/>
@@ -64,7 +63,6 @@
     <contributions href="emfstore.aggrcon#/"/>
     <contributions href="ecp.aggrcon#/"/>
     <contributions href="XWT.aggrcon#/"/>
-    <contributions href="efxclipse.aggrcon#/"/>
     <contributions href="tracecompass.aggrcon#/"/>
     <contributions href="rcptt.aggrcon#/"/>
     <contributions href="buildship.aggrcon#/"/>
@@ -258,8 +256,6 @@
     <features href="cdt.aggrcon#//@repositories.1/@features.0"/>
     <features href="ptp.aggrcon#//@repositories.1/@features.1"/>
     <features href="buildship.aggrcon#//@repositories.0/@features.0"/>
-    <features href="efxclipse.aggrcon#//@repositories.1/@features.0"/>
-    <features href="recommenders.aggrcon#//@repositories.0/@features.6"/>
     <features href="lsp4j.aggrcon#//@repositories.0/@features.0"/>
     <features href="lsp4e.aggrcon#//@repositories.0/@features.0"/>
     <features href="lsp4e.aggrcon#//@repositories.0/@features.1"/>
@@ -412,9 +408,6 @@
     <features href="ptp.aggrcon#//@repositories.0/@features.6"/>
     <features href="ptp.aggrcon#//@repositories.0/@features.7"/>
     <features href="ptp.aggrcon#//@repositories.0/@features.8"/>
-    <features href="recommenders.aggrcon#//@repositories.0/@features.0"/>
-    <features href="recommenders.aggrcon#//@repositories.0/@features.2"/>
-    <features href="recommenders.aggrcon#//@repositories.0/@features.4"/>
     <features href="tcf.aggrcon#//@repositories.0/@features.2"/>
     <features href="tm4e.aggrcon#//@repositories.0/@features.0"/>
     <features href="tmf-xtext.aggrcon#//@repositories.0/@features.1"/>
