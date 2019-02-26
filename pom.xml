@@ -8,7 +8,7 @@
 	<packaging>pom</packaging>
 
 	<properties>
-		<tycho-version>1.0.0</tycho-version>
+		<tycho-version>1.3.0</tycho-version>
 		<trainName>2019-03</trainName>
 		<referenceRepo>releases/2018-12/201812191000</referenceRepo>
 		<eclipse.repo.url>http://download.eclipse.org/eclipse/updates/4.10/R-4.10-201812060815/</eclipse.repo.url>
