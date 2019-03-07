@@ -29,7 +29,7 @@
     </features>
     <features name="org.eclipse.jgit.ssh.apache.source.feature.group" versionRange="[5.3.0.201903061415-rc1]"/>
   </repositories>
-  <repositories location="http://download.eclipse.org/egit/github/staging/v5.3.0.201903061415-rc1" description="EGit GitHub Updates" mirrorArtifacts="false">
+  <repositories location="http://download.eclipse.org/egit/github/staging/v5.3.0.201903061415-rc1" description="EGit GitHub Updates">
     <features name="org.eclipse.mylyn.github.feature.feature.group" versionRange="[5.3.0.201903061415-rc1]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
