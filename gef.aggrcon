@@ -43,5 +43,10 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
   </repositories>
+  <repositories location="http://download.eclipse.org/efxclipse/runtime-released/3.5.0/site/" description="e(fx)clipse (bundled by GEF)">
+    <features name="org.eclipse.fx.runtime.min.feature.feature.group" versionRange="[3.5.0.201902220600]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
+    </features>
+  </repositories>
   <contacts href="simrel.aggr#//@contacts[email='matthias.wienand@itemis.de']"/>
 </aggregator:Contribution>
