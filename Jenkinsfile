@@ -1,10 +1,10 @@
 pipeline {
     agent any
     tools {
-        maven 'apache-maven-latest' 
+        maven 'apache-maven-latest'
     }
     environment {
-        TRAIN_NAME = "2019-03"
+        TRAIN_NAME = "2019-06"
         STAGING_DIR = "/home/data/httpd/download.eclipse.org/staging/${TRAIN_NAME}"
     }
     stages {
