@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Passage">
+  <repositories location="http://download.eclipse.org/passage/updates/release/0.4.0/lic" description="Passage LIC 0.4.0">
+    <features name="org.eclipse.passage.lic.define.feature.feature.group" versionRange="[0.4.0.v20190403-1234]">
+      <categories href="simrel.aggr#//@customCategories[identifier='License%20Management']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.aggr#//@contacts[email='alexander.fedorov@arsysop.ru']"/>
+</aggregator:Contribution>

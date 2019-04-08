@@ -76,6 +76,7 @@
     <contributions href="tm4e.aggrcon#/"/>
     <contributions href="corrosion.aggrcon#/"/>
     <contributions href="wildwebdeveloper.aggrcon#/"/>
+    <contributions href="passage.aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.aggrcon#/"/>
@@ -264,6 +265,9 @@
     <features href="tm.aggrcon#//@repositories.0/@features.3"/>
     <features href="tm.aggrcon#//@repositories.0/@features.4"/>
     <features href="ep.aggrcon#//@repositories.0/@features.6"/>
+  </customCategories>
+  <customCategories identifier="License Management" label="License Management" description="Tools used to declare and control licensing constraints">
+    <features href="passage.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
     <features href="linuxtools.aggrcon#//@repositories.0/@features.9"/>
@@ -504,6 +508,7 @@
   <contacts name="Alex Boyko" email="aboyko@ca.ibm.com"/>
   <contacts name="Alex Kurtakov" email="akurtako@redhat.com"/>
   <contacts name="Alex Lagarde" email="alex.lagarde@obeo.fr"/>
+  <contacts name="Alexander Fedorov" email="alexander.fedorov@arsysop.ru"/>
   <contacts name="Alexander Gurov" email="alexander.gurov@polarion.com"/>
   <contacts name="Alexander Nyssen" email="alexander.nyssen@itemis.de"/>
   <contacts name="Andreas Hoegger" email="andreas.hoegger@bsiag.com"/>
