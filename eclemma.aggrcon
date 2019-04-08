@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EclEmma">
-  <!-- for SimRel 2019-03 -->
+  <!-- for SimRel 2019-06 -->
   <repositories location="http://download.eclipse.org/eclemma/releases/3.1.2/">
     <features name="org.eclipse.eclemma.feature.feature.group" versionRange="[3.1.2.201903112331]">
       <categories href="simrel.aggr#//@customCategories[identifier='Testing']"/>
