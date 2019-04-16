@@ -1,70 +1,68 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="CDT">
-  <repositories location="https://download.eclipse.org/tools/cdt/builds/9.7/cdt-9.7.0-simrel-2019-03-rc2a/" description="CDT updates">
+  <repositories location="https://download.eclipse.org/tools/cdt/builds/9.8/cdt-9.8.0-simrel-2019-06-m1b/" description="CDT updates">
     <bundles name="org.eclipse.cdt.core.linux" versionRange="[5.3.1.201811241055]"/>
-    <bundles name="org.eclipse.cdt.core.linux.ppc64" versionRange="[5.2.1.201811241055]"/>
-    <bundles name="org.eclipse.cdt.core.linux.x86" versionRange="[5.3.1.201811241055]"/>
     <bundles name="org.eclipse.cdt.core.linux.x86_64" versionRange="[5.3.1.201811241055]"/>
     <bundles name="org.eclipse.cdt.core.macosx" versionRange="[5.3.1.201811241055]"/>
     <bundles name="org.eclipse.cdt.core.win32" versionRange="[5.4.2.201811241055]"/>
-    <features name="org.eclipse.cdt.feature.group" versionRange="[9.7.0.201903092251]">
+    <features name="org.eclipse.cdt.feature.group" versionRange="[9.8.0.201904151428]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.sdk.feature.group" versionRange="[9.7.0.201903092251]">
+    <features name="org.eclipse.cdt.sdk.feature.group" versionRange="[9.8.0.201904151428]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.debug.gdbjtag.feature.group" versionRange="[9.7.0.201901040958]">
+    <features name="org.eclipse.cdt.debug.gdbjtag.feature.group" versionRange="[9.8.0.201903011325]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.cdt.core.lrparser.feature.feature.group" versionRange="[9.7.0.201812101350]"/>
-    <features name="org.eclipse.cdt.core.lrparser.sdk.feature.group" versionRange="[9.7.0.201812101350]"/>
-    <features name="org.eclipse.cdt.core.parser.upc.feature.feature.group" versionRange="[9.7.0.201812101350]">
+    <features name="org.eclipse.cdt.core.lrparser.feature.feature.group" versionRange="[9.8.0.201903011325]"/>
+    <features name="org.eclipse.cdt.core.lrparser.sdk.feature.group" versionRange="[9.8.0.201903011325]"/>
+    <features name="org.eclipse.cdt.core.parser.upc.feature.feature.group" versionRange="[9.8.0.201903011325]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.core.parser.upc.sdk.feature.group" versionRange="[9.7.0.201812101350]"/>
-    <features name="org.eclipse.cdt.xlc.feature.feature.group" versionRange="[9.7.0.201812101350]">
+    <features name="org.eclipse.cdt.core.parser.upc.sdk.feature.group" versionRange="[9.8.0.201903011325]"/>
+    <features name="org.eclipse.cdt.xlc.feature.feature.group" versionRange="[9.8.0.201903011325]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.xlc.sdk.feature.group" versionRange="[9.7.0.201812101350]"/>
-    <features name="org.eclipse.cdt.platform.feature.group" versionRange="[9.7.0.201903092251]"/>
-    <features name="org.eclipse.cdt.debug.ui.memory.feature.group" versionRange="[9.7.0.201812101350]">
+    <features name="org.eclipse.cdt.xlc.sdk.feature.group" versionRange="[9.8.0.201903011325]"/>
+    <features name="org.eclipse.cdt.platform.feature.group" versionRange="[9.8.0.201904151428]"/>
+    <features name="org.eclipse.cdt.debug.ui.memory.feature.group" versionRange="[9.8.0.201903011325]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.cdt.launch.remote.feature.group" versionRange="[9.7.0.201812101350]">
+    <features name="org.eclipse.cdt.launch.remote.feature.group" versionRange="[9.8.0.201903011325]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.build.crossgcc.feature.group" versionRange="[9.7.0.201812101350]">
+    <features name="org.eclipse.cdt.build.crossgcc.feature.group" versionRange="[9.8.0.201903011325]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.cdt.bupc.feature.group" versionRange="[9.7.0.201812101350]">
+    <features name="org.eclipse.cdt.bupc.feature.group" versionRange="[9.8.0.201903011325]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.meson.feature.group" versionRange="[9.7.0.201812111436]"/>
-    <features name="org.eclipse.cdt.msw.feature.group" versionRange="[9.7.0.201812101350]">
+    <features name="org.eclipse.cdt.meson.feature.group" versionRange="[9.8.0.201904101949]"/>
+    <features name="org.eclipse.cdt.msw.feature.group" versionRange="[9.8.0.201903011325]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.autotools.feature.group" versionRange="[9.7.0.201812220910]">
+    <features name="org.eclipse.cdt.autotools.feature.group" versionRange="[9.8.0.201903011325]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.testsrunner.feature.feature.group" versionRange="[9.7.0.201902260903]">
+    <features name="org.eclipse.cdt.testsrunner.feature.feature.group" versionRange="[9.8.0.201903011325]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.visualizer.feature.group" versionRange="[9.7.0.201812101350]"/>
-    <features name="org.eclipse.cdt.managedbuilder.llvm.feature.group" versionRange="[9.7.0.201812101350]">
+    <features name="org.eclipse.cdt.visualizer.feature.group" versionRange="[9.8.0.201903011325]"/>
+    <features name="org.eclipse.cdt.managedbuilder.llvm.feature.group" versionRange="[9.8.0.201903011325]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.gnu.multicorevisualizer.feature.group" versionRange="[9.7.0.201812101350]">
+    <features name="org.eclipse.cdt.gnu.multicorevisualizer.feature.group" versionRange="[9.8.0.201903011325]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.docker.launcher.feature.group" versionRange="[9.7.0.201903111410]">
+    <features name="org.eclipse.cdt.docker.launcher.feature.group" versionRange="[9.8.0.201903201536]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.debug.standalone.feature.group" versionRange="[9.7.0.201902242119]"/>
-    <features name="org.eclipse.cdt.qt.feature.group" versionRange="[9.7.0.201812111436]"/>
-    <features name="org.eclipse.cdt.arduino.feature.group" versionRange="[9.7.0.201903011129]"/>
-    <features name="org.eclipse.cdt.cmake.feature.group" versionRange="[9.7.0.201812111436]"/>
-    <features name="org.eclipse.cdt.launch.serial.feature.feature.group" versionRange="[9.7.0.201902071800]"/>
+    <features name="org.eclipse.cdt.debug.standalone.feature.group" versionRange="[9.8.0.201903190044]"/>
+    <features name="org.eclipse.cdt.qt.feature.group" versionRange="[9.8.0.201903011325]"/>
+    <features name="org.eclipse.cdt.arduino.feature.group" versionRange="[9.8.0.201903011325]"/>
+    <features name="org.eclipse.cdt.cmake.feature.group" versionRange="[9.8.0.201904101949]"/>
+    <features name="org.eclipse.cdt.launch.serial.feature.feature.group" versionRange="[9.8.0.201903131041]"/>
   </repositories>
   <repositories location="http://download.eclipse.org/tools/cdt/launchbar/2.2/launchbar-2.2.3-simrel-2019-03-m2/" description="LaunchBar Updates">
     <features name="org.eclipse.launchbar.feature.group" versionRange="[2.2.3.201902041137]">
