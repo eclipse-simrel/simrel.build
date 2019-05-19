@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="QVT Operational for 2019-06">
-  <repositories location="https://download.eclipse.org/mmt/qvto/updates/milestones/3.9.3/S201904160751" description="QVT Operational 3.9.3 release">
+  <repositories location="https://download.eclipse.org/mmt/qvto/updates/milestones/3.9.3/S201905190849" description="QVT Operational 3.9.3 release">
     <features name="org.eclipse.m2m.qvt.oml.sdk.feature.group" versionRange="[3.9.3,3.10.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
