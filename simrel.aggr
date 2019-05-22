@@ -138,11 +138,11 @@
     <features href="egit.aggrcon#//@repositories.1/@features.0"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.6"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.2"/>
-    <features href="egit.aggrcon#//@repositories.0/@features.8"/>
-    <features href="egit.aggrcon#//@repositories.0/@features.9"/>
-    <features href="egit.aggrcon#//@repositories.0/@features.0"/>
     <features href="egit.aggrcon#//@repositories.0/@features.7"/>
-    <features href="egit.aggrcon#//@repositories.0/@features.10"/>
+    <features href="egit.aggrcon#//@repositories.0/@features.8"/>
+    <features href="egit.aggrcon#//@repositories.0/@features.0"/>
+    <features href="egit.aggrcon#//@repositories.0/@features.6"/>
+    <features href="egit.aggrcon#//@repositories.0/@features.9"/>
   </customCategories>
   <customCategories identifier="Database Development" label="Database Development" description="Tools to define and access a wide variety of databases.">
     <features href="dtp.aggrcon#//@repositories.0/@features.0"/>
