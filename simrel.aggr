@@ -504,27 +504,33 @@
     <features href="cft.aggrcon#//@repositories.0/@features.2"/>
     <features href="cft.aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
+  <contacts name="Abel Hegedus" email="abel.hegedus@incquerylabs.com"/>
   <contacts name="Adolfo Sanchez-Barbudo Herrera" email="adolfosbh@gmail.com"/>
+  <contacts name="Adrian Sacchi" email="adrian.sacchi@bsiag.com"/>
   <contacts name="Alex Boyko" email="aboyko@ca.ibm.com"/>
   <contacts name="Alex Kurtakov" email="akurtako@redhat.com"/>
   <contacts name="Alex Lagarde" email="alex.lagarde@obeo.fr"/>
   <contacts name="Alexander Fedorov" email="alexander.fedorov@arsysop.ru"/>
   <contacts name="Alexander Gurov" email="alexander.gurov@polarion.com"/>
   <contacts name="Alexander Nyssen" email="alexander.nyssen@itemis.de"/>
+  <contacts name="Alexandre Montplaisir" email="alexmonthy@voxpopuli.im"/>
   <contacts name="Alexei Trebounskikh" email="alexei.trebounskikh@tasktop.com"/>
   <contacts name="Andreas Hoegger" email="andreas.hoegger@bsiag.com"/>
   <contacts name="Andreas Sewe" email="andreas.sewe@codetrails.com"/>
+  <contacts name="Andrej Podhradsky" email="apodhrad@redhat.com"/>
+  <contacts name="Angelo Zerr" email="angelozerr@gmail.com"/>
   <contacts name="Anthony Hunter" email="anthonyh@ca.ibm.com"/>
   <contacts name="Antoine Toulme" email="antoine@lunar-ocean.com"/>
   <contacts name="Artem Tikhomirov" email="tikhomirov.artem@gmail.com"/>
+  <contacts name="Arthur van Dorp" email="arthur.vandorp@bsi-software.com"/>
   <contacts name="Ashwani Kr Sharma" email="ashw.kumar@gmail.com"/>
-  <contacts name="Ben Gamble" email="bgamble@actuate.com"/>
   <contacts name="Benjamin Cabe" email="BCabe@sierrawireless.com"/>
   <contacts name="Benjamin Muskalla" email="benjamin.muskalla@tasktop.com"/>
   <contacts name="Benoit Langlois" email="benoit.langlois@thalesgroup.com"/>
+  <contacts name="Bernd Hufmann" email="bernd.hufmann@ericsson.com"/>
   <contacts name="Beth Tibbitts" email="beth@tibweb.com"/>
-  <contacts name="Brian de Alwis" email="bsd@mt.ca"/>
   <contacts name="Brian Payton" email="bpayton@us.ibm.com"/>
+  <contacts name="Brian de Alwis" email="bsd@mt.ca"/>
   <contacts name="Camille Letavernier" email="camille.letavernier@cea.fr"/>
   <contacts name="Carl Anderson" email="ccc@us.ibm.com"/>
   <contacts name="Carsten Reckord" email="reckord@yatta.de"/>
@@ -541,18 +547,28 @@
   <contacts name="David Green" email="david.green@tasktop.com"/>
   <contacts name="David Slater" email="david.slater@tasktop.com"/>
   <contacts name="David Williams" email="david_williams@acm.org"/>
+  <contacts name="Dawid Pakula" email="zulus@w3des.net"/>
   <contacts name="Dennis Huebner" email="dennis.huebner@typefox.io"/>
   <contacts name="Dennis Wagelaar" email="dwagelaar@gmail.com"/>
   <contacts name="Diego Sandin" email="diegosandin@gmail.com"/>
+  <contacts name="Donat Csikos" email="donat@gradle.com"/>
   <contacts name="Doug Schaefer" email="dschaefer@blackberry.com"/>
   <contacts name="EMF TENEO Build Team" email="mtaal@elver.org"/>
   <contacts name="EMF TRANSACTION Build Team" email="boris.gruschko@sap.com"/>
   <contacts name="EMFT MINT Build Team" email="pnehrer@eclipticalsoftware.com"/>
+  <contacts name="Ed Merks" email="ed.merks@gmail.com"/>
   <contacts name="Ed Willink" email="ed@willink.me.uk"/>
+  <contacts name="Edgar Mueller" email="emueller@eclipsesource.com"/>
   <contacts name="Eike Stepper" email="stepper@esc-net.de"/>
+  <contacts name="Elson Yuen" email="eyuen@ca.ibm.com"/>
   <contacts name="Eric Cloninger" email="ericc@motorola.com"/>
   <contacts name="Eric Gwin" email="eric.gwin@oracle.com"/>
   <contacts name="Erwin Margewitsch" email="erwin.margewitsch@sap.com"/>
+  <contacts name="Etienne Studer" email="etienne@gradle.com"/>
+  <contacts name="Eugene Tarassov" email="eugenet@xilinx.com"/>
+  <contacts name="Evgeny Mandrikov" email="mandrikov@gmail.com"/>
+  <contacts name="Fabien Giquel" email="fgiquel@mia-software.com"/>
+  <contacts name="Francesco Guidieri" email="francesco.guidieri@gmail.com"/>
   <contacts name="Francois Le Fevre" email="francois.le-fevre@cea.fr"/>
   <contacts name="Fred Bricon" email="fbricon@gmail.com"/>
   <contacts name="Frederic Gurr" email="frederic.gurr@eclipse.org"/>
@@ -573,8 +589,13 @@
   <contacts name="Jacek Pospychela" email="jacek.pospychala@gmail.com"/>
   <contacts name="Jacques Bouthillier" email="lmcbout@gmail.com"/>
   <contacts name="Jeff Johnston" email="jjohnstn@redhat.com"/>
+  <contacts name="Johannes Faltermeier" email="jfaltermeier@eclipsesource.com"/>
   <contacts name="Johannes Lerch" email="lerch@cs.tu-darmstadt.de"/>
+  <contacts name="John Ward" email="jward@opentext.com"/>
+  <contacts name="Jonah Graham" email="jonah@kichwacoders.com"/>
+  <contacts name="Juan Fernandez" email="juanf@opentext.com"/>
   <contacts name="Kaloyan Raev" email="kaloyan.r@zend.com"/>
+  <contacts name="Karsten Thoms" email="karsten.thoms@itemis.de"/>
   <contacts name="Kenn Hussey" email="Kenn.Hussey@gmail.com"/>
   <contacts name="Kentarou Fukuda" email="kentarou@jp.ibm.com"/>
   <contacts name="Kevin Kin-Foo" email="kkinfoo@sierrawireless.com"/>
@@ -582,97 +603,79 @@
   <contacts name="Krum Tsvetkov" email="krum.tsvetkov@sap.com"/>
   <contacts name="Laurent Redor" email="laurent.redor@obeo.fr"/>
   <contacts name="Laurent goubet" email="laurent.goubet@obeo.fr"/>
+  <contacts name="Lorenzo Bettini" email="lorenzo.bettini@gmail.com"/>
+  <contacts name="M&#xe9;lanie Bats" email="melanie.bats@obeo.fr"/>
   <contacts name="M2T JET Build Team" email="pelder@ca.ibm.com"/>
   <contacts name="Manuel Bork" email="manuel.bork@yatta.de"/>
+  <contacts name="Marc-Andre Laperle" email="marc-andre.laperle@ericsson.com"/>
   <contacts name="Marcel Augusto Gorri" email="wmg040@motorola.com"/>
   <contacts name="Marcel Bruch" email="marcel.bruch@codetrails.com"/>
   <contacts name="Marcel Hein" email="Marcel.Hein@bredex.de"/>
   <contacts name="Mark R Russell" email="mrrussell@google.com"/>
   <contacts name="Markus Knauer" email="mknauer@eclipsesource.com"/>
-  <contacts name="Marvin Mueller" email="Marvin.Mueller@bredex.de"/>
   <contacts name="Martin Oberhuber" email="mober.at+eclipse@gmail.com"/>
-  <contacts name="chezy" email="chezy@actuate.com"/>
-  <contacts name="Matthias Sohn" email="matthias.sohn@sap.com"/>
+  <contacts name="Marvin Mueller" email="Marvin.Mueller@bredex.de"/>
   <contacts name="Matthias Sohn" email="matthias.sohn@gmail.com"/>
+  <contacts name="Matthias Sohn" email="matthias.sohn@sap.com"/>
   <contacts name="Matthias Villiger" email="mvi@bsiag.com"/>
+  <contacts name="Matthias Wienand" email="matthias.wienand@itemis.de"/>
   <contacts name="Michael Golubev" email="borlander@gmail.com"/>
   <contacts name="Michael Wenz" email="michael.wenz@sap.com"/>
   <contacts name="Michal Ruzicka" email="michal.ruzicka@cloudsmith.com"/>
   <contacts name="Mickael Istria" email="mistria@redhat.com"/>
+  <contacts name="Mihail Mihaylov" email="mmihaylo@opentext.com"/>
   <contacts name="Mik Kersten" email="mik.kersten@tasktop.com"/>
   <contacts name="Miles Parker" email="milesparker@gmail.com"/>
   <contacts name="Nick Boldt" email="nboldt@redhat.com"/>
   <contacts name="Nicolas Bros" email="nbros.mia@gmail.com"/>
+  <contacts name="Nieraj Singh" email="nsingh@pivotal.io"/>
+  <contacts name="Nikhil Nanivadekar" email="nikhil.nanivadekar@gs.com"/>
   <contacts name="Oisin Hurley" email="oisin.hurley@gmail.com"/>
   <contacts name="Olivier Constant" email="olivier.constant@thalesgroup.com"/>
+  <contacts name="Ondrej Dockal" email="odockal@redhat.com"/>
   <contacts name="Pascal Rapicault" email="pascal@rapicorp.com"/>
+  <contacts name="Patrick B&#xe4;nziger" email="patrick.baenziger@bsi-software.com"/>
   <contacts name="Patrick Tasse" email="patrick.tasse@gmail.com"/>
+  <contacts name="Paul Leacu" email="pleacu@redhat.com"/>
   <contacts name="Pauline Deville" email="pauline.deville@cea.fr"/>
   <contacts name="Pierre-Charles David" email="pierre-charles.david@obeo.fr"/>
   <contacts name="Quentin Le Menez" email="quentin.lemenez@cea.fr"/>
   <contacts name="Radek Dvorak" email="dvorak.radek@gmail.com"/>
+  <contacts name="Rastislav Wagner" email="rawagner@redhat.com"/>
   <contacts name="Reiner Hille-Doering" email="reiner.hille-doering@sap.com"/>
   <contacts name="Remi Schnekenburger" email="remi.schnekenburger@cea.fr"/>
-  <contacts name="Paul Leacu" email="pleacu@redhat.com"/>
-  <contacts name="Thorsten Schenkel" email="Thorsten.Schenkel@compeople.de"/>
+  <contacts name="Ritesh Motlani" email="rmotlani@opentext.com"/>
   <contacts name="Sam Davis" email="sam.davis@tasktop.com"/>
   <contacts name="Scott Lewis" email="slewis@composent.com"/>
   <contacts name="Sergey Boyko" email="serg.boyko2011@gmail.com"/>
   <contacts name="Shawn Pearce" email="sop@google.com"/>
   <contacts name="Simon Bernard" email="sbernard@sierrawireless.com"/>
   <contacts name="Simone Seurer" email="simone.seurer@sungard.com"/>
+  <contacts name="Sravan Kumar Lakkimsetti" email="sravankumarl@in.ibm.com"/>
+  <contacts name="St&#xe9;phane Bouchet" email="stephane.bouchet@obeo.fr"/>
+  <contacts name="Stefan Oehme" email="stefan@gradle.com"/>
   <contacts name="Steffen Pingel" email="steffen.pingel@tasktop.com"/>
   <contacts name="Stephan Eberle" email="stephaneberle9@gmail.com"/>
   <contacts name="Stephan Herrmann" email="stephan.herrmann@berlin.de"/>
   <contacts name="Stephane Begaudeau" email="stephane.begaudeau@obeo.fr"/>
   <contacts name="Stephane Drapeau" email="stephane.drapeau@obeo.fr"/>
-  <contacts name="St&#xe9;phane Bouchet" email="stephane.bouchet@obeo.fr"/>
   <contacts name="Sven Rottstock" email="sven.rottstock@sungard.com"/>
   <contacts name="Thomas Guiu" email="thomas.guiu@soyatec.com"/>
   <contacts name="Thomas Hallgren" email="thomas@tada.se"/>
+  <contacts name="Thorsten Schenkel" email="Thorsten.Schenkel@compeople.de"/>
+  <contacts name="Tom Schindl" email="tom.schindl@bestsolution.at"/>
   <contacts name="Tomasz Zarna" email="tomasz.zarna@tasktop.com"/>
+  <contacts name="Vasili Gulevich" email="vasili.gulevich@xored.com"/>
+  <contacts name="Viktoria Dlugopolskaya" email="viktoria.dlugopolskaya@xored.com"/>
   <contacts name="Vincent Lorenzo" email="vincent.lorenzo@cea.fr"/>
   <contacts name="Vincent Zurczak" email="vincent.zurczak@linagora.com"/>
+  <contacts name="Vincenzo Caselli" email="vincenzo.caselli@rcp-vision.com"/>
   <contacts name="Wayne Beaton" email="wayne@eclipse.org"/>
   <contacts name="William Piers" email="william.piers@obeo.fr"/>
   <contacts name="Wim Jongman" email="wim.jongman@remainsoftware.com"/>
   <contacts name="Xtext, Xpand, MWE Build Team" email="eclipse@typefox.io"/>
   <contacts name="Yong Jiang" email="yjiang@actuate.com"/>
-  <contacts name="Johannes Faltermeier" email="jfaltermeier@eclipsesource.com"/>
+  <contacts name="Yulin Wang" email="wangy@opentext.com"/>
   <contacts name="Yves YANG" email="yves.yang@soyatec.com"/>
-  <contacts name="Adrian Sacchi" email="adrian.sacchi@bsiag.com"/>
-  <contacts name="Tom Schindl" email="tom.schindl@bestsolution.at"/>
-  <contacts name="Edgar Mueller" email="emueller@eclipsesource.com"/>
-  <contacts name="Dawid Pakula" email="zulus@w3des.net"/>
-  <contacts name="Alexandre Montplaisir" email="alexmonthy@voxpopuli.im"/>
-  <contacts name="Bernd Hufmann" email="bernd.hufmann@ericsson.com"/>
-  <contacts name="Marc-Andre Laperle" email="marc-andre.laperle@ericsson.com"/>
-  <contacts name="Vasili Gulevich" email="vasili.gulevich@xored.com"/>
-  <contacts name="Viktoria Dlugopolskaya" email="viktoria.dlugopolskaya@xored.com"/>
-  <contacts name="Etienne Studer" email="etienne@gradle.com"/>
-  <contacts name="Donat Csikos" email="donat@gradle.com"/>
-  <contacts name="Stefan Oehme" email="stefan@gradle.com"/>
-  <contacts name="Nieraj Singh" email="nsingh@pivotal.io"/>
-  <contacts name="Elson Yuen" email="eyuen@ca.ibm.com"/>
-  <contacts name="Lorenzo Bettini" email="lorenzo.bettini@gmail.com"/>
-  <contacts name="Francesco Guidieri" email="francesco.guidieri@gmail.com"/>
-  <contacts name="Vincenzo Caselli" email="vincenzo.caselli@rcp-vision.com"/>
-  <contacts name="Patrick B&#xe4;nziger" email="patrick.baenziger@bsi-software.com"/>
-  <contacts name="Arthur van Dorp" email="arthur.vandorp@bsi-software.com"/>
-  <contacts name="Sravan Kumar Lakkimsetti" email="sravankumarl@in.ibm.com"/>
-  <contacts name="Abel Hegedus" email="abel.hegedus@incquerylabs.com"/>
   <contacts name="Zoltan Ujhelyi" email="ujhelyiz@incquerylabs.com"/>
-  <contacts name="Evgeny Mandrikov" email="mandrikov@gmail.com"/>
-  <contacts name="M&#xe9;lanie Bats" email="melanie.bats@obeo.fr"/>
-  <contacts name="Nikhil Nanivadekar" email="nikhil.nanivadekar@gs.com"/>
-  <contacts name="Eugene Tarassov" email="eugenet@xilinx.com"/>
-  <contacts name="Angelo Zerr" email="angelozerr@gmail.com"/>
-  <contacts name="Rastislav Wagner" email="rawagner@redhat.com"/>
-  <contacts name="Andrej Podhradsky" email="apodhrad@redhat.com"/>
-  <contacts name="Ondrej Dockal" email="odockal@redhat.com"/>
-  <contacts name="Ed Merks" email="ed.merks@gmail.com"/>
-  <contacts name="Jonah Graham" email="jonah@kichwacoders.com"/>
-  <contacts name="Karsten Thoms" email="karsten.thoms@itemis.de"/>
-  <contacts name="Matthias Wienand" email="matthias.wienand@itemis.de"/>
-  <contacts name="Fabien Giquel" email="fgiquel@mia-software.com"/>
 </aggregator:Aggregation>

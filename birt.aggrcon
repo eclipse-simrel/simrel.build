@@ -23,6 +23,9 @@
       <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='bgamble@actuate.com']"/>
-  <contacts href="simrel.aggr#//@contacts[email='chezy@actuate.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='mmihaylo@opentext.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='rmotlani@opentext.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='wangy@opentext.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='jward@opentext.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='juanf@opentext.com']"/>
 </aggregator:Contribution>
