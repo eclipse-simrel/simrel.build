@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="GEF">
-  <repositories location="http://download.eclipse.org/tools/gef/updates/legacy/releases/4.0.0_gef-master_1952" description="GEF-Legacy releases">
+  <repositories location="https://download.eclipse.org/tools/gef/updates/legacy/releases/4.0.0_gef-master_1952" description="GEF-Legacy releases">
     <features name="org.eclipse.gef.sdk.feature.group" versionRange="[3.11.0.201606061308]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
@@ -8,7 +8,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/tools/gef/updates/milestones/5.1.0M2_gef-master_5449" description="GEF Milestones">
+  <repositories location="https://download.eclipse.org/tools/gef/updates/milestones/5.1.0M2_gef-master_5449" description="GEF Milestones">
     <features name="org.eclipse.gef.common.sdk.feature.group" versionRange="[5.0.0.201905091638]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
@@ -43,7 +43,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
   </repositories>
-  <repositories location="http://download.eclipse.org/efxclipse/runtime-released/3.5.0/site/" description="e(fx)clipse (bundled by GEF)">
+  <repositories location="https://download.eclipse.org/efxclipse/runtime-released/3.5.0/site/" description="e(fx)clipse (bundled by GEF)">
     <features name="org.eclipse.fx.runtime.min.feature.feature.group" versionRange="[3.5.0.201902220600]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
