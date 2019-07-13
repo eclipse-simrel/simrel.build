@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" enabled="false" label="QVT Declarative for 2019-06">
-  <repositories location="https://download.eclipse.org/mmt/qvtd/updates/releases/0.19.0" description="QVT Declarative">
-    <features name="org.eclipse.qvtd.master.feature.group" versionRange="[0.19.0,1.0.0)">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="QVT Declarative for 2019-09">
+  <repositories location="https://download.eclipse.org/mmt/qvtd/updates/milestones/0.20.0/S201907131550" description="QVT Declarative">
+    <features name="org.eclipse.qvtd.master.feature.group" versionRange="[0.20.0,1.0.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.qvtd.master.source.feature.group" versionRange="[0.19.0,1.0.0)">
+    <features name="org.eclipse.qvtd.master.source.feature.group" versionRange="[0.20.0,1.0.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
