@@ -31,7 +31,5 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='sop@google.com']"/>
-  <contacts href="simrel.aggr#//@contacts[email='caniszczyk@gmail.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='matthias.sohn@gmail.com']"/>
 </aggregator:Contribution>
