@@ -3,7 +3,6 @@
   <validationSets label="main">
     <contributions href="equinox.aggrcon#/"/>
     <contributions href="cft.aggrcon#/"/>
-    <contributions href="PMF.aggrcon#/"/>
     <contributions href="ep.aggrcon#/"/>
     <contributions href="emf-emf.aggrcon#/"/>
     <contributions href="ecf.aggrcon#/"/>
@@ -350,8 +349,6 @@
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.7"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.9"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.11"/>
-    <features href="PMF.aggrcon#//@repositories.0/@features.0"/>
-    <features href="PMF.aggrcon#//@repositories.0/@features.1"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.1"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.3"/>
     <features href="qvto.aggrcon#//@repositories.0/@features.1"/>
