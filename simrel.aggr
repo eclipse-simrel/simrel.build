@@ -76,6 +76,7 @@
     <contributions href="corrosion.aggrcon#/"/>
     <contributions href="wildwebdeveloper.aggrcon#/"/>
     <contributions href="passage.aggrcon#/"/>
+    <contributions href="modisco.aggrcon#/"/>
   </validationSets>
   <validationSets description="EclipseRT Project RAP" label="runtime">
     <contributions href="emf-emf-rap.aggrcon#/"/>
@@ -355,6 +356,8 @@
     <features href="qvto.aggrcon#//@repositories.0/@features.2"/>
     <features href="qvtd.aggrcon#//@repositories.0/@features.1"/>
     <features href="viatra.aggrcon#//@repositories.0/@features.1"/>
+    <features href="modisco.aggrcon#//@repositories.0/@features.0"/>
+    <features href="modisco.aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="Performance, Profiling and Tracing Tools" label="Performance, Profiling and Tracing Tools" description="Tools to assit analysis of running code.">
     <features href="tracecompass.aggrcon#//@repositories.0/@features.1"/>
