@@ -104,14 +104,6 @@
     <features href="ep.aggrcon#//@repositories.0/@features.0"/>
     <features href="collections.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
-  <customCategories identifier="Business Intelligence, Reporting and Charting" label="Business Intelligence, Reporting and Charting" description="Tools to visualize information, create data-driven web pages, PDF documents and other content using data from a wide variety of sources.">
-    <features href="birt.aggrcon#//@repositories.0/@features.0"/>
-    <features href="birt.aggrcon#//@repositories.0/@features.1"/>
-    <features href="birt.aggrcon#//@repositories.0/@features.2"/>
-    <features href="birt.aggrcon#//@repositories.0/@features.3"/>
-    <features href="birt.aggrcon#//@repositories.0/@features.4"/>
-    <features href="birt.aggrcon#//@repositories.0/@features.5"/>
-  </customCategories>
   <customCategories identifier="Collaboration" label="Collaboration" description="Tools to foster collaboration between developers.">
     <features href="ep.aggrcon#//@repositories.0/@features.2"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.0"/>
@@ -194,7 +186,6 @@
     <features href="rap.aggrcon#//@repositories.0/@features.3"/>
     <features href="emf-emf.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf-rap.aggrcon#//@repositories.0/@features.0"/>
-    <features href="birt.aggrcon#//@repositories.0/@features.6"/>
     <features href="objectteams.aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-emf.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
@@ -242,8 +233,6 @@
     <features href="m2e.aggrcon#//@repositories.0/@features.2"/>
     <features href="XWT.aggrcon#//@repositories.0/@features.0"/>
     <features href="XWT.aggrcon#//@repositories.0/@features.1"/>
-    <features href="XWT.aggrcon#//@repositories.0/@features.2"/>
-    <features href="XWT.aggrcon#//@repositories.0/@features.3"/>
     <features href="ptp.aggrcon#//@repositories.1/@features.0"/>
     <features href="oomph.aggrcon#//@repositories.0/@features.0"/>
     <features href="oomph.aggrcon#//@repositories.0/@features.1"/>
@@ -416,8 +405,6 @@
     <features href="webtools.aggrcon#//@repositories.0/@features.2"/>
     <features href="XWT.aggrcon#//@repositories.0/@features.0"/>
     <features href="XWT.aggrcon#//@repositories.0/@features.1"/>
-    <features href="XWT.aggrcon#//@repositories.0/@features.2"/>
-    <features href="XWT.aggrcon#//@repositories.0/@features.3"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
@@ -488,7 +475,6 @@
     <features href="webtools.aggrcon#//@repositories.0/@features.22"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.23"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.24"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.25"/>
     <features href="webtools.aggrcon#//@repositories.2/@features.0"/>
     <features href="webtools.aggrcon#//@repositories.2/@features.1"/>
     <features href="webtools.aggrcon#//@repositories.2/@features.2"/>
