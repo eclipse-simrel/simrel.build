@@ -54,19 +54,19 @@
     <features name="org.eclipse.linuxtools.dataviewers.feature.source.feature.group" versionRange="[7.5.0.201912060402,7.5.1)"/>
     <features name="org.eclipse.linuxtools.man.source.feature.group" versionRange="[7.5.0.201912060402,7.5.1)"/>
   </repositories>
-  <repositories location="https://download.eclipse.org/linuxtools/update-2019-12-docker-rc2" description="Linux Tools Docker Support Updates">
-    <features name="org.eclipse.linuxtools.docker.feature.feature.group" versionRange="[4.5.0.201912060402,4.5.1)">
+  <repositories location="https://download.eclipse.org/linuxtools/update-2019-12-docker-rc2a" description="Linux Tools Docker Support Updates">
+    <features name="org.eclipse.linuxtools.docker.feature.feature.group" versionRange="[4.5.0.201912091550,4.5.1)">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.linuxtools.vagrant.feature.feature.group" versionRange="[4.5.0.201912060402,4.5.1)">
+    <features name="org.eclipse.linuxtools.vagrant.feature.feature.group" versionRange="[4.5.0.201912091550,4.5.1)">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.linuxtools.jdt.docker.launcher.feature.feature.group" versionRange="[4.5.0.201912060402,4.5.1)">
+    <features name="org.eclipse.linuxtools.jdt.docker.launcher.feature.feature.group" versionRange="[4.5.0.201912091550,4.5.1)">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.linuxtools.docker.feature.source.feature.group" versionRange="[4.5.0.201912060402,4.5.1)"/>
-    <features name="org.eclipse.linuxtools.vagrant.feature.source.feature.group" versionRange="[4.5.0.201912060402,4.5.1)"/>
-    <features name="org.eclipse.linuxtools.jdt.docker.launcher.feature.source.feature.group" versionRange="[4.5.0.201912060402,4.5.1)"/>
+    <features name="org.eclipse.linuxtools.docker.feature.source.feature.group" versionRange="[4.5.0.201912091550,4.5.1)"/>
+    <features name="org.eclipse.linuxtools.vagrant.feature.source.feature.group" versionRange="[4.5.0.201912091550,4.5.1)"/>
+    <features name="org.eclipse.linuxtools.jdt.docker.launcher.feature.source.feature.group" versionRange="[4.5.0.201912091550,4.5.1)"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='jjohnstn@redhat.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='akurtako@redhat.com']"/>
