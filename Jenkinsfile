@@ -4,7 +4,7 @@ pipeline {
         maven 'apache-maven-latest'
     }
     environment {
-        TRAIN_NAME = "2019-12"
+        TRAIN_NAME = "2020-03"
         STAGING_DIR = "/home/data/httpd/download.eclipse.org/staging/${TRAIN_NAME}"
     }
     stages {
@@ -51,6 +51,11 @@ pipeline {
                 sh 'ls -al ${STAGING_DIR}'
                 // Trigger EPP job
                 sh 'curl https://ci.eclipse.org/packaging/job/simrel.epp-tycho-build/buildWithParameters?token=Yah6CohtYwO6b?6P'
+            }
+         }
+         stage('Start repository analysis') {
+            steps {
+                build job: 'simrel.oomph.repository-analyzer.test', parameters: [booleanParam(name: 'PROMOTE', value: true)], wait: false
             }
          }
     }
