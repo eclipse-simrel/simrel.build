@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="CDT">
-  <repositories location="https://download.eclipse.org/tools/cdt/builds/9.10/cdt-9.10.0-simrel-2019-12-rc2/" description="CDT updates">
+  <repositories location="https://download.eclipse.org/tools/cdt/releases/9.10/cdt-9.10.0/" description="CDT updates">
     <bundles name="org.eclipse.cdt.core.linux" versionRange="[5.3.1.201811241055]"/>
     <bundles name="org.eclipse.cdt.core.linux.x86_64" versionRange="[5.3.1.201811241055]"/>
     <bundles name="org.eclipse.cdt.core.macosx" versionRange="[5.3.1.201811241055]"/>
@@ -66,7 +66,7 @@
     <features name="org.eclipse.cdt.debug.dap.feature.group" versionRange="[9.10.0.201912090217]"/>
     <features name="org.eclipse.cdt.debug.dap.gdbjtag.feature.group" versionRange="[9.10.0.201910281707]"/>
   </repositories>
-  <repositories location="https://download.eclipse.org/tools/cdt/launchbar/2.4/launchbar-2.4.1-simrel-2019-12-m3/" description="LaunchBar Updates">
+  <repositories location="https://download.eclipse.org/tools/cdt/launchbar/2.4/launchbar-2.4.1/" description="LaunchBar Updates">
     <features name="org.eclipse.launchbar.feature.group" versionRange="[2.4.1.201911192211]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
