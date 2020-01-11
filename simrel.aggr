@@ -277,6 +277,7 @@
     <features href="gmp-gmf-runtime.aggrcon#//@repositories.1/@features.0"/>
     <features href="gmp-gmf-runtime.aggrcon#//@repositories.0/@features.0"/>
     <features href="mdt-uml2.aggrcon#//@repositories.0/@features.0"/>
+    <features href="mdt-uml2.aggrcon#//@repositories.0/@features.1"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.0"/>
     <features href="m2t-acceleo.aggrcon#//@repositories.0/@features.0"/>
     <features href="qvto.aggrcon#//@repositories.0/@features.0"/>
