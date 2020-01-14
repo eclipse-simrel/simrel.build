@@ -242,7 +242,6 @@
     <features href="oomph.aggrcon#//@repositories.0/@features.5"/>
     <features href="epp-logging.aggrcon#//@repositories.0/@features.0"/>
     <features href="ep.aggrcon#//@repositories.0/@features.1"/>
-    <features href="cdt.aggrcon#//@repositories.1/@features.0"/>
     <features href="ptp.aggrcon#//@repositories.1/@features.1"/>
     <features href="buildship.aggrcon#//@repositories.0/@features.0"/>
     <features href="lsp4j.aggrcon#//@repositories.0/@features.0"/>
@@ -253,6 +252,7 @@
     <features href="tm.aggrcon#//@repositories.0/@features.3"/>
     <features href="tm.aggrcon#//@repositories.0/@features.4"/>
     <features href="ep.aggrcon#//@repositories.0/@features.6"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.29"/>
   </customCategories>
   <customCategories identifier="License Management" label="License Management" description="Tools used to declare and control licensing constraints">
     <features href="passage.aggrcon#//@repositories.0/@features.0"/>
