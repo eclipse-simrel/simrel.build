@@ -9,15 +9,6 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.tm.terminal.connector.cdtserial.feature.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
-    </features>
-    <features name="org.eclipse.tm.terminal.connector.remote.feature.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
-    </features>
-    <features name="org.eclipse.tm.terminal.feature.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
-    </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='nboldt@redhat.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='kaloyan.r@zend.com']"/>
