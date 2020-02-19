@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="m2e-wtp" label="m2e-wtp">
-  <repositories location="https://download.eclipse.org/m2e-wtp/milestones/1.4/1.4.3.20191209-1849" description="m2e-wtp 1.4.x build repo">
+  <repositories location="https://download.eclipse.org/m2e-wtp/milestones/1.4/1.4.4.20200220-1005" description="m2e-wtp 1.4.x build repo">
     <features name="org.eclipse.m2e.wtp.feature.feature.group" versionRange="1.4.3">
       <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
@@ -10,7 +10,7 @@
     <features name="org.eclipse.m2e.wtp.jsf.feature.feature.group" versionRange="1.4.3">
       <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
-    <features name="org.sonatype.m2e.mavenarchiver.feature.feature.group" versionRange="0.17.4">
+    <features name="org.sonatype.m2e.mavenarchiver.feature.feature.group" versionRange="0.17.5">
       <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
     <features name="org.eclipse.m2e.wtp.jpa.feature.feature.group" versionRange="1.4.3">
