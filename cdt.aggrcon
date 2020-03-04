@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="CDT">
-  <repositories location="https://download.eclipse.org/tools/cdt/builds/9.11/cdt-9.11.0-2020-03-m3" description="CDT updates">
+  <repositories location="https://download.eclipse.org/tools/cdt/builds/9.11/cdt-9.11.0-2020-03-rc1" description="CDT updates">
     <bundles name="org.eclipse.cdt.core.linux" versionRange="[5.3.100.202002181755]"/>
     <bundles name="org.eclipse.cdt.core.linux.x86_64" versionRange="[5.3.1.201811241055]"/>
     <bundles name="org.eclipse.cdt.core.macosx" versionRange="[5.3.1.201811241055]"/>
     <bundles name="org.eclipse.cdt.core.win32" versionRange="[5.4.2.201811241055]"/>
-    <features name="org.eclipse.cdt.feature.group" versionRange="[9.11.0.202002181755]">
+    <features name="org.eclipse.cdt.feature.group" versionRange="[9.11.0.202003021747]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.sdk.feature.group" versionRange="[9.11.0.202002181755]">
+    <features name="org.eclipse.cdt.sdk.feature.group" versionRange="[9.11.0.202003021747]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.cdt.debug.gdbjtag.feature.group" versionRange="[9.11.0.202002172030]">
@@ -24,7 +24,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.cdt.xlc.sdk.feature.group" versionRange="[9.11.0.202001092011]"/>
-    <features name="org.eclipse.cdt.platform.feature.group" versionRange="[9.11.0.202002181755]"/>
+    <features name="org.eclipse.cdt.platform.feature.group" versionRange="[9.11.0.202003021747]"/>
     <features name="org.eclipse.cdt.debug.ui.memory.feature.group" versionRange="[9.11.0.202002041243]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
@@ -51,7 +51,7 @@
     <features name="org.eclipse.cdt.managedbuilder.llvm.feature.group" versionRange="[9.11.0.202002151231]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.gnu.multicorevisualizer.feature.group" versionRange="[9.11.0.202002041243]">
+    <features name="org.eclipse.cdt.gnu.multicorevisualizer.feature.group" versionRange="[9.11.0.202003021149]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.cdt.docker.launcher.feature.group" versionRange="[9.11.0.202002041243]">
@@ -77,7 +77,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
     <features name="org.eclipse.launchbar.remote.feature.group" versionRange="[2.4.100.202001141724]"/>
-    <features name="org.eclipse.cdt.meson.feature.group" versionRange="[9.11.0.202002042042]"/>
+    <features name="org.eclipse.cdt.meson.feature.group" versionRange="[9.11.0.202003031708]"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='jonah@kichwacoders.com']"/>
 </aggregator:Contribution>
