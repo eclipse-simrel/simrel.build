@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="OCL for 2020-03">
-  <repositories location="https://download.eclipse.org/modeling/mdt/ocl/updates/milestones/6.11.0/S202002241248" description="OCL">
+  <repositories location="https://download.eclipse.org/modeling/mdt/ocl/updates/releases/6.11.0" description="OCL">
     <features name="org.eclipse.ocl.all.sdk.feature.group" versionRange="[5.11.0,5.12.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
