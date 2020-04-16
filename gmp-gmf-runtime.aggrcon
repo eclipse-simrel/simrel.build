@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="GMF Runtime for SimRel 2020-03">
-  <repositories location="https://download.eclipse.org/modeling/gmp/gmf-runtime/updates/releases/R201912020813" description="GMF Runtime milestones">
-    <features name="org.eclipse.gmf.feature.group" versionRange="[1.12.2.201912020813]">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="GMF Runtime 1.13.0 for SimRel 2020-06">
+  <repositories location="https://download.eclipse.org/modeling/gmp/gmf-runtime/updates/releases/R202004160913" description="GMF Runtime">
+    <features name="org.eclipse.gmf.feature.group" versionRange="[1.13.0.202004160913]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.gmf.runtime.sdk.feature.group" versionRange="[1.12.2.201912020813]">
+    <features name="org.eclipse.gmf.runtime.sdk.feature.group" versionRange="[1.13.0.202004160913]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="https://download.eclipse.org/modeling/gmp/gmf-notation/updates/releases/R201805221301" description="GMF Notation milestones">
-    <features name="org.eclipse.gmf.runtime.notation.sdk.feature.group" versionRange="[1.12.0.201805221301]">
+  <repositories location="https://download.eclipse.org/modeling/gmp/gmf-notation/updates/releases/R202004160913" description="GMF Notation">
+    <features name="org.eclipse.gmf.runtime.notation.sdk.feature.group" versionRange="[1.13.0.202004160913]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
