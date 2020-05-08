@@ -230,6 +230,7 @@
     <features href="ptp.aggrcon#//@repositories.0/@features.7"/>
     <features href="ptp.aggrcon#//@repositories.0/@features.8"/>
     <features href="m2e.aggrcon#//@repositories.0/@features.2"/>
+    <features href="m2e.aggrcon#//@repositories.0/@features.3"/>
     <features href="xwt.aggrcon#//@repositories.0/@features.0"/>
     <features href="xwt.aggrcon#//@repositories.0/@features.1"/>
     <features href="ptp.aggrcon#//@repositories.1/@features.0"/>
