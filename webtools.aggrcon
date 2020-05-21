@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution label="Web Tools Platform 3.18 for Simrel 2020-06" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Web Tools Platform 3.18 for Simrel 2020-06">
   <repositories location="http://download.eclipse.org/webtools/downloads/drops/R3.18.0/3.18.0.M2-20200430031435/repository/" description="Web Tools Platform 3.18 M2">
     <features name="org.eclipse.wst.xml_ui.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
