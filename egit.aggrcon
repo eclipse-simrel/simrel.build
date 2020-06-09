@@ -1,33 +1,39 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EGit">
-  <repositories location="https://repo.eclipse.org/content/unzip/releases.unzip/org/eclipse/egit/org.eclipse.egit.repository/5.8.0.202005061305-m2/org.eclipse.egit.repository-5.8.0.202005061305-m2.zip-unzip/" description="EGit Updates">
-    <features name="org.eclipse.jgit.feature.group" versionRange="[5.8.0.202005061305-m2]">
+  <repositories location="https://download.eclipse.org/egit/updates-5.8" description="EGit Updates">
+    <features name="org.eclipse.jgit.feature.group" versionRange="[5.8.0.202006091008-r]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.jgit.pgm.feature.group" versionRange="[5.8.0.202005061305-m2]"/>
-    <features name="org.eclipse.egit.feature.group" versionRange="[5.8.0.202005061305-m2]">
+    <features name="org.eclipse.jgit.pgm.feature.group" versionRange="[5.8.0.202006091008-r]"/>
+    <features name="org.eclipse.egit.feature.group" versionRange="[5.8.0.202006091008-r]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.egit.mylyn.feature.group" versionRange="[5.8.0.202005061305-m2]">
+    <features name="org.eclipse.egit.mylyn.feature.group" versionRange="[5.8.0.202006091008-r]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.egit.source.feature.group" versionRange="[5.8.0.202005061305-m2]"/>
-    <features name="org.eclipse.jgit.source.feature.group" versionRange="[5.8.0.202005061305-m2]"/>
-    <features name="org.eclipse.jgit.http.apache.feature.group" versionRange="[5.8.0.202005061305-m2]">
+    <features name="org.eclipse.egit.source.feature.group" versionRange="[5.8.0.202006091008-r]"/>
+    <features name="org.eclipse.jgit.source.feature.group" versionRange="[5.8.0.202006091008-r]"/>
+    <features name="org.eclipse.jgit.http.apache.feature.group" versionRange="[5.8.0.202006091008-r]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.egit.gitflow.feature.feature.group" versionRange="[5.8.0.202005061305-m2]">
+    <features name="org.eclipse.egit.gitflow.feature.feature.group" versionRange="[5.8.0.202006091008-r]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.jgit.ssh.apache.feature.group" versionRange="[5.8.0.202005061305-m2]">
+    <features name="org.eclipse.jgit.ssh.apache.feature.group" versionRange="[5.8.0.202006091008-r]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.jgit.lfs.feature.group" versionRange="[5.8.0.202005061305-m2]">
+    <features name="org.eclipse.jgit.lfs.feature.group" versionRange="[5.8.0.202006091008-r]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
+    </features>
+    <features name="org.eclipse.jgit.gpg.bc.feature.group" versionRange="[5.8.0.202006091008-r]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
+    </features>
+    <features name="org.eclipse.jgit.ssh.jsch.feature.group" versionRange="[5.8.0.202006091008-r]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
-  <repositories location="https://repo.eclipse.org/content/unzip/releases.unzip/org/eclipse/mylyn/github/github-updatesite/5.8.0.202005061305-m2/github-updatesite-5.8.0.202005061305-m2.zip-unzip/" description="EGit GitHub Updates">
-    <features name="org.eclipse.mylyn.github.feature.feature.group" versionRange="[5.8.0.202005061305-m2]">
+  <repositories location="https://download.eclipse.org/egit/github/updates-5.8" description="EGit GitHub Updates">
+    <features name="org.eclipse.mylyn.github.feature.feature.group" versionRange="[5.8.0.202006091008-r]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
