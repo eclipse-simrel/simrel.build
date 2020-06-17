@@ -7,9 +7,9 @@
   <packaging>pom</packaging>
   <properties>
     <tycho-version>1.7.0</tycho-version>
-    <trainName>2020-06</trainName>
-    <referenceRepo>releases/2020-03/202003181000</referenceRepo>
-    <eclipse.repo.url>https://download.eclipse.org/eclipse/updates/4.15/R-4.15-202003050155/</eclipse.repo.url>
+    <trainName>2020-09</trainName>
+    <referenceRepo>releases/2020-06/202006171000</referenceRepo>
+    <eclipse.repo.url>https://download.eclipse.org/eclipse/updates/4.16/R-4.16-202006040540/</eclipse.repo.url>
     <simrel.aggregator.repo.url>https://download.eclipse.org/cbi/updates/aggregator/headless/4.13/</simrel.aggregator.repo.url>
     <cbi.analyzers.repo.url>https://download.eclipse.org/cbi/updates/analyzers/4.7</cbi.analyzers.repo.url>
   </properties>
