@@ -44,7 +44,6 @@
     <contributions href="linuxtools.aggrcon#/"/>
     <contributions href="egit.aggrcon#/"/>
     <contributions href="emft-egf.aggrcon#/"/>
-    <contributions href="objectteams.aggrcon#/"/>
     <contributions href="gmp-graphiti.aggrcon#/"/>
     <contributions href="m2e.aggrcon#/"/>
     <contributions href="mdt-papyrus.aggrcon#/"/>
@@ -188,7 +187,6 @@
     <features href="rap.aggrcon#//@repositories.0/@features.3"/>
     <features href="emf-emf.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf-rap.aggrcon#//@repositories.0/@features.0"/>
-    <features href="objectteams.aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-emf.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="General Purpose Tools" label="General Purpose Tools" description="Tools that can be used by a wide variety of developers.">
@@ -390,8 +388,6 @@
     <features href="linuxtools.aggrcon#//@repositories.0/@features.10"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.6"/>
     <features href="linuxtools.aggrcon#//@repositories.1/@features.2"/>
-    <features href="objectteams.aggrcon#//@repositories.0/@features.0"/>
-    <features href="objectteams.aggrcon#//@repositories.0/@features.1"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.0"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.1"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.3"/>
@@ -640,7 +636,6 @@
   <contacts name="Steffen Pingel" email="steffen.pingel@tasktop.com"/>
   <contacts name="Steiner Ralph" email="steiner.ralph@gmail.com"/>
   <contacts name="Stephan Eberle" email="stephaneberle9@gmail.com"/>
-  <contacts name="Stephan Herrmann" email="stephan.herrmann@berlin.de"/>
   <contacts name="Stephane Begaudeau" email="stephane.begaudeau@obeo.fr"/>
   <contacts name="Stephane Drapeau" email="stephane.drapeau@obeo.fr"/>
   <contacts name="Sven Rottstock" email="sven.rottstock@sungard.com"/>
