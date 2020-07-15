@@ -249,10 +249,10 @@
     <features href="lsp4e.aggrcon#//@repositories.0/@features.1"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.1"/>
     <features href="ep.aggrcon#//@repositories.0/@features.6"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.31"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.28"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.29"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.30"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.23"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.20"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.21"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.22"/>
   </customCategories>
   <customCategories identifier="License Management" label="License Management" description="Tools used to declare and control licensing constraints">
     <features href="passage.aggrcon#//@repositories.0/@features.0"/>
@@ -266,9 +266,9 @@
     <features href="tm.aggrcon#//@repositories.0/@features.0"/>
     <features href="tm.aggrcon#//@repositories.0/@features.1"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.2"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.10"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.11"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.12"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.4"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.5"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.6"/>
     <features href="tcf.aggrcon#//@repositories.0/@features.0"/>
     <features href="tcf.aggrcon#//@repositories.0/@features.1"/>
     <features href="tcf.aggrcon#//@repositories.0/@features.2"/>
@@ -364,16 +364,13 @@
   <customCategories identifier="Programming Languages" label="Programming Languages" description="Tools to allow development with specific languages, such as Java and C++">
     <features href="cdt.aggrcon#//@repositories.0/@features.0"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.1"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.11"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.13"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.14"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.15"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.16"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.18"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.19"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.20"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.5"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.7"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.8"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.9"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.11"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.12"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.13"/>
     <features href="corrosion.aggrcon#//@repositories.0/@features.0"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.1"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.2"/>
