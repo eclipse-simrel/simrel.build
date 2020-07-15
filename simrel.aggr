@@ -322,7 +322,6 @@
     <features href="sirius.aggrcon#//@repositories.0/@features.2"/>
     <features href="emfstore.aggrcon#//@repositories.0/@features.0"/>
     <features href="ecp.aggrcon#//@repositories.0/@features.0"/>
-    <features href="ecp.aggrcon#//@repositories.0/@features.1"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.0"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.4"/>
     <features href="emf-parsley.aggrcon#//@repositories.0/@features.0"/>
