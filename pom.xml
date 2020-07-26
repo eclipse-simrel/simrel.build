@@ -42,7 +42,7 @@
                 <applicationsArg>--action</applicationsArg>
                 <applicationsArg>CLEAN_BUILD</applicationsArg>
               </applicationsArgs>
-              <executionEnvironment>JavaSE-1.8</executionEnvironment>
+              <executionEnvironment>JavaSE-11</executionEnvironment>
               <jvmArgs>
                 <jvmArg>-Xms256M</jvmArg>
                 <jvmArg>-Xmx2048M</jvmArg>
@@ -162,7 +162,7 @@
                     <jvmArg>-Xms256M</jvmArg>
                     <jvmArg>-Xmx2048M</jvmArg>
                   </jvmArgs>
-                  <executionEnvironment>JavaSE-1.8</executionEnvironment>
+                  <executionEnvironment>JavaSE-11</executionEnvironment>
                   <repositories>
                     <repository>
                       <id>eclipse</id>

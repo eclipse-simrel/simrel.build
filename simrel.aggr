@@ -470,6 +470,8 @@
     <features href="webtools.aggrcon#//@repositories.0/@features.22"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.23"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.24"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.25"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.26"/>
     <features href="webtools.aggrcon#//@repositories.2/@features.0"/>
     <features href="webtools.aggrcon#//@repositories.2/@features.1"/>
     <features href="webtools.aggrcon#//@repositories.2/@features.2"/>
@@ -607,6 +609,7 @@
   <contacts name="Nicolas Bros" email="nbros.mia@gmail.com"/>
   <contacts name="Nieraj Singh" email="nsingh@pivotal.io"/>
   <contacts name="Nikhil Nanivadekar" email="nikhil.nanivadekar@gs.com"/>
+  <contacts name="Nitin Dahaybhai" email="thatnitind@gmail.com"/>
   <contacts name="Oisin Hurley" email="oisin.hurley@gmail.com"/>
   <contacts name="Olivier Constant" email="olivier.constant@thalesgroup.com"/>
   <contacts name="Ondrej Dockal" email="odockal@redhat.com"/>
