@@ -401,6 +401,7 @@
     <features href="xwt.aggrcon#//@repositories.0/@features.0"/>
     <features href="xwt.aggrcon#//@repositories.0/@features.1"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.0"/>
+    <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
     <features href="jwt.aggrcon#//@repositories.0/@features.0"/>
@@ -477,6 +478,7 @@
     <features href="webtools.aggrcon#//@repositories.2/@features.2"/>
     <features href="webtools.aggrcon#//@repositories.2/@features.3"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.0"/>
+    <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.1"/>    
   </customCategories>
   <customCategories identifier="Cloud Tools" label="Cloud Tools" description="Tools for developing apps for the cloud and in the cloud, including IDE extensions, frameworks, container tools, and tools running the cloud themselves.">
     <features href="cft.aggrcon#//@repositories.0/@features.0"/>
