@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMF Services for SimRel 2020-03">
-  <repositories location="https://download.eclipse.org/modeling/emf/query/updates/releases/R201805030653" description="EMF Query milestones">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMF Services for SimRel 2020-09">
+  <repositories location="https://download.eclipse.org/modeling/emf/query/updates/releases/R201805030653" description="EMF Query">
     <features name="org.eclipse.emf.query.sdk.feature.group" versionRange="[1.12.0.201805030653]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="https://download.eclipse.org/modeling/emf/validation/updates/releases/R201812070911" description="EMF Validation milestones">
-    <features name="org.eclipse.emf.validation.sdk.feature.group" versionRange="[1.12.1.201812070911]">
+  <repositories location="https://download.eclipse.org/modeling/emf/validation/updates/releases/R202008210805" description="EMF Validation">
+    <features name="org.eclipse.emf.validation.sdk.feature.group" versionRange="[1.12.2.202008210805]">
+      
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="https://download.eclipse.org/modeling/emf/transaction/updates/releases/R201805140824/" description="EMF Transaction milestones">
+  <repositories location="https://download.eclipse.org/modeling/emf/transaction/updates/releases/R201805140824/" description="EMF Transaction">
     <features name="org.eclipse.emf.transaction.sdk.feature.group" versionRange="[1.12.0.201805140824]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
