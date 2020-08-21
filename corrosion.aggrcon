@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Corrosion">
-  <repositories location="https://download.eclipse.org/corrosion/releases/0.4.2/" description="Corrosion 0.4.2">
-    <features name="org.eclipse.corrosion.feature.feature.group" versionRange="[0.4.2.201908051347]">
-      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
-    </features>
-  </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='mistria@redhat.com']"/>
-</aggregator:Contribution>

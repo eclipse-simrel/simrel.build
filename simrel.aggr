@@ -71,7 +71,6 @@
     <contributions href="usssdk.aggrcon#/"/>
     <contributions href="collections.aggrcon#/"/>
     <contributions href="tm4e.aggrcon#/"/>
-    <contributions href="corrosion.aggrcon#/"/>
     <contributions href="wildwebdeveloper.aggrcon#/"/>
     <contributions href="passage.aggrcon#/"/>
     <contributions href="modisco.aggrcon#/"/>
@@ -370,7 +369,6 @@
     <features href="cdt.aggrcon#//@repositories.0/@features.11"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.12"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.13"/>
-    <features href="corrosion.aggrcon#//@repositories.0/@features.0"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.1"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.2"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.3"/>
