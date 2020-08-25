@@ -7,7 +7,6 @@
   </repositories>
   <repositories location="https://download.eclipse.org/modeling/emf/validation/updates/releases/R202008210805" description="EMF Validation">
     <features name="org.eclipse.emf.validation.sdk.feature.group" versionRange="[1.12.2.202008210805]">
-      
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
