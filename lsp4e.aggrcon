@@ -7,6 +7,12 @@
     <features name="org.eclipse.lsp4e.debug" versionRange="[0.12.0.202003021135]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
+    <features name="org.eclipse.lsp4e.jdt" versionRange="[0.10.0.202006012052]">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+    <features name="org.eclipse.lsp4e.source" versionRange="[0.13.2.202006041453]"/>
+    <features name="org.eclipse.lsp4e.debug.source" versionRange="[0.12.0.202003021135]"/>
+    <features name="org.eclipse.lsp4e.jdt.source" versionRange="[0.10.0.202006012052]"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='mistria@redhat.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='jonah@kichwacoders.com']"/>
