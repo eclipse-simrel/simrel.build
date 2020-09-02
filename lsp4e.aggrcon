@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="LSP4E">
-  <repositories location="https://download.eclipse.org/lsp4e/releases/0.15.0/" description="LSP4E 0.15.0">
-    <features name="org.eclipse.lsp4e" versionRange="[0.13.2.202006041453]">
+  <repositories location="https://download.eclipse.org/lsp4e/releases/0.16.0/" description="LSP4E 0.15.0">
+    <features name="org.eclipse.lsp4e" versionRange="[0.13.3.202008291637]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.lsp4e.debug" versionRange="[0.12.0.202003021135]">
+    <features name="org.eclipse.lsp4e.debug" versionRange="[0.12.1.202009010214]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
     <features name="org.eclipse.lsp4e.jdt" versionRange="[0.10.0.202006012052]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.lsp4e.source" versionRange="[0.13.2.202006041453]"/>
-    <features name="org.eclipse.lsp4e.debug.source" versionRange="[0.12.0.202003021135]"/>
+    <features name="org.eclipse.lsp4e.source" versionRange="[0.13.3.202008291637]"/>
+    <features name="org.eclipse.lsp4e.debug.source" versionRange="[0.12.1.202009010214]"/>
     <features name="org.eclipse.lsp4e.jdt.source" versionRange="[0.10.0.202006012052]"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='mistria@redhat.com']"/>
