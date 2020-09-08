@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="CDT">
-  <repositories location="https://download.eclipse.org/tools/cdt/builds/10.0/cdt-10.0.0-rc1" description="CDT updates">
+  <repositories location="https://download.eclipse.org/tools/cdt/builds/10.0/cdt-10.0.0-rc2" description="CDT updates">
     <bundles name="org.eclipse.cdt.core.linux" versionRange="[6.0.0.202008310002]"/>
     <bundles name="org.eclipse.cdt.core.linux.x86_64" versionRange="[6.0.0.202008310002]"/>
     <bundles name="org.eclipse.cdt.core.macosx" versionRange="[6.0.0.202008310002]"/>
     <bundles name="org.eclipse.cdt.core.win32" versionRange="[6.0.0.202008310002]"/>
-    <bundles name="org.eclipse.cdt.core.linux.aarch64" versionRange="[6.0.0.202008310002]"/>
-    <features name="org.eclipse.cdt.feature.group" versionRange="[10.0.0.202009010132]">
+    <bundles name="org.eclipse.cdt.core.linux.aarch64" versionRange="[6.0.0.202009011139]"/>
+    <features name="org.eclipse.cdt.feature.group" versionRange="[10.0.0.202009071455]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.sdk.feature.group" versionRange="[10.0.0.202009010132]">
+    <features name="org.eclipse.cdt.sdk.feature.group" versionRange="[10.0.0.202009071455]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.cdt.debug.gdbjtag.feature.group" versionRange="[10.0.0.202008310002]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.cdt.platform.feature.group" versionRange="[10.0.0.202009010132]"/>
+    <features name="org.eclipse.cdt.platform.feature.group" versionRange="[10.0.0.202009071455]"/>
     <features name="org.eclipse.cdt.debug.ui.memory.feature.group" versionRange="[10.0.0.202008310315]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
@@ -42,12 +42,12 @@
     <features name="org.eclipse.cdt.gnu.multicorevisualizer.feature.group" versionRange="[10.0.0.202008310002]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.docker.launcher.feature.group" versionRange="[10.0.0.202008310002]">
+    <features name="org.eclipse.cdt.docker.launcher.feature.group" versionRange="[10.0.0.202009070147]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.cdt.debug.standalone.feature.group" versionRange="[10.0.0.202008310002]"/>
     <features name="org.eclipse.cdt.qt.feature.group" versionRange="[10.0.0.202008311307]"/>
-    <features name="org.eclipse.cdt.cmake.feature.group" versionRange="[10.0.0.202008311307]"/>
+    <features name="org.eclipse.cdt.cmake.feature.group" versionRange="[10.0.0.202009011824]"/>
     <features name="org.eclipse.cdt.launch.serial.feature.feature.group" versionRange="[10.0.0.202008310002]"/>
     <features name="org.eclipse.cdt.debug.dap.feature.group" versionRange="[10.0.0.202008310315]"/>
     <features name="org.eclipse.cdt.debug.dap.gdbjtag.feature.group" versionRange="[10.0.0.202008310315]"/>
