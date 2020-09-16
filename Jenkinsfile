@@ -4,7 +4,7 @@ pipeline {
         maven 'apache-maven-latest'
     }
     environment {
-        TRAIN_NAME = "2020-09"
+        TRAIN_NAME = "2020-12"
         STAGING_DIR = "/home/data/httpd/download.eclipse.org/staging/${TRAIN_NAME}"
     }
     stages {
