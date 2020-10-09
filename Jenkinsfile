@@ -1,6 +1,7 @@
 pipeline {
     agent any
     tools {
+        jdk 'adoptopenjdk-hotspot-jdk11-latest'
         maven 'apache-maven-latest'
     }
     environment {
