@@ -17,6 +17,7 @@
     <contributions href="mylyn.aggrcon#/"/>
     <contributions href="mylyn-docs.aggrcon#/"/>
     <contributions href="cdt.aggrcon#/"/>
+    <contributions href="embedcdt.aggrcon#/"/>
     <contributions href="tm.aggrcon#/"/>
     <contributions href="jwt.aggrcon#/"/>
     <contributions href="dltk.aggrcon#/"/>
@@ -272,6 +273,21 @@
     <features href="tcf.aggrcon#//@repositories.0/@features.0"/>
     <features href="tcf.aggrcon#//@repositories.0/@features.1"/>
     <features href="tcf.aggrcon#//@repositories.0/@features.2"/>
+    <features href="embedcdt.aggrcon#//@repositories.0/@features.0"/>
+    <features href="embedcdt.aggrcon#//@repositories.0/@features.1"/>
+    <features href="embedcdt.aggrcon#//@repositories.0/@features.2"/>
+    <features href="embedcdt.aggrcon#//@repositories.0/@features.3"/>
+    <features href="embedcdt.aggrcon#//@repositories.0/@features.4"/>
+    <features href="embedcdt.aggrcon#//@repositories.0/@features.5"/>
+    <features href="embedcdt.aggrcon#//@repositories.0/@features.6"/>
+    <features href="embedcdt.aggrcon#//@repositories.0/@features.7"/>
+    <features href="embedcdt.aggrcon#//@repositories.0/@features.8"/>
+    <features href="embedcdt.aggrcon#//@repositories.0/@features.9"/>
+    <features href="embedcdt.aggrcon#//@repositories.0/@features.10"/>
+    <features href="embedcdt.aggrcon#//@repositories.0/@features.11"/>
+    <features href="embedcdt.aggrcon#//@repositories.0/@features.12"/>
+    <features href="embedcdt.aggrcon#//@repositories.0/@features.13"/>
+    <features href="embedcdt.aggrcon#//@repositories.0/@features.14"/>
   </customCategories>
   <customCategories identifier="Modeling" label="Modeling" description="Model definition, creation, and manipulation frameworks (e.g. EMF, OCL, GMF, M2M, M2T, GEF) and industry models (e.g. UML, JEM, XSD).">
     <features href="gmp-gmf-runtime.aggrcon#//@repositories.1/@features.0"/>
@@ -581,6 +597,7 @@
   <contacts name="Laurent Redor" email="laurent.redor@obeo.fr"/>
   <contacts name="Laurent goubet" email="laurent.goubet@obeo.fr"/>
   <contacts name="Leif Geiger" email="geiger@yatta.de"/>
+  <contacts name="Liviu Ionescu" email="ilg@livius.net"/>
   <contacts name="Lorenzo Bettini" email="lorenzo.bettini@gmail.com"/>
   <contacts name="M&#xe9;lanie Bats" email="melanie.bats@obeo.fr"/>
   <contacts name="M2T JET Build Team" email="pelder@ca.ibm.com"/>

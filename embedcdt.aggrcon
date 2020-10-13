@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Embedded CDT">
+  <repositories location="https://download.eclipse.org/embed-cdt/releases/5.1.3/p2/" description="Embed CDT Updates">
+    <features name="ilg.gnumcueclipse.codered.feature.feature.group" versionRange="[1.1.2.202010011906]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
+    <features name="ilg.gnumcueclipse.debug.gdbjtag.jlink.feature.feature.group" versionRange="[4.4.1.202010011906]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
+    <features name="ilg.gnumcueclipse.debug.gdbjtag.jumper.feature.feature.group" versionRange="[1.2.1.202010011906]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
+    <features name="ilg.gnumcueclipse.debug.gdbjtag.openocd.feature.feature.group" versionRange="[4.4.1.202010011906]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
+    <features name="ilg.gnumcueclipse.debug.gdbjtag.pyocd.feature.feature.group" versionRange="[1.4.1.202010011906]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
+    <features name="ilg.gnumcueclipse.debug.gdbjtag.qemu.feature.feature.group" versionRange="[3.4.1.202010011906]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
+    <features name="ilg.gnumcueclipse.doc.user.feature.feature.group" versionRange="[1.1.2.202010011906]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
+    <features name="ilg.gnumcueclipse.managedbuild.cross.arm.feature.feature.group" versionRange="[2.7.2.202010011906]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
+    <features name="ilg.gnumcueclipse.managedbuild.cross.riscv.feature.feature.group" versionRange="[2.9.3.202010011906]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
+    <features name="ilg.gnumcueclipse.packs.feature.feature.group" versionRange="[2.4.2.202010011906]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
+    <features name="ilg.gnumcueclipse.templates.ad.feature.feature.group" versionRange="[1.3.1.202010011906]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
+    <features name="ilg.gnumcueclipse.templates.cortexm.feature.feature.group" versionRange="[1.5.2.202010011906]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
+    <features name="ilg.gnumcueclipse.templates.freescale.feature.feature.group" versionRange="[2.3.1.202010011906]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
+    <features name="ilg.gnumcueclipse.templates.sifive.feature.feature.group" versionRange="[1.4.1.202010011906]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
+    <features name="ilg.gnumcueclipse.templates.stm.feature.feature.group" versionRange="[2.7.2.202010011906]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.aggr#//@contacts[email='ilg@livius.net']"/>
+  <contacts href="simrel.aggr#//@contacts[email='jonah@kichwacoders.com']"/>
+</aggregator:Contribution>
