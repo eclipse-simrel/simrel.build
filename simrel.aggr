@@ -24,7 +24,6 @@
     <contributions href="rap-tools.aggrcon#/"/>
     <contributions href="actf.aggrcon#/"/>
     <contributions href="epp-mpc.aggrcon#/"/>
-    <contributions href="epp-logging.aggrcon#/"/>
     <contributions href="emf-cdo.aggrcon#/"/>
     <contributions href="oomph.aggrcon#/"/>
     <contributions href="birt.aggrcon#/"/>
@@ -240,7 +239,6 @@
     <features href="oomph.aggrcon#//@repositories.0/@features.3"/>
     <features href="oomph.aggrcon#//@repositories.0/@features.4"/>
     <features href="oomph.aggrcon#//@repositories.0/@features.5"/>
-    <features href="epp-logging.aggrcon#//@repositories.0/@features.0"/>
     <features href="ep.aggrcon#//@repositories.0/@features.1"/>
     <features href="ptp.aggrcon#//@repositories.1/@features.1"/>
     <features href="buildship.aggrcon#//@repositories.0/@features.0"/>
