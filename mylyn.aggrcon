@@ -54,7 +54,7 @@
     <features name="org.eclipse.mylyn.context.sdk.feature.group" versionRange="3.25.2.v20200828-1617"/>
     <features name="org.eclipse.mylyn.reviews.feature.feature.group" versionRange="2.16.1.v20200828-1618"/>
     <features name="org.eclipse.mylyn.reviews.sdk.feature.feature.group" versionRange="2.16.1.v20200828-1618"/>
-    <features name="org.eclipse.mylyn.sdk_feature.feature.group" versionRange="3.25.2.v20200814-0512"/>
+    <features name="org.eclipse.mylyn.sdk_feature.feature.group" versionRange="3.25.2.v20200814-0512" enabled="false"/>
     <features name="org.eclipse.mylyn.tasks.ide.feature.group" versionRange="3.25.2.v20200814-0512"/>
     <features name="org.eclipse.mylyn.versions.feature.group" versionRange="1.17.0.v20191002-0716"/>
     <features name="org.eclipse.mylyn.versions.sdk.feature.group" versionRange="1.17.0.v20191002-0716"/>
