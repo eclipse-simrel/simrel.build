@@ -2,7 +2,6 @@
 <aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Aggregation files used for Simultaneous Release (yearly &quot;release train&quot;)." buildmaster="//@contacts[email='frederic.gurr@eclipse.org']" label="2020-12" buildRoot="buildresultsPhoton" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false">
   <validationSets label="main">
     <contributions href="equinox.aggrcon#/"/>
-    <contributions href="cft.aggrcon#/"/>
     <contributions href="ep.aggrcon#/"/>
     <contributions href="emf-emf.aggrcon#/"/>
     <contributions href="ecf.aggrcon#/"/>
@@ -19,7 +18,6 @@
     <contributions href="cdt.aggrcon#/"/>
     <contributions href="embedcdt.aggrcon#/"/>
     <contributions href="tm.aggrcon#/"/>
-    <contributions href="jwt.aggrcon#/"/>
     <contributions href="dltk.aggrcon#/"/>
     <contributions href="rap-tools.aggrcon#/"/>
     <contributions href="actf.aggrcon#/"/>
@@ -52,9 +50,7 @@
     <contributions href="jubula.aggrcon#/"/>
     <contributions href="swtbot.aggrcon#/"/>
     <contributions href="reddeer.aggrcon#/"/>
-    <contributions href="ldt.aggrcon#/"/>
     <contributions href="tcf.aggrcon#/"/>
-    <contributions href="emf-diffmerge.aggrcon#/"/>
     <contributions href="m2e-wtp.aggrcon#/"/>
     <contributions href="sirius.aggrcon#/"/>
     <contributions href="qvtd.aggrcon#/"/>
@@ -324,7 +320,6 @@
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.10"/>
     <features href="emf-compare.aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-compare.aggrcon#//@repositories.0/@features.4"/>
-    <features href="emf-diffmerge.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-emf.aggrcon#//@repositories.0/@features.2"/>
@@ -388,10 +383,6 @@
     <features href="dltk.aggrcon#//@repositories.0/@features.2"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.3"/>
     <features href="ep.aggrcon#//@repositories.0/@features.4"/>
-    <features href="ldt.aggrcon#//@repositories.0/@features.0"/>
-    <features href="ldt.aggrcon#//@repositories.0/@features.1"/>
-    <features href="ldt.aggrcon#//@repositories.0/@features.2"/>
-    <features href="ldt.aggrcon#//@repositories.0/@features.3"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.1"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.10"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.6"/>
@@ -416,7 +407,6 @@
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
-    <features href="jwt.aggrcon#//@repositories.0/@features.0"/>
     <features href="soa-bpel.aggrcon#//@repositories.0/@features.0"/>
     <features href="soa-bpel.aggrcon#//@repositories.0/@features.1"/>
     <features href="soa-bpel.aggrcon#//@repositories.0/@features.2"/>
@@ -491,11 +481,6 @@
     <features href="webtools.aggrcon#//@repositories.2/@features.3"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.0"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.1"/>
-  </customCategories>
-  <customCategories identifier="Cloud Tools" label="Cloud Tools" description="Tools for developing apps for the cloud and in the cloud, including IDE extensions, frameworks, container tools, and tools running the cloud themselves.">
-    <features href="cft.aggrcon#//@repositories.0/@features.0"/>
-    <features href="cft.aggrcon#//@repositories.0/@features.2"/>
-    <features href="cft.aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <contacts name="Abel Hegedus" email="abel.hegedus@incquerylabs.com"/>
   <contacts name="Adolfo Sanchez-Barbudo Herrera" email="adolfosbh@gmail.com"/>
