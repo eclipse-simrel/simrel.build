@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMFT Ecore Tools 3.3.2 for SimRel 2020-03">
-  <repositories location="https://download.eclipse.org/ecoretools/updates/releases/3.3.2/" description="EMFT Ecore Tools Release">
-    <features name="org.eclipse.emf.ecoretools.sdk.feature.group" versionRange="[3.3.2.201909230743]">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMFT Ecore Tools 3.3.3 for SimRel 2020-12">
+  <repositories location="https://download.eclipse.org/ecoretools/updates/milestones/3.3.3rc1" description="EMFT Ecore Tools Release">
+    <features name="org.eclipse.emf.ecoretools.sdk.feature.group" versionRange="[3.3.3.202010261352]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.emf.ecoretools.design.feature.group" versionRange="[3.3.2.201909230743]"/>
+    <features name="org.eclipse.emf.ecoretools.design.feature.group" versionRange="[3.3.3.202010261352]"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='cedric.brun@obeo.fr']"/>
   <contacts href="simrel.aggr#//@contacts[email='pierre-charles.david@obeo.fr']"/>
