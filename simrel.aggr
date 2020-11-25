@@ -195,7 +195,6 @@
     <features href="tm.aggrcon#//@repositories.0/@features.1"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.0"/>
     <features href="epp-mpc.aggrcon#//@repositories.0/@features.0"/>
-    <features href="ocl.aggrcon#//@repositories.0/@features.0"/>
     <features href="tmf-xtext.aggrcon#//@repositories.0/@features.0"/>
     <features href="ptp.aggrcon#//@repositories.0/@features.0"/>
     <features href="ptp.aggrcon#//@repositories.0/@features.1"/>
@@ -242,6 +241,7 @@
     <features href="lsp4j.aggrcon#//@repositories.0/@features.0"/>
     <features href="lsp4e.aggrcon#//@repositories.0/@features.0"/>
     <features href="lsp4e.aggrcon#//@repositories.0/@features.1"/>
+    <features href="ocl.aggrcon#//@repositories.0/@features.0"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.1"/>
     <features href="ep.aggrcon#//@repositories.0/@features.6"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.23"/>
@@ -290,7 +290,6 @@
     <features href="gmp-gmf-runtime.aggrcon#//@repositories.0/@features.0"/>
     <features href="mdt-uml2.aggrcon#//@repositories.0/@features.0"/>
     <features href="mdt-uml2.aggrcon#//@repositories.0/@features.1"/>
-    <features href="ocl.aggrcon#//@repositories.0/@features.0"/>
     <features href="m2t-acceleo.aggrcon#//@repositories.0/@features.0"/>
     <features href="qvto.aggrcon#//@repositories.0/@features.0"/>
     <features href="qvto.aggrcon#//@repositories.0/@features.3"/>
@@ -308,7 +307,12 @@
     <features href="emft-eef.aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.aggrcon#//@repositories.0/@features.1"/>
+    <features href="ocl.aggrcon#//@repositories.0/@features.0"/>
+    <features href="ocl.aggrcon#//@repositories.0/@features.1"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.2"/>
+    <features href="ocl.aggrcon#//@repositories.0/@features.3"/>
+    <features href="ocl.aggrcon#//@repositories.0/@features.4"/>
+    <features href="ocl.aggrcon#//@repositories.0/@features.5"/>
     <features href="gmp-gmf-runtime.aggrcon#//@repositories.0/@features.1"/>
     <features href="emft-egf.aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.0"/>
@@ -349,8 +353,6 @@
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.7"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.9"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.11"/>
-    <features href="ocl.aggrcon#//@repositories.0/@features.1"/>
-    <features href="ocl.aggrcon#//@repositories.0/@features.3"/>
     <features href="qvto.aggrcon#//@repositories.0/@features.1"/>
     <features href="qvto.aggrcon#//@repositories.0/@features.2"/>
     <features href="qvtd.aggrcon#//@repositories.0/@features.1"/>
