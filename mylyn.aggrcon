@@ -44,13 +44,13 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <features name="org.eclipse.mylyn.builds.feature.group" versionRange="1.17.0.v20200828-1656"/>
-    <features name="org.eclipse.mylyn.builds.sdk.feature.group" versionRange="1.17.0.v20200828-1656"/>
+    <features description="Disabled because the SDK depends on an old version of com.sun.xml.bind which has problems. See https://bugs.eclipse.org/bugs/show_bug.cgi?id=568379#c34" name="org.eclipse.mylyn.builds.sdk.feature.group" versionRange="1.17.0.v20200828-1656" enabled="false"/>
     <features name="org.eclipse.mylyn.commons.feature.group" versionRange="3.25.2.v20200813-0821"/>
     <features name="org.eclipse.mylyn.commons.identity.feature.group" versionRange="1.17.2.v20200813-0821"/>
     <features name="org.eclipse.mylyn.commons.notifications.feature.group" versionRange="1.17.2.v20200813-0821"/>
     <features name="org.eclipse.mylyn.commons.repositories.feature.group" versionRange="1.17.2.v20200813-0821"/>
     <features name="org.eclipse.mylyn.commons.repositories.http.feature.group" versionRange="1.17.2.v20200813-0821"/>
-    <features name="org.eclipse.mylyn.commons.sdk.feature.group" versionRange="3.25.2.v20200813-1747"/>
+    <features description="Disabled because the SDK depends on an old version of com.sun.xml.bind which has problems. See https://bugs.eclipse.org/bugs/show_bug.cgi?id=568379#c34" name="org.eclipse.mylyn.commons.sdk.feature.group" versionRange="3.25.2.v20200813-1747" enabled="false"/>
     <features name="org.eclipse.mylyn.context.sdk.feature.group" versionRange="3.25.2.v20200828-1617"/>
     <features name="org.eclipse.mylyn.reviews.feature.feature.group" versionRange="2.16.1.v20200828-1618"/>
     <features name="org.eclipse.mylyn.reviews.sdk.feature.feature.group" versionRange="2.16.1.v20200828-1618"/>
