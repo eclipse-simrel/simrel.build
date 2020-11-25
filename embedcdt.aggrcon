@@ -7,9 +7,6 @@
     <features name="org.eclipse.embedcdt.debug.gdbjtag.jlink.feature.group" versionRange="[6.0.0.202011221632]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.embedcdt.debug.gdbjtag.jumper.feature.group" versionRange="[6.0.0.202011221632]">
-      <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
-    </features>
     <features name="org.eclipse.embedcdt.debug.gdbjtag.openocd.feature.group" versionRange="[6.0.0.202011221632]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
