@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="m2e" label="m2e">
-  <repositories location="https://download.eclipse.org/technology/m2e/releases/1.16.2/" description="m2e 1.16.2">
-    <features name="org.eclipse.m2e.feature.feature.group" versionRange="[1.16.1.20200710-1008]">
+  <repositories location="https://download.eclipse.org/technology/m2e/snapshots/1.17.0/latest/" description="m2e 1.17.0 Snapshots">
+    <features name="org.eclipse.m2e.feature.feature.group" versionRange="[1.17.0,1.17.1)">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.m2e.lemminx.feature.feature.group" versionRange="[1.16.2.20200902-0711]">
+    <features name="org.eclipse.m2e.lemminx.feature.feature.group" versionRange="[1.17.0,1.17.1)">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.m2e.logback.feature.feature.group" versionRange="[1.16.0.20200318-1040]">
+    <features name="org.eclipse.m2e.logback.feature.feature.group" versionRange="[1.17.0,1.17.1)">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.m2e.sdk.feature.feature.group" versionRange="[1.16.1.20200710-1008]">
+    <features name="org.eclipse.m2e.sdk.feature.feature.group" versionRange="[1.17.0,1.17.1)">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
