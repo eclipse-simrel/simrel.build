@@ -1,7 +1,11 @@
 pipeline {
-    agent any
+    agent {
+        node {
+            label 'promotion-vm'
+        }
+    }
     tools {
-        jdk 'jdk11-latest'
+        jdk 'openjdk-jdk11-latest'
         maven 'apache-maven-latest'
     }
     options {
