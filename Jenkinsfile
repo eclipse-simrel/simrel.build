@@ -1,8 +1,11 @@
 pipeline {
-    agent any
     tools {
         jdk 'jdk11-latest'
         maven 'apache-maven-latest'
+    }
+    options {
+        disableConcurrentBuilds()
+        timeout(time: 3, unit: 'HOURS')
     }
     environment {
         TRAIN_NAME = "2020-12"
