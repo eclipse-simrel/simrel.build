@@ -20,7 +20,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 cleanWs()
-                git branch: 'master',
+                git branch: 'jiro',
                     url: 'git://git.eclipse.org/gitroot/simrel/org.eclipse.simrel.build'
             }
         }
