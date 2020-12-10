@@ -13,7 +13,7 @@ pipeline {
         timeout(time: 3, unit: 'HOURS')
     }
     environment {
-        TRAIN_NAME = "2021-03"
+        TRAIN_NAME = "2021-03_jiro"
         STAGING_DIR = "/home/data/httpd/download.eclipse.org/staging/${TRAIN_NAME}"
     }
     stages {
@@ -61,7 +61,7 @@ pipeline {
                 sh 'cp -R ${WORKSPACE}/target/repository/final/* ${STAGING_DIR}/'
                 sh 'ls -al ${STAGING_DIR}'
                 // Trigger EPP job
-                sh 'curl https://ci.eclipse.org/packaging/job/simrel.epp-tycho-build/buildWithParameters?token=Yah6CohtYwO6b?6P'
+                // sh 'curl https://ci.eclipse.org/packaging/job/simrel.epp-tycho-build/buildWithParameters?token=Yah6CohtYwO6b?6P'
             }
          }
          stage('Start repository analysis') {
