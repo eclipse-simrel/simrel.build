@@ -37,7 +37,7 @@ pipeline {
                 sh 'mvn clean verify -Pbuilt-at-eclipse.org'
                 // https://bugs.eclipse.org/bugs/show_bug.cgi?id=370194 - add the name of the release on top of the repo reports main page
                 sh "sed -i 's/<h1>Software Repository Reports<\\/h1>/<h1>Software Repository Reports - ${TRAIN_NAME}<\\/h1>/g' target/repository/final/buildInfo/reporeports/index.html"
-                archiveArtifacts artifacts: 'target/repository/final/buildInfo/**/*', fingerprint: true
+                archiveArtifacts artifacts: 'target/repository/final/buildInfo/**/*, target/eclipserun-work/configuration/*.log', fingerprint: true, allowEmptyArchive: true
             }
         }
         stage('Deploy to staging') {
