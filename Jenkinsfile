@@ -8,7 +8,7 @@ pipeline {
         timeout(time: 3, unit: 'HOURS')
     }
     environment {
-        TRAIN_NAME = "2020-12"
+        TRAIN_NAME = "2021-03"
         STAGING_DIR = "/home/data/httpd/download.eclipse.org/staging/${TRAIN_NAME}"
     }
     stages {
