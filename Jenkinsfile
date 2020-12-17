@@ -10,7 +10,7 @@ pipeline {
     }
     options {
         disableConcurrentBuilds()
-        timeout(time: 3, unit: 'HOURS')
+        timeout(time: 4, unit: 'HOURS')
     }
     environment {
         TRAIN_NAME = "2021-03_jiro"
