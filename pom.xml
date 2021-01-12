@@ -7,7 +7,7 @@
   <packaging>pom</packaging>
   <properties>
     <tycho-version>2.0.0</tycho-version>
-    <trainName>2021-03</trainName>
+    <trainName>2021-03_jiro</trainName>
     <referenceRepo>releases/2020-12/202012161000</referenceRepo>
     <eclipse.repo.url>https://download.eclipse.org/eclipse/updates/4.18/R-4.18-202012021800/</eclipse.repo.url>
     <simrel.aggregator.repo.url>https://download.eclipse.org/cbi/updates/aggregator/headless/4.13/</simrel.aggregator.repo.url>
@@ -90,7 +90,7 @@
             <version>${tycho-version}</version>
             <executions>
               <execution>
-                <phase>verify</phase>
+                <phase>test</phase>
                 <id>repo-reports</id>
                 <goals>
                   <goal>eclipse-run</goal>
