@@ -47,11 +47,11 @@ pipeline {
                 // sh 'curl https://ci.eclipse.org/packaging/job/simrel.epp-tycho-build/buildWithParameters?token=Yah6CohtYwO6b?6P'
             }
          }
-         stage('Start repository analysis') {
-            steps {
+         //stage('Start repository analysis') {
+         //   steps {
                 // build job: 'simrel.oomph.repository-analyzer.test', parameters: [booleanParam(name: 'PROMOTE', value: true)], wait: false
-            }
-         }
+         //   }
+         //}
     }
     post {
         failure {
