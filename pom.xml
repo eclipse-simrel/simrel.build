@@ -75,58 +75,72 @@
               </dependencies>
             </configuration>
           </execution>
-          <execution>
-            <phase>verify</phase>
-            <id>repo-reports</id>
-            <goals>
-              <goal>eclipse-run</goal>
-            </goals>
-            <configuration>
-              <applicationsArgs>
-                <arg>-application</arg>
-                <arg>org.eclipse.cbi.p2repo.analyzers.repoReport</arg>
-              </applicationsArgs>
-              <jvmArgs>
-                <jvmArg>-DreportRepoDir=${project.build.directory}/repository/final</jvmArg>
-                <jvmArg>-DreportOutputDir=${project.build.directory}/repository/final/buildInfo</jvmArg>
-                <jvmArg>-DreferenceRepo=/home/data/httpd/download.eclipse.org/${referenceRepo}</jvmArg>
-                <jvmArg>-Xms256M</jvmArg>
-                <jvmArg>-Xmx2048M</jvmArg>
-              </jvmArgs>
-              <executionEnvironment>JavaSE-11</executionEnvironment>
-              <dependencies>
-                <dependency>
-                  <artifactId>org.eclipse.cbi.p2repo.analyzers</artifactId>
-                  <type>eclipse-plugin</type>
-                </dependency>
-                <dependency>
-                  <artifactId>org.eclipse.equinox.p2.core.feature</artifactId>
-                  <type>eclipse-feature</type>
-                </dependency>
-                <dependency>
-                  <artifactId>org.eclipse.equinox.core.feature</artifactId>
-                  <type>eclipse-feature</type>
-                </dependency>
-              </dependencies>
-              <repositories>
-                <repository>
-                  <id>cbi-analyzers</id>
-                  <url>${cbi.analyzers.repo.url}</url>
-                  <layout>p2</layout>
-                </repository>
-                <repository>
-                  <id>eclipse</id>
-                  <url>${eclipse.repo.url}</url>
-                  <layout>p2</layout>
-                </repository>
-              </repositories>
-            </configuration>
-          </execution>
         </executions>
       </plugin>
     </plugins>
   </build>
   <profiles>
+    <profile>
+      <id>report</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.eclipse.tycho.extras</groupId>
+            <artifactId>tycho-eclipserun-plugin</artifactId>
+            <version>${tycho-version}</version>
+            <executions>
+              <execution>
+                <phase>verify</phase>
+                <id>repo-reports</id>
+                <goals>
+                  <goal>eclipse-run</goal>
+                </goals>
+                <configuration>
+                  <applicationsArgs>
+                    <arg>-application</arg>
+                    <arg>org.eclipse.cbi.p2repo.analyzers.repoReport</arg>
+                  </applicationsArgs>
+                  <jvmArgs>
+                    <jvmArg>-DreportRepoDir=${project.build.directory}/repository/final</jvmArg>
+                    <jvmArg>-DreportOutputDir=${project.build.directory}/repository/final/buildInfo</jvmArg>
+                    <jvmArg>-DreferenceRepo=/home/data/httpd/download.eclipse.org/${referenceRepo}</jvmArg>
+                    <jvmArg>-Xms256M</jvmArg>
+                    <jvmArg>-Xmx2048M</jvmArg>
+                  </jvmArgs>
+                  <executionEnvironment>JavaSE-11</executionEnvironment>
+                  <dependencies>
+                    <dependency>
+                      <artifactId>org.eclipse.cbi.p2repo.analyzers</artifactId>
+                      <type>eclipse-plugin</type>
+                    </dependency>
+                    <dependency>
+                      <artifactId>org.eclipse.equinox.p2.core.feature</artifactId>
+                      <type>eclipse-feature</type>
+                    </dependency>
+                    <dependency>
+                      <artifactId>org.eclipse.equinox.core.feature</artifactId>
+                      <type>eclipse-feature</type>
+                    </dependency>
+                  </dependencies>
+                  <repositories>
+                    <repository>
+                      <id>cbi-analyzers</id>
+                      <url>${cbi.analyzers.repo.url}</url>
+                      <layout>p2</layout>
+                    </repository>
+                    <repository>
+                      <id>eclipse</id>
+                      <url>${eclipse.repo.url}</url>
+                      <layout>p2</layout>
+                    </repository>
+                  </repositories>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
     <profile>
       <id>validate</id>
       <build>
