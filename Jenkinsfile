@@ -30,28 +30,11 @@ pipeline {
             }
         }
         stage('Build clean') {
-            when {
-                not {
-                    environment name: 'gerrit',
-                                value: 'true',
-                                ignoreCase: true
-                }
-            }
             steps {
                 sh 'mvn clean verify -Pbuilt-at-eclipse.org'
-                // https://bugs.eclipse.org/bugs/show_bug.cgi?id=370194 - add the name of the release on top of the repo reports main page
-                sh "sed -i 's/<h1>Software Repository Reports<\\/h1>/<h1>Software Repository Reports - ${TRAIN_NAME}<\\/h1>/g' target/repository/final/buildInfo/reporeports/index.html"
-                archiveArtifacts artifacts: 'target/repository/final/buildInfo/**/*', fingerprint: true, allowEmptyArchive: true
             }
         }
         stage('Deploy to staging') {
-            when {
-                not {
-                    environment name: 'gerrit',
-                                value: 'true',
-                                ignoreCase: true
-                }
-            }
             steps {
                 // Create staging dir (if it does not exist already)
                 sh 'mkdir -p ${STAGING_DIR}'
@@ -66,7 +49,7 @@ pipeline {
          }
          stage('Start repository analysis') {
             steps {
-                build job: 'simrel.oomph.repository-analyzer.test', parameters: [booleanParam(name: 'PROMOTE', value: true)], wait: false
+                // build job: 'simrel.oomph.repository-analyzer.test', parameters: [booleanParam(name: 'PROMOTE', value: true)], wait: false
             }
          }
     }
