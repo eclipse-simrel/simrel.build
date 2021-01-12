@@ -230,33 +230,5 @@
         </plugins>
       </build>
     </profile>
-    <profile>
-      <id>production</id>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.eclipse.tycho.extras</groupId>
-            <artifactId>tycho-eclipserun-plugin</artifactId>
-            <executions>
-              <execution>
-                <id>build-repo</id>
-                <configuration>
-                  <applicationsArgs combine.children="append">
-                    <applicationsArg>--production</applicationsArg>
-                    <applicationsArg>emailFrom ci-admin@eclipse.org</applicationsArg>
-                    <applicationsArg>--emailFromName</applicationsArg>
-                    <applicationsArg>${trainName}Aggregator</applicationsArg>
-                    <applicationsArg>--logURL</applicationsArg>
-                    <applicationsArg>${BUILD_URL}/console</applicationsArg>
-                    <applicationsArg>--subjectPrefix</applicationsArg>
-                    <applicationsArg>${trainName}Aggregation</applicationsArg>
-                  </applicationsArgs>
-                </configuration>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
   </profiles>
 </project>
