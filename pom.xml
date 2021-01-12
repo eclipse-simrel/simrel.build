@@ -101,8 +101,8 @@
                     <arg>org.eclipse.cbi.p2repo.analyzers.repoReport</arg>
                   </applicationsArgs>
                   <jvmArgs>
-                    <jvmArg>-DreportRepoDir=${project.build.directory}/repository/final</jvmArg>
-                    <jvmArg>-DreportOutputDir=${project.build.directory}/repository/final/buildInfo</jvmArg>
+                    <jvmArg>-DreportRepoDir=/home/data/httpd/download.eclipse.org/staging/${trainName}</jvmArg>
+                    <jvmArg>-DreportOutputDir=/home/data/httpd/download.eclipse.org/staging/${trainName}/buildInfo</jvmArg>
                     <jvmArg>-DreferenceRepo=/home/data/httpd/download.eclipse.org/${referenceRepo}</jvmArg>
                     <jvmArg>-Xms256M</jvmArg>
                     <jvmArg>-Xmx2048M</jvmArg>
