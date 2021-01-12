@@ -31,7 +31,7 @@ pipeline {
         }
         stage('Build clean') {
             steps {
-                sh 'mvn clean verify -Pbuilt-at-eclipse.org'
+                sh 'mvn clean verify -Pbuilt-at-eclipse.org -Pbuild' 
             }
         }
         stage('Deploy to staging') {
