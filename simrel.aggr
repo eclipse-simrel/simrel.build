@@ -47,7 +47,6 @@
     <contributions href="mdt-papyrus.aggrcon#/"/>
     <contributions href="scout.aggrcon#/"/>
     <contributions href="windowbuilder.aggrcon#/"/>
-    <contributions href="jubula.aggrcon#/"/>
     <contributions href="swtbot.aggrcon#/"/>
     <contributions href="reddeer.aggrcon#/"/>
     <contributions href="tcf.aggrcon#/"/>
@@ -420,14 +419,6 @@
     <features href="soa-bpmn2-modeler.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Testing" label="Testing" description="Frameworks supporting application testing.">
-    <features href="jubula.aggrcon#//@repositories.0/@features.0"/>
-    <features href="jubula.aggrcon#//@repositories.0/@features.1"/>
-    <features href="jubula.aggrcon#//@repositories.0/@features.2"/>
-    <features href="jubula.aggrcon#//@repositories.0/@features.3"/>
-    <features href="jubula.aggrcon#//@repositories.0/@features.4"/>
-    <features href="jubula.aggrcon#//@repositories.0/@features.5"/>
-    <features href="jubula.aggrcon#//@repositories.0/@features.6"/>
-    <features href="jubula.aggrcon#//@repositories.0/@features.7"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.3"/>
     <features href="rcptt.aggrcon#//@repositories.0/@features.0"/>
     <features href="swtbot.aggrcon#//@repositories.0/@features.0"/>
