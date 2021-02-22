@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Xtext, Xtend">
-  <repositories location="https://download.eclipse.org/modeling/tmf/xtext/updates/milestones/S202102030854" description="Xtext p2 repository">
-    <features name="org.eclipse.xtext.sdk.feature.group" versionRange="[2.25.0.v20210203-0854]">
+  <repositories location="https://download.eclipse.org/modeling/tmf/xtext/updates/milestones/S202102220934" description="Xtext p2 repository">
+    <features name="org.eclipse.xtext.sdk.feature.group" versionRange="[2.25.0.v20210222-0934]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.xtend.sdk.feature.group" versionRange="[2.25.0.v20210203-0854]">
+    <features name="org.eclipse.xtend.sdk.feature.group" versionRange="[2.25.0.v20210222-0934]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
   </repositories>
