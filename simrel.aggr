@@ -432,6 +432,7 @@
     <features href="reddeer.aggrcon#//@repositories.0/@features.4"/>
     <features href="reddeer.aggrcon#//@repositories.0/@features.5"/>
     <features href="reddeer.aggrcon#//@repositories.0/@features.6"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.8"/>
   </customCategories>
   <customCategories identifier="Web, XML, Java EE and OSGi Enterprise Development" label="Web, XML, Java EE and OSGi Enterprise Development" description="Tools to help create web applications, including JavaScript, XML, XSL, XSD, HTML, XHTML, CSS, JSP, EJBs, Webservices, JPA tand OSGi Enterprise Applications">
     <features href="m2e-wtp.aggrcon#//@repositories.0/@features.0"/>
