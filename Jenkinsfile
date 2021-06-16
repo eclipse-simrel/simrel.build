@@ -14,7 +14,7 @@ pipeline {
         timestamps ()
     }
     environment {
-        TRAIN_NAME = "2021-06"
+        TRAIN_NAME = "2021-09"
         STAGING_DIR = "/home/data/httpd/download.eclipse.org/staging/${TRAIN_NAME}"
     }
     stages {
