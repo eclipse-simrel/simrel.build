@@ -22,7 +22,7 @@ pipeline {
             steps {
                 cleanWs()
                 git branch: 'master',
-                    url: 'git://git.eclipse.org/gitroot/simrel/org.eclipse.simrel.build'
+                    url: 'https://git.eclipse.org/r/simrel/org.eclipse.simrel.build'
             }
         }
         stage('Validate') {
