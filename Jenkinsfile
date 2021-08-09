@@ -18,13 +18,6 @@ pipeline {
         STAGING_DIR = "/home/data/httpd/download.eclipse.org/staging/${TRAIN_NAME}"
     }
     stages {
-        stage('Checkout') {
-            steps {
-                cleanWs()
-                git branch: 'master',
-                    url: 'https://git.eclipse.org/r/simrel/org.eclipse.simrel.build'
-            }
-        }
         stage('Validate') {
             steps {
                 sh 'mvn clean test -Pbuilt-at-eclipse.org -Pvalidate'
