@@ -97,6 +97,9 @@
     <features href="usssdk.aggrcon#//@repositories.0/@features.1"/>
     <features href="ep.aggrcon#//@repositories.0/@features.0"/>
     <features href="collections.aggrcon#//@repositories.0/@features.0"/>
+    <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
+    <features href="emf-cdo.aggrcon#//@repositories.0/@features.1"/>
+    <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Collaboration" label="Collaboration" description="Tools to foster collaboration between developers.">
     <features href="ep.aggrcon#//@repositories.0/@features.2"/>
@@ -131,6 +134,8 @@
     <features href="egit.aggrcon#//@repositories.0/@features.9"/>
     <features href="egit.aggrcon#//@repositories.0/@features.10"/>
     <features href="egit.aggrcon#//@repositories.0/@features.11"/>
+    <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
+    <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Database Development" label="Database Development" description="Tools to define and access a wide variety of databases.">
     <features href="dtp.aggrcon#//@repositories.0/@features.0"/>
@@ -169,6 +174,7 @@
     <features href="dtp.aggrcon#//@repositories.0/@features.33"/>
     <features href="dtp.aggrcon#//@repositories.0/@features.34"/>
     <features href="dtp.aggrcon#//@repositories.0/@features.35"/>
+    <features href="emf-cdo.aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="EclipseRT Target Platform Components" label="EclipseRT Target Platform Components" description="This category identifies various Eclipse technology that is commonly used in runtime scenarios from RCP to embedded to server side. The components in this category are intended to be added to your Target Platform, rather than your IDE.">
     <features href="equinox.aggrcon#//@repositories.0/@features.0"/>
@@ -183,6 +189,9 @@
     <features href="emf-emf.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf-rap.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.aggrcon#//@repositories.0/@features.0"/>
+    <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
+    <features href="emf-cdo.aggrcon#//@repositories.0/@features.1"/>
+    <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="General Purpose Tools" label="General Purpose Tools" description="Tools that can be used by a wide variety of developers.">
     <features href="actf.aggrcon#//@repositories.0/@features.0"/>
@@ -298,10 +307,9 @@
     <features href="emft-mwe.aggrcon#//@repositories.0/@features.1"/>
     <features href="emft-mwe.aggrcon#//@repositories.0/@features.2"/>
     <features href="emft-ecoretools.aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-cdo.aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.3"/>
+    <features href="emf-cdo.aggrcon#//@repositories.0/@features.4"/>
     <features href="emft-eef.aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.aggrcon#//@repositories.0/@features.1"/>

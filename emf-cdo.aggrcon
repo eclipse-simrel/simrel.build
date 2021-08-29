@@ -2,10 +2,20 @@
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMF CDO">
   <repositories location="https://download.eclipse.org/modeling/emf/cdo/drops/R20210826-0457" description="EMF CDO">
     <features name="org.eclipse.net4j.sdk.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
+    </features>
+    <features name="org.eclipse.net4j.db.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
     <features name="org.eclipse.emf.cdo.sdk.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
+      <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
     <features name="org.eclipse.emf.cdo.dawn.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
