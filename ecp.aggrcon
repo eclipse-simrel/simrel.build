@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="ECP">
-  <repositories location="https://download.eclipse.org/ecp/rt/1261_RC1a" description="ECP 1.26.1">
+  <repositories location="https://download.eclipse.org/ecp/rt/1261_RC2" description="ECP 1.26.1">
     <features name="org.eclipse.emf.ecp.emfforms.sdk.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
