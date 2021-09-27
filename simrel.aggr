@@ -301,6 +301,7 @@
     <features href="qvto.aggrcon#//@repositories.0/@features.0"/>
     <features href="qvto.aggrcon#//@repositories.0/@features.3"/>
     <features href="m2m-atl.aggrcon#//@repositories.0/@features.0"/>
+    <features href="m2m-atl.aggrcon#//@repositories.0/@features.1"/>
     <features href="tmf-xtext.aggrcon#//@repositories.0/@features.0"/>
     <features href="m2t-xpand.aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-mwe.aggrcon#//@repositories.0/@features.0"/>
