@@ -17,7 +17,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features name="org.eclipse.emf.compare.diagram.sirius.source.feature.group" versionRange="[3.3.0,3.4.0]"/>
-    <features name="org.eclipse.emf.compare.egit.feature.group">
+    <features name="org.eclipse.emf.compare.egit.feature.group" enabled="false">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
