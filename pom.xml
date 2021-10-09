@@ -6,7 +6,7 @@
   <version>4.16.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <properties>
-    <tycho-version>2.0.0</tycho-version>
+    <tycho-version>2.5.0</tycho-version>
     <trainName>2021-12</trainName>
     <referenceRepo>releases/2021-09/202109151000</referenceRepo>
     <eclipse.repo.url>https://download.eclipse.org/eclipse/updates/4.21/R-4.21-202109060500</eclipse.repo.url>
