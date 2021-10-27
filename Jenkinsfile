@@ -28,6 +28,14 @@ pipeline {
                 sh 'mvn clean verify -Pbuilt-at-eclipse.org -Pbuild'
             }
         }
+        stage('Fixup p2 repository') {
+            // This is run as a separate step because otherwise Maven/Tycho throws
+            // ClassCastException - see https://github.com/eclipse/tycho/issues/350
+            steps {
+                // No clean here or the repo will be deleted!
+                sh 'mvn verify -Pfix-p2-repository'
+            }
+        }
         stage('Deploy to staging') {
             steps {
                 // Create staging dir (if it does not exist already)
