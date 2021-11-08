@@ -30,9 +30,6 @@
     <features name="org.eclipse.swt.tools.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.test.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='Testing']"/>
-    </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='sravankumarl@in.ibm.com']"/>
 </aggregator:Contribution>
