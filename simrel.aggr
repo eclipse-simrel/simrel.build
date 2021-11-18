@@ -41,7 +41,6 @@
     <contributions href="emft-eef.aggrcon#/"/>
     <contributions href="linuxtools.aggrcon#/"/>
     <contributions href="egit.aggrcon#/"/>
-    <contributions href="emft-egf.aggrcon#/"/>
     <contributions href="gmp-graphiti.aggrcon#/"/>
     <contributions href="m2e.aggrcon#/"/>
     <contributions href="mdt-papyrus.aggrcon#/"/>
@@ -321,7 +320,6 @@
     <features href="ocl.aggrcon#//@repositories.0/@features.4"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.5"/>
     <features href="gmp-gmf-runtime.aggrcon#//@repositories.0/@features.1"/>
-    <features href="emft-egf.aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.2"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.4"/>
