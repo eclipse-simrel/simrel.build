@@ -16,6 +16,9 @@
     <features name="org.eclipse.m2e.pde.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
+    <features name="org.eclipse.m2e.sse.ui.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='mistria@redhat.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='fbricon@gmail.com']"/>
