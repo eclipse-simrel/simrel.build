@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Orbit">
-  <repositories location="https://download.eclipse.org/tools/orbit/downloads/drops/S20211108222137/repository/" description="Enforced Orbit Bundle Versions">
+  <repositories location="https://download.eclipse.org/tools/orbit/downloads/drops/R20211122181901/repository/" description="Enforced Orbit Bundle Versions">
     <bundles description="Enforce the new com.sun.xml.bind that has working &quot;uses&quot; in the MANIFEST.MF" name="com.sun.xml.bind" versionRange="[2.2.0.v20201118-1845]"/>
     <bundles description="Workaround for Bug 568136 - this used to be pulled in from BIRT" name="com.google.protobuf" versionRange="[2.4.0.v201105131100]"/>
     <bundles description="Workaround for Bug 569181 - this used to be pulled in from BIRT" name="net.sourceforge.lpg.lpgjavaruntime" versionRange="[1.1.0.v201004271650]"/>
