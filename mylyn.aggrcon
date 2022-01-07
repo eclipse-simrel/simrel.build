@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" enabled="false" label="Mylyn">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Mylyn">
   <repositories location="https://download.eclipse.org/mylyn/drops/3.25.2/v20200831-1956" description="Mylyn Updates">
     <features name="org.eclipse.mylyn_feature.feature.group" versionRange="3.25.2.v20200814-0512">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
@@ -28,7 +28,7 @@
     <features name="org.eclipse.mylyn.team_feature.feature.group" versionRange="3.25.2.v20200828-1617">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.cvs.feature.group" versionRange="1.17.0.v20191002-0716">
+    <features name="org.eclipse.mylyn.cvs.feature.group" versionRange="1.17.0.v20191002-0716" enabled="false">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <features name="org.eclipse.mylyn.git.feature.group" versionRange="1.17.0.v20191002-0716">
@@ -51,13 +51,13 @@
     <features name="org.eclipse.mylyn.commons.repositories.feature.group" versionRange="1.17.2.v20200813-0821"/>
     <features name="org.eclipse.mylyn.commons.repositories.http.feature.group" versionRange="1.17.2.v20200813-0821"/>
     <features description="Disabled because the SDK depends on an old version of com.sun.xml.bind which has problems. See https://bugs.eclipse.org/bugs/show_bug.cgi?id=568379#c34" name="org.eclipse.mylyn.commons.sdk.feature.group" versionRange="3.25.2.v20200813-1747" enabled="false"/>
-    <features name="org.eclipse.mylyn.context.sdk.feature.group" versionRange="3.25.2.v20200828-1617"/>
+    <features name="org.eclipse.mylyn.context.sdk.feature.group" versionRange="3.25.2.v20200828-1617" enabled="false"/>
     <features name="org.eclipse.mylyn.reviews.feature.feature.group" versionRange="2.16.1.v20200828-1618"/>
     <features name="org.eclipse.mylyn.reviews.sdk.feature.feature.group" versionRange="2.16.1.v20200828-1618"/>
     <features name="org.eclipse.mylyn.sdk_feature.feature.group" versionRange="3.25.2.v20200814-0512" enabled="false"/>
     <features name="org.eclipse.mylyn.tasks.ide.feature.group" versionRange="3.25.2.v20200814-0512"/>
     <features name="org.eclipse.mylyn.versions.feature.group" versionRange="1.17.0.v20191002-0716"/>
-    <features name="org.eclipse.mylyn.versions.sdk.feature.group" versionRange="1.17.0.v20191002-0716"/>
+    <features name="org.eclipse.mylyn.versions.sdk.feature.group" versionRange="1.17.0.v20191002-0716" enabled="false"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='alexei.trebounskikh@tasktop.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='sam.davis@tasktop.com']"/>
