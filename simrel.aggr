@@ -101,7 +101,6 @@
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Collaboration" label="Collaboration" description="Tools to foster collaboration between developers.">
-    <features href="ep.aggrcon#//@repositories.0/@features.2"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.0"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.1"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.2"/>
@@ -197,7 +196,7 @@
     <features href="actf.aggrcon#//@repositories.0/@features.1"/>
     <features href="actf.aggrcon#//@repositories.0/@features.2"/>
     <features href="actf.aggrcon#//@repositories.0/@features.3"/>
-    <features href="ep.aggrcon#//@repositories.0/@features.3"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.2"/>
     <features href="tm.aggrcon#//@repositories.0/@features.0"/>
     <features href="tm.aggrcon#//@repositories.0/@features.1"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.0"/>
@@ -225,7 +224,7 @@
     <features href="windowbuilder.aggrcon#//@repositories.0/@features.8"/>
     <features href="windowbuilder.aggrcon#//@repositories.0/@features.9"/>
     <features href="m2e.aggrcon#//@repositories.0/@features.1"/>
-    <features href="ep.aggrcon#//@repositories.0/@features.5"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.4"/>
     <features href="windowbuilder.aggrcon#//@repositories.0/@features.10"/>
     <features href="ptp.aggrcon#//@repositories.0/@features.7"/>
     <features href="ptp.aggrcon#//@repositories.0/@features.8"/>
@@ -248,13 +247,13 @@
     <features href="lsp4e.aggrcon#//@repositories.0/@features.1"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.0"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.1"/>
-    <features href="ep.aggrcon#//@repositories.0/@features.6"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.5"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.23"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.20"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.21"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.22"/>
     <features href="lsp4e.aggrcon#//@repositories.0/@features.2"/>
-    <features href="ep.aggrcon#//@repositories.0/@features.7"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.6"/>
     <features href="m2e.aggrcon#//@repositories.0/@features.4"/>
     <features href="m2e.aggrcon#//@repositories.0/@features.5"/>
   </customCategories>
@@ -391,7 +390,7 @@
     <features href="dltk.aggrcon#//@repositories.0/@features.1"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.2"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.3"/>
-    <features href="ep.aggrcon#//@repositories.0/@features.4"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.3"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.1"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.10"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.6"/>
