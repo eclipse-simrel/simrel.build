@@ -29,15 +29,5 @@
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
-  <repositories location="https://download.eclipse.org/tools/ptp/builds/remote/3.0/2021-09" description="Remote Services">
-    <features name="org.eclipse.remote.feature.group" versionRange="3.0.2">
-      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
-    </features>
-    <features name="org.eclipse.remote.console.feature.group" versionRange="3.0.2">
-      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
-    </features>
-    <features name="org.eclipse.remote.serial.feature.group" versionRange="3.0.2"/>
-    <features name="org.eclipse.remote.proxy.feature.group" versionRange="3.0.2"/>
-  </repositories>
   <contacts href="simrel.aggr#//@contacts[email='g.watson@computer.org']"/>
 </aggregator:Contribution>
