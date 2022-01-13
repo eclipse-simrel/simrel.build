@@ -8,7 +8,7 @@
     <features name="org.eclipse.egit.feature.group" versionRange="[6.1.0.202203080745-r]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.egit.mylyn.feature.group" versionRange="[6.1.0.202203080745-r]">
+    <features name="org.eclipse.egit.mylyn.feature.group" versionRange="[6.1.0.202203080745-r]" enabled="false">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <features name="org.eclipse.egit.source.feature.group" versionRange="[6.1.0.202203080745-r]"/>
@@ -33,7 +33,7 @@
     </features>
   </repositories>
   <repositories location="https://download.eclipse.org/egit/github/updates-6.1" description="EGit GitHub Updates">
-    <features name="org.eclipse.mylyn.github.feature.feature.group" versionRange="[6.1.0.202203080745-r]">
+    <features name="org.eclipse.mylyn.github.feature.feature.group" versionRange="[6.1.0.202203080745-r]" enabled="false">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
