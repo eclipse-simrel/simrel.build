@@ -35,7 +35,6 @@
     <contributions href="tmf-xtext.aggrcon#/"/>
     <contributions href="pdt.aggrcon#/"/>
     <contributions href="ptp.aggrcon#/"/>
-    <contributions href="soa-bpel.aggrcon#/"/>
     <contributions href="soa-bpmn2-modeler.aggrcon#/"/>
     <contributions href="mdt-bpmn2.aggrcon#/"/>
     <contributions href="emft-eef.aggrcon#/"/>
@@ -415,9 +414,6 @@
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
-    <features href="soa-bpel.aggrcon#//@repositories.0/@features.0"/>
-    <features href="soa-bpel.aggrcon#//@repositories.0/@features.1"/>
-    <features href="soa-bpel.aggrcon#//@repositories.0/@features.2"/>
     <features href="mdt-bpmn2.aggrcon#//@repositories.0/@features.0"/>
     <features href="soa-bpmn2-modeler.aggrcon#//@repositories.0/@features.0"/>
     <features href="soa-bpmn2-modeler.aggrcon#//@repositories.0/@features.1"/>
