@@ -5,6 +5,7 @@
     <bundles description="Workaround for Bug 568136 - this used to be pulled in from BIRT" name="com.google.protobuf" versionRange="[2.4.0.v201105131100]"/>
     <bundles description="Workaround for Bug 569181 - this used to be pulled in from BIRT" name="net.sourceforge.lpg.lpgjavaruntime" versionRange="[1.1.0.v201004271650]"/>
     <bundles description="Bug 568379: Make sure the 1.2.2 version is included from orbit. Both jakarta.activation and javax.activation bundles provide javax.activation package make sure that we get the implementation one or else jakarta.activation 1.2.2 pulls in javax.activation 2.0.0 because of a non-versioned import there" name="javax.activation" versionRange="[1.2.2.v20201119-1642]"/>
+    <bundles description="reload4j version of org.apache.log4j to deal with CVE" name="org.apache.log4j" versionRange="1.2.19"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='jonah@kichwacoders.com']"/>
 </aggregator:Contribution>
