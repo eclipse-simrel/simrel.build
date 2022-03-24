@@ -13,5 +13,6 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
+  <repositories location="https://download.eclipse.org/tools/orbit/downloads/drops-simrel/gmf-runtime/"/>
   <contacts href="simrel.aggr#//@contacts[email='pierre-charles.david@obeo.fr']"/>
 </aggregator:Contribution>

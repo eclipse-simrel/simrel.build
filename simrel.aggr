@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Aggregation files used for Simultaneous Release (yearly &quot;release train&quot;)." buildmaster="//@contacts[email='frederic.gurr@eclipse.org']" label="2022-06" buildRoot="buildresultsPhoton" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false">
   <validationSets label="main">
-    <contributions href="orbit.aggrcon#/"/>
     <contributions href="equinox.aggrcon#/"/>
     <contributions href="ep.aggrcon#/"/>
     <contributions href="emf-emf.aggrcon#/"/>
