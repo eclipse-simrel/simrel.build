@@ -7,11 +7,12 @@
   <packaging>pom</packaging>
   <properties>
     <tycho-version>2.5.0</tycho-version>
-    <trainName>2022-06</trainName>
-    <referenceRepo>releases/2022-03/202203161000</referenceRepo>
-    <eclipse.repo.url>https://download.eclipse.org/eclipse/updates/4.23/R-4.23-202203080310</eclipse.repo.url>
+    <trainName>2022-09</trainName>
+    <referenceRepo>releases/2022-06/202206151000</referenceRepo>
+    <eclipse.repo.url>https://download.eclipse.org/eclipse/updates/4.24/R-4.24-202206070700</eclipse.repo.url>
     <simrel.aggregator.repo.url>https://download.eclipse.org/cbi/updates/aggregator/headless/4.13/</simrel.aggregator.repo.url>
     <cbi.analyzers.repo.url>https://download.eclipse.org/cbi/updates/analyzers/4.7</cbi.analyzers.repo.url>
+    <simrel.aggregator.build.type>CLEAN_BUILD</simrel.aggregator.build.type>
   </properties>
   <profiles>
     <profile>
@@ -46,7 +47,7 @@
                     <applicationsArg>--logLevel</applicationsArg>
                     <applicationsArg>INFO</applicationsArg>
                     <applicationsArg>--action</applicationsArg>
-                    <applicationsArg>CLEAN_BUILD</applicationsArg>
+                    <applicationsArg>${simrel.aggregator.build.type}</applicationsArg>
                   </applicationsArgs>
                   <executionEnvironment>JavaSE-11</executionEnvironment>
                   <jvmArgs>

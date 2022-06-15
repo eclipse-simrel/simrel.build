@@ -14,7 +14,7 @@ pipeline {
         timestamps ()
     }
     environment {
-        TRAIN_NAME = "2022-06"
+        TRAIN_NAME = "2022-09"
         STAGING_DIR = "/home/data/httpd/download.eclipse.org/staging/${TRAIN_NAME}"
     }
     stages {
@@ -62,7 +62,7 @@ pipeline {
               body: """FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':
               Check console output at ${env.BUILD_URL}""",
               recipientProviders: [[$class: 'DevelopersRecipientProvider']],
-              to: 'frederic.gurr@eclipse-foundation.org'
+              to: 'ed.merks@eclipse-foundation.org'
             )
           archiveArtifacts artifacts: 'target/eclipserun-work/configuration/*.log', allowEmptyArchive: true
         }
