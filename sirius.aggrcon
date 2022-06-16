@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Eclipse Sirius" label="Sirius">
-  <repositories location="https://download.eclipse.org/sirius/updates/milestones/7.0.1rc3/2021-06/">
+  <repositories location="https://download.eclipse.org/sirius/updates/releases/7.0.1/2021-06/">
     <features name="org.eclipse.sirius.specifier.feature.group" versionRange="[7.0.1.202205300817]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
