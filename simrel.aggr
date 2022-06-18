@@ -297,7 +297,6 @@
     <features href="m2m-atl.aggrcon#//@repositories.0/@features.0"/>
     <features href="m2m-atl.aggrcon#//@repositories.0/@features.1"/>
     <features href="tmf-xtext.aggrcon#//@repositories.0/@features.0"/>
-    <features href="m2t-xpand.aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-mwe.aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-mwe.aggrcon#//@repositories.0/@features.1"/>
     <features href="emft-mwe.aggrcon#//@repositories.0/@features.2"/>
@@ -467,10 +466,6 @@
     <features href="webtools.aggrcon#//@repositories.0/@features.24"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.25"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.26"/>
-    <features href="webtools.aggrcon#//@repositories.2/@features.0"/>
-    <features href="webtools.aggrcon#//@repositories.2/@features.1"/>
-    <features href="webtools.aggrcon#//@repositories.2/@features.2"/>
-    <features href="webtools.aggrcon#//@repositories.2/@features.3"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.0"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
