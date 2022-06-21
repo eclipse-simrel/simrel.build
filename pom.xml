@@ -3,17 +3,21 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.eclipse.simrel</groupId>
   <artifactId>build</artifactId>
-  <version>4.16.0-SNAPSHOT</version>
+  <version>4.25.0-SNAPSHOT</version>
   <packaging>pom</packaging>
+
   <properties>
-    <tycho-version>2.5.0</tycho-version>
+    <tycho-version>2.7.3</tycho-version>
     <trainName>2022-09</trainName>
     <referenceRepo>releases/2022-06/202206151000</referenceRepo>
-    <eclipse.repo.url>https://download.eclipse.org/eclipse/updates/4.24/R-4.24-202206070700</eclipse.repo.url>
-    <simrel.aggregator.repo.url>https://download.eclipse.org/cbi/updates/aggregator/headless/4.13/</simrel.aggregator.repo.url>
-    <cbi.analyzers.repo.url>https://download.eclipse.org/cbi/updates/analyzers/4.7</cbi.analyzers.repo.url>
+    <download.eclipse.org>https://download.eclipse.org</download.eclipse.org>
+    <eclipse.repo.url>${download.eclipse.org}/eclipse/updates/4.24/R-4.24-202206070700</eclipse.repo.url>
+    <simrel.aggregator.repo.url.relative>nightly/latest</simrel.aggregator.repo.url.relative>
+    <simrel.aggregator.repo.url>${download.eclipse.org}/cbi/updates/p2-aggregator/products/${simrel.aggregator.repo.url.relative}</simrel.aggregator.repo.url>
+    <cbi.analyzers.repo.url>${download.eclipse.org}/cbi/updates/analyzers/4.7</cbi.analyzers.repo.url>
     <simrel.aggregator.build.type>CLEAN_BUILD</simrel.aggregator.build.type>
   </properties>
+
   <profiles>
     <profile>
       <id>build</id>
@@ -55,11 +59,6 @@
                     <jvmArg>-Xmx2048M</jvmArg>
                   </jvmArgs>
                   <repositories>
-                    <repository>
-                      <id>eclipse</id>
-                      <url>${eclipse.repo.url}</url>
-                      <layout>p2</layout>
-                    </repository>
                     <repository>
                       <id>simrel-aggregator</id>
                       <url>${simrel.aggregator.repo.url}</url>
@@ -215,11 +214,6 @@
                   <executionEnvironment>JavaSE-11</executionEnvironment>
                   <repositories>
                     <repository>
-                      <id>eclipse</id>
-                      <url>${eclipse.repo.url}</url>
-                      <layout>p2</layout>
-                    </repository>
-                    <repository>
                       <id>simrel-aggregator</id>
                       <url>${simrel.aggregator.repo.url}</url>
                       <layout>p2</layout>
@@ -248,6 +242,9 @@
     </profile>
     <profile>
       <id>built-at-eclipse.org</id>
+      <properties>
+        <download.eclipse.org>file:/home/data/httpd/download.eclipse.org</download.eclipse.org>
+      </properties>
       <build>
         <plugins>
           <plugin>
@@ -269,8 +266,20 @@
                   </includes>
                   <replacements>
                     <replacement>
+                      <token>http://download.eclipse.org</token>
+                      <value>file:/home/data/httpd/download.eclipse.org</value>
+                    </replacement>
+                    <replacement>
                       <token>https://download.eclipse.org</token>
                       <value>file:/home/data/httpd/download.eclipse.org</value>
+                    </replacement>
+                    <replacement>
+                      <token>http://archive.eclipse.org</token>
+                      <value>file:/home/data/httpd/archive.eclipse.org</value>
+                    </replacement>
+                    <replacement>
+                      <token>https://archive.eclipse.org</token>
+                      <value>file:/home/data/httpd/archive.eclipse.org</value>
                     </replacement>
                   </replacements>
                 </configuration>

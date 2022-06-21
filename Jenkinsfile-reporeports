@@ -35,7 +35,7 @@ pipeline {
               body: """FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':
               Check console output at ${env.BUILD_URL}console""",
               recipientProviders: [[$class: 'DevelopersRecipientProvider']],
-              to: 'frederic.gurr@eclipse-foundation.org'
+              to: 'ed.merks@eclipse-foundation.org'
             )
         }
     }
