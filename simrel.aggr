@@ -247,7 +247,6 @@
     <features href="lsp4e.aggrcon#//@repositories.0/@features.2"/>
     <features href="ep.aggrcon#//@repositories.0/@features.5"/>
     <features href="m2e.aggrcon#//@repositories.0/@features.4"/>
-    <features href="m2e.aggrcon#//@repositories.0/@features.5"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.27"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.28"/>
   </customCategories>
