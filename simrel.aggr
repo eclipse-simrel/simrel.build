@@ -283,6 +283,7 @@
     <features href="embedcdt.aggrcon#//@repositories.0/@features.12"/>
     <features href="embedcdt.aggrcon#//@repositories.0/@features.13"/>
     <features href="embedcdt.aggrcon#//@repositories.0/@features.14"/>
+    <features href="embedcdt.aggrcon#//@repositories.0/@features.15"/>
   </customCategories>
   <customCategories identifier="Modeling" label="Modeling" description="Model definition, creation, and manipulation frameworks (e.g. EMF, OCL, GMF, M2M, M2T, GEF) and industry models (e.g. UML, JEM, XSD).">
     <features href="gmp-gmf-runtime.aggrcon#//@repositories.1/@features.0"/>
