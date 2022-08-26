@@ -54,7 +54,7 @@
     <features name="org.eclipse.tm.terminal.connector.remote.feature.feature.group" versionRange="[10.7.1.202208160035]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.tm.terminal.feature.feature.group" versionRange="[10.7.0.202204110055]">
+    <features name="org.eclipse.tm.terminal.feature.feature.group" versionRange="[10.7.1.202208160035]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
     <features name="org.eclipse.tm.terminal.connector.cdtserial.feature.feature.group" versionRange="[10.7.1.202208160035]">
