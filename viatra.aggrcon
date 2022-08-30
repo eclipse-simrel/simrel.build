@@ -4,7 +4,7 @@
     <features name="org.eclipse.viatra.query.sdk.feature.source.feature.group" versionRange="[2.7.1.202208301145]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.viatra.query.sdk.extensions.feature.feature.group" versionRange="[0.27.1.202208301145]">
+    <features name="org.eclipse.viatra.query.sdk.extensions.feature.feature.group" versionRange="[0.27.1.202208301145]" enabled="false">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
