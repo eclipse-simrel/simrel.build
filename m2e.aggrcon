@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="m2e" label="m2e">
-  <repositories location="https://download.eclipse.org/technology/m2e/releases/2.0.2" description="m2e 2.0.2">
+  <repositories location="https://download.eclipse.org/technology/m2e/releases/2.0.3" description="m2e 2.0.3">
     <features name="org.eclipse.m2e.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
@@ -16,6 +16,24 @@
     <features name="org.eclipse.m2e.pde.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
+  </repositories>
+  <repositories location="https://download.eclipse.org/m2e-wtp/releases/1.5.1/" description="m2e-wtp 1.5.1">
+    <features name="org.eclipse.m2e.wtp.feature.feature.group" versionRange="[1.5.1.20220901-1918]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.m2e.wtp.jaxrs.feature.feature.group" versionRange="[1.5.0.20220805-2025]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.m2e.wtp.jsf.feature.feature.group" versionRange="[1.5.0.20220805-2025]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.m2e.wtp.jpa.feature.feature.group" versionRange="[1.5.0.20220805-2025]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
+    </features>
+    <features name="org.eclipse.m2e.wtp.sdk.feature.feature.group" versionRange="[1.5.1.20220901-1918]"/>
+    <features name="org.eclipse.m2e.wtp.jaxrs.feature.source.feature.group" versionRange="[1.5.0.20220805-2025]"/>
+    <features name="org.eclipse.m2e.wtp.jsf.feature.source.feature.group" versionRange="[1.5.0.20220805-2025]"/>
+    <features name="org.eclipse.m2e.wtp.jpa.feature.source.feature.group" versionRange="[1.5.0.20220805-2025]"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='mistria@redhat.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='fbricon@gmail.com']"/>
