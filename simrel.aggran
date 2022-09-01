@@ -45,8 +45,8 @@
     <project
         name="Eclipse Nebula - Supplemental Widgets for SWT"
         site="https://projects.eclipse.org/projects/technology.nebula"
-        version="https://projects.eclipse.org/projects/technology.nebula/releases/2.6.0"
-        releaseDate="2022-02-01">
+        version="https://projects.eclipse.org/projects/technology.nebula/releases/2.7.2"
+        releaseDate="2022-08-17">
       <repository
           uri="https://github.com/eclipse/nebula"/>
     </project>
@@ -56,16 +56,16 @@
     <project
         name="Eclipse EMF"
         site="https://projects.eclipse.org/projects/modeling.emf.emf"
-        version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/2.30.0"
-        releaseDate="2022-06-15">
+        version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/2.31.0"
+        releaseDate="2022-09-14">
       <repository
           uri="https://git.eclipse.org/r/emf/org.eclipse.emf"/>
     </project>
     <project
         name="Eclipse MDT XSD (XML Schema Definition)"
         site="https://projects.eclipse.org/projects/modeling.mdt.xsd"
-        version="https://projects.eclipse.org/projects/modeling.mdt.xsd/releases/2.30.0"
-        releaseDate="2022-06-15">
+        version="https://projects.eclipse.org/projects/modeling.mdt.xsd/releases/2.31.0"
+        releaseDate="2022-09-14">
       <repository
           uri="https://git.eclipse.org/r/xsd/org.eclipse.xsd"/>
     </project>
@@ -87,8 +87,8 @@
     <project
         name="Eclipse Project"
         site="https://projects.eclipse.org/projects/eclipse"
-        version="https://projects.eclipse.org/projects/eclipse/releases/4.24.0"
-        releaseDate="2022-06-15">
+        version="https://projects.eclipse.org/projects/eclipse/releases/4.25.0"
+        releaseDate="2022-09-14">
       <subproject
           name="Eclipse Equinox "
           site="https://projects.eclipse.org/projects/eclipse.equinox"
@@ -122,8 +122,8 @@
       <subproject
           name="Eclipse JDT LS"
           site="https://projects.eclipse.org/projects/eclipse.jdt.ls"
-          version="https://projects.eclipse.org/projects/eclipse.jdt.ls/releases/1.10.0"
-          releaseDate="2022-04-13">
+          version="https://projects.eclipse.org/projects/eclipse.jdt.ls/releases/1.14.0"
+          releaseDate="2022-07-21">
         <repository
             uri="https://github.com/eclipse/eclipse.jdt.ls"/>
       </subproject>
@@ -192,12 +192,16 @@
     <project
         name="Eclipse Maven Integration - m2eclipse"
         site="https://projects.eclipse.org/projects/technology.m2e"
-        version="https://projects.eclipse.org/projects/technology.m2e/releases/1.20.1"
-        releaseDate="2022-03-04">
+        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.0.2"
+        releaseDate="2022-08-30">
       <repository
           uri="https://github.com/eclipse-m2e/m2e-core"/>
       <repository
           uri="https://github.com/eclipse-m2e/m2e-discovery-catalog"/>
+      <repository
+          uri="https://github.com/eclipse-m2e/m2e-wtp"/>
+      <repository
+          uri="https://github.com/eclipse-m2e/m2e-wtp-jpa"/>
       <repository
           uri="https://github.com/eclipse-m2e/org.eclipse.m2e.workspace"/>
     </project>
@@ -207,8 +211,8 @@
     <project
         name="Eclipse e(fx)clipse"
         site="https://projects.eclipse.org/projects/technology.efxclipse"
-        version="https://projects.eclipse.org/projects/technology.efxclipse/releases/3.8.0"
-        releaseDate="2022-05-15">
+        version="https://projects.eclipse.org/projects/technology.efxclipse/releases/3.9.0"
+        releaseDate="2022-09-01">
       <repository
           uri="https://github.com/eclipse-efx/efxclipse"/>
       <repository
@@ -308,8 +312,8 @@
     <project
         name="Eclipse Web Tools Platform Project"
         site="https://projects.eclipse.org/projects/webtools"
-        version="https://projects.eclipse.org/projects/webtools/releases/3.26"
-        releaseDate="2022-06-15">
+        version="https://projects.eclipse.org/projects/webtools/releases/3.27"
+        releaseDate="2022-09-14">
       <subproject
           name="Web Tools Common"
           site="https://projects.eclipse.org/projects/webtools.common"
@@ -545,10 +549,12 @@
     <project
         name="Eclipse CDT (C/C++ Development Tooling)"
         site="https://projects.eclipse.org/projects/tools.cdt"
-        version="https://projects.eclipse.org/projects/tools.cdt/releases/10.7.0"
-        releaseDate="2022-06-15">
+        version="https://projects.eclipse.org/projects/tools.cdt/releases/10.7.1"
+        releaseDate="2022-08-22">
       <repository
           uri="https://git.eclipse.org/r/cdt/org.eclipse.cdt"/>
+      <repository
+          uri="https://github.com/eclipse-cdt/cdt"/>
       <repository
           uri="https://github.com/eclipse-cdt/cdt-infra"/>
       <repository
@@ -562,8 +568,8 @@
     <project
         name="Eclipse Embedded CDT (C/C++ Development Tools)"
         site="https://projects.eclipse.org/projects/iot.embed-cdt"
-        version="https://projects.eclipse.org/projects/iot.embed-cdt/releases/6.2.2"
-        releaseDate="2022-06-12">
+        version="https://projects.eclipse.org/projects/iot.embed-cdt/releases/6.3.0"
+        releaseDate="2022-08-18">
       <repository
           uri="https://github.com/eclipse-embed-cdt/Liqp"/>
       <repository
@@ -585,8 +591,8 @@
     <project
         name="Eclipse Target Management: Terminal and Remote System Explorer (RSE)"
         site="https://projects.eclipse.org/projects/tools.tm"
-        version="https://projects.eclipse.org/projects/tools.tm/releases/4.5.200"
-        releaseDate="2020-06-17">
+        version="https://projects.eclipse.org/projects/tools.tm/releases/4.5.400"
+        releaseDate="2022-08-26">
       <repository
           uri="https://git.eclipse.org/r/tm/org.eclipse.tm"/>
     </project>
@@ -619,8 +625,8 @@
     <project
         name="Eclipse Remote Application Platform"
         site="https://projects.eclipse.org/projects/rt.rap"
-        version="https://projects.eclipse.org/projects/rt.rap/releases/3.21.0"
-        releaseDate="2022-06-15">
+        version="https://projects.eclipse.org/projects/rt.rap/releases/3.22.0"
+        releaseDate="2022-09-14">
       <repository
           uri="https://github.com/eclipse-rap/org.eclipse.rap"/>
       <repository
@@ -664,8 +670,8 @@
     <project
         name="Eclipse CDO Model Repository"
         site="https://projects.eclipse.org/projects/modeling.emf.cdo"
-        version="https://projects.eclipse.org/projects/modeling.emf.cdo/releases/4.19.0"
-        releaseDate="2022-06-15">
+        version="https://projects.eclipse.org/projects/modeling.emf.cdo/releases/4.20.0"
+        releaseDate="2022-09-14">
       <repository
           uri="https://git.eclipse.org/r/cdo/cdo"/>
       <repository
@@ -677,8 +683,8 @@
     <project
         name="Eclipse Oomph"
         site="https://projects.eclipse.org/projects/tools.oomph"
-        version="https://projects.eclipse.org/projects/tools.oomph/releases/1.25.0"
-        releaseDate="2022-06-15">
+        version="https://projects.eclipse.org/projects/tools.oomph/releases/1.26.0"
+        releaseDate="2022-09-14">
       <repository
           uri="https://git.eclipse.org/r/oomph/org.eclipse.oomph"/>
       <repository
@@ -740,8 +746,8 @@
     <project
         name="Eclipse GMF Runtime"
         site="https://projects.eclipse.org/projects/modeling.gmf-runtime"
-        version="https://projects.eclipse.org/projects/modeling.gmf-runtime/releases/1.14.2"
-        releaseDate="2022-04-13">
+        version="https://projects.eclipse.org/projects/modeling.gmf-runtime/releases/1.15.2"
+        releaseDate="2022-08-27">
       <repository
           uri="https://github.com/eclipse/gmf-notation"/>
       <repository
@@ -754,8 +760,8 @@
     <project
         name="Eclipse EMF Services"
         site="https://projects.eclipse.org/projects/modeling.emfservices"
-        version="https://projects.eclipse.org/projects/modeling.emfservices/releases/1.12.2"
-        releaseDate="2020-08-21">
+        version="https://projects.eclipse.org/projects/modeling.emfservices/releases/1.13.2"
+        releaseDate="2022-08-27">
       <repository
           uri="https://github.com/eclipse/emf-query"/>
       <repository
@@ -769,8 +775,8 @@
     <project
         name="Eclipse Xtext"
         site="https://projects.eclipse.org/projects/modeling.tmf.xtext"
-        version="https://projects.eclipse.org/projects/modeling.tmf.xtext/releases/2.27.0"
-        releaseDate="2022-05-30">
+        version="https://projects.eclipse.org/projects/modeling.tmf.xtext/releases/2.28.0"
+        releaseDate="2022-08-29">
       <repository
           uri="https://github.com/eclipse/xtext"/>
       <repository
@@ -867,8 +873,8 @@
     <project
         name="Eclipse EGit: Git Integration for Eclipse"
         site="https://projects.eclipse.org/projects/technology.egit"
-        version="https://projects.eclipse.org/projects/technology.egit/releases/6.2.0"
-        releaseDate="2022-06-15">
+        version="https://projects.eclipse.org/projects/technology.egit/releases/6.3.0"
+        releaseDate="2022-09-14">
       <repository
           uri="https://git.eclipse.org/r/egit/egit"/>
       <repository
@@ -877,8 +883,8 @@
     <project
         name="Eclipse JGit: Java implementation of Git"
         site="https://projects.eclipse.org/projects/technology.jgit"
-        version="https://projects.eclipse.org/projects/technology.jgit/releases/6.2.0"
-        releaseDate="2022-06-15">
+        version="https://projects.eclipse.org/projects/technology.jgit/releases/6.3.0"
+        releaseDate="2022-09-14">
       <repository
           uri="https://git.eclipse.org/r/jgit/jgit"/>
     </project>
@@ -889,8 +895,8 @@
     <project
         name="Eclipse Graphiti"
         site="https://projects.eclipse.org/projects/modeling.graphiti"
-        version="https://projects.eclipse.org/projects/modeling.graphiti/releases/0.18.0"
-        releaseDate="2021-06-16">
+        version="https://projects.eclipse.org/projects/modeling.graphiti/releases/0.19.0"
+        releaseDate="2022-09-14">
       <repository
           uri="https://git.eclipse.org/r/graphiti/org.eclipse.graphiti"/>
     </project>
@@ -960,8 +966,8 @@
     <project
         name="Eclipse WindowBuilder"
         site="https://projects.eclipse.org/projects/tools.windowbuilder"
-        version="https://projects.eclipse.org/projects/tools.windowbuilder/releases/1.9.8"
-        releaseDate="2022-03-16">
+        version="https://projects.eclipse.org/projects/tools.windowbuilder/releases/1.10.0"
+        releaseDate="2022-09-14">
       <repository
           uri="https://github.com/eclipse/windowbuilder"/>
     </project>
@@ -982,8 +988,8 @@
     <project
         name="Eclipse RedDeer"
         site="https://projects.eclipse.org/projects/technology.reddeer"
-        version="https://projects.eclipse.org/projects/technology.reddeer/releases/4.2.0"
-        releaseDate="2022-06-15">
+        version="https://projects.eclipse.org/projects/technology.reddeer/releases/4.3.0"
+        releaseDate="2022-09-14">
       <repository
           uri="https://github.com/eclipse/reddeer"/>
     </project>
@@ -1003,15 +1009,32 @@
     </project>
   </contribution>
   <contribution
-      contribution="m2e-wtp.aggrcon#/"/>
+      contribution="m2e-wtp.aggrcon#/">
+    <project
+        name="Eclipse Maven Integration - m2eclipse"
+        site="https://projects.eclipse.org/projects/technology.m2e"
+        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.0.2"
+        releaseDate="2022-08-30">
+      <repository
+          uri="https://github.com/eclipse-m2e/m2e-core"/>
+      <repository
+          uri="https://github.com/eclipse-m2e/m2e-discovery-catalog"/>
+      <repository
+          uri="https://github.com/eclipse-m2e/m2e-wtp"/>
+      <repository
+          uri="https://github.com/eclipse-m2e/m2e-wtp-jpa"/>
+      <repository
+          uri="https://github.com/eclipse-m2e/org.eclipse.m2e.workspace"/>
+    </project>
+  </contribution>
   <contribution
       label="Sirius"
       contribution="sirius.aggrcon#/">
     <project
         name="Eclipse Sirius"
         site="https://projects.eclipse.org/projects/modeling.sirius"
-        version="https://projects.eclipse.org/projects/modeling.sirius/releases/7.0.1"
-        releaseDate="2022-06-14">
+        version="https://projects.eclipse.org/projects/modeling.sirius/releases/7.0.4"
+        releaseDate="2022-08-23">
       <repository
           uri="https://git.eclipse.org/r/sirius/org.eclipse.sirius"/>
       <repository
@@ -1065,8 +1088,8 @@
     <project
         name="Eclipse Trace Compass"
         site="https://projects.eclipse.org/projects/tools.tracecompass"
-        version="https://projects.eclipse.org/projects/tools.tracecompass/releases/8.0.0"
-        releaseDate="2022-06-15">
+        version="https://projects.eclipse.org/projects/tools.tracecompass/releases/8.1.0"
+        releaseDate="2022-09-14">
       <repository
           uri="https://git.eclipse.org/r/tracecompass/org.eclipse.tracecompass"/>
     </project>
@@ -1111,8 +1134,8 @@
     <project
         name="Eclipse VIATRA"
         site="https://projects.eclipse.org/projects/modeling.viatra"
-        version="https://projects.eclipse.org/projects/modeling.viatra/releases/2.7.0"
-        releaseDate="2022-03-16">
+        version="https://projects.eclipse.org/projects/modeling.viatra/releases/2.7.1"
+        releaseDate="2022-08-30">
       <repository
           uri="https://git.eclipse.org/r/viatra/org.eclipse.viatra"/>
       <repository
@@ -1140,8 +1163,8 @@
     <project
         name="Eclipse LSP4J"
         site="https://projects.eclipse.org/projects/technology.lsp4j"
-        version="https://projects.eclipse.org/projects/technology.lsp4j/releases/0.14.0"
-        releaseDate="2022-05-26">
+        version="https://projects.eclipse.org/projects/technology.lsp4j/releases/0.15.0"
+        releaseDate="2022-08-04">
       <repository
           uri="https://github.com/eclipse/lsp4j"/>
     </project>
@@ -1151,8 +1174,8 @@
     <project
         name="Eclipse LSP4E"
         site="https://projects.eclipse.org/projects/technology.lsp4e"
-        version="https://projects.eclipse.org/projects/technology.lsp4e/releases/0.20.5"
-        releaseDate="2022-06-01">
+        version="https://projects.eclipse.org/projects/technology.lsp4e/releases/0.20.6"
+        releaseDate="2022-07-29">
       <repository
           uri="https://github.com/eclipse/lsp4e"/>
     </project>
@@ -1173,8 +1196,8 @@
     <project
         name="Eclipse Collections"
         site="https://projects.eclipse.org/projects/technology.collections"
-        version="https://projects.eclipse.org/projects/technology.collections/releases/11.0.0"
-        releaseDate="2021-10-20">
+        version="https://projects.eclipse.org/projects/technology.collections/releases/11.1.0"
+        releaseDate="2022-07-05">
       <repository
           uri="https://github.com/eclipse/eclipse-collections"/>
       <repository
@@ -1188,8 +1211,8 @@
     <project
         name="Eclipse TM4E - TextMate support in the Eclipse IDE"
         site="https://projects.eclipse.org/projects/technology.tm4e"
-        version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.4.5"
-        releaseDate="2022-05-11">
+        version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.6.0"
+        releaseDate="2022-06-23">
       <repository
           uri="https://github.com/eclipse/tm4e"/>
     </project>
@@ -1199,8 +1222,8 @@
     <project
         name="Eclipse Wild Web Developer"
         site="https://projects.eclipse.org/projects/tools.wildwebdeveloper"
-        version="https://projects.eclipse.org/projects/tools.wildwebdeveloper/releases/0.13.5"
-        releaseDate="2022-05-29">
+        version="https://projects.eclipse.org/projects/tools.wildwebdeveloper/releases/0.15.0"
+        releaseDate="2022-07-29">
       <repository
           uri="https://github.com/eclipse/wildwebdeveloper"/>
     </project>
@@ -1210,8 +1233,8 @@
     <project
         name="Eclipse Linux Tools"
         site="https://projects.eclipse.org/projects/tools.linuxtools"
-        version="https://projects.eclipse.org/projects/tools.linuxtools/releases/8.7.0"
-        releaseDate="2022-06-08">
+        version="https://projects.eclipse.org/projects/tools.linuxtools/releases/8.8.0"
+        releaseDate="2022-09-14">
       <repository
           uri="https://github.com/eclipse-linuxtools/org.eclipse.linuxtools"/>
       <repository
@@ -1223,8 +1246,8 @@
     <project
         name="Eclipse Passage"
         site="https://projects.eclipse.org/projects/technology.passage"
-        version="https://projects.eclipse.org/projects/technology.passage/releases/2.4.0"
-        releaseDate="2022-06-07">
+        version="https://projects.eclipse.org/projects/technology.passage/releases/2.5.0"
+        releaseDate="2022-09-14">
       <repository
           uri="https://github.com/eclipse-passage/chronograph"/>
       <repository
@@ -1254,8 +1277,8 @@
     <project
         name="Eclipse EMF"
         site="https://projects.eclipse.org/projects/modeling.emf.emf"
-        version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/2.30.0"
-        releaseDate="2022-06-15">
+        version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/2.31.0"
+        releaseDate="2022-09-14">
       <repository
           uri="https://git.eclipse.org/r/emf/org.eclipse.emf"/>
     </project>
@@ -1265,8 +1288,8 @@
     <project
         name="Eclipse Remote Application Platform"
         site="https://projects.eclipse.org/projects/rt.rap"
-        version="https://projects.eclipse.org/projects/rt.rap/releases/3.21.0"
-        releaseDate="2022-06-15">
+        version="https://projects.eclipse.org/projects/rt.rap/releases/3.22.0"
+        releaseDate="2022-09-14">
       <repository
           uri="https://github.com/eclipse-rap/org.eclipse.rap"/>
       <repository
@@ -1288,18 +1311,20 @@
     <project
         name="Eclipse Packaging Project"
         site="https://projects.eclipse.org/projects/technology.packaging"
-        version="https://projects.eclipse.org/projects/technology.packaging/releases/4.24.0"
-        releaseDate="2022-06-15">
+        version="https://projects.eclipse.org/projects/technology.packaging/releases/4.25.0"
+        releaseDate="2022-09-14">
       <repository
           uri="https://git.eclipse.org/r/epp/org.eclipse.epp.packages"/>
     </project>
     <project
         name="Eclipse Tycho"
         site="https://projects.eclipse.org/projects/technology.tycho"
-        version="https://projects.eclipse.org/projects/technology.tycho/releases/2.7.3"
-        releaseDate="2022-05-09">
+        version="https://projects.eclipse.org/projects/technology.tycho/releases/2.7.4"
+        releaseDate="2022-06-27">
       <repository
-          uri="https://github.com/eclipse/tycho"/>
+          uri="https://github.com/eclipse-tycho/eclipse-tycho.github.io"/>
+      <repository
+          uri="https://github.com/eclipse-tycho/tycho"/>
     </project>
   </contribution>
 </analyzer:Analysis>
