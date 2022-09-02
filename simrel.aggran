@@ -192,8 +192,8 @@
     <project
         name="Eclipse Maven Integration - m2eclipse"
         site="https://projects.eclipse.org/projects/technology.m2e"
-        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.0.2"
-        releaseDate="2022-08-30">
+        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.0.3"
+        releaseDate="2022-09-01">
       <repository
           uri="https://github.com/eclipse-m2e/m2e-core"/>
       <repository
@@ -634,25 +634,6 @@
     </project>
   </contribution>
   <contribution
-      contribution="actf.aggrcon#/">
-    <project
-        name="Eclipse Accessibility Tools Framework"
-        site="https://projects.eclipse.org/projects/technology.actf"
-        version="https://projects.eclipse.org/projects/technology.actf/releases/1.6.0"
-        releaseDate="2018-12-10">
-      <repository
-          uri="https://git.eclipse.org/r/actf/org.eclipse.actf.ai"/>
-      <repository
-          uri="https://git.eclipse.org/r/actf/org.eclipse.actf.common"/>
-      <repository
-          uri="https://git.eclipse.org/r/actf/org.eclipse.actf.examples"/>
-      <repository
-          uri="https://git.eclipse.org/r/actf/org.eclipse.actf.visualization"/>
-      <repository
-          uri="https://git.eclipse.org/r/actf/org.eclipse.actf.visualization.releng"/>
-    </project>
-  </contribution>
-  <contribution
       contribution="epp-mpc.aggrcon#/">
     <project
         name="Eclipse Marketplace Client"
@@ -1006,25 +987,6 @@
           uri="https://git.eclipse.org/r/tcf/org.eclipse.tcf"/>
       <repository
           uri="https://git.eclipse.org/r/tcf/org.eclipse.tcf.agent"/>
-    </project>
-  </contribution>
-  <contribution
-      contribution="m2e-wtp.aggrcon#/">
-    <project
-        name="Eclipse Maven Integration - m2eclipse"
-        site="https://projects.eclipse.org/projects/technology.m2e"
-        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.0.2"
-        releaseDate="2022-08-30">
-      <repository
-          uri="https://github.com/eclipse-m2e/m2e-core"/>
-      <repository
-          uri="https://github.com/eclipse-m2e/m2e-discovery-catalog"/>
-      <repository
-          uri="https://github.com/eclipse-m2e/m2e-wtp"/>
-      <repository
-          uri="https://github.com/eclipse-m2e/m2e-wtp-jpa"/>
-      <repository
-          uri="https://github.com/eclipse-m2e/org.eclipse.m2e.workspace"/>
     </project>
   </contribution>
   <contribution
