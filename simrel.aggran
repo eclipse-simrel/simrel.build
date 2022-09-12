@@ -192,8 +192,8 @@
     <project
         name="Eclipse Maven Integration - m2eclipse"
         site="https://projects.eclipse.org/projects/technology.m2e"
-        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.0.3"
-        releaseDate="2022-09-01">
+        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.0.4"
+        releaseDate="2022-09-04">
       <repository
           uri="https://github.com/eclipse-m2e/m2e-core"/>
       <repository
@@ -242,6 +242,16 @@
         releaseDate="2020-03-10">
       <repository
           uri="https://git.eclipse.org/r/emfcompare/org.eclipse.emf.compare"/>
+      <repository
+          uri="https://github.com/eclipse/emf-compare"/>
+      <repository
+          uri="https://github.com/eclipse/emf-compare-acceptance"/>
+      <repository
+          uri="https://github.com/eclipse/emf-compare-cli"/>
+      <repository
+          uri="https://github.com/eclipse/emf-compare-releng"/>
+      <repository
+          uri="https://github.com/eclipse/emf-compare-website"/>
     </project>
   </contribution>
   <contribution
@@ -683,6 +693,8 @@
         releaseDate="2022-06-15">
       <repository
           uri="https://git.eclipse.org/r/mat/org.eclipse.mat"/>
+      <repository
+          uri="https://github.com/eclipse/mat-website"/>
     </project>
   </contribution>
   <contribution
@@ -939,6 +951,8 @@
       <repository
           uri="https://github.com/eclipse-scout/scout.sdk"/>
       <repository
+          uri="https://github.com/eclipse-scout/scout.website"/>
+      <repository
           uri="https://github.com/eclipse/org.eclipse.scout.docs"/>
     </project>
   </contribution>
@@ -995,8 +1009,8 @@
     <project
         name="Eclipse Sirius"
         site="https://projects.eclipse.org/projects/modeling.sirius"
-        version="https://projects.eclipse.org/projects/modeling.sirius/releases/7.0.4"
-        releaseDate="2022-08-23">
+        version="https://projects.eclipse.org/projects/modeling.sirius/releases/7.0.5"
+        releaseDate="2022-09-07">
       <repository
           uri="https://git.eclipse.org/r/sirius/org.eclipse.sirius"/>
       <repository
@@ -1009,6 +1023,8 @@
           uri="https://github.com/eclipse-sirius/sirius-specs"/>
       <repository
           uri="https://github.com/eclipse-sirius/sirius-web"/>
+      <repository
+          uri="https://github.com/eclipse-sirius/sirius-website"/>
     </project>
   </contribution>
   <contribution
@@ -1232,6 +1248,8 @@
         releaseDate="2021-12-08">
       <repository
           uri="https://git.eclipse.org/r/modisco/org.eclipse.modisco"/>
+      <repository
+          uri="https://github.com/eclipse/modisco-website"/>
     </project>
   </contribution>
   <contribution
@@ -1281,8 +1299,8 @@
     <project
         name="Eclipse Tycho"
         site="https://projects.eclipse.org/projects/technology.tycho"
-        version="https://projects.eclipse.org/projects/technology.tycho/releases/2.7.4"
-        releaseDate="2022-06-27">
+        version="https://projects.eclipse.org/projects/technology.tycho/releases/2.7.5"
+        releaseDate="2022-09-05">
       <repository
           uri="https://github.com/eclipse-tycho/eclipse-tycho.github.io"/>
       <repository
