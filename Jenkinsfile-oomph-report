@@ -50,14 +50,18 @@ pipeline {
         not { environment name: 'BUILD_NUMBER', value: '1' }
       }
       steps {
-        sshagent(['projects-storage.eclipse.org-bot-ssh']) {
-          sh '''
-            ssh genie.simrel@projects-storage.eclipse.org "
-              ls /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/
-              mkdir -p /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo
-              rm -rf /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo/archive
-            "
-          '''
+        script {
+          if (params.PROMOTE) {
+            sshagent(['projects-storage.eclipse.org-bot-ssh']) {
+              sh '''
+                ssh genie.simrel@projects-storage.eclipse.org "
+                  ls /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/
+                  mkdir -p /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo
+                  rm -rf /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo/archive
+                "
+              '''
+            }
+          }
         }
 
         sh '''
@@ -96,10 +100,14 @@ pipeline {
         ls -sail *
         '''
 
-        sshagent(['projects-storage.eclipse.org-bot-ssh']) {
-          sh '''
-            scp -r archive genie.simrel@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo
-          '''
+        script {
+          if (params.PROMOTE) {
+            sshagent(['projects-storage.eclipse.org-bot-ssh']) {
+              sh '''
+                scp -r archive genie.simrel@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo
+              '''
+            }
+          }
         }
       }
     }
@@ -108,6 +116,15 @@ pipeline {
     always {
       junit healthScaleFactor: 1.0, testResults: 'tests/*.xml'
       archiveArtifacts artifacts: 'log, tests/*', fingerprint: true
+    }
+    failure {
+      emailext (
+        subject: "FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
+        body: """FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':
+        Check console output at ${env.BUILD_URL}""",
+        recipientProviders: [[$class: 'DevelopersRecipientProvider']],
+        to: 'ed.merks@eclipse-foundation.org'
+      )
     }
   }
 }
