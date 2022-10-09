@@ -64,7 +64,12 @@ pipeline {
               }
             }
             steps {
-                build job: 'simrel.oomph.repository-analyzer.test', parameters: [booleanParam(name: 'PROMOTE', value: true)], wait: false
+                build job: 'simrel.oomph.repository-analyzer.test',
+                parameters: [
+                    booleanParam(name: 'PROMOTE', value: true)
+                    text(name: 'TRAIN_LOCATION', value: "staging/${env.TRAIN_NAME}")
+                ], 
+                wait: false
             }
         }
     }

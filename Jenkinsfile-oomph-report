@@ -1,0 +1,116 @@
+// Define global variables
+
+// When the parameters change, this should be increased so that the build does nothing other than update the parameters used for the next build.
+def pipelineVersion = '1'
+def trainLocation = 'staging/2022-12'
+
+pipeline {
+  agent {
+    node {
+      label 'centos-latest'
+    }
+  }
+  options {
+    timeout(time: 30, unit: 'MINUTES')
+  }
+  tools {
+    jdk 'openjdk-jdk11-latest'
+  }
+  environment {
+    TARGET_DIR = "archive"
+  }
+  parameters {
+    string(
+      name: 'PIPELINE_VERSION',
+      defaultValue: "${pipelineVersion}",
+      description: """${pretty(
+       '''
+       If the parameter definitions have changed, this version will be out-dated.
+       The script will run but will do nothing other than updating the parameter definitions of the job as a side-effect.
+       '''
+      )}""")
+    booleanParam(
+      name: 'PROMOTE',
+      defaultValue: false,
+      description: 'Whether to promote the repository report to /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/archive.'
+    )
+    string(
+      name: 'TRAIN_LOCATION',
+      defaultValue: "${trainLocation}",
+      description: """${pretty(
+       '''
+       The repository https://download.eclipse.org/${TRAIN_LOCATION} for which to generate a report.
+       '''
+      )}""")
+  }
+  stages {
+    stage('Run Oomph repository analyzer') {
+      when {
+        environment name: 'PIPELINE_VERSION', value: pipelineVersion
+        not { environment name: 'BUILD_NUMBER', value: '1' }
+      }
+      steps {
+        sshagent(['projects-storage.eclipse.org-bot-ssh']) {
+          sh '''
+            ssh genie.simrel@projects-storage.eclipse.org "
+              ls /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/
+              mkdir -p /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo
+              echo rm -rf /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildinfo
+              rm -rf /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo/reports
+              rm -rf /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo/archive
+            "
+          '''
+        }
+
+        sh '''
+        #!/bin/bash
+        mkdir -p ${TARGET_DIR}
+
+        wget -q https://download.eclipse.org/oomph/products/latest/eclipse-inst-jre-linux64.tar.gz
+        tar -xf eclipse-inst-jre-linux64.tar.gz
+
+        PUBLISH_ARGUMENT=""
+        if [[ ${PROMOTE} == "true" ]]; then
+         echo "Promoting"
+         PUBLISH_ARGUMENT="-p ${TARGET_DIR}"
+        fi
+
+        OUTPUT="report"
+
+        set -o pipefail
+
+        eclipse-installer/eclipse-inst \
+         -application org.eclipse.oomph.p2.core.RepositoryIntegrityAnalyzer \
+         -consoleLog \
+         -noSplash \
+         -o ${OUTPUT} \
+         -s "${JOB_URL}" \
+         -v \
+         -t "tests" \
+         ${PUBLISH_ARGUMENT} \
+         "https://download.eclipse.org/${TRAIN_LOCATION}" \
+         -vmargs \
+          -Dfile.encoding=UTF-8 \
+          -Dorg.eclipse.emf.ecore.plugin.EcorePlugin.doNotLoadResourcesPlugin=true \
+          -Xmx8g \
+         2>&1 | tee log
+
+        ls -sail *
+        '''
+
+        sshagent(['projects-storage.eclipse.org-bot-ssh']) {
+          sh '''
+            scp -r archive genie.simrel@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo
+          '''
+        }
+
+        junit healthScaleFactor: 1.0, testResults: 'tests/*.xml'
+        archiveArtifacts artifacts: 'log, tests/*', fingerprint: true
+      }
+    }
+  }
+}
+
+def pretty(string) {
+  return string.replaceAll("^\r?\n", "").replaceAll("\r?\n\$", "").replace("\r", "").stripIndent()
+}
