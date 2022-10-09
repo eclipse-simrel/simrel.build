@@ -55,8 +55,6 @@ pipeline {
             ssh genie.simrel@projects-storage.eclipse.org "
               ls /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/
               mkdir -p /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo
-              echo rm -rf /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildinfo
-              rm -rf /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo/reports
               rm -rf /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo/archive
             "
           '''
@@ -103,10 +101,13 @@ pipeline {
             scp -r archive genie.simrel@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo
           '''
         }
-
-        junit healthScaleFactor: 1.0, testResults: 'tests/*.xml'
-        archiveArtifacts artifacts: 'log, tests/*', fingerprint: true
       }
+    }
+  }
+  post {
+    always {
+      junit healthScaleFactor: 1.0, testResults: 'tests/*.xml'
+      archiveArtifacts artifacts: 'log, tests/*', fingerprint: true
     }
   }
 }
