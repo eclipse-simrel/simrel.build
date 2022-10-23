@@ -32,7 +32,7 @@ pipeline {
     booleanParam(
       name: 'PROMOTE',
       defaultValue: false,
-      description: 'Whether to promote the repository report to /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/archive.'
+      description: 'Whether to promote the repository report to /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo/archive.'
     )
     string(
       name: 'TRAIN_LOCATION',
