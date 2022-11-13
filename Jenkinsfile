@@ -34,9 +34,25 @@ pipeline {
     }
  
     stages {
+        stage('Initialize PGP') {
+            steps {
+                withCredentials([file(credentialsId: 'secret-subkeys.asc', variable: 'KEYRING')]) {
+                 sh '''
+                   gpg --batch --import "${KEYRING}"
+                   for fpr in $(gpg --list-keys --with-colons  | awk -F: \'/fpr:/ {print $10}\' | sort -u); do echo -e "5\ny\n" |  gpg --batch --command-fd 0 --expert --edit-key ${fpr} trust; done
+                   '''
+                }
+            }
+        }
         stage('Build clean') {
             steps {
-                sh 'mvn clean verify -Pbuilt-at-eclipse.org -Pbuild'
+                withCredentials([string(credentialsId: 'gpg-passphrase', variable: 'KEYRING_PASSPHRASE')]) {
+                    sh '''
+                      mvn clean verify -Dgpg.passphrase="${KEYRING_PASSPHRASE}" -DPbuilt-at-eclipse.org -Pbuild -Pgpg-sign
+                      mvn verify -Ppost-process-repository
+                      '''
+                }
+                // archiveArtifacts 'target/repository/final/**'
             }
         }
         stage('Deploy to staging') {

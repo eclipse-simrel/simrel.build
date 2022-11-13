@@ -3,11 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.eclipse.simrel</groupId>
   <artifactId>build</artifactId>
-  <version>4.25.0-SNAPSHOT</version>
+  <version>4.26.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <properties>
-    <tycho-version>2.7.3</tycho-version>
+    <gpg-keyname>CBCB0197</gpg-keyname>
+    <tycho-version>2.7.5</tycho-version>
     <trainName>2022-12</trainName>
     <referenceRepo>releases/2022-09/202209141001</referenceRepo>
     <download.eclipse.org>https://download.eclipse.org</download.eclipse.org>
@@ -52,6 +53,102 @@
                     <applicationsArg>INFO</applicationsArg>
                     <applicationsArg>--action</applicationsArg>
                     <applicationsArg>${simrel.aggregator.build.type}</applicationsArg>
+                    <applicationsArg>--signerFingerprints</applicationsArg>
+                  </applicationsArgs>
+                  <executionEnvironment>JavaSE-11</executionEnvironment>
+                  <jvmArgs>
+                    <jvmArg>-Xms256M</jvmArg>
+                    <jvmArg>-Xmx2048M</jvmArg>
+                  </jvmArgs>
+                  <repositories>
+                    <repository>
+                      <id>simrel-aggregator</id>
+                      <url>${simrel.aggregator.repo.url}</url>
+                      <layout>p2</layout>
+                    </repository>
+                  </repositories>
+                  <dependencies>
+                    <dependency>
+                      <artifactId>org.eclipse.cbi.p2repo.aggregator.engine.feature.feature.group</artifactId>
+                      <type>p2-installable-unit</type>
+                    </dependency>
+                    <dependency>
+                      <artifactId>org.eclipse.equinox.p2.core.feature</artifactId>
+                      <type>eclipse-feature</type>
+                    </dependency>
+                    <dependency>
+                      <artifactId>org.eclipse.equinox.core.feature</artifactId>
+                      <type>eclipse-feature</type>
+                    </dependency>
+                  </dependencies>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>gpg-sign</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.eclipse.tycho</groupId>
+            <artifactId>tycho-gpg-plugin</artifactId>
+            <version>${tycho-version}</version>
+            <configuration>
+              <keyname>${gpg-keyname}</keyname>
+              <skipIfJarsigned>false</skipIfJarsigned>
+              <repository>${project.build.directory}/repository/final</repository>
+            </configuration>
+            <executions>
+              <execution>
+                <phase>verify</phase>
+                <goals>
+                  <goal>sign-p2-artifacts</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>post-process-repository</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.eclipse.tycho.extras</groupId>
+            <artifactId>tycho-eclipserun-plugin</artifactId>
+            <version>${tycho-version}</version>
+            <executions>
+              <execution>
+                <id>post-process-repo</id>
+                <phase>package</phase>
+                <goals>
+                  <goal>eclipse-run</goal>
+                </goals>
+                <configuration>
+                  <applicationsArgs>
+                    <applicationsArg>-application</applicationsArg>
+                    <applicationsArg>org.eclipse.cbi.p2repo.cli.headless</applicationsArg>
+                    <applicationsArg>signature-cleanup</applicationsArg>
+                    <applicationsArg>--repositoryLocation</applicationsArg>
+                    <applicationsArg>${project.build.directory}/repository/final</applicationsArg>
+                    <applicationsArg>--eclipseLogLevel</applicationsArg>
+                    <applicationsArg>INFO</applicationsArg>
+                    <applicationsArg>--logLevel</applicationsArg>
+                    <applicationsArg>INFO</applicationsArg>
+                    <applicationsArg>--rejectedFingerprints</applicationsArg>
+                    <applicationsArg>c7607d5194b7b0447d326a94144be8f6fd4cf573f25a2f449052ba9e6cf1cf87</applicationsArg>
+                    <applicationsArg>--pgpAction</applicationsArg>
+                    <applicationsArg>MERGE</applicationsArg>
                   </applicationsArgs>
                   <executionEnvironment>JavaSE-11</executionEnvironment>
                   <jvmArgs>
