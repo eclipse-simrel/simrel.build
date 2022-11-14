@@ -17,6 +17,7 @@
     <simrel.aggregator.repo.url>${download.eclipse.org}/cbi/updates/p2-aggregator/products/${simrel.aggregator.repo.url.relative}</simrel.aggregator.repo.url>
     <cbi.analyzers.repo.url>${download.eclipse.org}/cbi/updates/analyzers/4.7</cbi.analyzers.repo.url>
     <simrel.aggregator.build.type>CLEAN_BUILD</simrel.aggregator.build.type>
+    <simrel.aggregator.signer.fingeprints>--ignored</simrel.aggregator.signer.fingeprints>
   </properties>
 
   <profiles>
@@ -307,6 +308,7 @@
                   <jvmArgs>
                     <jvmArg>-Xms256M</jvmArg>
                     <jvmArg>-Xmx2048M</jvmArg>
+                    <jvmArg>-Dorg.eclipse.cbi.p2repo.aggregator.ignoreFeaturePGPSignature=true</jvmArg>
                   </jvmArgs>
                   <executionEnvironment>JavaSE-11</executionEnvironment>
                   <repositories>
