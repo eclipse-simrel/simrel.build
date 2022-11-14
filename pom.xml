@@ -55,7 +55,7 @@
                     <applicationsArg>INFO</applicationsArg>
                     <applicationsArg>--action</applicationsArg>
                     <applicationsArg>${simrel.aggregator.build.type}</applicationsArg>
-                    <applicationsArg>--signerFingerprints</applicationsArg>
+                    <applicationsArg>${simrel.aggregator.signer.fingeprints}</applicationsArg>
                   </applicationsArgs>
                   <executionEnvironment>JavaSE-11</executionEnvironment>
                   <jvmArgs>
