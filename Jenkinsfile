@@ -25,15 +25,36 @@ pipeline {
           Choose the type of CBI p2 Aggregator products build to use for aggregation, i.e., the relative path in the <a href="https://download.eclipse.org/cbi/updates/p2-aggregator/products/">products folder</a>.
           '''
       )
-  
+
       booleanParam(
         name: 'PROMOTE',
         defaultValue: true,
         description: 'Whether to promote the build to the download server.'
       )
+
+      booleanParam(
+        name: 'PGP_SIGN',
+        defaultValue: false,
+        description: 'Whether to PGP sign the repository contents.'
+      )
     }
  
     stages {
+        stage('Setup Environment') {
+            steps {
+                script {
+                    env.PGP_SIGN = params.PGP_SIGN
+                    env.CBI_TYPE = params.CBI_TYPE
+                    env.PROMOTE = params.PROMOTE
+                    env.PGP_MVN_ARGUMENTS = ''
+                    env.PGP_MVN_POST_PROCESS = ''
+                    if (params.PGP_SIGN) {
+                        env.PGP_MVN_ARGUMENTS = '-Pgpg-sign -Dsimrel.aggregator.signer.fingerprints=--signerFingerprints'
+                        env.PGP_MVN_POST_PROCESS = 'mvn verify -Ppost-process-repository -Dorg.eclipse.cbi.p2repo.aggregator.ignoreFeaturePGPSignature=true'
+                    }
+                }
+            }
+        }
         stage('Initialize PGP') {
             steps {
                 withCredentials([file(credentialsId: 'secret-subkeys.asc', variable: 'KEYRING')]) {
@@ -48,8 +69,8 @@ pipeline {
             steps {
                 withCredentials([string(credentialsId: 'gpg-passphrase', variable: 'KEYRING_PASSPHRASE')]) {
                     sh '''
-                      mvn clean verify -Dgpg.passphrase="${KEYRING_PASSPHRASE}" -DPbuilt-at-eclipse.org -Pbuild -Pgpg-sign
-                      mvn verify -Ppost-process-repository
+                      mvn clean verify -Dgpg.passphrase="${KEYRING_PASSPHRASE}" -DPbuilt-at-eclipse.org -Pbuild ${PGP_MVN_ARGUMENTS}
+                      ${PGP_MVN_POST_PROCESS}
                       '''
                 }
                 // archiveArtifacts 'target/repository/final/**'

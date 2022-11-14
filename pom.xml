@@ -17,7 +17,7 @@
     <simrel.aggregator.repo.url>${download.eclipse.org}/cbi/updates/p2-aggregator/products/${simrel.aggregator.repo.url.relative}</simrel.aggregator.repo.url>
     <cbi.analyzers.repo.url>${download.eclipse.org}/cbi/updates/analyzers/4.7</cbi.analyzers.repo.url>
     <simrel.aggregator.build.type>CLEAN_BUILD</simrel.aggregator.build.type>
-    <simrel.aggregator.signer.fingeprints>--ignored</simrel.aggregator.signer.fingeprints>
+    <simrel.aggregator.signer.fingerprints>--ignored</simrel.aggregator.signer.fingerprints>
     <org.eclipse.cbi.p2repo.aggregator.ignoreFeaturePGPSignature>false</org.eclipse.cbi.p2repo.aggregator.ignoreFeaturePGPSignature>
   </properties>
 
@@ -55,7 +55,7 @@
                     <applicationsArg>INFO</applicationsArg>
                     <applicationsArg>--action</applicationsArg>
                     <applicationsArg>${simrel.aggregator.build.type}</applicationsArg>
-                    <applicationsArg>${simrel.aggregator.signer.fingeprints}</applicationsArg>
+                    <applicationsArg>${simrel.aggregator.signer.fingerprints}</applicationsArg>
                   </applicationsArgs>
                   <executionEnvironment>JavaSE-11</executionEnvironment>
                   <jvmArgs>
