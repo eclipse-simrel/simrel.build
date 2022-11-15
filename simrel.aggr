@@ -234,15 +234,15 @@
     <features href="ocl.aggrcon#//@repositories.0/@features.0"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.1"/>
     <features href="ep.aggrcon#//@repositories.0/@features.4"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.23"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.20"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.21"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.22"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.17"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.18"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.19"/>
     <features href="lsp4e.aggrcon#//@repositories.0/@features.2"/>
     <features href="ep.aggrcon#//@repositories.0/@features.5"/>
     <features href="m2e.aggrcon#//@repositories.0/@features.4"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.27"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.28"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.24"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.25"/>
   </customCategories>
   <customCategories identifier="License Management" label="License Management" description="Tools used to declare and control licensing constraints">
     <features href="passage.aggrcon#//@repositories.0/@features.0"/>
