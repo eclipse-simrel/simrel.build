@@ -4,7 +4,7 @@
     <features name="org.eclipse.sirius.specifier.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.sirius.runtime.ide.eef.feature.group"/>
+    <features name="org.eclipse.sirius.runtime.ide.eef.feature.group" enabled="false"/>
     <features name="org.eclipse.sirius.aql.feature.group"/>
     <features name="org.eclipse.sirius.samples.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
