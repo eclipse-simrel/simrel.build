@@ -43,8 +43,8 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
   </repositories>
-  <repositories location="https://download.eclipse.org/efxclipse/runtime-released/3.7.0/site/" description="e(fx)clipse (bundled by GEF)">
-    <features name="org.eclipse.fx.runtime.min.feature.feature.group" versionRange="[3.7.0.202010120720]">
+  <repositories location="https://download.eclipse.org/efxclipse/runtime-released/3.9.0/site/" description="e(fx)clipse (bundled by GEF)">
+    <features name="org.eclipse.fx.runtime.min.feature.feature.group" versionRange="[3.9.0.202210162353]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
   </repositories>
