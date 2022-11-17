@@ -20,7 +20,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
-  <repositories location="https://download.eclipse.org/oomph/simrel-extras/release/1.0.0" description="This is a workaround the fact that no repository provides a version of icu4j with versioned packages">
+  <repositories location="https://download.eclipse.org/oomph/simrel-extras/release/1.0.1" description="This is a workaround the fact that no repository provides a version of icu4j with versioned packages">
     <bundles name="com.ibm.icu"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='stepper@esc-net.de']"/>
