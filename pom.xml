@@ -61,6 +61,7 @@
                   <jvmArgs>
                     <jvmArg>-Xms256M</jvmArg>
                     <jvmArg>-Xmx2048M</jvmArg>
+                    <jvmArg>-Duser.home=${project.build.directory}</jvmArg>
                   </jvmArgs>
                   <repositories>
                     <repository>
@@ -156,6 +157,7 @@
                   <jvmArgs>
                     <jvmArg>-Xms256M</jvmArg>
                     <jvmArg>-Xmx2048M</jvmArg>
+                    <jvmArg>-Duser.home=${project.build.directory}</jvmArg>
                     <jvmArg>-Dorg.eclipse.cbi.p2repo.aggregator.ignoreFeaturePGPSignature=${org.eclipse.cbi.p2repo.aggregator.ignoreFeaturePGPSignature}</jvmArg>
                   </jvmArgs>
                   <repositories>
@@ -310,6 +312,7 @@
                   <jvmArgs>
                     <jvmArg>-Xms256M</jvmArg>
                     <jvmArg>-Xmx2048M</jvmArg>
+                    <jvmArg>-Duser.home=${project.build.directory}</jvmArg>
                   </jvmArgs>
                   <executionEnvironment>JavaSE-11</executionEnvironment>
                   <repositories>
