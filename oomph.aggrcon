@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Oomph">
-  <repositories location="https://download.eclipse.org/oomph/drops/milestone/S20221116-103457-1.27.0-M3" description="Oomph 1.27">
+  <repositories location="https://download.eclipse.org/oomph/drops/milestone/S20221123-081509-1.27.0-RC1" description="Oomph 1.27">
     <features name="org.eclipse.oomph.setup.sdk.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
@@ -21,6 +21,9 @@
     </features>
   </repositories>
   <repositories location="https://download.eclipse.org/oomph/simrel-extras/release/1.0.1" description="This is a workaround the fact that no repository provides a version of icu4j with versioned packages">
+    <bundles name="com.ibm.icu"/>
+  </repositories>
+  <repositories location="https://download.eclipse.org/tools/orbit/downloads/drops/I20221116150045/repository">
     <bundles name="com.ibm.icu"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='stepper@esc-net.de']"/>
