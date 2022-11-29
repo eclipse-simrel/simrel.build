@@ -1,11 +1,11 @@
+// The pom.xml can be modified and its contents can copied into pom variable below to test out a modified pom.xml before checking it in.
+def pom = '''\
+'''
+
 pipeline {
-    agent {
-        node {
-            label 'promotion-vm'
-        }
-    }
+    agent any 
     tools {
-        jdk 'openjdk-jdk11-latest'
+        jdk 'temurin-jdk17-latest'
         maven 'apache-maven-latest'
     }
     options {
@@ -38,7 +38,7 @@ pipeline {
         description: 'Whether to PGP sign the repository contents.'
       )
     }
- 
+
     stages {
         stage('Setup Environment') {
             steps {
@@ -47,30 +47,57 @@ pipeline {
                     env.CBI_TYPE = params.CBI_TYPE
                     env.PROMOTE = params.PROMOTE
                     env.PGP_MVN_ARGUMENTS = ''
-                    env.PGP_MVN_POST_PROCESS = ''
                     if (params.PGP_SIGN) {
-                        env.PGP_MVN_ARGUMENTS = '-Pgpg-sign -Dsimrel.aggregator.signer.fingerprints=--signerFingerprints'
-                        env.PGP_MVN_POST_PROCESS = 'mvn verify -Ppost-process-repository -Dorg.eclipse.cbi.p2repo.aggregator.ignoreFeaturePGPSignature=true'
+                        env.PGP_MVN_ARGUMENTS = '-Pgpg-sign'
                     }
                 }
             }
         }
-        stage('Initialize PGP') {
-            steps {
-                withCredentials([file(credentialsId: 'secret-subkeys.asc', variable: 'KEYRING')]) {
-                 sh '''
-                   gpg --batch --import "${KEYRING}"
-                   for fpr in $(gpg --list-keys --with-colons  | awk -F: \'/fpr:/ {print $10}\' | sort -u); do echo -e "5\ny\n" |  gpg --batch --command-fd 0 --expert --edit-key ${fpr} trust; done
-                   '''
-                }
+        stage('Git Checkout') {
+           when {
+             expression {
+                // This stage is useful for testing changes to the pipeline.
+                // The changes can be pasted into a pipeline job to test them before committing them.
+               false
+             }
+          }
+          steps {
+            script {
+              def gitVariables = checkout(
+                poll: false,
+                scm: [
+                  $class: 'GitSCM',
+                  branches: [[name: '*/master']],
+                  doGenerateSubmoduleConfigurations: false,
+                  submoduleCfg: [],
+                  userRemoteConfigs: [[url: 'https://git.eclipse.org/r/simrel/org.eclipse.simrel.build.git']]
+                ]
+              )
+              echo "$gitVariables"
+              env.GIT_COMMIT = gitVariables.GIT_COMMIT
             }
+          }
         }
         stage('Build clean') {
             steps {
-                withCredentials([string(credentialsId: 'gpg-passphrase', variable: 'KEYRING_PASSPHRASE')]) {
+                script {
+                    if (pom.trim().length() > 0) {
+                        writeFile file: 'pom.xml', text: pom
+                    }
+                }
+                withCredentials([
+                    file(credentialsId: 'secret-subkeys.asc', variable: 'KEYRING'),
+                    string(credentialsId: 'gpg-passphrase', variable: 'KEYRING_PASSPHRASE')]) {
                     sh '''
-                      mvn clean verify -Dgpg.passphrase="${KEYRING_PASSPHRASE}" -DPbuilt-at-eclipse.org -Pbuild ${PGP_MVN_ARGUMENTS}
-                      ${PGP_MVN_POST_PROCESS}
+                      java -version
+                      mvn \
+                        -Dtycho.pgp.signer="bc" \
+                        -Dtycho.pgp.signer.bc.secretKeys="${KEYRING}" \
+                        -Dgpg.passphrase="${KEYRING_PASSPHRASE}" \
+                        -Pbuild \
+                        ${PGP_MVN_ARGUMENTS} \
+                        clean \
+                        verify
                       '''
                 }
                 // archiveArtifacts 'target/repository/final/**'
@@ -83,13 +110,18 @@ pipeline {
               }
             }
             steps {
-                // Create staging dir (if it does not exist already)
-                sh 'mkdir -p ${STAGING_DIR}'
-                // Clean staging dir
-                sh 'rm -rf ${STAGING_DIR}/*'
-                // Copying files to staging dir
-                sh 'cp -R ${WORKSPACE}/target/repository/final/* ${STAGING_DIR}/'
-                sh 'ls -al ${STAGING_DIR}'
+                sshagent(['projects-storage.eclipse.org-bot-ssh']) {
+                    sh '''
+                        ssh genie.simrel@projects-storage.eclipse.org "
+                            mkdir -p ${STAGING_DIR}
+                            rm -rf ${STAGING_DIR}/*
+                        "
+                        scp -r ${WORKSPACE}/target/repository/final/* genie.simrel@projects-storage.eclipse.org:${STAGING_DIR}/
+                        ssh genie.simrel@projects-storage.eclipse.org "
+                            ls -sail ${STAGING_DIR}
+                        "
+                    '''
+                }
                 // Trigger EPP job
                 sh 'curl "https://ci.eclipse.org/packaging/job/simrel.epp-tycho-build/buildWithParameters?delay=600sec&token=Yah6CohtYwO6b?6P"'
             }
@@ -105,7 +137,7 @@ pipeline {
                 parameters: [
                     booleanParam(name: 'PROMOTE', value: true),
                     string(name: 'TRAIN_LOCATION', value: "staging/${env.TRAIN_NAME}")
-                ], 
+                ],
                 wait: false
             }
         }

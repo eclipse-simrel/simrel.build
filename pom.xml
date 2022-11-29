@@ -7,8 +7,7 @@
   <packaging>pom</packaging>
 
   <properties>
-    <gpg-keyname>CBCB0197</gpg-keyname>
-    <tycho-version>2.7.5</tycho-version>
+    <tycho-version>4.0.0-SNAPSHOT</tycho-version>
     <trainName>2022-12</trainName>
     <referenceRepo>releases/2022-09/202209141001</referenceRepo>
     <download.eclipse.org>https://download.eclipse.org</download.eclipse.org>
@@ -17,9 +16,24 @@
     <simrel.aggregator.repo.url>${download.eclipse.org}/cbi/updates/p2-aggregator/products/${simrel.aggregator.repo.url.relative}</simrel.aggregator.repo.url>
     <cbi.analyzers.repo.url>${download.eclipse.org}/cbi/updates/analyzers/4.7</cbi.analyzers.repo.url>
     <simrel.aggregator.build.type>CLEAN_BUILD</simrel.aggregator.build.type>
-    <simrel.aggregator.signer.fingerprints>--ignored</simrel.aggregator.signer.fingerprints>
-    <org.eclipse.cbi.p2repo.aggregator.ignoreFeaturePGPSignature>false</org.eclipse.cbi.p2repo.aggregator.ignoreFeaturePGPSignature>
   </properties>
+
+  <pluginRepositories>
+    <pluginRepository>
+      <id>eclipse-maven-releases</id>
+      <url>https://repo.eclipse.org/content/repositories/releases</url>
+    </pluginRepository>
+    
+    <pluginRepository>
+      <id>eclipse-maven-snapshots</id>
+      <url>https://repo.eclipse.org/content/repositories/snapshots</url>
+    </pluginRepository>
+
+    <pluginRepository>
+      <id>eclipse-cbi-releases</id>
+      <url>https://repo.eclipse.org/content/repositories/cbi-releases</url>
+    </pluginRepository>
+  </pluginRepositories>
 
   <profiles>
     <profile>
@@ -55,7 +69,6 @@
                     <applicationsArg>INFO</applicationsArg>
                     <applicationsArg>--action</applicationsArg>
                     <applicationsArg>${simrel.aggregator.build.type}</applicationsArg>
-                    <applicationsArg>${simrel.aggregator.signer.fingerprints}</applicationsArg>
                   </applicationsArgs>
                   <executionEnvironment>JavaSE-11</executionEnvironment>
                   <jvmArgs>
@@ -103,8 +116,8 @@
             <artifactId>tycho-gpg-plugin</artifactId>
             <version>${tycho-version}</version>
             <configuration>
-              <keyname>${gpg-keyname}</keyname>
-              <skipIfJarsigned>false</skipIfJarsigned>
+              <skipIfJarsignedAndAnchored>true</skipIfJarsignedAndAnchored>
+              <pgpKeyBehavior>skip</pgpKeyBehavior>
               <repository>${project.build.directory}/repository/final</repository>
             </configuration>
             <executions>
@@ -113,104 +126,6 @@
                 <goals>
                   <goal>sign-p2-artifacts</goal>
                 </goals>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-    <profile>
-      <id>post-process-repository</id>
-      <activation>
-        <activeByDefault>false</activeByDefault>
-      </activation>
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>org.eclipse.tycho.extras</groupId>
-            <artifactId>tycho-eclipserun-plugin</artifactId>
-            <version>${tycho-version}</version>
-            <executions>
-              <execution>
-                <id>post-process-repo</id>
-                <phase>package</phase>
-                <goals>
-                  <goal>eclipse-run</goal>
-                </goals>
-                <configuration>
-                  <applicationsArgs>
-                    <applicationsArg>-application</applicationsArg>
-                    <applicationsArg>org.eclipse.cbi.p2repo.cli.headless</applicationsArg>
-                    <applicationsArg>signature-cleanup</applicationsArg>
-                    <applicationsArg>--repositoryLocation</applicationsArg>
-                    <applicationsArg>${project.build.directory}/repository/final</applicationsArg>
-                    <applicationsArg>--eclipseLogLevel</applicationsArg>
-                    <applicationsArg>INFO</applicationsArg>
-                    <applicationsArg>--logLevel</applicationsArg>
-                    <applicationsArg>INFO</applicationsArg>
-                    <applicationsArg>--rejectedFingerprints</applicationsArg>
-                    <applicationsArg>c7607d5194b7b0447d326a94144be8f6fd4cf573f25a2f449052ba9e6cf1cf87</applicationsArg>
-                    <applicationsArg>--pgpAction</applicationsArg>
-                    <applicationsArg>MERGE</applicationsArg>
-                  </applicationsArgs>
-                  <executionEnvironment>JavaSE-11</executionEnvironment>
-                  <jvmArgs>
-                    <jvmArg>-Xms256M</jvmArg>
-                    <jvmArg>-Xmx2048M</jvmArg>
-                    <jvmArg>-Duser.home=${project.build.directory}</jvmArg>
-                    <jvmArg>-Dorg.eclipse.cbi.p2repo.aggregator.ignoreFeaturePGPSignature=${org.eclipse.cbi.p2repo.aggregator.ignoreFeaturePGPSignature}</jvmArg>
-                  </jvmArgs>
-                  <repositories>
-                    <repository>
-                      <id>simrel-aggregator</id>
-                      <url>${simrel.aggregator.repo.url}</url>
-                      <layout>p2</layout>
-                    </repository>
-                  </repositories>
-                  <dependencies>
-                    <dependency>
-                      <artifactId>org.eclipse.cbi.p2repo.aggregator.engine.feature.feature.group</artifactId>
-                      <type>p2-installable-unit</type>
-                    </dependency>
-                    <dependency>
-                      <artifactId>org.eclipse.equinox.p2.core.feature</artifactId>
-                      <type>eclipse-feature</type>
-                    </dependency>
-                    <dependency>
-                      <artifactId>org.eclipse.equinox.core.feature</artifactId>
-                      <type>eclipse-feature</type>
-                    </dependency>
-                  </dependencies>
-                </configuration>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-    <profile>
-      <id>fix-p2-repository</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
-      <build>
-        <plugins>
-          <plugin>
-            <!-- Bug 576906: Fixes repository to have checksums and adds artifacts.xml.xz/content.xml.xz -->
-            <groupId>org.eclipse.tycho</groupId>
-            <artifactId>tycho-p2-repository-plugin</artifactId>
-            <version>${tycho-version}</version>
-            <executions>
-              <execution>
-                <id>fix-p2-repository</id>
-                <phase>verify</phase>
-                <goals>
-                  <goal>fix-artifacts-metadata</goal>
-                </goals>
-                <configuration>
-                  <repositoryLocation>${project.build.directory}/repository/final</repositoryLocation>
-                  <repositoryName>${trainName} artifacts</repositoryName>
-                </configuration>
               </execution>
             </executions>
           </plugin>
