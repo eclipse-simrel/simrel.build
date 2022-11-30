@@ -48,7 +48,7 @@ pipeline {
                     env.PROMOTE = params.PROMOTE
                     env.PGP_MVN_ARGUMENTS = ''
                     if (params.PGP_SIGN) {
-                        env.PGP_MVN_ARGUMENTS = '-Pgpg-sign'
+                        env.PGP_MVN_ARGUMENTS = '-Pgpg-sign -Dtycho-version=4.0.0-SNAPSHOT'
                     }
                 }
             }

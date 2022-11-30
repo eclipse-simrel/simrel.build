@@ -7,7 +7,7 @@
   <packaging>pom</packaging>
 
   <properties>
-    <tycho-version>4.0.0-SNAPSHOT</tycho-version>
+    <tycho-version>2.7.5</tycho-version>
     <trainName>2022-12</trainName>
     <referenceRepo>releases/2022-09/202209141001</referenceRepo>
     <download.eclipse.org>https://download.eclipse.org</download.eclipse.org>
