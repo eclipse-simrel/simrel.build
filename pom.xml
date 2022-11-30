@@ -20,18 +20,8 @@
 
   <pluginRepositories>
     <pluginRepository>
-      <id>eclipse-maven-releases</id>
-      <url>https://repo.eclipse.org/content/repositories/releases</url>
-    </pluginRepository>
-    
-    <pluginRepository>
-      <id>eclipse-maven-snapshots</id>
-      <url>https://repo.eclipse.org/content/repositories/snapshots</url>
-    </pluginRepository>
-
-    <pluginRepository>
-      <id>eclipse-cbi-releases</id>
-      <url>https://repo.eclipse.org/content/repositories/cbi-releases</url>
+      <id>tycho-snapshots</id>
+      <url>https://repo.eclipse.org/content/repositories/tycho-snapshots</url>
     </pluginRepository>
   </pluginRepositories>
 
