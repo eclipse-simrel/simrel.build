@@ -108,6 +108,9 @@
             <configuration>
               <skipIfJarsignedAndAnchored>true</skipIfJarsignedAndAnchored>
               <pgpKeyBehavior>skip</pgpKeyBehavior>
+              <forceSignature>
+                <bundle>org.antlr.runtime</bundle>
+              </forceSignature>
               <repository>${project.build.directory}/repository/final</repository>
             </configuration>
             <executions>
