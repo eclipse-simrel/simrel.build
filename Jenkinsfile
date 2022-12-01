@@ -34,7 +34,7 @@ pipeline {
 
       booleanParam(
         name: 'PGP_SIGN',
-        defaultValue: false,
+        defaultValue: true,
         description: 'Whether to PGP sign the repository contents.'
       )
     }
