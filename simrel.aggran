@@ -24,6 +24,8 @@
         version="https://projects.eclipse.org/projects/rt.jetty/releases/11.0"
         releaseDate="2020-09-02">
       <repository
+          uri="https://github.com/eclipse/jetty-website"/>
+      <repository
           uri="https://github.com/eclipse/jetty.alpn.api"/>
       <repository
           uri="https://github.com/eclipse/jetty.docker"/>
@@ -200,8 +202,8 @@
     <project
         name="Eclipse Maven Integration - m2eclipse"
         site="https://projects.eclipse.org/projects/technology.m2e"
-        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.0.4"
-        releaseDate="2022-09-04">
+        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.1.2"
+        releaseDate="2022-11-30">
       <repository
           uri="https://github.com/eclipse-m2e/m2e-core"/>
       <repository
@@ -250,8 +252,8 @@
     <project
         name="Eclipse EMF Compare"
         site="https://projects.eclipse.org/projects/modeling.emfcompare"
-        version="https://projects.eclipse.org/projects/modeling.emfcompare/releases/3.3.10"
-        releaseDate="2020-03-10">
+        version="https://projects.eclipse.org/projects/modeling.emfcompare/releases/3.3.20"
+        releaseDate="2022-11-29">
       <repository
           uri="https://github.com/eclipse-emf-compare/emf-compare"/>
       <repository
@@ -292,6 +294,8 @@
           uri="https://git.eclipse.org/r/mmt/org.eclipse.atl"/>
       <repository
           uri="https://git.eclipse.org/r/mmt/org.eclipse.atl.tcs"/>
+      <repository
+          uri="https://github.com/eclipse-atl/atl-website"/>
     </project>
   </contribution>
   <contribution
@@ -465,8 +469,8 @@
     <project
         name="Eclipse Mylyn"
         site="https://projects.eclipse.org/projects/tools.mylyn"
-        version="https://projects.eclipse.org/projects/mylyn/releases/3.25.2"
-        releaseDate="2020-09-16">
+        version="https://projects.eclipse.org/projects/tools.mylyn/releases/docs-3.0.42"
+        releaseDate="2022-01-07">
       <repository
           uri="https://git.eclipse.org/r/mylyn/org.eclipse.mylyn"/>
       <repository
@@ -491,8 +495,6 @@
           uri="https://git.eclipse.org/r/mylyn/org.eclipse.mylyn.tasks"/>
       <repository
           uri="https://git.eclipse.org/r/mylyn/org.eclipse.mylyn.versions"/>
-      <repository
-          uri="https://github.com/eclipse-mylyn"/>
       <repository
           uri="https://github.com/eclipse-mylyn/org.eclipse.mylyn"/>
       <repository
@@ -602,8 +604,8 @@
     <project
         name="Eclipse Dynamic Languages Toolkit"
         site="https://projects.eclipse.org/projects/technology.dltk"
-        version="https://projects.eclipse.org/projects/technology.dltk/releases/6.1"
-        releaseDate="2020-03-18">
+        version="https://projects.eclipse.org/projects/technology.dltk/releases/6.2"
+        releaseDate="2022-12-07">
       <repository
           uri="https://git.eclipse.org/r/dltk/org.eclipse.dltk.core"/>
       <repository
@@ -725,8 +727,8 @@
     <project
         name="Eclipse Acceleo"
         site="https://projects.eclipse.org/projects/modeling.acceleo"
-        version="https://projects.eclipse.org/projects/modeling.acceleo/releases/3.7.10"
-        releaseDate="2020-03-10">
+        version="https://projects.eclipse.org/projects/modeling.acceleo/releases/3.7.12"
+        releaseDate="2022-11-29">
       <repository
           uri="https://git.eclipse.org/r/acceleo/org.eclipse.acceleo"/>
       <repository
@@ -886,6 +888,8 @@
         releaseDate="2022-12-07">
       <repository
           uri="https://git.eclipse.org/r/egit/egit"/>
+      <repository
+          uri="https://github.com/eclipse-egit/egit-website"/>
     </project>
     <project
         name="Eclipse JGit: Java implementation of Git"
@@ -894,6 +898,8 @@
         releaseDate="2022-12-07">
       <repository
           uri="https://git.eclipse.org/r/jgit/jgit"/>
+      <repository
+          uri="https://github.com/eclipse-jgit/jgit-website"/>
     </project>
   </contribution>
   <contribution
@@ -1026,7 +1032,7 @@
         name="Eclipse Sirius"
         site="https://projects.eclipse.org/projects/modeling.sirius"
         version="https://projects.eclipse.org/projects/modeling.sirius/releases/7.0.6"
-        releaseDate="2022-11-16">
+        releaseDate="2022-11-25">
       <repository
           uri="https://git.eclipse.org/r/sirius/org.eclipse.sirius"/>
       <repository
@@ -1174,8 +1180,8 @@
     <project
         name="Eclipse LSP4E"
         site="https://projects.eclipse.org/projects/technology.lsp4e"
-        version="https://projects.eclipse.org/projects/technology.lsp4e/releases/0.20.6"
-        releaseDate="2022-07-29">
+        version="https://projects.eclipse.org/projects/technology.lsp4e/releases/0.21.0"
+        releaseDate="2022-11-29">
       <repository
           uri="https://github.com/eclipse/lsp4e"/>
     </project>
@@ -1213,8 +1219,8 @@
     <project
         name="Eclipse TM4E - TextMate support in the Eclipse IDE"
         site="https://projects.eclipse.org/projects/technology.tm4e"
-        version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.6.1"
-        releaseDate="2022-09-14">
+        version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.6.2"
+        releaseDate="2022-11-26">
       <repository
           uri="https://github.com/eclipse/tm4e"/>
     </project>
@@ -1317,6 +1323,8 @@
           uri="https://git.eclipse.org/r/justj/justj"/>
       <repository
           uri="https://git.eclipse.org/r/justj/justj.tools"/>
+      <repository
+          uri="https://github.com/eclipse-justj/justj-website"/>
     </project>
     <project
         name="Eclipse Packaging Project"
