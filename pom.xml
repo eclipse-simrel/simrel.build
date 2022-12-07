@@ -8,10 +8,10 @@
 
   <properties>
     <tycho-version>2.7.5</tycho-version>
-    <trainName>2022-12</trainName>
-    <referenceRepo>releases/2022-09/202209141001</referenceRepo>
+    <trainName>2023-03</trainName>
+    <referenceRepo>releases/2022-12/202212071000</referenceRepo>
     <download.eclipse.org>https://download.eclipse.org</download.eclipse.org>
-    <eclipse.repo.url>https://download.eclipse.org/eclipse/updates/4.25/R-4.25-202208311800</eclipse.repo.url>
+    <eclipse.repo.url>https://download.eclipse.org/eclipse/updates/4.26/R-4.26-202211231800</eclipse.repo.url>
     <simrel.aggregator.repo.url.relative>nightly/latest</simrel.aggregator.repo.url.relative>
     <simrel.aggregator.repo.url>${download.eclipse.org}/cbi/updates/p2-aggregator/products/${simrel.aggregator.repo.url.relative}</simrel.aggregator.repo.url>
     <cbi.analyzers.repo.url>${download.eclipse.org}/cbi/updates/analyzers/4.7</cbi.analyzers.repo.url>
