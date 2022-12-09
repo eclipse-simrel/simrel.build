@@ -14,7 +14,7 @@
     <eclipse.repo.url>https://download.eclipse.org/eclipse/updates/4.26/R-4.26-202211231800</eclipse.repo.url>
     <simrel.aggregator.repo.url.relative>nightly/latest</simrel.aggregator.repo.url.relative>
     <simrel.aggregator.repo.url>${download.eclipse.org}/cbi/updates/p2-aggregator/products/${simrel.aggregator.repo.url.relative}</simrel.aggregator.repo.url>
-    <cbi.analyzers.repo.url>${download.eclipse.org}/cbi/updates/analyzers/4.7</cbi.analyzers.repo.url>
+    <cbi.analyzers.repo.url>${download.eclipse.org}/cbi/updates/p2-analyzers/products/nightly/latest</cbi.analyzers.repo.url>
     <simrel.aggregator.build.type>CLEAN_BUILD</simrel.aggregator.build.type>
   </properties>
 
