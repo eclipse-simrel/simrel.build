@@ -152,7 +152,7 @@
                     <jvmArg>-Xms256M</jvmArg>
                     <jvmArg>-Xmx2048M</jvmArg>
                   </jvmArgs>
-                  <executionEnvironment>JavaSE-11</executionEnvironment>
+                  <executionEnvironment>JavaSE-17</executionEnvironment>
                   <dependencies>
                     <dependency>
                       <artifactId>org.eclipse.cbi.p2repo.analyzers</artifactId>
