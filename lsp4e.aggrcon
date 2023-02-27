@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="LSP4E">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="LSP4E">
   <repositories location="https://download.eclipse.org/lsp4e/releases/0.21.0/" description="LSP4E 0.21.0">
     <features name="org.eclipse.lsp4e" versionRange="[0.15.0.202211292024]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
@@ -13,6 +13,7 @@
     <features name="org.eclipse.lsp4e.source" versionRange="[0.15.0.202211292024]"/>
     <features name="org.eclipse.lsp4e.debug.source" versionRange="[0.15.0.202211181112]"/>
     <features name="org.eclipse.lsp4e.jdt.source" versionRange="[0.10.2.202205031750]"/>
+    <mapRules xsi:type="aggregator:ExclusionRule" name="com.google.gson" versionRange="[2.9.1.v20220915-1632]"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='mistria@redhat.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='jonah@kichwacoders.com']"/>
