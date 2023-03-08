@@ -48,7 +48,7 @@
         name="Eclipse Nebula - Supplemental Widgets for SWT"
         site="https://projects.eclipse.org/projects/technology.nebula"
         version="https://projects.eclipse.org/projects/technology.nebula/releases/3.0.0"
-        releaseDate="2022-12-30">
+        releaseDate="2023-03-07">
       <repository
           uri="https://github.com/eclipse/nebula"/>
       <repository
@@ -198,8 +198,8 @@
     <project
         name="Eclipse Maven Integration - m2eclipse"
         site="https://projects.eclipse.org/projects/technology.m2e"
-        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.2.0"
-        releaseDate="2023-02-28">
+        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.2.1"
+        releaseDate="2023-03-07">
       <repository
           uri="https://github.com/eclipse-m2e/m2e-core"/>
       <repository
@@ -563,8 +563,8 @@
     <project
         name="Eclipse CDT (C/C++ Development Tooling)"
         site="https://projects.eclipse.org/projects/tools.cdt"
-        version="https://projects.eclipse.org/projects/tools.cdt/releases/11.0.0"
-        releaseDate="2022-12-07">
+        version="https://projects.eclipse.org/projects/tools.cdt/releases/11.1.0"
+        releaseDate="2023-03-15">
       <repository
           uri="https://git.eclipse.org/r/cdt/org.eclipse.cdt"/>
       <repository
@@ -1053,12 +1053,8 @@
     <project
         name="Eclipse Sirius"
         site="https://projects.eclipse.org/projects/modeling.sirius"
-        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-desktop-7.1.0"
-        releaseDate="2023-03-15">
-      <repository
-          uri="https://git.eclipse.org/r/sirius/org.eclipse.sirius"/>
-      <repository
-          uri="https://git.eclipse.org/r/sirius/org.eclipse.sirius.legacy"/>
+        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-web-2023.3.0"
+        releaseDate="2023-03-01">
       <repository
           uri="https://github.com/eclipse-sirius/sirius-components"/>
       <repository
