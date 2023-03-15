@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="CDT">
-  <repositories location="https://download.eclipse.org/tools/cdt/builds/11.1/cdt-11.1.0-rc2" description="CDT updates">
+  <repositories location="https://download.eclipse.org/tools/cdt/releases/11.1/cdt-11.1.0/" description="CDT updates">
     <bundles name="org.eclipse.cdt.core.linux" versionRange="[6.1.0.202211062329]"/>
     <bundles name="org.eclipse.cdt.core.linux.x86_64" versionRange="[11.1.0.202303061654]"/>
     <bundles name="org.eclipse.cdt.core.macosx" versionRange="[11.1.0.202303061654]"/>
