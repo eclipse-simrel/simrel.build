@@ -159,6 +159,10 @@
                       <type>eclipse-plugin</type>
                     </dependency>
                     <dependency>
+                      <artifactId>org.apache.felix.scr</artifactId>
+                      <type>eclipse-plugin</type>
+                    </dependency>
+                    <dependency>
                       <artifactId>org.eclipse.equinox.p2.core.feature</artifactId>
                       <type>eclipse-feature</type>
                     </dependency>
