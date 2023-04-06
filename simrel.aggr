@@ -168,7 +168,7 @@
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="EclipseRT Target Platform Components" label="EclipseRT Target Platform Components" description="This category identifies various Eclipse technology that is commonly used in runtime scenarios from RCP to embedded to server side. The components in this category are intended to be added to your Target Platform, rather than your IDE.">
-    <features href="ep.aggrcon#//@repositories.0/@features.9"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.10"/>
     <features href="ecf.aggrcon#//@repositories.0/@features.0"/>
     <features href="ecf.aggrcon#//@repositories.0/@features.1"/>
     <features href="ecf.aggrcon#//@repositories.0/@features.2"/>
@@ -233,16 +233,17 @@
     <features href="lsp4e.aggrcon#//@repositories.0/@features.1"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.0"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.1"/>
-    <features href="ep.aggrcon#//@repositories.0/@features.7"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.8"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.20"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.17"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.18"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.19"/>
     <features href="lsp4e.aggrcon#//@repositories.0/@features.2"/>
-    <features href="ep.aggrcon#//@repositories.0/@features.8"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.9"/>
     <features href="m2e.aggrcon#//@repositories.0/@features.4"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.24"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.25"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.3"/>
   </customCategories>
   <customCategories identifier="License Management" label="License Management" description="Tools used to declare and control licensing constraints">
     <features href="passage.aggrcon#//@repositories.0/@features.0"/>
@@ -376,7 +377,7 @@
     <features href="dltk.aggrcon#//@repositories.0/@features.1"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.2"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.3"/>
-    <features href="ep.aggrcon#//@repositories.0/@features.3"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.4"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.1"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.10"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.6"/>
@@ -399,9 +400,9 @@
     <features href="xwt.aggrcon#//@repositories.0/@features.1"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.0"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.1"/>
-    <features href="ep.aggrcon#//@repositories.0/@features.4"/>
     <features href="ep.aggrcon#//@repositories.0/@features.5"/>
     <features href="ep.aggrcon#//@repositories.0/@features.6"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.7"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
     <features href="mdt-bpmn2.aggrcon#//@repositories.0/@features.0"/>
