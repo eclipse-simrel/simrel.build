@@ -60,7 +60,7 @@
                     <applicationsArg>--action</applicationsArg>
                     <applicationsArg>${simrel.aggregator.build.type}</applicationsArg>
                   </applicationsArgs>
-                  <executionEnvironment>JavaSE-11</executionEnvironment>
+                  <executionEnvironment>JavaSE-17</executionEnvironment>
                   <jvmArgs>
                     <jvmArg>-Xms256M</jvmArg>
                     <jvmArg>-Xmx2048M</jvmArg>
@@ -230,7 +230,7 @@
                     <jvmArg>-Xmx2048M</jvmArg>
                     <jvmArg>-Duser.home=${project.build.directory}</jvmArg>
                   </jvmArgs>
-                  <executionEnvironment>JavaSE-11</executionEnvironment>
+                  <executionEnvironment>JavaSE-17</executionEnvironment>
                   <repositories>
                     <repository>
                       <id>simrel-aggregator</id>
