@@ -5,7 +5,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="https://download.eclipse.org/modeling/emf/validation/updates/milestones/S202304231233/" description="EMF Validation">
+  <repositories location="https://download.eclipse.org/modeling/emf/validation/updates/releases/R202305230712" description="EMF Validation">
     <features name="org.eclipse.emf.validation.sdk.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
