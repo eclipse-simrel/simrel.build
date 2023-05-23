@@ -294,7 +294,6 @@
     <features href="emft-mwe.aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-mwe.aggrcon#//@repositories.0/@features.1"/>
     <features href="emft-mwe.aggrcon#//@repositories.0/@features.2"/>
-    <features href="emft-ecoretools.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.3"/>
     <features href="emft-eef.aggrcon#//@repositories.0/@features.0"/>
