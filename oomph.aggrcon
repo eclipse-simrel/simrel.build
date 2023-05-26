@@ -19,6 +19,7 @@
     <features name="org.eclipse.oomph.version.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
+    <features name="org.eclipse.oomph.setup.mylyn.feature.group"/>
   </repositories>
   <repositories location="https://download.eclipse.org/oomph/simrel-extras/release/1.0.1" description="This is a workaround the fact that no repository provides a version of icu4j with versioned packages">
     <bundles name="com.ibm.icu"/>

@@ -58,6 +58,11 @@
     <features name="org.eclipse.mylyn.tasks.ide.feature.group" versionRange="3.26.0.v20221223-1911"/>
     <features name="org.eclipse.mylyn.versions.feature.group" versionRange="3.26.0.v20221223-1911"/>
     <features name="org.eclipse.mylyn.versions.sdk.feature.group" versionRange="3.26.0.v20221223-1911"/>
+    <features name="org.eclipse.egit.mylyn.feature.group"/>
+    <features name="org.eclipse.mylyn.commons.activity.feature.group"/>
+    <features name="org.eclipse.mylyn.tasks.index.feature.group"/>
+    <features name="org.eclipse.mylyn.discovery.feature.group"/>
+    <features name="org.eclipse.mylyn.monitor.feature.group"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='alexander.fedorov@arsysop.ru']"/>
 </aggregator:Contribution>
