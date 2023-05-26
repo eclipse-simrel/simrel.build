@@ -127,6 +127,26 @@
     <features href="egit.aggrcon#//@repositories.0/@features.10"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.14"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.15"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.16"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.18"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.19"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.20"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.21"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.22"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.23"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.24"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.25"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.26"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.29"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.30"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.31"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.32"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.33"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.17"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.27"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.28"/>
   </customCategories>
   <customCategories identifier="Database Development" label="Database Development" description="Tools to define and access a wide variety of databases.">
     <features href="dtp.aggrcon#//@repositories.0/@features.0"/>
