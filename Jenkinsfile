@@ -111,16 +111,20 @@ pipeline {
             }
             steps {
                 sshagent(['projects-storage.eclipse.org-bot-ssh']) {
-                    sh '''
-                        ssh genie.simrel@projects-storage.eclipse.org "
-                            mkdir -p ${STAGING_DIR}
-                            rm -rf ${STAGING_DIR}/*
-                        "
-                        scp -r ${WORKSPACE}/target/repository/final/* genie.simrel@projects-storage.eclipse.org:${STAGING_DIR}/
-                        ssh genie.simrel@projects-storage.eclipse.org "
-                            ls -sail ${STAGING_DIR}
-                        "
-                    '''
+                    script {
+                        lock('staging-repository') {
+                            sh '''
+                                ssh genie.simrel@projects-storage.eclipse.org "
+                                    mkdir -p ${STAGING_DIR}
+                                    rm -rf ${STAGING_DIR}/*
+                                "
+                                scp -r ${WORKSPACE}/target/repository/final/* genie.simrel@projects-storage.eclipse.org:${STAGING_DIR}/
+                                ssh genie.simrel@projects-storage.eclipse.org "
+                                    ls -sail ${STAGING_DIR}
+                                "
+                            '''
+                        }
+                    }
                 }
                 // Trigger EPP job
                 sh 'curl "https://ci.eclipse.org/packaging/job/simrel.epp-tycho-build/buildWithParameters?delay=600sec&token=Yah6CohtYwO6b?6P"'

@@ -51,61 +51,61 @@ pipeline {
       }
       steps {
         script {
-          if (params.PROMOTE) {
-            sshagent(['projects-storage.eclipse.org-bot-ssh']) {
-              sh '''
-                ssh genie.simrel@projects-storage.eclipse.org "
-                  ls /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/
-                  mkdir -p /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo
-                  rm -rf /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo/archive
-                "
-              '''
+      	  lock('staging-repository') {
+            if (params.PROMOTE) {
+              sshagent(['projects-storage.eclipse.org-bot-ssh']) {
+                sh '''
+                  ssh genie.simrel@projects-storage.eclipse.org "
+                    ls /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/
+                    mkdir -p /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo
+                    rm -rf /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo/archive
+                  "
+                '''
+              }
             }
-          }
-        }
 
-        sh '''
-        #!/bin/bash
-        mkdir -p ${TARGET_DIR}
+            sh '''
+            #!/bin/bash
+            mkdir -p ${TARGET_DIR}
 
-        wget -q https://download.eclipse.org/oomph/products/latest/eclipse-inst-jre-linux64.tar.gz
-        tar -xf eclipse-inst-jre-linux64.tar.gz
+            wget -q https://download.eclipse.org/oomph/products/latest/eclipse-inst-jre-linux64.tar.gz
+            tar -xf eclipse-inst-jre-linux64.tar.gz
 
-        PUBLISH_ARGUMENT=""
-        if [[ ${PROMOTE} == "true" ]]; then
-         echo "Promoting"
-         PUBLISH_ARGUMENT="-p ${TARGET_DIR}"
-        fi
+            PUBLISH_ARGUMENT=""
+            if [[ ${PROMOTE} == "true" ]]; then
+             echo "Promoting"
+             PUBLISH_ARGUMENT="-p ${TARGET_DIR}"
+            fi
 
-        OUTPUT="report"
+            OUTPUT="report"
 
-        set -o pipefail
+            set -o pipefail
 
-        eclipse-installer/eclipse-inst \
-         -application org.eclipse.oomph.p2.core.RepositoryIntegrityAnalyzer \
-         -consoleLog \
-         -noSplash \
-         -o ${OUTPUT} \
-         -s "${JOB_URL}" \
-         -v \
-         -t "tests" \
-         ${PUBLISH_ARGUMENT} \
-         "https://download.eclipse.org/${TRAIN_LOCATION}" \
-         -vmargs \
-          -Dfile.encoding=UTF-8 \
-          -Dorg.eclipse.emf.ecore.plugin.EcorePlugin.doNotLoadResourcesPlugin=true \
-          -Xmx8g \
-         2>&1 | tee log
+            eclipse-installer/eclipse-inst \
+             -application org.eclipse.oomph.p2.core.RepositoryIntegrityAnalyzer \
+             -consoleLog \
+             -noSplash \
+             -o ${OUTPUT} \
+             -s "${JOB_URL}" \
+             -v \
+             -t "tests" \
+             ${PUBLISH_ARGUMENT} \
+             "https://download.eclipse.org/${TRAIN_LOCATION}" \
+             -vmargs \
+              -Dfile.encoding=UTF-8 \
+              -Dorg.eclipse.emf.ecore.plugin.EcorePlugin.doNotLoadResourcesPlugin=true \
+              -Xmx8g \
+             2>&1 | tee log
 
-        ls -sail *
-        '''
+            ls -sail *
+           '''
 
-        script {
-          if (params.PROMOTE) {
-            sshagent(['projects-storage.eclipse.org-bot-ssh']) {
-              sh '''
-                scp -r archive genie.simrel@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo
-              '''
+            if (params.PROMOTE) {
+              sshagent(['projects-storage.eclipse.org-bot-ssh']) {
+                sh '''
+                  scp -r archive genie.simrel@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo
+                '''
+              }
             }
           }
         }

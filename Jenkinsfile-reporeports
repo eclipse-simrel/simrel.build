@@ -21,10 +21,14 @@ pipeline {
             //this job expects the staging dir to exist and contain a repo
             //files are created in the staging dir directly (not in the workspace!)
             steps {
-                sh 'mvn -Dtycho-version=2.7.5 clean test -Preport'
-                // https://bugs.eclipse.org/bugs/show_bug.cgi?id=370194 - add the name of the release on top of the repo reports main page
-                sh "sed -i 's/<h1>Software Repository Reports<\\/h1>/<h1>Software Repository Reports - ${TRAIN_NAME}<\\/h1>/g' ${STAGING_DIR}/buildInfo/reporeports/index.html"
-                //archiveArtifacts artifacts: "${STAGING_DIR}/buildInfo/reporeports/**/*", fingerprint: true, allowEmptyArchive: true
+                script {
+                    lock ('staging-repository') {
+                        sh 'mvn -Dtycho-version=2.7.5 clean test -Preport'
+                        // https://bugs.eclipse.org/bugs/show_bug.cgi?id=370194 - add the name of the release on top of the repo reports main page
+                        sh "sed -i 's/<h1>Software Repository Reports<\\/h1>/<h1>Software Repository Reports - ${TRAIN_NAME}<\\/h1>/g' ${STAGING_DIR}/buildInfo/reporeports/index.html"
+                        //archiveArtifacts artifacts: "${STAGING_DIR}/buildInfo/reporeports/**/*", fingerprint: true, allowEmptyArchive: true
+                    }
+                }
             }
         }
     }
