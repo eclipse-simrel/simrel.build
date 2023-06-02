@@ -24,5 +24,8 @@
   <repositories location="https://download.eclipse.org/oomph/simrel-extras/release/1.0.1" description="This is a workaround the fact that no repository provides a version of icu4j with versioned packages">
     <bundles name="com.ibm.icu"/>
   </repositories>
+  <repositories location="https://download.eclipse.org/oomph/jetty/release/10.0.15">
+    <bundles name="org.eclipse.jetty.jndi"/>
+  </repositories>
   <contacts href="simrel.aggr#//@contacts[email='stepper@esc-net.de']"/>
 </aggregator:Contribution>
