@@ -640,7 +640,7 @@
     <project
         name="Eclipse GMF Runtime"
         site="https://projects.eclipse.org/projects/modeling.gmf-runtime"
-        version="https://projects.eclipse.org/projects/modeling.gmf-runtime/releases/1.6.0"
+        version="https://projects.eclipse.org/projects/modeling.gmf-runtime/releases/1.16.0"
         releaseDate="2023-06-07">
       <repository
           uri="https://github.com/eclipse/gmf-notation"/>
