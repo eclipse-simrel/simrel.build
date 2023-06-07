@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Oomph">
-  <repositories location="https://download.eclipse.org/oomph/drops/milestone/S20230531-041858-1.29.0-RC1" description="Oomph 1.29">
+  <repositories location="https://download.eclipse.org/oomph/drops/release/1.29.0" description="Oomph 1.29">
     <features name="org.eclipse.oomph.setup.sdk.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
@@ -20,9 +20,6 @@
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
     <features name="org.eclipse.oomph.setup.mylyn.feature.group"/>
-  </repositories>
-  <repositories location="https://download.eclipse.org/oomph/jetty/release/10.0.15">
-    <bundles name="org.eclipse.jetty.jndi"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='stepper@esc-net.de']"/>
 </aggregator:Contribution>
