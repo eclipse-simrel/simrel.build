@@ -5,26 +5,23 @@
   <artifactId>build</artifactId>
   <version>4.26.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-
   <properties>
     <tycho-version>2.7.5</tycho-version>
-    <trainName>2023-06</trainName>
-    <referenceRepo>releases/2023-03/202303151000</referenceRepo>
+    <trainName>2023-09</trainName>
+    <referenceRepo>2023-06/202306141000</referenceRepo>
     <download.eclipse.org>https://download.eclipse.org</download.eclipse.org>
-    <eclipse.repo.url>https://download.eclipse.org/eclipse/updates/4.27/R-4.27-202303020300</eclipse.repo.url>
+    <eclipse.repo.url>https://download.eclipse.org/eclipse/updates/4.28/R-4.28-202306050440</eclipse.repo.url>
     <simrel.aggregator.repo.url.relative>nightly/latest</simrel.aggregator.repo.url.relative>
     <simrel.aggregator.repo.url>${download.eclipse.org}/cbi/updates/p2-aggregator/products/${simrel.aggregator.repo.url.relative}</simrel.aggregator.repo.url>
     <cbi.analyzers.repo.url>${download.eclipse.org}/cbi/updates/p2-analyzers/products/nightly/latest</cbi.analyzers.repo.url>
     <simrel.aggregator.build.type>CLEAN_BUILD</simrel.aggregator.build.type>
   </properties>
-
   <pluginRepositories>
     <pluginRepository>
       <id>tycho-snapshots</id>
       <url>https://repo.eclipse.org/content/repositories/tycho-snapshots</url>
     </pluginRepository>
   </pluginRepositories>
-
   <profiles>
     <profile>
       <id>build</id>
@@ -110,7 +107,7 @@
               <pgpKeyBehavior>skip</pgpKeyBehavior>
               <forceSignature>
                 <bundle>org.antlr.runtime</bundle>
-                <!-- <bundle>bcpg</bundle> --> 
+                <!-- <bundle>bcpg</bundle> -->
                 <bundle>bcpkix</bundle>
                 <!-- <bundle>bcprov</bundle> -->
                 <bundle>bcutil</bundle>

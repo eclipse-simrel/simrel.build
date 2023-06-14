@@ -528,8 +528,8 @@
     <project
         name="Eclipse Remote Application Platform"
         site="https://projects.eclipse.org/projects/rt.rap"
-        version="https://projects.eclipse.org/projects/rt.rap/releases/3.24.0"
-        releaseDate="2023-03-15">
+        version="https://projects.eclipse.org/projects/rt.rap/releases/3.25.0"
+        releaseDate="2023-06-14">
       <repository
           uri="https://github.com/eclipse-rap/org.eclipse.rap"/>
       <repository
@@ -1141,8 +1141,8 @@
     <project
         name="Eclipse Remote Application Platform"
         site="https://projects.eclipse.org/projects/rt.rap"
-        version="https://projects.eclipse.org/projects/rt.rap/releases/3.24.0"
-        releaseDate="2023-03-15">
+        version="https://projects.eclipse.org/projects/rt.rap/releases/3.25.0"
+        releaseDate="2023-06-14">
       <repository
           uri="https://github.com/eclipse-rap/org.eclipse.rap"/>
       <repository
