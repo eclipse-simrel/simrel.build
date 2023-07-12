@@ -103,15 +103,10 @@
             <artifactId>tycho-gpg-plugin</artifactId>
             <version>${tycho-version}</version>
             <configuration>
+              <signer>bc</signer>
+              <skipIfJarsigned>false</skipIfJarsigned>
               <skipIfJarsignedAndAnchored>true</skipIfJarsignedAndAnchored>
               <pgpKeyBehavior>skip</pgpKeyBehavior>
-              <forceSignature>
-                <bundle>org.antlr.runtime</bundle>
-                <!-- <bundle>bcpg</bundle> -->
-                <bundle>bcpkix</bundle>
-                <!-- <bundle>bcprov</bundle> -->
-                <bundle>bcutil</bundle>
-              </forceSignature>
               <repository>${project.build.directory}/repository/final</repository>
             </configuration>
             <executions>
