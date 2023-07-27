@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMFT MWE for 2023-09">
-  <repositories location="https://download.eclipse.org/modeling/emft/mwe/updates/milestones/S202306200840/" description="MWE2 Language p2 repository">
-    <features name="org.eclipse.emf.mwe2.runtime.sdk.feature.group" versionRange="[2.15.0.v20230620-0840]">
+  <repositories location="https://download.eclipse.org/modeling/emft/mwe/updates/milestones/S202307270420/" description="MWE2 Language p2 repository">
+    <features name="org.eclipse.emf.mwe2.runtime.sdk.feature.group" versionRange="[2.15.0.v20230727-0420]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.emf.mwe.sdk.feature.group" versionRange="[1.9.0.v20230620-0840]">
+    <features name="org.eclipse.emf.mwe.sdk.feature.group" versionRange="[1.9.0.v20230727-0420]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.emf.mwe2.language.sdk.feature.group" versionRange="[2.15.0.v20230620-0840]">
+    <features name="org.eclipse.emf.mwe2.language.sdk.feature.group" versionRange="[2.15.0.v20230727-0420]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='dennis.huebner@typefox.io']"/>
+  <contacts href="simrel.aggr#//@contacts[email='christian.dietrich.opensource@gmail.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='eclipse@typefox.io']"/>
   <contacts href="simrel.aggr#//@contacts[email='karsten.thoms@itemis.de']"/>
 </aggregator:Contribution>

@@ -10,6 +10,7 @@
     </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='dennis.huebner@typefox.io']"/>
+  <contacts href="simrel.aggr#//@contacts[email='christian.dietrich.opensource@gmail.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='eclipse@typefox.io']"/>
   <contacts href="simrel.aggr#//@contacts[email='karsten.thoms@itemis.de']"/>
 </aggregator:Contribution>
