@@ -553,7 +553,6 @@
   <contacts name="Ian Bull" email="irbull@eclipsesource.com"/>
   <contacts name="Idrissa Dieng" email="idydieng@gmail.com"/>
   <contacts name="Igor Burilo" email="igor.burilo@polarion.org"/>
-  <contacts name="Igor Fedorenko" email="igor@ifedorenko.com"/>
   <contacts name="Ivan Furnadjiev" email="ivan@eclipsesource.com"/>
   <contacts name="Jacek Pospychela" email="jacek.pospychala@gmail.com"/>
   <contacts name="Jacques Bouthillier" email="lmcbout@gmail.com"/>
@@ -650,4 +649,5 @@
   <contacts name="Yulin Wang" email="wangy@opentext.com"/>
   <contacts name="Yves YANG" email="yves.yang@soyatec.com"/>
   <contacts name="Zoltan Ujhelyi" email="ujhelyiz@incquerylabs.com"/>
+  <contacts name="Hannes Wellmann" email="wellmann.hannes1@gmx.net"/>
 </aggregator:Aggregation>
