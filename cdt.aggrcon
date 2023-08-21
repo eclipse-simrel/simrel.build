@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="CDT">
-  <repositories location="https://download.eclipse.org/tools/cdt/builds/11.3/cdt-11.3.0-m1/" description="CDT updates">
+  <repositories location="https://download.eclipse.org/tools/cdt/builds/11.3/cdt-11.3.0-m3/" description="CDT updates">
     <bundles name="org.eclipse.cdt.core.linux" versionRange="[6.1.0.202211062329]"/>
-    <bundles name="org.eclipse.cdt.core.linux.x86_64" versionRange="[11.3.0.202307110228]"/>
-    <bundles name="org.eclipse.cdt.core.macosx" versionRange="[11.3.0.202307110228]"/>
+    <bundles name="org.eclipse.cdt.core.linux.x86_64" versionRange="[11.3.0.202308200122]"/>
+    <bundles name="org.eclipse.cdt.core.macosx" versionRange="[11.3.0.202308200122]"/>
     <bundles name="org.eclipse.cdt.core.win32" versionRange="[6.1.0.202211062329]"/>
-    <bundles name="org.eclipse.cdt.core.linux.aarch64" versionRange="[11.3.0.202307110228]"/>
-    <features name="org.eclipse.cdt.feature.group" versionRange="[11.3.0.202307110228]">
+    <bundles name="org.eclipse.cdt.core.linux.aarch64" versionRange="[11.3.0.202308200122]"/>
+    <features name="org.eclipse.cdt.feature.group" versionRange="[11.3.0.202308200122]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.sdk.feature.group" versionRange="[11.3.0.202307110228]">
+    <features name="org.eclipse.cdt.sdk.feature.group" versionRange="[11.3.0.202308200122]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.debug.gdbjtag.feature.group" versionRange="[11.3.0.202307110141]">
+    <features name="org.eclipse.cdt.debug.gdbjtag.feature.group" versionRange="[11.3.0.202308081206]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.cdt.platform.feature.group" versionRange="[11.3.0.202307110228]"/>
-    <features name="org.eclipse.cdt.debug.ui.memory.feature.group" versionRange="[11.3.0.202307110141]">
+    <features name="org.eclipse.cdt.platform.feature.group" versionRange="[11.3.0.202308200122]"/>
+    <features name="org.eclipse.cdt.debug.ui.memory.feature.group" versionRange="[11.3.0.202308181704]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
     <features name="org.eclipse.cdt.launch.remote.feature.group" versionRange="[11.3.0.202307110141]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.build.crossgcc.feature.group" versionRange="[11.3.0.202307110141]">
+    <features name="org.eclipse.cdt.build.crossgcc.feature.group" versionRange="[11.3.0.202308032045]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
     <features name="org.eclipse.cdt.msw.feature.group" versionRange="[11.3.0.202307110141]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.autotools.feature.group" versionRange="[11.3.0.202307110141]">
+    <features name="org.eclipse.cdt.autotools.feature.group" versionRange="[11.3.0.202308161506]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.testsrunner.feature.feature.group" versionRange="[11.3.0.202307110141]">
+    <features name="org.eclipse.cdt.testsrunner.feature.feature.group" versionRange="[11.3.0.202308181406]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.cdt.visualizer.feature.group" versionRange="[11.3.0.202307110141]"/>
     <features name="org.eclipse.cdt.managedbuilder.llvm.feature.group" versionRange="[11.3.0.202307110141]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.gnu.multicorevisualizer.feature.group" versionRange="[11.3.0.202307110141]">
+    <features name="org.eclipse.cdt.gnu.multicorevisualizer.feature.group" versionRange="[11.3.0.202308161506]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.docker.launcher.feature.group" versionRange="[11.3.0.202307110141]">
+    <features name="org.eclipse.cdt.docker.launcher.feature.group" versionRange="[11.3.0.202308160000]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.cdt.debug.standalone.feature.group" versionRange="[11.3.0.202307110141]"/>
-    <features name="org.eclipse.cdt.cmake.feature.group" versionRange="[11.3.0.202307110141]"/>
+    <features name="org.eclipse.cdt.cmake.feature.group" versionRange="[11.3.0.202308172138]"/>
     <features name="org.eclipse.cdt.launch.serial.feature.feature.group" versionRange="[11.3.0.202307110141]"/>
-    <features name="org.eclipse.tm.terminal.connector.remote.feature.feature.group" versionRange="[11.3.0.202307110141]">
+    <features name="org.eclipse.tm.terminal.connector.remote.feature.feature.group" versionRange="[11.3.0.202308190036]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
     <features name="org.eclipse.tm.terminal.feature.feature.group" versionRange="[11.3.0.202307110141]">
@@ -57,7 +57,7 @@
     <features name="org.eclipse.tm.terminal.connector.cdtserial.feature.feature.group" versionRange="[11.3.0.202307110141]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.launchbar.feature.group" versionRange="[11.3.0.202307110141]">
+    <features name="org.eclipse.launchbar.feature.group" versionRange="[11.3.0.202308101623]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
     <features name="org.eclipse.launchbar.remote.feature.group" versionRange="[11.3.0.202307110141]"/>
