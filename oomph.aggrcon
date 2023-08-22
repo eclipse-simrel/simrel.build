@@ -21,9 +21,5 @@
     </features>
     <features name="org.eclipse.oomph.setup.mylyn.feature.group"/>
   </repositories>
-  <repositories location="https://download.eclipse.org/tools/orbit/simrel/maven-sign/nightly/latest">
-    <features name="org.eclipse.orbit.maven.com.github.jnr.jffi.feature.group"/>
-    <features name="org.eclipse.orbit.maven.net.java.dev.jna.feature.group"/>
-  </repositories>
   <contacts href="simrel.aggr#//@contacts[email='stepper@esc-net.de']"/>
 </aggregator:Contribution>
