@@ -94,8 +94,8 @@
     <bundles name="org.eclipse.wtp.web.capabilities" versionRange="1.0.100.v201005102000"/>
     <bundles name="org.eclipse.wtp.xml.capabilities" versionRange="1.0.100.v201005102000"/>
   </repositories>
-  <repositories location="https://download.eclipse.org/webtools/jetty/10.0.15/repository">
-    <bundles name="jakarta.transaction-api"/>
+  <repositories location="https://download.eclipse.org/oomph/jetty/release/10.0.15">
+    <bundles name="org.eclipse.jetty.jndi"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='thatnitind@gmail.com']"/>
 </aggregator:Contribution>
