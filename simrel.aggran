@@ -6,7 +6,7 @@
     releaseDate="2023-09-13"
     exclusion="tooling.*|.*\.source|.*\.source\.feature\.group|.*\.feature\.jar"
     aggregation="simrel.aggr#/">
-  <levels>66</levels>
+  <levels>65</levels>
   <levels>50</levels>
   <levels>30</levels>
   <levels>21</levels>
@@ -181,8 +181,8 @@
     <project
         name="Eclipse Maven Integration - m2eclipse"
         site="https://projects.eclipse.org/projects/technology.m2e"
-        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.3.0"
-        releaseDate="2023-05-23">
+        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.4.0"
+        releaseDate="2023-08-29">
       <repository
           uri="https://github.com/eclipse-m2e/m2e-core"/>
       <repository
