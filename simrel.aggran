@@ -617,7 +617,7 @@
         name="Eclipse GMF Runtime"
         site="https://projects.eclipse.org/projects/modeling.gmf-runtime"
         version="https://projects.eclipse.org/projects/modeling.gmf-runtime/releases/1.16.1"
-        releaseDate="2023-09-13">
+        releaseDate="2023-09-05">
       <repository
           uri="https://github.com/eclipse/gmf-notation"/>
       <repository
@@ -1001,8 +1001,8 @@
     <project
         name="Eclipse LSP4E"
         site="https://projects.eclipse.org/projects/technology.lsp4e"
-        version="https://projects.eclipse.org/projects/technology.lsp4e/releases/0.23.0"
-        releaseDate="2023-05-24">
+        version="https://projects.eclipse.org/projects/technology.lsp4e/releases/0.24.1"
+        releaseDate="2023-08-23">
       <repository
           uri="https://github.com/eclipse/lsp4e"/>
     </project>
