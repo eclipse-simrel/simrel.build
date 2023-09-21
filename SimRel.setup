@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setup:Project
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:git="http://www.eclipse.org/oomph/setup/git/1.0"
+    xmlns:predicates="http://www.eclipse.org/oomph/predicates/1.0"
+    xmlns:projects="http://www.eclipse.org/oomph/setup/projects/1.0"
+    xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
+    xmlns:setup.p2="http://www.eclipse.org/oomph/setup/p2/1.0"
+    xmlns:setup.workingsets="http://www.eclipse.org/oomph/setup/workingsets/1.0"
+    xsi:schemaLocation="http://www.eclipse.org/oomph/setup/git/1.0 https://raw.githubusercontent.com/eclipse-oomph/oomph/master/setups/models/Git.ecore http://www.eclipse.org/oomph/predicates/1.0 https://raw.githubusercontent.com/eclipse-oomph/oomph/master/setups/models/Predicates.ecore http://www.eclipse.org/oomph/setup/projects/1.0 https://raw.githubusercontent.com/eclipse-oomph/oomph/master/setups/models/Projects.ecore http://www.eclipse.org/oomph/setup/workingsets/1.0 https://raw.githubusercontent.com/eclipse-oomph/oomph/master/setups/models/SetupWorkingSets.ecore"
+    name="simrel"
+    label="SimRel">
+  <annotation
+      source="ConfigurationReference">
+    <reference
+        href="SimRelConfiguration.setup#/"/>
+  </annotation>
+  <setupTask
+      xsi:type="setup:CompoundTask"
+      name="User Preferences">
+    <setupTask
+        xsi:type="setup:CompoundTask"
+        name="org.eclipse.core.resources">
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.core.resources/refresh.enabled"
+          value="true"/>
+    </setupTask>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:EclipseIniTask"
+      option="-Doomph.redirection.simrel"
+      value="=https://raw.githubusercontent.com/eclipse-simrel/simrel.build/main/SimRel.setup->${simrel.build.github.clone.location|uri}/SimRel.setup"
+      vm="true">
+    <description>Redirect to the development version of the releng setup model.</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:ResourceCreationTask"
+      excludedTriggers="STARTUP MANUAL"
+      targetURL="${workspace.location|uri}/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml"
+      encoding="UTF-8">
+    <description>Initialize the Package Explorer to display workings sets.</description>
+    <content>
+      &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>
+      &lt;section name=&quot;Workbench&quot;>
+      	&lt;section name=&quot;org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart&quot;>
+      		&lt;item value=&quot;true&quot; key=&quot;group_libraries&quot;/>
+      		&lt;item value=&quot;false&quot; key=&quot;linkWithEditor&quot;/>
+      		&lt;item value=&quot;2&quot; key=&quot;layout&quot;/>
+      		&lt;item value=&quot;2&quot; key=&quot;rootMode&quot;/>
+      		&lt;item value=&quot;&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt;&amp;#x0D;&amp;#x0A;&amp;lt;packageExplorer configured=&amp;quot;true&amp;quot; group_libraries=&amp;quot;1&amp;quot; layout=&amp;quot;2&amp;quot; linkWithEditor=&amp;quot;0&amp;quot; rootMode=&amp;quot;2&amp;quot; sortWorkingSets=&amp;quot;false&amp;quot; workingSetName=&amp;quot;&amp;quot;&amp;gt;&amp;#x0D;&amp;#x0A;&amp;lt;localWorkingSetManager&amp;gt;&amp;#x0D;&amp;#x0A;&amp;lt;workingSet editPageId=&amp;quot;org.eclipse.jdt.internal.ui.OthersWorkingSet&amp;quot; factoryID=&amp;quot;org.eclipse.ui.internal.WorkingSetFactory&amp;quot; id=&amp;quot;1382792884467_1&amp;quot; label=&amp;quot;Other Projects&amp;quot; name=&amp;quot;Other Projects&amp;quot;/&amp;gt;&amp;#x0D;&amp;#x0A;&amp;lt;/localWorkingSetManager&amp;gt;&amp;#x0D;&amp;#x0A;&amp;lt;activeWorkingSet workingSetName=&amp;quot;Other Projects&amp;quot;/&amp;gt;&amp;#x0D;&amp;#x0A;&amp;lt;allWorkingSets workingSetName=&amp;quot;Other Projects&amp;quot;/&amp;gt;&amp;#x0D;&amp;#x0A;&amp;lt;/packageExplorer&amp;gt;&quot; key=&quot;memento&quot;/>
+      	&lt;/section>
+      &lt;/section>
+
+    </content>
+  </setupTask>
+  <setupTask
+      xsi:type="setup.p2:P2Task"
+      label="SimRel">
+    <requirement
+        name="org.eclipse.egit.feature.group"/>
+    <requirement
+        name="org.eclipse.cbi.p2repo.aggregator.editor.feature.feature.group"/>
+    <requirement
+        name="org.eclipse.cbi.p2repo.aggregator.analyzer.editor.feature.feature.group"/>
+    <repository
+        url="https://download.eclipse.org/cbi/updates/p2-aggregator/tools/nightly/latest"/>
+    <repository
+        url="https://download.eclipse.org/egit/updates-stable-nightly"/>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:VariableTask"
+      name="eclipse.target.platform"
+      value="None"/>
+  <setupTask
+      xsi:type="setup:VariableTask"
+      name="simrel.build.fork"
+      label="SimRel Build Fork">
+    <choice
+        value="git@github.com:${github.user.id}/simrel.build.git"
+        label="SSH"/>
+    <choice
+        value="https://github.com/${github.user.id}/simrel.build.git"
+        label="HTTPS"/>
+    <description>The remote URL to be used for pull requests via your fork of simrel.build</description>
+  </setupTask>
+  <setupTask
+      xsi:type="git:GitCloneTask"
+      id="simrel.build.github.clone"
+      remoteURI="eclipse-simrel/simrel.build">
+    <annotation
+        source="http://www.eclipse.org/oomph/setup/InducedChoices">
+      <detail
+          key="inherit">
+        <value>github.remoteURIs</value>
+      </detail>
+      <detail
+          key="label">
+        <value>SimRel Build GitHub Repository</value>
+      </detail>
+      <detail
+          key="target">
+        <value>remoteURI</value>
+      </detail>
+    </annotation>
+    <configSections
+        name="remote">
+      <subsections
+          name="${github.user.id}">
+        <properties
+            key="url"
+            value="${simrel.build.fork}"/>
+      </subsections>
+    </configSections>
+    <description>SimRel Build</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:VariableTask"
+      name="simrel.tools.fork"
+      label="SimRel Tools Fork">
+    <choice
+        value="git@github.com:${github.user.id}/simrel.tools.git"
+        label="SSH"/>
+    <choice
+        value="https://github.com/${github.user.id}/simrel.tools.git"
+        label="HTTPS"/>
+    <description>The remote URL to be used for pull requests via your fork of simrel.build</description>
+  </setupTask>
+  <setupTask
+      xsi:type="git:GitCloneTask"
+      id="simrel.tools.github.clone"
+      remoteURI="eclipse-simrel/simrel.tools">
+    <annotation
+        source="http://www.eclipse.org/oomph/setup/InducedChoices">
+      <detail
+          key="inherit">
+        <value>github.remoteURIs</value>
+      </detail>
+      <detail
+          key="label">
+        <value>SimRel Tools GitHub Repository</value>
+      </detail>
+      <detail
+          key="target">
+        <value>remoteURI</value>
+      </detail>
+    </annotation>
+    <configSections
+        name="remote">
+      <subsections
+          name="${github.user.id}">
+        <properties
+            key="url"
+            value="${simrel.tools.fork}"/>
+      </subsections>
+    </configSections>
+    <description>SimRel Tools</description>
+  </setupTask>
+  <setupTask
+      xsi:type="projects:ProjectsImportTask">
+    <sourceLocator
+        rootFolder="${simrel.build.github.clone.location}"/>
+    <sourceLocator
+        rootFolder="${simrel.tools.github.clone.location}"/>
+  </setupTask>
+  <setupTask
+      xsi:type="setup.workingsets:WorkingSetTask">
+    <workingSet
+        name="SimRel">
+      <predicate
+          xsi:type="predicates:AndPredicate">
+        <operand
+            xsi:type="predicates:NamePredicate"
+            pattern="org\.eclipse\.simrel\.(build|tools)"/>
+      </predicate>
+    </workingSet>
+    <description>The dynamic working sets for ${scope.project.label}</description>
+  </setupTask>
+  <stream name="main"
+      label="Main"/>
+  <logicalProjectContainer
+      xsi:type="setup:ProjectCatalog"
+      href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']"/>
+  <description>The Simultaneous Release provides support for the quarterly simultaneous releases of the participating Eclipse projects.</description>
+</setup:Project>
