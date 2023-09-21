@@ -43,7 +43,7 @@
       </setupTask>
     </setupTask>
     <stream
-        href="index:/interim/SimRel.setup#//@streams[name='main']"/>
+        href="SimRel.setup#//@streams[name='main']"/>
     <description>The Simultaneous Release Train workspace provides access to the clone in which contributions are maintained.</description>
   </workspace>
   <description>
