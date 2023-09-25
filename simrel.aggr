@@ -43,7 +43,6 @@
     <contributions href="scout.aggrcon#/"/>
     <contributions href="windowbuilder.aggrcon#/"/>
     <contributions href="swtbot.aggrcon#/"/>
-    <contributions href="reddeer.aggrcon#/"/>
     <contributions href="tcf.aggrcon#/"/>
     <contributions href="sirius.aggrcon#/"/>
     <contributions href="qvtd.aggrcon#/"/>
@@ -428,13 +427,6 @@
     <features href="swtbot.aggrcon#//@repositories.0/@features.2"/>
     <features href="swtbot.aggrcon#//@repositories.0/@features.3"/>
     <features href="eclemma.aggrcon#//@repositories.0/@features.0"/>
-    <features href="reddeer.aggrcon#//@repositories.0/@features.0"/>
-    <features href="reddeer.aggrcon#//@repositories.0/@features.1"/>
-    <features href="reddeer.aggrcon#//@repositories.0/@features.2"/>
-    <features href="reddeer.aggrcon#//@repositories.0/@features.3"/>
-    <features href="reddeer.aggrcon#//@repositories.0/@features.4"/>
-    <features href="reddeer.aggrcon#//@repositories.0/@features.5"/>
-    <features href="reddeer.aggrcon#//@repositories.0/@features.6"/>
   </customCategories>
   <customCategories identifier="Web, XML, Java EE and OSGi Enterprise Development" label="Web, XML, Java EE and OSGi Enterprise Development" description="Tools to help create web applications, including JavaScript, XML, XSL, XSD, HTML, XHTML, CSS, JSP, EJBs, Webservices, JPA tand OSGi Enterprise Applications">
     <features href="m2e.aggrcon#//@repositories.1/@features.0"/>
