@@ -836,17 +836,6 @@
     </project>
   </contribution>
   <contribution
-      contribution="reddeer.aggrcon#/">
-    <project
-        name="Eclipse RedDeer"
-        site="https://projects.eclipse.org/projects/technology.reddeer"
-        version="https://projects.eclipse.org/projects/technology.reddeer/releases/4.7.0"
-        releaseDate="2023-09-13">
-      <repository
-          uri="https://github.com/eclipse/reddeer"/>
-    </project>
-  </contribution>
-  <contribution
       label="TCF"
       contribution="tcf.aggrcon#/">
     <project
