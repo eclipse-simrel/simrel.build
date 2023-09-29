@@ -1143,4 +1143,7 @@
           uri="https://github.com/eclipse-tycho/tycho"/>
     </project>
   </contribution>
+  <contribution
+      label="z-Orbit-CVS-Legacy-To-Be-Deleted"
+      contribution="simrel.aggr#//@validationSets[label='main']/@contributions[label='Orbit-CVS-Legacy-To-Be-Deleted']"/>
 </analyzer:Analysis>
