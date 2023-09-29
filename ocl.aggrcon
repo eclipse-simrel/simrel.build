@@ -9,18 +9,6 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.ocl.build.feature.group" versionRange="[6.18.0,6.19.0)">
-      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
-    </features>
-    <features name="org.eclipse.ocl.build.source.feature.group" versionRange="[6.18.0,6.19.0]">
-      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
-    </features>
-    <features name="org.eclipse.ocl.examples.feature.group" versionRange="[6.18.0,6.19.0)">
-      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
-    </features>
-    <features name="org.eclipse.ocl.examples.source.feature.group" versionRange="[6.18.0,6.19.0]">
-      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
-    </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='ed@willink.me.uk']"/>
 </aggregator:Contribution>

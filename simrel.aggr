@@ -311,10 +311,6 @@
     <features href="gef.aggrcon#//@repositories.0/@features.1"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.0"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.1"/>
-    <features href="ocl.aggrcon#//@repositories.0/@features.2"/>
-    <features href="ocl.aggrcon#//@repositories.0/@features.3"/>
-    <features href="ocl.aggrcon#//@repositories.0/@features.4"/>
-    <features href="ocl.aggrcon#//@repositories.0/@features.5"/>
     <features href="gmp-gmf-runtime.aggrcon#//@repositories.0/@features.1"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.2"/>
