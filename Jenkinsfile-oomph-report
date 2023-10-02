@@ -69,7 +69,7 @@ pipeline {
             mkdir -p ${TARGET_DIR}
 
             wget -q https://download.eclipse.org/oomph/products/latest/eclipse-inst-jre-linux64.tar.gz
-            tar -xf eclipse-inst-jre-linux64.tar.gz
+            tar --warning=no-unknown-keyword -xf eclipse-inst-jre-linux64.tar.gz
 
             PUBLISH_ARGUMENT=""
             if [[ ${PROMOTE} == "true" ]]; then
