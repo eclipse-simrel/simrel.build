@@ -5,6 +5,8 @@
     <products name="org.eclipse.platform.ide"/>
     <bundles name="org.eclipse.e4.ui.progress"/>
     <bundles name="org.eclipse.e4.ui.progress.source"/>
+    <bundles name="jakarta.inject.jakarta.inject-api" versionRange="[1.0.0,2.0.0)"/>
+    <bundles name="jakarta.annotation-api" versionRange="[1.0.0,2.0.0)"/>
     <features name="org.eclipse.sdk.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
