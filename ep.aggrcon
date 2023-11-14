@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Eclipse">
-  <repositories location="https://download.eclipse.org/eclipse/updates/4.30-I-builds/I20231020-1800" description="Eclipse and Equinox">
+  <repositories location="https://download.eclipse.org/eclipse/updates/4.30-I-builds/I20231109-0710" description="Eclipse and Equinox">
     <products name="org.eclipse.sdk.ide"/>
     <products name="org.eclipse.platform.ide"/>
     <bundles name="org.eclipse.e4.ui.progress"/>
     <bundles name="org.eclipse.e4.ui.progress.source"/>
+    <bundles name="jakarta.inject.jakarta.inject-api" versionRange="[1.0.0,2.0.0)"/>
+    <bundles name="jakarta.annotation-api" versionRange="[1.0.0,2.0.0)"/>
     <features name="org.eclipse.sdk.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
