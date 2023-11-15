@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="OCL for 2023-12">
-  <repositories location="https://download.eclipse.org/modeling/mdt/ocl/updates/milestones/6.19.0/S202310160649" description="OCL">
+  <repositories location="https://download.eclipse.org/modeling/mdt/ocl/updates/milestones/6.19.0/S202311151234" description="OCL">
     <features name="org.eclipse.ocl.all.sdk.feature.group" versionRange="[5.19.0,5.20.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
@@ -9,10 +9,10 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.ocl.build.feature.group" versionRange="[6.19.0,6.20.0)" enabled="false">
+    <features name="org.eclipse.ocl.build.feature.group" versionRange="[6.19.0,6.20.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.ocl.build.source.feature.group" versionRange="[6.19.0,6.20.0]" enabled="false">
+    <features name="org.eclipse.ocl.build.source.feature.group" versionRange="[6.19.0,6.20.0]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
     <features name="org.eclipse.ocl.examples.feature.group" versionRange="[6.19.0,6.20.0)">
