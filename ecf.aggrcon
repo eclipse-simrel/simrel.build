@@ -9,10 +9,6 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
-    <features name="org.eclipse.ecf.filetransfer.httpclient5.feature.feature.group" versionRange="[1.1.702.v20231114-1017]">
-      <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
-      <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
-    </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='slewis@composent.com']"/>
 </aggregator:Contribution>
