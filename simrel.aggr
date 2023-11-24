@@ -145,7 +145,6 @@
     <features href="egit.aggrcon#//@repositories.0/@features.10"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
-    <features href="ecf.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Database Development" label="Database Development" description="Tools to define and access a wide variety of databases.">
     <features href="dtp.aggrcon#//@repositories.0/@features.0"/>
@@ -200,7 +199,6 @@
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
-    <features href="ecf.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="General Purpose Tools" label="General Purpose Tools" description="Tools that can be used by a wide variety of developers.">
     <features href="ep.aggrcon#//@repositories.0/@features.2"/>
