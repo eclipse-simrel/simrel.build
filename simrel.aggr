@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Aggregation files used for Simultaneous Release (quarterly &quot;release train&quot;)." buildmaster="//@contacts[email='ed.merks@gmail.com']" buildmasterBackup="//@contacts[email='frederic.gurr@eclipse.org']" label="2023-12" buildRoot="buildresults" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false" includeSources="true">
   <validationSets label="main">
-    <contributions label="Orbit-CVS-Legacy-To-Be-Deleted">
-      <repositories location="https://download.eclipse.org/oomph/simrel-extras/release/1.1.0">
-        <bundles name="org.w3c.css.sac" versionRange="[1.3.1.v200903091627]"/>
-        <bundles name="org.w3c.css.sac.source" versionRange="[1.3.1.v200903091627]"/>
-        <bundles name="org.w3c.dom.events" versionRange="[3.0.0.draft20060413_v201105210656]"/>
-        <bundles name="org.w3c.dom.events.source" versionRange="[3.0.0.draft20060413_v201105210656]"/>
-        <bundles name="org.w3c.dom.smil" versionRange="[1.0.1.v200903091627]"/>
-        <bundles name="org.w3c.dom.smil.source" versionRange="[1.0.1.v200903091627]"/>
-        <bundles name="org.w3c.dom.svg" versionRange="[1.1.0.v201011041433]"/>
-        <bundles name="org.w3c.dom.svg.source" versionRange="[1.1.0.v201011041433]"/>
-      </repositories>
-    </contributions>
     <contributions href="ep.aggrcon#/"/>
     <contributions href="emf-emf.aggrcon#/"/>
     <contributions href="ecf.aggrcon#/"/>
@@ -145,7 +133,6 @@
     <features href="egit.aggrcon#//@repositories.0/@features.10"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
-    <features href="ecf.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Database Development" label="Database Development" description="Tools to define and access a wide variety of databases.">
     <features href="dtp.aggrcon#//@repositories.0/@features.0"/>
@@ -200,7 +187,6 @@
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
-    <features href="ecf.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="General Purpose Tools" label="General Purpose Tools" description="Tools that can be used by a wide variety of developers.">
     <features href="ep.aggrcon#//@repositories.0/@features.2"/>
