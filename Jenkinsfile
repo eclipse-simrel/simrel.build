@@ -84,7 +84,6 @@ PROMOTE=${env.PROMOTE}
                 -Dtycho.pgp.signer="bc" \
                 -Dtycho.pgp.signer.bc.secretKeys="${KEYRING}" \
                 -Dgpg.passphrase="${KEYRING_PASSPHRASE}" \
-                -Dorg.eclipse.ecf.provider.filetransfer.excludeContributors=org.eclipse.ecf.provider.filetransfer.httpclientjava \
                 -Pbuild \
                 ${PGP_MVN_ARGUMENTS} \
                 clean \

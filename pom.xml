@@ -56,6 +56,7 @@
                     <jvmArg>-Xms256M</jvmArg>
                     <jvmArg>-Xmx2048M</jvmArg>
                     <jvmArg>-Duser.home=${project.build.directory}</jvmArg>
+                    <jvmArg>-Dorg.eclipse.ecf.provider.filetransfer.excludeContributors=org.eclipse.ecf.provider.filetransfer.httpclientjava</jvmArg>
                   </jvmArgs>
                   <repositories>
                     <repository>
