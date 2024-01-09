@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>org.eclipse.simrel.build</name>
+	<name>simrel.build</name>
 	<comment>SimRel</comment>
 	<projects>
 	</projects>
