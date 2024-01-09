@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Window Builder GUI Designer" label="Window Builder">
-  <repositories location="https://download.eclipse.org/windowbuilder/updates/release/1.14.0" description="WindowBuilder 1.14.0">
+  <repositories location="https://download.eclipse.org/windowbuilder/updates/milestone/S202401082022" description="WindowBuilder 1.15.0">
     <features name="org.eclipse.wb.core.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
@@ -32,12 +32,6 @@
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
     <features name="org.eclipse.wb.swing.doc.user.feature.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
-    </features>
-    <features name="org.eclipse.wb.xwt.feature.feature.group" enabled="false">
-      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
-    </features>
-    <features name="org.eclipse.wb.core.xml.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
