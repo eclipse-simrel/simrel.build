@@ -13,7 +13,6 @@
     <contributions href="dtp.aggrcon#/"/>
     <contributions href="webtools.aggrcon#/"/>
     <contributions href="mylyn.aggrcon#/"/>
-    <contributions href="mylyn-docs.aggrcon#/"/>
     <contributions href="cdt.aggrcon#/"/>
     <contributions href="embedcdt.aggrcon#/"/>
     <contributions href="tm.aggrcon#/"/>
@@ -118,7 +117,7 @@
     <features href="mylyn.aggrcon#//@repositories.0/@features.20"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.21"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.22"/>
-    <features href="mylyn-docs.aggrcon#//@repositories.0/@features.0"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.23"/>
     <features href="ecf.aggrcon#//@repositories.0/@features.0"/>
     <features href="ecf.aggrcon#//@repositories.0/@features.1"/>
     <features href="egit.aggrcon#//@repositories.0/@features.2"/>
