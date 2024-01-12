@@ -255,6 +255,16 @@
     <content>
       .project
       .gitignore
+      /.settings/
+    </content>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:ResourceCreationTask"
+      targetURL="${simrel.github.clone.location|uri/.settings/org.eclipse.core.resources.prefs}">
+    <content>
+      eclipse.preferences.version=1
+      encoding/&lt;project>=UTF-8
+
     </content>
   </setupTask>
   <setupTask
