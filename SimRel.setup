@@ -34,10 +34,6 @@
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.core.resources/refresh.enabled"
           value="true"/>
-      <setupTask
-          xsi:type="setup:PreferenceTask"
-          key="/instance/org.eclipse.core.resources/refresh.enabled"
-          value="true"/>
     </setupTask>
     <setupTask
         xsi:type="setup:CompoundTask"
@@ -46,17 +42,6 @@
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.oomph.setup.ui/showToolBarContributions"
           value="true"/>
-    </setupTask>
-  </setupTask>
-  <setupTask
-      xsi:type="setup:CompoundTask"
-      name="User Preferences">
-    <setupTask
-        xsi:type="setup:CompoundTask"
-        name="org.eclipse.core.resources">
-      <setupTask
-          xsi:type="setup:CompoundTask"
-          name="org.eclipse.core.resources"/>
     </setupTask>
   </setupTask>
   <setupTask
