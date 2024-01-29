@@ -6,7 +6,7 @@
   <version>4.26.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <properties>
-    <tycho-version>4.0.4</tycho-version>
+    <tycho-version>4.0.5</tycho-version>
     <trainName>2024-03</trainName>
     <referenceRepo>releases/2023-12/202312061001</referenceRepo>
     <download.eclipse.org>https://download.eclipse.org</download.eclipse.org>
