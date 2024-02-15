@@ -218,6 +218,7 @@
   </setupTask>
   <setupTask
       xsi:type="setup:ResourceCreationTask"
+      excludedTriggers="BOOTSTRAP"
       targetURL="${simrel.github.clone.location|uri}/.project">
     <content>
       &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>
@@ -236,6 +237,7 @@
   </setupTask>
   <setupTask
       xsi:type="setup:ResourceCreationTask"
+      excludedTriggers="BOOTSTRAP"
       targetURL="${simrel.github.clone.location|uri}/.gitignore">
     <content>
       .project
@@ -245,6 +247,7 @@
   </setupTask>
   <setupTask
       xsi:type="setup:ResourceCreationTask"
+      excludedTriggers="BOOTSTRAP"
       targetURL="${simrel.github.clone.location|uri/.settings/org.eclipse.core.resources.prefs}">
     <content>
       eclipse.preferences.version=1
