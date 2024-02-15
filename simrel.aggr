@@ -394,6 +394,7 @@
     <features href="ptp.aggrcon#//@repositories.0/@features.6"/>
     <features href="tcf.aggrcon#//@repositories.0/@features.2"/>
     <features href="tm4e.aggrcon#//@repositories.0/@features.0"/>
+    <features href="tm4e.aggrcon#//@repositories.0/@features.2"/>
     <features href="tmf-xtext.aggrcon#//@repositories.0/@features.1"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.0"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.1"/>
