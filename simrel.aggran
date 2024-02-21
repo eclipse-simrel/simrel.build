@@ -879,8 +879,8 @@
     <project
         name="Eclipse TM4E - TextMate support in the Eclipse IDE"
         site="https://projects.eclipse.org/projects/technology.tm4e"
-        version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.10.1"
-        releaseDate="2024-02-19">
+        version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.10.2"
+        releaseDate="2024-02-21">
       <repository
           uri="https://github.com/eclipse/tm4e"/>
     </project>
