@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="TM4E">
-  <repositories location="https://download.eclipse.org/tm4e/releases/0.8.1/" description="TextMate for Eclipse (TM4E) 0.8.1">
-    <features name="org.eclipse.tm4e.feature.feature.group" versionRange="[0.6.1.202308132047]">
+  <repositories location="https://download.eclipse.org/tm4e/releases/0.10.1/" description="TextMate for Eclipse (TM4E) 0.10.1">
+    <features name="org.eclipse.tm4e.feature.feature.group" versionRange="[0.10.1.202402162114]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.tm4e.feature.source.feature.group" versionRange="[0.6.1.202308132047]"/>
+    <features name="org.eclipse.tm4e.feature.source.feature.group" versionRange="[0.10.1.202402162114]"/>
+    <features name="org.eclipse.tm4e.language_pack.feature.feature.group" versionRange="[0.10.1.202402161130]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='mistria@redhat.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='angelozerr@gmail.com']"/>

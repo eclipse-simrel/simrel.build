@@ -20,12 +20,27 @@
   <setupTask
       xsi:type="setup:CompoundTask"
       name="User Preferences">
+    <annotation
+        source="http://www.eclipse.org/oomph/setup/UserPreferences">
+      <detail
+          key="/instance/org.eclipse.oomph.setup.ui/showToolBarContributions">
+        <value>record</value>
+      </detail>
+    </annotation>
     <setupTask
         xsi:type="setup:CompoundTask"
         name="org.eclipse.core.resources">
       <setupTask
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.core.resources/refresh.enabled"
+          value="true"/>
+    </setupTask>
+    <setupTask
+        xsi:type="setup:CompoundTask"
+        name="org.eclipse.oomph.setup.ui">
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.oomph.setup.ui/showToolBarContributions"
           value="true"/>
     </setupTask>
   </setupTask>
@@ -159,11 +174,95 @@
     <description>SimRel Tools</description>
   </setupTask>
   <setupTask
+      xsi:type="setup:VariableTask"
+      name="simrel.github.fork"
+      label="SimRel .github Fork">
+    <choice
+        value="git@github.com:${github.user.id}/.github.git"
+        label="SSH"/>
+    <choice
+        value="https://github.com/${github.user.id}/.github.git"
+        label="HTTPS"/>
+    <description>The remote URL to be used for pull requests via your fork of simrel.build</description>
+  </setupTask>
+  <setupTask
+      xsi:type="git:GitCloneTask"
+      id="simrel.github.clone"
+      locationQualifier="simrel"
+      remoteURI="eclipse-simrel/.github">
+    <annotation
+        source="http://www.eclipse.org/oomph/setup/InducedChoices">
+      <detail
+          key="inherit">
+        <value>github.remoteURIs</value>
+      </detail>
+      <detail
+          key="label">
+        <value>SimRel .github GitHub Repository</value>
+      </detail>
+      <detail
+          key="target">
+        <value>remoteURI</value>
+      </detail>
+    </annotation>
+    <configSections
+        name="remote">
+      <subsections
+          name="${github.user.id}">
+        <properties
+            key="url"
+            value="${simrel.github.fork}"/>
+      </subsections>
+    </configSections>
+    <description>SimRel .github</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:ResourceCreationTask"
+      excludedTriggers="BOOTSTRAP"
+      targetURL="${simrel.github.clone.location|uri}/.project">
+    <content>
+      &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>
+      &lt;projectDescription>
+      	&lt;name>org.eclipse.simrel.github&lt;/name>
+      	&lt;comment>SimRel Github&lt;/comment>
+      	&lt;projects>
+      	&lt;/projects>
+      	&lt;buildSpec>
+      	&lt;/buildSpec>
+      	&lt;natures>
+      	&lt;/natures>
+      &lt;/projectDescription>
+
+    </content>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:ResourceCreationTask"
+      excludedTriggers="BOOTSTRAP"
+      targetURL="${simrel.github.clone.location|uri}/.gitignore">
+    <content>
+      .project
+      .gitignore
+      /.settings/
+    </content>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:ResourceCreationTask"
+      excludedTriggers="BOOTSTRAP"
+      targetURL="${simrel.github.clone.location|uri/.settings/org.eclipse.core.resources.prefs}">
+    <content>
+      eclipse.preferences.version=1
+      encoding/&lt;project>=UTF-8
+
+    </content>
+  </setupTask>
+  <setupTask
       xsi:type="projects:ProjectsImportTask">
     <sourceLocator
         rootFolder="${simrel.build.github.clone.location}"/>
     <sourceLocator
         rootFolder="${simrel.tools.github.clone.location}"/>
+    <sourceLocator
+        rootFolder="${simrel.github.clone.location}"/>
   </setupTask>
   <setupTask
       xsi:type="setup.workingsets:WorkingSetTask">
@@ -173,7 +272,7 @@
           xsi:type="predicates:AndPredicate">
         <operand
             xsi:type="predicates:NamePredicate"
-            pattern="org\.eclipse\.simrel\.(build|tools)"/>
+            pattern="org\.eclipse\.simrel\.(build|tools|github)"/>
       </predicate>
     </workingSet>
     <description>The dynamic working sets for ${scope.project.label}</description>
