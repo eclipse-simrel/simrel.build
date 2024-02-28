@@ -12,6 +12,52 @@
   <levels>21</levels>
   <levels>7</levels>
   <levels>4</levels>
+  <gitRepositoryFilter>.*/org.eclipse.atl.tcs</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/org.eclipse.dltk\.(releng|javascript|python|ruby|sh)</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/eclipse-pde/eclipse.pde.build</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/webtools.common.fproj</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/webtools.jsf.docs</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/eclipse-webservices/webservices.axis2</gitRepositoryFilter>
+  <gitRepositoryFilter>.*eclipse-webservices/webservices.jaxws</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/ptp.doc</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/org.eclipse.viatra2?\..*</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/eclipse-emf-compare/emf-compare-(acceptance|cli)</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/eclipse-m2e/m2e-wtp-jpa</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/eclipse-passage/(chronograph|passage-(spring|docs|images))</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/eclipse-linuxtools/org.eclipse.linuxtools.eclipse-build</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/gsc-ec-converter</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/eclipse-collections-[^/]*</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/eclipse-sirius/(sirius-web|sirius.specs)</gitRepositoryFilter>
+  <gitRepositoryFilter>.*eclipse-scout/(scout.maven-master|scout.ci)</gitRepositoryFilter>
+  <gitRepositoryFilter>modeling.tmf.xtext.*xtext-[^/]*</gitRepositoryFilter>
+  <gitRepositoryFilter>iot.embed-cdt.*(org.eclipse.epp.packages|Liqp)</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/cdo\..*</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/org\.eclipse\.mylyn\.docs\..*</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/.*-infra</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/servertools\..*</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/assets</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/web-[^/]*|webtools.*(\.snippets|\.tests)</gitRepositoryFilter>
+  <gitRepositoryFilter>.*-releng</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/ui-.*</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/www\..*</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/\.github</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/\.eclipsefdn</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/jetty([.-]website|[-.]parent|-examples|\.docker|-alpn-api|-artifact-remote-resources|-assembly-descriptors|-perf-helper|-build-support|-test-helper)</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/equinox\.(bundles|framework)</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/eclipse\.platform\.(common|debug|resources|runtime|team|text|ua|ui\.tools|releng(\.buildtools)?)</gitRepositoryFilter>
+  <gitRepositoryFilter>.*(\.incubator|-website)</gitRepositoryFilter>
+  <gitRepositoryFilter>.*-ghsa-.*</gitRepositoryFilter>
+  <gitRepositoryFilter>.*\.github\.io</gitRepositoryFilter>
+  <gitRepositoryFilter>.*\.website</gitRepositoryFilter>
+  <gitRepositoryFilter>.*-pipelines</gitRepositoryFilter>
+  <gitRepositoryFilter>.*update.eclemma.org.*</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/[ej]git-pipelines</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/dltk\.(all|examples|releng)</gitRepositoryFilter>
+  <gitRepositoryFilter>.*\.(ecp.other|ecp.releng)</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/tcf.test-migration</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/tracecompass-test-traces</gitRepositoryFilter>
+  <gitRepositoryFilter>.*-deleted-.*</gitRepositoryFilter>
+  <gitRepositoryFilter>.*-website-source.*</gitRepositoryFilter>
   <contribution
       label="a.jre"
       dominant="true"
@@ -23,7 +69,8 @@
         name="Eclipse Jetty - Servlet Engine and Http Server"
         site="https://projects.eclipse.org/projects/rt.jetty"
         version="https://projects.eclipse.org/projects/rt.jetty/releases/12.0"
-        releaseDate="2023-07-20">
+        releaseDate="2023-07-20"
+        rank="4">
       <repository
           uri="https://github.com/jetty/jetty-schemas"/>
       <repository
@@ -51,7 +98,8 @@
         name="Eclipse Nebula - Supplemental Widgets for SWT"
         site="https://projects.eclipse.org/projects/technology.nebula"
         version="https://projects.eclipse.org/projects/technology.nebula/releases/3.1.1"
-        releaseDate="2024-02-01">
+        releaseDate="2024-02-01"
+        rank="3">
       <repository
           uri="https://github.com/eclipse/nebula"/>
     </project>
@@ -62,7 +110,8 @@
         name="Eclipse EMF"
         site="https://projects.eclipse.org/projects/modeling.emf.emf"
         version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/2.36.0"
-        releaseDate="2023-12-06">
+        releaseDate="2023-12-06"
+        rank="6">
       <repository
           uri="https://github.com/eclipse-emf/org.eclipse.emf"/>
     </project>
@@ -72,8 +121,9 @@
     <project
         name="Eclipse Communications Framework"
         site="https://projects.eclipse.org/projects/rt.ecf"
-        version="https://projects.eclipse.org/projects/rt.ecf/releases/3.14.40"
-        releaseDate="2023-11-20">
+        version="https://projects.eclipse.org/projects/rt.ecf/releases/3.14.41"
+        releaseDate="2024-01-13"
+        rank="3">
       <repository
           uri="https://github.com/eclipse/ecf"/>
     </project>
@@ -88,7 +138,8 @@
         releaseDate="2023-12-06">
       <subproject
           name="Eclipse Equinox"
-          site="https://projects.eclipse.org/projects/eclipse.equinox">
+          site="https://projects.eclipse.org/projects/eclipse.equinox"
+          rank="7">
         <repository
             uri="https://github.com/eclipse-equinox/equinox"/>
         <repository
@@ -98,7 +149,8 @@
       </subproject>
       <subproject
           name="Eclipse JDT (Java development tools)"
-          site="https://projects.eclipse.org/projects/eclipse.jdt">
+          site="https://projects.eclipse.org/projects/eclipse.jdt"
+          rank="7">
         <repository
             uri="https://github.com/eclipse-jdt/eclipse.jdt"/>
         <repository
@@ -112,13 +164,15 @@
       </subproject>
       <subproject
           name="Eclipse PDE"
-          site="https://projects.eclipse.org/projects/eclipse.pde">
+          site="https://projects.eclipse.org/projects/eclipse.pde"
+          rank="8">
         <repository
             uri="https://github.com/eclipse-pde/eclipse.pde"/>
       </subproject>
       <subproject
           name="Eclipse Platform"
-          site="https://projects.eclipse.org/projects/eclipse.platform">
+          site="https://projects.eclipse.org/projects/eclipse.platform"
+          rank="8">
         <repository
             uri="https://github.com/eclipse-platform/eclipse.platform"/>
         <repository
@@ -151,8 +205,9 @@
     <project
         name="Eclipse Maven Integration - m2eclipse"
         site="https://projects.eclipse.org/projects/technology.m2e"
-        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.5.0"
-        releaseDate="2023-11-27">
+        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.6.0"
+        releaseDate="2024-02-21"
+        rank="5">
       <repository
           uri="https://github.com/eclipse-m2e/m2e-core"/>
       <repository
@@ -169,7 +224,8 @@
         name="Eclipse e(fx)clipse"
         site="https://projects.eclipse.org/projects/technology.efxclipse"
         version="https://projects.eclipse.org/projects/technology.efxclipse/releases/3.9.0"
-        releaseDate="2022-10-16">
+        releaseDate="2022-10-16"
+        rank="2">
       <repository
           uri="https://github.com/eclipse-efx/efxclipse"/>
       <repository
@@ -183,7 +239,8 @@
         name="Eclipse Graphical Editing Framework (GEF)"
         site="https://projects.eclipse.org/projects/tools.gef"
         version="https://projects.eclipse.org/projects/tools.gef/releases/gef-classic-3.18.0-2023-12"
-        releaseDate="2023-12-06">
+        releaseDate="2023-12-06"
+        rank="3">
       <repository
           uri="https://github.com/eclipse/gef"/>
       <repository
@@ -196,7 +253,8 @@
         name="Eclipse EMF Compare"
         site="https://projects.eclipse.org/projects/modeling.emfcompare"
         version="https://projects.eclipse.org/projects/modeling.emfcompare/releases/3.3.21"
-        releaseDate="2023-03-08">
+        releaseDate="2023-03-08"
+        rank="1">
       <repository
           uri="https://github.com/eclipse-emf-compare/emf-compare"/>
     </project>
@@ -208,7 +266,8 @@
         name="Eclipse Ecore Tools"
         site="https://projects.eclipse.org/projects/modeling.ecoretools"
         version="https://projects.eclipse.org/projects/modeling.ecoretools/releases/3.5.0"
-        releaseDate="2023-06-07">
+        releaseDate="2023-06-07"
+        rank="4">
       <repository
           uri="https://github.com/eclipse-ecoretools/ecoretools"/>
     </project>
@@ -232,7 +291,8 @@
         name="Eclipse QVT Operational"
         site="https://projects.eclipse.org/projects/modeling.mmt.qvt-oml"
         version="https://projects.eclipse.org/projects/modeling.mmt.qvt-oml/releases/2023-12-3.10.8"
-        releaseDate="2023-12-06">
+        releaseDate="2023-12-06"
+        rank="1">
       <repository
           uri="https://git.eclipse.org/r/mmt/org.eclipse.qvto"/>
     </project>
@@ -243,8 +303,9 @@
     <project
         name="Eclipse Modeling Workflow Engine"
         site="https://projects.eclipse.org/projects/modeling.emf.mwe"
-        version="https://projects.eclipse.org/projects/modeling.emf.mwe/releases/2.16.0"
-        releaseDate="2023-11-26">
+        version="https://projects.eclipse.org/projects/modeling.emf.mwe/releases/2.17.0"
+        releaseDate="2024-02-25"
+        rank="1">
       <repository
           uri="https://github.com/eclipse/mwe"/>
     </project>
@@ -268,28 +329,32 @@
         name="Eclipse Web Tools Platform Project"
         site="https://projects.eclipse.org/projects/webtools"
         version="https://projects.eclipse.org/projects/webtools/releases/3.33"
-        releaseDate="2024-03-13">
+        releaseDate="2024-03-13"
+        rank="1">
       <subproject
           name="Web Tools Common"
-          site="https://projects.eclipse.org/projects/webtools.common">
+          site="https://projects.eclipse.org/projects/webtools.common"
+          rank="1">
         <repository
-            uri="https://git.eclipse.org/r/webtools-common/webtools.common"/>
+            uri="https://github.com/eclipse-wtp-common/webtools.common"/>
       </subproject>
       <subproject
           name="Eclipse Dali Java Persistence Tools"
           site="https://projects.eclipse.org/projects/webtools.dali">
         <repository
-            uri="https://git.eclipse.org/r/dali/webtools.dali"/>
+            uri="https://github.com/eclipse-dali/webtools.dali"/>
       </subproject>
       <subproject
           name="WTP Java EE Tools"
-          site="https://projects.eclipse.org/projects/webtools.jeetools">
+          site="https://projects.eclipse.org/projects/webtools.jeetools"
+          rank="1">
         <repository
-            uri="https://git.eclipse.org/r/jeetools/webtools.javaee"/>
+            uri="https://github.com/eclipse-jeetools/webtools.javaee"/>
       </subproject>
       <subproject
           name="Eclipse JavaScript Development Tools"
-          site="https://projects.eclipse.org/projects/webtools.jsdt">
+          site="https://projects.eclipse.org/projects/webtools.jsdt"
+          rank="1">
         <repository
             uri="https://github.com/eclipse-jsdt/webtools.jsdt"/>
       </subproject>
@@ -297,7 +362,7 @@
           name="Eclipse Tools for Faces"
           site="https://projects.eclipse.org/projects/webtools.jsf">
         <repository
-            uri="https://git.eclipse.org/r/jsf/webtools.jsf"/>
+            uri="https://github.com/eclipse-jsf/webtools.jsf"/>
       </subproject>
       <subproject
           name="Eclipse Server Tools"
@@ -313,7 +378,8 @@
       </subproject>
       <subproject
           name="Eclipse Web Services Tools"
-          site="https://projects.eclipse.org/projects/webtools.webservices">
+          site="https://projects.eclipse.org/projects/webtools.webservices"
+          rank="2">
         <repository
             uri="https://github.com/eclipse-webservices/webservices"/>
       </subproject>
@@ -325,18 +391,8 @@
         name="Eclipse Mylyn"
         site="https://projects.eclipse.org/projects/tools.mylyn"
         version="https://projects.eclipse.org/projects/tools.mylyn/releases/4.1.0"
-        releaseDate="2023-12-06">
-      <repository
-          uri="https://github.com/eclipse-mylyn/org.eclipse.mylyn"/>
-    </project>
-  </contribution>
-  <contribution
-      contribution="mylyn-docs.aggrcon#/">
-    <project
-        name="Eclipse Mylyn"
-        site="https://projects.eclipse.org/projects/tools.mylyn"
-        version="https://projects.eclipse.org/projects/tools.mylyn/releases/4.1.0"
-        releaseDate="2023-12-06">
+        releaseDate="2023-12-06"
+        rank="2">
       <repository
           uri="https://github.com/eclipse-mylyn/org.eclipse.mylyn"/>
     </project>
@@ -346,8 +402,9 @@
     <project
         name="Eclipse CDT (C/C++ Development Tooling)"
         site="https://projects.eclipse.org/projects/tools.cdt"
-        version="https://projects.eclipse.org/projects/tools.cdt/releases/11.4.0"
-        releaseDate="2023-12-06">
+        version="https://projects.eclipse.org/projects/tools.cdt/releases/1.1.0-cdt-lsp"
+        releaseDate="2024-02-21"
+        rank="3">
       <repository
           uri="https://github.com/eclipse-cdt/cdt"/>
       <repository
@@ -359,8 +416,9 @@
     <project
         name="Eclipse Embedded CDT (C/C++ Development Tools)"
         site="https://projects.eclipse.org/projects/iot.embed-cdt"
-        version="https://projects.eclipse.org/projects/iot.embed-cdt/releases/6.4.0"
-        releaseDate="2023-07-25">
+        version="https://projects.eclipse.org/projects/iot.embed-cdt/releases/6.5.0"
+        releaseDate="2024-01-11"
+        rank="3">
       <repository
           uri="https://github.com/eclipse-embed-cdt/eclipse-plugins"/>
     </project>
@@ -371,7 +429,8 @@
         name="Eclipse Target Management: Terminal and Remote System Explorer (RSE)"
         site="https://projects.eclipse.org/projects/tools.tm"
         version="https://projects.eclipse.org/projects/tools.tm/releases/4.5.500"
-        releaseDate="2023-05-26">
+        releaseDate="2023-05-26"
+        rank="1">
       <repository
           uri="https://git.eclipse.org/r/tm/org.eclipse.tm"/>
     </project>
@@ -384,9 +443,9 @@
         version="https://projects.eclipse.org/projects/technology.dltk/releases/6.4"
         releaseDate="2023-09-12">
       <repository
-          uri="https://git.eclipse.org/r/dltk/org.eclipse.dltk.core"/>
+          uri="https://github.com/eclipse-dltk/dltk.core"/>
       <repository
-          uri="https://git.eclipse.org/r/dltk/org.eclipse.dltk.tcl"/>
+          uri="https://github.com/eclipse-dltk/dltk.tcl"/>
     </project>
   </contribution>
   <contribution
@@ -407,8 +466,9 @@
     <project
         name="Eclipse Marketplace Client"
         site="https://projects.eclipse.org/projects/technology.packaging.mpc"
-        version="https://projects.eclipse.org/projects/technology.packaging.mpc/releases/1.10.2"
-        releaseDate="2023-12-06">
+        version="https://projects.eclipse.org/projects/technology.packaging.mpc/releases/1.10.3"
+        releaseDate="2024-03-13"
+        rank="5">
       <repository
           uri="https://github.com/eclipse-mpc/epp.mpc"/>
     </project>
@@ -419,7 +479,8 @@
         name="Eclipse CDO Model Repository"
         site="https://projects.eclipse.org/projects/modeling.emf.cdo"
         version="https://projects.eclipse.org/projects/modeling.emf.cdo/releases/4.26.0"
-        releaseDate="2024-03-13">
+        releaseDate="2024-03-13"
+        rank="1">
       <repository
           uri="https://github.com/eclipse-cdo/cdo"/>
     </project>
@@ -430,7 +491,8 @@
         name="Eclipse Oomph"
         site="https://projects.eclipse.org/projects/tools.oomph"
         version="https://projects.eclipse.org/projects/tools.oomph/releases/1.31.0"
-        releaseDate="2023-12-06">
+        releaseDate="2023-12-06"
+        rank="6">
       <repository
           uri="https://github.com/eclipse-oomph/oomph"/>
     </project>
@@ -453,7 +515,8 @@
         name="Eclipse MDT UML2"
         site="https://projects.eclipse.org/projects/modeling.mdt.uml2"
         version="https://projects.eclipse.org/projects/modeling.mdt.uml2/releases/5.5.3"
-        releaseDate="2022-12-07">
+        releaseDate="2022-12-07"
+        rank="1">
       <repository
           uri="https://github.com/eclipse-uml2/uml2"/>
     </project>
@@ -464,8 +527,9 @@
     <project
         name="Eclipse OCL (Object Constraint Language)"
         site="https://projects.eclipse.org/projects/modeling.mdt.ocl"
-        version="https://projects.eclipse.org/projects/modeling.mdt.ocl/releases/2023-12-6.19.0"
-        releaseDate="2023-12-06">
+        version="https://projects.eclipse.org/projects/modeling.mdt.ocl/releases/2024-03-6.20.0"
+        releaseDate="2024-03-13"
+        rank="1">
       <repository
           uri="https://git.eclipse.org/r/ocl/org.eclipse.ocl"/>
     </project>
@@ -488,8 +552,9 @@
     <project
         name="Eclipse GMF Runtime"
         site="https://projects.eclipse.org/projects/modeling.gmf-runtime"
-        version="https://projects.eclipse.org/projects/modeling.gmf-runtime/releases/1.16.2"
-        releaseDate="2023-11-23">
+        version="https://projects.eclipse.org/projects/modeling.gmf-runtime/releases/1.15.5"
+        releaseDate="2023-12-18"
+        rank="3">
       <repository
           uri="https://github.com/eclipse-gmf-runtime/gmf-notation"/>
       <repository
@@ -517,8 +582,9 @@
     <project
         name="Eclipse Xtext"
         site="https://projects.eclipse.org/projects/modeling.tmf.xtext"
-        version="https://projects.eclipse.org/projects/modeling.tmf.xtext/releases/2.33.0"
-        releaseDate="2023-11-20">
+        version="https://projects.eclipse.org/projects/modeling.tmf.xtext/releases/2.34.0"
+        releaseDate="2024-02-27"
+        rank="3">
       <repository
           uri="https://github.com/eclipse/xtext"/>
     </project>
@@ -587,8 +653,9 @@
     <project
         name="Eclipse EGit: Git Integration for Eclipse"
         site="https://projects.eclipse.org/projects/technology.egit"
-        version="https://projects.eclipse.org/projects/technology.egit/releases/6.8.0"
-        releaseDate="2023-12-06">
+        version="https://projects.eclipse.org/projects/technology.egit/releases/6.9.0"
+        releaseDate="2024-03-13"
+        rank="7">
       <repository
           uri="https://github.com/eclipse-egit/egit"/>
       <repository
@@ -599,8 +666,9 @@
     <project
         name="Eclipse JGit: Java implementation of Git"
         site="https://projects.eclipse.org/projects/technology.jgit"
-        version="https://projects.eclipse.org/projects/technology.jgit/releases/6.8.0"
-        releaseDate="2023-12-06">
+        version="https://projects.eclipse.org/projects/technology.jgit/releases/6.9.0"
+        releaseDate="2024-03-13"
+        rank="6">
       <repository
           uri="https://github.com/eclipse-jgit/jgit"/>
       <repository
@@ -614,7 +682,8 @@
         name="Eclipse Graphiti"
         site="https://projects.eclipse.org/projects/modeling.graphiti"
         version="https://projects.eclipse.org/projects/modeling.graphiti/releases/0.19.2"
-        releaseDate="2023-12-06">
+        releaseDate="2023-12-06"
+        rank="1">
       <repository
           uri="https://gitlab.eclipse.org/eclipse/graphiti/graphiti"/>
     </project>
@@ -659,7 +728,11 @@
       <repository
           uri="https://git.eclipse.org/r/papyrus/org.eclipse.papyrus.tools"/>
       <repository
+          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-designer"/>
+      <repository
           uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-domainservices"/>
+      <repository
+          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-robotics"/>
       <repository
           uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-web"/>
     </project>
@@ -685,7 +758,8 @@
         name="Eclipse WindowBuilder"
         site="https://projects.eclipse.org/projects/tools.windowbuilder"
         version="https://projects.eclipse.org/projects/tools.windowbuilder/releases/1.15.0"
-        releaseDate="2024-03-13">
+        releaseDate="2024-03-13"
+        rank="2">
       <repository
           uri="https://github.com/eclipse-windowbuilder/windowbuilder"/>
     </project>
@@ -696,7 +770,8 @@
         name="Eclipse SWTBot"
         site="https://projects.eclipse.org/projects/technology.swtbot"
         version="https://projects.eclipse.org/projects/technology.swtbot/releases/4.1.0"
-        releaseDate="2023-06-14">
+        releaseDate="2023-06-14"
+        rank="4">
       <repository
           uri="https://git.eclipse.org/r/swtbot/org.eclipse.swtbot"/>
     </project>
@@ -708,7 +783,8 @@
         name="Eclipse Target Communication Framework"
         site="https://projects.eclipse.org/projects/tools.tcf"
         version="https://projects.eclipse.org/projects/tools.tcf/releases/1.7.0"
-        releaseDate="2021-07-20">
+        releaseDate="2021-07-20"
+        rank="1">
       <repository
           uri="https://gitlab.eclipse.org/eclipse/tcf/tcf"/>
       <repository
@@ -721,8 +797,8 @@
     <project
         name="Eclipse Sirius"
         site="https://projects.eclipse.org/projects/modeling.sirius"
-        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-desktop-7.3.0"
-        releaseDate="2023-11-24">
+        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-web-2024.1.0"
+        releaseDate="2024-01-24">
       <repository
           uri="https://github.com/eclipse-sirius/sirius-desktop"/>
       <repository
@@ -735,8 +811,8 @@
     <project
         name="Eclipse QVTd (QVT Declarative)"
         site="https://projects.eclipse.org/projects/modeling.mmt.qvtd"
-        version="https://projects.eclipse.org/projects/modeling.mmt.qvtd/releases/2023-12-0.30.0"
-        releaseDate="2023-12-06">
+        version="https://projects.eclipse.org/projects/modeling.mmt.qvtd/releases/2024-03-0.31.0"
+        releaseDate="2024-03-13">
       <repository
           uri="https://git.eclipse.org/r/mmt/org.eclipse.qvtd"/>
     </project>
@@ -747,9 +823,10 @@
         name="Eclipse EMF Client Platform"
         site="https://projects.eclipse.org/projects/modeling.ecp"
         version="https://projects.eclipse.org/projects/modeling.ecp/releases/1.27.0"
-        releaseDate="2022-12-07">
+        releaseDate="2022-12-07"
+        rank="3">
       <repository
-          uri="https://git.eclipse.org/r/emfclient/org.eclipse.emf.ecp.core"/>
+          uri="https://github.com/eclipse-ecp/org.eclipse.emf.ecp.core"/>
     </project>
   </contribution>
   <contribution
@@ -768,10 +845,13 @@
     <project
         name="Eclipse Trace Compass"
         site="https://projects.eclipse.org/projects/tools.tracecompass"
-        version="https://projects.eclipse.org/projects/tools.tracecompass/releases/9.2.0"
-        releaseDate="2023-12-06">
+        version="https://projects.eclipse.org/projects/tools.tracecompass/releases/9.3.0"
+        releaseDate="2024-03-13"
+        rank="1">
       <repository
-          uri="https://git.eclipse.org/r/tracecompass/org.eclipse.tracecompass"/>
+          uri="https://github.com/eclipse-tracecompass/org.eclipse.tracecompass"/>
+      <repository
+          uri="https://github.com/eclipse-tracecompass/trace-event-logger"/>
     </project>
   </contribution>
   <contribution
@@ -780,7 +860,8 @@
         name="Eclipse RCP Testing Tool"
         site="https://projects.eclipse.org/projects/technology.rcptt"
         version="https://projects.eclipse.org/projects/technology.rcptt/releases/2.5.4"
-        releaseDate="2022-10-02">
+        releaseDate="2022-10-02"
+        rank="1">
       <repository
           uri="https://github.com/eclipse/org.eclipse.rcptt"/>
     </project>
@@ -790,8 +871,9 @@
     <project
         name="Eclipse Buildship: Eclipse Plug-ins for Gradle"
         site="https://projects.eclipse.org/projects/tools.buildship"
-        version="https://projects.eclipse.org/projects/tools.buildship/releases/3.1.8"
-        releaseDate="2023-11-20">
+        version="https://projects.eclipse.org/projects/tools.buildship/releases/3.1.9"
+        releaseDate="2024-01-17"
+        rank="1">
       <repository
           uri="https://github.com/eclipse/buildship"/>
     </project>
@@ -801,8 +883,8 @@
     <project
         name="Eclipse EMF Parsley"
         site="https://projects.eclipse.org/projects/modeling.emf-parsley"
-        version="https://projects.eclipse.org/projects/modeling.emf-parsley/releases/1.15.0"
-        releaseDate="2023-12-01">
+        version="https://projects.eclipse.org/projects/modeling.emf-parsley/releases/1.16.0"
+        releaseDate="2024-03-01">
       <repository
           uri="https://github.com/eclipse-emf-parsley/emf-parsley"/>
     </project>
@@ -835,8 +917,9 @@
     <project
         name="Eclipse LSP4J"
         site="https://projects.eclipse.org/projects/technology.lsp4j"
-        version="https://projects.eclipse.org/projects/technology.lsp4j/releases/0.21.1"
-        releaseDate="2023-08-29">
+        version="https://projects.eclipse.org/projects/technology.lsp4j/releases/0.22.0"
+        releaseDate="2024-02-13"
+        rank="5">
       <repository
           uri="https://github.com/eclipse-lsp4j/lsp4j"/>
     </project>
@@ -847,7 +930,8 @@
         name="Eclipse LSP4E"
         site="https://projects.eclipse.org/projects/technology.lsp4e"
         version="https://projects.eclipse.org/projects/technology.lsp4e/releases/0.24.5"
-        releaseDate="2023-11-23">
+        releaseDate="2023-11-23"
+        rank="6">
       <repository
           uri="https://github.com/eclipse/lsp4e"/>
     </project>
@@ -858,9 +942,10 @@
         name="Eclipse User Storage Service SDK"
         site="https://projects.eclipse.org/projects/technology.usssdk"
         version="https://projects.eclipse.org/projects/technology.usssdk/releases/1.2.2"
-        releaseDate="2021-06-08">
+        releaseDate="2021-06-08"
+        rank="1">
       <repository
-          uri="https://git.eclipse.org/r/usssdk/org.eclipse.usssdk"/>
+          uri="https://gitlab.eclipse.org/eclipse/usssdk/org.eclipse.usssdk"/>
     </project>
   </contribution>
   <contribution
@@ -869,7 +954,8 @@
         name="Eclipse Collections"
         site="https://projects.eclipse.org/projects/technology.collections"
         version="https://projects.eclipse.org/projects/technology.collections/releases/11.1.0"
-        releaseDate="2022-07-05">
+        releaseDate="2022-07-05"
+        rank="1">
       <repository
           uri="https://github.com/eclipse/eclipse-collections"/>
     </project>
@@ -879,8 +965,9 @@
     <project
         name="Eclipse TM4E - TextMate support in the Eclipse IDE"
         site="https://projects.eclipse.org/projects/technology.tm4e"
-        version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.10.1"
-        releaseDate="2024-02-19">
+        version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.10.2"
+        releaseDate="2024-02-21"
+        rank="2">
       <repository
           uri="https://github.com/eclipse/tm4e"/>
     </project>
@@ -891,7 +978,8 @@
         name="Eclipse Wild Web Developer"
         site="https://projects.eclipse.org/projects/tools.wildwebdeveloper"
         version="https://projects.eclipse.org/projects/tools.wildwebdeveloper/releases/1.3.3"
-        releaseDate="2023-11-21">
+        releaseDate="2023-11-21"
+        rank="3">
       <repository
           uri="https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper"/>
     </project>
@@ -902,7 +990,8 @@
         name="Eclipse Linux Tools"
         site="https://projects.eclipse.org/projects/tools.linuxtools"
         version="https://projects.eclipse.org/projects/tools.linuxtools/releases/8.13.0"
-        releaseDate="2023-12-06">
+        releaseDate="2023-12-06"
+        rank="1">
       <repository
           uri="https://github.com/eclipse-linuxtools/org.eclipse.linuxtools"/>
     </project>
@@ -913,7 +1002,8 @@
         name="Eclipse Passage"
         site="https://projects.eclipse.org/projects/technology.passage"
         version="https://projects.eclipse.org/projects/technology.passage/releases/2.11.0"
-        releaseDate="2024-03-13">
+        releaseDate="2024-03-13"
+        rank="1">
       <repository
           uri="https://github.com/eclipse-passage/passage"/>
     </project>
@@ -936,7 +1026,8 @@
         name="Eclipse EMF"
         site="https://projects.eclipse.org/projects/modeling.emf.emf"
         version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/2.36.0"
-        releaseDate="2023-12-06">
+        releaseDate="2023-12-06"
+        rank="6">
       <repository
           uri="https://github.com/eclipse-emf/org.eclipse.emf"/>
     </project>
@@ -960,7 +1051,8 @@
         name="Eclipse JustJ"
         site="https://projects.eclipse.org/projects/technology.justj"
         version="https://projects.eclipse.org/projects/technology.justj/releases/1.1"
-        releaseDate="2020-12-04">
+        releaseDate="2020-12-04"
+        rank="7">
       <repository
           uri="https://github.com/eclipse-justj/justj"/>
       <repository
@@ -969,14 +1061,16 @@
     <project
         name="Eclipse Packaging Project"
         site="https://projects.eclipse.org/projects/technology.packaging"
-        version="https://projects.eclipse.org/projects/technology.packaging/releases/4.30.0"
-        releaseDate="2023-12-06">
+        version="https://projects.eclipse.org/projects/technology.packaging/releases/4.31.0"
+        releaseDate="2024-03-13"
+        rank="5">
       <repository
           uri="https://github.com/eclipse-packaging/packages"/>
     </project>
     <project
         name="Eclipse SimRel"
-        site="https://projects.eclipse.org/projects/technology.simrel">
+        site="https://projects.eclipse.org/projects/technology.simrel"
+        rank="8">
       <repository
           uri="https://github.com/eclipse-simrel/help.eclipse.org"/>
       <repository
@@ -987,14 +1081,16 @@
     <project
         name="Eclipse Tycho"
         site="https://projects.eclipse.org/projects/technology.tycho"
-        version="https://projects.eclipse.org/projects/technology.tycho/releases/4.0.4"
-        releaseDate="2023-11-08">
+        version="https://projects.eclipse.org/projects/technology.tycho/releases/4.0.6"
+        releaseDate="2024-02-17"
+        rank="8">
       <repository
           uri="https://github.com/eclipse-tycho/tycho"/>
     </project>
     <project
         name="Eclipse Orbit Project"
-        site="https://projects.eclipse.org/projects/tools.orbit">
+        site="https://projects.eclipse.org/projects/tools.orbit"
+        rank="7">
       <repository
           uri="https://github.com/eclipse-orbit/orbit-legacy"/>
       <repository
