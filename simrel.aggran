@@ -109,8 +109,8 @@
     <project
         name="Eclipse EMF"
         site="https://projects.eclipse.org/projects/modeling.emf.emf"
-        version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/2.36.0"
-        releaseDate="2023-12-06"
+        version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/2.37.0"
+        releaseDate="2024-03-13"
         rank="6">
       <repository
           uri="https://github.com/eclipse-emf/org.eclipse.emf"/>
@@ -316,8 +316,8 @@
     <project
         name="Eclipse Data Tools Platform"
         site="https://projects.eclipse.org/projects/tools.datatools"
-        version="https://projects.eclipse.org/projects/tools.datatools/releases/1.16.0"
-        releaseDate="2023-12-06">
+        version="https://projects.eclipse.org/projects/tools.datatools/releases/1.16.1"
+        releaseDate="2024-03-13">
       <repository
           uri="https://github.com/eclipse-datatools/datatools"/>
     </project>
@@ -390,8 +390,8 @@
     <project
         name="Eclipse Mylyn"
         site="https://projects.eclipse.org/projects/tools.mylyn"
-        version="https://projects.eclipse.org/projects/tools.mylyn/releases/4.1.0"
-        releaseDate="2023-12-06"
+        version="https://projects.eclipse.org/projects/tools.mylyn/releases/4.2.0"
+        releaseDate="2024-03-13"
         rank="2">
       <repository
           uri="https://github.com/eclipse-mylyn/org.eclipse.mylyn"/>
@@ -490,8 +490,8 @@
     <project
         name="Eclipse Oomph"
         site="https://projects.eclipse.org/projects/tools.oomph"
-        version="https://projects.eclipse.org/projects/tools.oomph/releases/1.31.0"
-        releaseDate="2023-12-06"
+        version="https://projects.eclipse.org/projects/tools.oomph/releases/1.32.0"
+        releaseDate="2024-03-13"
         rank="6">
       <repository
           uri="https://github.com/eclipse-oomph/oomph"/>
@@ -617,13 +617,7 @@
       label="BPMN2 Modeler"
       contribution="soa-bpmn2-modeler.aggrcon#/">
     <project
-        name="Eclipse BPMN2 Modeler Project"
-        site="https://projects.eclipse.org/projects/soa.bpmn2-modeler"
-        version="https://projects.eclipse.org/projects/soa.bpmn2-modeler/releases/1.5.4"
-        releaseDate="2022-05-27">
-      <repository
-          uri="https://git.eclipse.org/r/bpmn2-modeler/org.eclipse.bpmn2-modeler"/>
-    </project>
+        site="https://projects.eclipse.org/projects/soa.bpmn2-modeler"/>
   </contribution>
   <contribution
       label="BPMN2"
@@ -797,8 +791,8 @@
     <project
         name="Eclipse Sirius"
         site="https://projects.eclipse.org/projects/modeling.sirius"
-        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-web-2024.1.0"
-        releaseDate="2024-01-24">
+        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-desktop-7.4.0"
+        releaseDate="2024-03-06">
       <repository
           uri="https://github.com/eclipse-sirius/sirius-desktop"/>
       <repository
@@ -897,7 +891,7 @@
         version="https://projects.eclipse.org/projects/modeling.viatra/releases/2.8.1"
         releaseDate="2024-01-08">
       <repository
-          uri="https://git.eclipse.org/r/viatra/org.eclipse.viatra"/>
+          uri="https://github.com/eclipse-viatra/org.eclipse.viatra"/>
     </project>
   </contribution>
   <contribution
@@ -965,8 +959,8 @@
     <project
         name="Eclipse TM4E - TextMate support in the Eclipse IDE"
         site="https://projects.eclipse.org/projects/technology.tm4e"
-        version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.10.2"
-        releaseDate="2024-02-21"
+        version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.10.3"
+        releaseDate="2024-03-04"
         rank="2">
       <repository
           uri="https://github.com/eclipse/tm4e"/>
@@ -1025,8 +1019,8 @@
     <project
         name="Eclipse EMF"
         site="https://projects.eclipse.org/projects/modeling.emf.emf"
-        version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/2.36.0"
-        releaseDate="2023-12-06"
+        version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/2.37.0"
+        releaseDate="2024-03-13"
         rank="6">
       <repository
           uri="https://github.com/eclipse-emf/org.eclipse.emf"/>
