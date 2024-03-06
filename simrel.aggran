@@ -6,7 +6,7 @@
     releaseDate="2024-03-13"
     exclusion="tooling.*|.*\.source|.*\.source\.feature\.group|.*\.feature\.jar"
     aggregation="simrel.aggr#/">
-  <levels>60</levels>
+  <levels>58</levels>
   <levels>50</levels>
   <levels>30</levels>
   <levels>21</levels>
