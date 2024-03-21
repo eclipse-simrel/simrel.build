@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="M2T ACCELEO">
-  <repositories location="https://download.eclipse.org/acceleo/updates/milestones/3.7/S202401080812/" description="Acceleo">
+  <repositories location="https://download.eclipse.org/acceleo/updates/releases/3.7/R202402190857" description="Acceleo">
     <features name="org.eclipse.acceleo.feature.group" versionRange="[3.7.0,3.8.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>

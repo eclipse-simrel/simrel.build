@@ -13,7 +13,7 @@ pipeline {
   }
 
   environment {
-    TRAIN_NAME = "2024-03"
+    TRAIN_NAME = "2024-06"
     STAGING_DIR = "/home/data/httpd/download.eclipse.org/staging/${TRAIN_NAME}"
   }
 
@@ -127,7 +127,8 @@ PROMOTE=${env.PROMOTE}
         }
 
         // Trigger EPP job
-        sh 'curl "https://ci.eclipse.org/packaging/job/simrel.epp-tycho-build/buildWithParameters?delay=600sec&token=Yah6CohtYwO6b?6P"'
+        // Disabled until refactoring in https://github.com/eclipse-packaging/packages/issues/120 is complete
+        // sh 'curl "https://ci.eclipse.org/packaging/job/simrel.epp-tycho-build/buildWithParameters?delay=600sec&token=Yah6CohtYwO6b?6P"'
       }
     }
 
