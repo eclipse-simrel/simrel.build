@@ -72,5 +72,11 @@
     <features name="org.eclipse.remote.serial.feature.group" versionRange="[11.5.0.202402230238]"/>
     <features name="org.eclipse.remote.proxy.feature.group" versionRange="[11.5.0.202402230238]"/>
   </repositories>
+  <repositories location="https://download.eclipse.org/tools/cdt/releases/cdt-lsp-1.1/">
+    <features name="org.eclipse.cdt.lsp.feature.feature.group" versionRange="[1.1.0.202402211419]">
+      <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
+    </features>
+    <features name="org.eclipse.cdt.lsp.feature.source.feature.group" versionRange="[1.1.0.202402211419]"/>
+  </repositories>
   <contacts href="simrel.aggr#//@contacts[email='jonah@kichwacoders.com']"/>
 </aggregator:Contribution>
