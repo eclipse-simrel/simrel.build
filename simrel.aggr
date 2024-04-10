@@ -406,6 +406,7 @@
     <features href="ep.aggrcon#//@repositories.0/@features.5"/>
     <features href="ep.aggrcon#//@repositories.0/@features.6"/>
     <features href="ep.aggrcon#//@repositories.0/@features.7"/>
+    <features href="cdt.aggrcon#//@repositories.1/@features.0"/>
   </customCategories>
   <customCategories identifier="SOA Development" label="SOA Development" description="Tools for SOA Developers">
     <features href="mdt-bpmn2.aggrcon#//@repositories.0/@features.0"/>
