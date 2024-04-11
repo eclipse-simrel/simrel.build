@@ -53,7 +53,6 @@
   <gitRepositoryFilter>.*update.eclemma.org.*</gitRepositoryFilter>
   <gitRepositoryFilter>.*/[ej]git-pipelines</gitRepositoryFilter>
   <gitRepositoryFilter>.*/dltk\.(all|examples|releng)</gitRepositoryFilter>
-  <gitRepositoryFilter>.*\.(ecp.other|ecp.releng)</gitRepositoryFilter>
   <gitRepositoryFilter>.*/tcf.test-migration</gitRepositoryFilter>
   <gitRepositoryFilter>.*/tracecompass-test-traces</gitRepositoryFilter>
   <gitRepositoryFilter>.*-deleted-.*</gitRepositoryFilter>
@@ -809,18 +808,6 @@
         releaseDate="2024-03-13">
       <repository
           uri="https://git.eclipse.org/r/mmt/org.eclipse.qvtd"/>
-    </project>
-  </contribution>
-  <contribution
-      contribution="ecp.aggrcon#/">
-    <project
-        name="Eclipse EMF Client Platform"
-        site="https://projects.eclipse.org/projects/modeling.ecp"
-        version="https://projects.eclipse.org/projects/modeling.ecp/releases/1.27.0"
-        releaseDate="2022-12-07"
-        rank="3">
-      <repository
-          uri="https://github.com/eclipse-ecp/org.eclipse.emf.ecp.core"/>
     </project>
   </contribution>
   <contribution
