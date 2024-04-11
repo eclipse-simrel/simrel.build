@@ -45,7 +45,6 @@
     <contributions href="tcf.aggrcon#/"/>
     <contributions href="sirius.aggrcon#/"/>
     <contributions href="qvtd.aggrcon#/"/>
-    <contributions href="ecp.aggrcon#/"/>
     <contributions href="xwt.aggrcon#/"/>
     <contributions href="tracecompass.aggrcon#/"/>
     <contributions href="rcptt.aggrcon#/"/>
@@ -328,7 +327,6 @@
     <features href="emf-services.aggrcon#//@repositories.1/@features.0"/>
     <features href="emf-services.aggrcon#//@repositories.0/@features.0"/>
     <features href="qvtd.aggrcon#//@repositories.0/@features.0"/>
-    <features href="ecp.aggrcon#//@repositories.0/@features.0"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.0"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-parsley.aggrcon#//@repositories.0/@features.0"/>
