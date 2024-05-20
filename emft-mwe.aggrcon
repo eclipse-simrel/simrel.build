@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMFT MWE for 2024-06">
-  <repositories location="https://download.eclipse.org/modeling/emft/mwe/updates/milestones/S202404260736/" description="MWE2 Language p2 repository">
+  <repositories location="https://download.eclipse.org/modeling/emft/mwe/updates/milestones/S202405170722/" description="MWE2 Language p2 repository">
     <features name="org.eclipse.emf.mwe2.runtime.sdk.feature.group" versionRange="[2.18.0.v20240426-0736]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
