@@ -108,7 +108,7 @@
     <project
         name="Eclipse EMF"
         site="https://projects.eclipse.org/projects/modeling.emf.emf"
-        version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/1.38.0"
+        version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/2.38.0"
         releaseDate="2024-06-12"
         rank="6">
       <repository
@@ -401,7 +401,7 @@
     <project
         name="Eclipse CDT (C/C++ Development Tooling)"
         site="https://projects.eclipse.org/projects/tools.cdt"
-        version="https://projects.eclipse.org/projects/tools.cdt/releases/2.0.0-cdt-lsp"
+        version="https://projects.eclipse.org/projects/tools.cdt/releases/11.6.0"
         releaseDate="2024-06-12"
         rank="3">
       <repository
@@ -986,7 +986,7 @@
     <project
         name="Eclipse EMF"
         site="https://projects.eclipse.org/projects/modeling.emf.emf"
-        version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/1.38.0"
+        version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/2.38.0"
         releaseDate="2024-06-12"
         rank="6">
       <repository
