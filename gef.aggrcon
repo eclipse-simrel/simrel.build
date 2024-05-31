@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="GEF">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="GEF">
   <repositories location="https://download.eclipse.org/tools/gef/classic/milestone/S202405290843" description="GEF Classic releases">
     <features name="org.eclipse.gef.sdk.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
@@ -47,6 +47,7 @@
     <features name="org.eclipse.fx.runtime.min.feature.feature.group" versionRange="[3.9.0.202210162353]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
+    <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.ecf.filetransfer.httpclient5.feature.feature.group" versionRange="[1.1.600.v20220215-0126]"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='matthias.wienand@itemis.de']"/>
 </aggregator:Contribution>
