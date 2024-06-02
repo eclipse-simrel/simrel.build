@@ -10,6 +10,5 @@
     <mapRules xsi:type="aggregator:ExclusionRule" name="com.google.inject" versionRange="[3.0.0,4.0.0)"/>
     <mapRules xsi:type="aggregator:ExclusionRule" name="com.google.inject.multibindings" versionRange="[3.0.0,4.0.0)"/>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='abel.hegedus@incquerylabs.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='ujhelyiz@incquerylabs.com']"/>
 </aggregator:Contribution>

@@ -3,6 +3,5 @@
   <repositories location="https://download.eclipse.org/ecoretools/updates/milestones/3.5.1rc1/2023-06/" description="EMFT Ecore Tools Release">
     <features name="org.eclipse.emf.ecoretools.design.feature.group"/>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='cedric.brun@obeo.fr']"/>
   <contacts href="simrel.aggr#//@contacts[email='pierre-charles.david@obeo.fr']"/>
 </aggregator:Contribution>

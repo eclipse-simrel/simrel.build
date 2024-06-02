@@ -36,6 +36,5 @@
     <features name="org.eclipse.m2e.wtp.jpa.feature.source.feature.group"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='wellmann.hannes1@gmx.net']"/>
-  <contacts href="simrel.aggr#//@contacts[email='mistria@redhat.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='fbricon@gmail.com']"/>
 </aggregator:Contribution>

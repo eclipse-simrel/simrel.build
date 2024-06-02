@@ -13,6 +13,5 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Performance%2C%20Profiling%20and%20Tracing%20Tools']"/>
     </features>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='krum.tsvetkov@sap.com']"/>
-  <contacts href="simrel.aggr#//@contacts[email='erwin.margewitsch@sap.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='andrew_johnson@uk.ibm.com']"/>
 </aggregator:Contribution>
