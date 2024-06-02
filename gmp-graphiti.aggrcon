@@ -39,4 +39,5 @@
     </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='michael.wenz@sap.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='ed.merks@gmail.com']"/>
 </aggregator:Contribution>

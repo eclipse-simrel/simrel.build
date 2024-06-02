@@ -9,7 +9,6 @@
     <features name="org.eclipse.acceleo.query.source.feature.group" versionRange="[7.0.0,8.0.0)"/>
     <features name="org.eclipse.acceleo.equinox.launcher.feature.group"/>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='stephane.begaudeau@obeo.fr']"/>
-  <contacts href="simrel.aggr#//@contacts[email='cedric.brun@obeo.fr']"/>
   <contacts href="simrel.aggr#//@contacts[email='laurent.goubet@obeo.fr']"/>
+  <contacts href="simrel.aggr#//@contacts[email='pierre-charles.david@obeo.fr']"/>
 </aggregator:Contribution>

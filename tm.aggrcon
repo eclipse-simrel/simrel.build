@@ -11,7 +11,4 @@
     </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='sbouchet@redhat.com']"/>
-  <contacts href="simrel.aggr#//@contacts[email='kaloyan.r@zend.com']"/>
-  <contacts href="simrel.aggr#//@contacts[email='g.watson@computer.org']"/>
-  <contacts href="simrel.aggr#//@contacts[email='nboldt@redhat.com']"/>
 </aggregator:Contribution>

@@ -21,5 +21,5 @@
     </features>
     <features name="org.eclipse.oomph.setup.mylyn.feature.group"/>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='stepper@esc-net.de']"/>
+  <contacts href="simrel.aggr#//@contacts[email='ed.merks@gmail.com']"/>
 </aggregator:Contribution>

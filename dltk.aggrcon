@@ -20,8 +20,5 @@
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='kaloyan.r@zend.com']"/>
-  <contacts href="simrel.aggr#//@contacts[email='alex.panchenko@gmail.com']"/>
-  <contacts href="simrel.aggr#//@contacts[email='andrey@xored.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='zulus@w3des.net']"/>
 </aggregator:Contribution>

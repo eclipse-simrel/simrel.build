@@ -110,6 +110,5 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/>
     </features>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='bpayton@us.ibm.com']"/>
-  <contacts href="simrel.aggr#//@contacts[email='nboldt@redhat.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='ed.merks@gmail.com']"/>
 </aggregator:Contribution>

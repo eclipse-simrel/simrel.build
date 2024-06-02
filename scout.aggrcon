@@ -6,6 +6,6 @@
     </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='arthur.vandorp@bsi-software.com']"/>
-  <contacts href="simrel.aggr#//@contacts[email='steiner.ralph@gmail.com']"/>
-  <contacts href="simrel.aggr#//@contacts[email='jeremie.miserez@bsi-software.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='torsten.trompler@bsi-software.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='adrian.egloff@bsi-software.com']"/>
 </aggregator:Contribution>

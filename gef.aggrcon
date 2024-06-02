@@ -49,5 +49,5 @@
     </features>
     <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.ecf.filetransfer.httpclient5.feature.feature.group" versionRange="[1.1.600.v20220215-0126]"/>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='matthias.wienand@itemis.de']"/>
+  <contacts href="simrel.aggr#//@contacts[email='alois.zoitl@gmx.at']"/>
 </aggregator:Contribution>

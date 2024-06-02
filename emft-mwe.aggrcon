@@ -11,8 +11,6 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='dennis.huebner@typefox.io']"/>
   <contacts href="simrel.aggr#//@contacts[email='christian.dietrich.opensource@gmail.com']"/>
-  <contacts href="simrel.aggr#//@contacts[email='eclipse@typefox.io']"/>
-  <contacts href="simrel.aggr#//@contacts[email='karsten.thoms@itemis.de']"/>
+  <contacts href="simrel.aggr#//@contacts[email='lorenzo.bettini@gmail.com']"/>
 </aggregator:Contribution>
