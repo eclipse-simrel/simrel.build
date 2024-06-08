@@ -192,8 +192,8 @@
     <project
         name="Eclipse Maven Integration - m2eclipse"
         site="https://projects.eclipse.org/projects/technology.m2e"
-        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.6.0"
-        releaseDate="2024-02-21"
+        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.6.1"
+        releaseDate="2024-06-04"
         rank="5">
       <repository
           uri="https://github.com/eclipse-m2e/m2e-core"/>
@@ -467,7 +467,7 @@
     <project
         name="Eclipse CDO Model Repository"
         site="https://projects.eclipse.org/projects/modeling.emf.cdo"
-        version="https://projects.eclipse.org/projects/modeling.emf.cdo/releases/4.27"
+        version="https://projects.eclipse.org/projects/modeling.emf.cdo/releases/4.27.0"
         releaseDate="2024-06-12"
         rank="1">
       <repository
