@@ -31,10 +31,10 @@
     <features name="org.eclipse.mylyn.egit.feature.feature.group" versionRange="[4.3.0.v20240602-0603]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.gerrit.feature.feature.group" versionRange="[4.3.0.v20240510-0136]">
+    <features name="org.eclipse.mylyn.gerrit.feature.feature.group" versionRange="[4.3.0.v20240510-0136]" enabled="false">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.gerrit.dashboard.feature.feature.group" versionRange="[4.3.0.v20240509-0539]">
+    <features name="org.eclipse.mylyn.gerrit.dashboard.feature.feature.group" versionRange="[4.3.0.v20240509-0539]" enabled="false">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <features name="org.eclipse.mylyn.git.feature.feature.group" versionRange="[4.3.0.v20240509-0539]">
