@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Mylyn">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Mylyn">
   <repositories location="https://download.eclipse.org/mylyn/updates/release/4.3.0" description="Mylyn 4.3.0">
     <features name="org.eclipse.mylyn.bugzilla.feature.feature.group" versionRange="[4.3.0.v20240509-0539]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
@@ -73,6 +73,7 @@
     <features name="org.eclipse.mylyn.wikitext.feature.feature.group" versionRange="[4.3.0.v20240602-0603]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
+    <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.httpcomponents.httpcore" versionRange="[4.4.16.v20221207-1049]"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='alexander.fedorov@arsysop.ru']"/>
 </aggregator:Contribution>
