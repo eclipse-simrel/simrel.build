@@ -104,6 +104,14 @@
     </project>
   </contribution>
   <contribution
+      label="BIRT"
+      match="org\.eclipse\.birt\..*">
+    <project
+        name="Eclipse BIRT"
+        site="https://projects.eclipse.org/projects/technology.birt"
+        releaseDate="2024-02-01"/>
+  </contribution>
+  <contribution
       contribution="emf-emf.aggrcon#/">
     <project
         name="Eclipse EMF"
