@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMFT Ecore Tools 3.5.0 for SimRel 2023-06">
-  <repositories location="https://download.eclipse.org/ecoretools/updates/releases/3.5.0/2023-03/" description="EMFT Ecore Tools Release">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMFT Ecore Tools 3.5.1 for SimRel 2024-06">
+  <repositories location="https://download.eclipse.org/ecoretools/updates/releases/3.5.1/2023-06/" description="EMFT Ecore Tools Release">
     <features name="org.eclipse.emf.ecoretools.design.feature.group"/>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='cedric.brun@obeo.fr']"/>
   <contacts href="simrel.aggr#//@contacts[email='pierre-charles.david@obeo.fr']"/>
 </aggregator:Contribution>

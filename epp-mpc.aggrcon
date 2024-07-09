@@ -6,7 +6,5 @@
     </features>
     <features name="org.eclipse.epp.mpc.source.feature.group" versionRange="[1.11.0,1.11.1)"/>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='wayne@eclipse.org']"/>
-  <contacts href="simrel.aggr#//@contacts[email='reckord@yatta.de']"/>
   <contacts href="simrel.aggr#//@contacts[email='geiger@yatta.de']"/>
 </aggregator:Contribution>

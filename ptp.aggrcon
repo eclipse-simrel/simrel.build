@@ -30,5 +30,5 @@
     </features>
     <features name="org.eclipse.ptp.rdt.sync.feature.group"/>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='g.watson@computer.org']"/>
+  <contacts href="simrel.aggr#//@contacts[email='jonah@kichwacoders.com']"/>
 </aggregator:Contribution>

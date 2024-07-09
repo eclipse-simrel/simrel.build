@@ -22,6 +22,5 @@
     </features>
     <features name="org.eclipse.emf.compare.rcp.ui.feature.group" versionRange="[3.3.0,3.4.0]"/>
   </repositories>
-  <contacts href="simrel.aggr#//@contacts[email='cedric.brun@obeo.fr']"/>
   <contacts href="simrel.aggr#//@contacts[email='laurent.goubet@obeo.fr']"/>
 </aggregator:Contribution>
