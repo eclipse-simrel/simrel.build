@@ -448,8 +448,8 @@
     <project
         name="Eclipse Remote Application Platform"
         site="https://projects.eclipse.org/projects/rt.rap"
-        version="https://projects.eclipse.org/projects/rt.rap/releases/3.29.0"
-        releaseDate="2024-06-12">
+        version="https://projects.eclipse.org/projects/rt.rap/releases/4.0.0"
+        releaseDate="2024-09-11">
       <repository
           uri="https://github.com/eclipse-rap/org.eclipse.rap"/>
       <repository
@@ -968,8 +968,8 @@
     <project
         name="Eclipse Remote Application Platform"
         site="https://projects.eclipse.org/projects/rt.rap"
-        version="https://projects.eclipse.org/projects/rt.rap/releases/3.29.0"
-        releaseDate="2024-06-12">
+        version="https://projects.eclipse.org/projects/rt.rap/releases/4.0.0"
+        releaseDate="2024-09-11">
       <repository
           uri="https://github.com/eclipse-rap/org.eclipse.rap"/>
       <repository
