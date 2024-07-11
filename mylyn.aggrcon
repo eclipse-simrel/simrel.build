@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Mylyn">
-  <repositories location="https://download.eclipse.org/mylyn/updates/milestone/S202407100318" description="Mylyn 4.4.0">
+  <repositories location="https://download.eclipse.org/mylyn/updates/milestone/S202407112039" description="Mylyn 4.4.0">
     <features name="org.eclipse.mylyn.bugzilla.feature.feature.group" versionRange="[4.4.0.v20240617-1534]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
@@ -28,7 +28,7 @@
     <features name="org.eclipse.mylyn.commons.repositories.feature.feature.group" versionRange="[4.4.0.v20240617-1534]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.egit.feature.feature.group" versionRange="[4.4.0.v20240617-1534]">
+    <features name="org.eclipse.mylyn.egit.feature.feature.group" versionRange="[4.4.0.v20240711-1016]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <features name="org.eclipse.mylyn.gerrit.feature.feature.group" versionRange="[4.4.0.v20240617-1534]" enabled="false">
@@ -40,7 +40,7 @@
     <features name="org.eclipse.mylyn.git.feature.feature.group" versionRange="[4.4.0.v20240617-1534]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.github.feature.feature.group" versionRange="[6.5.0.v20240617-1534]">
+    <features name="org.eclipse.mylyn.github.feature.feature.group" versionRange="[6.5.0.v20240711-1016]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <features name="org.eclipse.mylyn.ide.feature.feature.group" versionRange="[4.4.0.v20240617-1534]">
