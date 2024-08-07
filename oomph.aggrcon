@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Oomph">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Oomph">
   <repositories location="https://download.eclipse.org/oomph/drops/milestone/S20240730-162434-1.34.0-M2" description="Oomph 1.34">
     <features name="org.eclipse.oomph.setup.sdk.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
@@ -20,6 +20,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
     <features name="org.eclipse.oomph.setup.mylyn.feature.group"/>
+    <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.commons.logging" versionRange="[1.2.0.v20180409-1502]"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='ed.merks@gmail.com']"/>
 </aggregator:Contribution>
