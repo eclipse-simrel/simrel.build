@@ -321,7 +321,6 @@
     <features href="emf-emf.aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-emf.aggrcon#//@repositories.0/@features.2"/>
     <features href="emf-emf.aggrcon#//@repositories.0/@features.3"/>
-    <features href="emf-services.aggrcon#//@repositories.2/@features.0"/>
     <features href="emf-services.aggrcon#//@repositories.1/@features.0"/>
     <features href="emf-services.aggrcon#//@repositories.0/@features.0"/>
     <features href="qvtd.aggrcon#//@repositories.0/@features.0"/>
