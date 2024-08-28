@@ -29,7 +29,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
   </repositories>
-  <repositories location="https://download.eclipse.org/tools/orbit/simrel/maven-jetty/release/12.0.11">
+  <repositories location="https://download.eclipse.org/tools/orbit/simrel/maven-jetty/release/12.0.12">
     <bundles name="org.eclipse.jetty.ee10.servlet"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='matthias.sohn@gmail.com']"/>
