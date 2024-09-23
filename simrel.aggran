@@ -89,7 +89,7 @@
   <contribution
       label="3rd Party"
       dominant="true"
-      match="(?!org\.eclipse\.|org\.sonatype\.m2e\.|ch\.ethz\.iks\.|com\.mycorp\.).*|org\.eclipse\.wb\.core\.lib|org\.eclipse\.m2e\.maven\.runtime.*"/>
+      match="(?!org\.eclipse\.|org\.sonatype\.m2e\.|ch\.ethz\.iks\.|com\.mycorp\.).*|org\.eclipse\.wb\.core\.lib|org\.eclipse\.m2e\.maven\.runtime.*|org\.eclipse\.orbit\..*"/>
   <contribution
       label="Nebula"
       match="org\.eclipse\.nebula\..*">
