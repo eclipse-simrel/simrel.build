@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMF Services">
-  <repositories enabled="false" location="https://download.eclipse.org/modeling/emf/query/updates/releases/R202208101410" description="EMF Query">
-    <features name="org.eclipse.emf.query.sdk.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
-    </features>
-  </repositories>
-  <repositories location="https://download.eclipse.org/modeling/emf/validation/updates/releases/R202305230712" description="EMF Validation">
+  <repositories location="https://download.eclipse.org/modeling/emf/validation/updates/releases/R202408231629/" description="EMF Validation">
     <features name="org.eclipse.emf.validation.sdk.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="https://download.eclipse.org/modeling/emf/transaction/updates/releases/R202208110935" description="EMF Transaction">
+  <repositories location="https://download.eclipse.org/modeling/emf/transaction/updates/releases/R202409160716/" description="EMF Transaction">
     <features name="org.eclipse.emf.transaction.sdk.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>

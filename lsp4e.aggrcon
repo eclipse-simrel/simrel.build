@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="LSP4E">
-  <repositories location="https://download.eclipse.org/lsp4e/releases/0.26.2/" description="LSP4E">
-    <features name="org.eclipse.lsp4e" versionRange="[0.18.10.202405280703]">
+  <repositories location="https://download.eclipse.org/lsp4e/releases/0.27.0/" description="LSP4E">
+    <features name="org.eclipse.lsp4e" versionRange="[0.18.16.202501161247]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.lsp4e.debug" versionRange="[0.15.8.202405212039]">
+    <features name="org.eclipse.lsp4e.debug" versionRange="[0.15.14.202501131548]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.lsp4e.jdt" versionRange="[0.13.0.202402070603]">
+    <features name="org.eclipse.lsp4e.jdt" versionRange="[0.13.4.202412191700]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.lsp4e.source" versionRange="[0.18.10.202405280703]"/>
-    <features name="org.eclipse.lsp4e.debug.source" versionRange="[0.15.8.202405212039]"/>
-    <features name="org.eclipse.lsp4e.jdt.source" versionRange="[0.13.0.202402070603]"/>
+    <features name="org.eclipse.lsp4e.source" versionRange="[0.18.16.202501161247]"/>
+    <features name="org.eclipse.lsp4e.debug.source" versionRange="[0.15.14.202501131548]"/>
+    <features name="org.eclipse.lsp4e.jdt.source" versionRange="[0.13.4.202412191700]"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='mistria@redhat.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='jonah@kichwacoders.com']"/>
+  <contacts href="simrel.aggr#//@contacts[email='pcr@avaloq.com']"/>
 </aggregator:Contribution>
