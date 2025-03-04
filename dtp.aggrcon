@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="DataTools 1.16.3">
-  <repositories location="https://download.eclipse.org/datatools/updates/milestone/S202412161207" description="DataTools 1.16.3">
+  <repositories location="https://download.eclipse.org/datatools/updates/release/1.16.3" description="DataTools 1.16.3">
     <features name="org.eclipse.datatools.common.doc.user.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Database%20Development']"/>
     </features>
