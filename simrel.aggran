@@ -123,8 +123,8 @@
     <project
         name="Eclipse EMF"
         site="https://projects.eclipse.org/projects/modeling.emf.emf"
-        version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/2.40.0"
-        releaseDate="2024-12-04"
+        version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/2.41.0"
+        releaseDate="2025-03-12"
         rank="6">
       <repository
           uri="https://github.com/eclipse-emf/org.eclipse.emf"/>
@@ -139,7 +139,7 @@
         releaseDate="2025-01-24"
         rank="3">
       <repository
-          uri="https://github.com/eclipse/ecf"/>
+          uri="https://github.com/eclipse-ecf/ecf"/>
     </project>
   </contribution>
   <contribution
@@ -207,8 +207,8 @@
     <project
         name="Eclipse Maven Integration - m2eclipse"
         site="https://projects.eclipse.org/projects/technology.m2e"
-        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.7.0"
-        releaseDate="2024-11-26"
+        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.8.0"
+        releaseDate="2025-03-03"
         rank="5">
       <repository
           uri="https://github.com/eclipse-m2e/m2e-core"/>
@@ -318,8 +318,8 @@
     <project
         name="Eclipse Data Tools Platform"
         site="https://projects.eclipse.org/projects/tools.datatools"
-        version="https://projects.eclipse.org/projects/tools.datatools/releases/1.16.2"
-        releaseDate="2024-12-09">
+        version="https://projects.eclipse.org/projects/tools.datatools/releases/1.16.3"
+        releaseDate="2025-03-12">
       <repository
           uri="https://github.com/eclipse-datatools/datatools"/>
     </project>
@@ -492,8 +492,8 @@
     <project
         name="Eclipse Oomph"
         site="https://projects.eclipse.org/projects/tools.oomph"
-        version="https://projects.eclipse.org/projects/tools.oomph/releases/1.35.0"
-        releaseDate="2024-12-04"
+        version="https://projects.eclipse.org/projects/tools.oomph/releases/1.36.0"
+        releaseDate="2025-03-12"
         rank="6">
       <repository
           uri="https://github.com/eclipse-oomph/oomph"/>
