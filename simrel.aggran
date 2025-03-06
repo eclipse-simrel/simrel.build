@@ -305,7 +305,7 @@
     <project
         name="Eclipse Modeling Workflow Engine"
         site="https://projects.eclipse.org/projects/modeling.emf.mwe"
-        version="https://projects.eclipse.org/projects/modeling.emf.mwe/releases/2.21.0"
+        version="https://projects.eclipse.org/projects/modeling.emf.mwe/releases/2.21.0-0"
         releaseDate="2025-03-01"
         rank="1">
       <repository
@@ -984,8 +984,8 @@
     <project
         name="Eclipse EMF"
         site="https://projects.eclipse.org/projects/modeling.emf.emf"
-        version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/2.40.0"
-        releaseDate="2024-12-04"
+        version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/2.41.0"
+        releaseDate="2025-03-12"
         rank="6">
       <repository
           uri="https://github.com/eclipse-emf/org.eclipse.emf"/>
