@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   tools {
-    jdk 'temurin-jdk17-latest'
+    jdk 'temurin-jdk21-latest'
     maven 'apache-maven-latest'
   }
 
@@ -13,7 +13,7 @@ pipeline {
   }
 
   environment {
-    TRAIN_NAME = "2025-03"
+    TRAIN_NAME = "2025-06"
     STAGING_DIR = "/home/data/httpd/download.eclipse.org/staging/${TRAIN_NAME}"
   }
 
