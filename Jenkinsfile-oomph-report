@@ -14,7 +14,7 @@ pipeline {
     timeout(time: 30, unit: 'MINUTES')
   }
   tools {
-    jdk 'openjdk-jdk11-latest'
+    jdk 'temurin-jdk21-latest'
   }
   environment {
     TARGET_DIR = "archive"
