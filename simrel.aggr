@@ -348,6 +348,7 @@
     <features href="viatra.aggrcon#//@repositories.0/@features.1"/>
     <features href="modisco.aggrcon#//@repositories.0/@features.0"/>
     <features href="modisco.aggrcon#//@repositories.0/@features.1"/>
+    <features href="emft-ecoretools.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Performance, Profiling and Tracing Tools" label="Performance, Profiling and Tracing Tools" description="Tools to assit analysis of running code.">
     <features href="tracecompass.aggrcon#//@repositories.0/@features.1"/>
