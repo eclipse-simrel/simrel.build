@@ -5,7 +5,7 @@ pipeline {
         }
     }
     tools {
-        jdk 'temurin-jdk21-latest'
+        jdk 'openjdk-jdk17-latest' // This must be one available on the promotion-vm
         maven 'apache-maven-latest'
     }
     options {
