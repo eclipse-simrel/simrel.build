@@ -163,17 +163,6 @@
   <contribution
       dominant="true"
       contribution="ep.aggrcon#/">
-    <tag>committers</tag>
-    <tag>cpp</tag>
-    <tag>dsl</tag>
-    <tag>embedcpp</tag>
-    <tag>java</tag>
-    <tag>jee</tag>
-    <tag>modeling</tag>
-    <tag>php</tag>
-    <tag>rcp</tag>
-    <tag>scout</tag>
-    <tag>sdk</tag>
     <project
         name="Eclipse Project"
         site="https://projects.eclipse.org/projects/eclipse"
@@ -183,6 +172,17 @@
           name="Eclipse Equinox"
           site="https://projects.eclipse.org/projects/eclipse.equinox"
           rank="7">
+        <tag>committers</tag>
+        <tag>cpp</tag>
+        <tag>dsl</tag>
+        <tag>embedcpp</tag>
+        <tag>java</tag>
+        <tag>jee</tag>
+        <tag>modeling</tag>
+        <tag>php</tag>
+        <tag>rcp</tag>
+        <tag>scout</tag>
+        <tag>sdk</tag>
         <repository
             uri="https://github.com/eclipse-equinox/equinox"/>
         <repository
@@ -194,6 +194,14 @@
           name="Eclipse JDT (Java development tools)"
           site="https://projects.eclipse.org/projects/eclipse.jdt"
           rank="7">
+        <tag>committers</tag>
+        <tag>dsl</tag>
+        <tag>java</tag>
+        <tag>jee</tag>
+        <tag>modeling</tag>
+        <tag>rcp</tag>
+        <tag>scout</tag>
+        <tag>sdk</tag>
         <repository
             uri="https://github.com/eclipse-jdt/eclipse.jdt"/>
         <repository
@@ -209,6 +217,13 @@
           name="Eclipse PDE"
           site="https://projects.eclipse.org/projects/eclipse.pde"
           rank="8">
+        <tag>committers</tag>
+        <tag>dsl</tag>
+        <tag>jee</tag>
+        <tag>modeling</tag>
+        <tag>rcp</tag>
+        <tag>scout</tag>
+        <tag>sdk</tag>
         <repository
             uri="https://github.com/eclipse-pde/eclipse.pde"/>
       </subproject>
@@ -216,6 +231,17 @@
           name="Eclipse Platform"
           site="https://projects.eclipse.org/projects/eclipse.platform"
           rank="8">
+        <tag>committers</tag>
+        <tag>cpp</tag>
+        <tag>dsl</tag>
+        <tag>embedcpp</tag>
+        <tag>java</tag>
+        <tag>jee</tag>
+        <tag>modeling</tag>
+        <tag>php</tag>
+        <tag>rcp</tag>
+        <tag>scout</tag>
+        <tag>sdk</tag>
         <repository
             uri="https://github.com/eclipse-platform/eclipse.platform"/>
         <repository
@@ -707,22 +733,22 @@
   </contribution>
   <contribution
       contribution="egit.aggrcon#/">
-    <tag>committers</tag>
-    <tag>cpp</tag>
-    <tag>dsl</tag>
-    <tag>embedcpp</tag>
-    <tag>java</tag>
-    <tag>jee</tag>
-    <tag>modeling</tag>
-    <tag>php</tag>
-    <tag>rcp</tag>
-    <tag>scout</tag>
     <project
         name="Eclipse EGit: Git Integration for Eclipse"
         site="https://projects.eclipse.org/projects/technology.egit"
         version="https://projects.eclipse.org/projects/technology.egit/releases/7.3.0"
         releaseDate="2025-06-11"
         rank="7">
+      <tag>committers</tag>
+      <tag>cpp</tag>
+      <tag>dsl</tag>
+      <tag>embedcpp</tag>
+      <tag>java</tag>
+      <tag>jee</tag>
+      <tag>modeling</tag>
+      <tag>php</tag>
+      <tag>rcp</tag>
+      <tag>scout</tag>
       <repository
           uri="https://github.com/eclipse-egit/egit"/>
       <repository
