@@ -8,8 +8,6 @@
     <features name="org.eclipse.egit.feature.group" versionRange="[7.3.0.202504081226-m1]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.egit.source.feature.group" versionRange="[7.3.0.202504081226-m1]"/>
-    <features name="org.eclipse.jgit.source.feature.group" versionRange="[7.3.0.202504081226-m1]"/>
     <features name="org.eclipse.jgit.http.apache.feature.group" versionRange="[7.3.0.202504081226-m1]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
