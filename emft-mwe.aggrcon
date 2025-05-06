@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMFT MWE for 2025-06">
-  <repositories location="https://download.eclipse.org/modeling/emft/mwe/updates/milestones/S202504050710" description="MWE2 Language p2 repository">
-    <features name="org.eclipse.emf.mwe2.runtime.sdk.feature.group" versionRange="[2.22.0.v20250405-0709]">
+  <repositories location="https://download.eclipse.org/modeling/emft/mwe/updates/milestones/S202505051703" description="MWE2 Language p2 repository">
+    <features name="org.eclipse.emf.mwe2.runtime.sdk.feature.group" versionRange="[2.22.0.v20250505-1703]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.emf.mwe.sdk.feature.group" versionRange="[1.16.0.v20250405-0709]">
+    <features name="org.eclipse.emf.mwe.sdk.feature.group" versionRange="[1.16.0.v20250505-1703]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.emf.mwe2.language.sdk.feature.group" versionRange="[2.22.0.v20250405-0709]">
+    <features name="org.eclipse.emf.mwe2.language.sdk.feature.group" versionRange="[2.22.0.v20250505-1703]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
