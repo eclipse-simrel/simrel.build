@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Aggregation files used for the Eclipse Simultaneous Release (quarterly &quot;release train&quot;)." buildmaster="//@contacts[email='ed.merks@gmail.com']" buildmasterBackup="//@contacts[email='frederic.gurr@eclipse.org']" label="2025-03" buildRoot="buildresults" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false" includeSources="true">
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Aggregation files used for the Eclipse Simultaneous Release (quarterly &quot;release train&quot;)." buildmaster="//@contacts[email='ed.merks@gmail.com']" buildmasterBackup="//@contacts[email='frederic.gurr@eclipse.org']" label="2025-06" buildRoot="buildresults" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false" includeSources="true">
   <validationSets label="main">
     <contributions href="ep.aggrcon#/"/>
     <contributions href="emf-emf.aggrcon#/"/>
@@ -121,13 +121,13 @@
     <features href="egit.aggrcon#//@repositories.0/@features.2"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.4"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.2"/>
+    <features href="egit.aggrcon#//@repositories.0/@features.4"/>
+    <features href="egit.aggrcon#//@repositories.0/@features.5"/>
+    <features href="egit.aggrcon#//@repositories.0/@features.0"/>
+    <features href="egit.aggrcon#//@repositories.0/@features.3"/>
     <features href="egit.aggrcon#//@repositories.0/@features.6"/>
     <features href="egit.aggrcon#//@repositories.0/@features.7"/>
-    <features href="egit.aggrcon#//@repositories.0/@features.0"/>
-    <features href="egit.aggrcon#//@repositories.0/@features.5"/>
     <features href="egit.aggrcon#//@repositories.0/@features.8"/>
-    <features href="egit.aggrcon#//@repositories.0/@features.9"/>
-    <features href="egit.aggrcon#//@repositories.0/@features.10"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
@@ -348,6 +348,7 @@
     <features href="viatra.aggrcon#//@repositories.0/@features.1"/>
     <features href="modisco.aggrcon#//@repositories.0/@features.0"/>
     <features href="modisco.aggrcon#//@repositories.0/@features.1"/>
+    <features href="emft-ecoretools.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Performance, Profiling and Tracing Tools" label="Performance, Profiling and Tracing Tools" description="Tools to assit analysis of running code.">
     <features href="tracecompass.aggrcon#//@repositories.0/@features.1"/>

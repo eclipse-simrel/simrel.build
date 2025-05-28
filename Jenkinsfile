@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   tools {
-    jdk 'temurin-jdk17-latest'
+    jdk 'temurin-jdk21-latest'
     maven 'apache-maven-latest'
   }
 
@@ -13,7 +13,7 @@ pipeline {
   }
 
   environment {
-    TRAIN_NAME = "2025-03"
+    TRAIN_NAME = "2025-06"
     STAGING_DIR = "/home/data/httpd/download.eclipse.org/staging/${TRAIN_NAME}"
   }
 
@@ -77,13 +77,12 @@ PROMOTE=${env.PROMOTE}
           if (env.PROMOTE == 'true') {
             withCredentials([
               file(credentialsId: 'secret-subkeys.asc', variable: 'KEYRING'),
-              string(credentialsId: 'gpg-passphrase', variable: 'KEYRING_PASSPHRASE')]) {
+              string(credentialsId: 'gpg-passphrase', variable: 'MAVEN_GPG_PASSPHRASE')]) {
               sh '''
                java -version
                mvn \
                 -Dtycho.pgp.signer="bc" \
                 -Dtycho.pgp.signer.bc.secretKeys="${KEYRING}" \
-                -Dgpg.passphrase="${KEYRING_PASSPHRASE}" \
                 -Pbuild \
                 ${PGP_MVN_ARGUMENTS} \
                 clean \
@@ -111,7 +110,7 @@ PROMOTE=${env.PROMOTE}
       steps {
         sshagent(['projects-storage.eclipse.org-bot-ssh']) {
           script {
-            lock('staging-repository') {
+            // lock('staging-repository') {
               sh '''
                 ssh genie.simrel@projects-storage.eclipse.org "
                   mkdir -p ${STAGING_DIR}
@@ -122,7 +121,7 @@ PROMOTE=${env.PROMOTE}
                   ls -sail ${STAGING_DIR}
                 "
               '''
-            }
+            // }
           }
         }
 
