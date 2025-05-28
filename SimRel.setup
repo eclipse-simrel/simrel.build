@@ -121,6 +121,12 @@
       </detail>
     </annotation>
     <configSections
+        name="branch">
+      <properties
+          key="autoSetupRebase"
+          value="always"/>
+    </configSections>
+    <configSections
         name="remote">
       <subsections
           name="${github.user.id}">
@@ -162,6 +168,12 @@
         <value>remoteURI</value>
       </detail>
     </annotation>
+    <configSections
+        name="branch">
+      <properties
+          key="autoSetupRebase"
+          value="always"/>
+    </configSections>
     <configSections
         name="remote">
       <subsections
@@ -205,6 +217,12 @@
         <value>remoteURI</value>
       </detail>
     </annotation>
+    <configSections
+        name="branch">
+      <properties
+          key="autoSetupRebase"
+          value="always"/>
+    </configSections>
     <configSections
         name="remote">
       <subsections
