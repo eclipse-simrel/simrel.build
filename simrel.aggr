@@ -117,7 +117,7 @@
     <features href="mylyn.aggrcon#//@repositories.0/@features.22"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.23"/>
     <features href="ecf.aggrcon#//@repositories.0/@features.0"/>
-    <features href="ecf.aggrcon#//@repositories.0/@features.1"/>
+    <features href="ecf.aggrcon#//@repositories.1/@features.0"/>
     <features href="egit.aggrcon#//@repositories.0/@features.2"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.4"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.2"/>
@@ -173,7 +173,7 @@
   <customCategories identifier="EclipseRT Target Platform Components" label="EclipseRT Target Platform Components" description="This category identifies various Eclipse technology that is commonly used in runtime scenarios from RCP to embedded to server side. The components in this category are intended to be added to your Target Platform, rather than your IDE.">
     <features href="ep.aggrcon#//@repositories.0/@features.10"/>
     <features href="ecf.aggrcon#//@repositories.0/@features.0"/>
-    <features href="ecf.aggrcon#//@repositories.0/@features.1"/>
+    <features href="ecf.aggrcon#//@repositories.1/@features.0"/>
     <features href="rap.aggrcon#//@repositories.0/@features.0"/>
     <features href="rap.aggrcon#//@repositories.0/@features.1"/>
     <features href="rap.aggrcon#//@repositories.0/@features.2"/>
