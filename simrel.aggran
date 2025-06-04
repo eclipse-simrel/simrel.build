@@ -782,12 +782,11 @@
     </project>
   </contribution>
   <contribution
-      enabled="false"
       contribution="mdt-papyrus.aggrcon#/">
     <project
         name="Eclipse Papyrus"
         site="https://projects.eclipse.org/projects/modeling.mdt.papyrus"
-        version="https://projects.eclipse.org/projects/modeling.mdt.papyrus/releases/6.7.0"
+        version="https://download.eclipse.org/modeling/mdt/papyrus/papyrus-desktop/updates/milestones/7.0/M2/main"
         releaseDate="2024-06-12">
       <repository
           uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus"/>
@@ -911,7 +910,6 @@
     </project>
   </contribution>
   <contribution
-      enabled="false"
       contribution="xwt.aggrcon#/">
     <project
         name="Eclipse XWT"
@@ -1032,18 +1030,6 @@
         rank="6">
       <repository
           uri="https://github.com/eclipse-lsp4e/lsp4e"/>
-    </project>
-  </contribution>
-  <contribution
-      contribution="usssdk.aggrcon#/">
-    <project
-        name="Eclipse User Storage Service SDK"
-        site="https://projects.eclipse.org/projects/technology.usssdk"
-        version="https://projects.eclipse.org/projects/technology.usssdk/releases/2.0.0"
-        releaseDate="2024-12-31"
-        rank="1">
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/usssdk/org.eclipse.usssdk"/>
     </project>
   </contribution>
   <contribution

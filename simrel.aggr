@@ -51,7 +51,6 @@
     <contributions href="eclemma.aggrcon#/"/>
     <contributions href="lsp4j.aggrcon#/"/>
     <contributions href="lsp4e.aggrcon#/"/>
-    <contributions href="usssdk.aggrcon#/"/>
     <contributions href="collections.aggrcon#/"/>
     <contributions href="tm4e.aggrcon#/"/>
     <contributions href="wildwebdeveloper.aggrcon#/"/>
@@ -84,7 +83,6 @@
     <features href="gef.aggrcon#//@repositories.1/@features.9"/>
     <features href="gef.aggrcon#//@repositories.1/@features.10"/>
     <features href="gef.aggrcon#//@repositories.2/@features.0"/>
-    <features href="usssdk.aggrcon#//@repositories.0/@features.1"/>
     <features href="ep.aggrcon#//@repositories.0/@features.0"/>
     <features href="collections.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
