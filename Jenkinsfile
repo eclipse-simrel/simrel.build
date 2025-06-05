@@ -110,7 +110,7 @@ PROMOTE=${env.PROMOTE}
       steps {
         sshagent(['projects-storage.eclipse.org-bot-ssh']) {
           script {
-            // lock('staging-repository') {
+            lock('staging-repository') {
               sh '''
                 ssh genie.simrel@projects-storage.eclipse.org "
                   mkdir -p ${STAGING_DIR}
@@ -121,7 +121,7 @@ PROMOTE=${env.PROMOTE}
                   ls -sail ${STAGING_DIR}
                 "
               '''
-            // }
+            }
           }
         }
 

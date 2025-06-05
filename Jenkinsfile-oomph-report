@@ -51,7 +51,7 @@ pipeline {
       }
       steps {
         script {
-      	  // lock('staging-repository') {
+          lock('staging-repository') {
             if (params.PROMOTE) {
               sshagent(['projects-storage.eclipse.org-bot-ssh']) {
                 sh '''
@@ -62,7 +62,7 @@ pipeline {
                   "
                 '''
               }
-            // }
+            }
 
             sh '''
             #!/bin/bash
