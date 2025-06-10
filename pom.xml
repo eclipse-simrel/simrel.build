@@ -14,6 +14,7 @@
     <simrel.aggregator.repo.url.relative>nightly/latest</simrel.aggregator.repo.url.relative>
     <simrel.aggregator.repo.url>${download.eclipse.org}/cbi/updates/p2-aggregator/products/${simrel.aggregator.repo.url.relative}</simrel.aggregator.repo.url>
     <cbi.analyzers.repo.url>${download.eclipse.org}/cbi/updates/p2-analyzers/products/nightly/latest</cbi.analyzers.repo.url>
+    <justj.jres.url>https://download.eclipse.org/justj/jres/21/updates/release/latest</justj.jres.url>
     <simrel.aggregator.build.type>CLEAN_BUILD</simrel.aggregator.build.type>
   </properties>
   <profiles>
@@ -143,9 +144,13 @@
                     <jvmArg>-Xms256M</jvmArg>
                     <jvmArg>-Xmx2048M</jvmArg>
                   </jvmArgs>
-                  <executionEnvironment>JavaSE-21</executionEnvironment>
+                  <executionEnvironment>org.eclipse.justj.openjdk.hotspot.jre.minimal-21</executionEnvironment>
                   <dependencies>
                     <dependency>
+                      <artifactId>org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.feature.group</artifactId>
+                      <type>p2-installable-unit</type>
+                    </dependency>
+                   <dependency>
                       <artifactId>org.eclipse.cbi.p2repo.analyzers</artifactId>
                       <type>eclipse-plugin</type>
                     </dependency>
@@ -171,6 +176,11 @@
                     <repository>
                       <id>eclipse</id>
                       <url>${eclipse.repo.url}</url>
+                      <layout>p2</layout>
+                    </repository>
+                    <repository>
+                      <id>justj</id>
+                      <url>${justj.jres.url}</url>
                       <layout>p2</layout>
                     </repository>
                   </repositories>
