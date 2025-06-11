@@ -5,7 +5,7 @@ pipeline {
         }
     }
     tools {
-        // jdk 'openjdk-jdk17-latest' // This must be one available on the promotion-vm
+        jdk 'openjdk-jdk21-latest' // This must be one available on the promotion-vm
         maven 'apache-maven-latest'
     }
     options {
@@ -15,7 +15,6 @@ pipeline {
     environment {
         TRAIN_NAME = "2025-09"
         STAGING_DIR = "/home/data/httpd/download.eclipse.org/staging/${TRAIN_NAME}"
-        JAVA_HOME = "/opt/public/common/java/openjdk/jdk-21_x64-latest"
     }
     stages {
         stage('Create repo reports') {
