@@ -47,7 +47,6 @@
     <contributions href="rcptt.aggrcon#/"/>
     <contributions href="buildship.aggrcon#/"/>
     <contributions href="emf-parsley.aggrcon#/"/>
-    <contributions href="viatra.aggrcon#/"/>
     <contributions href="eclemma.aggrcon#/"/>
     <contributions href="lsp4j.aggrcon#/"/>
     <contributions href="lsp4e.aggrcon#/"/>
@@ -333,7 +332,6 @@
     <features href="emf-compare.aggrcon#//@repositories.0/@features.10"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.6"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.7"/>
-    <features href="viatra.aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.1"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.3"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.5"/>
@@ -343,7 +341,6 @@
     <features href="qvto.aggrcon#//@repositories.0/@features.1"/>
     <features href="qvto.aggrcon#//@repositories.0/@features.2"/>
     <features href="qvtd.aggrcon#//@repositories.0/@features.1"/>
-    <features href="viatra.aggrcon#//@repositories.0/@features.1"/>
     <features href="modisco.aggrcon#//@repositories.0/@features.0"/>
     <features href="modisco.aggrcon#//@repositories.0/@features.1"/>
     <features href="emft-ecoretools.aggrcon#//@repositories.0/@features.0"/>
