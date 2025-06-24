@@ -1033,6 +1033,7 @@
     </project>
   </contribution>
   <contribution
+      enabled="false"
       contribution="collections.aggrcon#/">
     <project
         name="Eclipse Collections"
