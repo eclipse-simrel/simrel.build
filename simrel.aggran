@@ -981,17 +981,6 @@
     </project>
   </contribution>
   <contribution
-      contribution="viatra.aggrcon#/">
-    <project
-        name="Eclipse VIATRA"
-        site="https://projects.eclipse.org/projects/modeling.viatra"
-        version="https://projects.eclipse.org/projects/modeling.viatra/releases/2.9.1"
-        releaseDate="2024-09-20">
-      <repository
-          uri="https://github.com/eclipse-viatra/org.eclipse.viatra"/>
-    </project>
-  </contribution>
-  <contribution
       contribution="eclemma.aggrcon#/">
     <tag>committers</tag>
     <tag>java</tag>
@@ -1030,19 +1019,6 @@
         rank="6">
       <repository
           uri="https://github.com/eclipse-lsp4e/lsp4e"/>
-    </project>
-  </contribution>
-  <contribution
-      enabled="false"
-      contribution="collections.aggrcon#/">
-    <project
-        name="Eclipse Collections"
-        site="https://projects.eclipse.org/projects/technology.collections"
-        version="https://projects.eclipse.org/projects/technology.collections/releases/11.1.0"
-        releaseDate="2022-07-05"
-        rank="1">
-      <repository
-          uri="https://github.com/eclipse-collections/eclipse-collections"/>
     </project>
   </contribution>
   <contribution
