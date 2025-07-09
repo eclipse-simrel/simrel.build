@@ -244,11 +244,6 @@
   <customCategories identifier="License Management" label="License Management" description="Tools used to declare and control licensing constraints">
     <features href="passage.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
-  <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
-    <features href="linuxtools.aggrcon#//@repositories.0/@features.8"/>
-    <features href="linuxtools.aggrcon#//@repositories.0/@features.0"/>
-    <features href="tcf.aggrcon#//@repositories.0/@features.2"/>
-  </customCategories>
   <customCategories identifier="Mobile and Device Development" label="Mobile and Device Development" description="Tools used to develop mobile and device applications.">
     <features href="tm.aggrcon#//@repositories.0/@features.0"/>
     <features href="tm.aggrcon#//@repositories.0/@features.1"/>
@@ -355,6 +350,7 @@
     <features href="linuxtools.aggrcon#//@repositories.0/@features.7"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.9"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.4"/>
+    <features href="linuxtools.aggrcon#//@repositories.0/@features.8"/>
   </customCategories>
   <customCategories identifier="Programming Languages" label="Programming Languages" description="Tools to allow development with specific languages, such as Java and C++">
     <features href="cdt.aggrcon#//@repositories.0/@features.0"/>
@@ -397,6 +393,7 @@
     <features href="ep.aggrcon#//@repositories.0/@features.6"/>
     <features href="ep.aggrcon#//@repositories.0/@features.7"/>
     <features href="cdt.aggrcon#//@repositories.1/@features.0"/>
+    <features href="linuxtools.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Testing" label="Testing" description="Frameworks supporting application testing.">
     <features href="pdt.aggrcon#//@repositories.0/@features.3"/>
