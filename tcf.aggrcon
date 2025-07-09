@@ -8,7 +8,6 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
     <features name="org.eclipse.tcf.te.tcf.launch.cdt.feature.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='Linux%20Tools']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
