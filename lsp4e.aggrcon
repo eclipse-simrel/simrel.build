@@ -10,9 +10,6 @@
     <features name="org.eclipse.lsp4e.jdt" versionRange="[0.13.7.202505091900]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.lsp4e.source" versionRange="[0.18.25.202507141514]"/>
-    <features name="org.eclipse.lsp4e.debug.source" versionRange="[0.15.15.202501312028]"/>
-    <features name="org.eclipse.lsp4e.jdt.source" versionRange="[0.13.7.202505091900]"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='mistria@redhat.com']"/>
   <contacts href="simrel.aggr#//@contacts[email='jonah@kichwacoders.com']"/>
