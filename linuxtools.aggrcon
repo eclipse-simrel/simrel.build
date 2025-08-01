@@ -53,5 +53,4 @@
     </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='jjohnstn@redhat.com']"/>
-  <contacts href="simrel.aggr#//@contacts[email='akurtako@redhat.com']"/>
 </aggregator:Contribution>
