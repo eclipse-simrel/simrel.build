@@ -389,6 +389,7 @@
     <features href="xwt.aggrcon#//@repositories.0/@features.1"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.0"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.1"/>
+    <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.2"/>
     <features href="ep.aggrcon#//@repositories.0/@features.5"/>
     <features href="ep.aggrcon#//@repositories.0/@features.6"/>
     <features href="ep.aggrcon#//@repositories.0/@features.7"/>
@@ -441,6 +442,7 @@
     <features href="webtools.aggrcon#//@repositories.0/@features.26"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.0"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.1"/>
+    <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <contacts name="Adrian Egloff" email="adrian.egloff@bsi-software.com"/>
   <contacts name="Alexander Fedorov" email="alexander.fedorov@arsysop.ru"/>
