@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="CDT">
-  <repositories location="https://download.eclipse.org/tools/cdt/builds/12.2/cdt-12.2.0-m2a/" description="CDT updates">
-    <features name="org.eclipse.cdt.feature.group" versionRange="[12.2.0.202507282159]">
+  <repositories location="https://download.eclipse.org/tools/cdt/builds/12.2/cdt-12.2.0-m3/" description="CDT updates">
+    <features name="org.eclipse.cdt.feature.group" versionRange="[12.2.0.202508181556]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.sdk.feature.group" versionRange="[12.2.0.202507282159]">
+    <features name="org.eclipse.cdt.sdk.feature.group" versionRange="[12.2.0.202508181556]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.cdt.debug.gdbjtag.feature.group" versionRange="[12.2.0.202506091931]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.cdt.platform.feature.group" versionRange="[12.2.0.202507282159]"/>
+    <features name="org.eclipse.cdt.platform.feature.group" versionRange="[12.2.0.202508181556]"/>
     <features name="org.eclipse.cdt.debug.ui.memory.feature.group" versionRange="[12.2.0.202506091931]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
@@ -31,7 +31,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.cdt.visualizer.feature.group" versionRange="[12.2.0.202506091931]"/>
-    <features name="org.eclipse.cdt.managedbuilder.llvm.feature.group" versionRange="[12.2.0.202507010806]">
+    <features name="org.eclipse.cdt.managedbuilder.llvm.feature.group" versionRange="[12.2.0.202508181550]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.cdt.gnu.multicorevisualizer.feature.group" versionRange="[12.2.0.202506091931]">
