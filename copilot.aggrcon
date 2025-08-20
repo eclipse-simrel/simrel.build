@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Copilot">
+  <repositories location="https://azuredownloads-g3ahgwb5b8bkbxhd.b01.azurefd.net/eclipse-copilot-repository/staging/0.10.1">
+    <features name="org.eclipse.copilot.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+  </repositories>
+  <contacts href="simrel.aggr#//@contacts[email='ed.merks@gmail.com']"/>
+</aggregator:Contribution>

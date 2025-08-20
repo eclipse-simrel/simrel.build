@@ -1100,6 +1100,8 @@
     </project>
   </contribution>
   <contribution
+      contribution="copilot.aggrcon#/"/>
+  <contribution
       contribution="emf-emf-rap.aggrcon#/">
     <project
         name="Eclipse EMF"
