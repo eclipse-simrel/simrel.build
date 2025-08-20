@@ -27,7 +27,6 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.jetty.http" versionRange="[12.1.0]"/>
-    <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.jetty.http.io" versionRange="[12.1.0]"/>
     <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.jetty.security" versionRange="[12.1.0]"/>
     <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.jetty.server" versionRange="[12.1.0]"/>
     <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.jetty.util" versionRange="[12.1.0]"/>
