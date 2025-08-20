@@ -55,10 +55,6 @@
     <contributions href="passage.aggrcon#/"/>
     <contributions href="modisco.aggrcon#/"/>
   </validationSets>
-  <validationSets description="EclipseRT Project RAP" label="runtime">
-    <contributions href="emf-emf-rap.aggrcon#/"/>
-    <contributions href="rap.aggrcon#/"/>
-  </validationSets>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="aarch64"/>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="ppc64le"/>
@@ -168,12 +164,7 @@
   <customCategories identifier="EclipseRT Target Platform Components" label="EclipseRT Target Platform Components" description="This category identifies various Eclipse technology that is commonly used in runtime scenarios from RCP to embedded to server side. The components in this category are intended to be added to your Target Platform, rather than your IDE.">
     <features href="ep.aggrcon#//@repositories.0/@features.10"/>
     <features href="ecf.aggrcon#//@repositories.0/@features.1"/>
-    <features href="rap.aggrcon#//@repositories.0/@features.0"/>
-    <features href="rap.aggrcon#//@repositories.0/@features.1"/>
-    <features href="rap.aggrcon#//@repositories.0/@features.2"/>
-    <features href="rap.aggrcon#//@repositories.0/@features.3"/>
     <features href="emf-emf.aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-emf-rap.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.1"/>

@@ -1100,31 +1100,6 @@
     </project>
   </contribution>
   <contribution
-      contribution="emf-emf-rap.aggrcon#/">
-    <project
-        name="Eclipse EMF"
-        site="https://projects.eclipse.org/projects/modeling.emf.emf"
-        version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/2.42.0"
-        releaseDate="2025-06-11"
-        rank="6">
-      <repository
-          uri="https://github.com/eclipse-emf/org.eclipse.emf"/>
-    </project>
-  </contribution>
-  <contribution
-      contribution="rap.aggrcon#/">
-    <project
-        name="Eclipse Remote Application Platform"
-        site="https://projects.eclipse.org/projects/rt.rap"
-        version="https://projects.eclipse.org/projects/rt.rap/releases/4.3.0"
-        releaseDate="2025-06-11">
-      <repository
-          uri="https://github.com/eclipse-rap/org.eclipse.rap"/>
-      <repository
-          uri="https://github.com/eclipse-rap/org.eclipse.rap.tools"/>
-    </project>
-  </contribution>
-  <contribution
       enabled="false"
       label="a.Participant">
     <project
