@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EGit">
-  <repositories location="https://download.eclipse.org/egit/staging/v7.3.0.202505211123-m3" description="EGit Updates">
-    <features name="org.eclipse.jgit.feature.group" versionRange="[7.3.0.202505211123-m3]">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EGit">
+  <repositories location="https://download.eclipse.org/egit/staging/v7.4.0.202508191000-m3" description="EGit Updates">
+    <features name="org.eclipse.jgit.feature.group" versionRange="[7.4.0.202508191000-m3]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.jgit.pgm.feature.group" versionRange="[7.3.0.202505211123-m3]"/>
-    <features name="org.eclipse.egit.feature.group" versionRange="[7.3.0.202505211123-m3]">
+    <features name="org.eclipse.jgit.pgm.feature.group" versionRange="[7.4.0.202508191000-m3]"/>
+    <features name="org.eclipse.egit.feature.group" versionRange="[7.4.0.202508191000-m3]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.jgit.http.apache.feature.group" versionRange="[7.3.0.202505211123-m3]">
+    <features name="org.eclipse.jgit.http.apache.feature.group" versionRange="[7.4.0.202508191000-m3]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.egit.gitflow.feature.feature.group" versionRange="[7.3.0.202505211123-m3]">
+    <features name="org.eclipse.egit.gitflow.feature.feature.group" versionRange="[7.4.0.202508191000-m3]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.jgit.ssh.apache.feature.group" versionRange="[7.3.0.202505211123-m3]">
+    <features name="org.eclipse.jgit.ssh.apache.feature.group" versionRange="[7.4.0.202508191000-m3]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.jgit.lfs.feature.group" versionRange="[7.3.0.202505211123-m3]">
+    <features name="org.eclipse.jgit.lfs.feature.group" versionRange="[7.4.0.202508191000-m3]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.jgit.gpg.bc.feature.group" versionRange="[7.3.0.202505211123-m3]">
+    <features name="org.eclipse.jgit.gpg.bc.feature.group" versionRange="[7.4.0.202508191000-m3]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.jgit.ssh.jsch.feature.group" versionRange="[7.3.0.202505211123-m3]">
+    <features name="org.eclipse.jgit.ssh.jsch.feature.group" versionRange="[7.4.0.202508191000-m3]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
+    <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.jetty.http" versionRange="[12.1.0]"/>
+    <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.jetty.security" versionRange="[12.1.0]"/>
+    <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.jetty.server" versionRange="[12.1.0]"/>
+    <mapRules xsi:type="aggregator:ExclusionRule" name="org.eclipse.jetty.util" versionRange="[12.1.0]"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='matthias.sohn@gmail.com']"/>
 </aggregator:Contribution>

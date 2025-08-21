@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Aggregation files used for the Eclipse Simultaneous Release (quarterly &quot;release train&quot;)." buildmaster="//@contacts[email='ed.merks@gmail.com']" buildmasterBackup="//@contacts[email='frederic.gurr@eclipse.org']" label="2025-06" buildRoot="buildresults" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false" includeSources="true">
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Aggregation files used for the Eclipse Simultaneous Release (quarterly &quot;release train&quot;)." buildmaster="//@contacts[email='ed.merks@gmail.com']" buildmasterBackup="//@contacts[email='frederic.gurr@eclipse.org']" label="2025-09" buildRoot="buildresults" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false" includeSources="true">
   <validationSets label="main">
     <contributions href="ep.aggrcon#/"/>
     <contributions href="emf-emf.aggrcon#/"/>
@@ -47,20 +47,13 @@
     <contributions href="rcptt.aggrcon#/"/>
     <contributions href="buildship.aggrcon#/"/>
     <contributions href="emf-parsley.aggrcon#/"/>
-    <contributions href="viatra.aggrcon#/"/>
     <contributions href="eclemma.aggrcon#/"/>
     <contributions href="lsp4j.aggrcon#/"/>
     <contributions href="lsp4e.aggrcon#/"/>
-    <contributions href="usssdk.aggrcon#/"/>
-    <contributions href="collections.aggrcon#/"/>
     <contributions href="tm4e.aggrcon#/"/>
     <contributions href="wildwebdeveloper.aggrcon#/"/>
     <contributions href="passage.aggrcon#/"/>
     <contributions href="modisco.aggrcon#/"/>
-  </validationSets>
-  <validationSets description="EclipseRT Project RAP" label="runtime">
-    <contributions href="emf-emf-rap.aggrcon#/"/>
-    <contributions href="rap.aggrcon#/"/>
   </validationSets>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="aarch64"/>
@@ -84,9 +77,7 @@
     <features href="gef.aggrcon#//@repositories.1/@features.9"/>
     <features href="gef.aggrcon#//@repositories.1/@features.10"/>
     <features href="gef.aggrcon#//@repositories.2/@features.0"/>
-    <features href="usssdk.aggrcon#//@repositories.0/@features.1"/>
     <features href="ep.aggrcon#//@repositories.0/@features.0"/>
-    <features href="collections.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
@@ -116,7 +107,6 @@
     <features href="mylyn.aggrcon#//@repositories.0/@features.21"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.22"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.23"/>
-    <features href="ecf.aggrcon#//@repositories.0/@features.0"/>
     <features href="ecf.aggrcon#//@repositories.0/@features.1"/>
     <features href="egit.aggrcon#//@repositories.0/@features.2"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.4"/>
@@ -130,6 +120,7 @@
     <features href="egit.aggrcon#//@repositories.0/@features.8"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
+    <features href="ecf.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Database Development" label="Database Development" description="Tools to define and access a wide variety of databases.">
     <features href="dtp.aggrcon#//@repositories.0/@features.0"/>
@@ -172,18 +163,13 @@
   </customCategories>
   <customCategories identifier="EclipseRT Target Platform Components" label="EclipseRT Target Platform Components" description="This category identifies various Eclipse technology that is commonly used in runtime scenarios from RCP to embedded to server side. The components in this category are intended to be added to your Target Platform, rather than your IDE.">
     <features href="ep.aggrcon#//@repositories.0/@features.10"/>
-    <features href="ecf.aggrcon#//@repositories.0/@features.0"/>
     <features href="ecf.aggrcon#//@repositories.0/@features.1"/>
-    <features href="rap.aggrcon#//@repositories.0/@features.0"/>
-    <features href="rap.aggrcon#//@repositories.0/@features.1"/>
-    <features href="rap.aggrcon#//@repositories.0/@features.2"/>
-    <features href="rap.aggrcon#//@repositories.0/@features.3"/>
     <features href="emf-emf.aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-emf-rap.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-emf.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.1"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
+    <features href="ecf.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="General Purpose Tools" label="General Purpose Tools" description="Tools that can be used by a wide variety of developers.">
     <features href="ep.aggrcon#//@repositories.0/@features.2"/>
@@ -248,11 +234,6 @@
   </customCategories>
   <customCategories identifier="License Management" label="License Management" description="Tools used to declare and control licensing constraints">
     <features href="passage.aggrcon#//@repositories.0/@features.0"/>
-  </customCategories>
-  <customCategories identifier="Linux Tools" label="Linux Tools" description="Linux Tools for C/C++ Testing and Profiling">
-    <features href="linuxtools.aggrcon#//@repositories.0/@features.8"/>
-    <features href="linuxtools.aggrcon#//@repositories.0/@features.0"/>
-    <features href="tcf.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Mobile and Device Development" label="Mobile and Device Development" description="Tools used to develop mobile and device applications.">
     <features href="tm.aggrcon#//@repositories.0/@features.0"/>
@@ -335,7 +316,6 @@
     <features href="emf-compare.aggrcon#//@repositories.0/@features.10"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.6"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.7"/>
-    <features href="viatra.aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.1"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.3"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.5"/>
@@ -345,7 +325,6 @@
     <features href="qvto.aggrcon#//@repositories.0/@features.1"/>
     <features href="qvto.aggrcon#//@repositories.0/@features.2"/>
     <features href="qvtd.aggrcon#//@repositories.0/@features.1"/>
-    <features href="viatra.aggrcon#//@repositories.0/@features.1"/>
     <features href="modisco.aggrcon#//@repositories.0/@features.0"/>
     <features href="modisco.aggrcon#//@repositories.0/@features.1"/>
     <features href="emft-ecoretools.aggrcon#//@repositories.0/@features.0"/>
@@ -362,6 +341,7 @@
     <features href="linuxtools.aggrcon#//@repositories.0/@features.7"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.9"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.4"/>
+    <features href="linuxtools.aggrcon#//@repositories.0/@features.8"/>
   </customCategories>
   <customCategories identifier="Programming Languages" label="Programming Languages" description="Tools to allow development with specific languages, such as Java and C++">
     <features href="cdt.aggrcon#//@repositories.0/@features.0"/>
@@ -400,10 +380,12 @@
     <features href="xwt.aggrcon#//@repositories.0/@features.1"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.0"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.1"/>
+    <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.2"/>
     <features href="ep.aggrcon#//@repositories.0/@features.5"/>
     <features href="ep.aggrcon#//@repositories.0/@features.6"/>
     <features href="ep.aggrcon#//@repositories.0/@features.7"/>
     <features href="cdt.aggrcon#//@repositories.1/@features.0"/>
+    <features href="linuxtools.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Testing" label="Testing" description="Frameworks supporting application testing.">
     <features href="pdt.aggrcon#//@repositories.0/@features.3"/>
@@ -451,10 +433,10 @@
     <features href="webtools.aggrcon#//@repositories.0/@features.26"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.0"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.1"/>
+    <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <contacts name="Adrian Egloff" email="adrian.egloff@bsi-software.com"/>
   <contacts name="Alexander Fedorov" email="alexander.fedorov@arsysop.ru"/>
-  <contacts name="Alex Kurtakov" email="akurtako@redhat.com"/>
   <contacts name="Alois Zoitl" email="alois.zoitl@gmx.at"/>
   <contacts name="Andrew Johnson" email="andrew_johnson@uk.ibm.com"/>
   <contacts name="Arthur van Dorp" email="arthur.vandorp@bsi-software.com"/>

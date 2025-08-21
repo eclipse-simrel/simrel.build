@@ -4,7 +4,6 @@
     <features name="org.eclipse.epp.mpc.feature.group" versionRange="[1.12.1,1.12.2)">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.epp.mpc.source.feature.group" versionRange="[1.12.1,1.12.2)"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='geiger@yatta.de']"/>
 </aggregator:Contribution>
