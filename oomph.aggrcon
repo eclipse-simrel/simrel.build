@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Oomph">
-  <repositories location="https://download.eclipse.org/oomph/drops/milestone/S20250819-130509-1.38.0-M3" description="Oomph 1.38">
+  <repositories location="https://download.eclipse.org/oomph/drops/milestone/S20250826-145012-1.38.0-RC1" description="Oomph 1.38">
     <features name="org.eclipse.oomph.setup.sdk.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
