@@ -20,5 +20,8 @@
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
+  <repositories location="https://download.eclipse.org/oomph/simrel-extras/release/1.2.0">
+    <bundles name="org.apache.lucene.core"/>
+  </repositories>
   <contacts href="simrel.aggr#//@contacts[email='zulus@w3des.net']"/>
 </aggregator:Contribution>
