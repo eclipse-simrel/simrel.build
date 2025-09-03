@@ -141,8 +141,8 @@
     <project
         name="Eclipse EMF"
         site="https://projects.eclipse.org/projects/modeling.emf.emf"
-        version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/2.42.0"
-        releaseDate="2025-06-11"
+        version="https://projects.eclipse.org/projects/modeling.emf.emf/releases/2.43.0"
+        releaseDate="2025-09-10"
         rank="6">
       <repository
           uri="https://github.com/eclipse-emf/org.eclipse.emf"/>
@@ -249,8 +249,6 @@
         <repository
             uri="https://github.com/eclipse-platform/eclipse.platform.swt"/>
         <repository
-            uri="https://github.com/eclipse-platform/eclipse.platform.swt.binaries"/>
-        <repository
             uri="https://github.com/eclipse-platform/eclipse.platform.ui"/>
       </subproject>
     </project>
@@ -266,8 +264,8 @@
     <project
         name="Eclipse Maven Integration - m2eclipse"
         site="https://projects.eclipse.org/projects/technology.m2e"
-        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.9.0"
-        releaseDate="2025-06-05"
+        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.9.1"
+        releaseDate="2025-09-02"
         rank="5">
       <repository
           uri="https://github.com/eclipse-m2e/m2e-core"/>
@@ -482,8 +480,8 @@
     <project
         name="Eclipse CDT (C/C++ Development Tooling)"
         site="https://projects.eclipse.org/projects/tools.cdt"
-        version="https://projects.eclipse.org/projects/tools.cdt/releases/cdt-12.1.0-cdt-lsp-3.2.0"
-        releaseDate="2025-06-11"
+        version="https://projects.eclipse.org/projects/tools.cdt/releases/cdt-12.2.0-cdt-lsp-3.3.0"
+        releaseDate="2025-09-10"
         rank="3">
       <repository
           uri="https://github.com/eclipse-cdt/cdt"/>
@@ -523,8 +521,8 @@
     <project
         name="Eclipse Dynamic Languages Toolkit"
         site="https://projects.eclipse.org/projects/technology.dltk"
-        version="https://projects.eclipse.org/projects/technology.dltk/releases/6.4.1"
-        releaseDate="2024-06-12">
+        version="https://projects.eclipse.org/projects/technology.dltk/releases/6.4.2"
+        releaseDate="2025-09-10">
       <repository
           uri="https://github.com/eclipse-dltk/dltk.core"/>
       <repository
@@ -560,8 +558,8 @@
     <project
         name="Eclipse Marketplace Client"
         site="https://projects.eclipse.org/projects/technology.packaging.mpc"
-        version="https://projects.eclipse.org/projects/technology.packaging.mpc/releases/1.12.1"
-        releaseDate="2025-06-11"
+        version="https://projects.eclipse.org/projects/technology.packaging.mpc/releases/1.13.0"
+        releaseDate="2025-09-10"
         rank="5">
       <repository
           uri="https://github.com/eclipse-mpc/epp.mpc"/>
@@ -596,8 +594,8 @@
     <project
         name="Eclipse Oomph"
         site="https://projects.eclipse.org/projects/tools.oomph"
-        version="https://projects.eclipse.org/projects/tools.oomph/releases/1.37.0"
-        releaseDate="2025-06-11"
+        version="https://projects.eclipse.org/projects/tools.oomph/releases/1.38.0"
+        releaseDate="2025-09-10"
         rank="6">
       <repository
           uri="https://github.com/eclipse-oomph/oomph"/>
@@ -661,8 +659,8 @@
     <project
         name="Eclipse GMF Runtime"
         site="https://projects.eclipse.org/projects/modeling.gmf-runtime"
-        version="https://projects.eclipse.org/projects/modeling.gmf-runtime/releases/1.16.6"
-        releaseDate="2025-02-24"
+        version="https://projects.eclipse.org/projects/modeling.gmf-runtime/releases/1.16.7"
+        releaseDate="2025-08-28"
         rank="3">
       <repository
           uri="https://github.com/eclipse-gmf-runtime/gmf-notation"/>
@@ -759,8 +757,8 @@
     <project
         name="Eclipse JGit: Java implementation of Git"
         site="https://projects.eclipse.org/projects/technology.jgit"
-        version="https://projects.eclipse.org/projects/technology.jgit/releases/5.13.4"
-        releaseDate="2025-07-20"
+        version="https://projects.eclipse.org/projects/technology.jgit/releases/5.13.5"
+        releaseDate="2025-08-27"
         rank="6">
       <repository
           uri="https://github.com/eclipse-jgit/jgit"/>
