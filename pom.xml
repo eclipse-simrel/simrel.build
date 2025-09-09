@@ -6,11 +6,11 @@
   <version>4.26.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <properties>
-    <tycho-version>4.0.13</tycho-version>
-    <trainName>2025-09</trainName>
-    <referenceRepo>releases/2025-06/202506111000</referenceRepo>
+    <tycho-version>5.0.0</tycho-version>
+    <trainName>2025-12</trainName>
+    <referenceRepo>releases/2025-09/202509101001</referenceRepo>
     <download.eclipse.org>https://download.eclipse.org</download.eclipse.org>
-    <eclipse.repo.url>https://download.eclipse.org/eclipse/updates/4.36/R-4.36-202505281830</eclipse.repo.url>
+    <eclipse.repo.url>https://download.eclipse.org/eclipse/updates/4.37/R-4.37-202509050730</eclipse.repo.url>
     <simrel.aggregator.repo.url.relative>nightly/latest</simrel.aggregator.repo.url.relative>
     <simrel.aggregator.repo.url>${download.eclipse.org}/cbi/updates/p2-aggregator/products/${simrel.aggregator.repo.url.relative}</simrel.aggregator.repo.url>
     <cbi.analyzers.repo.url>${download.eclipse.org}/cbi/updates/p2-analyzers/products/nightly/latest</cbi.analyzers.repo.url>
