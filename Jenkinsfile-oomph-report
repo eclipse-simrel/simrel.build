@@ -2,7 +2,7 @@
 
 // When the parameters change, this should be increased so that the build does nothing other than update the parameters used for the next build.
 def pipelineVersion = '1'
-def trainLocation = 'staging/2025-09'
+def trainLocation = 'staging/2025-12'
 
 pipeline {
   agent {

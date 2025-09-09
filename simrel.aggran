@@ -3,7 +3,7 @@
     xmi:version="2.0"
     xmlns:xmi="http://www.omg.org/XMI"
     xmlns:analyzer="https://www.eclipse.org/cbi/p2repo/2021/aggregator/analyzer"
-    releaseDate="2025-09-10"
+    releaseDate="2025-12-10"
     exclusion="tooling.*|.*\.source|.*\.source\.feature\.group|.*\.feature\.jar"
     aggregation="simrel.aggr#/">
   <levels>56</levels>
