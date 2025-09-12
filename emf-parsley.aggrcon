@@ -4,13 +4,7 @@
     <features name="org.eclipse.emf.parsley.sdk.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.emf.parsley.sdk.source.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
-    </features>
     <features name="org.eclipse.emf.parsley.cdo.feature.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
-    </features>
-    <features name="org.eclipse.emf.parsley.cdo.feature.source.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>

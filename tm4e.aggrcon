@@ -4,7 +4,6 @@
     <features name="org.eclipse.tm4e.feature.feature.group" versionRange="[0.14.1.202501141527]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.tm4e.feature.source.feature.group" versionRange="[0.14.1.202501141527]"/>
     <features name="org.eclipse.tm4e.language_pack.feature.feature.group" versionRange="[0.14.1.202501052236]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>

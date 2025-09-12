@@ -71,7 +71,6 @@
     <features name="org.eclipse.cdt.lsp.feature.feature.group" versionRange="[3.3.0.202509030041]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.lsp.feature.source.feature.group" versionRange="[3.3.0.202509030041]"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='jonah@kichwacoders.com']"/>
 </aggregator:Contribution>
