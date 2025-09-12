@@ -2,21 +2,16 @@
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMF Compare">
   <repositories location="https://download.eclipse.org/modeling/emf/compare/updates/milestones/3.3/S202508281322/">
     <features name="org.eclipse.emf.compare.feature.group" versionRange="[3.3.0,3.4.0)"/>
-    <features name="org.eclipse.emf.compare.source.feature.group" versionRange="[3.3.0,3.4.0)"/>
     <features name="org.eclipse.emf.compare.ide.ui.feature.group" versionRange="[3.3.0,3.4.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.emf.compare.ide.ui.source.feature.group" versionRange="[3.3.0,3.4.0)"/>
     <features name="org.eclipse.emf.compare.uml2.feature.group" versionRange="[3.3.0,3.4.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.emf.compare.uml2.source.feature.group" versionRange="[3.3.0,3.4.0)"/>
     <features name="org.eclipse.emf.compare.diagram.gmf.feature.group" versionRange="[3.3.0,3.4.0)"/>
-    <features name="org.eclipse.emf.compare.diagram.gmf.source.feature.group" versionRange="[3.3.0,3.4.0)"/>
     <features name="org.eclipse.emf.compare.diagram.sirius.feature.group" versionRange="[3.3.0,3.4.0]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.emf.compare.diagram.sirius.source.feature.group" versionRange="[3.3.0,3.4.0]"/>
     <features name="org.eclipse.emf.compare.egit.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>

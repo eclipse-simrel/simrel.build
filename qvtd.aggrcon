@@ -4,9 +4,6 @@
     <features name="org.eclipse.qvtd.master.feature.group" versionRange="[0.33.0,1.0.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.qvtd.master.source.feature.group" versionRange="[0.33.0,1.0.0)">
-      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
-    </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='ed@willink.me.uk']"/>
 </aggregator:Contribution>

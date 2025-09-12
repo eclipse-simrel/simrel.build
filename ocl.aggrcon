@@ -5,20 +5,10 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.ocl.all.sdk.source.feature.group" versionRange="[5.22.0,5.23.0]">
-      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
-      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
-    </features>
     <features name="org.eclipse.ocl.build.feature.group" versionRange="[6.22.0,6.23.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.ocl.build.source.feature.group" versionRange="[6.22.0,6.23.0]">
-      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
-    </features>
     <features name="org.eclipse.ocl.examples.feature.group" versionRange="[6.22.0,6.23.0)">
-      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
-    </features>
-    <features name="org.eclipse.ocl.examples.source.feature.group" versionRange="[6.22.0,6.23.0]">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>

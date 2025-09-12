@@ -4,9 +4,6 @@
     <features name="org.eclipse.modisco.sdk.feature.feature.group" versionRange="[1.5.6,1.6.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.modisco.sdk.feature.source.feature.group" versionRange="[1.5.6,1.6.0)">
-      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
-    </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='ed@willink.me.uk']"/>
 </aggregator:Contribution>
