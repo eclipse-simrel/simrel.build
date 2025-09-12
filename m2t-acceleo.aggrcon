@@ -4,9 +4,7 @@
     <features name="org.eclipse.acceleo.feature.group" versionRange="[3.7.0,3.8.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.acceleo.source.feature.group" versionRange="[3.7.0,3.8.0)"/>
     <features name="org.eclipse.acceleo.query.feature.group" versionRange="[7.0.0,8.0.0)"/>
-    <features name="org.eclipse.acceleo.query.source.feature.group" versionRange="[7.0.0,8.0.0)"/>
     <features name="org.eclipse.acceleo.equinox.launcher.feature.group"/>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='laurent.goubet@obeo.fr']"/>

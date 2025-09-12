@@ -6,7 +6,7 @@
     releaseDate="2025-12-10"
     exclusion="tooling.*|.*\.source|.*\.source\.feature\.group|.*\.feature\.jar"
     aggregation="simrel.aggr#/">
-  <levels>56</levels>
+  <levels>53</levels>
   <levels>40</levels>
   <levels>30</levels>
   <levels>21</levels>
@@ -395,8 +395,8 @@
     <project
         name="Eclipse Web Tools Platform Project"
         site="https://projects.eclipse.org/projects/webtools"
-        version="https://projects.eclipse.org/projects/webtools/releases/3.39"
-        releaseDate="2025-09-10"
+        version="https://projects.eclipse.org/projects/webtools/releases/3.40"
+        releaseDate="2025-12-10"
         rank="1">
       <subproject
           name="Web Tools Common"
@@ -571,7 +571,7 @@
     <project
         name="Eclipse CDO Model Repository"
         site="https://projects.eclipse.org/projects/modeling.emf.cdo"
-        version="https://projects.eclipse.org/projects/modeling.emf.cdo/releases/4.32"
+        version="https://projects.eclipse.org/projects/modeling.emf.cdo/releases/4.32.0"
         releaseDate="2025-09-10"
         rank="1">
       <repository
@@ -633,8 +633,8 @@
     <project
         name="Eclipse OCL (Object Constraint Language)"
         site="https://projects.eclipse.org/projects/modeling.mdt.ocl"
-        version="https://projects.eclipse.org/projects/modeling.mdt.ocl/releases/2024-09-6.22.0"
-        releaseDate="2024-09-11"
+        version="https://projects.eclipse.org/projects/modeling.mdt.ocl/releases/2025-12-7.0.0"
+        releaseDate="2025-12-10"
         rank="1">
       <repository
           uri="https://github.com/eclipse-ocl/org.eclipse.ocl"/>
@@ -757,8 +757,8 @@
     <project
         name="Eclipse JGit: Java implementation of Git"
         site="https://projects.eclipse.org/projects/technology.jgit"
-        version="https://projects.eclipse.org/projects/technology.jgit/releases/5.13.5"
-        releaseDate="2025-08-27"
+        version="https://projects.eclipse.org/projects/technology.jgit/releases/7.4.0"
+        releaseDate="2025-09-10"
         rank="6">
       <repository
           uri="https://github.com/eclipse-jgit/jgit"/>
@@ -888,8 +888,8 @@
     <project
         name="Eclipse Sirius"
         site="https://projects.eclipse.org/projects/modeling.sirius"
-        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-web-2025.8.0"
-        releaseDate="2025-08-13">
+        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-desktop-7.5.0"
+        releaseDate="2025-09-19">
       <repository
           uri="https://github.com/eclipse-sirius/sirius-desktop"/>
       <repository
@@ -902,8 +902,8 @@
     <project
         name="Eclipse QVTd (QVT Declarative)"
         site="https://projects.eclipse.org/projects/modeling.mmt.qvtd"
-        version="https://projects.eclipse.org/projects/modeling.mmt.qvtd/releases/2024-09-0.33.0"
-        releaseDate="2024-09-11">
+        version="https://projects.eclipse.org/projects/modeling.mmt.qvtd/releases/2025-12-7.0.0"
+        releaseDate="2025-12-10">
       <repository
           uri="https://github.com/eclipse-qvtd/org.eclipse.qvtd"/>
     </project>
@@ -961,8 +961,8 @@
     <project
         name="Eclipse Buildship: Eclipse Plug-ins for Gradle"
         site="https://projects.eclipse.org/projects/tools.buildship"
-        version="https://projects.eclipse.org/projects/tools.buildship/releases/3.1.10"
-        releaseDate="2024-08-02"
+        version="https://projects.eclipse.org/projects/tools.buildship/releases/3.1.11"
+        releaseDate="2025-09-04"
         rank="1">
       <repository
           uri="https://github.com/eclipse-buildship/buildship"/>
@@ -1114,8 +1114,8 @@
     <project
         name="Eclipse Packaging Project"
         site="https://projects.eclipse.org/projects/technology.packaging"
-        version="https://projects.eclipse.org/projects/technology.packaging/releases/4.37.0"
-        releaseDate="2025-09-10"
+        version="https://projects.eclipse.org/projects/technology.packaging/releases/4.38.0"
+        releaseDate="2025-12-10"
         rank="5">
       <repository
           uri="https://github.com/eclipse-packaging/packages"/>
