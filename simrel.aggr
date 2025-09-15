@@ -230,6 +230,7 @@
     <features href="cdt.aggrcon#//@repositories.0/@features.24"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.25"/>
     <features href="ep.aggrcon#//@repositories.0/@features.3"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.17"/>
   </customCategories>
   <customCategories identifier="License Management" label="License Management" description="Tools used to declare and control licensing constraints">
     <features href="passage.aggrcon#//@repositories.0/@features.0"/>
