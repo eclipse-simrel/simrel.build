@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="ECF">
-  <repositories location="https://download.eclipse.org/rt/ecf/3.16.4/site.p2/3.16.4.v20250819-0049" description="ECF updates">
+  <repositories location="https://download.eclipse.org/rt/ecf/3.16.5/site.p2/3.16.5.v20250914-0333" description="ECF updates">
     <features name="org.eclipse.ecf.core.feature.feature.group" versionRange="[1.7.0.v20250304-2338]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
-    <features name="org.eclipse.ecf.remoteservice.sdk.feature.feature.group" versionRange="[3.16.4.v20250819-0049]">
+    <features name="org.eclipse.ecf.remoteservice.sdk.feature.feature.group" versionRange="[3.16.5.v20250914-0333]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
