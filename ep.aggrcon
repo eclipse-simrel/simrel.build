@@ -45,6 +45,9 @@
     <features name="org.eclipse.equinox.p2.extras.feature.feature.group"/>
     <features name="org.eclipse.equinox.p2.rcp.feature.feature.group"/>
     <features name="org.eclipse.core.runtime.feature.feature.group"/>
+    <features name="org.eclipse.terminal.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
   </repositories>
   <contacts href="simrel.aggr#//@contacts[email='rahul.mohanan@ibm.com']"/>
 </aggregator:Contribution>
