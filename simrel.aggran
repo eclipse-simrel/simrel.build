@@ -71,6 +71,7 @@
   <gitRepositoryFilter>.*/eclipse-tracecompass/tmll</gitRepositoryFilter>
   <gitRepositoryFilter>.*/eclipse-ide-snap</gitRepositoryFilter>
   <gitRepositoryFilter>.*/papyrus/discussion</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/(e|j)git-permissions</gitRepositoryFilter>
   <contribution
       enabled="false"
       label="a.jre"
@@ -115,7 +116,7 @@
         name="Eclipse Nebula - Supplemental Widgets for SWT"
         site="https://projects.eclipse.org/projects/technology.nebula"
         version="https://projects.eclipse.org/projects/technology.nebula/releases/3.2.0"
-        releaseDate="2024-12-25"
+        releaseDate="2025-09-13"
         rank="3">
       <repository
           uri="https://github.com/EclipseNebula/nebula"/>
@@ -128,8 +129,8 @@
     <project
         name="Eclipse BIRT (Business Intelligence and Reporting Tools)"
         site="https://projects.eclipse.org/projects/technology.birt"
-        version="https://projects.eclipse.org/projects/technology.birt/releases/4.21.0"
-        releaseDate="2025-09-10">
+        version="https://projects.eclipse.org/projects/technology.birt/releases/4.22.0"
+        releaseDate="2025-12-10">
       <repository
           uri="https://github.com/eclipse-birt/birt"/>
     </project>
@@ -153,8 +154,8 @@
     <project
         name="Eclipse Communications Framework"
         site="https://projects.eclipse.org/projects/rt.ecf"
-        version="https://projects.eclipse.org/projects/rt.ecf/releases/3.16.4"
-        releaseDate="2025-08-20"
+        version="https://projects.eclipse.org/projects/rt.ecf/releases/3.16.5"
+        releaseDate="2025-09-15"
         rank="3">
       <repository
           uri="https://github.com/eclipse-ecf/ecf"/>
@@ -285,8 +286,8 @@
     <project
         name="Eclipse e(fx)clipse"
         site="https://projects.eclipse.org/projects/technology.efxclipse"
-        version="https://projects.eclipse.org/projects/technology.efxclipse/releases/3.9.0"
-        releaseDate="2022-10-16"
+        version="https://projects.eclipse.org/projects/technology.efxclipse/releases/3.11.0"
+        releaseDate="2025-10-10"
         rank="2">
       <repository
           uri="https://github.com/eclipse-efx/efxclipse"/>
@@ -751,8 +752,6 @@
           uri="https://github.com/eclipse-egit/egit"/>
       <repository
           uri="https://github.com/eclipse-egit/egit-github"/>
-      <repository
-          uri="https://github.com/eclipse-egit/egit-permissions"/>
     </project>
     <project
         name="Eclipse JGit: Java implementation of Git"
@@ -762,8 +761,6 @@
         rank="6">
       <repository
           uri="https://github.com/eclipse-jgit/jgit"/>
-      <repository
-          uri="https://github.com/eclipse-jgit/jgit-permissions"/>
     </project>
   </contribution>
   <contribution
@@ -888,8 +885,8 @@
     <project
         name="Eclipse Sirius"
         site="https://projects.eclipse.org/projects/modeling.sirius"
-        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-desktop-7.5.0"
-        releaseDate="2025-09-19">
+        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-desktop-7.4.12"
+        releaseDate="2025-09-22">
       <repository
           uri="https://github.com/eclipse-sirius/sirius-desktop"/>
       <repository
@@ -927,8 +924,8 @@
     <project
         name="Eclipse Trace Compass"
         site="https://projects.eclipse.org/projects/tools.tracecompass"
-        version="https://projects.eclipse.org/projects/tools.tracecompass/releases/11.0.0"
-        releaseDate="2025-06-11"
+        version="https://projects.eclipse.org/projects/tools.tracecompass/releases/11.2.0"
+        releaseDate="2025-12-10"
         rank="1">
       <repository
           uri="https://github.com/eclipse-tracecompass/org.eclipse.tracecompass"/>
@@ -1036,8 +1033,8 @@
     <project
         name="Eclipse TM4E - TextMate support in the Eclipse IDE"
         site="https://projects.eclipse.org/projects/technology.tm4e"
-        version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.15.0"
-        releaseDate="2025-06-11"
+        version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.15.1"
+        releaseDate="2025-09-18"
         rank="2">
       <repository
           uri="https://github.com/eclipse-tm4e/tm4e"/>
