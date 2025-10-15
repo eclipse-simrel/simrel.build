@@ -24,8 +24,5 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
   </repositories>
-  <repositories location="https://download.eclipse.org/tools/cdt/releases/12.1/cdt-12.1.0/">
-    <features name="org.eclipse.tm.terminal.view.feature.feature.group" versionRange="[12.1.0.202506041901]"/>
-  </repositories>
   <contacts href="simrel.aggr#//@contacts[email='zulus@w3des.net']"/>
 </aggregator:Contribution>
