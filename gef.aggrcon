@@ -8,7 +8,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="https://download.eclipse.org/tools/gef/fx/release/5.5.1" description="GEF FX 5.5.1">
+  <repositories enabled="false" location="https://download.eclipse.org/tools/gef/fx/release/5.5.1" description="GEF FX 5.5.1">
     <features name="org.eclipse.gef.common.sdk.feature.group" versionRange="[5.0.1.202411181539]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
@@ -43,7 +43,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
   </repositories>
-  <repositories location="https://download.eclipse.org/efxclipse/runtime-released/3.9.0/site/" description="e(fx)clipse (bundled by GEF)">
+  <repositories enabled="false" location="https://download.eclipse.org/efxclipse/runtime-released/3.9.0/site/" description="e(fx)clipse (bundled by GEF)">
     <features name="org.eclipse.fx.runtime.min.feature.feature.group" versionRange="[3.9.0.202210162353]">
       <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>

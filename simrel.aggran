@@ -864,6 +864,7 @@
     </project>
   </contribution>
   <contribution
+      enabled="false"
       label="TCF"
       contribution="tcf.aggrcon#/">
     <project
