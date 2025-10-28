@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="CDT">
-  <repositories location="https://download.eclipse.org/tools/cdt/builds/12.3/cdt-12.3.0-m1/" description="CDT updates">
-    <features name="org.eclipse.cdt.feature.group" versionRange="[12.3.0.202510062116]">
+  <repositories location="https://download.eclipse.org/tools/cdt/builds/12.3/cdt-12.3.0-m2/" description="CDT updates">
+    <features name="org.eclipse.cdt.feature.group" versionRange="[12.3.0.202510211602]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.cdt.sdk.feature.group" versionRange="[12.3.0.202510062116]">
+    <features name="org.eclipse.cdt.sdk.feature.group" versionRange="[12.3.0.202510211602]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
     <features name="org.eclipse.cdt.debug.gdbjtag.feature.group" versionRange="[12.3.0.202509101333]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.cdt.platform.feature.group" versionRange="[12.3.0.202510062116]"/>
+    <features name="org.eclipse.cdt.platform.feature.group" versionRange="[12.3.0.202510211602]"/>
     <features name="org.eclipse.cdt.debug.ui.memory.feature.group" versionRange="[12.3.0.202509101333]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
@@ -43,13 +43,10 @@
     <features name="org.eclipse.cdt.debug.standalone.feature.group" versionRange="[12.3.0.202509101333]"/>
     <features name="org.eclipse.cdt.cmake.feature.group" versionRange="[12.3.0.202509101333]"/>
     <features name="org.eclipse.cdt.launch.serial.feature.feature.group" versionRange="[12.3.0.202509101333]"/>
-    <features name="org.eclipse.tm.terminal.connector.remote.feature.feature.group" versionRange="[12.3.0.202510031403]">
+    <features name="org.eclipse.tm.terminal.connector.remote.feature.feature.group" versionRange="[12.3.0.202510151654]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.tm.terminal.feature.feature.group" versionRange="[12.3.0.202509101333]">
-      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
-    </features>
-    <features name="org.eclipse.tm.terminal.connector.cdtserial.feature.feature.group" versionRange="[12.3.0.202509101333]">
+    <features name="org.eclipse.tm.terminal.connector.cdtserial.feature.feature.group" versionRange="[12.3.0.202510151654]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
     <features name="org.eclipse.launchbar.feature.group" versionRange="[12.3.0.202509240945]">
@@ -67,8 +64,8 @@
     <features name="org.eclipse.remote.serial.feature.group" versionRange="[12.3.0.202509101333]"/>
     <features name="org.eclipse.remote.proxy.feature.group" versionRange="[12.3.0.202509101333]"/>
   </repositories>
-  <repositories location="https://download.eclipse.org/tools/cdt/builds/cdt-lsp-3.4/cdt-lsp-3.4.0-m1/">
-    <features name="org.eclipse.cdt.lsp.feature.feature.group" versionRange="[3.4.0.202510062110]">
+  <repositories location="https://download.eclipse.org/tools/cdt/builds/cdt-lsp-3.4/cdt-lsp-3.4.0-m2/">
+    <features name="org.eclipse.cdt.lsp.feature.feature.group" versionRange="[3.4.0.202510180548]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
   </repositories>

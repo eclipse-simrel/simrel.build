@@ -220,15 +220,14 @@
     <features href="lsp4e.aggrcon#//@repositories.0/@features.1"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.0"/>
     <features href="ep.aggrcon#//@repositories.0/@features.8"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.20"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.19"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.17"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.18"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.19"/>
     <features href="lsp4e.aggrcon#//@repositories.0/@features.2"/>
     <features href="ep.aggrcon#//@repositories.0/@features.9"/>
     <features href="m2e.aggrcon#//@repositories.0/@features.4"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.23"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.24"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.25"/>
     <features href="ep.aggrcon#//@repositories.0/@features.3"/>
     <features href="ep.aggrcon#//@repositories.0/@features.17"/>
   </customCategories>
