@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="GMF Runtime">
-  <repositories location="https://download.eclipse.org/modeling/gmp/gmf-runtime/updates/releases/R202508120942/" description="GMF Runtime 1.16.7">
+  <repositories location="https://download.eclipse.org/modeling/gmp/gmf-runtime/updates/milestones/S202511010900/" description="GMF Runtime 1.16.8rc1">
     <features name="org.eclipse.gmf.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
