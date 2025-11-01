@@ -301,8 +301,8 @@
     <project
         name="Eclipse Graphical Editing Framework (GEF)"
         site="https://projects.eclipse.org/projects/tools.gef"
-        version="https://projects.eclipse.org/projects/tools.gef/releases/gef-classic-3.25.0"
-        releaseDate="2025-09-10"
+        version="https://projects.eclipse.org/projects/tools.gef/releases/gef-classic-3.26.0"
+        releaseDate="2025-12-10"
         rank="3">
       <repository
           uri="https://github.com/eclipse-gef/gef"/>
@@ -572,8 +572,8 @@
     <project
         name="Eclipse CDO Model Repository"
         site="https://projects.eclipse.org/projects/modeling.emf.cdo"
-        version="https://projects.eclipse.org/projects/modeling.emf.cdo/releases/4.32.0"
-        releaseDate="2025-09-10"
+        version="https://projects.eclipse.org/projects/modeling.emf.cdo/releases/4.33.0"
+        releaseDate="2025-12-10"
         rank="1">
       <repository
           uri="https://github.com/eclipse-cdo/cdo"/>
@@ -660,8 +660,8 @@
     <project
         name="Eclipse GMF Runtime"
         site="https://projects.eclipse.org/projects/modeling.gmf-runtime"
-        version="https://projects.eclipse.org/projects/modeling.gmf-runtime/releases/1.16.7"
-        releaseDate="2025-08-28"
+        version="https://projects.eclipse.org/projects/modeling.gmf-runtime/releases/1.16.8"
+        releaseDate="2025-12-01"
         rank="3">
       <repository
           uri="https://github.com/eclipse-gmf-runtime/gmf-notation"/>
@@ -735,8 +735,8 @@
     <project
         name="Eclipse EGit: Git Integration for Eclipse"
         site="https://projects.eclipse.org/projects/technology.egit"
-        version="https://projects.eclipse.org/projects/technology.egit/releases/7.4.0"
-        releaseDate="2025-09-10"
+        version="https://projects.eclipse.org/projects/technology.egit/releases/7.5.0"
+        releaseDate="2025-12-10"
         rank="7">
       <tag>committers</tag>
       <tag>cpp</tag>
@@ -756,8 +756,8 @@
     <project
         name="Eclipse JGit: Java implementation of Git"
         site="https://projects.eclipse.org/projects/technology.jgit"
-        version="https://projects.eclipse.org/projects/technology.jgit/releases/7.4.0"
-        releaseDate="2025-09-10"
+        version="https://projects.eclipse.org/projects/technology.jgit/releases/7.5.0"
+        releaseDate="2025-12-10"
         rank="6">
       <repository
           uri="https://github.com/eclipse-jgit/jgit"/>
@@ -820,6 +820,8 @@
           uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-sysml16"/>
       <repository
           uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-web"/>
+      <repository
+          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-web.sysml16"/>
     </project>
   </contribution>
   <contribution
@@ -843,8 +845,8 @@
     <project
         name="Eclipse WindowBuilder"
         site="https://projects.eclipse.org/projects/tools.windowbuilder"
-        version="https://projects.eclipse.org/projects/tools.windowbuilder/releases/1.21.0"
-        releaseDate="2025-09-10"
+        version="https://projects.eclipse.org/projects/tools.windowbuilder/releases/1.22.0"
+        releaseDate="2025-12-10"
         rank="2">
       <repository
           uri="https://github.com/eclipse-windowbuilder/windowbuilder"/>
@@ -886,8 +888,8 @@
     <project
         name="Eclipse Sirius"
         site="https://projects.eclipse.org/projects/modeling.sirius"
-        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-desktop-7.4.12"
-        releaseDate="2025-09-22">
+        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-desktop-7.4.13"
+        releaseDate="2025-10-27">
       <repository
           uri="https://github.com/eclipse-sirius/sirius-desktop"/>
       <repository
@@ -940,8 +942,8 @@
     <project
         name="Eclipse RCP Testing Tool"
         site="https://projects.eclipse.org/projects/technology.rcptt"
-        version="https://projects.eclipse.org/projects/technology.rcptt/releases/2.7.0"
-        releaseDate="2025-07-31"
+        version="https://projects.eclipse.org/projects/technology.rcptt/releases/2.7.1"
+        releaseDate="2025-10-20"
         rank="1">
       <repository
           uri="https://github.com/eclipse-rcptt/org.eclipse.rcptt"/>
@@ -987,8 +989,8 @@
     <project
         name="Eclipse EclEmma"
         site="https://projects.eclipse.org/projects/technology.eclemma"
-        version="https://projects.eclipse.org/projects/technology.eclemma/releases/3.1.10"
-        releaseDate="2025-05-23">
+        version="https://projects.eclipse.org/projects/technology.eclemma/releases/3.1.11"
+        releaseDate="2025-11-14">
       <repository
           uri="https://github.com/eclipse-eclemma/eclemma"/>
     </project>
@@ -1034,8 +1036,8 @@
     <project
         name="Eclipse TM4E - TextMate support in the Eclipse IDE"
         site="https://projects.eclipse.org/projects/technology.tm4e"
-        version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.15.1"
-        releaseDate="2025-09-18"
+        version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.16.0"
+        releaseDate="2025-10-14"
         rank="2">
       <repository
           uri="https://github.com/eclipse-tm4e/tm4e"/>
