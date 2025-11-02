@@ -43,6 +43,22 @@
           key="/instance/org.eclipse.oomph.setup.ui/showToolBarContributions"
           value="true"/>
     </setupTask>
+    <setupTask
+        xsi:type="setup:CompoundTask"
+        name="org.eclipse.wildwebdeveloper">
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.wildwebdeveloper/html.format.wrapLineLength"
+          value="0"/>
+    </setupTask>
+    <setupTask
+        xsi:type="setup:CompoundTask"
+        name="org.eclipse.wildwebdeveloper.xml">
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.wildwebdeveloper.xml/org.eclipse.wildwebdeveloper.xml.validation.enabled"
+          value="false"/>
+    </setupTask>
   </setupTask>
   <setupTask
       xsi:type="setup:EclipseIniTask"
@@ -75,15 +91,19 @@
       xsi:type="setup.p2:P2Task"
       label="SimRel">
     <requirement
-        name="org.eclipse.egit.feature.group"/>
-    <requirement
         name="org.eclipse.cbi.p2repo.aggregator.editor.feature.feature.group"/>
     <requirement
+        name="org.eclipse.egit.feature.group"/>
+    <requirement
         name="org.eclipse.cbi.p2repo.aggregator.analyzer.editor.feature.feature.group"/>
+    <requirement
+        name="org.eclipse.wildwebdeveloper.feature.feature.group"/>
     <repository
         url="https://download.eclipse.org/cbi/updates/p2-aggregator/tools/nightly/latest"/>
     <repository
         url="https://download.eclipse.org/egit/updates-stable-nightly"/>
+    <repository
+        url="https://download.eclipse.org/wildwebdeveloper/releases/latest"/>
   </setupTask>
   <setupTask
       xsi:type="setup:VariableTask"
@@ -195,7 +215,7 @@
     <choice
         value="https://github.com/${github.user.id}/.github.git"
         label="HTTPS"/>
-    <description>The remote URL to be used for pull requests via your fork of simrel.build</description>
+    <description>The remote URL to be used for pull requests via your fork of .github</description>
   </setupTask>
   <setupTask
       xsi:type="git:GitCloneTask"
@@ -266,7 +286,94 @@
   <setupTask
       xsi:type="setup:ResourceCreationTask"
       excludedTriggers="BOOTSTRAP"
-      targetURL="${simrel.github.clone.location|uri/.settings/org.eclipse.core.resources.prefs}">
+      targetURL="${simrel.github.clone.location|uri}/.settings/org.eclipse.core.resources.prefs">
+    <content>
+      eclipse.preferences.version=1
+      encoding/&lt;project>=UTF-8
+
+    </content>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:VariableTask"
+      name="simrel-website.fork"
+      label="SimRel Website Fork">
+    <choice
+        value="git@github.com:${github.user.id}/simrel-website.git"
+        label="SSH"/>
+    <choice
+        value="https://github.com/${github.user.id}/simrel-website.git"
+        label="HTTPS"/>
+    <description>The remote URL to be used for pull requests via your fork of simrel-website</description>
+  </setupTask>
+  <setupTask
+      xsi:type="git:GitCloneTask"
+      id="simrel-website.clone"
+      remoteURI="eclipse-simrel/simrel-website">
+    <annotation
+        source="http://www.eclipse.org/oomph/setup/InducedChoices">
+      <detail
+          key="inherit">
+        <value>github.remoteURIs</value>
+      </detail>
+      <detail
+          key="label">
+        <value>SimRel Website GitHub Repository</value>
+      </detail>
+      <detail
+          key="target">
+        <value>remoteURI</value>
+      </detail>
+    </annotation>
+    <configSections
+        name="branch">
+      <properties
+          key="autoSetupRebase"
+          value="always"/>
+    </configSections>
+    <configSections
+        name="remote">
+      <subsections
+          name="${github.user.id}">
+        <properties
+            key="url"
+            value="${simrel-website.fork}"/>
+      </subsections>
+    </configSections>
+    <description>SimRel Website</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:ResourceCreationTask"
+      excludedTriggers="BOOTSTRAP"
+      targetURL="${simrel-website.clone.location|uri}/.project">
+    <content>
+      &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>
+      &lt;projectDescription>
+      	&lt;name>org.eclipse.simrel-website&lt;/name>
+      	&lt;comment>SimRel Github&lt;/comment>
+      	&lt;projects>
+      	&lt;/projects>
+      	&lt;buildSpec>
+      	&lt;/buildSpec>
+      	&lt;natures>
+      	&lt;/natures>
+      &lt;/projectDescription>
+
+    </content>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:ResourceCreationTask"
+      excludedTriggers="BOOTSTRAP"
+      targetURL="${simrel-website.clone.location|uri}/.gitignore">
+    <content>
+      .project
+      .gitignore
+      /.settings/
+    </content>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:ResourceCreationTask"
+      excludedTriggers="BOOTSTRAP"
+      targetURL="${simrel-website.clone.location|uri}/.settings/org.eclipse.core.resources.prefs">
     <content>
       eclipse.preferences.version=1
       encoding/&lt;project>=UTF-8
@@ -281,6 +388,8 @@
         rootFolder="${simrel.tools.github.clone.location}"/>
     <sourceLocator
         rootFolder="${simrel.github.clone.location}"/>
+    <sourceLocator
+        rootFolder="${simrel-website.clone.location}"/>
   </setupTask>
   <setupTask
       xsi:type="setup.workingsets:WorkingSetTask">
@@ -290,10 +399,51 @@
           xsi:type="predicates:AndPredicate">
         <operand
             xsi:type="predicates:NamePredicate"
-            pattern="org\.eclipse\.simrel\.(build|tools|github)"/>
+            pattern="org\.eclipse\.simrel(\.build|\.tools|\.github|-website)"/>
       </predicate>
     </workingSet>
     <description>The dynamic working sets for ${scope.project.label}</description>
+  </setupTask>
+  <setupTask
+      xsi:type="setup:ResourceCreationTask"
+      targetURL="${workspace.location|uri}/.metadata/.plugins/org.eclipse.debug.core/.launches/simrel-website-server.launch">
+    <content>
+      &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>
+      &lt;launchConfiguration type=&quot;org.eclipse.pde.ui.RuntimeWorkbench&quot;>
+          &lt;booleanAttribute key=&quot;append.args&quot; value=&quot;true&quot;/>
+          &lt;stringAttribute key=&quot;application&quot; value=&quot;org.eclipse.oomph.util.HTTPServer&quot;/>
+          &lt;booleanAttribute key=&quot;askclear&quot; value=&quot;true&quot;/>
+          &lt;booleanAttribute key=&quot;automaticAdd&quot; value=&quot;true&quot;/>
+          &lt;booleanAttribute key=&quot;automaticValidate&quot; value=&quot;true&quot;/>
+          &lt;stringAttribute key=&quot;bootstrap&quot; value=&quot;&quot;/>
+          &lt;stringAttribute key=&quot;checked&quot; value=&quot;[NONE]&quot;/>
+          &lt;booleanAttribute key=&quot;clearConfig&quot; value=&quot;true&quot;/>
+          &lt;booleanAttribute key=&quot;clearws&quot; value=&quot;false&quot;/>
+          &lt;booleanAttribute key=&quot;clearwslog&quot; value=&quot;false&quot;/>
+          &lt;stringAttribute key=&quot;configLocation&quot; value=&quot;$${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/simrel-website-server&quot;/>
+          &lt;booleanAttribute key=&quot;default&quot; value=&quot;true&quot;/>
+          &lt;booleanAttribute key=&quot;includeOptional&quot; value=&quot;true&quot;/>
+          &lt;stringAttribute key=&quot;location&quot; value=&quot;@None&quot;/>
+          &lt;booleanAttribute key=&quot;org.eclipse.debug.core.ATTR_FORCE_SYSTEM_CONSOLE_ENCODING&quot; value=&quot;false&quot;/>
+          &lt;booleanAttribute key=&quot;org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE&quot; value=&quot;false&quot;/>
+          &lt;booleanAttribute key=&quot;org.eclipse.jdt.launching.ATTR_SHOW_CODEDETAILS_IN_EXCEPTION_MESSAGES&quot; value=&quot;true&quot;/>
+          &lt;booleanAttribute key=&quot;org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD&quot; value=&quot;true&quot;/>
+          &lt;stringAttribute key=&quot;org.eclipse.jdt.launching.JRE_CONTAINER&quot; value=&quot;org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21&quot;/>
+          &lt;stringAttribute key=&quot;org.eclipse.jdt.launching.PROGRAM_ARGUMENTS&quot; value=&quot;-os $${target.os} -ws $${target.ws} -arch $${target.arch} -nl $${target.nl} -consoleLog&amp;#13;&amp;#10;-nosplash&amp;#13;&amp;#10;-alias &amp;#13;&amp;#10;/simrel-&amp;gt;$${project_loc:/org.eclipse.simrel-website}&amp;#13;&amp;#10;/eclipse-simrel/.github/main-&amp;gt;$${project_loc:/org.eclipse.simrel.github}&quot;/>
+          &lt;stringAttribute key=&quot;org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER&quot; value=&quot;org.eclipse.pde.ui.workbenchClasspathProvider&quot;/>
+          &lt;stringAttribute key=&quot;org.eclipse.jdt.launching.VM_ARGUMENTS&quot; value=&quot;-Duser.home=$${system_property:user.home}&amp;#13;&amp;#10;-DHTTPServer.port=8484&quot;/>
+          &lt;stringAttribute key=&quot;pde.version&quot; value=&quot;3.3&quot;/>
+          &lt;stringAttribute key=&quot;product&quot; value=&quot;org.eclipse.epp.package.committers.product&quot;/>
+          &lt;booleanAttribute key=&quot;show_selected_only&quot; value=&quot;false&quot;/>
+          &lt;stringAttribute key=&quot;templateConfig&quot; value=&quot;$${target_home}\configuration\config.ini&quot;/>
+          &lt;booleanAttribute key=&quot;tracing&quot; value=&quot;false&quot;/>
+          &lt;booleanAttribute key=&quot;useCustomFeatures&quot; value=&quot;false&quot;/>
+          &lt;booleanAttribute key=&quot;useDefaultConfig&quot; value=&quot;true&quot;/>
+          &lt;booleanAttribute key=&quot;useDefaultConfigArea&quot; value=&quot;true&quot;/>
+          &lt;booleanAttribute key=&quot;useProduct&quot; value=&quot;false&quot;/>
+      &lt;/launchConfiguration>
+
+    </content>
   </setupTask>
   <stream name="main"
       label="Main"/>
