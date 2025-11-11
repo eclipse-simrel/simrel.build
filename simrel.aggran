@@ -74,6 +74,7 @@
   <gitRepositoryFilter>.*/(e|j)git-permissions</gitRepositoryFilter>
   <gitRepositoryFilter>.*/eclipse-gef/gef$</gitRepositoryFilter>
   <gitRepositoryFilter>.*/eclipse-jdt/eclipse.jdt.core.binaries</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/eclipse-xtext/xtext-archive</gitRepositoryFilter>
   <contribution
       enabled="false"
       label="a.jre"
@@ -394,7 +395,7 @@
         releaseDate="2025-12-10"
         rank="1">
       <subproject
-          name="Web Tools Common"
+          name="Eclipse Web Tools Common"
           site="https://projects.eclipse.org/projects/webtools.common"
           news="https://github.com/eclipse-wtp-common/webtools.common/releases/tag/R3_39"
           rank="1">
@@ -409,7 +410,7 @@
             uri="https://github.com/eclipse-dali/webtools.dali"/>
       </subproject>
       <subproject
-          name="WTP Java EE Tools"
+          name="Eclipse Tools for Java EE"
           site="https://projects.eclipse.org/projects/webtools.jeetools"
           news="https://github.com/eclipse-jeetools/webtools.javaee/releases/tag/R3_39"
           rank="1">
@@ -698,7 +699,7 @@
     <tag>dsl</tag>
     <project
         name="Eclipse Xtext"
-        site="https://projects.eclipse.org/projects/modeling.tmf.xtext"
+        site="https://projects.eclipse.org/projects/modeling.xtext"
         version="https://projects.eclipse.org/projects/modeling.tmf.xtext/releases/2.39.0"
         releaseDate="2025-05-26"
         rank="3">
@@ -858,7 +859,7 @@
         name="Eclipse WindowBuilder"
         site="https://projects.eclipse.org/projects/tools.windowbuilder"
         version="https://projects.eclipse.org/projects/tools.windowbuilder/releases/1.22.0"
-        news="https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v150.asciidoc"
+        news="https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v122.asciidoc"
         releaseDate="2025-12-10"
         rank="2">
       <repository
@@ -958,8 +959,8 @@
         name="Eclipse RCP Testing Tool"
         site="https://projects.eclipse.org/projects/technology.rcptt"
         version="https://projects.eclipse.org/projects/technology.rcptt/releases/2.7.1"
-        news="https://github.com/eclipse-rcptt/org.eclipse.rcptt/releases/tag/release/2.6.0"
-        releaseDate="2025-10-20"
+        news="https://github.com/eclipse-rcptt/org.eclipse.rcptt/releases/tag/release/2.7.1"
+        releaseDate="2025-11-05"
         rank="1">
       <repository
           uri="https://github.com/eclipse-rcptt/org.eclipse.rcptt"/>
