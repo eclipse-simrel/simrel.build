@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="LSP4E">
-  <repositories location="https://download.eclipse.org/lsp4e/releases/0.28.0/" description="LSP4E">
-    <features name="org.eclipse.lsp4e" versionRange="[0.18.30.202511120930]">
+  <repositories location="https://download.eclipse.org/lsp4e/releases/0.29.0/" description="LSP4E">
+    <features name="org.eclipse.lsp4e" versionRange="[0.19.0.202511180800]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.lsp4e.debug" versionRange="[0.15.16.202510230903]">
+    <features name="org.eclipse.lsp4e.debug" versionRange="[0.16.0.202511171323]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.lsp4e.jdt" versionRange="[0.13.8.202510231034]">
+    <features name="org.eclipse.lsp4e.jdt" versionRange="[0.14.0.202511131327]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
