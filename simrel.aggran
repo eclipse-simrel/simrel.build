@@ -578,7 +578,7 @@
         name="Eclipse CDO Model Repository"
         site="https://projects.eclipse.org/projects/modeling.cdo"
         version="https://projects.eclipse.org/projects/modeling.emf.cdo/releases/4.33.0"
-        news="https://download.eclipse.org/modeling/emf/cdo/drops/S20251029-1905/relnotes.html"
+        news="https://download.eclipse.org/modeling/emf/cdo/updates/all-relnotes.html"
         releaseDate="2025-12-10"
         rank="1">
       <repository
@@ -902,9 +902,9 @@
     <project
         name="Eclipse Sirius"
         site="https://projects.eclipse.org/projects/modeling.sirius"
-        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-desktop-7.4.13"
+        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-desktop-7.4.14"
         news="https://github.com/eclipse-sirius/sirius-desktop/releases/tag/v7.4.13"
-        releaseDate="2025-10-27">
+        releaseDate="2025-12-03">
       <repository
           uri="https://github.com/eclipse-sirius/sirius-desktop"/>
       <repository
@@ -1034,7 +1034,7 @@
         name="Eclipse LSP4E"
         site="https://projects.eclipse.org/projects/technology.lsp4e"
         version="https://projects.eclipse.org/projects/technology.lsp4e/releases/0.26.1"
-        news="https://github.com/eclipse-lsp4e/lsp4e/releases/tag/0.28.0"
+        news="https://github.com/eclipse-lsp4e/lsp4e/releases/tag/0.29.1"
         releaseDate="2024-05-22"
         rank="6">
       <repository
@@ -1056,9 +1056,9 @@
     <project
         name="Eclipse TM4E - TextMate support in the Eclipse IDE"
         site="https://projects.eclipse.org/projects/technology.tm4e"
-        version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.16.0"
-        news="https://github.com/eclipse-tm4e/tm4e/releases/tag/0.16.0"
-        releaseDate="2025-10-14"
+        version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.17.0"
+        news="https://github.com/eclipse-tm4e/tm4e/releases/tag/0.17.0"
+        releaseDate="2025-11-18"
         rank="2">
       <repository
           uri="https://github.com/eclipse-tm4e/tm4e"/>
@@ -1087,9 +1087,9 @@
     <project
         name="Eclipse Linux Tools"
         site="https://projects.eclipse.org/projects/tools.linuxtools"
-        version="https://projects.eclipse.org/projects/tools.linuxtools/releases/8.17.0"
+        version="https://projects.eclipse.org/projects/tools.linuxtools/releases/8.21.0"
         news="https://github.com/eclipse-linuxtools/org.eclipse.linuxtools/blob/master/RELEASE_NOTES.md"
-        releaseDate="2024-12-04"
+        releaseDate="2025-12-10"
         rank="1">
       <repository
           uri="https://github.com/eclipse-linuxtools/org.eclipse.linuxtools"/>
