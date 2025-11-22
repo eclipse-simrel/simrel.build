@@ -9,7 +9,6 @@
     <contributions href="emft-ecoretools.aggrcon#/"/>
     <contributions href="m2m-atl.aggrcon#/"/>
     <contributions href="qvto.aggrcon#/"/>
-    <contributions href="emft-mwe.aggrcon#/"/>
     <contributions href="dtp.aggrcon#/"/>
     <contributions href="webtools.aggrcon#/"/>
     <contributions href="mylyn.aggrcon#/"/>
@@ -47,6 +46,7 @@
     <contributions href="rcptt.aggrcon#/"/>
     <contributions href="buildship.aggrcon#/"/>
     <contributions href="emf-parsley.aggrcon#/"/>
+    <contributions href="emft-mwe.aggrcon#/"/>
     <contributions href="eclemma.aggrcon#/"/>
     <contributions href="lsp4j.aggrcon#/"/>
     <contributions href="lsp4e.aggrcon#/"/>
