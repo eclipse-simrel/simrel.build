@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Wild Web Developer">
-  <repositories location="https://download.eclipse.org/wildwebdeveloper/releases/1.3.10/" description="Wild Web Developer 1.3.9">
-    <features name="org.eclipse.wildwebdeveloper.feature.feature.group" versionRange="[1.3.10.202502071606]">
+  <repositories location="https://download.eclipse.org/wildwebdeveloper/releases/1.4.0/" description="Wild Web Developer 1.4.0">
+    <features name="org.eclipse.wildwebdeveloper.feature.feature.group" versionRange="[1.4.0.202511281851]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
-    <features name="org.eclipse.wildwebdeveloper.embedder.node.feature.feature.group" versionRange="[1.2.1.202501211751]">
+    <features name="org.eclipse.wildwebdeveloper.embedder.node.feature.feature.group" versionRange="[1.2.3.202510292239]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
-    <features name="org.eclipse.wildwebdeveloper.xml.feature.feature.group" versionRange="[1.3.7.202501161210]">
+    <features name="org.eclipse.wildwebdeveloper.xml.feature.feature.group" versionRange="[1.3.8.202511131403]">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='Web%2C%20XML%2C%20Java%20EE%20and%20OSGi%20Enterprise%20Development']"/>
     </features>
