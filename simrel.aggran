@@ -714,7 +714,7 @@
         name="Eclipse PHP Development Tools"
         site="https://projects.eclipse.org/projects/tools.pdt"
         version="https://projects.eclipse.org/projects/tools.pdt/releases/8.4"
-        news="https://github.com/eclipse-pdt/pdt/releases/tag/R8_1_0"
+        news="https://github.com/eclipse-pdt/pdt/releases/tag/R8_4_0"
         releaseDate="2025-12-10">
       <repository
           uri="https://github.com/eclipse-pdt/pdt"/>
