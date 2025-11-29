@@ -541,8 +541,8 @@
     <project
         name="Eclipse Remote Application Platform"
         site="https://projects.eclipse.org/projects/rt.rap"
-        version="https://projects.eclipse.org/projects/rt.rap/releases/4.3.0"
-        releaseDate="2025-06-11">
+        version="https://projects.eclipse.org/projects/rt.rap/releases/4.5.0"
+        releaseDate="2025-12-10">
       <repository
           uri="https://github.com/eclipse-rap/org.eclipse.rap"/>
       <repository
@@ -713,9 +713,9 @@
     <project
         name="Eclipse PHP Development Tools"
         site="https://projects.eclipse.org/projects/tools.pdt"
-        version="https://projects.eclipse.org/projects/tools.pdt/releases/8.3"
+        version="https://projects.eclipse.org/projects/tools.pdt/releases/8.4"
         news="https://github.com/eclipse-pdt/pdt/releases/tag/R8_1_0"
-        releaseDate="2024-03-13">
+        releaseDate="2025-12-10">
       <repository
           uri="https://github.com/eclipse-pdt/pdt"/>
     </project>
@@ -943,7 +943,7 @@
         name="Eclipse Trace Compass"
         site="https://projects.eclipse.org/projects/tools.tracecompass"
         version="https://projects.eclipse.org/projects/tools.tracecompass/releases/11.2.0"
-        news="https://github.com/eclipse-tracecompass/org.eclipse.tracecompass/wiki/NewIn11.1"
+        news="https://github.com/eclipse-tracecompass/org.eclipse.tracecompass/wiki/NewIn11.2"
         releaseDate="2025-12-10"
         rank="1">
       <repository
@@ -1008,7 +1008,7 @@
         site="https://projects.eclipse.org/projects/technology.eclemma"
         version="https://projects.eclipse.org/projects/technology.eclemma/releases/3.1.11"
         news="https://github.com/eclipse-eclemma/eclemma/releases/tag/v3.1.10"
-        releaseDate="2025-11-14">
+        releaseDate="2025-11-26">
       <repository
           uri="https://github.com/eclipse-eclemma/eclemma"/>
     </project>
@@ -1033,9 +1033,9 @@
     <project
         name="Eclipse LSP4E"
         site="https://projects.eclipse.org/projects/technology.lsp4e"
-        version="https://projects.eclipse.org/projects/technology.lsp4e/releases/0.26.1"
-        news="https://github.com/eclipse-lsp4e/lsp4e/releases/tag/0.29.1"
-        releaseDate="2024-05-22"
+        version="https://projects.eclipse.org/projects/technology.lsp4e/releases/0.29.2"
+        news="https://github.com/eclipse-lsp4e/lsp4e/releases/tag/0.29.2"
+        releaseDate="2025-11-27"
         rank="6">
       <repository
           uri="https://github.com/eclipse-lsp4e/lsp4e"/>
@@ -1056,9 +1056,9 @@
     <project
         name="Eclipse TM4E - TextMate support in the Eclipse IDE"
         site="https://projects.eclipse.org/projects/technology.tm4e"
-        version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.17.0"
-        news="https://github.com/eclipse-tm4e/tm4e/releases/tag/0.17.0"
-        releaseDate="2025-11-18"
+        version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.17.1"
+        news="https://github.com/eclipse-tm4e/tm4e/releases/tag/0.17.1"
+        releaseDate="2025-11-28"
         rank="2">
       <repository
           uri="https://github.com/eclipse-tm4e/tm4e"/>
@@ -1072,9 +1072,9 @@
     <project
         name="Eclipse Wild Web Developer"
         site="https://projects.eclipse.org/projects/tools.wildwebdeveloper"
-        version="https://projects.eclipse.org/projects/tools.wildwebdeveloper/releases/1.3.9"
-        news="https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper/releases/tag/1.3.10"
-        releaseDate="2024-11-19"
+        version="https://projects.eclipse.org/projects/tools.wildwebdeveloper/releases/1.4.0"
+        news="https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper/releases/tag/1.4.0"
+        releaseDate="2025-11-28"
         rank="3">
       <repository
           uri="https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper"/>
@@ -1159,9 +1159,9 @@
     <project
         name="Eclipse Tycho"
         site="https://projects.eclipse.org/projects/technology.tycho"
-        version="https://projects.eclipse.org/projects/technology.tycho/releases/5.0.0"
+        version="https://projects.eclipse.org/projects/technology.tycho/releases/testme"
         news="https://github.com/eclipse-tycho/tycho/blob/main/RELEASE_NOTES.md"
-        releaseDate="2025-08-31"
+        releaseDate="2025-11-29"
         rank="8">
       <repository
           uri="https://github.com/eclipse-tycho/tycho"/>
