@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Aggregation files used for the Eclipse Simultaneous Release (quarterly &quot;release train&quot;)." buildmaster="//@contacts[email='ed.merks@gmail.com']" buildmasterBackup="//@contacts[email='frederic.gurr@eclipse.org']" label="2025-12" buildRoot="buildresults" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false" includeSources="true">
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Aggregation files used for the Eclipse Simultaneous Release (quarterly &quot;release train&quot;)." buildmaster="//@contacts[email='ed.merks@gmail.com']" buildmasterBackup="//@contacts[email='frederic.gurr@eclipse.org']" label="2026-03" buildRoot="buildresults" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false" includeSources="true">
   <validationSets label="main">
     <contributions href="ep.aggrcon#/"/>
     <contributions href="emf-emf.aggrcon#/"/>
