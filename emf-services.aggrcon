@@ -5,7 +5,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="https://download.eclipse.org/modeling/emf/transaction/updates/milestones/S202510231413/" description="EMF Transaction">
+  <repositories location="https://download.eclipse.org/modeling/emf/transaction/updates/releases/R202510231413/" description="EMF Transaction">
     <features name="org.eclipse.emf.transaction.sdk.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
