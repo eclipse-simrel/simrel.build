@@ -142,6 +142,15 @@ PROMOTE=${env.PROMOTE}
           string(name: 'TRAIN_LOCATION', value: "staging/${env.TRAIN_NAME}")
         ],
         wait: false
+
+        build job: 'simrel.sbom',
+        parameters: [
+          booleanParam(name: 'PROMOTE', value: true),
+          booleanParam(name: 'PROMOTE_DEPENDENCY_TRACK', value: true),
+          string(name: 'LOCATION_TYPE', value: "staging"),
+          string(name: 'LOCATION_VERSION', value: "${env.TRAIN_NAME}")
+        ],
+        wait: false
       }
     }
   }

@@ -1,0 +1,354 @@
+def pipelineVersion = '1'
+
+def slices = [
+  'committers' : 'epp.package.committers',
+  'cpp' : 'epp.package.cpp',
+  'dsl' : 'epp.package.dsl',
+  'embedcpp' : 'epp.package.embedcpp',
+  'java' : 'epp.package.java',
+  'jee' : 'epp.package.jee',
+  'php' : 'epp.package.php',
+  'modeling' : 'epp.package.modeling',
+  'rcp' : 'epp.package.rcp',
+  'scout' : 'epp.package.scout',
+]
+
+pipeline {
+  agent any
+
+  options {
+    buildDiscarder(logRotator(numToKeepStr: '10'))
+    durabilityHint('MAX_SURVIVABILITY')
+    skipDefaultCheckout true
+    timeout(time: 60, unit: 'MINUTES')
+    timestamps ()
+  }
+
+  tools {
+    jdk 'temurin-jdk21-latest'
+  }
+
+  environment {
+    MAIL_TO = 'ed.merks@gmail.com'
+    PARENT = 'simrel'
+  }
+
+  parameters {
+    string(
+      name: 'PIPELINE_VERSION',
+      defaultValue: "${pipelineVersion}",
+      description: """${pretty(
+       '''
+       If the parameter definitions have changed, this version will be out-dated.
+       The script will run but will do nothing other than updating the parameter definitions of the job as a side-effect.
+       '''
+      )}""")
+
+    choice(
+      name: 'LOCATION_TYPE',
+      choices: [
+        "staging",
+        "releases",
+     ],
+      description: '''
+        The site https://download.eclipse.org/${LOCATION_TYPE}/${LOCATION_VERSION} to analyze.
+      '''
+    )
+
+    choice(
+      name: 'LOCATION_VERSION',
+      choices: [
+        "2026-03",
+        "2025-12",
+     ],
+      description: '''
+        The site https://download.eclipse.org/${LOCATION_TYPE}/${LOCATION_VERSION} to analyze.
+      '''
+    )
+
+    booleanParam(
+      name: 'USE_CACHE',
+      defaultValue: true,
+      description: 'Whether to use the network cache <a href="lastSuccessfulBuild/artifact/cache.zip">lastSuccessfulBuild/artifact/cache.zip</a> from the most recent build.'
+    )
+
+    booleanParam(
+      name: 'PROMOTE',
+      defaultValue: false,
+      description: 'Whether to promote the SBOM reports to /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo/sbom.'
+    )
+
+    booleanParam(
+      name: 'PROMOTE_DEPENDENCY_TRACK',
+      defaultValue: false,
+      description: 'Whether to promote the SBOMs to <a href="https://sbom.eclipse.org/projects/e1ac111b-8567-403c-8df7-950588c102e9/collectionprojects">https://sbom.eclipse.org/projects/<a/>.'
+    )
+  }
+
+  stages {
+    stage('Initialize') {
+      steps {
+        script {
+          if (env.LOCATION_TYPE == 'staging') {
+            env.LOCATION = "staging/$LOCATION_VERSION"
+            env.EPP_LOCATION = "technology/epp/staging/repository"
+          } else {
+            sshagent(['projects-storage.eclipse.org-bot-ssh']) {
+              env.LOCATION = "releases/$LOCATION_VERSION/" + sh (
+                script : '''
+                  ssh genie.simrel@projects-storage.eclipse.org "
+                    ls /home/data/httpd/download.eclipse.org/releases/${LOCATION_VERSION} |  grep "^20" | tail -1 | sed "s%/$%%g"
+                  "
+                ''',
+                returnStdout: true
+              ).trim()
+              env.EPP_LOCATION = "technology/epp/packages/$LOCATION_VERSION/" + sh (
+                script : '''
+                  ssh genie.simrel@projects-storage.eclipse.org "
+                    ls /home/data/httpd/download.eclipse.org/technology/epp/packages/${LOCATION_VERSION} |  grep "^20" | tail -1 | sed "s%/$%%g"
+                  "
+                ''',
+                returnStdout: true
+              ).trim()
+            }
+          }
+          env.SLICES = slices.entrySet().collect{it.key + '=' + it.value}.join(' ')
+          def description = """
+LOCATION=${env.LOCATION}
+EPP_LOCATION=${env.EPP_LOCATION}
+LOCATION_TYPE=${env.LOCATION_TYPE}
+LOCATION_VERSION=${env.LOCATION_VERSION}
+SLICES=${env.SLICES}
+USE_CACHE=${env.USE_CACHE}
+PROMOTE=${env.PROMOTE}
+PROMOTE_DEPENDENCY_TRACK=${env.PROMOTE_DEPENDENCY_TRACK}
+""".trim()
+          echo description
+          currentBuild.description = description.replace("\n", "<br/>")
+        }
+      }
+    }
+
+    stage('Generate SBOM') {
+      when {
+        environment name: 'PIPELINE_VERSION', value: pipelineVersion
+        not { environment name: 'BUILD_NUMBER', value: '1' }
+      }
+      steps {
+        script {
+          lock('staging-repository') {
+            sh '''
+              set -x
+              set -o pipefail
+    
+              if [[ ${USE_CACHE} == 'true' ]]; then
+                curl --fail-with-body -O ${JOB_URL}lastSuccessfulBuild/artifact/cache.zip && unzip -q cache.zip
+              fi
+    
+              curl -O https://download.eclipse.org/cbi/updates/p2-sbom/products/nightly/latest/org.eclipse.cbi.p2repo.sbom.cli.product-linux.gtk.x86_64.tar.gz
+              tar -xf org.eclipse.cbi.p2repo.sbom.cli.product-linux.gtk.x86_64.tar.gz
+    
+              cbi-sbom/cbi-sbom \
+                -application org.eclipse.cbi.p2repo.sbom.generator \
+                -consoleLog \
+                -noSplash \
+                -verbose \
+                -process-bundle-classpath \
+                -git-issues \
+                -central-search \
+                -input https://download.eclipse.org/${LOCATION} \
+                -classifier-exclusions binary feature metadata \
+                -component-exclusions ".*[.]source" \
+                -xml-output dependency-track-sbom/sbom.xml \
+                -json-output dependency-track-sbom/sbom.json \
+                -cache cache \
+                -index \
+                dependency-track-sbom/index.html \
+                -vmargs \
+                -Dfile.encoding=UTF-8
+    
+              cbi-sbom/cbi-sbom \
+                -application org.eclipse.cbi.p2repo.sbom.generator \
+                -consoleLog \
+                -noSplash \
+                -verbose \
+                -process-bundle-classpath \
+                -advisory \
+                -git-issues \
+                -central-search \
+                -input https://download.eclipse.org/${LOCATION} \
+                -xml-output full-sbom/sbom.xml \
+                -json-output full-sbom/sbom.json \
+                -cache cache \
+                -index \
+                full-sbom/index.html \
+                -vmargs \
+                -Dfile.encoding=UTF-8
+    
+              cbi-sbom/cbi-sbom \
+                -application org.eclipse.cbi.p2repo.sbom.generator \
+                -consoleLog \
+                -noSplash \
+                -slices ${SLICES} \
+                -verbose \
+                -process-bundle-classpath \
+                -git-issues \
+                -central-search \
+                -input https://download.eclipse.org/${LOCATION} https://download.eclipse.org/${EPP_LOCATION} \
+                -classifier-exclusions binary feature metadata \
+                -component-exclusions ".*[.]source" \
+                -expected-missing-artifact-iu-patterns \
+                 "org[.]eclipse[.](help|jdt|pde|pde[.]spies|platform|rcp)[.]source[.]feature[.]group:.*" \
+                 -requirement-exclusions \
+                 org.eclipse.equinox.p2.install.mode.root=true \
+                 osgi.arch=ppc64,osgi.os=linux \
+                 osgi.os=aix \
+                 osgi.arch=sparc,osgi.os=solaris \
+                -xml-outputs dependency-track-epp-sbom \
+                -json-outputs dependency-track-epp-sbom \
+                -cache cache \
+                -index \
+                dependency-track-epp-sbom/index.html \
+                -vmargs \
+                -Dfile.encoding=UTF-8
+    
+              cbi-sbom/cbi-sbom \
+                -application org.eclipse.cbi.p2repo.sbom.generator \
+                -consoleLog \
+                -noSplash \
+                -verbose \
+                -slices ${SLICES} \
+                -process-bundle-classpath \
+                -advisory \
+                -git-issues \
+                -central-search \
+                -input https://download.eclipse.org/${LOCATION} https://download.eclipse.org/${EPP_LOCATION} \
+                -expected-missing-artifact-iu-patterns \
+                 "org[.]eclipse[.](help|jdt|pde|pde[.]spies|platform|rcp)[.]source[.]feature[.]group:.*" \
+                 -requirement-exclusions \
+                 org.eclipse.equinox.p2.install.mode.root=true \
+                 osgi.arch=ppc64,osgi.os=linux \
+                 osgi.os=aix \
+                 osgi.arch=sparc,osgi.os=solaris \
+                -xml-outputs full-epp-sbom \
+                -json-outputs full-epp-sbom \
+                -cache cache \
+                -index \
+                full-epp-sbom/index.html \
+                -vmargs \
+                -Dfile.encoding=UTF-8
+
+              rm -f cache.zip
+              if [[ -d cache ]]; then
+                zip -q -r cache.zip cache -x "cache/https/download.eclipse.org/*" "cache/https/repo.maven.apache.org/*"
+                ls -sail cache.zip
+              fi
+            '''
+
+            if (params.PROMOTE) {
+              sshagent(['projects-storage.eclipse.org-bot-ssh']) {
+                sh '''
+                  ssh genie.simrel@projects-storage.eclipse.org "
+                    ls /home/data/httpd/download.eclipse.org/${LOCATION}/
+                    rm -rf /home/data/httpd/download.eclipse.org/${LOCATION}/buildInfo/sbom
+                    mkdir -p /home/data/httpd/download.eclipse.org/${LOCATION}/buildInfo/sbom/simrel
+                    mkdir -p /home/data/httpd/download.eclipse.org/${LOCATION}/buildInfo/sbom/epp
+                  "
+                scp full-sbom/* genie.simrel@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/${LOCATION}/buildInfo/sbom/simrel
+                scp full-epp-sbom/* genie.simrel@projects-storage.eclipse.org:/home/data/httpd/download.eclipse.org/${LOCATION}/buildInfo/sbom/epp
+                '''
+              }
+            }
+
+            withCredentials([
+                string(credentialsId: 'sbom.eclipse.org-api-token', variable: 'SBOM_API_TOKEN')
+              ]) {
+              sh '''
+                if [[ ${PROMOTE_DEPENDENCY_TRACK} == 'true' ]]; then
+                  PREFIX=""
+                else
+                  PREFIX="echo "
+                fi
+                $PREFIX curl -X POST https://sbom.eclipse.org/api/v1/bom \
+                  -H Content-Type:multipart/form-data \
+                  -H X-Api-Key:"${SBOM_API_TOKEN}" \
+                  -F autoCreate=true \
+                  -F projectName=${PARENT}-${LOCATION_TYPE} \
+                  -F projectVersion=${LOCATION_VERSION} \
+                  -F parentName=${PARENT} \
+                  -F bom=@dependency-track-sbom/sbom.xml
+              '''
+              script {
+                for (slice in slices.keySet()) {
+                  env.SLICE= slice
+                  sh '''
+                    if [[ ${PROMOTE_DEPENDENCY_TRACK} == 'true' ]]; then
+                      PREFIX=""
+                    else
+                      PREFIX="echo "
+                    fi
+                    $PREFIX curl -X POST https://sbom.eclipse.org/api/v1/bom \
+                      -H Content-Type:multipart/form-data \
+                      -H X-Api-Key:"${SBOM_API_TOKEN}" \
+                      -F autoCreate=true \
+                      -F projectName=${PARENT}-epp-${SLICE}-${LOCATION_TYPE} \
+                      -F projectVersion=${LOCATION_VERSION} \
+                      -F parentName=${PARENT} \
+                      -F bom=@dependency-track-epp-sbom/${SLICE}.xml
+                  '''
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    stage('Archive Results') {
+      when {
+        environment name: 'PIPELINE_VERSION', value: pipelineVersion
+        not { environment name: 'BUILD_NUMBER', value: '1' }
+      }
+      steps {
+        archiveArtifacts 'full-sbom/**, dependency-track-sbom/**, full-epp-sbom/**, dependency-track-epp-sbom/**, cache.zip'
+        script {
+          def description = """
+<a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}artifact/dependency-track-sbom/sbom.xml"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> sbom.xml - dependency-track</a>
+<a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}/artifact/dependency-track-sbom/sbom.json"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> sbom.json - dependency-track</a>
+<a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}artifact/full-sbom/sbom.xml"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> sbom.xml - full</a>
+<a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}/artifact/full-sbom/sbom.json"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> sbom.json - full</a>
+""".trim()
+          for (slice in slices.keySet()) {
+            description = description + '\n<hr/>' + """
+<a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}artifact/dependency-track-epp-sbom/${slice}-sbom.xml"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> ${slice}-sbom.xml - dependency-track</a>
+<a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}/artifact/dependency-track-epp-sbom/${slice}-sbom.json"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> ${slice}-sbom.json - dependency-track</a>
+<a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}artifact/full-epp-sbom/${slice}-sbom.xml"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> ${slice}-sbom.xml - full</a>
+<a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}/artifact/full-epp-sbom/${slice}-sbom.json"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> ${slice}-sbom.json - full</a>
+""".trim()
+          }
+          currentBuild.description = (currentBuild.description + "\n<hr/>"+ description).replace("\n", "<br/>\n")
+        }
+      }
+    }
+  }
+
+  post {
+    failure {
+      mail to: env.MAIL_TO,
+      subject: "[SBOM Generator] Build Failure ${currentBuild.fullDisplayName}",
+      mimeType: 'text/html',
+      body: "Project: ${env.JOB_NAME}<br/>Build Number: ${env.BUILD_NUMBER}<br/>Build URL: <a href='${env.BUILD_URL}'>${env.BUILD_URL}</a>"
+    }
+
+    fixed {
+      mail to: env.MAIL_TO,
+      subject: "[SBOM Generator] Back to normal ${currentBuild.fullDisplayName}",
+      mimeType: 'text/html',
+      body: "Project: ${env.JOB_NAME}<br/>Build Number: ${env.BUILD_NUMBER}<br/>Build URL: <a href='${env.BUILD_URL}'>${env.BUILD_URL}</a>"
+    }
+  }
+}
+
+def pretty(string) {
+  return string.replaceAll("^\r?\n", "").replaceAll("\r?\n\$", "").replace("\r", "").stripIndent()
+}
