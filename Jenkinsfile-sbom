@@ -294,7 +294,7 @@ PROMOTE_DEPENDENCY_TRACK=${env.PROMOTE_DEPENDENCY_TRACK}
                       -F projectName=${PARENT}-epp-${SLICE}-${LOCATION_TYPE} \
                       -F projectVersion=${LOCATION_VERSION} \
                       -F parentName=${PARENT} \
-                      -F bom=@dependency-track-epp-sbom/${SLICE}.xml
+                      -F bom=@dependency-track-epp-sbom/${SLICE}-sbom.xml
                   '''
                 }
               }
