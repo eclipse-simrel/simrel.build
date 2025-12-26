@@ -75,7 +75,7 @@ pipeline {
     booleanParam(
       name: 'PROMOTE',
       defaultValue: false,
-      description: 'Whether to promote the SBOM reports to /home/data/httpd/download.eclipse.org/${TRAIN_LOCATION}/buildInfo/sbom.'
+      description: 'Whether to promote the SBOM reports to /home/data/httpd/download.eclipse.org/${LOCATION_TYPE}/${LOCATION_VERSION}/buildInfo/sbom.'
     )
 
     booleanParam(
@@ -194,6 +194,7 @@ PROMOTE_DEPENDENCY_TRACK=${env.PROMOTE_DEPENDENCY_TRACK}
                 -process-bundle-classpath \
                 -git-issues \
                 -central-search \
+                -dependency-tracksearch \
                 -input https://download.eclipse.org/${LOCATION} https://download.eclipse.org/${EPP_LOCATION} \
                 -classifier-exclusions binary feature metadata \
                 -component-exclusions ".*[.]source" \
@@ -314,16 +315,16 @@ PROMOTE_DEPENDENCY_TRACK=${env.PROMOTE_DEPENDENCY_TRACK}
         script {
           def description = """
 <a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}artifact/dependency-track-sbom/sbom.xml"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> sbom.xml - dependency-track</a>
-<a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}/artifact/dependency-track-sbom/sbom.json"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> sbom.json - dependency-track</a>
+<a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}artifact/dependency-track-sbom/sbom.json"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> sbom.json - dependency-track</a>
 <a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}artifact/full-sbom/sbom.xml"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> sbom.xml - full</a>
 <a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}/artifact/full-sbom/sbom.json"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> sbom.json - full</a>
 """.trim()
           for (slice in slices.keySet()) {
             description = description + '\n<hr/>' + """
 <a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}artifact/dependency-track-epp-sbom/${slice}-sbom.xml"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> ${slice}-sbom.xml - dependency-track</a>
-<a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}/artifact/dependency-track-epp-sbom/${slice}-sbom.json"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> ${slice}-sbom.json - dependency-track</a>
+<a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}artifact/dependency-track-epp-sbom/${slice}-sbom.json"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> ${slice}-sbom.json - dependency-track</a>
 <a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}artifact/full-epp-sbom/${slice}-sbom.xml"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> ${slice}-sbom.xml - full</a>
-<a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}/artifact/full-epp-sbom/${slice}-sbom.json"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> ${slice}-sbom.json - full</a>
+<a href="https://download.eclipse.org/cbi/sbom/?file=${env.BUILD_URL}artifact/full-epp-sbom/${slice}-sbom.json"><img src="https://download.eclipse.org/cbi/sbom/favicon.ico"/> ${slice}-sbom.json - full</a>
 """.trim()
           }
           currentBuild.description = (currentBuild.description + "\n<hr/>"+ description).replace("\n", "<br/>\n")
