@@ -156,6 +156,7 @@ PROMOTE_DEPENDENCY_TRACK=${env.PROMOTE_DEPENDENCY_TRACK}
                 -process-bundle-classpath \
                 -git-issues \
                 -central-search \
+                -dependency-track \
                 -input https://download.eclipse.org/${LOCATION} \
                 -classifier-exclusions binary feature metadata \
                 -component-exclusions ".*[.]source" \
@@ -194,7 +195,7 @@ PROMOTE_DEPENDENCY_TRACK=${env.PROMOTE_DEPENDENCY_TRACK}
                 -process-bundle-classpath \
                 -git-issues \
                 -central-search \
-                -dependency-tracksearch \
+                -dependency-track \
                 -input https://download.eclipse.org/${LOCATION} https://download.eclipse.org/${EPP_LOCATION} \
                 -classifier-exclusions binary feature metadata \
                 -component-exclusions ".*[.]source" \
