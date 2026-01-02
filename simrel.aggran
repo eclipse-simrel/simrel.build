@@ -5,6 +5,8 @@
     xmlns:analyzer="https://www.eclipse.org/cbi/p2repo/2021/aggregator/analyzer"
     releaseDate="2026-03-11"
     exclusion="tooling.*|.*\.source|.*\.source\.feature\.group|.*\.feature\.jar"
+    layoutWidth="2000"
+    layoutHeight="800"
     aggregation="simrel.aggr#/">
   <levels>52</levels>
   <levels>40</levels>
@@ -111,7 +113,7 @@
       enabled="false"
       label="3rd Party"
       dominant="true"
-      match="(?!org\.eclipse\.|org\.sonatype\.m2e\.|ch\.ethz\.iks\.|com\.mycorp\.).*|org\.eclipse\.wb\.core\.lib|org\.eclipse\.m2e\.maven\.runtime.*|org\.eclipse\.orbit\..*"/>
+      match="(?!org\.eclipse\.|org\.sonatype\.m2e\.|ch\.ethz\.iks\.|com\.mycorp\.|org\.jboss\.).*|org\.eclipse\.wb\.core\.lib|org\.eclipse\.m2e\.maven\.runtime.*|org\.eclipse\.orbit\..*"/>
   <contribution
       enabled="false"
       label="Nebula"
@@ -119,9 +121,9 @@
     <project
         name="Eclipse Nebula - Supplemental Widgets for SWT"
         site="https://projects.eclipse.org/projects/technology.nebula"
-        version="https://projects.eclipse.org/projects/technology.nebula/releases/3.2.0"
+        version="https://projects.eclipse.org/projects/technology.nebula/releases/3.3.0"
         news="https://github.com/EclipseNebula/nebula/releases/latest"
-        releaseDate="2025-09-13"
+        releaseDate="2025-12-12"
         rank="3">
       <repository
           uri="https://github.com/EclipseNebula/nebula"/>
@@ -134,9 +136,9 @@
     <project
         name="Eclipse BIRT (Business Intelligence and Reporting Tools)"
         site="https://projects.eclipse.org/projects/technology.birt"
-        version="https://projects.eclipse.org/projects/technology.birt/releases/4.22.0"
+        version="https://projects.eclipse.org/projects/technology.birt/releases/4.23.0"
         news="https://github.com/eclipse-birt/birt/releases/latest"
-        releaseDate="2025-12-10">
+        releaseDate="2026-03-11">
       <repository
           uri="https://github.com/eclipse-birt/birt"/>
     </project>
@@ -179,7 +181,7 @@
       <subproject
           name="Eclipse Equinox"
           site="https://projects.eclipse.org/projects/eclipse.equinox"
-          news="https://eclipse.dev/eclipse/news/4.38/platform_isv.html"
+          news="https://eclipse.dev/eclipse/news/4.39/platform_isv.html"
           rank="7">
         <tag>committers</tag>
         <tag>cpp</tag>
@@ -202,7 +204,7 @@
       <subproject
           name="Eclipse JDT (Java development tools)"
           site="https://projects.eclipse.org/projects/eclipse.jdt"
-          news="https://eclipse.dev/eclipse/news/4.38/jdt.html"
+          news="https://eclipse.dev/eclipse/news/4.39/jdt.html"
           rank="7">
         <tag>committers</tag>
         <tag>dsl</tag>
@@ -224,7 +226,7 @@
       <subproject
           name="Eclipse PDE"
           site="https://projects.eclipse.org/projects/eclipse.pde"
-          news="https://eclipse.dev/eclipse/news/4.38/pde.html"
+          news="https://eclipse.dev/eclipse/news/4.39/pde.html"
           rank="8">
         <tag>committers</tag>
         <tag>dsl</tag>
@@ -239,7 +241,7 @@
       <subproject
           name="Eclipse Platform"
           site="https://projects.eclipse.org/projects/eclipse.platform"
-          news="https://eclipse.dev/eclipse/news/4.38/platform.html"
+          news="https://eclipse.dev/eclipse/news/4.39/platform.html"
           rank="8">
         <tag>committers</tag>
         <tag>cpp</tag>
@@ -337,7 +339,7 @@
     <project
         name="Eclipse ATL"
         site="https://projects.eclipse.org/projects/modeling.atl"
-        version="https://projects.eclipse.org/projects/modeling.mmt.atl/releases/4.12.0"
+        version="https://projects.eclipse.org/projects/modeling.atl/releases/4.12.0"
         releaseDate="2025-05-19">
       <repository
           uri="https://github.com/eclipse-atl/atl"/>
@@ -431,8 +433,7 @@
       </subproject>
       <subproject
           name="Eclipse Server Tools"
-          site="https://projects.eclipse.org/projects/webtools.servertools"
-          news="https://github.com/eclipse-servertools/servertools/releases/latest">
+          site="https://projects.eclipse.org/projects/webtools.servertools">
         <repository
             uri="https://github.com/eclipse-servertools/servertools"/>
       </subproject>
@@ -483,7 +484,7 @@
         name="Eclipse CDT (C/C++ Development Tooling)"
         site="https://projects.eclipse.org/projects/tools.cdt"
         version="https://projects.eclipse.org/projects/tools.cdt/releases/cdt-12.3.0-cdt-lsp-3.4.0"
-        news="https://github.com/eclipse-cdt/cdt/blob/main/NewAndNoteworthy/CDT-12.3.md"
+        news="https://github.com/eclipse-cdt/cdt/blob/main/NewAndNoteworthy/CDT-12.4.md"
         releaseDate="2025-12-10"
         rank="3">
       <repository
@@ -621,7 +622,7 @@
       contribution="mdt-uml2.aggrcon#/">
     <tag>modeling</tag>
     <project
-        name="Eclipse MDT UML2"
+        name="Eclipse  UML2"
         site="https://projects.eclipse.org/projects/modeling.uml2"
         version="https://projects.eclipse.org/projects/modeling.mdt.uml2/releases/5.5.3"
         releaseDate="2022-12-07"
@@ -741,9 +742,9 @@
     <project
         name="Eclipse EGit: Git Integration for Eclipse"
         site="https://projects.eclipse.org/projects/technology.egit"
-        version="https://projects.eclipse.org/projects/technology.egit/releases/7.5.0"
+        version="https://projects.eclipse.org/projects/technology.egit/releases/7.6.0"
         news="https://github.com/eclipse-egit/egit/wiki/New-and-Noteworthy-7.5"
-        releaseDate="2025-12-10"
+        releaseDate="2026-03-11"
         rank="7">
       <tag>committers</tag>
       <tag>cpp</tag>
@@ -763,9 +764,9 @@
     <project
         name="Eclipse JGit: Java implementation of Git"
         site="https://projects.eclipse.org/projects/technology.jgit"
-        version="https://projects.eclipse.org/projects/technology.jgit/releases/7.5.0"
+        version="https://projects.eclipse.org/projects/technology.jgit/releases/7.6.0"
         news="https://github.com/eclipse-jgit/jgit/wiki/New-and-Noteworthy-7.5"
-        releaseDate="2025-12-10"
+        releaseDate="2026-03-11"
         rank="6">
       <repository
           uri="https://github.com/eclipse-jgit/jgit"/>
@@ -856,7 +857,7 @@
         name="Eclipse WindowBuilder"
         site="https://projects.eclipse.org/projects/tools.windowbuilder"
         version="https://projects.eclipse.org/projects/tools.windowbuilder/releases/1.22.0"
-        news="https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v122.asciidoc"
+        news="https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v123.asciidoc"
         releaseDate="2025-12-10"
         rank="2">
       <repository
@@ -955,9 +956,9 @@
     <project
         name="Eclipse RCP Testing Tool"
         site="https://projects.eclipse.org/projects/technology.rcptt"
-        version="https://projects.eclipse.org/projects/technology.rcptt/releases/2.7.1"
+        version="https://projects.eclipse.org/projects/technology.rcptt/releases/2.8.0"
         news="https://github.com/eclipse-rcptt/org.eclipse.rcptt/releases/latest"
-        releaseDate="2025-11-05"
+        releaseDate="2026-01-01"
         rank="1">
       <repository
           uri="https://github.com/eclipse-rcptt/org.eclipse.rcptt"/>
@@ -1004,6 +1005,7 @@
         name="Eclipse EclEmma"
         site="https://projects.eclipse.org/projects/technology.eclemma"
         version="https://projects.eclipse.org/projects/technology.eclemma/releases/3.1.11"
+        news="https://github.com/eclipse-eclemma/eclemma/releases/latest"
         releaseDate="2025-11-26">
       <repository
           uri="https://github.com/eclipse-eclemma/eclemma"/>
