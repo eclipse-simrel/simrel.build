@@ -140,14 +140,14 @@ PROMOTE_DEPENDENCY_TRACK=${env.PROMOTE_DEPENDENCY_TRACK}
             sh '''
               set -x
               set -o pipefail
-    
+
               if [[ ${USE_CACHE} == 'true' ]]; then
                 curl --fail-with-body -O ${JOB_URL}lastSuccessfulBuild/artifact/cache.zip && unzip -q cache.zip
               fi
-    
+
               curl -O https://download.eclipse.org/cbi/updates/p2-sbom/products/nightly/latest/org.eclipse.cbi.p2repo.sbom.cli.product-linux.gtk.x86_64.tar.gz
               tar -xf org.eclipse.cbi.p2repo.sbom.cli.product-linux.gtk.x86_64.tar.gz
-    
+
               cbi-sbom/cbi-sbom \
                 -application org.eclipse.cbi.p2repo.sbom.generator \
                 -consoleLog \
@@ -167,7 +167,7 @@ PROMOTE_DEPENDENCY_TRACK=${env.PROMOTE_DEPENDENCY_TRACK}
                 dependency-track-sbom/index.html \
                 -vmargs \
                 -Dfile.encoding=UTF-8
-    
+
               cbi-sbom/cbi-sbom \
                 -application org.eclipse.cbi.p2repo.sbom.generator \
                 -consoleLog \
@@ -185,7 +185,7 @@ PROMOTE_DEPENDENCY_TRACK=${env.PROMOTE_DEPENDENCY_TRACK}
                 full-sbom/index.html \
                 -vmargs \
                 -Dfile.encoding=UTF-8
-    
+
               cbi-sbom/cbi-sbom \
                 -application org.eclipse.cbi.p2repo.sbom.generator \
                 -consoleLog \
@@ -213,7 +213,7 @@ PROMOTE_DEPENDENCY_TRACK=${env.PROMOTE_DEPENDENCY_TRACK}
                 dependency-track-epp-sbom/index.html \
                 -vmargs \
                 -Dfile.encoding=UTF-8
-    
+
               cbi-sbom/cbi-sbom \
                 -application org.eclipse.cbi.p2repo.sbom.generator \
                 -consoleLog \
