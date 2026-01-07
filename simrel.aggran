@@ -298,9 +298,9 @@
     <project
         name="Eclipse Graphical Editing Framework (GEF)"
         site="https://projects.eclipse.org/projects/tools.gef"
-        version="https://projects.eclipse.org/projects/tools.gef/releases/gef-classic-3.26.0"
+        version="https://projects.eclipse.org/projects/tools.gef/releases/gef-classic-3.27.0"
         news="https://github.com/eclipse-gef/gef-classic/blob/master/CHANGELOG.md"
-        releaseDate="2025-12-10"
+        releaseDate="2026-03-11"
         rank="3">
       <repository
           uri="https://github.com/eclipse-gef/gef-classic"/>
@@ -392,8 +392,8 @@
     <project
         name="Eclipse Web Tools Platform Project"
         site="https://projects.eclipse.org/projects/webtools"
-        version="https://projects.eclipse.org/projects/webtools/releases/3.40"
-        releaseDate="2025-12-10"
+        version="https://projects.eclipse.org/projects/webtools/releases/3.41"
+        releaseDate="2026-03-11"
         rank="1">
       <subproject
           name="Eclipse Web Tools Common"
@@ -1136,9 +1136,9 @@
     <project
         name="Eclipse Packaging Project"
         site="https://projects.eclipse.org/projects/technology.packaging"
-        version="https://projects.eclipse.org/projects/technology.packaging/releases/4.38.0"
+        version="https://projects.eclipse.org/projects/technology.packaging/releases/4.39.0"
         news="https://github.com/eclipse-packaging/packages/blob/master/CHANGELOG.md"
-        releaseDate="2025-12-10"
+        releaseDate="2026-03-11"
         rank="5">
       <repository
           uri="https://github.com/eclipse-packaging/packages"/>
