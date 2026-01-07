@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Mylyn">
-  <repositories location="https://download.eclipse.org/mylyn/updates/release/4.9.0/" description="Mylyn 4.9.0">
-    <features name="org.eclipse.mylyn.bugzilla.feature.feature.group" versionRange="[4.9.0.v20250920-1858]">
+  <repositories location="https://download.eclipse.org/mylyn/updates/milestone/S202601070655/" description="Mylyn 4.10.0">
+    <features name="org.eclipse.mylyn.bugzilla.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.builds.feature.feature.group" versionRange="[4.9.0.v20250920-1858]">
+    <features name="org.eclipse.mylyn.builds.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.cdt.feature.feature.group" versionRange="[5.30.0.v20250920-1858]">
+    <features name="org.eclipse.mylyn.cdt.feature.feature.group" versionRange="[5.31.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.context.feature.feature.group" versionRange="[4.9.0.v20251120-0623]">
+    <features name="org.eclipse.mylyn.context.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.commons.feature.feature.group" versionRange="[4.9.0.v20251121-0615]">
+    <features name="org.eclipse.mylyn.commons.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.commons.activity.feature.feature.group" versionRange="[4.9.0.v20250920-1858]">
+    <features name="org.eclipse.mylyn.commons.activity.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.commons.identity.feature.feature.group" versionRange="[4.9.0.v20250920-1858]">
+    <features name="org.eclipse.mylyn.commons.identity.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.commons.notifications.feature.feature.group" versionRange="[4.9.0.v20250920-1858]">
+    <features name="org.eclipse.mylyn.commons.notifications.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.commons.repositories.feature.feature.group" versionRange="[4.9.0.v20251121-0701]">
+    <features name="org.eclipse.mylyn.commons.repositories.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.egit.feature.feature.group" versionRange="[4.9.0.v20251126-1724]">
+    <features name="org.eclipse.mylyn.egit.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.gerrit.feature.feature.group" versionRange="[4.9.0.v20250920-1858]" enabled="false">
+    <features name="org.eclipse.mylyn.gerrit.feature.feature.group" versionRange="[4.10.0.v20260106-1815]" enabled="false">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.gerrit.dashboard.feature.feature.group" versionRange="[4.9.0.v20251121-1104]" enabled="false">
+    <features name="org.eclipse.mylyn.gerrit.dashboard.feature.feature.group" versionRange="[4.10.0.v20260106-1815]" enabled="false">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.git.feature.feature.group" versionRange="[4.9.0.v20250920-1858]">
+    <features name="org.eclipse.mylyn.git.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.github.feature.feature.group" versionRange="[6.10.0.v20250920-1858]">
+    <features name="org.eclipse.mylyn.github.feature.feature.group" versionRange="[6.11.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.ide.feature.feature.group" versionRange="[4.9.0.v20250920-1858]">
+    <features name="org.eclipse.mylyn.ide.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.jdt.feature.feature.group" versionRange="[4.9.0.v20251121-0451]">
+    <features name="org.eclipse.mylyn.jdt.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.jenkins.feature.feature.group" versionRange="[4.9.0.v20250920-1858]">
+    <features name="org.eclipse.mylyn.jenkins.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.monitor.feature.feature.group" versionRange="[4.9.0.v20250920-1858]">
+    <features name="org.eclipse.mylyn.monitor.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.pde.feature.feature.group" versionRange="[4.9.0.v20250920-1858]">
+    <features name="org.eclipse.mylyn.pde.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.reviews.feature.feature.group" versionRange="[4.9.0.v20250920-1858]">
+    <features name="org.eclipse.mylyn.reviews.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.tasks.feature.feature.group" versionRange="[4.9.0.v20251123-0732]">
+    <features name="org.eclipse.mylyn.tasks.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.team.feature.feature.group" versionRange="[4.9.0.v20251121-0621]">
+    <features name="org.eclipse.mylyn.team.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.versions.feature.feature.group" versionRange="[4.9.0.v20250920-1858]">
+    <features name="org.eclipse.mylyn.versions.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.mylyn.wikitext.feature.feature.group" versionRange="[4.9.0.v20251119-1306]">
+    <features name="org.eclipse.mylyn.wikitext.feature.feature.group" versionRange="[4.10.0.v20260106-1815]">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
     <mapRules xsi:type="aggregator:ExclusionRule" name="org.apache.httpcomponents.httpcore" versionRange="[4.4.16.v20221207-1049]"/>
