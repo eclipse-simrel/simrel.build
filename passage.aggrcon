@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Passage">
-  <repositories location="https://download.eclipse.org/passage/updates/release/4.4.0" description="Eclipse Passage LDC 4.4.0">
-    <features name="org.eclipse.passage.ldc.feature.feature.group" versionRange="[4.4.0.v20251130-1923]">
+  <repositories location="https://download.eclipse.org/passage/updates/milestone/S202601071026/" description="Eclipse Passage LDC 4.5.0">
+    <features name="org.eclipse.passage.ldc.feature.feature.group" versionRange="[4.5.0.v20260107-1026]">
       <categories href="simrel.aggr#//@customCategories[identifier='License%20Management']"/>
     </features>
   </repositories>
