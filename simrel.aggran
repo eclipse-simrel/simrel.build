@@ -351,8 +351,8 @@
     <project
         name="Eclipse QVT Operational"
         site="https://projects.eclipse.org/projects/modeling.qvt-oml"
-        version="https://projects.eclipse.org/projects/modeling.mmt.qvt-oml/releases/2024-09-3.11.0"
-        releaseDate="2024-09-11"
+        version="https://projects.eclipse.org/projects/modeling.qvt-oml/releases/2026-03-3.11.2-0"
+        releaseDate="2026-03-11"
         rank="1">
       <repository
           uri="https://github.com/eclipse-qvto/org.eclipse.qvto"/>
@@ -622,7 +622,7 @@
       contribution="mdt-uml2.aggrcon#/">
     <tag>modeling</tag>
     <project
-        name="Eclipse  UML2"
+        name="Eclipse UML2"
         site="https://projects.eclipse.org/projects/modeling.uml2"
         version="https://projects.eclipse.org/projects/modeling.mdt.uml2/releases/5.5.3"
         releaseDate="2022-12-07"
@@ -856,9 +856,9 @@
     <project
         name="Eclipse WindowBuilder"
         site="https://projects.eclipse.org/projects/tools.windowbuilder"
-        version="https://projects.eclipse.org/projects/tools.windowbuilder/releases/1.22.0"
+        version="https://projects.eclipse.org/projects/tools.windowbuilder/releases/1.23.0"
         news="https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v123.asciidoc"
-        releaseDate="2025-12-10"
+        releaseDate="2026-03-11"
         rank="2">
       <repository
           uri="https://github.com/eclipse-windowbuilder/windowbuilder"/>
@@ -1099,9 +1099,9 @@
     <project
         name="Eclipse Passage"
         site="https://projects.eclipse.org/projects/technology.passage"
-        version="https://projects.eclipse.org/projects/technology.passage/releases/4.3.0"
+        version="https://projects.eclipse.org/projects/technology.passage/releases/4.5.0"
         news="https://github.com/eclipse-passage/passage/releases/latest"
-        releaseDate="2025-09-10"
+        releaseDate="2026-03-04"
         rank="1">
       <repository
           uri="https://github.com/eclipse-passage/passage"/>
