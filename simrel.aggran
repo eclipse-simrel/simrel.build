@@ -619,7 +619,7 @@
   </contribution>
   <contribution
       label="UML2"
-      contribution="mdt-uml2.aggrcon#/">
+      contribution="uml2.aggrcon#/">
     <tag>modeling</tag>
     <project
         name="Eclipse UML2"

@@ -21,7 +21,7 @@
     <contributions href="emf-cdo.aggrcon#/"/>
     <contributions href="oomph.aggrcon#/"/>
     <contributions href="mat.aggrcon#/"/>
-    <contributions href="mdt-uml2.aggrcon#/"/>
+    <contributions href="uml2.aggrcon#/"/>
     <contributions href="ocl.aggrcon#/"/>
     <contributions href="m2t-acceleo.aggrcon#/"/>
     <contributions href="gmp-gmf-runtime.aggrcon#/"/>
@@ -264,7 +264,7 @@
   <customCategories identifier="Modeling" label="Modeling" description="Model definition, creation, and manipulation frameworks (e.g. EMF, OCL, GMF, M2M, M2T, GEF) and industry models (e.g. UML, JEM, XSD).">
     <features href="gmp-gmf-runtime.aggrcon#//@repositories.1/@features.0"/>
     <features href="gmp-gmf-runtime.aggrcon#//@repositories.0/@features.0"/>
-    <features href="mdt-uml2.aggrcon#//@repositories.0/@features.0"/>
+    <features href="uml2.aggrcon#//@repositories.0/@features.0"/>
     <features href="m2t-acceleo.aggrcon#//@repositories.0/@features.0"/>
     <features href="qvto.aggrcon#//@repositories.0/@features.0"/>
     <features href="qvto.aggrcon#//@repositories.0/@features.1"/>
