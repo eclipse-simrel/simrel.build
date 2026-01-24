@@ -351,7 +351,7 @@
     <project
         name="Eclipse QVT Operational"
         site="https://projects.eclipse.org/projects/modeling.qvt-oml"
-        version="https://projects.eclipse.org/projects/modeling.qvt-oml/releases/2026-03-3.11.2-0"
+        version="https://projects.eclipse.org/projects/modeling.qvt-oml/releases/2026-03-3.11.2"
         releaseDate="2026-03-11"
         rank="1">
       <repository
@@ -575,9 +575,9 @@
     <project
         name="Eclipse CDO Model Repository"
         site="https://projects.eclipse.org/projects/modeling.cdo"
-        version="https://projects.eclipse.org/projects/modeling.emf.cdo/releases/4.33.0"
+        version="https://projects.eclipse.org/projects/modeling.cdo/releases/4.34.0"
         news="https://download.eclipse.org/modeling/emf/cdo/updates/all-relnotes.html"
-        releaseDate="2025-12-10"
+        releaseDate="2026-03-11"
         rank="1">
       <repository
           uri="https://github.com/eclipse-cdo/cdo"/>
@@ -624,8 +624,8 @@
     <project
         name="Eclipse UML2"
         site="https://projects.eclipse.org/projects/modeling.uml2"
-        version="https://projects.eclipse.org/projects/modeling.mdt.uml2/releases/5.5.3"
-        releaseDate="2022-12-07"
+        version="https://projects.eclipse.org/projects/modeling.uml2/releases/2026-03-5.6.0"
+        releaseDate="2026-03-11"
         rank="1">
       <repository
           uri="https://github.com/eclipse-uml2/uml2"/>
@@ -638,8 +638,8 @@
     <project
         name="Eclipse OCL (Object Constraint Language)"
         site="https://projects.eclipse.org/projects/modeling.ocl"
-        version="https://projects.eclipse.org/projects/modeling.mdt.ocl/releases/2025-12-7.0.0"
-        releaseDate="2025-12-10"
+        version="https://projects.eclipse.org/projects/modeling.mdt.ocl/releases/2024-09-6.22.0"
+        releaseDate="2024-09-11"
         rank="1">
       <repository
           uri="https://github.com/eclipse-ocl/org.eclipse.ocl"/>
@@ -900,9 +900,9 @@
     <project
         name="Eclipse Sirius"
         site="https://projects.eclipse.org/projects/modeling.sirius"
-        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-web-2025.12.0"
+        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-web-2026.1.0"
         news="https://github.com/eclipse-sirius/sirius-desktop/releases/latest"
-        releaseDate="2025-12-04">
+        releaseDate="2026-01-28">
       <repository
           uri="https://github.com/eclipse-sirius/sirius-desktop"/>
       <repository
@@ -956,9 +956,9 @@
     <project
         name="Eclipse RCP Testing Tool"
         site="https://projects.eclipse.org/projects/technology.rcptt"
-        version="https://projects.eclipse.org/projects/technology.rcptt/releases/2.8.0"
+        version="https://projects.eclipse.org/projects/technology.rcptt/releases/2.7.4"
         news="https://github.com/eclipse-rcptt/org.eclipse.rcptt/releases/latest"
-        releaseDate="2026-01-01"
+        releaseDate="2026-03-01"
         rank="1">
       <repository
           uri="https://github.com/eclipse-rcptt/org.eclipse.rcptt"/>
@@ -1157,9 +1157,9 @@
     <project
         name="Eclipse Tycho"
         site="https://projects.eclipse.org/projects/technology.tycho"
-        version="https://projects.eclipse.org/projects/technology.tycho/releases/5.0.1"
+        version="https://projects.eclipse.org/projects/technology.tycho/releases/5.0.2"
         news="https://github.com/eclipse-tycho/tycho/blob/main/RELEASE_NOTES.md"
-        releaseDate="2025-11-28"
+        releaseDate="2026-01-24"
         rank="8">
       <repository
           uri="https://github.com/eclipse-tycho/tycho"/>
