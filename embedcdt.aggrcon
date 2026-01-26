@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Embedded CDT">
-  <repositories location="https://download.eclipse.org/embed-cdt/releases/6.6.1/p2/" description="Embed CDT Updates">
-    <features name="org.eclipse.embedcdt.codered.feature.group" versionRange="[6.6.1.202408270735]">
+  <repositories location="https://download.eclipse.org/embed-cdt/release-candidates/6.7.0-202601261446/p2" description="Embed CDT Updates">
+    <features name="org.eclipse.embedcdt.codered.feature.group" versionRange="[6.7.0.202601261446]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.embedcdt.debug.gdbjtag.jlink.feature.group" versionRange="[6.6.1.202408270735]">
+    <features name="org.eclipse.embedcdt.debug.gdbjtag.jlink.feature.group" versionRange="[6.7.0.202601261446]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.embedcdt.debug.gdbjtag.openocd.feature.group" versionRange="[6.6.1.202408270735]">
+    <features name="org.eclipse.embedcdt.debug.gdbjtag.openocd.feature.group" versionRange="[6.7.0.202601261446]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.embedcdt.debug.gdbjtag.pyocd.feature.group" versionRange="[6.6.1.202408270735]">
+    <features name="org.eclipse.embedcdt.debug.gdbjtag.pyocd.feature.group" versionRange="[6.7.0.202601261446]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.embedcdt.debug.gdbjtag.qemu.feature.group" versionRange="[6.6.1.202408270735]">
+    <features name="org.eclipse.embedcdt.debug.gdbjtag.qemu.feature.group" versionRange="[6.7.0.202601261446]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.embedcdt.doc.user.feature.group" versionRange="[6.6.1.202408270735]">
+    <features name="org.eclipse.embedcdt.doc.user.feature.group" versionRange="[6.7.0.202601261446]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.embedcdt.managedbuild.cross.arm.feature.group" versionRange="[6.6.1.202408270735]">
+    <features name="org.eclipse.embedcdt.managedbuild.cross.arm.feature.group" versionRange="[6.7.0.202601261446]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.embedcdt.managedbuild.cross.riscv.feature.group" versionRange="[6.6.1.202408270735]">
+    <features name="org.eclipse.embedcdt.managedbuild.cross.riscv.feature.group" versionRange="[6.7.0.202601261446]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.embedcdt.packs.feature.group" versionRange="[6.6.1.202408270735]">
+    <features name="org.eclipse.embedcdt.packs.feature.group" versionRange="[6.7.0.202601261446]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.embedcdt.templates.ad.feature.group" versionRange="[6.6.1.202408270735]">
+    <features name="org.eclipse.embedcdt.templates.ad.feature.group" versionRange="[6.7.0.202601261446]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.embedcdt.templates.cortexm.feature.group" versionRange="[6.6.1.202408270735]">
+    <features name="org.eclipse.embedcdt.templates.cortexm.feature.group" versionRange="[6.7.0.202601261446]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.embedcdt.templates.freescale.feature.group" versionRange="[6.6.1.202408270735]">
+    <features name="org.eclipse.embedcdt.templates.freescale.feature.group" versionRange="[6.7.0.202601261446]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.embedcdt.templates.sifive.feature.group" versionRange="[6.6.1.202408270735]">
+    <features name="org.eclipse.embedcdt.templates.sifive.feature.group" versionRange="[6.7.0.202601261446]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.embedcdt.templates.stm.feature.group" versionRange="[6.6.1.202408270735]">
+    <features name="org.eclipse.embedcdt.templates.stm.feature.group" versionRange="[6.7.0.202601261446]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.embedcdt.templates.xpack.feature.group" versionRange="[6.6.1.202408270735]">
+    <features name="org.eclipse.embedcdt.templates.xpack.feature.group" versionRange="[6.7.0.202601261446]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
-    <features name="org.eclipse.embedcdt.feature.group" versionRange="[6.6.1.202408270735]">
+    <features name="org.eclipse.embedcdt.feature.group" versionRange="[6.7.0.202601261446]">
       <categories href="simrel.aggr#//@customCategories[identifier='Mobile%20and%20Device%20Development']"/>
     </features>
   </repositories>
