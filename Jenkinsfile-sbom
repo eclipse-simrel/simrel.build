@@ -166,6 +166,7 @@ PROMOTE_DEPENDENCY_TRACK=${env.PROMOTE_DEPENDENCY_TRACK}
                 -index \
                 dependency-track-sbom/index.html \
                 -vmargs \
+                -Xmx3G \
                 -Dfile.encoding=UTF-8
 
               cbi-sbom/cbi-sbom \
