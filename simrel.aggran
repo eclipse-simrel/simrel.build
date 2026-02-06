@@ -719,14 +719,6 @@
     </project>
   </contribution>
   <contribution
-      contribution="ptp.aggrcon#/">
-    <project
-        name="Eclipse Parallel Tools Platform (PTP)"
-        site="https://projects.eclipse.org/projects/tools.ptp"
-        version="https://projects.eclipse.org/projects/tools.ptp/releases/9.4.0"
-        releaseDate="2020-03-18"/>
-  </contribution>
-  <contribution
       contribution="emft-eef.aggrcon#/">
     <project
         name="Eclipse Extended Editing Framework (EEF)"
@@ -1113,8 +1105,8 @@
     <project
         name="Eclipse MoDisco"
         site="https://projects.eclipse.org/projects/modeling.modisco"
-        version="https://projects.eclipse.org/projects/modeling.modisco/releases/2025-03-1.5.6"
-        releaseDate="2025-03-12">
+        version="https://projects.eclipse.org/projects/modeling.modisco/releases/2026-03-1.6.0"
+        releaseDate="2026-03-11">
       <repository
           uri="https://github.com/eclipse-modisco/org.eclipse.modisco"/>
     </project>
