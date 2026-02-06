@@ -16,7 +16,7 @@
     <features name="org.eclipse.dltk.mylyn.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Collaboration']"/>
     </features>
-    <features name="org.eclipse.dltk.rse.feature.group">
+    <features name="org.eclipse.dltk.rse.feature.group" enabled="false">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
