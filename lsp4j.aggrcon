@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="LSP4J">
-  <repositories location="https://download.eclipse.org/lsp4j/updates/releases/0.24.0/" description="Lsp4j p2 repository">
-    <features name="org.eclipse.lsp4j.sdk.feature.group" versionRange="[0.24.0.v20250131-1747]">
+  <repositories location="https://download.eclipse.org/lsp4j/updates/releases/1.0.0/" description="Lsp4j p2 repository">
+    <features name="org.eclipse.lsp4j.sdk.feature.group" versionRange="[1.0.0.v20260209-1724]">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
