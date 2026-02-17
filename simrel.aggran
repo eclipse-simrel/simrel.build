@@ -365,8 +365,8 @@
     <project
         name="Eclipse Modeling Workflow Engine"
         site="https://projects.eclipse.org/projects/modeling.mwe"
-        version="https://projects.eclipse.org/projects/modeling.emf.mwe/releases/2.22.0"
-        releaseDate="2025-05-24"
+        version="https://projects.eclipse.org/projects/modeling.mwe/releases/2.25.0"
+        releaseDate="2026-02-23"
         rank="1">
       <repository
           uri="https://github.com/eclipse-mwe/mwe"/>
@@ -509,6 +509,7 @@
     </project>
   </contribution>
   <contribution
+      enabled="false"
       contribution="tm.aggrcon#/">
     <project
         name="Eclipse Target Management: Terminal and Remote System Explorer (RSE)"
@@ -638,8 +639,8 @@
     <project
         name="Eclipse OCL (Object Constraint Language)"
         site="https://projects.eclipse.org/projects/modeling.ocl"
-        version="https://projects.eclipse.org/projects/modeling.mdt.ocl/releases/2024-09-6.22.0"
-        releaseDate="2024-09-11"
+        version="https://projects.eclipse.org/projects/modeling.ocl/releases/2026-03-6.23.0"
+        releaseDate="2026-03-11"
         rank="1">
       <repository
           uri="https://github.com/eclipse-ocl/org.eclipse.ocl"/>
@@ -698,8 +699,8 @@
     <project
         name="Eclipse Xtext"
         site="https://projects.eclipse.org/projects/modeling.xtext"
-        version="https://projects.eclipse.org/projects/modeling.tmf.xtext/releases/2.39.0"
-        releaseDate="2025-05-26"
+        version="https://projects.eclipse.org/projects/modeling.xtext/releases/2.42.0"
+        releaseDate="2026-02-23"
         rank="3">
       <repository
           uri="https://github.com/eclipse-xtext/xtext"/>
@@ -832,9 +833,9 @@
     <project
         name="Eclipse Scout"
         site="https://projects.eclipse.org/projects/technology.scout"
-        version="https://projects.eclipse.org/projects/technology.scout/releases/25.1"
+        version="https://projects.eclipse.org/projects/technology.scout/releases/26.1"
         news="https://eclipsescout.github.io/"
-        releaseDate="2025-03-12">
+        releaseDate="2026-03-11">
       <repository
           uri="https://github.com/eclipse-scout/scout.docs"/>
       <repository
@@ -907,8 +908,8 @@
     <project
         name="Eclipse QVTd (QVT Declarative)"
         site="https://projects.eclipse.org/projects/modeling.qvtd"
-        version="https://projects.eclipse.org/projects/modeling.mmt.qvtd/releases/2025-12-7.0.0"
-        releaseDate="2025-12-10">
+        version="https://projects.eclipse.org/projects/modeling.qvtd/releases/2026-03-0.34.0"
+        releaseDate="2026-03-11">
       <repository
           uri="https://github.com/eclipse-qvtd/org.eclipse.qvtd"/>
     </project>
@@ -1010,9 +1011,9 @@
     <project
         name="Eclipse LSP4J"
         site="https://projects.eclipse.org/projects/technology.lsp4j"
-        version="https://projects.eclipse.org/projects/technology.lsp4j/releases/0.24.0"
+        version="https://projects.eclipse.org/projects/technology.lsp4j/releases/1.0.0"
         news="https://github.com/eclipse-lsp4j/lsp4j/blob/main/CHANGELOG.md"
-        releaseDate="2025-01-31"
+        releaseDate="2026-02-09"
         rank="5">
       <repository
           uri="https://github.com/eclipse-lsp4j/lsp4j"/>
