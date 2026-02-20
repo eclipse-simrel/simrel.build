@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Eclipse">
-  <repositories location="https://download.eclipse.org/eclipse/updates/4.39-I-builds/I20260212-1800" description="Eclipse and Equinox">
+  <repositories location="https://download.eclipse.org/eclipse/updates/4.39-I-builds/I20260219-0810" description="Eclipse and Equinox">
     <products name="org.eclipse.sdk.ide"/>
     <products name="org.eclipse.platform.ide"/>
     <bundles name="org.eclipse.equinox.slf4j"/>
