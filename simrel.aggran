@@ -8,7 +8,7 @@
     layoutWidth="2000"
     layoutHeight="800"
     aggregation="simrel.aggr#/">
-  <levels>52</levels>
+  <levels>50</levels>
   <levels>40</levels>
   <levels>30</levels>
   <levels>21</levels>
@@ -506,19 +506,6 @@
         rank="3">
       <repository
           uri="https://github.com/eclipse-embed-cdt/eclipse-plugins"/>
-    </project>
-  </contribution>
-  <contribution
-      enabled="false"
-      contribution="tm.aggrcon#/">
-    <project
-        name="Eclipse Target Management: Terminal and Remote System Explorer (RSE)"
-        site="https://projects.eclipse.org/projects/tools.tm"
-        version="https://projects.eclipse.org/projects/tools.tm/releases/4.5.700"
-        releaseDate="2024-09-11"
-        rank="1">
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/tm/org.eclipse.tm"/>
     </project>
   </contribution>
   <contribution
