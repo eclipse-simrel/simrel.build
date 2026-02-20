@@ -14,7 +14,6 @@
     <contributions href="mylyn.aggrcon#/"/>
     <contributions href="cdt.aggrcon#/"/>
     <contributions href="embedcdt.aggrcon#/"/>
-    <contributions href="tm.aggrcon#/"/>
     <contributions href="dltk.aggrcon#/"/>
     <contributions href="rap-tools.aggrcon#/"/>
     <contributions href="epp-mpc.aggrcon#/"/>
@@ -172,8 +171,6 @@
   </customCategories>
   <customCategories identifier="General Purpose Tools" label="General Purpose Tools" description="Tools that can be used by a wide variety of developers.">
     <features href="ep.aggrcon#//@repositories.0/@features.2"/>
-    <features href="tm.aggrcon#//@repositories.0/@features.0"/>
-    <features href="tm.aggrcon#//@repositories.0/@features.1"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.0"/>
     <features href="epp-mpc.aggrcon#//@repositories.0/@features.0"/>
     <features href="tmf-xtext.aggrcon#//@repositories.0/@features.0"/>
@@ -228,8 +225,6 @@
     <features href="passage.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Mobile and Device Development" label="Mobile and Device Development" description="Tools used to develop mobile and device applications.">
-    <features href="tm.aggrcon#//@repositories.0/@features.0"/>
-    <features href="tm.aggrcon#//@repositories.0/@features.1"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.2"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.4"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.5"/>
