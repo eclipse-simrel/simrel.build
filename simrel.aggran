@@ -72,7 +72,7 @@
   <gitRepositoryFilter>.*website.*</gitRepositoryFilter>
   <gitRepositoryFilter>.*/eclipse-tracecompass/tmll</gitRepositoryFilter>
   <gitRepositoryFilter>.*/eclipse-ide-snap</gitRepositoryFilter>
-  <gitRepositoryFilter>.*/papyrus/discussion</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/papyrus/(discussion|org.eclipse.papyrus-devdoc|org.eclipse.papyrus-web)</gitRepositoryFilter>
   <gitRepositoryFilter>.*/(e|j)git-permissions</gitRepositoryFilter>
   <gitRepositoryFilter>.*/eclipse-gef/gef$</gitRepositoryFilter>
   <gitRepositoryFilter>.*/eclipse-jdt/eclipse.jdt.core.binaries</gitRepositoryFilter>
@@ -775,8 +775,6 @@
         version="https://projects.eclipse.org/projects/modeling.mdt.papyrus/releases/7.0.0"
         releaseDate="2025-06-11">
       <repository
-          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus"/>
-      <repository
           uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-bpmn"/>
       <repository
           uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-cdo"/>
@@ -808,8 +806,6 @@
           uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-sirius"/>
       <repository
           uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-sysml16"/>
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-web"/>
       <repository
           uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-web.sysml16"/>
     </project>
