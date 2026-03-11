@@ -1084,6 +1084,7 @@
     </project>
   </contribution>
   <contribution
+      enabled="false"
       label="MoDisco"
       contribution="modisco.aggrcon#/">
     <project
