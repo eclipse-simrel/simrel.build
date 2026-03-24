@@ -847,22 +847,6 @@
     </project>
   </contribution>
   <contribution
-      enabled="false"
-      label="TCF"
-      contribution="tcf.aggrcon#/">
-    <project
-        name="Eclipse Target Communication Framework"
-        site="https://projects.eclipse.org/projects/tools.tcf"
-        version="https://projects.eclipse.org/projects/tools.tcf/releases/1.9.0"
-        releaseDate="2024-03-25"
-        rank="1">
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/tcf/tcf"/>
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/tcf/tcf.agent"/>
-    </project>
-  </contribution>
-  <contribution
       label="Sirius"
       contribution="sirius.aggrcon#/">
     <tag>modeling</tag>
@@ -1071,19 +1055,6 @@
         rank="1">
       <repository
           uri="https://github.com/eclipse-passage/passage"/>
-    </project>
-  </contribution>
-  <contribution
-      enabled="false"
-      label="MoDisco"
-      contribution="modisco.aggrcon#/">
-    <project
-        name="Eclipse MoDisco"
-        site="https://projects.eclipse.org/projects/modeling.modisco"
-        version="https://projects.eclipse.org/projects/modeling.modisco/releases/2026-03-1.6.0"
-        releaseDate="2026-03-11">
-      <repository
-          uri="https://github.com/eclipse-modisco/org.eclipse.modisco"/>
     </project>
   </contribution>
   <contribution
