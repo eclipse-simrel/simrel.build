@@ -36,7 +36,6 @@
     <contributions href="scout.aggrcon#/"/>
     <contributions href="windowbuilder.aggrcon#/"/>
     <contributions href="swtbot.aggrcon#/"/>
-    <contributions href="tcf.aggrcon#/"/>
     <contributions href="sirius.aggrcon#/"/>
     <contributions href="qvtd.aggrcon#/"/>
     <contributions href="xwt.aggrcon#/"/>
@@ -51,7 +50,6 @@
     <contributions href="tm4e.aggrcon#/"/>
     <contributions href="wildwebdeveloper.aggrcon#/"/>
     <contributions href="passage.aggrcon#/"/>
-    <contributions href="modisco.aggrcon#/"/>
   </validationSets>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="aarch64"/>
@@ -229,9 +227,6 @@
     <features href="cdt.aggrcon#//@repositories.0/@features.4"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.5"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.6"/>
-    <features href="tcf.aggrcon#//@repositories.0/@features.0"/>
-    <features href="tcf.aggrcon#//@repositories.0/@features.1"/>
-    <features href="tcf.aggrcon#//@repositories.0/@features.2"/>
     <features href="embedcdt.aggrcon#//@repositories.0/@features.0"/>
     <features href="embedcdt.aggrcon#//@repositories.0/@features.1"/>
     <features href="embedcdt.aggrcon#//@repositories.0/@features.2"/>
@@ -297,7 +292,6 @@
     <features href="emf-compare.aggrcon#//@repositories.0/@features.5"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.6"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.7"/>
-    <features href="modisco.aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-ecoretools.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Performance, Profiling and Tracing Tools" label="Performance, Profiling and Tracing Tools" description="Tools to assit analysis of running code.">
@@ -337,7 +331,6 @@
     <features href="pdt.aggrcon#//@repositories.0/@features.3"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.4"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.5"/>
-    <features href="tcf.aggrcon#//@repositories.0/@features.2"/>
     <features href="tm4e.aggrcon#//@repositories.0/@features.0"/>
     <features href="tm4e.aggrcon#//@repositories.0/@features.1"/>
     <features href="tmf-xtext.aggrcon#//@repositories.0/@features.1"/>
@@ -418,7 +411,6 @@
   <contacts name="Ed Merks" email="ed.merks@gmail.com"/>
   <contacts name="Ed Willink" email="ed@willink.me.uk"/>
   <contacts name="Eike Stepper" email="stepper@esc-net.de"/>
-  <contacts name="Eugene Tarassov" email="eugenet@xilinx.com"/>
   <contacts name="Evgeny Mandrikov" email="mandrikov@gmail.com"/>
   <contacts name="Fred Bricon" email="fbricon@gmail.com"/>
   <contacts name="Frederic Gurr" email="frederic.gurr@eclipse.org"/>
