@@ -3,12 +3,12 @@
     xmi:version="2.0"
     xmlns:xmi="http://www.omg.org/XMI"
     xmlns:analyzer="https://www.eclipse.org/cbi/p2repo/2021/aggregator/analyzer"
-    releaseDate="2026-03-11"
+    releaseDate="2026-06-10"
     exclusion="tooling.*|.*\.source|.*\.source\.feature\.group|.*\.feature\.jar"
     layoutWidth="2000"
     layoutHeight="800"
     aggregation="simrel.aggr#/">
-  <levels>50</levels>
+  <levels>48</levels>
   <levels>40</levels>
   <levels>30</levels>
   <levels>21</levels>
@@ -121,9 +121,9 @@
     <project
         name="Eclipse Nebula - Supplemental Widgets for SWT"
         site="https://projects.eclipse.org/projects/technology.nebula"
-        version="https://projects.eclipse.org/projects/technology.nebula/releases/3.3.0"
+        version="https://projects.eclipse.org/projects/technology.nebula/releases/3.4.0"
         news="https://github.com/EclipseNebula/nebula/releases/latest"
-        releaseDate="2025-12-12"
+        releaseDate="2026-06-10"
         rank="3">
       <repository
           uri="https://github.com/EclipseNebula/nebula"/>
@@ -136,9 +136,9 @@
     <project
         name="Eclipse BIRT (Business Intelligence and Reporting Tools)"
         site="https://projects.eclipse.org/projects/technology.birt"
-        version="https://projects.eclipse.org/projects/technology.birt/releases/4.23.0"
+        version="https://projects.eclipse.org/projects/technology.birt/releases/4.24.0"
         news="https://github.com/eclipse-birt/birt/releases/latest"
-        releaseDate="2026-03-11">
+        releaseDate="2026-06-10">
       <repository
           uri="https://github.com/eclipse-birt/birt"/>
     </project>
@@ -181,7 +181,7 @@
       <subproject
           name="Eclipse Equinox"
           site="https://projects.eclipse.org/projects/eclipse.equinox"
-          news="https://eclipse.dev/eclipse/news/4.39/platform_isv.html"
+          news="https://eclipse.dev/eclipse/news/4.40/platform_isv.html"
           rank="7">
         <tag>committers</tag>
         <tag>cpp</tag>
@@ -204,7 +204,7 @@
       <subproject
           name="Eclipse JDT (Java development tools)"
           site="https://projects.eclipse.org/projects/eclipse.jdt"
-          news="https://eclipse.dev/eclipse/news/4.39/jdt.html"
+          news="https://eclipse.dev/eclipse/news/4.40/jdt.html"
           rank="7">
         <tag>committers</tag>
         <tag>dsl</tag>
@@ -226,7 +226,7 @@
       <subproject
           name="Eclipse PDE"
           site="https://projects.eclipse.org/projects/eclipse.pde"
-          news="https://eclipse.dev/eclipse/news/4.39/pde.html"
+          news="https://eclipse.dev/eclipse/news/4.40/pde.html"
           rank="8">
         <tag>committers</tag>
         <tag>dsl</tag>
@@ -241,7 +241,7 @@
       <subproject
           name="Eclipse Platform"
           site="https://projects.eclipse.org/projects/eclipse.platform"
-          news="https://eclipse.dev/eclipse/news/4.39/platform.html"
+          news="https://eclipse.dev/eclipse/news/4.40/platform.html"
           rank="8">
         <tag>committers</tag>
         <tag>cpp</tag>
@@ -365,8 +365,8 @@
     <project
         name="Eclipse Modeling Workflow Engine"
         site="https://projects.eclipse.org/projects/modeling.mwe"
-        version="https://projects.eclipse.org/projects/modeling.mwe/releases/2.25.0"
-        releaseDate="2026-02-23"
+        version="https://projects.eclipse.org/projects/modeling.mwe/releases/2.26.0"
+        releaseDate="2026-05-25"
         rank="1">
       <repository
           uri="https://github.com/eclipse-mwe/mwe"/>
@@ -398,22 +398,19 @@
       <subproject
           name="Eclipse Web Tools Common"
           site="https://projects.eclipse.org/projects/webtools.common"
-          news="https://github.com/eclipse-wtp-common/webtools.common/releases/latest"
           rank="1">
         <repository
             uri="https://github.com/eclipse-wtp-common/webtools.common"/>
       </subproject>
       <subproject
           name="Eclipse Dali Java Persistence Tools"
-          site="https://projects.eclipse.org/projects/webtools.dali"
-          news="https://github.com/eclipse-dali/webtools.dali/releases/latest">
+          site="https://projects.eclipse.org/projects/webtools.dali">
         <repository
             uri="https://github.com/eclipse-dali/webtools.dali"/>
       </subproject>
       <subproject
           name="Eclipse Tools for Java EE"
           site="https://projects.eclipse.org/projects/webtools.jeetools"
-          news="https://github.com/eclipse-jeetools/webtools.javaee/releases/latest"
           rank="1">
         <repository
             uri="https://github.com/eclipse-jeetools/webtools.javaee"/>
@@ -439,15 +436,13 @@
       </subproject>
       <subproject
           name="Eclipse WTP Source Editing"
-          site="https://projects.eclipse.org/projects/webtools.sourceediting"
-          news="https://github.com/eclipse-sourceediting/sourceediting/releases/latest">
+          site="https://projects.eclipse.org/projects/webtools.sourceediting">
         <repository
             uri="https://github.com/eclipse-sourceediting/sourceediting"/>
       </subproject>
       <subproject
           name="Eclipse Web Services Tools"
           site="https://projects.eclipse.org/projects/webtools.webservices"
-          news="https://github.com/eclipse-webservices/webservices/releases/latest"
           rank="2">
         <repository
             uri="https://github.com/eclipse-webservices/webservices"/>
@@ -483,9 +478,9 @@
     <project
         name="Eclipse CDT (C/C++ Development Tooling)"
         site="https://projects.eclipse.org/projects/tools.cdt"
-        version="https://projects.eclipse.org/projects/tools.cdt/releases/cdt-12.3.0-cdt-lsp-3.4.0"
-        news="https://github.com/eclipse-cdt/cdt/blob/main/NewAndNoteworthy/CDT-12.4.md"
-        releaseDate="2025-12-10"
+        version="https://projects.eclipse.org/projects/tools.cdt/releases/cdt-12.4.0-cdt-lsp-3.5.0"
+        news="https://github.com/eclipse-cdt/cdt/blob/main/NewAndNoteworthy/CDT-12.5.md"
+        releaseDate="2026-03-11"
         rank="3">
       <repository
           uri="https://github.com/eclipse-cdt/cdt"/>
@@ -654,7 +649,6 @@
         name="Eclipse GMF Runtime"
         site="https://projects.eclipse.org/projects/modeling.gmf-runtime"
         version="https://projects.eclipse.org/projects/modeling.gmf-runtime/releases/1.16.8"
-        news="https://github.com/eclipse-gmf-runtime/gmf-runtime/releases/latest"
         releaseDate="2025-12-01"
         rank="3">
       <repository
@@ -686,8 +680,8 @@
     <project
         name="Eclipse Xtext"
         site="https://projects.eclipse.org/projects/modeling.xtext"
-        version="https://projects.eclipse.org/projects/modeling.xtext/releases/2.42.0"
-        releaseDate="2026-02-23"
+        version="https://projects.eclipse.org/projects/modeling.xtext/releases/2.43.0"
+        releaseDate="2026-05-25"
         rank="3">
       <repository
           uri="https://github.com/eclipse-xtext/xtext"/>
@@ -700,7 +694,6 @@
         name="Eclipse PHP Development Tools"
         site="https://projects.eclipse.org/projects/tools.pdt"
         version="https://projects.eclipse.org/projects/tools.pdt/releases/8.4"
-        news="https://github.com/eclipse-pdt/pdt/releases/latest"
         releaseDate="2025-12-10">
       <repository
           uri="https://github.com/eclipse-pdt/pdt"/>
@@ -876,9 +869,9 @@
     <project
         name="Eclipse Sirius"
         site="https://projects.eclipse.org/projects/modeling.sirius"
-        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-web-2026.1.0"
+        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-web-2023.5.0"
         news="https://github.com/eclipse-sirius/sirius-desktop/releases/latest"
-        releaseDate="2026-01-28">
+        releaseDate="2026-05-20">
       <repository
           uri="https://github.com/eclipse-sirius/sirius-desktop"/>
       <repository
@@ -916,9 +909,9 @@
     <project
         name="Eclipse Trace Compass"
         site="https://projects.eclipse.org/projects/tools.tracecompass"
-        version="https://projects.eclipse.org/projects/tools.tracecompass/releases/11.2.0"
+        version="https://projects.eclipse.org/projects/tools.tracecompass/releases/11.3"
         news="https://github.com/eclipse-tracecompass/org.eclipse.tracecompass/wiki/NewIn11.2"
-        releaseDate="2025-12-10"
+        releaseDate="2026-03-18"
         rank="1">
       <repository
           uri="https://github.com/eclipse-tracecompass/org.eclipse.tracecompass"/>
@@ -932,9 +925,8 @@
     <project
         name="Eclipse RCP Testing Tool"
         site="https://projects.eclipse.org/projects/technology.rcptt"
-        version="https://projects.eclipse.org/projects/technology.rcptt/releases/2.7.4"
-        news="https://github.com/eclipse-rcptt/org.eclipse.rcptt/releases/latest"
-        releaseDate="2026-03-01"
+        version="https://projects.eclipse.org/projects/technology.rcptt/releases/2.6.2"
+        releaseDate="2026-04-01"
         rank="1">
       <repository
           uri="https://github.com/eclipse-rcptt/org.eclipse.rcptt"/>
@@ -981,7 +973,6 @@
         name="Eclipse EclEmma"
         site="https://projects.eclipse.org/projects/technology.eclemma"
         version="https://projects.eclipse.org/projects/technology.eclemma/releases/3.1.11"
-        news="https://github.com/eclipse-eclemma/eclemma/releases/latest"
         releaseDate="2025-11-26">
       <repository
           uri="https://github.com/eclipse-eclemma/eclemma"/>
@@ -1047,7 +1038,6 @@
         name="Eclipse Wild Web Developer"
         site="https://projects.eclipse.org/projects/tools.wildwebdeveloper"
         version="https://projects.eclipse.org/projects/tools.wildwebdeveloper/releases/1.4.0"
-        news="https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper/releases/latest"
         releaseDate="2025-11-28"
         rank="3">
       <repository
@@ -1075,9 +1065,9 @@
     <project
         name="Eclipse Passage"
         site="https://projects.eclipse.org/projects/technology.passage"
-        version="https://projects.eclipse.org/projects/technology.passage/releases/4.5.0"
+        version="https://projects.eclipse.org/projects/technology.passage/releases/4.6.0"
         news="https://github.com/eclipse-passage/passage/releases/latest"
-        releaseDate="2026-03-04"
+        releaseDate="2026-06-08"
         rank="1">
       <repository
           uri="https://github.com/eclipse-passage/passage"/>
@@ -1113,9 +1103,9 @@
     <project
         name="Eclipse Packaging Project"
         site="https://projects.eclipse.org/projects/technology.packaging"
-        version="https://projects.eclipse.org/projects/technology.packaging/releases/4.39.0"
+        version="https://projects.eclipse.org/projects/technology.packaging/releases/4.40.0"
         news="https://github.com/eclipse-packaging/packages/blob/master/CHANGELOG.md"
-        releaseDate="2026-03-11"
+        releaseDate="2026-06-10"
         rank="5">
       <repository
           uri="https://github.com/eclipse-packaging/packages"/>
