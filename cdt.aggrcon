@@ -63,6 +63,7 @@
     </features>
     <features name="org.eclipse.remote.serial.feature.group" versionRange="[12.5.0.202603111352]"/>
     <features name="org.eclipse.remote.proxy.feature.group" versionRange="[12.5.0.202603111352]"/>
+    <features name="org.eclipse.cdt.llvm.dsf.lldb.feature.group" versionRange="[12.5.0.202603111352]"/>
   </repositories>
   <repositories location="https://download.eclipse.org/tools/cdt/builds/cdt-lsp-3.6/cdt-lsp-3.6.0-m1/">
     <features name="org.eclipse.cdt.lsp.feature.feature.group" versionRange="[3.6.0.202603111450]">
