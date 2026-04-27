@@ -162,9 +162,9 @@
     <project
         name="Eclipse Communications Framework"
         site="https://projects.eclipse.org/projects/rt.ecf"
-        version="https://projects.eclipse.org/projects/rt.ecf/releases/3.16.5"
+        version="https://projects.eclipse.org/projects/rt.ecf/releases/3.16.8"
         news="https://github.com/eclipse-ecf/ecf/blob/master/README.md"
-        releaseDate="2025-09-15"
+        releaseDate="2026-04-16"
         rank="3">
       <repository
           uri="https://github.com/eclipse-ecf/ecf"/>
@@ -298,9 +298,9 @@
     <project
         name="Eclipse Graphical Editing Framework (GEF)"
         site="https://projects.eclipse.org/projects/tools.gef"
-        version="https://projects.eclipse.org/projects/tools.gef/releases/gef-classic-3.27.0"
+        version="https://projects.eclipse.org/projects/tools.gef/releases/gef-classic-3.28.0"
         news="https://github.com/eclipse-gef/gef-classic/blob/master/CHANGELOG.md"
-        releaseDate="2026-03-11"
+        releaseDate="2026-06-10"
         rank="3">
       <repository
           uri="https://github.com/eclipse-gef/gef-classic"/>
@@ -594,8 +594,8 @@
     <project
         name="Eclipse Memory Analyzer"
         site="https://projects.eclipse.org/projects/tools.mat"
-        version="https://projects.eclipse.org/projects/tools.mat/releases/1.16.1"
-        releaseDate="2025-01-10">
+        version="https://projects.eclipse.org/projects/tools.mat/releases/1.17.0"
+        releaseDate="2026-06-10">
       <repository
           uri="https://github.com/eclipse-mat/mat"/>
     </project>
@@ -607,8 +607,8 @@
     <project
         name="Eclipse UML2"
         site="https://projects.eclipse.org/projects/modeling.uml2"
-        version="https://projects.eclipse.org/projects/modeling.uml2/releases/2026-03-5.6.0"
-        releaseDate="2026-03-11"
+        version="https://projects.eclipse.org/projects/modeling.uml2/releases/2026-06-5.6.1"
+        releaseDate="2026-06-10"
         rank="1">
       <repository
           uri="https://github.com/eclipse-uml2/uml2"/>
@@ -621,8 +621,8 @@
     <project
         name="Eclipse OCL (Object Constraint Language)"
         site="https://projects.eclipse.org/projects/modeling.ocl"
-        version="https://projects.eclipse.org/projects/modeling.ocl/releases/2026-03-6.23.0"
-        releaseDate="2026-03-11"
+        version="https://projects.eclipse.org/projects/modeling.ocl/releases/2026-06-6.24.0"
+        releaseDate="2026-06-10"
         rank="1">
       <repository
           uri="https://github.com/eclipse-ocl/org.eclipse.ocl"/>
@@ -825,9 +825,9 @@
     <project
         name="Eclipse WindowBuilder"
         site="https://projects.eclipse.org/projects/tools.windowbuilder"
-        version="https://projects.eclipse.org/projects/tools.windowbuilder/releases/1.23.0"
-        news="https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v123.asciidoc"
-        releaseDate="2026-03-11"
+        version="https://projects.eclipse.org/projects/tools.windowbuilder/releases/1.24.0"
+        news="https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v124.asciidoc"
+        releaseDate="2026-06-10"
         rank="2">
       <repository
           uri="https://github.com/eclipse-windowbuilder/windowbuilder"/>
@@ -853,9 +853,9 @@
     <project
         name="Eclipse Sirius"
         site="https://projects.eclipse.org/projects/modeling.sirius"
-        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-web-2023.5.0"
+        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-desktop-7.6.0"
         news="https://github.com/eclipse-sirius/sirius-desktop/releases/latest"
-        releaseDate="2026-05-20">
+        releaseDate="2026-06-01">
       <repository
           uri="https://github.com/eclipse-sirius/sirius-desktop"/>
       <repository
@@ -868,8 +868,8 @@
     <project
         name="Eclipse QVTd (QVT Declarative)"
         site="https://projects.eclipse.org/projects/modeling.qvtd"
-        version="https://projects.eclipse.org/projects/modeling.qvtd/releases/2026-03-0.34.0"
-        releaseDate="2026-03-11">
+        version="https://projects.eclipse.org/projects/modeling.qvtd/releases/2026-06-0.35.0"
+        releaseDate="2026-06-10">
       <repository
           uri="https://github.com/eclipse-qvtd/org.eclipse.qvtd"/>
     </project>
@@ -893,9 +893,9 @@
     <project
         name="Eclipse Trace Compass"
         site="https://projects.eclipse.org/projects/tools.tracecompass"
-        version="https://projects.eclipse.org/projects/tools.tracecompass/releases/11.3"
-        news="https://github.com/eclipse-tracecompass/org.eclipse.tracecompass/wiki/NewIn11.2"
-        releaseDate="2026-03-18"
+        version="https://projects.eclipse.org/projects/tools.tracecompass/releases/12.0.0"
+        news="https://github.com/eclipse-tracecompass/org.eclipse.tracecompass/wiki/NewIn11.3"
+        releaseDate="2026-06-10"
         rank="1">
       <repository
           uri="https://github.com/eclipse-tracecompass/org.eclipse.tracecompass"/>
@@ -909,8 +909,9 @@
     <project
         name="Eclipse RCP Testing Tool"
         site="https://projects.eclipse.org/projects/technology.rcptt"
-        version="https://projects.eclipse.org/projects/technology.rcptt/releases/2.6.2"
-        releaseDate="2026-04-01"
+        version="https://projects.eclipse.org/projects/technology.rcptt/releases/2.8.1"
+        news="https://github.com/eclipse-rcptt/org.eclipse.rcptt/releases/latest"
+        releaseDate="2026-04-03"
         rank="1">
       <repository
           uri="https://github.com/eclipse-rcptt/org.eclipse.rcptt"/>
@@ -982,9 +983,9 @@
     <project
         name="Eclipse LSP4E"
         site="https://projects.eclipse.org/projects/technology.lsp4e"
-        version="https://projects.eclipse.org/projects/technology.lsp4e/releases/0.30.0"
+        version="https://projects.eclipse.org/projects/technology.lsp4e/releases/0.30.2"
         news="https://github.com/eclipse-lsp4e/lsp4e/releases/latest"
-        releaseDate="2026-02-11"
+        releaseDate="2026-04-09"
         rank="6">
       <repository
           uri="https://github.com/eclipse-lsp4e/lsp4e"/>
