@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="ASCII"?>
-<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="OCL for 2026-03">
-  <repositories location="https://download.eclipse.org/modeling/mdt/ocl/builds/release/6.23.0" description="OCL">
-    <features name="org.eclipse.ocl.all.sdk.feature.group" versionRange="[5.23.0,5.24.0)">
+<aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="OCL for 2026-06">
+  <repositories location="https://download.eclipse.org/modeling/mdt/ocl/builds/milestone/S202604281442" description="OCL">
+    <features name="org.eclipse.ocl.all.sdk.feature.group" versionRange="[5.24.0,5.25.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.ocl.build.feature.group" versionRange="[6.23.0,6.24.0)">
+    <features name="org.eclipse.ocl.build.feature.group" versionRange="[6.24.0,6.25.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
-    <features name="org.eclipse.ocl.examples.feature.group" versionRange="[6.23.0,6.24.0)">
+    <features name="org.eclipse.ocl.examples.feature.group" versionRange="[6.24.0,6.25.0)">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
