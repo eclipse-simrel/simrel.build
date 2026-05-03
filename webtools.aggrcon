@@ -95,8 +95,5 @@
     <bundles name="org.eclipse.wtp.web.capabilities" versionRange="1.0.100.v201005102000"/>
     <bundles name="org.eclipse.wtp.xml.capabilities" versionRange="1.0.100.v201005102000"/>
   </repositories>
-  <repositories location="https://download.eclipse.org/oomph/simrel-extras/release/1.3.0">
-    <bundles name="org.apache.xalan" versionRange="[2.7.3.v20260304-1000,3.0.0)"/>
-  </repositories>
   <contacts href="simrel.aggr#//@contacts[email='thatnitind@gmail.com']"/>
 </aggregator:Contribution>
