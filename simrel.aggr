@@ -40,6 +40,7 @@
     <contributions href="qvtd.aggrcon#/"/>
     <contributions href="xwt.aggrcon#/"/>
     <contributions href="tracecompass.aggrcon#/"/>
+    <contributions href="tcf.aggrcon#/"/>
     <contributions href="rcptt.aggrcon#/"/>
     <contributions href="buildship.aggrcon#/"/>
     <contributions href="emf-parsley.aggrcon#/"/>
@@ -243,6 +244,9 @@
     <features href="embedcdt.aggrcon#//@repositories.0/@features.13"/>
     <features href="embedcdt.aggrcon#//@repositories.0/@features.14"/>
     <features href="embedcdt.aggrcon#//@repositories.0/@features.15"/>
+    <features href="tcf.aggrcon#//@repositories.0/@features.0"/>
+    <features href="tcf.aggrcon#//@repositories.0/@features.1"/>
+    <features href="tcf.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Modeling" label="Modeling" description="Model definition, creation, and manipulation frameworks (e.g. EMF, OCL, GMF, M2M, M2T, GEF) and industry models (e.g. UML, JEM, XSD).">
     <features href="gmp-gmf-runtime.aggrcon#//@repositories.1/@features.0"/>
@@ -347,6 +351,7 @@
     <features href="ep.aggrcon#//@repositories.0/@features.7"/>
     <features href="cdt.aggrcon#//@repositories.1/@features.0"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.0"/>
+    <features href="tcf.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Testing" label="Testing" description="Frameworks supporting application testing.">
     <features href="pdt.aggrcon#//@repositories.0/@features.3"/>
@@ -411,6 +416,7 @@
   <contacts name="Ed Merks" email="ed.merks@gmail.com"/>
   <contacts name="Ed Willink" email="ed@willink.me.uk"/>
   <contacts name="Eike Stepper" email="stepper@esc-net.de"/>
+  <contacts name="Eugene Tarassov" email="eugenet@xilinx.com"/>
   <contacts name="Evgeny Mandrikov" email="mandrikov@gmail.com"/>
   <contacts name="Fred Bricon" email="fbricon@gmail.com"/>
   <contacts name="Frederic Gurr" email="frederic.gurr@eclipse.org"/>

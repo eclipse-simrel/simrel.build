@@ -77,6 +77,7 @@
   <gitRepositoryFilter>.*/eclipse-gef/gef$</gitRepositoryFilter>
   <gitRepositoryFilter>.*/eclipse-jdt/eclipse.jdt.core.binaries</gitRepositoryFilter>
   <gitRepositoryFilter>.*/eclipse-xtext/xtext-archive</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/eclipse/tcf/tcf.agent</gitRepositoryFilter>
   <contribution
       enabled="false"
       label="a.jre"
@@ -983,9 +984,9 @@
     <project
         name="Eclipse LSP4E"
         site="https://projects.eclipse.org/projects/technology.lsp4e"
-        version="https://projects.eclipse.org/projects/technology.lsp4e/releases/0.30.2"
+        version="https://projects.eclipse.org/projects/technology.lsp4e/releases/0.30.5"
         news="https://github.com/eclipse-lsp4e/lsp4e/releases/latest"
-        releaseDate="2026-04-09"
+        releaseDate="2026-05-06"
         rank="6">
       <repository
           uri="https://github.com/eclipse-lsp4e/lsp4e"/>
@@ -1111,6 +1112,18 @@
           uri="https://github.com/eclipse-orbit/orbit-legacy"/>
       <repository
           uri="https://github.com/eclipse-orbit/orbit-simrel"/>
+    </project>
+  </contribution>
+  <contribution
+      contribution="tcf.aggrcon#/">
+    <project
+        name="Eclipse Target Communication Framework"
+        site="https://projects.eclipse.org/projects/tools.tcf"
+        version="https://projects.eclipse.org/projects/tools.tcf/releases/1.11.0"
+        releaseDate="2026-05-29"
+        rank="1">
+      <repository
+          uri="https://gitlab.eclipse.org/eclipse/tcf/tcf"/>
     </project>
   </contribution>
 </analyzer:Analysis>
