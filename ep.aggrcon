@@ -3,6 +3,13 @@
   <repositories location="https://download.eclipse.org/eclipse/updates/4.40-I-builds/I20260515-1811" description="Eclipse and Equinox">
     <products name="org.eclipse.sdk.ide"/>
     <products name="org.eclipse.platform.ide"/>
+    <bundles name="a.jre.javase" versionRange="[21.0.0,22.0.0)"/>
+    <bundles name="a.jre.javase" versionRange="[22.0.0,23.0.0)"/>
+    <bundles name="a.jre.javase" versionRange="[23.0.0,24.0.0)"/>
+    <bundles name="a.jre.javase" versionRange="[24.0.0,25.0.0)"/>
+    <bundles name="a.jre.javase" versionRange="[25.0.0,26.0.0)"/>
+    <bundles name="a.jre.javase" versionRange="[26.0.0,27.0.0)"/>
+    <bundles name="a.jre.javase" versionRange="[27.0.0,28.0.0)"/>
     <bundles name="org.eclipse.equinox.slf4j"/>
     <bundles name="jakarta.inject.jakarta.inject-api" versionRange="[1.0.0,2.0.0)"/>
     <bundles name="jakarta.annotation-api" versionRange="[1.0.0,2.0.0)"/>
