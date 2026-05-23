@@ -716,9 +716,9 @@
     <project
         name="Eclipse EGit: Git Integration for Eclipse"
         site="https://projects.eclipse.org/projects/technology.egit"
-        version="https://projects.eclipse.org/projects/technology.egit/releases/7.6.0"
+        version="https://projects.eclipse.org/projects/technology.egit/releases/7.7.0"
         news="https://github.com/eclipse-egit/egit/wiki/New-and-Noteworthy-7.6"
-        releaseDate="2026-03-11"
+        releaseDate="2026-06-10"
         rank="7">
       <tag>committers</tag>
       <tag>cpp</tag>
@@ -738,9 +738,9 @@
     <project
         name="Eclipse JGit: Java implementation of Git"
         site="https://projects.eclipse.org/projects/technology.jgit"
-        version="https://projects.eclipse.org/projects/technology.jgit/releases/7.6.0"
+        version="https://projects.eclipse.org/projects/technology.jgit/releases/7.7.0"
         news="https://github.com/eclipse-jgit/jgit/wiki/New-and-Noteworthy-7.6"
-        releaseDate="2026-03-11"
+        releaseDate="2026-06-10"
         rank="6">
       <repository
           uri="https://github.com/eclipse-jgit/jgit"/>
