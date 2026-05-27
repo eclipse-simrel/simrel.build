@@ -559,9 +559,9 @@
     <project
         name="Eclipse CDO Model Repository"
         site="https://projects.eclipse.org/projects/modeling.cdo"
-        version="https://projects.eclipse.org/projects/modeling.cdo/releases/4.34.0"
+        version="https://projects.eclipse.org/projects/modeling.cdo/releases/4.35.0"
         news="https://download.eclipse.org/modeling/emf/cdo/updates/all-relnotes.html"
-        releaseDate="2026-03-11"
+        releaseDate="2026-06-10"
         rank="1">
       <repository
           uri="https://github.com/eclipse-cdo/cdo"/>
@@ -665,8 +665,8 @@
     <project
         name="Eclipse EMF Services"
         site="https://projects.eclipse.org/projects/modeling.emfservices"
-        version="https://projects.eclipse.org/projects/modeling.emfservices/releases/1.14.0"
-        releaseDate="2024-08-31">
+        version="https://projects.eclipse.org/projects/modeling.emfservices/releases/emf-transaction-1.14.3"
+        releaseDate="2026-05-25">
       <repository
           uri="https://github.com/eclipse-emfservices/emf-query"/>
       <repository
