@@ -1097,9 +1097,9 @@
     <project
         name="Eclipse Tycho"
         site="https://projects.eclipse.org/projects/technology.tycho"
-        version="https://projects.eclipse.org/projects/technology.tycho/releases/5.0.2"
+        version="https://projects.eclipse.org/projects/technology.tycho/releases/5.0.3"
         news="https://github.com/eclipse-tycho/tycho/blob/main/RELEASE_NOTES.md"
-        releaseDate="2026-01-24"
+        releaseDate="2026-05-29"
         rank="8">
       <repository
           uri="https://github.com/eclipse-tycho/tycho"/>
