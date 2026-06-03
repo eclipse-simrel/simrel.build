@@ -277,9 +277,9 @@
     <project
         name="Eclipse Maven Integration - m2eclipse"
         site="https://projects.eclipse.org/projects/technology.m2e"
-        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.11.0"
+        version="https://projects.eclipse.org/projects/technology.m2e/releases/2.11.1"
         news="https://github.com/eclipse-m2e/m2e-core/blob/main/RELEASE_NOTES.md"
-        releaseDate="2026-03-04"
+        releaseDate="2026-06-02"
         rank="5">
       <repository
           uri="https://github.com/eclipse-m2e/m2e-core"/>
@@ -393,8 +393,8 @@
     <project
         name="Eclipse Web Tools Platform Project"
         site="https://projects.eclipse.org/projects/webtools"
-        version="https://projects.eclipse.org/projects/webtools/releases/3.41"
-        releaseDate="2026-03-11"
+        version="https://projects.eclipse.org/projects/webtools/releases/3.42"
+        releaseDate="2026-06-10"
         rank="1">
       <subproject
           name="Eclipse Web Tools Common"
@@ -739,7 +739,7 @@
         name="Eclipse JGit: Java implementation of Git"
         site="https://projects.eclipse.org/projects/technology.jgit"
         version="https://projects.eclipse.org/projects/technology.jgit/releases/7.7.0"
-        news="https://github.com/eclipse-jgit/jgit/wiki/New-and-Noteworthy-7.6"
+        news="https://github.com/eclipse-jgit/jgit/wiki/New-and-Noteworthy-7.7"
         releaseDate="2026-06-10"
         rank="6">
       <repository
@@ -752,9 +752,9 @@
     <project
         name="Eclipse Graphiti"
         site="https://projects.eclipse.org/projects/modeling.graphiti"
-        version="https://projects.eclipse.org/projects/modeling.graphiti/releases/0.19.3-0"
-        news="https://eclipse.dev/graphiti/pages/whats-new-0.19.3.html"
-        releaseDate="2025-03-12"
+        version="https://projects.eclipse.org/projects/modeling.graphiti/releases/0.19.4"
+        news="https://eclipse.dev/graphiti/pages/whats-new-0.19.4.html"
+        releaseDate="2026-06-10"
         rank="1">
       <repository
           uri="https://gitlab.eclipse.org/eclipse/graphiti/graphiti"/>
