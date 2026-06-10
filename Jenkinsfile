@@ -13,7 +13,7 @@ pipeline {
   }
 
   environment {
-    TRAIN_NAME = "2026-06"
+    TRAIN_NAME = "2026-09"
     STAGING_DIR = "/home/data/httpd/download.eclipse.org/staging/${TRAIN_NAME}"
   }
 
