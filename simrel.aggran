@@ -3,7 +3,7 @@
     xmi:version="2.0"
     xmlns:xmi="http://www.omg.org/XMI"
     xmlns:analyzer="https://www.eclipse.org/cbi/p2repo/2021/aggregator/analyzer"
-    releaseDate="2026-06-10"
+    releaseDate="2026-09-09"
     exclusion="tooling.*|.*\.source|.*\.source\.feature\.group|.*\.feature\.jar"
     layoutWidth="2000"
     layoutHeight="800"
@@ -123,7 +123,6 @@
         name="Eclipse Nebula - Supplemental Widgets for SWT"
         site="https://projects.eclipse.org/projects/technology.nebula"
         version="https://projects.eclipse.org/projects/technology.nebula/releases/3.4.0"
-        news="https://github.com/EclipseNebula/nebula/releases/latest"
         releaseDate="2026-06-10"
         rank="3">
       <repository
@@ -138,7 +137,6 @@
         name="Eclipse BIRT (Business Intelligence and Reporting Tools)"
         site="https://projects.eclipse.org/projects/technology.birt"
         version="https://projects.eclipse.org/projects/technology.birt/releases/4.24.0"
-        news="https://github.com/eclipse-birt/birt/releases/latest"
         releaseDate="2026-06-10">
       <repository
           uri="https://github.com/eclipse-birt/birt"/>
@@ -182,7 +180,7 @@
       <subproject
           name="Eclipse Equinox"
           site="https://projects.eclipse.org/projects/eclipse.equinox"
-          news="https://eclipse.dev/eclipse/news/4.40/platform_isv.html"
+          news="https://eclipse.dev/eclipse/news/4.41/platform_isv.html"
           rank="7">
         <tag>committers</tag>
         <tag>cpp</tag>
@@ -205,7 +203,7 @@
       <subproject
           name="Eclipse JDT (Java development tools)"
           site="https://projects.eclipse.org/projects/eclipse.jdt"
-          news="https://eclipse.dev/eclipse/news/4.40/jdt.html"
+          news="https://eclipse.dev/eclipse/news/4.41/jdt.html"
           rank="7">
         <tag>committers</tag>
         <tag>dsl</tag>
@@ -227,7 +225,7 @@
       <subproject
           name="Eclipse PDE"
           site="https://projects.eclipse.org/projects/eclipse.pde"
-          news="https://eclipse.dev/eclipse/news/4.40/pde.html"
+          news="https://eclipse.dev/eclipse/news/4.41/pde.html"
           rank="8">
         <tag>committers</tag>
         <tag>dsl</tag>
@@ -242,7 +240,7 @@
       <subproject
           name="Eclipse Platform"
           site="https://projects.eclipse.org/projects/eclipse.platform"
-          news="https://eclipse.dev/eclipse/news/4.40/platform.html"
+          news="https://eclipse.dev/eclipse/news/4.41/platform.html"
           rank="8">
         <tag>committers</tag>
         <tag>cpp</tag>
@@ -466,7 +464,6 @@
         name="Eclipse Mylyn"
         site="https://projects.eclipse.org/projects/tools.mylyn"
         version="https://projects.eclipse.org/projects/tools.mylyn/releases/4.6.0"
-        news="https://github.com/eclipse-mylyn/org.eclipse.mylyn/releases/latest"
         releaseDate="2025-03-12"
         rank="2">
       <repository
@@ -717,7 +714,7 @@
         name="Eclipse EGit: Git Integration for Eclipse"
         site="https://projects.eclipse.org/projects/technology.egit"
         version="https://projects.eclipse.org/projects/technology.egit/releases/7.7.0"
-        news="https://github.com/eclipse-egit/egit/wiki/New-and-Noteworthy-7.6"
+        news="https://github.com/eclipse-egit/egit/wiki/New-and-Noteworthy-7.7"
         releaseDate="2026-06-10"
         rank="7">
       <tag>committers</tag>
@@ -1008,7 +1005,6 @@
         name="Eclipse TM4E - TextMate support in the Eclipse IDE"
         site="https://projects.eclipse.org/projects/technology.tm4e"
         version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.17.2"
-        news="https://github.com/eclipse-tm4e/tm4e/releases/latest"
         releaseDate="2026-03-02"
         rank="2">
       <repository
@@ -1052,7 +1048,6 @@
         name="Eclipse Passage"
         site="https://projects.eclipse.org/projects/technology.passage"
         version="https://projects.eclipse.org/projects/technology.passage/releases/4.6.0"
-        news="https://github.com/eclipse-passage/passage/releases/latest"
         releaseDate="2026-06-08"
         rank="1">
       <repository
