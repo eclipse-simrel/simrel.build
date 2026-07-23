@@ -4,6 +4,9 @@
     <features name="org.eclipse.gef.sdk.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
+    <features name="org.eclipse.draw2d.sdk.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
+    </features>
     <features name="org.eclipse.zest.sdk.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
