@@ -264,6 +264,7 @@
     <features href="emft-eef.aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.aggrcon#//@repositories.0/@features.1"/>
+    <features href="gef.aggrcon#//@repositories.0/@features.2"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.0"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.1"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.2"/>
