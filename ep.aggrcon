@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Eclipse">
   <repositories location="https://download.eclipse.org/eclipse/updates/4.41-I-builds/I20260703-1319" description="Eclipse and Equinox">
-    <products name="org.eclipse.sdk.ide"/>
     <products name="org.eclipse.platform.ide"/>
+    <products name="org.eclipse.sdk.ide"/>
     <bundles name="a.jre.javase" versionRange="[21.0.0,22.0.0)"/>
     <bundles name="a.jre.javase" versionRange="[22.0.0,23.0.0)"/>
     <bundles name="a.jre.javase" versionRange="[23.0.0,24.0.0)"/>
@@ -10,21 +10,21 @@
     <bundles name="a.jre.javase" versionRange="[25.0.0,26.0.0)"/>
     <bundles name="a.jre.javase" versionRange="[26.0.0,27.0.0)"/>
     <bundles name="a.jre.javase" versionRange="[27.0.0,28.0.0)"/>
-    <bundles name="org.eclipse.equinox.slf4j"/>
-    <bundles name="jakarta.inject.jakarta.inject-api" versionRange="[1.0.0,2.0.0)"/>
     <bundles name="jakarta.annotation-api" versionRange="[1.0.0,2.0.0)"/>
+    <bundles name="jakarta.inject.jakarta.inject-api" versionRange="[1.0.0,2.0.0)"/>
     <bundles name="org.eclipse.debug.terminal"/>
-    <features name="org.eclipse.sdk.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
-    </features>
+    <bundles name="org.eclipse.equinox.slf4j"/>
+    <features name="org.eclipse.core.runtime.feature.feature.group"/>
     <features name="org.eclipse.e4.core.tools.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.pde.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
-    </features>
-    <features name="org.eclipse.pde.spies.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    <features name="org.eclipse.equinox.p2.core.feature.feature.group"/>
+    <features name="org.eclipse.equinox.p2.discovery.feature.feature.group"/>
+    <features name="org.eclipse.equinox.p2.extras.feature.feature.group"/>
+    <features name="org.eclipse.equinox.p2.rcp.feature.feature.group"/>
+    <features name="org.eclipse.equinox.p2.sdk.feature.group"/>
+    <features name="org.eclipse.equinox.sdk.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
     </features>
     <features name="org.eclipse.jdt.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
@@ -38,25 +38,25 @@
     <features name="org.eclipse.jdt.jeview.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
-    <features name="org.eclipse.tips.feature.feature.group">
+    <features name="org.eclipse.pde.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+    <features name="org.eclipse.pde.osgitest.dependencies.feature.feature.group"/>
+    <features name="org.eclipse.pde.spies.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
+    <features name="org.eclipse.sdk.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='Application%20Development%20Frameworks']"/>
     </features>
     <features name="org.eclipse.swt.tools.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.equinox.sdk.feature.group">
-      <categories href="simrel.aggr#//@customCategories[identifier='EclipseRT%20Target%20Platform%20Components']"/>
-    </features>
-    <features name="org.eclipse.equinox.p2.discovery.feature.feature.group"/>
-    <features name="org.eclipse.equinox.p2.sdk.feature.group"/>
-    <features name="org.eclipse.equinox.p2.core.feature.feature.group"/>
-    <features name="org.eclipse.equinox.p2.extras.feature.feature.group"/>
-    <features name="org.eclipse.equinox.p2.rcp.feature.feature.group"/>
-    <features name="org.eclipse.core.runtime.feature.feature.group"/>
     <features name="org.eclipse.terminal.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
-    <features name="org.eclipse.pde.osgitest.dependencies.feature.feature.group"/>
+    <features name="org.eclipse.tips.feature.feature.group">
+      <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
+    </features>
   </repositories>
   <repositories location="https://download.eclipse.org/tools/orbit/simrel/orbit-legacy/milestone/latest">
     <bundles name="org.eclipse.orbit.xml-apis-ext"/>
