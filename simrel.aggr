@@ -1,90 +1,102 @@
 <?xml version="1.0" encoding="ASCII"?>
 <aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Aggregation files used for the Eclipse Simultaneous Release (quarterly &quot;release train&quot;)." buildmaster="//@contacts[email='ed.merks@gmail.com']" buildmasterBackup="//@contacts[email='frederic.gurr@eclipse.org']" label="2026-09" buildRoot="buildresults" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false" includeSources="true">
   <validationSets label="main">
-    <contributions href="ep.aggrcon#/"/>
-    <contributions href="emf-emf.aggrcon#/"/>
-    <contributions href="ecf.aggrcon#/"/>
-    <contributions href="gef.aggrcon#/"/>
-    <contributions href="emf-compare.aggrcon#/"/>
-    <contributions href="emft-ecoretools.aggrcon#/"/>
-    <contributions href="m2m-atl.aggrcon#/"/>
-    <contributions href="qvto.aggrcon#/"/>
-    <contributions href="dtp.aggrcon#/"/>
-    <contributions href="webtools.aggrcon#/"/>
-    <contributions href="mylyn.aggrcon#/"/>
-    <contributions href="cdt.aggrcon#/"/>
-    <contributions href="embedcdt.aggrcon#/"/>
-    <contributions href="dltk.aggrcon#/"/>
-    <contributions href="rap-tools.aggrcon#/"/>
-    <contributions href="epp-mpc.aggrcon#/"/>
-    <contributions href="emf-cdo.aggrcon#/"/>
-    <contributions href="oomph.aggrcon#/"/>
-    <contributions href="mat.aggrcon#/"/>
-    <contributions href="uml2.aggrcon#/"/>
-    <contributions href="ocl.aggrcon#/"/>
-    <contributions href="m2t-acceleo.aggrcon#/"/>
-    <contributions href="gmp-gmf-runtime.aggrcon#/"/>
-    <contributions href="emf-services.aggrcon#/"/>
-    <contributions href="tmf-xtext.aggrcon#/"/>
-    <contributions href="pdt.aggrcon#/"/>
-    <contributions href="emft-eef.aggrcon#/"/>
-    <contributions href="linuxtools.aggrcon#/"/>
-    <contributions href="egit.aggrcon#/"/>
-    <contributions href="gmp-graphiti.aggrcon#/"/>
-    <contributions href="m2e.aggrcon#/"/>
-    <contributions href="mdt-papyrus.aggrcon#/"/>
-    <contributions href="scout.aggrcon#/"/>
-    <contributions href="windowbuilder.aggrcon#/"/>
-    <contributions href="swtbot.aggrcon#/"/>
-    <contributions href="sirius.aggrcon#/"/>
-    <contributions href="qvtd.aggrcon#/"/>
-    <contributions href="xwt.aggrcon#/"/>
-    <contributions href="tracecompass.aggrcon#/"/>
-    <contributions href="tcf.aggrcon#/"/>
-    <contributions href="rcptt.aggrcon#/"/>
     <contributions href="buildship.aggrcon#/"/>
+    <contributions href="cdt.aggrcon#/"/>
+    <contributions href="dltk.aggrcon#/"/>
+    <contributions href="dtp.aggrcon#/"/>
+    <contributions href="ecf.aggrcon#/"/>
+    <contributions href="emft-eef.aggrcon#/"/>
+    <contributions href="egit.aggrcon#/"/>
+    <contributions href="emf-emf.aggrcon#/"/>
+    <contributions href="emf-cdo.aggrcon#/"/>
+    <contributions href="emf-compare.aggrcon#/"/>
     <contributions href="emf-parsley.aggrcon#/"/>
+    <contributions href="emf-services.aggrcon#/"/>
+    <contributions href="emft-ecoretools.aggrcon#/"/>
     <contributions href="emft-mwe.aggrcon#/"/>
+    <contributions href="epp-mpc.aggrcon#/"/>
     <contributions href="eclemma.aggrcon#/"/>
-    <contributions href="lsp4j.aggrcon#/"/>
+    <contributions href="ep.aggrcon#/"/>
+    <contributions href="embedcdt.aggrcon#/"/>
+    <contributions href="gef.aggrcon#/"/>
+    <contributions href="gmp-gmf-runtime.aggrcon#/"/>
+    <contributions href="gmp-graphiti.aggrcon#/"/>
     <contributions href="lsp4e.aggrcon#/"/>
-    <contributions href="tm4e.aggrcon#/"/>
-    <contributions href="wildwebdeveloper.aggrcon#/"/>
+    <contributions href="lsp4j.aggrcon#/"/>
+    <contributions href="linuxtools.aggrcon#/"/>
+    <contributions href="m2m-atl.aggrcon#/"/>
+    <contributions href="m2t-acceleo.aggrcon#/"/>
+    <contributions href="mat.aggrcon#/"/>
+    <contributions href="mylyn.aggrcon#/"/>
+    <contributions href="ocl.aggrcon#/"/>
+    <contributions href="oomph.aggrcon#/"/>
+    <contributions href="pdt.aggrcon#/"/>
+    <contributions href="mdt-papyrus.aggrcon#/"/>
     <contributions href="passage.aggrcon#/"/>
+    <contributions href="qvtd.aggrcon#/"/>
+    <contributions href="qvto.aggrcon#/"/>
+    <contributions href="rap-tools.aggrcon#/"/>
+    <contributions href="rcptt.aggrcon#/"/>
+    <contributions href="swtbot.aggrcon#/"/>
+    <contributions href="scout.aggrcon#/"/>
+    <contributions href="sirius.aggrcon#/"/>
+    <contributions href="tcf.aggrcon#/"/>
+    <contributions href="tm4e.aggrcon#/"/>
+    <contributions href="tracecompass.aggrcon#/"/>
+    <contributions href="uml2.aggrcon#/"/>
+    <contributions href="webtools.aggrcon#/"/>
+    <contributions href="wildwebdeveloper.aggrcon#/"/>
+    <contributions href="windowbuilder.aggrcon#/"/>
+    <contributions href="xwt.aggrcon#/"/>
+    <contributions href="tmf-xtext.aggrcon#/"/>
+    <contributions href="m2e.aggrcon#/"/>
   </validationSets>
-  <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="aarch64"/>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="ppc64le"/>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="riscv64"/>
-  <configurations operatingSystem="macosx" windowSystem="cocoa" architecture="x86_64"/>
+  <configurations operatingSystem="linux" windowSystem="gtk" architecture="x86_64"/>
   <configurations operatingSystem="macosx" windowSystem="cocoa" architecture="aarch64"/>
+  <configurations operatingSystem="macosx" windowSystem="cocoa" architecture="x86_64"/>
   <configurations architecture="aarch64"/>
   <configurations architecture="x86_64"/>
   <customCategories identifier="Application Development Frameworks" label="Application Development Frameworks" description="Frameworks supporting application development.">
-    <features href="scout.aggrcon#//@repositories.0/@features.0"/>
+    <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
+    <features href="gef.aggrcon#//@repositories.2/@features.0"/>
+    <features href="gef.aggrcon#//@repositories.1/@features.9"/>
+    <features href="gef.aggrcon#//@repositories.1/@features.10"/>
     <features href="gef.aggrcon#//@repositories.1/@features.0"/>
-    <features href="gef.aggrcon#//@repositories.1/@features.1"/>
-    <features href="gef.aggrcon#//@repositories.1/@features.2"/>
-    <features href="gef.aggrcon#//@repositories.1/@features.3"/>
     <features href="gef.aggrcon#//@repositories.1/@features.4"/>
     <features href="gef.aggrcon#//@repositories.1/@features.5"/>
     <features href="gef.aggrcon#//@repositories.1/@features.6"/>
+    <features href="gef.aggrcon#//@repositories.1/@features.1"/>
+    <features href="gef.aggrcon#//@repositories.1/@features.2"/>
+    <features href="gef.aggrcon#//@repositories.1/@features.3"/>
     <features href="gef.aggrcon#//@repositories.1/@features.7"/>
     <features href="gef.aggrcon#//@repositories.1/@features.8"/>
-    <features href="gef.aggrcon#//@repositories.1/@features.9"/>
-    <features href="gef.aggrcon#//@repositories.1/@features.10"/>
-    <features href="gef.aggrcon#//@repositories.2/@features.0"/>
-    <features href="ep.aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.1"/>
-    <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
+    <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
+    <features href="scout.aggrcon#//@repositories.0/@features.0"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.15"/>
   </customCategories>
   <customCategories identifier="Collaboration" label="Collaboration" description="Tools to foster collaboration between developers.">
+    <features href="dltk.aggrcon#//@repositories.0/@features.4"/>
+    <features href="ecf.aggrcon#//@repositories.0/@features.0"/>
+    <features href="ecf.aggrcon#//@repositories.0/@features.1"/>
+    <features href="egit.aggrcon#//@repositories.0/@features.2"/>
+    <features href="egit.aggrcon#//@repositories.0/@features.4"/>
+    <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
+    <features href="egit.aggrcon#//@repositories.0/@features.0"/>
+    <features href="egit.aggrcon#//@repositories.0/@features.7"/>
+    <features href="egit.aggrcon#//@repositories.0/@features.3"/>
+    <features href="egit.aggrcon#//@repositories.0/@features.6"/>
+    <features href="egit.aggrcon#//@repositories.0/@features.5"/>
+    <features href="egit.aggrcon#//@repositories.0/@features.8"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.0"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.1"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.2"/>
-    <features href="mylyn.aggrcon#//@repositories.0/@features.4"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.5"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.4"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.6"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.7"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.8"/>
@@ -93,8 +105,8 @@
     <features href="mylyn.aggrcon#//@repositories.0/@features.10"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.11"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.12"/>
-    <features href="mylyn.aggrcon#//@repositories.0/@features.14"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.13"/>
+    <features href="mylyn.aggrcon#//@repositories.0/@features.14"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.15"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.16"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.17"/>
@@ -102,20 +114,8 @@
     <features href="mylyn.aggrcon#//@repositories.0/@features.19"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.20"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.21"/>
-    <features href="ecf.aggrcon#//@repositories.0/@features.1"/>
-    <features href="egit.aggrcon#//@repositories.0/@features.2"/>
-    <features href="dltk.aggrcon#//@repositories.0/@features.4"/>
-    <features href="pdt.aggrcon#//@repositories.0/@features.2"/>
-    <features href="egit.aggrcon#//@repositories.0/@features.4"/>
-    <features href="egit.aggrcon#//@repositories.0/@features.5"/>
-    <features href="egit.aggrcon#//@repositories.0/@features.0"/>
-    <features href="egit.aggrcon#//@repositories.0/@features.3"/>
-    <features href="egit.aggrcon#//@repositories.0/@features.6"/>
-    <features href="egit.aggrcon#//@repositories.0/@features.7"/>
-    <features href="egit.aggrcon#//@repositories.0/@features.8"/>
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
-    <features href="ecf.aggrcon#//@repositories.0/@features.0"/>
+    <features href="pdt.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Database Development" label="Database Development" description="Tools to define and access a wide variety of databases.">
     <features href="dtp.aggrcon#//@repositories.0/@features.0"/>
@@ -157,75 +157,76 @@
     <features href="emf-cdo.aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="EclipseRT Target Platform Components" label="EclipseRT Target Platform Components" description="This category identifies various Eclipse technology that is commonly used in runtime scenarios from RCP to embedded to server side. The components in this category are intended to be added to your Target Platform, rather than your IDE.">
-    <features href="ep.aggrcon#//@repositories.0/@features.10"/>
-    <features href="ecf.aggrcon#//@repositories.0/@features.1"/>
-    <features href="emf-emf.aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-emf.aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-cdo.aggrcon#//@repositories.0/@features.1"/>
-    <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
     <features href="ecf.aggrcon#//@repositories.0/@features.0"/>
+    <features href="ecf.aggrcon#//@repositories.0/@features.1"/>
+    <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
+    <features href="emf-emf.aggrcon#//@repositories.0/@features.2"/>
+    <features href="emf-emf.aggrcon#//@repositories.0/@features.2"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.7"/>
+    <features href="emf-cdo.aggrcon#//@repositories.0/@features.1"/>
+    <features href="emf-cdo.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="General Purpose Tools" label="General Purpose Tools" description="Tools that can be used by a wide variety of developers.">
-    <features href="ep.aggrcon#//@repositories.0/@features.2"/>
+    <features href="buildship.aggrcon#//@repositories.0/@features.0"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.0"/>
-    <features href="epp-mpc.aggrcon#//@repositories.0/@features.0"/>
-    <features href="tmf-xtext.aggrcon#//@repositories.0/@features.0"/>
-    <features href="linuxtools.aggrcon#//@repositories.0/@features.2"/>
-    <features href="linuxtools.aggrcon#//@repositories.0/@features.4"/>
-    <features href="linuxtools.aggrcon#//@repositories.0/@features.11"/>
-    <features href="linuxtools.aggrcon#//@repositories.1/@features.0"/>
-    <features href="linuxtools.aggrcon#//@repositories.1/@features.1"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.5"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.1"/>
+    <features href="epp-mpc.aggrcon#//@repositories.0/@features.0"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.19"/>
+    <features href="linuxtools.aggrcon#//@repositories.0/@features.2"/>
+    <features href="linuxtools.aggrcon#//@repositories.1/@features.0"/>
+    <features href="linuxtools.aggrcon#//@repositories.0/@features.11"/>
+    <features href="linuxtools.aggrcon#//@repositories.0/@features.4"/>
+    <features href="linuxtools.aggrcon#//@repositories.1/@features.1"/>
+    <features href="lsp4e.aggrcon#//@repositories.0/@features.0"/>
+    <features href="lsp4e.aggrcon#//@repositories.0/@features.1"/>
+    <features href="lsp4e.aggrcon#//@repositories.0/@features.2"/>
+    <features href="lsp4j.aggrcon#//@repositories.0/@features.0"/>
     <features href="m2e.aggrcon#//@repositories.0/@features.0"/>
+    <features href="m2e.aggrcon#//@repositories.0/@features.1"/>
+    <features href="m2e.aggrcon#//@repositories.0/@features.2"/>
+    <features href="m2e.aggrcon#//@repositories.0/@features.4"/>
+    <features href="m2e.aggrcon#//@repositories.0/@features.3"/>
+    <features href="ocl.aggrcon#//@repositories.0/@features.0"/>
+    <features href="oomph.aggrcon#//@repositories.0/@features.2"/>
+    <features href="oomph.aggrcon#//@repositories.0/@features.3"/>
+    <features href="oomph.aggrcon#//@repositories.0/@features.0"/>
+    <features href="oomph.aggrcon#//@repositories.0/@features.1"/>
+    <features href="oomph.aggrcon#//@repositories.0/@features.5"/>
+    <features href="oomph.aggrcon#//@repositories.0/@features.4"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.12"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.14"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.23"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.24"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.16"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.17"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.18"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.18"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.17"/>
     <features href="windowbuilder.aggrcon#//@repositories.0/@features.0"/>
+    <features href="windowbuilder.aggrcon#//@repositories.0/@features.8"/>
     <features href="windowbuilder.aggrcon#//@repositories.0/@features.1"/>
     <features href="windowbuilder.aggrcon#//@repositories.0/@features.2"/>
     <features href="windowbuilder.aggrcon#//@repositories.0/@features.3"/>
     <features href="windowbuilder.aggrcon#//@repositories.0/@features.4"/>
+    <features href="windowbuilder.aggrcon#//@repositories.0/@features.9"/>
     <features href="windowbuilder.aggrcon#//@repositories.0/@features.5"/>
+    <features href="windowbuilder.aggrcon#//@repositories.0/@features.10"/>
     <features href="windowbuilder.aggrcon#//@repositories.0/@features.6"/>
     <features href="windowbuilder.aggrcon#//@repositories.0/@features.7"/>
-    <features href="windowbuilder.aggrcon#//@repositories.0/@features.8"/>
-    <features href="windowbuilder.aggrcon#//@repositories.0/@features.9"/>
-    <features href="m2e.aggrcon#//@repositories.0/@features.1"/>
-    <features href="windowbuilder.aggrcon#//@repositories.0/@features.10"/>
-    <features href="m2e.aggrcon#//@repositories.0/@features.2"/>
-    <features href="m2e.aggrcon#//@repositories.0/@features.3"/>
+    <features href="tmf-xtext.aggrcon#//@repositories.0/@features.0"/>
     <features href="xwt.aggrcon#//@repositories.0/@features.0"/>
     <features href="xwt.aggrcon#//@repositories.0/@features.1"/>
-    <features href="oomph.aggrcon#//@repositories.0/@features.0"/>
-    <features href="oomph.aggrcon#//@repositories.0/@features.1"/>
-    <features href="oomph.aggrcon#//@repositories.0/@features.2"/>
-    <features href="oomph.aggrcon#//@repositories.0/@features.3"/>
-    <features href="oomph.aggrcon#//@repositories.0/@features.4"/>
-    <features href="oomph.aggrcon#//@repositories.0/@features.5"/>
-    <features href="ep.aggrcon#//@repositories.0/@features.1"/>
-    <features href="buildship.aggrcon#//@repositories.0/@features.0"/>
-    <features href="lsp4j.aggrcon#//@repositories.0/@features.0"/>
-    <features href="lsp4e.aggrcon#//@repositories.0/@features.0"/>
-    <features href="lsp4e.aggrcon#//@repositories.0/@features.1"/>
-    <features href="ocl.aggrcon#//@repositories.0/@features.0"/>
-    <features href="ep.aggrcon#//@repositories.0/@features.8"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.19"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.17"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.18"/>
-    <features href="lsp4e.aggrcon#//@repositories.0/@features.2"/>
-    <features href="ep.aggrcon#//@repositories.0/@features.9"/>
-    <features href="m2e.aggrcon#//@repositories.0/@features.4"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.23"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.24"/>
-    <features href="ep.aggrcon#//@repositories.0/@features.3"/>
-    <features href="ep.aggrcon#//@repositories.0/@features.17"/>
   </customCategories>
   <customCategories identifier="License Management" label="License Management" description="Tools used to declare and control licensing constraints">
     <features href="passage.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Mobile and Device Development" label="Mobile and Device Development" description="Tools used to develop mobile and device applications.">
+    <features href="cdt.aggrcon#//@repositories.0/@features.6"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.2"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.4"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.5"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.6"/>
+    <features href="embedcdt.aggrcon#//@repositories.0/@features.15"/>
     <features href="embedcdt.aggrcon#//@repositories.0/@features.0"/>
     <features href="embedcdt.aggrcon#//@repositories.0/@features.1"/>
     <features href="embedcdt.aggrcon#//@repositories.0/@features.2"/>
@@ -241,164 +242,163 @@
     <features href="embedcdt.aggrcon#//@repositories.0/@features.12"/>
     <features href="embedcdt.aggrcon#//@repositories.0/@features.13"/>
     <features href="embedcdt.aggrcon#//@repositories.0/@features.14"/>
-    <features href="embedcdt.aggrcon#//@repositories.0/@features.15"/>
     <features href="tcf.aggrcon#//@repositories.0/@features.0"/>
     <features href="tcf.aggrcon#//@repositories.0/@features.1"/>
     <features href="tcf.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Modeling" label="Modeling" description="Model definition, creation, and manipulation frameworks (e.g. EMF, OCL, GMF, M2M, M2T, GEF) and industry models (e.g. UML, JEM, XSD).">
-    <features href="gmp-gmf-runtime.aggrcon#//@repositories.1/@features.0"/>
-    <features href="gmp-gmf-runtime.aggrcon#//@repositories.0/@features.0"/>
-    <features href="uml2.aggrcon#//@repositories.0/@features.0"/>
     <features href="m2t-acceleo.aggrcon#//@repositories.0/@features.0"/>
-    <features href="qvto.aggrcon#//@repositories.0/@features.0"/>
-    <features href="qvto.aggrcon#//@repositories.0/@features.1"/>
-    <features href="m2m-atl.aggrcon#//@repositories.0/@features.0"/>
-    <features href="m2m-atl.aggrcon#//@repositories.0/@features.1"/>
-    <features href="tmf-xtext.aggrcon#//@repositories.0/@features.0"/>
-    <features href="emft-mwe.aggrcon#//@repositories.0/@features.0"/>
+    <features href="gef.aggrcon#//@repositories.0/@features.1"/>
+    <features href="emf-cdo.aggrcon#//@repositories.0/@features.3"/>
+    <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
+    <features href="emf-compare.aggrcon#//@repositories.0/@features.4"/>
+    <features href="emf-compare.aggrcon#//@repositories.0/@features.5"/>
+    <features href="emf-compare.aggrcon#//@repositories.0/@features.1"/>
+    <features href="emf-compare.aggrcon#//@repositories.0/@features.2"/>
+    <features href="emf-emf.aggrcon#//@repositories.0/@features.0"/>
+    <features href="emft-ecoretools.aggrcon#//@repositories.0/@features.0"/>
+    <features href="emft-eef.aggrcon#//@repositories.0/@features.1"/>
+    <features href="emft-eef.aggrcon#//@repositories.0/@features.1"/>
+    <features href="emft-eef.aggrcon#//@repositories.0/@features.0"/>
     <features href="emft-mwe.aggrcon#//@repositories.0/@features.1"/>
     <features href="emft-mwe.aggrcon#//@repositories.0/@features.2"/>
-    <features href="emf-cdo.aggrcon#//@repositories.0/@features.2"/>
-    <features href="emf-cdo.aggrcon#//@repositories.0/@features.3"/>
-    <features href="emft-eef.aggrcon#//@repositories.0/@features.0"/>
+    <features href="emft-mwe.aggrcon#//@repositories.0/@features.0"/>
+    <features href="emf-emf.aggrcon#//@repositories.0/@features.1"/>
+    <features href="emf-parsley.aggrcon#//@repositories.0/@features.1"/>
+    <features href="emf-parsley.aggrcon#//@repositories.0/@features.0"/>
+    <features href="emf-emf.aggrcon#//@repositories.0/@features.2"/>
+    <features href="emf-services.aggrcon#//@repositories.1/@features.0"/>
+    <features href="emf-services.aggrcon#//@repositories.0/@features.0"/>
     <features href="gef.aggrcon#//@repositories.0/@features.0"/>
-    <features href="gef.aggrcon#//@repositories.0/@features.1"/>
-    <features href="gef.aggrcon#//@repositories.0/@features.2"/>
-    <features href="ocl.aggrcon#//@repositories.0/@features.0"/>
-    <features href="ocl.aggrcon#//@repositories.0/@features.1"/>
-    <features href="ocl.aggrcon#//@repositories.0/@features.2"/>
+    <features href="gmp-gmf-runtime.aggrcon#//@repositories.0/@features.0"/>
+    <features href="gmp-gmf-runtime.aggrcon#//@repositories.1/@features.0"/>
     <features href="gmp-gmf-runtime.aggrcon#//@repositories.0/@features.1"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.0"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.1"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.2"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.3"/>
-    <features href="mdt-papyrus.aggrcon#//@repositories.0/@features.0"/>
-    <features href="emft-eef.aggrcon#//@repositories.0/@features.1"/>
-    <features href="emft-eef.aggrcon#//@repositories.0/@features.1"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.4"/>
     <features href="gmp-graphiti.aggrcon#//@repositories.0/@features.5"/>
-    <features href="emf-compare.aggrcon#//@repositories.0/@features.1"/>
-    <features href="emf-compare.aggrcon#//@repositories.0/@features.2"/>
-    <features href="emf-emf.aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-emf.aggrcon#//@repositories.0/@features.1"/>
-    <features href="emf-emf.aggrcon#//@repositories.0/@features.2"/>
-    <features href="emf-emf.aggrcon#//@repositories.0/@features.3"/>
-    <features href="emf-services.aggrcon#//@repositories.1/@features.0"/>
-    <features href="emf-services.aggrcon#//@repositories.0/@features.0"/>
+    <features href="m2m-atl.aggrcon#//@repositories.0/@features.0"/>
+    <features href="m2m-atl.aggrcon#//@repositories.0/@features.1"/>
+    <features href="qvto.aggrcon#//@repositories.0/@features.0"/>
+    <features href="qvto.aggrcon#//@repositories.0/@features.1"/>
+    <features href="ocl.aggrcon#//@repositories.0/@features.0"/>
+    <features href="ocl.aggrcon#//@repositories.0/@features.1"/>
+    <features href="ocl.aggrcon#//@repositories.0/@features.2"/>
+    <features href="mdt-papyrus.aggrcon#//@repositories.0/@features.0"/>
     <features href="qvtd.aggrcon#//@repositories.0/@features.0"/>
-    <features href="sirius.aggrcon#//@repositories.0/@features.0"/>
-    <features href="sirius.aggrcon#//@repositories.0/@features.2"/>
-    <features href="emf-parsley.aggrcon#//@repositories.0/@features.0"/>
-    <features href="emf-parsley.aggrcon#//@repositories.0/@features.1"/>
-    <features href="emf-compare.aggrcon#//@repositories.0/@features.4"/>
-    <features href="emf-compare.aggrcon#//@repositories.0/@features.5"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.6"/>
+    <features href="sirius.aggrcon#//@repositories.0/@features.2"/>
+    <features href="sirius.aggrcon#//@repositories.0/@features.0"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.7"/>
-    <features href="emft-ecoretools.aggrcon#//@repositories.0/@features.0"/>
+    <features href="uml2.aggrcon#//@repositories.0/@features.0"/>
+    <features href="emf-emf.aggrcon#//@repositories.0/@features.3"/>
+    <features href="tmf-xtext.aggrcon#//@repositories.0/@features.0"/>
+    <features href="gef.aggrcon#//@repositories.0/@features.2"/>
   </customCategories>
   <customCategories identifier="Performance, Profiling and Tracing Tools" label="Performance, Profiling and Tracing Tools" description="Tools to assit analysis of running code.">
-    <features href="tracecompass.aggrcon#//@repositories.0/@features.1"/>
-    <features href="tracecompass.aggrcon#//@repositories.0/@features.2"/>
-    <features href="tracecompass.aggrcon#//@repositories.0/@features.3"/>
-    <features href="tracecompass.aggrcon#//@repositories.0/@features.4"/>
-    <features href="mat.aggrcon#//@repositories.0/@features.0"/>
-    <features href="mat.aggrcon#//@repositories.0/@features.1"/>
+    <features href="linuxtools.aggrcon#//@repositories.0/@features.8"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.3"/>
+    <features href="linuxtools.aggrcon#//@repositories.0/@features.9"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.5"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.7"/>
-    <features href="linuxtools.aggrcon#//@repositories.0/@features.9"/>
+    <features href="mat.aggrcon#//@repositories.0/@features.1"/>
+    <features href="mat.aggrcon#//@repositories.0/@features.0"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.4"/>
-    <features href="linuxtools.aggrcon#//@repositories.0/@features.8"/>
+    <features href="tracecompass.aggrcon#//@repositories.0/@features.3"/>
+    <features href="tracecompass.aggrcon#//@repositories.0/@features.1"/>
+    <features href="tracecompass.aggrcon#//@repositories.0/@features.2"/>
+    <features href="tracecompass.aggrcon#//@repositories.0/@features.4"/>
   </customCategories>
   <customCategories identifier="Programming Languages" label="Programming Languages" description="Tools to allow development with specific languages, such as Java and C++">
     <features href="cdt.aggrcon#//@repositories.0/@features.0"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.1"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.5"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.7"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.8"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.9"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.11"/>
-    <features href="cdt.aggrcon#//@repositories.0/@features.12"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.13"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.12"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.5"/>
+    <features href="cdt.aggrcon#//@repositories.1/@features.0"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.11"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.7"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.1"/>
+    <features href="cdt.aggrcon#//@repositories.0/@features.9"/>
+    <features href="dltk.aggrcon#//@repositories.0/@features.3"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.1"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.2"/>
-    <features href="dltk.aggrcon#//@repositories.0/@features.3"/>
-    <features href="ep.aggrcon#//@repositories.0/@features.4"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.8"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.9"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.10"/>
+    <features href="ep.aggrcon#//@repositories.0/@features.11"/>
+    <features href="linuxtools.aggrcon#//@repositories.0/@features.6"/>
+    <features href="linuxtools.aggrcon#//@repositories.0/@features.0"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.1"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.10"/>
-    <features href="linuxtools.aggrcon#//@repositories.0/@features.6"/>
     <features href="linuxtools.aggrcon#//@repositories.1/@features.2"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.0"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.1"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.3"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.4"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.5"/>
+    <features href="tcf.aggrcon#//@repositories.0/@features.2"/>
     <features href="tm4e.aggrcon#//@repositories.0/@features.0"/>
     <features href="tm4e.aggrcon#//@repositories.0/@features.1"/>
-    <features href="tmf-xtext.aggrcon#//@repositories.0/@features.1"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.0"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.1"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.2"/>
-    <features href="xwt.aggrcon#//@repositories.0/@features.0"/>
-    <features href="xwt.aggrcon#//@repositories.0/@features.1"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.0"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.1"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.2"/>
-    <features href="ep.aggrcon#//@repositories.0/@features.5"/>
-    <features href="ep.aggrcon#//@repositories.0/@features.6"/>
-    <features href="ep.aggrcon#//@repositories.0/@features.7"/>
-    <features href="cdt.aggrcon#//@repositories.1/@features.0"/>
-    <features href="linuxtools.aggrcon#//@repositories.0/@features.0"/>
-    <features href="tcf.aggrcon#//@repositories.0/@features.2"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.2"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.1"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.0"/>
+    <features href="tmf-xtext.aggrcon#//@repositories.0/@features.1"/>
+    <features href="xwt.aggrcon#//@repositories.0/@features.0"/>
+    <features href="xwt.aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="Testing" label="Testing" description="Frameworks supporting application testing.">
+    <features href="eclemma.aggrcon#//@repositories.0/@features.0"/>
     <features href="pdt.aggrcon#//@repositories.0/@features.3"/>
     <features href="rcptt.aggrcon#//@repositories.0/@features.0"/>
-    <features href="swtbot.aggrcon#//@repositories.0/@features.0"/>
     <features href="swtbot.aggrcon#//@repositories.0/@features.1"/>
     <features href="swtbot.aggrcon#//@repositories.0/@features.2"/>
     <features href="swtbot.aggrcon#//@repositories.0/@features.3"/>
-    <features href="eclemma.aggrcon#//@repositories.0/@features.0"/>
+    <features href="swtbot.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Web, XML, Java EE and OSGi Enterprise Development" label="Web, XML, Java EE and OSGi Enterprise Development" description="Tools to help create web applications, including JavaScript, XML, XSL, XSD, HTML, XHTML, CSS, JSP, EJBs, Webservices, JPA tand OSGi Enterprise Applications">
-    <features href="m2e.aggrcon#//@repositories.1/@features.0"/>
-    <features href="m2e.aggrcon#//@repositories.1/@features.1"/>
-    <features href="m2e.aggrcon#//@repositories.1/@features.2"/>
-    <features href="m2e.aggrcon#//@repositories.1/@features.3"/>
-    <features href="pdt.aggrcon#//@repositories.0/@features.0"/>
-    <features href="pdt.aggrcon#//@repositories.0/@features.1"/>
-    <features href="rap-tools.aggrcon#//@repositories.0/@features.0"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.0"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.1"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.2"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.3"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.4"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.5"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.24"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.6"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.7"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.8"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.9"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.10"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.11"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.12"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.13"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.14"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.15"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.16"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.17"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.18"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.19"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.20"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.21"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.15"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.4"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.11"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.18"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.17"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.16"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.26"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.19"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.10"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.5"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.22"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.23"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.24"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.25"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.26"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.21"/>
+    <features href="m2e.aggrcon#//@repositories.1/@features.0"/>
+    <features href="m2e.aggrcon#//@repositories.1/@features.1"/>
+    <features href="m2e.aggrcon#//@repositories.1/@features.3"/>
+    <features href="m2e.aggrcon#//@repositories.1/@features.2"/>
+    <features href="pdt.aggrcon#//@repositories.0/@features.0"/>
+    <features href="pdt.aggrcon#//@repositories.0/@features.1"/>
+    <features href="rap-tools.aggrcon#//@repositories.0/@features.0"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.0"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.1"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.2"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.12"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.2"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.1"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.13"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.25"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.3"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.0"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.14"/>
   </customCategories>
   <contacts name="Adrian Egloff" email="adrian.egloff@bsi-software.com"/>
   <contacts name="Alexander Fedorov" email="alexander.fedorov@arsysop.ru"/>
@@ -406,8 +406,6 @@
   <contacts name="Andrew Johnson" email="andrew_johnson@uk.ibm.com"/>
   <contacts name="Arthur van Dorp" email="arthur.vandorp@bsi-software.com"/>
   <contacts name="Bernd Hufmann" email="bernd.hufmann@ericsson.com"/>
-  <contacts name="Brian de Alwis" email="bsd@mt.ca"/>
-  <contacts name="Carsten Reckord" email="reckord@yatta.de"/>
   <contacts name="Christian Dietrich" email="christian.dietrich.opensource@gmail.com"/>
   <contacts name="Dawid Pakula" email="zulus@w3des.net"/>
   <contacts name="Dennis Wagelaar" email="dwagelaar@gmail.com"/>
@@ -422,7 +420,6 @@
   <contacts name="Hannes Wellmann" email="wellmann.hannes1@gmx.net"/>
   <contacts name="Jeff Johnston" email="jjohnstn@redhat.com"/>
   <contacts name="Jonah Graham" email="jonah@kichwacoders.com"/>
-  <contacts name="Kenn Hussey" email="Kenn.Hussey@gmail.com"/>
   <contacts name="Laurent goubet" email="laurent.goubet@obeo.fr"/>
   <contacts name="Leif Geiger" email="geiger@yatta.de"/>
   <contacts name="Liviu Ionescu" email="ilg@livius.net"/>
@@ -431,7 +428,6 @@
   <contacts name="Matthias Sohn" email="matthias.sohn@gmail.com"/>
   <contacts name="Michael Wenz" email="michael.wenz@sap.com"/>
   <contacts name="Mickael Istria" email="mistria@redhat.com"/>
-  <contacts name="Nikhil Nanivadekar" email="nikhil.nanivadekar@gs.com"/>
   <contacts name="Nitin Dahaybhai" email="thatnitind@gmail.com"/>
   <contacts name="Patrick Tasse" email="patrick.tasse@gmail.com"/>
   <contacts name="Patrick Ziegler" email="ziegler.patrick@hotmail.de"/>
@@ -442,11 +438,9 @@
   <contacts name="Scott Lewis" email="slewis@composent.com"/>
   <contacts name="Sebastian Thomschke" email="sebthom@users.noreply.github.com"/>
   <contacts name="Stephane Begaudeau" email="stephane.begaudeau@obeo.fr"/>
-  <contacts name="St&#xe9;phane Bouchet" email="sbouchet@redhat.com"/>
   <contacts name="Torsten Trompler" email="torsten.trompler@bsi-software.com"/>
   <contacts name="Vasili Gulevich" email="vasili.gulevich@xored.com"/>
   <contacts name="Victor Rubezhny" email="vrubezhny@redhat.com"/>
   <contacts name="Vincent Lorenzo" email="vincent.lorenzo@cea.fr"/>
   <contacts name="Yvan Lussaud" email="yvan.lussaud@obeo.fr"/>
-  <contacts name="Zoltan Ujhelyi" email="ujhelyiz@incquerylabs.com"/>
 </aggregator:Aggregation>

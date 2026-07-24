@@ -123,6 +123,7 @@
         name="Eclipse Nebula - Supplemental Widgets for SWT"
         site="https://projects.eclipse.org/projects/technology.nebula"
         version="https://projects.eclipse.org/projects/technology.nebula/releases/3.4.0"
+        news="https://github.com/EclipseNebula/nebula/releases/latest"
         releaseDate="2026-06-10"
         rank="3">
       <repository
@@ -137,6 +138,7 @@
         name="Eclipse BIRT (Business Intelligence and Reporting Tools)"
         site="https://projects.eclipse.org/projects/technology.birt"
         version="https://projects.eclipse.org/projects/technology.birt/releases/4.24.0"
+        news="https://github.com/eclipse-birt/birt/releases/latest"
         releaseDate="2026-06-10">
       <repository
           uri="https://github.com/eclipse-birt/birt"/>
@@ -326,6 +328,7 @@
         name="Eclipse Ecore Tools"
         site="https://projects.eclipse.org/projects/modeling.ecoretools"
         version="https://projects.eclipse.org/projects/modeling.ecoretools/releases/3.5.2"
+        news="https://github.com/eclipse-ecoretools/ecoretools/releases/latest"
         releaseDate="2024-11-30"
         rank="4">
       <repository
@@ -464,6 +467,7 @@
         name="Eclipse Mylyn"
         site="https://projects.eclipse.org/projects/tools.mylyn"
         version="https://projects.eclipse.org/projects/tools.mylyn/releases/4.6.0"
+        news="https://github.com/eclipse-mylyn/org.eclipse.mylyn/releases/latest"
         releaseDate="2025-03-12"
         rank="2">
       <repository
@@ -476,9 +480,9 @@
     <project
         name="Eclipse CDT (C/C++ Development Tooling)"
         site="https://projects.eclipse.org/projects/tools.cdt"
-        version="https://projects.eclipse.org/projects/tools.cdt/releases/cdt-12.4.0-cdt-lsp-3.5.0"
-        news="https://github.com/eclipse-cdt/cdt/blob/main/NewAndNoteworthy/CDT-12.5.md"
-        releaseDate="2026-03-11"
+        version="https://projects.eclipse.org/projects/tools.cdt/releases/cdt-12.5.0-cdt-lsp-3.6.0"
+        news="https://github.com/eclipse-cdt/cdt/blob/main/NewAndNoteworthy/CDT-12.6.md"
+        releaseDate="2026-06-10"
         rank="3">
       <repository
           uri="https://github.com/eclipse-cdt/cdt"/>
@@ -520,8 +524,8 @@
     <project
         name="Eclipse Remote Application Platform"
         site="https://projects.eclipse.org/projects/rt.rap"
-        version="https://projects.eclipse.org/projects/rt.rap/releases/4.5.0"
-        releaseDate="2025-12-10">
+        version="https://projects.eclipse.org/projects/rt.rap/releases/4.8.0"
+        releaseDate="2026-09-09">
       <repository
           uri="https://github.com/eclipse-rap/org.eclipse.rap"/>
       <repository
@@ -556,9 +560,9 @@
     <project
         name="Eclipse CDO Model Repository"
         site="https://projects.eclipse.org/projects/modeling.cdo"
-        version="https://projects.eclipse.org/projects/modeling.cdo/releases/4.35.0"
+        version="https://projects.eclipse.org/projects/modeling.cdo/releases/4.36.0"
         news="https://download.eclipse.org/modeling/emf/cdo/updates/all-relnotes.html"
-        releaseDate="2026-06-10"
+        releaseDate="2026-09-09"
         rank="1">
       <repository
           uri="https://github.com/eclipse-cdo/cdo"/>
@@ -713,9 +717,9 @@
     <project
         name="Eclipse EGit: Git Integration for Eclipse"
         site="https://projects.eclipse.org/projects/technology.egit"
-        version="https://projects.eclipse.org/projects/technology.egit/releases/7.7.0"
+        version="https://projects.eclipse.org/projects/technology.egit/releases/7.8.0"
         news="https://github.com/eclipse-egit/egit/wiki/New-and-Noteworthy-7.7"
-        releaseDate="2026-06-10"
+        releaseDate="2026-09-09"
         rank="7">
       <tag>committers</tag>
       <tag>cpp</tag>
@@ -735,9 +739,9 @@
     <project
         name="Eclipse JGit: Java implementation of Git"
         site="https://projects.eclipse.org/projects/technology.jgit"
-        version="https://projects.eclipse.org/projects/technology.jgit/releases/7.7.0"
+        version="https://projects.eclipse.org/projects/technology.jgit/releases/7.8.0"
         news="https://github.com/eclipse-jgit/jgit/wiki/New-and-Noteworthy-7.7"
-        releaseDate="2026-06-10"
+        releaseDate="2026-09-09"
         rank="6">
       <repository
           uri="https://github.com/eclipse-jgit/jgit"/>
@@ -824,7 +828,7 @@
         name="Eclipse WindowBuilder"
         site="https://projects.eclipse.org/projects/tools.windowbuilder"
         version="https://projects.eclipse.org/projects/tools.windowbuilder/releases/1.24.0"
-        news="https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v124.asciidoc"
+        news="https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v125.asciidoc"
         releaseDate="2026-06-10"
         rank="2">
       <repository
@@ -851,9 +855,9 @@
     <project
         name="Eclipse Sirius"
         site="https://projects.eclipse.org/projects/modeling.sirius"
-        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-desktop-7.6.0"
+        version="https://projects.eclipse.org/projects/modeling.sirius/releases/sirius-desktop-7.4.15"
         news="https://github.com/eclipse-sirius/sirius-desktop/releases/latest"
-        releaseDate="2026-06-01">
+        releaseDate="2026-06-29">
       <repository
           uri="https://github.com/eclipse-sirius/sirius-desktop"/>
       <repository
@@ -891,9 +895,9 @@
     <project
         name="Eclipse Trace Compass"
         site="https://projects.eclipse.org/projects/tools.tracecompass"
-        version="https://projects.eclipse.org/projects/tools.tracecompass/releases/12.0.0"
-        news="https://github.com/eclipse-tracecompass/org.eclipse.tracecompass/wiki/NewIn11.3"
-        releaseDate="2026-06-10"
+        version="https://projects.eclipse.org/projects/tools.tracecompass/releases/12.1.0"
+        news="https://github.com/eclipse-tracecompass/org.eclipse.tracecompass/wiki/NewIn12.1"
+        releaseDate="2026-09-09"
         rank="1">
       <repository
           uri="https://github.com/eclipse-tracecompass/org.eclipse.tracecompass"/>
@@ -940,8 +944,8 @@
     <project
         name="Eclipse EMF Parsley"
         site="https://projects.eclipse.org/projects/modeling.emf-parsley"
-        version="https://projects.eclipse.org/projects/modeling.emf-parsley/releases/1.18.0"
-        releaseDate="2024-09-01">
+        version="https://projects.eclipse.org/projects/modeling.emf-parsley/releases/1.19.0"
+        releaseDate="2026-09-01">
       <repository
           uri="https://github.com/eclipse-emf-parsley/emf-parsley"/>
     </project>
@@ -981,9 +985,9 @@
     <project
         name="Eclipse LSP4E"
         site="https://projects.eclipse.org/projects/technology.lsp4e"
-        version="https://projects.eclipse.org/projects/technology.lsp4e/releases/0.30.5"
+        version="https://projects.eclipse.org/projects/technology.lsp4e/releases/0.30.6"
         news="https://github.com/eclipse-lsp4e/lsp4e/releases/latest"
-        releaseDate="2026-05-06"
+        releaseDate="2026-07-15"
         rank="6">
       <repository
           uri="https://github.com/eclipse-lsp4e/lsp4e"/>
@@ -1047,8 +1051,9 @@
     <project
         name="Eclipse Passage"
         site="https://projects.eclipse.org/projects/technology.passage"
-        version="https://projects.eclipse.org/projects/technology.passage/releases/4.6.0"
-        releaseDate="2026-06-08"
+        version="https://projects.eclipse.org/projects/technology.passage/releases/4.7.0"
+        news="https://github.com/eclipse-passage/passage/releases/latest"
+        releaseDate="2026-09-03"
         rank="1">
       <repository
           uri="https://github.com/eclipse-passage/passage"/>
