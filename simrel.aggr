@@ -348,9 +348,9 @@
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.0"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.1"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.2"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.2"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.1"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.0"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.20"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.21"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.25"/>
     <features href="tmf-xtext.aggrcon#//@repositories.0/@features.1"/>
     <features href="xwt.aggrcon#//@repositories.0/@features.0"/>
     <features href="xwt.aggrcon#//@repositories.0/@features.1"/>
@@ -365,25 +365,25 @@
     <features href="swtbot.aggrcon#//@repositories.0/@features.0"/>
   </customCategories>
   <customCategories identifier="Web, XML, Java EE and OSGi Enterprise Development" label="Web, XML, Java EE and OSGi Enterprise Development" description="Tools to help create web applications, including JavaScript, XML, XSL, XSD, HTML, XHTML, CSS, JSP, EJBs, Webservices, JPA tand OSGi Enterprise Applications">
-    <features href="webtools.aggrcon#//@repositories.0/@features.24"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.0"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.1"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.2"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.3"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.4"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.5"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.6"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.7"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.8"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.9"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.20"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.15"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.4"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.11"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.18"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.17"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.16"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.26"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.19"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.10"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.5"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.22"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.23"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.21"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.11"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.12"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.13"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.14"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.15"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.16"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.17"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.18"/>
     <features href="m2e.aggrcon#//@repositories.1/@features.0"/>
     <features href="m2e.aggrcon#//@repositories.1/@features.1"/>
     <features href="m2e.aggrcon#//@repositories.1/@features.3"/>
@@ -394,14 +394,14 @@
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.0"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.1"/>
     <features href="wildwebdeveloper.aggrcon#//@repositories.0/@features.2"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.12"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.2"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.1"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.13"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.19"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.20"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.21"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.22"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.23"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.24"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.25"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.3"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.0"/>
-    <features href="webtools.aggrcon#//@repositories.0/@features.14"/>
+    <features href="webtools.aggrcon#//@repositories.0/@features.26"/>
   </customCategories>
   <contacts name="Adrian Egloff" email="adrian.egloff@bsi-software.com"/>
   <contacts name="Alexander Fedorov" email="alexander.fedorov@arsysop.ru"/>
