@@ -89,6 +89,7 @@ pipeline {
              -s "${JOB_URL}" \
              -v \
              -t "tests" \
+             -ignored-major-version-duplicates "jakarta[.].*|junit-.*" \
              ${PUBLISH_ARGUMENT} \
              "https://download.eclipse.org/${TRAIN_LOCATION}" \
              -vmargs \
