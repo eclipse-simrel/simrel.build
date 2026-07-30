@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EEF">
   <repositories enabled="false" location="https://download.eclipse.org/modeling/emft/eef/updates/releases/1.5/R201601141612/">
     <features name="org.eclipse.emf.eef.sdk-feature.feature.group" versionRange="[1.5.0,1.6.0)">

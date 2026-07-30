@@ -147,7 +147,7 @@
     </project>
   </contribution>
   <contribution
-      contribution="emf-emf.aggrcon#/">
+      contribution="emf.aggrcon#/">
     <tag>dsl</tag>
     <tag>modeling</tag>
     <project
@@ -322,7 +322,7 @@
   </contribution>
   <contribution
       label="Ecore Tools"
-      contribution="emft-ecoretools.aggrcon#/">
+      contribution="ecoretools.aggrcon#/">
     <tag>modeling</tag>
     <project
         name="Eclipse Ecore Tools"
@@ -337,7 +337,7 @@
   </contribution>
   <contribution
       label="ATL"
-      contribution="m2m-atl.aggrcon#/">
+      contribution="atl.aggrcon#/">
     <project
         name="Eclipse ATL"
         site="https://projects.eclipse.org/projects/modeling.atl"
@@ -362,7 +362,7 @@
   </contribution>
   <contribution
       label="MWE"
-      contribution="emft-mwe.aggrcon#/">
+      contribution="mwe.aggrcon#/">
     <tag>dsl</tag>
     <project
         name="Eclipse Modeling Workflow Engine"
@@ -555,7 +555,7 @@
     </project>
   </contribution>
   <contribution
-      contribution="emf-cdo.aggrcon#/">
+      contribution="cdo.aggrcon#/">
     <tag>modeling</tag>
     <project
         name="Eclipse CDO Model Repository"
@@ -632,7 +632,7 @@
   </contribution>
   <contribution
       label="Acceleo"
-      contribution="m2t-acceleo.aggrcon#/">
+      contribution="acceleo.aggrcon#/">
     <project
         name="Eclipse Acceleo"
         site="https://projects.eclipse.org/projects/modeling.acceleo"
@@ -645,7 +645,7 @@
   </contribution>
   <contribution
       label="GMF Runtime"
-      contribution="gmp-gmf-runtime.aggrcon#/">
+      contribution="gmf-runtime.aggrcon#/">
     <tag>modeling</tag>
     <project
         name="Eclipse GMF Runtime"
@@ -677,7 +677,7 @@
     </project>
   </contribution>
   <contribution
-      contribution="tmf-xtext.aggrcon#/">
+      contribution="xtext.aggrcon#/">
     <tag>dsl</tag>
     <project
         name="Eclipse Xtext"
@@ -702,7 +702,7 @@
     </project>
   </contribution>
   <contribution
-      contribution="emft-eef.aggrcon#/">
+      contribution="eef.aggrcon#/">
     <project
         name="Eclipse Extended Editing Framework (EEF)"
         site="https://projects.eclipse.org/projects/modeling.eef"
@@ -749,7 +749,7 @@
   </contribution>
   <contribution
       label="Graphiti"
-      contribution="gmp-graphiti.aggrcon#/">
+      contribution="graphiti.aggrcon#/">
     <project
         name="Eclipse Graphiti"
         site="https://projects.eclipse.org/projects/modeling.graphiti"
@@ -763,7 +763,7 @@
   </contribution>
   <contribution
       enabled="false"
-      contribution="mdt-papyrus.aggrcon#/">
+      contribution="papyrus.aggrcon#/">
     <project
         name="Eclipse Papyrus"
         site="https://projects.eclipse.org/projects/modeling.papyrus"
@@ -939,7 +939,7 @@
     </project>
   </contribution>
   <contribution
-      contribution="emf-parsley.aggrcon#/">
+      contribution="parsley.aggrcon#/">
     <tag>modeling</tag>
     <project
         name="Eclipse EMF Parsley"

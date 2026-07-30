@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="TM4E">
   <repositories location="https://download.eclipse.org/tm4e/releases/0.17.2/" description="TextMate for Eclipse (TM4E) 0.17.2">
     <features name="org.eclipse.tm4e.feature.feature.group" versionRange="[0.17.2.202602051927]">

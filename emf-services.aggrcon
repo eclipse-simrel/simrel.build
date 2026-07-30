@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="EMF Services">
   <repositories location="https://download.eclipse.org/modeling/emf/validation/updates/releases/R202605251143/" description="EMF Validation">
     <features name="org.eclipse.emf.validation.sdk.feature.group">
