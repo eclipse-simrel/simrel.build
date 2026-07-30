@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ASCII"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="The Eclipse Modeling Graphiti project" label="Graphiti">
   <repositories location="https://download.eclipse.org/graphiti/updates/release/0.19.4" description="Graphiti 0.19.4 Release Update Site">
     <features description="The feature containing extensions for the Graphiti framework, currently it contains only the SVG Diagram export" name="org.eclipse.graphiti.export.feature.feature.group" versionRange="[0.19.4,0.20.0)">
