@@ -58,8 +58,5 @@
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
     </features>
   </repositories>
-  <repositories location="https://download.eclipse.org/tools/orbit/simrel/orbit-legacy/milestone/latest">
-    <bundles name="org.eclipse.orbit.xml-apis-ext"/>
-  </repositories>
   <contacts href="simrel.aggr#//@contacts[email='rahul.mohanan@ibm.com']"/>
 </aggregator:Contribution>
