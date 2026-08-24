@@ -1009,6 +1009,7 @@
         name="Eclipse TM4E - TextMate support in the Eclipse IDE"
         site="https://projects.eclipse.org/projects/technology.tm4e"
         version="https://projects.eclipse.org/projects/technology.tm4e/releases/0.17.2"
+        news="https://github.com/eclipse-tm4e/tm4e/releases/latest"
         releaseDate="2026-03-02"
         rank="2">
       <repository
