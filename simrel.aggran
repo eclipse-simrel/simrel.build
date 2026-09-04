@@ -651,6 +651,7 @@
         name="Eclipse GMF Runtime"
         site="https://projects.eclipse.org/projects/modeling.gmf-runtime"
         version="https://projects.eclipse.org/projects/modeling.gmf-runtime/releases/1.16.8"
+        news="https://github.com/eclipse-gmf-runtime/gmf-runtime/releases/latest"
         releaseDate="2025-12-01"
         rank="3">
       <repository
@@ -828,7 +829,7 @@
         name="Eclipse WindowBuilder"
         site="https://projects.eclipse.org/projects/tools.windowbuilder"
         version="https://projects.eclipse.org/projects/tools.windowbuilder/releases/1.24.0"
-        news="https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v125.asciidoc"
+        news="https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v126.asciidoc"
         releaseDate="2026-06-10"
         rank="2">
       <repository
