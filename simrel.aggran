@@ -480,7 +480,7 @@
         name="Eclipse CDT (C/C++ Development Tooling)"
         site="https://projects.eclipse.org/projects/tools.cdt"
         version="https://projects.eclipse.org/projects/tools.cdt/releases/cdt-12.5.0-cdt-lsp-3.6.0"
-        news="https://github.com/eclipse-cdt/cdt/blob/main/NewAndNoteworthy/CDT-12.6.md"
+        news="https://github.com/eclipse-cdt/cdt/blob/main/NewAndNoteworthy/CDT-12.7.md"
         releaseDate="2026-06-10"
         rank="3">
       <repository
@@ -532,7 +532,7 @@
     </project>
   </contribution>
   <contribution
-      contribution="epp-mpc.aggrcon#/">
+      contribution="mpc.aggrcon#/">
     <tag>committers</tag>
     <tag>cpp</tag>
     <tag>dsl</tag>
