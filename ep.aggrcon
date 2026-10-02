@@ -14,6 +14,7 @@
     <bundles name="jakarta.inject.jakarta.inject-api" versionRange="[1.0.0,2.0.0)"/>
     <bundles name="org.eclipse.debug.terminal"/>
     <bundles name="org.eclipse.equinox.slf4j"/>
+    <bundles name="com.github.mwiede.jsch" versionRange="[2.0.0,3.0.0)"/>
     <features name="org.eclipse.core.runtime.feature.feature.group"/>
     <features name="org.eclipse.e4.core.tools.feature.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='General%20Purpose%20Tools']"/>
