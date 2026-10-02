@@ -24,5 +24,8 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Programming%20Languages']"/>
     </features>
   </repositories>
+  <repositories location="https://download.eclipse.org/oomph/simrel-extras/release/1.4.0">
+    <bundles name="com.jcraft.jsch" versionRange="[0.0.0,1.0.0]"/>
+  </repositories>
   <contacts href="simrel.aggr#//@contacts[email='zulus@w3des.net']"/>
 </aggregator:Contribution>
