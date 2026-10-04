@@ -41,7 +41,7 @@
   <gitRepositoryFilter>.*/eclipse-linuxtools/org.eclipse.linuxtools.eclipse-build</gitRepositoryFilter>
   <gitRepositoryFilter>.*/gsc-ec-converter</gitRepositoryFilter>
   <gitRepositoryFilter>.*/eclipse-collections-[^/]*</gitRepositoryFilter>
-  <gitRepositoryFilter>.*/eclipse-sirius/(sirius-web|sirius.specs)</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/eclipse-sirius/(sirius-web|sirius.specs|sirius-web-emf-generator)</gitRepositoryFilter>
   <gitRepositoryFilter>.*eclipse-scout/(scout.maven-master|scout.ci)</gitRepositoryFilter>
   <gitRepositoryFilter>modeling.tmf.xtext.*xtext-[^/]*</gitRepositoryFilter>
   <gitRepositoryFilter>iot.embed-cdt.*(org.eclipse.epp.packages|Liqp)</gitRepositoryFilter>
@@ -467,6 +467,7 @@
         name="Eclipse Mylyn"
         site="https://projects.eclipse.org/projects/tools.mylyn"
         version="https://projects.eclipse.org/projects/tools.mylyn/releases/4.6.0"
+        news="https://github.com/eclipse-mylyn/org.eclipse.mylyn/releases/latest"
         releaseDate="2025-03-12"
         rank="2">
       <repository
