@@ -3,7 +3,7 @@
     xmi:version="2.0"
     xmlns:xmi="http://www.omg.org/XMI"
     xmlns:analyzer="https://www.eclipse.org/cbi/p2repo/2021/aggregator/analyzer"
-    releaseDate="2026-09-09"
+    releaseDate="2026-12-09"
     exclusion="tooling.*|.*\.source|.*\.source\.feature\.group|.*\.feature\.jar"
     ignoreMajorVersionDuplicates="true"
     layoutWidth="2000"
@@ -41,7 +41,7 @@
   <gitRepositoryFilter>.*/eclipse-linuxtools/org.eclipse.linuxtools.eclipse-build</gitRepositoryFilter>
   <gitRepositoryFilter>.*/gsc-ec-converter</gitRepositoryFilter>
   <gitRepositoryFilter>.*/eclipse-collections-[^/]*</gitRepositoryFilter>
-  <gitRepositoryFilter>.*/eclipse-sirius/(sirius-web|sirius.specs)</gitRepositoryFilter>
+  <gitRepositoryFilter>.*/eclipse-sirius/(sirius-web|sirius.specs|sirius-web-emf-generator)</gitRepositoryFilter>
   <gitRepositoryFilter>.*eclipse-scout/(scout.maven-master|scout.ci)</gitRepositoryFilter>
   <gitRepositoryFilter>modeling.tmf.xtext.*xtext-[^/]*</gitRepositoryFilter>
   <gitRepositoryFilter>iot.embed-cdt.*(org.eclipse.epp.packages|Liqp)</gitRepositoryFilter>
@@ -124,9 +124,9 @@
     <project
         name="Eclipse Nebula - Supplemental Widgets for SWT"
         site="https://projects.eclipse.org/projects/technology.nebula"
-        version="https://projects.eclipse.org/projects/technology.nebula/releases/3.4.0"
+        version="https://projects.eclipse.org/projects/technology.nebula/releases/3.5.0"
         news="https://github.com/EclipseNebula/nebula/releases/latest"
-        releaseDate="2026-06-10"
+        releaseDate="2026-12-09"
         rank="3">
       <repository
           uri="https://github.com/EclipseNebula/nebula"/>
@@ -139,9 +139,9 @@
     <project
         name="Eclipse BIRT (Business Intelligence and Reporting Tools)"
         site="https://projects.eclipse.org/projects/technology.birt"
-        version="https://projects.eclipse.org/projects/technology.birt/releases/4.24.0"
+        version="https://projects.eclipse.org/projects/technology.birt/releases/4.26.0"
         news="https://github.com/eclipse-birt/birt/releases/latest"
-        releaseDate="2026-06-10">
+        releaseDate="2026-12-09">
       <repository
           uri="https://github.com/eclipse-birt/birt"/>
     </project>
@@ -184,7 +184,7 @@
       <subproject
           name="Eclipse Equinox"
           site="https://projects.eclipse.org/projects/eclipse.equinox"
-          news="https://eclipse.dev/eclipse/news/4.41/platform_isv.html"
+          news="https://eclipse.dev/eclipse/news/4.42/platform_isv.html"
           rank="7">
         <tag>committers</tag>
         <tag>cpp</tag>
@@ -207,7 +207,7 @@
       <subproject
           name="Eclipse JDT (Java development tools)"
           site="https://projects.eclipse.org/projects/eclipse.jdt"
-          news="https://eclipse.dev/eclipse/news/4.41/jdt.html"
+          news="https://eclipse.dev/eclipse/news/4.42/jdt.html"
           rank="7">
         <tag>committers</tag>
         <tag>dsl</tag>
@@ -229,7 +229,7 @@
       <subproject
           name="Eclipse PDE"
           site="https://projects.eclipse.org/projects/eclipse.pde"
-          news="https://eclipse.dev/eclipse/news/4.41/pde.html"
+          news="https://eclipse.dev/eclipse/news/4.42/pde.html"
           rank="8">
         <tag>committers</tag>
         <tag>dsl</tag>
@@ -244,7 +244,7 @@
       <subproject
           name="Eclipse Platform"
           site="https://projects.eclipse.org/projects/eclipse.platform"
-          news="https://eclipse.dev/eclipse/news/4.41/platform.html"
+          news="https://eclipse.dev/eclipse/news/4.42/platform.html"
           rank="8">
         <tag>committers</tag>
         <tag>cpp</tag>
@@ -481,7 +481,7 @@
         name="Eclipse CDT (C/C++ Development Tooling)"
         site="https://projects.eclipse.org/projects/tools.cdt"
         version="https://projects.eclipse.org/projects/tools.cdt/releases/cdt-12.5.0-cdt-lsp-3.6.0"
-        news="https://github.com/eclipse-cdt/cdt/blob/main/NewAndNoteworthy/CDT-12.6.md"
+        news="https://github.com/eclipse-cdt/cdt/blob/main/NewAndNoteworthy/CDT-12.7.md"
         releaseDate="2026-06-10"
         rank="3">
       <repository
@@ -533,7 +533,7 @@
     </project>
   </contribution>
   <contribution
-      contribution="epp-mpc.aggrcon#/">
+      contribution="mpc.aggrcon#/">
     <tag>committers</tag>
     <tag>cpp</tag>
     <tag>dsl</tag>
@@ -637,7 +637,6 @@
         name="Eclipse Acceleo"
         site="https://projects.eclipse.org/projects/modeling.acceleo"
         version="https://projects.eclipse.org/projects/modeling.acceleo/releases/3.7.16"
-        news="https://github.com/eclipse-acceleo/acceleo/releases/latest"
         releaseDate="2024-06-04">
       <repository
           uri="https://github.com/eclipse-acceleo/acceleo"/>
@@ -651,6 +650,7 @@
         name="Eclipse GMF Runtime"
         site="https://projects.eclipse.org/projects/modeling.gmf-runtime"
         version="https://projects.eclipse.org/projects/modeling.gmf-runtime/releases/1.16.8"
+        news="https://github.com/eclipse-gmf-runtime/gmf-runtime/releases/latest"
         releaseDate="2025-12-01"
         rank="3">
       <repository
@@ -828,7 +828,7 @@
         name="Eclipse WindowBuilder"
         site="https://projects.eclipse.org/projects/tools.windowbuilder"
         version="https://projects.eclipse.org/projects/tools.windowbuilder/releases/1.24.0"
-        news="https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v125.asciidoc"
+        news="https://github.com/eclipse-windowbuilder/windowbuilder/blob/master/org.eclipse.wb.doc.user/html-src/whatsnew/v126.asciidoc"
         releaseDate="2026-06-10"
         rank="2">
       <repository
@@ -912,7 +912,6 @@
         name="Eclipse RCP Testing Tool"
         site="https://projects.eclipse.org/projects/technology.rcptt"
         version="https://projects.eclipse.org/projects/technology.rcptt/releases/2.8.1"
-        news="https://github.com/eclipse-rcptt/org.eclipse.rcptt/releases/latest"
         releaseDate="2026-04-03"
         rank="1">
       <repository

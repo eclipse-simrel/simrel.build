@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Aggregation files used for the Eclipse Simultaneous Release (quarterly &quot;release train&quot;)." buildmaster="//@contacts[email='ed.merks@gmail.com']" buildmasterBackup="//@contacts[email='frederic.gurr@eclipse.org']" label="2026-09" buildRoot="buildresults" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false" includeSources="true">
+<aggregator:Aggregation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" description="Aggregation files used for the Eclipse Simultaneous Release (quarterly &quot;release train&quot;)." buildmaster="//@contacts[email='ed.merks@gmail.com']" buildmasterBackup="//@contacts[email='frederic.gurr@eclipse.org']" label="2026-12" buildRoot="buildresults" packedStrategy="UNPACK_AS_SIBLING" sendmail="true" type="I" allowLegacySites="false" includeSources="true">
   <validationSets label="main">
     <contributions href="acceleo.aggrcon#/"/>
     <contributions href="atl.aggrcon#/"/>
@@ -18,7 +18,7 @@
     <contributions href="emf.aggrcon#/"/>
     <contributions href="emf-compare.aggrcon#/"/>
     <contributions href="emf-services.aggrcon#/"/>
-    <contributions href="epp-mpc.aggrcon#/"/>
+    <contributions href="mpc.aggrcon#/"/>
     <contributions href="gef.aggrcon#/"/>
     <contributions href="gmf-runtime.aggrcon#/"/>
     <contributions href="graphiti.aggrcon#/"/>
@@ -94,7 +94,6 @@
     <features href="egit.aggrcon#//@repositories.0/@features.3"/>
     <features href="egit.aggrcon#//@repositories.0/@features.6"/>
     <features href="egit.aggrcon#//@repositories.0/@features.5"/>
-    <features href="egit.aggrcon#//@repositories.0/@features.8"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.0"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.1"/>
     <features href="mylyn.aggrcon#//@repositories.0/@features.2"/>
@@ -174,7 +173,7 @@
     <features href="dltk.aggrcon#//@repositories.0/@features.0"/>
     <features href="dltk.aggrcon#//@repositories.0/@features.5"/>
     <features href="ep.aggrcon#//@repositories.0/@features.1"/>
-    <features href="epp-mpc.aggrcon#//@repositories.0/@features.0"/>
+    <features href="mpc.aggrcon#//@repositories.0/@features.0"/>
     <features href="cdt.aggrcon#//@repositories.0/@features.19"/>
     <features href="linuxtools.aggrcon#//@repositories.0/@features.2"/>
     <features href="linuxtools.aggrcon#//@repositories.1/@features.0"/>

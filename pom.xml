@@ -7,10 +7,10 @@
   <packaging>pom</packaging>
   <properties>
     <tycho-version>5.0.4</tycho-version>
-    <trainName>2026-09</trainName>
-    <referenceRepo>releases/2026-06/202606101000</referenceRepo>
+    <trainName>2026-12</trainName>
+    <referenceRepo>2026-09/202609091000</referenceRepo>
     <download.eclipse.org>https://download.eclipse.org</download.eclipse.org>
-    <eclipse.repo.url>https://download.eclipse.org/eclipse/updates/4.40/R-4.40-202606010713</eclipse.repo.url>
+    <eclipse.repo.url>https://download.eclipse.org/eclipse/updates/4.41/R-4.41-202608281142</eclipse.repo.url>
     <simrel.aggregator.repo.url.relative>nightly/latest</simrel.aggregator.repo.url.relative>
     <simrel.aggregator.repo.url>${download.eclipse.org}/cbi/updates/p2-aggregator/products/${simrel.aggregator.repo.url.relative}</simrel.aggregator.repo.url>
     <cbi.analyzers.repo.url>${download.eclipse.org}/cbi/updates/p2-analyzers/products/nightly/latest</cbi.analyzers.repo.url>
@@ -51,7 +51,7 @@
                     <applicationsArg>--action</applicationsArg>
                     <applicationsArg>${simrel.aggregator.build.type}</applicationsArg>
                   </applicationsArgs>
-                  <executionEnvironment>JavaSE-21</executionEnvironment>
+                  <executionEnvironment>JavaSE-25</executionEnvironment>
                   <jvmArgs>
                     <jvmArg>-Xms256M</jvmArg>
                     <jvmArg>-Xmx2048M</jvmArg>
@@ -143,7 +143,7 @@
                     <jvmArg>-Xms256M</jvmArg>
                     <jvmArg>-Xmx2048M</jvmArg>
                   </jvmArgs>
-                  <executionEnvironment>JavaSE-21</executionEnvironment>
+                  <executionEnvironment>JavaSE-25</executionEnvironment>
                   <dependencies>
                     <dependency>
                       <artifactId>org.eclipse.cbi.p2repo.analyzers</artifactId>
@@ -217,7 +217,7 @@
                     <jvmArg>-Xmx2048M</jvmArg>
                     <jvmArg>-Duser.home=${project.build.directory}</jvmArg>
                   </jvmArgs>
-                  <executionEnvironment>JavaSE-21</executionEnvironment>
+                  <executionEnvironment>JavaSE-25</executionEnvironment>
                   <repositories>
                     <repository>
                       <id>simrel-aggregator</id>
