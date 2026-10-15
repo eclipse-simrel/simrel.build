@@ -31,7 +31,6 @@
     <contributions href="mylyn.aggrcon#/"/>
     <contributions href="ocl.aggrcon#/"/>
     <contributions href="oomph.aggrcon#/"/>
-    <contributions href="papyrus.aggrcon#/"/>
     <contributions href="parsley.aggrcon#/"/>
     <contributions href="passage.aggrcon#/"/>
     <contributions href="pdt.aggrcon#/"/>
@@ -50,7 +49,6 @@
     <contributions href="wildwebdeveloper.aggrcon#/"/>
     <contributions href="windowbuilder.aggrcon#/"/>
     <contributions href="xtext.aggrcon#/"/>
-    <contributions href="xwt.aggrcon#/"/>
   </validationSets>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="aarch64"/>
   <configurations operatingSystem="linux" windowSystem="gtk" architecture="ppc64le"/>
@@ -217,8 +215,6 @@
     <features href="windowbuilder.aggrcon#//@repositories.0/@features.6"/>
     <features href="windowbuilder.aggrcon#//@repositories.0/@features.7"/>
     <features href="xtext.aggrcon#//@repositories.0/@features.0"/>
-    <features href="xwt.aggrcon#//@repositories.0/@features.0"/>
-    <features href="xwt.aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="License Management" label="License Management" description="Tools used to declare and control licensing constraints">
     <features href="passage.aggrcon#//@repositories.0/@features.0"/>
@@ -288,7 +284,6 @@
     <features href="ocl.aggrcon#//@repositories.0/@features.0"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.1"/>
     <features href="ocl.aggrcon#//@repositories.0/@features.2"/>
-    <features href="papyrus.aggrcon#//@repositories.0/@features.0"/>
     <features href="qvtd.aggrcon#//@repositories.0/@features.0"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.6"/>
     <features href="sirius.aggrcon#//@repositories.0/@features.2"/>
@@ -351,8 +346,6 @@
     <features href="webtools.aggrcon#//@repositories.0/@features.21"/>
     <features href="webtools.aggrcon#//@repositories.0/@features.25"/>
     <features href="xtext.aggrcon#//@repositories.0/@features.1"/>
-    <features href="xwt.aggrcon#//@repositories.0/@features.0"/>
-    <features href="xwt.aggrcon#//@repositories.0/@features.1"/>
   </customCategories>
   <customCategories identifier="Testing" label="Testing" description="Frameworks supporting application testing.">
     <features href="eclemma.aggrcon#//@repositories.0/@features.0"/>
@@ -434,7 +427,6 @@
   <contacts name="Patrick Tasse" email="patrick.tasse@gmail.com"/>
   <contacts name="Patrick Ziegler" email="ziegler.patrick@hotmail.de"/>
   <contacts name="Pierre-Charles David" email="pierre-charles.david@obeo.fr"/>
-  <contacts name="Quentin Le Menez" email="quentin.lemenez@cea.fr"/>
   <contacts name="Rahul Mohanan" email="rahul.mohanan@ibm.com"/>
   <contacts name="Ruben Porras Campo" email="pcr@avaloq.com"/>
   <contacts name="Scott Lewis" email="slewis@composent.com"/>
@@ -443,6 +435,5 @@
   <contacts name="Torsten Trompler" email="torsten.trompler@bsi-software.com"/>
   <contacts name="Vasili Gulevich" email="vasili.gulevich@xored.com"/>
   <contacts name="Victor Rubezhny" email="vrubezhny@redhat.com"/>
-  <contacts name="Vincent Lorenzo" email="vincent.lorenzo@cea.fr"/>
   <contacts name="Yvan Lussaud" email="yvan.lussaud@obeo.fr"/>
 </aggregator:Aggregation>

@@ -9,7 +9,7 @@
     layoutWidth="2000"
     layoutHeight="800"
     aggregation="simrel.aggr#/">
-  <levels>48</levels>
+  <levels>50</levels>
   <levels>40</levels>
   <levels>30</levels>
   <levels>21</levels>
@@ -73,7 +73,6 @@
   <gitRepositoryFilter>.*website.*</gitRepositoryFilter>
   <gitRepositoryFilter>.*/eclipse-tracecompass/tmll</gitRepositoryFilter>
   <gitRepositoryFilter>.*/eclipse-ide-snap</gitRepositoryFilter>
-  <gitRepositoryFilter>.*/papyrus/(discussion|org.eclipse.papyrus-devdoc|org.eclipse.papyrus-web)</gitRepositoryFilter>
   <gitRepositoryFilter>.*/(e|j)git-permissions</gitRepositoryFilter>
   <gitRepositoryFilter>.*/eclipse-gef/gef$</gitRepositoryFilter>
   <gitRepositoryFilter>.*/eclipse-jdt/eclipse.jdt.core.binaries</gitRepositoryFilter>
@@ -637,6 +636,7 @@
         name="Eclipse Acceleo"
         site="https://projects.eclipse.org/projects/modeling.acceleo"
         version="https://projects.eclipse.org/projects/modeling.acceleo/releases/3.7.16"
+        news="https://github.com/eclipse-acceleo/acceleo/releases/latest"
         releaseDate="2024-06-04">
       <repository
           uri="https://github.com/eclipse-acceleo/acceleo"/>
@@ -762,50 +762,6 @@
     </project>
   </contribution>
   <contribution
-      enabled="false"
-      contribution="papyrus.aggrcon#/">
-    <project
-        name="Eclipse Papyrus"
-        site="https://projects.eclipse.org/projects/modeling.papyrus"
-        version="https://projects.eclipse.org/projects/modeling.mdt.papyrus/releases/7.0.0"
-        releaseDate="2025-06-11">
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-bpmn"/>
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-cdo"/>
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-classic"/>
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-designer"/>
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-desktop"/>
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-domainservices"/>
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-ease"/>
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-manufacturing"/>
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-marte"/>
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-model2doc"/>
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-moka"/>
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-moka.incubation"/>
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-papygame"/>
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-robotics"/>
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-sirius"/>
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-sysml16"/>
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-web.sysml16"/>
-    </project>
-  </contribution>
-  <contribution
       contribution="scout.aggrcon#/">
     <tag>scout</tag>
     <project
@@ -877,18 +833,6 @@
     </project>
   </contribution>
   <contribution
-      enabled="false"
-      contribution="xwt.aggrcon#/">
-    <project
-        name="Eclipse XWT"
-        site="https://projects.eclipse.org/projects/technology.xwt"
-        version="https://projects.eclipse.org/projects/technology.xwt/releases/1.8.0"
-        releaseDate="2023-03-15">
-      <repository
-          uri="https://gitlab.eclipse.org/eclipse/xwt/org.eclipse.xwt"/>
-    </project>
-  </contribution>
-  <contribution
       contribution="tracecompass.aggrcon#/">
     <tag>cpp</tag>
     <tag>embedcpp</tag>
@@ -912,6 +856,7 @@
         name="Eclipse RCP Testing Tool"
         site="https://projects.eclipse.org/projects/technology.rcptt"
         version="https://projects.eclipse.org/projects/technology.rcptt/releases/2.8.1"
+        news="https://github.com/eclipse-rcptt/org.eclipse.rcptt/releases/latest"
         releaseDate="2026-04-03"
         rank="1">
       <repository
