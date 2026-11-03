@@ -8,7 +8,7 @@
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
   </repositories>
-  <repositories location="https://download.eclipse.org/modeling/gmp/gmf-notation/updates/releases/R202211151334" description="GMF Notation 1.13.1">
+  <repositories location="https://download.eclipse.org/modeling/gmp/gmf-notation/updates/releases/R202611032007/" description="GMF Notation 1.13.2">
     <features name="org.eclipse.gmf.runtime.notation.sdk.feature.group">
       <categories href="simrel.aggr#//@customCategories[identifier='Modeling']"/>
     </features>
