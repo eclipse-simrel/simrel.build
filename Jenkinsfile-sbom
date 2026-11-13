@@ -84,7 +84,7 @@ pipeline {
     booleanParam(
       name: 'PROMOTE_DEPENDENCY_TRACK',
       defaultValue: false,
-      description: 'Whether to promote the SBOMs to <a href="https://sbom.eclipse.org/projects/e1ac111b-8567-403c-8df7-950588c102e9/collectionprojects">https://sbom.eclipse.org/projects/<a/>.'
+      description: 'Whether to upload the SBOMs via PIA to <a href="https://sbom.eclipse.org">https://sbom.eclipse.org</a>.'
     )
   }
 
@@ -266,44 +266,9 @@ PROMOTE_DEPENDENCY_TRACK=${env.PROMOTE_DEPENDENCY_TRACK}
               }
             }
 
-            withCredentials([
-                string(credentialsId: 'sbom.eclipse.org-api-token', variable: 'SBOM_API_TOKEN')
-              ]) {
-              sh '''
-                if [[ ${PROMOTE_DEPENDENCY_TRACK} == 'true' ]]; then
-                  PREFIX=""
-                else
-                  PREFIX="echo "
-                fi
-                $PREFIX curl -X POST https://sbom.eclipse.org/api/v1/bom \
-                  -H Content-Type:multipart/form-data \
-                  -H X-Api-Key:"${SBOM_API_TOKEN}" \
-                  -F autoCreate=true \
-                  -F projectName=${PARENT}-${LOCATION_TYPE} \
-                  -F projectVersion=${LOCATION_VERSION} \
-                  -F parentName=${PARENT} \
-                  -F bom=@dependency-track-sbom/sbom.xml
-              '''
-              script {
-                for (slice in slices.keySet()) {
-                  env.SLICE= slice
-                  sh '''
-                    if [[ ${PROMOTE_DEPENDENCY_TRACK} == 'true' ]]; then
-                      PREFIX=""
-                    else
-                      PREFIX="echo "
-                    fi
-                    $PREFIX curl -X POST https://sbom.eclipse.org/api/v1/bom \
-                      -H Content-Type:multipart/form-data \
-                      -H X-Api-Key:"${SBOM_API_TOKEN}" \
-                      -F autoCreate=true \
-                      -F projectName=${PARENT}-epp-${SLICE}-${LOCATION_TYPE} \
-                      -F projectVersion=${LOCATION_VERSION} \
-                      -F parentName=${PARENT} \
-                      -F bom=@dependency-track-epp-sbom/${SLICE}-sbom.xml
-                  '''
-                }
-              }
+            uploadSbom(params.PROMOTE_DEPENDENCY_TRACK, "${env.PARENT}-${env.LOCATION_TYPE}", env.LOCATION_VERSION, 'dependency-track-sbom/sbom.json')
+            for (slice in slices.keySet()) {
+              uploadSbom(params.PROMOTE_DEPENDENCY_TRACK, "${env.PARENT}-epp-${slice}-${env.LOCATION_TYPE}", env.LOCATION_VERSION, "dependency-track-epp-sbom/${slice}-sbom.json")
             }
           }
         }
@@ -357,4 +322,31 @@ PROMOTE_DEPENDENCY_TRACK=${env.PROMOTE_DEPENDENCY_TRACK}
 
 def pretty(string) {
   return string.replaceAll("^\r?\n", "").replaceAll("\r?\n\$", "").replace("\r", "").stripIndent()
+}
+
+// See https://csi.eclipse.dev/security-handbook/sbom/howto.html#jenkins
+def uploadSbom(promote, productName, productVersion, sbomPath) {
+  if (!promote) {
+    echo "Skipping upload of ${sbomPath} as ${productName} ${productVersion}"
+    return
+  }
+  withEnv(["PRODUCT_NAME=${productName}", "PRODUCT_VERSION=${productVersion}", "SBOM_PATH=${sbomPath}"]) {
+    withCredentials([
+        string(credentialsId: 'id-token', variable: 'SBOM_ID_TOKEN')
+      ]) {
+      sh '''
+        base64 -w0 "${SBOM_PATH}" > bom.b64
+        jq -n \
+          --arg name "${PRODUCT_NAME}" \
+          --arg version "${PRODUCT_VERSION}" \
+          --rawfile bom bom.b64 \
+          '{product_name: $name, product_version: $version, bom: $bom}' | \
+        curl -sS --fail-with-body \
+          https://pia.eclipse.org/v1/upload/sbom \
+          -H "Authorization: Bearer ${SBOM_ID_TOKEN}" \
+          --json @-
+        rm -f bom.b64
+      '''
+    }
+  }
 }
