@@ -341,6 +341,7 @@
         name="Eclipse ATL"
         site="https://projects.eclipse.org/projects/modeling.atl"
         version="https://projects.eclipse.org/projects/modeling.atl/releases/4.12.0"
+        news="https://github.com/eclipse-atl/atl/releases/latest"
         releaseDate="2025-05-19">
       <repository
           uri="https://github.com/eclipse-atl/atl"/>
@@ -650,7 +651,7 @@
         name="Eclipse GMF Runtime"
         site="https://projects.eclipse.org/projects/modeling.gmf-runtime"
         version="https://projects.eclipse.org/projects/modeling.gmf-runtime/releases/1.16.8"
-        news="https://github.com/eclipse-gmf-runtime/gmf-runtime/releases/latest"
+        news="https://github.com/eclipse-gmf-runtime/gmf-notation/releases/latest"
         releaseDate="2025-12-01"
         rank="3">
       <repository
@@ -904,6 +905,7 @@
         name="Eclipse EclEmma"
         site="https://projects.eclipse.org/projects/technology.eclemma"
         version="https://projects.eclipse.org/projects/technology.eclemma/releases/3.1.11"
+        news="https://github.com/eclipse-eclemma/eclemma/releases/latest"
         releaseDate="2025-11-26">
       <repository
           uri="https://github.com/eclipse-eclemma/eclemma"/>
