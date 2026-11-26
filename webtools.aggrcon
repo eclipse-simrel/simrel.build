@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aggregator:Contribution xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aggregator="http://www.eclipse.org/cbi/p2repo/2011/aggregator/1.1.0" label="Web Tools Platform">
-  <repositories location="https://download.eclipse.org/webtools/downloads/drops/R3.44.0/S-3.44M3-20261117105544/repository/" description="Web Tools Platform 3.44 for 2026-12">
+  <repositories location="https://download.eclipse.org/webtools/downloads/drops/R3.44.0/S-3.44RC1-20261125091307/repository/" description="Web Tools Platform 3.44 for 2026-12">
     <bundles name="org.eclipse.wtp.epp.package.capabilities"/>
     <bundles name="org.eclipse.wtp.epp.package.jee.intro"/>
     <bundles name="org.eclipse.wtp.javascript.capabilities"/>
